@@ -1,0 +1,30 @@
+{
+  "name": "pai-aeronews",
+  "version": "2.0.0",
+  "description": "Automated aviation news aggregator for Performance Aircraft, Inc.",
+  "main": "scripts/fetch-rss.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/fetch-rss.js",
+    "preview": "npx serve dist -p 3000"
+  },
+  "keywords": [
+    "aviation",
+    "news",
+    "aggregator",
+    "aerospace",
+    "rss"
+  ],
+  "author": "Performance Aircraft, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.5.1",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

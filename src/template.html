@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PAI AeroNews</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: transparent;
+      line-height: 1.5;
+    }
+
+    /* Main Container */
+    .newsfeed-section {
+      background: linear-gradient(135deg, #002F69 0%, #001a3d 100%);
+      color: white;
+      padding: 16px;
+      border-radius: 16px;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 47, 105, 0.3);
+    }
+
+    /* Header with title and controls */
+    .newsfeed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 0 8px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .newsfeed-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .newsfeed-title::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #22D3EE;
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    /* Playback Controls */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .control-btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .control-btn:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .control-btn:active {
+      transform: translateY(0);
+    }
+
+    .control-btn.active {
+      background: rgba(34, 211, 238, 0.3);
+      border: 1px solid rgba(34, 211, 238, 0.5);
+    }
+
+    .control-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Speed indicator */
+    .speed-indicator {
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-left: 4px;
+    }
+
+    /* Newsfeed Container */
+    .newsfeed {
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+    }
+
+    .newsfeed-inner {
+      display: flex;
+      min-width: fit-content;
+      animation: scroll-left {{SCROLL_DURATION}}s linear infinite;
+    }
+
+    .newsfeed.paused .newsfeed-inner {
+      animation-play-state: paused;
+    }
+
+    .newsfeed:hover .newsfeed-inner {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* News Card */
+    .news-card {
+      flex: 0 0 auto;
+      width: 300px;
+      margin-right: 16px;
+      background: white;
+      color: #1F2937;
+      border-radius: 16px;
+      padding: 14px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .news-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      border-color: #22D3EE;
+    }
+
+    /* Card Header */
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .category-badge {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 12px;
+      color: white;
+    }
+
+    .news-card .date {
+      color: #9CA3AF;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+
+    .news-card .headline {
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #111827;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .news-card .blurb {
+      font-size: 0.8rem;
+      color: #4B5563;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .news-card .takeaway {
+      font-size: 0.8rem;
+      color: #002F69;
+      font-style: italic;
+      line-height: 1.45;
+      padding: 8px 10px;
+      background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+      border-radius: 8px;
+      border-left: 3px solid #002F69;
+    }
+
+    .news-card .source-link {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      color: #6B7280;
+      margin-top: auto;
+    }
+
+    .news-card .source-link a {
+      color: #3B82F6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .news-card .source-link a:hover {
+      color: #2563EB;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .newsfeed-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 8px 0;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.5);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .source-summary {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .footer-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .footer-link {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      transition: color 0.2s;
+      font-size: 0.7rem;
+    }
+
+    .footer-link:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Keyboard hint */
+    .keyboard-hint {
+      font-size: 0.65rem;
+      color: rgba(255, 255, 255, 0.4);
+      margin-top: 4px;
+    }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background: white;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 24px;
+      position: relative;
+      animation: slideUp 0.3s ease;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: #F3F4F6;
+      border: none;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      font-size: 1.2rem;
+      color: #6B7280;
+    }
+
+    .modal-close:hover {
+      background: #E5E7EB;
+      color: #374151;
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-right: 40px;
+    }
+
+    .modal-category {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 12px;
+      color: white;
+    }
+
+    .modal-date {
+      font-size: 0.8rem;
+      color: #6B7280;
+    }
+
+    .modal-headline {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+
+    .modal-takeaway {
+      font-size: 1rem;
+      color: #002F69;
+      font-style: italic;
+      line-height: 1.5;
+      padding: 16px;
+      background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+      border-radius: 12px;
+      border-left: 4px solid #002F69;
+      margin-bottom: 16px;
+    }
+
+    .modal-blurb {
+      font-size: 1rem;
+      color: #374151;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .modal-source-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #002F69;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .modal-source-link:hover {
+      background: #001a3d;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 47, 105, 0.3);
+    }
+
+    .modal-source-link svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .newsfeed-section {
+        padding: 12px;
+        border-radius: 12px;
+      }
+
+      .newsfeed-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .news-card {
+        width: 260px;
+        padding: 12px 14px;
+      }
+
+      .controls {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .modal-content {
+        padding: 20px;
+      }
+
+      .modal-headline {
+        font-size: 1.25rem;
+      }
+
+      .keyboard-hint {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="newsfeed-section">
+    <div class="newsfeed-header">
+      <h1 class="newsfeed-title">PAI AeroNews</h1>
+      <div class="controls">
+        <button class="control-btn" id="playPauseBtn" onclick="togglePlayPause()" title="Play/Pause (Space)">
+          <svg id="pauseIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="6" y="4" width="4" height="16"></rect>
+            <rect x="14" y="4" width="4" height="16"></rect>
+          </svg>
+          <svg id="playIcon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          <span id="playPauseText">Pause</span>
+        </button>
+        <button class="control-btn" id="slowBtn" onclick="setSpeed('slow')" title="Slow (Left Arrow)">
+          Slow
+        </button>
+        <button class="control-btn active" id="normalBtn" onclick="setSpeed('normal')" title="Normal Speed">
+          Normal
+        </button>
+        <button class="control-btn" id="fastBtn" onclick="setSpeed('fast')" title="Fast (Right Arrow)">
+          Fast
+        </button>
+      </div>
+    </div>
+
+    <div class="newsfeed" id="newsfeed">
+      <div class="newsfeed-inner" id="newsfeed-inner">
+        {{NEWS_CARDS}}
+      </div>
+    </div>
+
+    <div class="newsfeed-footer">
+      <div class="source-summary">
+        {{SOURCE_SUMMARY}} | Updated: {{LAST_UPDATED}}
+      </div>
+      <div class="footer-actions">
+        <span class="keyboard-hint">Space: pause | Arrows: speed</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for expanded article view -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <div class="modal-header">
+        <span class="modal-category" id="modalCategory">Category</span>
+        <span class="modal-date" id="modalDate">Date</span>
+      </div>
+      <h2 class="modal-headline" id="modalHeadline">Headline</h2>
+      <div class="modal-takeaway" id="modalTakeaway">Takeaway</div>
+      <p class="modal-blurb" id="modalBlurb">Description</p>
+      <a class="modal-source-link" id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer">
+        See <span id="modalSourceName">Source</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // State
+    let isPaused = false;
+    let currentSpeed = 'normal';
+    const speeds = {
+      slow: {{SCROLL_DURATION}} * 2,
+      normal: {{SCROLL_DURATION}},
+      fast: {{SCROLL_DURATION}} / 2
+    };
+
+    // Category colors for modal
+    const categoryColors = {
+      'general-aviation': '#10B981',
+      'commercial': '#3B82F6',
+      'business-aviation': '#8B5CF6',
+      'industry': '#F59E0B',
+      'aerospace': '#EC4899',
+      'evtol': '#06B6D4',
+      'drones': '#84CC16',
+      'electric': '#22D3EE',
+      'regulatory': '#EF4444',
+      'safety': '#DC2626',
+      'military': '#6B7280',
+      'corporate': '#A855F7',
+      'international': '#14B8A6'
+    };
+
+    const categoryLabels = {
+      'general-aviation': 'General Aviation',
+      'commercial': 'Commercial',
+      'business-aviation': 'Business Aviation',
+      'industry': 'Industry',
+      'aerospace': 'Aerospace',
+      'evtol': 'eVTOL',
+      'drones': 'Drones',
+      'electric': 'Electric',
+      'regulatory': 'Regulatory',
+      'safety': 'Safety',
+      'military': 'Military',
+      'corporate': 'Corporate',
+      'international': 'International'
+    };
+
+    // Toggle play/pause
+    function togglePlayPause() {
+      const newsfeed = document.getElementById('newsfeed');
+      const pauseIcon = document.getElementById('pauseIcon');
+      const playIcon = document.getElementById('playIcon');
+      const playPauseText = document.getElementById('playPauseText');
+
+      isPaused = !isPaused;
+
+      if (isPaused) {
+        newsfeed.classList.add('paused');
+        pauseIcon.style.display = 'none';
+        playIcon.style.display = 'block';
+        playPauseText.textContent = 'Play';
+      } else {
+        newsfeed.classList.remove('paused');
+        pauseIcon.style.display = 'block';
+        playIcon.style.display = 'none';
+        playPauseText.textContent = 'Pause';
+      }
+    }
+
+    // Set scroll speed
+    function setSpeed(speed) {
+      currentSpeed = speed;
+      const inner = document.getElementById('newsfeed-inner');
+      inner.style.animationDuration = speeds[speed] + 's';
+
+      // Update button states
+      document.getElementById('slowBtn').classList.remove('active');
+      document.getElementById('normalBtn').classList.remove('active');
+      document.getElementById('fastBtn').classList.remove('active');
+      document.getElementById(speed + 'Btn').classList.add('active');
+    }
+
+    // Open modal with article details
+    function openModal(card) {
+      const overlay = document.getElementById('modalOverlay');
+      const category = card.dataset.category;
+
+      document.getElementById('modalCategory').textContent = categoryLabels[category] || 'News';
+      document.getElementById('modalCategory').style.backgroundColor = categoryColors[category] || '#6B7280';
+      document.getElementById('modalDate').textContent = card.dataset.date;
+      document.getElementById('modalHeadline').textContent = card.dataset.headline;
+      document.getElementById('modalTakeaway').textContent = card.dataset.takeaway;
+      document.getElementById('modalBlurb').textContent = card.dataset.blurb || 'No additional details available.';
+      document.getElementById('modalSourceName').textContent = card.dataset.sourceName;
+      document.getElementById('modalSourceLink').href = card.dataset.sourceUrl;
+
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      // Pause scrolling when modal is open
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.add('paused');
+      }
+    }
+
+    // Close modal
+    function closeModal(event) {
+      if (event && event.target !== document.getElementById('modalOverlay')) {
+        return;
+      }
+      const overlay = document.getElementById('modalOverlay');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+
+      // Resume scrolling if it wasn't paused before
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.remove('paused');
+      }
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      // Don't trigger if modal is open and pressing other keys
+      const modalOpen = document.getElementById('modalOverlay').classList.contains('active');
+
+      if (e.key === 'Escape' && modalOpen) {
+        closeModal();
+        return;
+      }
+
+      if (modalOpen) return;
+
+      switch(e.key) {
+        case ' ':
+          e.preventDefault();
+          togglePlayPause();
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (currentSpeed === 'fast') setSpeed('normal');
+          else if (currentSpeed === 'normal') setSpeed('slow');
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          if (currentSpeed === 'slow') setSpeed('normal');
+          else if (currentSpeed === 'normal') setSpeed('fast');
+          break;
+      }
+    });
+
+    // Close modal on outside click
+    document.getElementById('modalOverlay').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+  </script>
+
+</body>
+</html>

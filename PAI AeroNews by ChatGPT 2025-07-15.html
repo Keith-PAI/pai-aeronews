@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PAI AeroNews</title>
+  <style>
+    .newsfeed-section {
+      background: #002F69; /* PAI Blue */
+      color: white;
+      padding: 16px;
+	  border-radius: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .newsfeed-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+      padding: 0 10px;
+      text-align: left;
+    }
+
+    .newsfeed {
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .newsfeed::after {
+      content: '';
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+    .newsfeed-inner {
+      display: flex;
+      min-width: fit-content;
+      animation: scroll-left 30s linear infinite;
+    }
+
+    .newsfeed:hover .newsfeed-inner {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .news-card {
+      flex: 0 0 auto;
+      width: 300px;
+      margin-right: 16px;
+      background: white;
+      color: black;
+      border-radius: 20px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .news-card p {
+      margin: 4px 0;
+      font-size: 0.875rem;
+    }
+
+    .news-card .date {
+      color: #6b7280;
+    }
+
+    .news-card .headline {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .news-card .blurb {
+      color: #002F69;
+    }
+
+    .news-card .takeaway {
+      color: #002F69;
+      font-style: italic;
+    }
+
+    .news-card a {
+      color: #3b82f6;
+      text-decoration: underline;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="newsfeed-section">
+    <p class="newsfeed-title">PAI AeroNews</p>
+    <div class="newsfeed">
+      <div class="newsfeed-inner" id="newsfeed-inner">
+        <!-- News cards will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const newsData = [
+      {
+        date: "2025-07-15",
+        headline: "Air India Crash Prompts Boeing Inspections",
+        blurb: "India, South Korea order Boeing fuel switch inspections after Air India crash, raising aircraft safety concerns.",
+        source: "https://www.nytimes.com",
+        takeaway: "Safety inspections highlight need for rigorous Boeing maintenance."
+      },
+      {
+        date: "2025-07-15",
+        headline: "Joby Aviation Expands for Air Taxi Launch",
+        blurb: "Joby Aviation doubles eVTOL pilot training capacity, advancing air taxi services for urban mobility.",
+        source: "https://techcrunch.com",
+        takeaway: "eVTOL expansion signals progress in urban air transport."
+      },
+      {
+        date: "2025-07-15",
+        headline: "Global Crossing Airlines Grows Its Fleet",
+        blurb: "Global Crossing acquires one aircraft, leases four A319s, signaling airline industry growth.",
+        source: "https://airlinegeeks.com",
+        takeaway: "Fleet growth reflects rising aviation market demand."
+      },
+      {
+        date: "2025-07-15",
+        headline: "Delta A321 Incident at Nashville Airport",
+        blurb: "Delta A321 aborts takeoff in Nashville to avoid collision, highlighting air traffic control importance.",
+        source: "https://aviationa2z.com",
+        takeaway: "Incident underscores need for vigilant safety protocols."
+      },
+      {
+        date: "2025-07-15",
+        headline: "Airbus and Boeing See Supply Chain Improvements",
+        blurb: "Airbus, Boeing report better supply chains, aiding freighter deliveries for cargo sector growth.",
+        source: "https://acumen.aero",
+        takeaway: "Improved supply chains boost cargo industry efficiency."
+      }
+    ];
+
+    const newsfeedInner = document.getElementById('newsfeed-inner');
+    const doubledNews = [...newsData, ...newsData]; // For looping
+
+    newsfeedInner.innerHTML = doubledNews.map(item => `
+      <div class="news-card">
+        <p class="date">${item.date}</p>
+        <h2 class="headline">${item.headline}</h2>
+        <p class="blurb">${item.blurb}</p>
+        <p class="takeaway">${item.takeaway}</p>
+        <a href="${item.source}" target="_blank">Read more</a>
+      </div>
+    `).join('');
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+# PAI AeroNews Setup Guide
+## Gmail + Google Apps Script Approach
+
+**Last Updated:** February 4, 2026
+**Status:** Ready to implement when you return
+
+---
+
+## Project Overview
+
+PAI AeroNews will automatically aggregate your aerospace newsletter emails and display them in a scrolling news ticker on your Squarespace website.
+
+**Architecture:**
+```
+Your Outlook → Auto-forward → Gmail
+                                ↓
+                    Google Apps Script (hourly)
+                                ↓
+                         Google Sheet
+                                ↓
+                    GitHub Action (fetches data)
+                                ↓
+                    GitHub Pages (serves HTML)
+                                ↓
+                    Squarespace iframe
+```
+
+---
+
+## Your Newsletters (8 sources)
+
+| Newsletter | Sender Domain |
+|------------|---------------|
+| Curt Lewis Aviation Maintenance & Technology Exchange | curtlewis.com |
+| Curt Lewis Flight Safety Information | fsinfo.org |
+| AVwebflash | avweb.com |
+| Aviation International News | ainonline.com |
+| Airline Industry Report SmartBrief | smartbrief.com |
+| LinkedIn News | linkedin.com |
+| Space Media Network | spacemedianetwork.com |
+| AeroInside | aeroinside.com |
+
+---
+
+## What You Need To Do (15-20 minutes)
+
+### Step 1: Create Gmail Account (5 min)
+
+1. Go to https://accounts.google.com/signup
+2. Create account: `paiaero.news@gmail.com` (or similar)
+3. Complete phone verification
+4. Skip optional profile setup
+5. **Write down the password** - you'll need it for Apps Script setup
+
+### Step 2: Set Up Outlook Forwarding Rules (10 min)
+
+In Outlook (web or desktop):
+1. Go to Settings → Mail → Rules
+2. Click "Add new rule"
+3. Create these 8 rules:
+
+| Rule Name | Condition | Action |
+|-----------|-----------|--------|
+| Forward Curt Lewis | From contains: `curtlewis` | Forward to: `paiaero.news@gmail.com` |
+| Forward fsinfo | From contains: `fsinfo.org` | Forward to: `paiaero.news@gmail.com` |
+| Forward AVweb | From contains: `avweb.com` | Forward to: `paiaero.news@gmail.com` |
+| Forward AIN | From contains: `ainonline.com` | Forward to: `paiaero.news@gmail.com` |
+| Forward SmartBrief | From contains: `smartbrief.com` | Forward to: `paiaero.news@gmail.com` |
+| Forward LinkedIn | From contains: `linkedin.com` | Forward to: `paiaero.news@gmail.com` |
+| Forward Space Media | From contains: `spacemedianetwork` | Forward to: `paiaero.news@gmail.com` |
+| Forward AeroInside | From contains: `aeroinside.com` | Forward to: `paiaero.news@gmail.com` |
+
+### Step 3: Create Gmail Label & Filter (5 min)
+
+1. Log into your new Gmail (`paiaero.news@gmail.com`)
+2. Click the gear icon → "See all settings"
+3. Go to "Labels" tab → "Create new label"
+4. Name it: `AeroNews`
+5. Go to "Filters and Blocked Addresses" tab
+6. Click "Create a new filter"
+7. In "From" field, enter:
+   ```
+   curtlewis OR avweb OR ainonline OR smartbrief OR linkedin OR spacemedianetwork OR aeroinside OR fsinfo
+   ```
+8. Click "Create filter"
+9. Check: "Apply the label: AeroNews"
+10. Check: "Also apply filter to matching conversations"
+11. Click "Create filter"
+
+---
+
+## What Claude Will Do (When You Return)
+
+Once you've completed the above steps, Claude will:
+
+1. **Create the Google Apps Script** - Newsletter-specific email parsing
+2. **Update fetch-news.js** - Read from Google Sheet instead of NewsAPI
+3. **Update GitHub workflow** - Remove API key requirements
+4. **Update documentation** - Reflect new architecture
+
+---
+
+## When You Return (Checklist)
+
+When you're back on Friday 2/6/26 (or later):
+
+- [ ] Confirm Gmail account created
+- [ ] Confirm Outlook forwarding rules set up
+- [ ] Confirm Gmail label "AeroNews" created
+- [ ] Confirm Gmail filter created
+- [ ] Test: Forward a newsletter manually, check it appears in Gmail with label
+- [ ] Tell Claude "Let's continue with PAI AeroNews setup"
+
+---
+
+## Files Already Created
+
+The project structure exists at `/home/keith-pai/dev/apps/pai-aeronews/`:
+
+```
+pai-aeronews/
+├── .github/workflows/update-news.yml  # Needs update for Google Sheet
+├── scripts/fetch-news.js              # Needs update for Google Sheet
+├── src/template.html                  # ✅ Ready (PAI styling)
+├── dist/index.html                    # ✅ Demo data (will be replaced)
+├── CLAUDE.md                          # ✅ Documentation (needs update)
+├── README.md                          # ✅ Setup guide
+├── package.json                       # ✅ Dependencies
+└── SETUP_GUIDE.md                     # ✅ This file
+```
+
+---
+
+## Future Option: Power Automate
+
+If you later want to try Microsoft Power Automate instead:
+- No email forwarding needed (works directly with Outlook)
+- Instant updates (vs hourly with Gmail)
+- 750 runs/month free (sufficient for 8 newsletters)
+- Can be set up as v2 after Gmail version is working
+
+---
+
+## Contact
+
+Project: PAI AeroNews for Performance Aircraft, Inc.
+Purpose: Automated aviation news aggregation for Squarespace website
+
+---
+
+*This guide was generated by Claude on 2026-02-04. The full implementation plan is in `/home/keith-pai/.claude/plans/luminous-riding-harp.md`*

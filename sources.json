@@ -1,0 +1,81 @@
+{
+  "feeds": [
+    {
+      "name": "AVweb",
+      "url": "https://www.avweb.com/feed/",
+      "category": "general-aviation",
+      "enabled": true
+    },
+    {
+      "name": "Simple Flying",
+      "url": "https://simpleflying.com/feed/",
+      "category": "commercial",
+      "enabled": true
+    },
+    {
+      "name": "Aviation Week",
+      "url": "https://aviationweek.com/awn-rss/feed",
+      "category": "industry",
+      "enabled": true
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "category": "aerospace",
+      "enabled": true
+    },
+    {
+      "name": "SpaceNews",
+      "url": "https://spacenews.com/feed/",
+      "category": "aerospace",
+      "enabled": true
+    },
+    {
+      "name": "DroneDJ",
+      "url": "https://dronedj.com/feed/",
+      "category": "drones",
+      "enabled": true
+    },
+    {
+      "name": "Electrek Aviation",
+      "url": "https://electrek.co/guides/aviation/feed/",
+      "category": "electric",
+      "enabled": true
+    },
+    {
+      "name": "sUAS News",
+      "url": "https://www.suasnews.com/feed/",
+      "category": "drones",
+      "enabled": true
+    },
+    {
+      "name": "The Aviationist",
+      "url": "https://theaviationist.com/feed/",
+      "category": "military",
+      "enabled": true
+    },
+    {
+      "name": "Aviation Today",
+      "url": "https://www.aviationtoday.com/feed/",
+      "category": "industry",
+      "enabled": true
+    },
+    {
+      "name": "Runway Girl Network",
+      "url": "https://runwaygirlnetwork.com/feed/",
+      "category": "commercial",
+      "enabled": true
+    },
+    {
+      "name": "Vertical Magazine",
+      "url": "https://verticalmag.com/feed/",
+      "category": "general-aviation",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "maxArticlesInTicker": 36,
+    "archivePolicy": "keep-forever",
+    "articlesPerFeed": 5
+  }
+}
