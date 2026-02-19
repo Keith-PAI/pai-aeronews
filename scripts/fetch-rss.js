@@ -185,21 +185,55 @@ function generateId(title, url) {
 }
 
 /**
- * Clean headline text
+ * Decode HTML entities (both named and numeric)
  */
-function cleanHeadline(title) {
-  if (!title) return 'Aviation News';
-  // Remove source suffix like " - CNN" or " | Reuters"
-  return title
-    .replace(/\s*[-|]\s*[^-|]+$/, '')
-    .replace(/<[^>]*>/g, '') // Remove HTML tags
+function decodeHtmlEntities(text) {
+  if (!text) return '';
+  return text
+    // Decode numeric entities like &#8216; &#8217; &#124;
+    .replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))
+    // Decode hex entities like &#x2019;
+    .replace(/&#x([0-9a-fA-F]+);/g, (match, hex) => String.fromCharCode(parseInt(hex, 16)))
+    // Decode common named entities
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
-    .trim();
+    .replace(/&mdash;/g, '\u2014')
+    .replace(/&ndash;/g, '\u2013')
+    .replace(/&hellip;/g, '...')
+    .replace(/&lsquo;/g, '\u2018')
+    .replace(/&rsquo;/g, '\u2019')
+    .replace(/&ldquo;/g, '\u201C')
+    .replace(/&rdquo;/g, '\u201D');
+}
+
+/**
+ * Clean headline text
+ */
+function cleanHeadline(title) {
+  if (!title) return 'Aviation News';
+
+  let cleaned = title;
+
+  // Remove HTML tags first
+  cleaned = cleaned.replace(/<[^>]*>/g, '');
+
+  // Decode HTML entities
+  cleaned = decodeHtmlEntities(cleaned);
+
+  // Remove source suffix like " - CNN" or " | Reuters"
+  // Only if the suffix looks like a source name (short, at end, after space-dash-space)
+  // Be careful not to remove things like "F-35" or "737-800"
+  cleaned = cleaned.replace(/\s+[-–—|]\s+[A-Z][A-Za-z\s]{2,20}$/, '');
+
+  // Normalize whitespace and trim
+  cleaned = cleaned.replace(/\s+/g, ' ').trim();
+
+  return cleaned;
 }
 
 /**
@@ -207,17 +241,24 @@ function cleanHeadline(title) {
  */
 function cleanDescription(description) {
   if (!description) return '';
-  return description
-    .replace(/<[^>]*>/g, '') // Remove HTML tags
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, ' ')
-    .replace(/\s+/g, ' ') // Normalize whitespace
-    .trim()
-    .substring(0, 300); // Limit length
+
+  let cleaned = description;
+
+  // Remove HTML tags
+  cleaned = cleaned.replace(/<[^>]*>/g, '');
+
+  // Decode HTML entities
+  cleaned = decodeHtmlEntities(cleaned);
+
+  // Normalize whitespace and trim
+  cleaned = cleaned.replace(/\s+/g, ' ').trim();
+
+  // Limit length
+  if (cleaned.length > 300) {
+    cleaned = cleaned.substring(0, 297) + '...';
+  }
+
+  return cleaned;
 }
 
 /**
