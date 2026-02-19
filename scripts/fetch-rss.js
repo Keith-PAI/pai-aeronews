@@ -502,10 +502,10 @@ async function generateHTML(articles, sources) {
   const sourcesCount = sources.feeds.filter(f => f.enabled).length;
   const sourceSummary = `${articles.length} articles from ${sourcesCount} sources`;
 
-  // Replace template placeholders
+  // Replace template placeholders (use regex with /g flag to replace ALL occurrences)
   const html = template
     .replace('{{NEWS_CARDS}}', duplicatedCards)
-    .replace('{{SCROLL_DURATION}}', String(scrollDuration))
+    .replace(/\{\{SCROLL_DURATION\}\}/g, String(scrollDuration))
     .replace('{{LAST_UPDATED}}', timestamp)
     .replace('{{SOURCE_SUMMARY}}', sourceSummary)
     .replace('{{ARTICLE_COUNT}}', String(articles.length));
