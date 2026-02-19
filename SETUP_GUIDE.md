@@ -143,7 +143,7 @@ If you later want to try Microsoft Power Automate instead:
 
 ## Contact
 
-Project: PAI AeroNews for Performance Aircraft, Inc.
+Project: PAI AeroNews for PAI Consulting
 Purpose: Automated aviation news aggregation for Squarespace website
 
 ---
