@@ -80,7 +80,7 @@
   },
   "webhooks": {
     "enabled": true,
-    "mode": "daily",
+    "mode": "every",
     "dailyDigestHourUTC": 11,
     "maxArticlesInDigest": 10,
     "teams": {
