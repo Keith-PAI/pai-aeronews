@@ -22,6 +22,8 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const CONFIG = {
   googleAiApiKey: process.env.GOOGLE_AI_API_KEY,
+  teamsWebhookUrl: process.env.TEAMS_WEBHOOK_URL,
+  slackWebhookUrl: process.env.SLACK_WEBHOOK_URL,
   outputDir: path.join(__dirname, '..', 'dist'),
   templatePath: path.join(__dirname, '..', 'src', 'template.html'),
   sourcesPath: path.join(__dirname, '..', 'sources.json'),
@@ -548,6 +550,229 @@ function writeOutput(html, articles) {
 }
 
 /**
+ * Check if it's time to send the daily digest
+ */
+function isDailyDigestTime(webhookConfig) {
+  const now = new Date();
+  const digestHour = webhookConfig.dailyDigestHourUTC ?? 11;
+  return now.getUTCHours() === digestHour;
+}
+
+/**
+ * Build a Teams Adaptive Card payload for a daily digest
+ */
+function buildTeamsDigest(articles, maxArticles) {
+  const topArticles = articles.slice(0, maxArticles);
+  const today = new Date().toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  const articleRows = topArticles.map(article => {
+    const categoryInfo = CATEGORY_INFO[article.category] || { label: 'News' };
+    return {
+      type: 'Container',
+      separator: true,
+      spacing: 'medium',
+      items: [
+        {
+          type: 'TextBlock',
+          text: `**[${article.headline}](${article.source.url})**`,
+          wrap: true,
+          size: 'default',
+        },
+        {
+          type: 'ColumnSet',
+          columns: [
+            {
+              type: 'Column',
+              width: 'auto',
+              items: [{
+                type: 'TextBlock',
+                text: categoryInfo.label,
+                size: 'small',
+                color: 'accent',
+                weight: 'bolder',
+              }],
+            },
+            {
+              type: 'Column',
+              width: 'auto',
+              items: [{
+                type: 'TextBlock',
+                text: `— ${article.source.name}`,
+                size: 'small',
+                isSubtle: true,
+              }],
+            },
+          ],
+        },
+        ...(article.takeaway ? [{
+          type: 'TextBlock',
+          text: `_${article.takeaway}_`,
+          wrap: true,
+          size: 'small',
+          isSubtle: true,
+        }] : []),
+      ],
+    };
+  });
+
+  return {
+    type: 'message',
+    attachments: [{
+      contentType: 'application/vnd.microsoft.card.adaptive',
+      content: {
+        $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
+        type: 'AdaptiveCard',
+        version: '1.4',
+        body: [
+          {
+            type: 'TextBlock',
+            text: '✈️ PAI AeroNews Daily Digest',
+            size: 'large',
+            weight: 'bolder',
+            color: 'accent',
+          },
+          {
+            type: 'TextBlock',
+            text: today,
+            size: 'small',
+            isSubtle: true,
+            spacing: 'none',
+          },
+          {
+            type: 'TextBlock',
+            text: `Top ${topArticles.length} headlines from ${articles.length} total articles`,
+            size: 'small',
+            isSubtle: true,
+          },
+          ...articleRows,
+        ],
+      },
+    }],
+  };
+}
+
+/**
+ * Build a Slack Block Kit payload for a daily digest
+ */
+function buildSlackDigest(articles, maxArticles) {
+  const topArticles = articles.slice(0, maxArticles);
+  const today = new Date().toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  const articleBlocks = topArticles.flatMap(article => {
+    const categoryInfo = CATEGORY_INFO[article.category] || { label: 'News' };
+    const takeawayText = article.takeaway ? `\n_${article.takeaway}_` : '';
+    return [
+      { type: 'divider' },
+      {
+        type: 'section',
+        text: {
+          type: 'mrkdwn',
+          text: `*<${article.source.url}|${article.headline}>*\n`
+            + `${categoryInfo.label} — ${article.source.name}`
+            + takeawayText,
+        },
+      },
+    ];
+  });
+
+  return {
+    blocks: [
+      {
+        type: 'header',
+        text: {
+          type: 'plain_text',
+          text: '✈️ PAI AeroNews Daily Digest',
+        },
+      },
+      {
+        type: 'context',
+        elements: [{
+          type: 'mrkdwn',
+          text: `${today} · Top ${topArticles.length} of ${articles.length} articles`,
+        }],
+      },
+      ...articleBlocks,
+      { type: 'divider' },
+      {
+        type: 'context',
+        elements: [{
+          type: 'mrkdwn',
+          text: 'Powered by <https://www.paiconsulting.com|PAI Consulting> AeroNews',
+        }],
+      },
+    ],
+  };
+}
+
+/**
+ * Send webhook notifications
+ */
+async function sendWebhookNotifications(articles, webhookConfig) {
+  if (!webhookConfig?.enabled) return;
+
+  const mode = webhookConfig.mode || 'daily';
+  const maxArticles = webhookConfig.maxArticlesInDigest || 10;
+
+  // Daily mode: only send at the configured hour
+  if (mode === 'daily' && !isDailyDigestTime(webhookConfig)) {
+    console.log('Webhooks: Not digest hour, skipping.');
+    return;
+  }
+
+  console.log(`\nSending ${mode} webhook notifications...`);
+
+  // Teams
+  if (webhookConfig.teams?.enabled && CONFIG.teamsWebhookUrl) {
+    try {
+      const payload = buildTeamsDigest(articles, maxArticles);
+      const response = await fetch(CONFIG.teamsWebhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (response.ok) {
+        console.log('  ✓ Teams notification sent');
+      } else {
+        console.warn(`  ✗ Teams webhook failed: HTTP ${response.status}`);
+      }
+    } catch (error) {
+      console.warn(`  ✗ Teams webhook error: ${error.message}`);
+    }
+  }
+
+  // Slack
+  if (webhookConfig.slack?.enabled && CONFIG.slackWebhookUrl) {
+    try {
+      const payload = buildSlackDigest(articles, maxArticles);
+      const response = await fetch(CONFIG.slackWebhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (response.ok) {
+        console.log('  ✓ Slack notification sent');
+      } else {
+        console.warn(`  ✗ Slack webhook failed: HTTP ${response.status}`);
+      }
+    } catch (error) {
+      console.warn(`  ✗ Slack webhook error: ${error.message}`);
+    }
+  }
+}
+
+/**
  * Main execution
  */
 async function main() {
@@ -633,6 +858,9 @@ async function main() {
 
     // Write output files
     writeOutput(html, processedArticles);
+
+    // Send webhook notifications (daily digest or every update)
+    await sendWebhookNotifications(processedArticles, sources.webhooks);
 
     console.log('');
     console.log('='.repeat(50));
