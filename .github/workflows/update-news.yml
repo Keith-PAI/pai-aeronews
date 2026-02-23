@@ -145,6 +145,32 @@ jobs:
           git diff --staged --quiet || git commit -m "Update analyst usage counters [skip ci]"
           git push origin gh-pages
 
+  # Analyst Mode — daily SMS digest to dedicated Teams channel
+  analyst-digest:
+    needs: update-news
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run analyst mode
+        env:
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          ANALYST_TEAMS_WEBHOOK_URL: ${{ secrets.ANALYST_TEAMS_WEBHOOK_URL }}
+        run: node scripts/analyst-mode.js
+
   # Deploy to GitHub Pages
   deploy:
     needs: update-news
