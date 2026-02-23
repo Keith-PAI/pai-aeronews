@@ -114,7 +114,7 @@ Description: ${article.blurb || 'No description available'}`;
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -344,8 +344,8 @@ async function main() {
     await postToTeams(webhookUrl, payload);
     console.log('✓ Analyst digest posted to Teams successfully.');
   } catch (error) {
-    console.error(`✗ Failed to post to Teams: ${error.message}`);
-    process.exit(1);
+    console.warn(`✗ Failed to post to Teams: ${error.message}`);
+    console.warn('Teams delivery failed — check webhook URL/secret. Exiting gracefully.');
   }
 
   console.log('\n' + '='.repeat(40));
