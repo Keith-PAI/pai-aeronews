@@ -92,11 +92,40 @@ function filterByKeywords(articles, keywords) {
 }
 
 /**
+ * Extract text from a Gemini response, handling multiple response shapes defensively.
+ * Supports: candidates[].content.parts[].text, output_text, and error messages.
+ */
+function extractGeminiText(data) {
+  // Standard shape: candidates[0].content.parts[].text
+  const parts = data.candidates?.[0]?.content?.parts;
+  if (Array.isArray(parts)) {
+    const joined = parts.map(p => p.text).filter(Boolean).join('\n');
+    if (joined) return joined.trim();
+  }
+
+  // Alternative: top-level output_text (some model versions)
+  if (typeof data.output_text === 'string' && data.output_text) {
+    return data.output_text.trim();
+  }
+
+  // Alternative: single candidate text shorthand
+  const candidateText = data.candidates?.[0]?.text;
+  if (typeof candidateText === 'string' && candidateText) {
+    return candidateText.trim();
+  }
+
+  return null;
+}
+
+/**
  * Generate an analyst brief for one article via Gemini
  */
 async function generateAnalystBrief(article, config) {
   const apiKey = process.env.GOOGLE_AI_API_KEY;
   if (!apiKey) return null;
+
+  const modelUrl =
+    'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
   const prompt = `You are an aviation safety management system (SMS) analyst.
 Given this article, provide a brief in this exact format:
@@ -114,7 +143,7 @@ Description: ${article.blurb || 'No description available'}`;
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      `${modelUrl}?key=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -129,14 +158,34 @@ Description: ${article.blurb || 'No description available'}`;
       }
     );
 
-    const data = await response.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (text) return text.trim();
+    if (!response.ok) {
+      let bodySnippet = '';
+      try {
+        const raw = await response.text();
+        bodySnippet = raw.substring(0, 500);
+      } catch { /* ignore read errors */ }
+      console.warn(`  Gemini HTTP ${response.status} for "${article.headline}"`);
+      console.warn(`  Model URL: ${modelUrl}`);
+      console.warn(`  GOOGLE_AI_API_KEY: ${apiKey ? 'present' : 'missing'}`);
+      console.warn(`  Response body: ${bodySnippet || '(empty)'}`);
+      return null;
+    }
 
-    console.warn(`  No Gemini output for "${article.headline}"`);
+    const data = await response.json();
+    const text = extractGeminiText(data);
+    if (text) return text;
+
+    // Gemini returned 200 but no usable text — log details
+    const dataSnippet = JSON.stringify(data).substring(0, 500);
+    console.warn(`  No usable Gemini text for "${article.headline}"`);
+    console.warn(`  Model URL: ${modelUrl}`);
+    console.warn(`  GOOGLE_AI_API_KEY: present`);
+    console.warn(`  Parsed response: ${dataSnippet}`);
     return null;
   } catch (error) {
     console.warn(`  Gemini call failed for "${article.headline}": ${error.message}`);
+    console.warn(`  Model URL: ${modelUrl}`);
+    console.warn(`  GOOGLE_AI_API_KEY: ${process.env.GOOGLE_AI_API_KEY ? 'present' : 'missing'}`);
     return null;
   }
 }
