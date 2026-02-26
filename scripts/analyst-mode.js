@@ -142,6 +142,7 @@ Keep total output under 150 words.
 Headline: ${article.headline}
 Description: ${article.blurb || 'No description available'}`;
 
+  let counted = false;
   try {
     const response = await fetch(
       `${modelUrl}?key=${apiKey}`,
@@ -159,8 +160,9 @@ Description: ${article.blurb || 'No description available'}`;
       }
     );
 
-    // Record the call regardless of outcome (it consumed quota)
+    // Record exactly once — the HTTP request consumed quota
     recordGeminiCalls(1);
+    counted = true;
 
     if (!response.ok) {
       let bodySnippet = '';
@@ -187,7 +189,7 @@ Description: ${article.blurb || 'No description available'}`;
     console.warn(`  Parsed response: ${dataSnippet}`);
     return null;
   } catch (error) {
-    recordGeminiCalls(1); // count the attempt even on network failure
+    if (!counted) recordGeminiCalls(1);
     console.warn(`  Gemini call failed for "${article.headline}": ${error.message}`);
     console.warn(`  Model URL: ${modelUrl}`);
     console.warn(`  GOOGLE_AI_API_KEY: ${process.env.GOOGLE_AI_API_KEY ? 'present' : 'missing'}`);
