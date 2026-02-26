@@ -15,6 +15,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { XMLParser } from 'fast-xml-parser';
+import { canSpendGemini, recordGeminiCalls, geminiCallsRemaining } from './usage-limit.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -290,10 +291,26 @@ function extractKeywords(text) {
 }
 
 /**
- * Generate AI takeaway using Google Gemini API
+ * Daily Gemini call cap for the public pipeline.
+ */
+const GEMINI_PUBLIC_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_PUBLIC || '900', 10);
+
+/**
+ * Generate AI takeaway using Google Gemini API.
+ * Enforces a hard daily call cap — falls back gracefully when exceeded.
  */
 async function generateTakeaway(article) {
   if (!CONFIG.googleAiApiKey) {
+    return createFallbackTakeaway(article);
+  }
+
+  // Hard daily cap check
+  if (!canSpendGemini(1, GEMINI_PUBLIC_CAP)) {
+    if (!generateTakeaway._capLogged) {
+      const remaining = geminiCallsRemaining(GEMINI_PUBLIC_CAP);
+      console.warn(`⚠ GEMINI DAILY CAP REACHED (public pipeline cap: ${GEMINI_PUBLIC_CAP}, remaining: ${remaining}). Using fallback takeaways for remaining articles.`);
+      generateTakeaway._capLogged = true;
+    }
     return createFallbackTakeaway(article);
   }
 
@@ -327,12 +344,16 @@ Takeaway:`;
       }
     );
 
+    // Record the call regardless of success (it consumed quota)
+    recordGeminiCalls(1);
+
     const data = await response.json();
 
     if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
       return data.candidates[0].content.parts[0].text.trim();
     }
   } catch (error) {
+    recordGeminiCalls(1); // count the attempt even on network failure
     console.warn(`AI takeaway failed for "${article.headline}":`, error.message);
   }
 

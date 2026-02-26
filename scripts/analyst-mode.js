@@ -16,6 +16,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { canSpendGemini, recordGeminiCalls, geminiCallsRemaining } from './usage-limit.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -158,6 +159,9 @@ Description: ${article.blurb || 'No description available'}`;
       }
     );
 
+    // Record the call regardless of outcome (it consumed quota)
+    recordGeminiCalls(1);
+
     if (!response.ok) {
       let bodySnippet = '';
       try {
@@ -183,6 +187,7 @@ Description: ${article.blurb || 'No description available'}`;
     console.warn(`  Parsed response: ${dataSnippet}`);
     return null;
   } catch (error) {
+    recordGeminiCalls(1); // count the attempt even on network failure
     console.warn(`  Gemini call failed for "${article.headline}": ${error.message}`);
     console.warn(`  Model URL: ${modelUrl}`);
     console.warn(`  GOOGLE_AI_API_KEY: ${process.env.GOOGLE_AI_API_KEY ? 'present' : 'missing'}`);
@@ -362,19 +367,34 @@ async function main() {
   const capped = filtered.slice(0, config.maxArticles || 10);
   console.log(`${capped.length} articles matched keywords (capped from ${filtered.length})`);
 
-  // 6. Check for API key before Gemini calls
+  // 6. Generate analyst briefs (with daily cap enforcement)
+  const ANALYST_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_ANALYST || '100', 10);
+  let capReached = false;
+
   if (!process.env.GOOGLE_AI_API_KEY) {
     console.warn('No GOOGLE_AI_API_KEY set — skipping Gemini analyst briefs.');
-    process.exit(0);
+  } else if (!canSpendGemini(1, ANALYST_CAP)) {
+    const remaining = geminiCallsRemaining(ANALYST_CAP);
+    console.warn(`⚠ GEMINI DAILY CAP REACHED (analyst cap: ${ANALYST_CAP}, remaining: ${remaining}). Skipping analyst briefs.`);
+    capReached = true;
+  } else {
+    console.log(`\nGenerating analyst briefs via Gemini (cap: ${ANALYST_CAP}, remaining: ${geminiCallsRemaining(ANALYST_CAP)})...`);
+    for (const article of capped) {
+      // Re-check cap before each call (public pipeline may have used calls too)
+      if (!canSpendGemini(1, ANALYST_CAP)) {
+        console.warn(`⚠ GEMINI DAILY CAP REACHED mid-loop (analyst cap: ${ANALYST_CAP}). Skipping remaining briefs.`);
+        capReached = true;
+        break;
+      }
+      const brief = await generateAnalystBrief(article, config);
+      article.analystBrief = brief;
+      const status = brief ? '✓' : '✗';
+      console.log(`  ${status} ${article.headline.substring(0, 60)}...`);
+    }
   }
 
-  // Generate analyst briefs
-  console.log('\nGenerating analyst briefs via Gemini...');
-  for (const article of capped) {
-    const brief = await generateAnalystBrief(article, config);
-    article.analystBrief = brief;
-    const status = brief ? '✓' : '✗';
-    console.log(`  ${status} ${article.headline.substring(0, 60)}...`);
+  if (capReached) {
+    console.log('Digest will be posted without AI briefs (cap reached).');
   }
 
   // 7. Check for webhook URL

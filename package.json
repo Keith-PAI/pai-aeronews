@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/fetch-rss.js",
-    "preview": "npx serve dist -p 3000"
+    "preview": "npx serve dist -p 3000",
+    "usage": "node scripts/usage-limit.js",
+    "usage:status": "node scripts/usage-limit.js status",
+    "usage:simulate-cap": "node scripts/usage-limit.js simulate 1000",
+    "usage:reset": "node scripts/usage-limit.js reset"
   },
   "keywords": [
     "aviation",
