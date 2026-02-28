@@ -324,7 +324,9 @@ Description: ${article.blurb || 'No description available'}
 
 Takeaway:`;
 
+  let attempted = false;
   try {
+    attempted = true;
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${CONFIG.googleAiApiKey}`,
       {
@@ -344,17 +346,15 @@ Takeaway:`;
       }
     );
 
-    // Record the call regardless of success (it consumed quota)
-    recordGeminiCalls(1);
-
     const data = await response.json();
 
     if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
       return data.candidates[0].content.parts[0].text.trim();
     }
   } catch (error) {
-    recordGeminiCalls(1); // count the attempt even on network failure
     console.warn(`AI takeaway failed for "${article.headline}":`, error.message);
+  } finally {
+    if (attempted) recordGeminiCalls(1);
   }
 
   return createFallbackTakeaway(article);
