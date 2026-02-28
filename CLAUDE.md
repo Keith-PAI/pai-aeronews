@@ -267,7 +267,7 @@ Close with: X button, click outside, or Escape key
 <iframe
   src="https://YOUR_USERNAME.github.io/pai-aeronews/"
   width="100%"
-  height="220"
+  height="350"
   frameborder="0"
   scrolling="no"
   style="border: none; overflow: hidden;"
@@ -420,3 +420,34 @@ npm run preview
 - GitHub Pages deployment
 - Squarespace iframe embedding
 - PAI branded styling with scrolling animation
+
+---
+
+## Operating Rules
+
+### A) Branching
+- Never commit directly to `main`
+- Use `phase-<N>-<short-name>` branches (e.g., `phase-2-analyst-mode`)
+- Merge via pull requests only
+
+### B) Stability
+- Phase 1 public feed (`fetch-rss.js`, `template.html`, `dist/` output) is frozen unless explicitly stated
+- New modes must not modify the public pipeline or its outputs
+
+### C) Cost / Quota
+- Pre-filter and deduplicate articles before any Gemini API call
+- One Gemini call per article maximum
+- Internal modes (analyst, etc.) run daily, not hourly — use schedule gates in scripts
+- Monitor free-tier limits: 60 requests/minute for Gemini
+
+### D) Secrets
+- Never commit secrets or API keys
+- Read from environment variables or GitHub Secrets only
+- Missing secret = silent skip (exit 0), never fail the workflow
+
+### E) Testing Checklist
+Before merging any Phase 2+ change:
+1. `npm run build` → `dist/index.html` and `dist/news-data.json` generate correctly
+2. Public Teams/Slack digest is unaffected
+3. New mode works end-to-end when secrets are present
+4. New mode skips gracefully when secrets are missing (exit 0, no errors)

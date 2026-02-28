@@ -89,5 +89,22 @@
     "slack": {
       "enabled": true
     }
+  },
+  "modes": {
+    "analyst": {
+      "enabled": true,
+      "schedule": "daily",
+      "dailyHourUTC": 12,
+      "maxArticles": 10,
+      "keywords": [
+        "safety", "incident", "accident", "investigation",
+        "enforcement", "risk", "audit", "SMS", "Part 5",
+        "compliance", "human factors", "runway", "fatigue",
+        "maintenance error"
+      ],
+      "geminiMaxTokens": 300,
+      "geminiTemperature": 0.5,
+      "teamsWebhookEnvVar": "ANALYST_TEAMS_WEBHOOK_URL"
+    }
   }
 }
