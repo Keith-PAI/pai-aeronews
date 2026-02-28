@@ -37,12 +37,17 @@ jobs:
   update-news:
     runs-on: ubuntu-latest
 
-    outputs:
-      new_commit_sha: ${{ steps.set_sha.outputs.new_commit_sha }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Restore dist from gh-pages
+        run: |
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout origin/gh-pages -- dist/ 2>/dev/null || echo "No dist/ on gh-pages yet"
+          else
+            echo "gh-pages branch does not exist yet"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -60,22 +65,35 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: npm run build
 
-      - name: Commit and push changes
+      - name: Push dist to gh-pages
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          # Save dist/ contents to a temp location
+          tmp=$(mktemp -d)
+          cp -a dist/. "$tmp/"
+
+          # Switch to gh-pages (create orphan if it doesn't exist)
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout -B gh-pages origin/gh-pages
+          else
+            git checkout --orphan gh-pages
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          # Replace dist/ contents and commit
+          rm -rf dist
+          mkdir -p dist
+          cp -a "$tmp/." dist/
+          rm -rf "$tmp"
           git add dist/
           git diff --staged --quiet || git commit -m "Update news feed [skip ci]"
-          git push
+          git push origin gh-pages
 
-      - name: Expose commit SHA for downstream jobs
-        id: set_sha
-        run: echo "new_commit_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
-
-  # Analyst Mode — daily SMS digest to dedicated Teams channel
+  # Analyst Mode — daily digest to dedicated Teams channel
   # Only runs on the daily analyst cron or manual dispatch with forceAnalystNow
   analyst-digest:
-    needs: update-news
     if: >-
       (github.event_name == 'workflow_dispatch' && inputs.forceAnalystNow == true) ||
       (github.event_name == 'schedule' && github.event.schedule == '15 15 * * *')
@@ -84,8 +102,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ needs.update-news.outputs.new_commit_sha }}
+
+      - name: Restore dist from gh-pages
+        run: |
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout origin/gh-pages -- dist/ 2>/dev/null || echo "No dist/ on gh-pages yet"
+          else
+            echo "gh-pages branch does not exist yet"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -103,10 +127,27 @@ jobs:
           ANALYST_FORCE_NOW: ${{ inputs.forceAnalystNow == true && '1' || '' }}
         run: node scripts/analyst-mode.js
 
-  # Deploy to GitHub Pages (main branch only)
+      - name: Push updated counters to gh-pages
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          tmp=$(mktemp -d)
+          cp -a dist/. "$tmp/"
+
+          git fetch origin gh-pages
+          git checkout -B gh-pages origin/gh-pages
+
+          # Only update usage-counters.json (don't overwrite other dist files)
+          cp "$tmp/usage-counters.json" dist/usage-counters.json 2>/dev/null || true
+          rm -rf "$tmp"
+          git add dist/usage-counters.json
+          git diff --staged --quiet || git commit -m "Update analyst usage counters [skip ci]"
+          git push origin gh-pages
+
+  # Deploy to GitHub Pages
   deploy:
     needs: update-news
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     environment:
@@ -114,10 +155,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ needs.update-news.outputs.new_commit_sha }}
+          ref: gh-pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
