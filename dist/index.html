@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PAI AeroNews</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: transparent;
+      line-height: 1.5;
+    }
+
+    /* Main Container */
+    .newsfeed-section {
+      background: linear-gradient(135deg, #002F69 0%, #001a3d 100%);
+      color: white;
+      padding: 16px;
+      border-radius: 16px;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 47, 105, 0.3);
+    }
+
+    /* Header with title and controls */
+    .newsfeed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 0 8px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .newsfeed-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .newsfeed-title::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #22D3EE;
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    /* Playback Controls */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .control-btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .control-btn:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .control-btn:active {
+      transform: translateY(0);
+    }
+
+    .control-btn.active {
+      background: rgba(34, 211, 238, 0.3);
+      border: 1px solid rgba(34, 211, 238, 0.5);
+    }
+
+    .control-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Speed indicator */
+    .speed-indicator {
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-left: 4px;
+    }
+
+    /* Newsfeed Container */
+    .newsfeed {
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+    }
+
+    .newsfeed-inner {
+      display: flex;
+      min-width: fit-content;
+      animation: scroll-left 108s linear infinite;
+    }
+
+    .newsfeed.paused .newsfeed-inner {
+      animation-play-state: paused;
+    }
+
+    .newsfeed:hover .newsfeed-inner {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* News Card */
+    .news-card {
+      flex: 0 0 auto;
+      width: 300px;
+      margin-right: 16px;
+      background: white;
+      color: #1F2937;
+      border-radius: 16px;
+      padding: 14px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .news-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      border-color: #22D3EE;
+    }
+
+    /* Card Header */
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .category-badge {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 12px;
+      color: white;
+    }
+
+    .news-card .date {
+      color: #9CA3AF;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+
+    .news-card .headline {
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #111827;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .news-card .blurb {
+      font-size: 0.8rem;
+      color: #4B5563;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .news-card .takeaway {
+      font-size: 0.8rem;
+      color: #002F69;
+      font-style: italic;
+      line-height: 1.45;
+      padding: 8px 10px;
+      background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+      border-radius: 8px;
+      border-left: 3px solid #002F69;
+    }
+
+    .news-card .source-link {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      color: #6B7280;
+      margin-top: auto;
+    }
+
+    .news-card .source-link a {
+      color: #3B82F6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .news-card .source-link a:hover {
+      color: #2563EB;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .newsfeed-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 8px 0;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.5);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .source-summary {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .footer-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .footer-link {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      transition: color 0.2s;
+      font-size: 0.7rem;
+    }
+
+    .footer-link:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .suggest-link {
+      cursor: pointer;
+    }
+
+    /* Suggest a Source Modal */
+    .suggest-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    .suggest-overlay.active {
+      display: flex;
+    }
+
+    .suggest-content {
+      background: white;
+      border-radius: 20px;
+      max-width: 480px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 24px;
+      position: relative;
+      animation: slideUp 0.3s ease;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .suggest-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 4px;
+      padding-right: 40px;
+    }
+
+    .suggest-subtitle {
+      font-size: 0.85rem;
+      color: #6B7280;
+      margin-bottom: 20px;
+    }
+
+    .suggest-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .suggest-field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 4px;
+    }
+
+    .suggest-field input,
+    .suggest-field select,
+    .suggest-field textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #D1D5DB;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-family: inherit;
+      color: #111827;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+    }
+
+    .suggest-field input:focus,
+    .suggest-field select:focus,
+    .suggest-field textarea:focus {
+      outline: none;
+      border-color: #002F69;
+      box-shadow: 0 0 0 3px rgba(0, 47, 105, 0.1);
+    }
+
+    .suggest-field textarea {
+      resize: vertical;
+      min-height: 60px;
+    }
+
+    .suggest-field .optional {
+      font-weight: 400;
+      color: #9CA3AF;
+    }
+
+    .suggest-submit {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #002F69;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      font-family: inherit;
+      transition: all 0.2s;
+      width: 100%;
+    }
+
+    .suggest-submit:hover {
+      background: #001a3d;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 47, 105, 0.3);
+    }
+
+    /* Keyboard hint */
+    .keyboard-hint {
+      font-size: 0.65rem;
+      color: rgba(255, 255, 255, 0.4);
+      margin-top: 4px;
+    }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background: white;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 24px;
+      position: relative;
+      animation: slideUp 0.3s ease;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: #F3F4F6;
+      border: none;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      font-size: 1.2rem;
+      color: #6B7280;
+    }
+
+    .modal-close:hover {
+      background: #E5E7EB;
+      color: #374151;
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-right: 40px;
+    }
+
+    .modal-category {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 12px;
+      color: white;
+    }
+
+    .modal-date {
+      font-size: 0.8rem;
+      color: #6B7280;
+    }
+
+    .modal-headline {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+
+    .modal-takeaway {
+      font-size: 1rem;
+      color: #002F69;
+      font-style: italic;
+      line-height: 1.5;
+      padding: 16px;
+      background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+      border-radius: 12px;
+      border-left: 4px solid #002F69;
+      margin-bottom: 16px;
+    }
+
+    .modal-blurb {
+      font-size: 1rem;
+      color: #374151;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .modal-source-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #002F69;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .modal-source-link:hover {
+      background: #001a3d;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 47, 105, 0.3);
+    }
+
+    .modal-source-link svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .newsfeed-section {
+        padding: 12px;
+        border-radius: 12px;
+      }
+
+      .newsfeed-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .news-card {
+        width: 260px;
+        padding: 12px 14px;
+      }
+
+      .controls {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .modal-content {
+        padding: 20px;
+      }
+
+      .modal-headline {
+        font-size: 1.25rem;
+      }
+
+      .keyboard-hint {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="newsfeed-section">
+    <div class="newsfeed-header">
+      <h1 class="newsfeed-title">PAI AeroNews</h1>
+      <div class="controls">
+        <button class="control-btn" id="playPauseBtn" onclick="togglePlayPause()" title="Play/Pause (Space)">
+          <svg id="pauseIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="6" y="4" width="4" height="16"></rect>
+            <rect x="14" y="4" width="4" height="16"></rect>
+          </svg>
+          <svg id="playIcon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          <span id="playPauseText">Pause</span>
+        </button>
+        <button class="control-btn" id="slowBtn" onclick="setSpeed('slow')" title="Slow (Left Arrow)">
+          Slow
+        </button>
+        <button class="control-btn active" id="normalBtn" onclick="setSpeed('normal')" title="Normal Speed">
+          Normal
+        </button>
+        <button class="control-btn" id="fastBtn" onclick="setSpeed('fast')" title="Fast (Right Arrow)">
+          Fast
+        </button>
+      </div>
+    </div>
+
+    <div class="newsfeed" id="newsfeed">
+      <div class="newsfeed-inner" id="newsfeed-inner">
+        
+        <div class="news-card"
+             data-index="0"
+             data-headline="Aerospace markets drive robust 4Q sales and 2026 outlook at Astronics"
+             data-blurb="Ending 2025 with a strong fourth quarter after achieving record sales across its aerospace markets, especially in commercial transport, Astronics Corporation expects 2026 to be “another very strong year with double-digit growth.” Boasting a portfolio of inflight entertainment and connectivity (IF..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Runway Girl Network"
+             data-source-url="https://runwaygirlnetwork.com/2026/02/aerospace-markets-drive-robust-4q-sales-and-2026-outlook-at-astronics/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 4:08 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Aerospace markets drive robust 4Q sales and 2026 outlook at Astronics</h2>
+          <p class="blurb">Ending 2025 with a strong fourth quarter after achieving record sales across its aerospace markets, especially in commercial transport, Astronics Corporation expects 2026 to be “another very strong year with double-digit growth.” Boasting a portfolio of inflight entertainment and connectivity (IF...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://runwaygirlnetwork.com/2026/02/aerospace-markets-drive-robust-4q-sales-and-2026-outlook-at-astronics/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Runway Girl Network</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="1"
+             data-headline="Just 700 Miles: The World&#39;s 10 Shortest Boeing 747 Flights In 2026"
+             data-blurb="The jumbo jet isn&#39;t just used for long-haul services."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/shortest-boeing-747-flights-2026/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 3:30 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Just 700 Miles: The World&#39;s 10 Shortest Boeing 747 Flights In 2026</h2>
+          <p class="blurb">The jumbo jet isn&#39;t just used for long-haul services.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/shortest-boeing-747-flights-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="2"
+             data-headline="Powerhouse: Here’s How Much Bigger The Airbus A380 Engine Is Compared To The A320"
+             data-blurb="The A380&#39;s gargantuan engines, each producing over 84,000 pounds of thrust, stand in stark contrast to the A320&#39;s compact CFM56s."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/airbus-a380-vs-a320-engine/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 3:00 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Powerhouse: Here’s How Much Bigger The Airbus A380 Engine Is Compared To The A320</h2>
+          <p class="blurb">The A380&#39;s gargantuan engines, each producing over 84,000 pounds of thrust, stand in stark contrast to the A320&#39;s compact CFM56s.</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/airbus-a380-vs-a320-engine/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="3"
+             data-headline="Why In The World Does United Airlines Fly The Boeing 787 And Not The Airbus A350?"
+             data-blurb="A closer look at the 787s that United operates and why its A350 order hasn&#39;t arrived yet."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/why-does-united-airlines-operate-boeing-787-not-airbus-a350/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 2:30 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Why In The World Does United Airlines Fly The Boeing 787 And Not The Airbus A350?</h2>
+          <p class="blurb">A closer look at the 787s that United operates and why its A350 order hasn&#39;t arrived yet.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/why-does-united-airlines-operate-boeing-787-not-airbus-a350/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="4"
+             data-headline="Qantas&#39; 2nd Airbus A350-1000ULR Enters Final Assembly"
+             data-blurb="On February 20th Australian carrier Qantas took to social media to announce that its 2nd ‘Project Sunrise’ A350-1000ULR had entered the final assembly line at Airbus’ facilities in Toulouse."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/video/qantas-2nd-airbus-a350-1000ulr-enters-final-assembly/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 1:32 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Qantas&#39; 2nd Airbus A350-1000ULR Enters Final Assembly</h2>
+          <p class="blurb">On February 20th Australian carrier Qantas took to social media to announce that its 2nd ‘Project Sunrise’ A350-1000ULR had entered the final assembly line at Airbus’ facilities in Toulouse.</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/video/qantas-2nd-airbus-a350-1000ulr-enters-final-assembly/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="5"
+             data-headline="World&#39;s First Pajama-Free Airport? Tampa International Ignites Debate After Mock &quot;Ban&quot; On Sleepwear"
+             data-blurb="In a social media post shared by the Airport, it stated that showing up to a flight in pajamas was madness and that it was time it ended."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/worlds-first-pajama-free-airport-tampa-ban/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 1:08 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">World&#39;s First Pajama-Free Airport? Tampa International Ignites Debate After Mock &quot;Ban&quot; On Sleepwear</h2>
+          <p class="blurb">In a social media post shared by the Airport, it stated that showing up to a flight in pajamas was madness and that it was time it ended.</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/worlds-first-pajama-free-airport-tampa-ban/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="6"
+             data-headline="Middle East Airspace Plunges Into Chaos After US-Israel Strikes On Iran"
+             data-blurb="Eight countries and counting have shut their airspace to all flights."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/middle-east-airspace-chaos-us-israel-strikes-iran/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 12:07 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Middle East Airspace Plunges Into Chaos After US-Israel Strikes On Iran</h2>
+          <p class="blurb">Eight countries and counting have shut their airspace to all flights.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/middle-east-airspace-chaos-us-israel-strikes-iran/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="7"
+             data-headline="Emirates Vs. Qatar Airways Vs. Singapore Airlines: Which Carrier Wins First Class?"
+             data-blurb="The best first class experience depends on what a passenger values most, whether it&#39;s physical space, theatricality, or service and dining."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/emirates-qatar-singapore-wins-first-class/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 12:00 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Emirates Vs. Qatar Airways Vs. Singapore Airlines: Which Carrier Wins First Class?</h2>
+          <p class="blurb">The best first class experience depends on what a passenger values most, whether it&#39;s physical space, theatricality, or service and dining.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/emirates-qatar-singapore-wins-first-class/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="8"
+             data-headline="Skies Closed Again: US Military Laser Mistakenly Downs CBP Drone In Second Texas Airspace Shutdown"
+             data-blurb="FAA orders temporary flight restrictions after another laser incident."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/skies-closed-again-us-military-laser-cbp-drone-texas-airspace-shutdown/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 10:03 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Skies Closed Again: US Military Laser Mistakenly Downs CBP Drone In Second Texas Airspace Shutdown</h2>
+          <p class="blurb">FAA orders temporary flight restrictions after another laser incident.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/skies-closed-again-us-military-laser-cbp-drone-texas-airspace-shutdown/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="9"
+             data-headline="Catch Her If You Can: Notorious Stowaway Slips Past TSA Again, Boards United Flight To Milan"
+             data-blurb="After getting caught sneaking onto a Delta flight from New York to Paris in 2024, the same passenger has now snuck onto a United flight to Milan!"
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/catch-her-if-you-can-notorious-stowaway-tsa-united-flight-milan/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 9:54 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Catch Her If You Can: Notorious Stowaway Slips Past TSA Again, Boards United Flight To Milan</h2>
+          <p class="blurb">After getting caught sneaking onto a Delta flight from New York to Paris in 2024, the same passenger has now snuck onto a United flight to Milan!</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/catch-her-if-you-can-notorious-stowaway-tsa-united-flight-milan/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="10"
+             data-headline="[Updated] Israel and U.S. Launch Attack on Iran"
+             data-blurb="Israel has launched a daylight preemptive attack against multiple Iranian targets, with the U.S. now joining the operation. Here’s our constantly updated report. Israel and the U.S. have launched on Feb. 28, 2026, a new wave of strikes against Iran, in what Israel has called a “preemptive attack...."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/28/israel-us-attack-iran/"
+             data-category="military"
+             data-date="Feb 28, 2026, 9:49 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">[Updated] Israel and U.S. Launch Attack on Iran</h2>
+          <p class="blurb">Israel has launched a daylight preemptive attack against multiple Iranian targets, with the U.S. now joining the operation. Here’s our constantly updated report. Israel and the U.S. have launched on Feb. 28, 2026, a new wave of strikes against Iran, in what Israel has called a “preemptive attack....</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/28/israel-us-attack-iran/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="11"
+             data-headline="Here&#39;s Why The McDonnell Douglas MD-11 Doesn’t Have An S-Duct Engine Design"
+             data-blurb="The MD-11&#39;s unique engine placement: a calculated risk or a design flaw?"
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/why-mcdonnell-douglas-md-11-doesnt-have-s-duct-engine-design/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 8:00 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Here&#39;s Why The McDonnell Douglas MD-11 Doesn’t Have An S-Duct Engine Design</h2>
+          <p class="blurb">The MD-11&#39;s unique engine placement: a calculated risk or a design flaw?</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/why-mcdonnell-douglas-md-11-doesnt-have-s-duct-engine-design/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="12"
+             data-headline="FAA Revokes StarFlite Aviation Air Carrier Certificate"
+             data-blurb="Agency alleges falsified pilot training records and unqualified flight operations."
+             data-takeaway="Regulatory changes may affect industry operations."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/faa-revokes-starflite-aviation-certificate/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 8:02 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">FAA Revokes StarFlite Aviation Air Carrier Certificate</h2>
+          <p class="blurb">Agency alleges falsified pilot training records and unqualified flight operations.</p>
+          <p class="takeaway">Regulatory changes may affect industry operations.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/faa-revokes-starflite-aviation-certificate/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="13"
+             data-headline="Ukrainian Drone Factory Opens in the United Kingdom"
+             data-blurb="A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) fo..."
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/"
+             data-category="military"
+             data-date="Feb 27, 2026, 7:37 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Ukrainian Drone Factory Opens in the United Kingdom</h2>
+          <p class="blurb">A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) fo...</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="14"
+             data-headline="Industry-First: Archer to Bring Starlink On Board Midnight Air Taxis"
+             data-blurb="Archer Aviation Inc. (NYSE: ACHR) today announced it will work with Starlink to bring stable,"
+             data-takeaway="Urban air mobility advances toward commercial reality."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/industry-first-archer-to-bring-starlink-on-board-midnight-air-taxis/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 7:04 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Industry-First: Archer to Bring Starlink On Board Midnight Air Taxis</h2>
+          <p class="blurb">Archer Aviation Inc. (NYSE: ACHR) today announced it will work with Starlink to bring stable,</p>
+          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/industry-first-archer-to-bring-starlink-on-board-midnight-air-taxis/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="15"
+             data-headline="U.S. Air Force Training Pilots for Next Generation Air Force One"
+             data-blurb="The U.S. Air Force leaned into a dual-track training program for the new VC-25B, leveraging civilian 747-8s and a newly acquired $400 million training fleet. The U.S. Air Force is one step closer to fielding its next presidential transport. Aircrews are now undergoing specialized training for the..."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/usaf-training-pilots-vc-25b/"
+             data-category="military"
+             data-date="Feb 27, 2026, 6:51 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">U.S. Air Force Training Pilots for Next Generation Air Force One</h2>
+          <p class="blurb">The U.S. Air Force leaned into a dual-track training program for the new VC-25B, leveraging civilian 747-8s and a newly acquired $400 million training fleet. The U.S. Air Force is one step closer to fielding its next presidential transport. Aircrews are now undergoing specialized training for the...</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/usaf-training-pilots-vc-25b/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="16"
+             data-headline="Harnessing the Sun to Extract Oxygen on the Moon"
+             data-blurb="Light shines onto a solar concentrator being tested in this Aug. 7, 2025, photo. The concentrator is part of the Carbothermal Reduction Demonstration (CaRD) project, which aims to produce oxygen from simulated lunar regolith for use at the Moon’s south pole. For this test, the team integrated the..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 6:48 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Harnessing the Sun to Extract Oxygen on the Moon</h2>
+          <p class="blurb">Light shines onto a solar concentrator being tested in this Aug. 7, 2025, photo. The concentrator is part of the Carbothermal Reduction Demonstration (CaRD) project, which aims to produce oxygen from simulated lunar regolith for use at the Moon’s south pole. For this test, the team integrated the...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="17"
+             data-headline="Leonardo Will Build UK’s New Medium Helicopter After Contract Award on Brink of Deadline"
+             data-blurb="After an official announcement at Leonardo’s Yeovil plant on Feb. 26 was scrubbed at the last minute, it is now reported that the UK Treasury has finally given the delay-plagued program its approval. At least 23 AW149 helicopters will be built at Leonardo’s Yeovil helicopter factory, which the co..."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/nmh-contract-awarded/"
+             data-category="military"
+             data-date="Feb 27, 2026, 6:05 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Leonardo Will Build UK’s New Medium Helicopter After Contract Award on Brink of Deadline</h2>
+          <p class="blurb">After an official announcement at Leonardo’s Yeovil plant on Feb. 26 was scrubbed at the last minute, it is now reported that the UK Treasury has finally given the delay-plagued program its approval. At least 23 AW149 helicopters will be built at Leonardo’s Yeovil helicopter factory, which the co...</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/nmh-contract-awarded/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="18"
+             data-headline="America’s 250th To Shape AirVenture 2026 Programming"
+             data-blurb="‘Celebrating the Freedom of Flight’ will highlight aviation milestones during weeklong event."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/air-shows-events/airventure/americas-250-to-shape-airventure-2026/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:41 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">America’s 250th To Shape AirVenture 2026 Programming</h2>
+          <p class="blurb">‘Celebrating the Freedom of Flight’ will highlight aviation milestones during weeklong event.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/air-shows-events/airventure/americas-250-to-shape-airventure-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="19"
+             data-headline="Picture of the Day: Feb. 27, 2026"
+             data-blurb="A Navy reconnaissance aircraft over Maryland."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/multimedia/gallery/picture-of-the-day-feb-27-2026/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:25 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Picture of the Day: Feb. 27, 2026</h2>
+          <p class="blurb">A Navy reconnaissance aircraft over Maryland.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/multimedia/gallery/picture-of-the-day-feb-27-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="20"
+             data-headline="New Report Examines Women’s Advancement In Aviation"
+             data-blurb="Second edition survey reviews leadership progression, workplace experience and sponsorship across the industry."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/new-report-examines-women-in-aviation/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:07 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">New Report Examines Women’s Advancement In Aviation</h2>
+          <p class="blurb">Second edition survey reviews leadership progression, workplace experience and sponsorship across the industry.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/new-report-examines-women-in-aviation/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="21"
+             data-headline="NASA’s Home for Experimental Flight Advances Aeronautics Mission"
+             data-blurb="Nestled in the Mojave Desert, NASA’s Armstrong Flight Research Center in Edwards, California, pushes the boundaries of flight to advance the agency’s aeronautics mission. This is where Chuck Yeager broke the sound barrier and engineers are now pioneering the future of high-speed, autonomous, and ..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 4:46 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA’s Home for Experimental Flight Advances Aeronautics Mission</h2>
+          <p class="blurb">Nestled in the Mojave Desert, NASA’s Armstrong Flight Research Center in Edwards, California, pushes the boundaries of flight to advance the agency’s aeronautics mission. This is where Chuck Yeager broke the sound barrier and engineers are now pioneering the future of high-speed, autonomous, and ...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="22"
+             data-headline="Military Downs Customs and Border Protection Drone"
+             data-blurb="Second high-energy laser incident this month prompts renewed scrutiny from lawmakers."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/military-shoots-down-cbp-drone-in-texas/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 3:45 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Military Downs Customs and Border Protection Drone</h2>
+          <p class="blurb">Second high-energy laser incident this month prompts renewed scrutiny from lawmakers.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/military-shoots-down-cbp-drone-in-texas/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="23"
+             data-headline="NASA Adds Mission to Artemis Lunar Program, Updates Architecture"
+             data-blurb="As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing ..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 3:37 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA Adds Mission to Artemis Lunar Program, Updates Architecture</h2>
+          <p class="blurb">As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing ...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="24"
+             data-headline="Archer Aviation to use Starlink internet in its eVTOL air taxis, possibly enabling autonomous rides (one day)"
+             data-blurb="In what is being described as an “industry-first collaboration” by Archer Aviation, the eVTOL developer will integrate Starlink high-speed satellite internet into its Midnight air taxis. more…"
+             data-takeaway="Urban air mobility advances toward commercial reality."
+             data-source-name="DroneDJ"
+             data-source-url="https://electrek.co/2026/02/27/archer-aviation-achr-starlink-internet-evtol-air-taxis/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 3:10 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Archer Aviation to use Starlink internet in its eVTOL air taxis, possibly enabling autonomous rides (one day)</h2>
+          <p class="blurb">In what is being described as an “industry-first collaboration” by Archer Aviation, the eVTOL developer will integrate Starlink high-speed satellite internet into its Midnight air taxis. more…</p>
+          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
+          <p class="source-link">
+            See <a href="https://electrek.co/2026/02/27/archer-aviation-achr-starlink-internet-evtol-air-taxis/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="25"
+             data-headline="NASA revises plans for future Artemis missions, cancels upgrades to SLS"
+             data-blurb="NASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System. The post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 3:09 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA revises plans for future Artemis missions, cancels upgrades to SLS</h2>
+          <p class="blurb">NASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System. The post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="26"
+             data-headline="NTSB: ALERT Act Falls Short Of Safety Recommendations"
+             data-blurb="Board calls for mandatory ADS-B In equipage after DCA midair."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/flight-safety/ntsb-alert-act-fall-safety-recommendations/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 2:53 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NTSB: ALERT Act Falls Short Of Safety Recommendations</h2>
+          <p class="blurb">Board calls for mandatory ADS-B In equipage after DCA midair.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/flight-safety/ntsb-alert-act-fall-safety-recommendations/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="27"
+             data-headline="10 million calls: The drone system changing policing"
+             data-blurb="How fast can a drone respond to a 911 call? In some departments, the answer is under 60 seconds, and the software making that possible just passed 10 million processed calls. more…"
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="DroneDJ"
+             data-source-url="https://dronedj.com/2026/02/27/skydio-drone-dfr-police-emergency/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 1:20 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">10 million calls: The drone system changing policing</h2>
+          <p class="blurb">How fast can a drone respond to a 911 call? In some departments, the answer is under 60 seconds, and the software making that possible just passed 10 million processed calls. more…</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://dronedj.com/2026/02/27/skydio-drone-dfr-police-emergency/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="28"
+             data-headline="Airbus vents frustration at GTF engine delays and slow progress on SAF"
+             data-blurb="Airbus’ frustration with Pratt &amp; Whitney was palpable during its full-year earnings presentation earlier this month, with the European airframer directly blaming its reduced A320 production rate target on GTF engine delivery delays. It also expressed frustration about the slow pace at which the s..."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Runway Girl Network"
+             data-source-url="https://runwaygirlnetwork.com/2026/02/airbus-vents-frustration-at-gtf-engine/"
+             data-category="commercial"
+             data-date="Feb 27, 2026, 1:03 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Airbus vents frustration at GTF engine delays and slow progress on SAF</h2>
+          <p class="blurb">Airbus’ frustration with Pratt &amp; Whitney was palpable during its full-year earnings presentation earlier this month, with the European airframer directly blaming its reduced A320 production rate target on GTF engine delivery delays. It also expressed frustration about the slow pace at which the s...</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://runwaygirlnetwork.com/2026/02/airbus-vents-frustration-at-gtf-engine/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Runway Girl Network</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="29"
+             data-headline="Rocket Lab delays Neutron debut to late 2026"
+             data-blurb="The failure of a propellant tank during testing in January will delay the first launch of Rocket Lab’s Neutron rocket to at least the fourth quarter of this year. The post Rocket Lab delays Neutron debut to late 2026 appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 12:53 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Rocket Lab delays Neutron debut to late 2026</h2>
+          <p class="blurb">The failure of a propellant tank during testing in January will delay the first launch of Rocket Lab’s Neutron rocket to at least the fourth quarter of this year. The post Rocket Lab delays Neutron debut to late 2026 appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="30"
+             data-headline="China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight"
+             data-blurb="China will begin its first one-year duration astronaut mission this year, while the first international astronaut will make a short visit to Tiangong space station. The post China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 10:09 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight</h2>
+          <p class="blurb">China will begin its first one-year duration astronaut mission this year, while the first international astronaut will make a short visit to Tiangong space station. The post China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="31"
+             data-headline="Shoot First, Ask the FAA Later: How the Military shot down a Customs and Border Protection Drone"
+             data-blurb="The American south-west has become an unwitting testing ground for a dangerous power struggle between"
+             data-takeaway="Regulatory changes may affect industry operations."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/shoot-first-ask-the-faa-later-how-the-military-shot-down-a-customs-and-border-protection-drone/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 9:33 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Shoot First, Ask the FAA Later: How the Military shot down a Customs and Border Protection Drone</h2>
+          <p class="blurb">The American south-west has become an unwitting testing ground for a dangerous power struggle between</p>
+          <p class="takeaway">Regulatory changes may affect industry operations.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/shoot-first-ask-the-faa-later-how-the-military-shot-down-a-customs-and-border-protection-drone/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="32"
+             data-headline="Aviation Training and Operations Readiness Lead"
+             data-blurb="Wing offers drone delivery as a safe, fast, and sustainable solution for last mile logistics."
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/aviation-training-and-operations-readiness-lead/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 9:18 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Aviation Training and Operations Readiness Lead</h2>
+          <p class="blurb">Wing offers drone delivery as a safe, fast, and sustainable solution for last mile logistics.</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/aviation-training-and-operations-readiness-lead/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="33"
+             data-headline="Chesapeake Bay Locked in Ice"
+             data-blurb="Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 5:00 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Chesapeake Bay Locked in Ice</h2>
+          <p class="blurb">Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="34"
+             data-headline="DJI distributor admits illegal drone price restrictions"
+             data-blurb="Here’s something DJI buyers don’t want to hear: your drone price might not have been negotiable. An Australian agricultural drone distributor has admitted it illegally tried to stop resellers from discounting DJI products, triggering action from the country’s competition regulator. more…"
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="DroneDJ"
+             data-source-url="https://dronedj.com/2026/02/26/dji-drone-price-fixing-australia/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 4:38 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">DJI distributor admits illegal drone price restrictions</h2>
+          <p class="blurb">Here’s something DJI buyers don’t want to hear: your drone price might not have been negotiable. An Australian agricultural drone distributor has admitted it illegally tried to stop resellers from discounting DJI products, triggering action from the country’s competition regulator. more…</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://dronedj.com/2026/02/26/dji-drone-price-fixing-australia/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="35"
+             data-headline="Space Force keeps door open to future human presence in orbit"
+             data-blurb="Officials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate The post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/"
+             data-category="aerospace"
+             data-date="Feb 26, 2026, 11:14 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 26, 2026</span>
+          </div>
+          <h2 class="headline">Space Force keeps door open to future human presence in orbit</h2>
+          <p class="blurb">Officials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate The post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="0"
+             data-headline="Aerospace markets drive robust 4Q sales and 2026 outlook at Astronics"
+             data-blurb="Ending 2025 with a strong fourth quarter after achieving record sales across its aerospace markets, especially in commercial transport, Astronics Corporation expects 2026 to be “another very strong year with double-digit growth.” Boasting a portfolio of inflight entertainment and connectivity (IF..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Runway Girl Network"
+             data-source-url="https://runwaygirlnetwork.com/2026/02/aerospace-markets-drive-robust-4q-sales-and-2026-outlook-at-astronics/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 4:08 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Aerospace markets drive robust 4Q sales and 2026 outlook at Astronics</h2>
+          <p class="blurb">Ending 2025 with a strong fourth quarter after achieving record sales across its aerospace markets, especially in commercial transport, Astronics Corporation expects 2026 to be “another very strong year with double-digit growth.” Boasting a portfolio of inflight entertainment and connectivity (IF...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://runwaygirlnetwork.com/2026/02/aerospace-markets-drive-robust-4q-sales-and-2026-outlook-at-astronics/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Runway Girl Network</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="1"
+             data-headline="Just 700 Miles: The World&#39;s 10 Shortest Boeing 747 Flights In 2026"
+             data-blurb="The jumbo jet isn&#39;t just used for long-haul services."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/shortest-boeing-747-flights-2026/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 3:30 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Just 700 Miles: The World&#39;s 10 Shortest Boeing 747 Flights In 2026</h2>
+          <p class="blurb">The jumbo jet isn&#39;t just used for long-haul services.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/shortest-boeing-747-flights-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="2"
+             data-headline="Powerhouse: Here’s How Much Bigger The Airbus A380 Engine Is Compared To The A320"
+             data-blurb="The A380&#39;s gargantuan engines, each producing over 84,000 pounds of thrust, stand in stark contrast to the A320&#39;s compact CFM56s."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/airbus-a380-vs-a320-engine/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 3:00 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Powerhouse: Here’s How Much Bigger The Airbus A380 Engine Is Compared To The A320</h2>
+          <p class="blurb">The A380&#39;s gargantuan engines, each producing over 84,000 pounds of thrust, stand in stark contrast to the A320&#39;s compact CFM56s.</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/airbus-a380-vs-a320-engine/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="3"
+             data-headline="Why In The World Does United Airlines Fly The Boeing 787 And Not The Airbus A350?"
+             data-blurb="A closer look at the 787s that United operates and why its A350 order hasn&#39;t arrived yet."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/why-does-united-airlines-operate-boeing-787-not-airbus-a350/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 2:30 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Why In The World Does United Airlines Fly The Boeing 787 And Not The Airbus A350?</h2>
+          <p class="blurb">A closer look at the 787s that United operates and why its A350 order hasn&#39;t arrived yet.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/why-does-united-airlines-operate-boeing-787-not-airbus-a350/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="4"
+             data-headline="Qantas&#39; 2nd Airbus A350-1000ULR Enters Final Assembly"
+             data-blurb="On February 20th Australian carrier Qantas took to social media to announce that its 2nd ‘Project Sunrise’ A350-1000ULR had entered the final assembly line at Airbus’ facilities in Toulouse."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/video/qantas-2nd-airbus-a350-1000ulr-enters-final-assembly/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 1:32 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Qantas&#39; 2nd Airbus A350-1000ULR Enters Final Assembly</h2>
+          <p class="blurb">On February 20th Australian carrier Qantas took to social media to announce that its 2nd ‘Project Sunrise’ A350-1000ULR had entered the final assembly line at Airbus’ facilities in Toulouse.</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/video/qantas-2nd-airbus-a350-1000ulr-enters-final-assembly/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="5"
+             data-headline="World&#39;s First Pajama-Free Airport? Tampa International Ignites Debate After Mock &quot;Ban&quot; On Sleepwear"
+             data-blurb="In a social media post shared by the Airport, it stated that showing up to a flight in pajamas was madness and that it was time it ended."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/worlds-first-pajama-free-airport-tampa-ban/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 1:08 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">World&#39;s First Pajama-Free Airport? Tampa International Ignites Debate After Mock &quot;Ban&quot; On Sleepwear</h2>
+          <p class="blurb">In a social media post shared by the Airport, it stated that showing up to a flight in pajamas was madness and that it was time it ended.</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/worlds-first-pajama-free-airport-tampa-ban/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="6"
+             data-headline="Middle East Airspace Plunges Into Chaos After US-Israel Strikes On Iran"
+             data-blurb="Eight countries and counting have shut their airspace to all flights."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/middle-east-airspace-chaos-us-israel-strikes-iran/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 12:07 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Middle East Airspace Plunges Into Chaos After US-Israel Strikes On Iran</h2>
+          <p class="blurb">Eight countries and counting have shut their airspace to all flights.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/middle-east-airspace-chaos-us-israel-strikes-iran/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="7"
+             data-headline="Emirates Vs. Qatar Airways Vs. Singapore Airlines: Which Carrier Wins First Class?"
+             data-blurb="The best first class experience depends on what a passenger values most, whether it&#39;s physical space, theatricality, or service and dining."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/emirates-qatar-singapore-wins-first-class/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 12:00 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Emirates Vs. Qatar Airways Vs. Singapore Airlines: Which Carrier Wins First Class?</h2>
+          <p class="blurb">The best first class experience depends on what a passenger values most, whether it&#39;s physical space, theatricality, or service and dining.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/emirates-qatar-singapore-wins-first-class/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="8"
+             data-headline="Skies Closed Again: US Military Laser Mistakenly Downs CBP Drone In Second Texas Airspace Shutdown"
+             data-blurb="FAA orders temporary flight restrictions after another laser incident."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/skies-closed-again-us-military-laser-cbp-drone-texas-airspace-shutdown/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 10:03 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Skies Closed Again: US Military Laser Mistakenly Downs CBP Drone In Second Texas Airspace Shutdown</h2>
+          <p class="blurb">FAA orders temporary flight restrictions after another laser incident.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/skies-closed-again-us-military-laser-cbp-drone-texas-airspace-shutdown/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="9"
+             data-headline="Catch Her If You Can: Notorious Stowaway Slips Past TSA Again, Boards United Flight To Milan"
+             data-blurb="After getting caught sneaking onto a Delta flight from New York to Paris in 2024, the same passenger has now snuck onto a United flight to Milan!"
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/catch-her-if-you-can-notorious-stowaway-tsa-united-flight-milan/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 9:54 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Catch Her If You Can: Notorious Stowaway Slips Past TSA Again, Boards United Flight To Milan</h2>
+          <p class="blurb">After getting caught sneaking onto a Delta flight from New York to Paris in 2024, the same passenger has now snuck onto a United flight to Milan!</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/catch-her-if-you-can-notorious-stowaway-tsa-united-flight-milan/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="10"
+             data-headline="[Updated] Israel and U.S. Launch Attack on Iran"
+             data-blurb="Israel has launched a daylight preemptive attack against multiple Iranian targets, with the U.S. now joining the operation. Here’s our constantly updated report. Israel and the U.S. have launched on Feb. 28, 2026, a new wave of strikes against Iran, in what Israel has called a “preemptive attack...."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/28/israel-us-attack-iran/"
+             data-category="military"
+             data-date="Feb 28, 2026, 9:49 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">[Updated] Israel and U.S. Launch Attack on Iran</h2>
+          <p class="blurb">Israel has launched a daylight preemptive attack against multiple Iranian targets, with the U.S. now joining the operation. Here’s our constantly updated report. Israel and the U.S. have launched on Feb. 28, 2026, a new wave of strikes against Iran, in what Israel has called a “preemptive attack....</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/28/israel-us-attack-iran/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="11"
+             data-headline="Here&#39;s Why The McDonnell Douglas MD-11 Doesn’t Have An S-Duct Engine Design"
+             data-blurb="The MD-11&#39;s unique engine placement: a calculated risk or a design flaw?"
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/why-mcdonnell-douglas-md-11-doesnt-have-s-duct-engine-design/"
+             data-category="commercial"
+             data-date="Feb 28, 2026, 8:00 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 28, 2026</span>
+          </div>
+          <h2 class="headline">Here&#39;s Why The McDonnell Douglas MD-11 Doesn’t Have An S-Duct Engine Design</h2>
+          <p class="blurb">The MD-11&#39;s unique engine placement: a calculated risk or a design flaw?</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/why-mcdonnell-douglas-md-11-doesnt-have-s-duct-engine-design/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="12"
+             data-headline="FAA Revokes StarFlite Aviation Air Carrier Certificate"
+             data-blurb="Agency alleges falsified pilot training records and unqualified flight operations."
+             data-takeaway="Regulatory changes may affect industry operations."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/faa-revokes-starflite-aviation-certificate/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 8:02 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">FAA Revokes StarFlite Aviation Air Carrier Certificate</h2>
+          <p class="blurb">Agency alleges falsified pilot training records and unqualified flight operations.</p>
+          <p class="takeaway">Regulatory changes may affect industry operations.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/faa-revokes-starflite-aviation-certificate/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="13"
+             data-headline="Ukrainian Drone Factory Opens in the United Kingdom"
+             data-blurb="A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) fo..."
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/"
+             data-category="military"
+             data-date="Feb 27, 2026, 7:37 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Ukrainian Drone Factory Opens in the United Kingdom</h2>
+          <p class="blurb">A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) fo...</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="14"
+             data-headline="Industry-First: Archer to Bring Starlink On Board Midnight Air Taxis"
+             data-blurb="Archer Aviation Inc. (NYSE: ACHR) today announced it will work with Starlink to bring stable,"
+             data-takeaway="Urban air mobility advances toward commercial reality."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/industry-first-archer-to-bring-starlink-on-board-midnight-air-taxis/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 7:04 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Industry-First: Archer to Bring Starlink On Board Midnight Air Taxis</h2>
+          <p class="blurb">Archer Aviation Inc. (NYSE: ACHR) today announced it will work with Starlink to bring stable,</p>
+          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/industry-first-archer-to-bring-starlink-on-board-midnight-air-taxis/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="15"
+             data-headline="U.S. Air Force Training Pilots for Next Generation Air Force One"
+             data-blurb="The U.S. Air Force leaned into a dual-track training program for the new VC-25B, leveraging civilian 747-8s and a newly acquired $400 million training fleet. The U.S. Air Force is one step closer to fielding its next presidential transport. Aircrews are now undergoing specialized training for the..."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/usaf-training-pilots-vc-25b/"
+             data-category="military"
+             data-date="Feb 27, 2026, 6:51 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">U.S. Air Force Training Pilots for Next Generation Air Force One</h2>
+          <p class="blurb">The U.S. Air Force leaned into a dual-track training program for the new VC-25B, leveraging civilian 747-8s and a newly acquired $400 million training fleet. The U.S. Air Force is one step closer to fielding its next presidential transport. Aircrews are now undergoing specialized training for the...</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/usaf-training-pilots-vc-25b/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="16"
+             data-headline="Harnessing the Sun to Extract Oxygen on the Moon"
+             data-blurb="Light shines onto a solar concentrator being tested in this Aug. 7, 2025, photo. The concentrator is part of the Carbothermal Reduction Demonstration (CaRD) project, which aims to produce oxygen from simulated lunar regolith for use at the Moon’s south pole. For this test, the team integrated the..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 6:48 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Harnessing the Sun to Extract Oxygen on the Moon</h2>
+          <p class="blurb">Light shines onto a solar concentrator being tested in this Aug. 7, 2025, photo. The concentrator is part of the Carbothermal Reduction Demonstration (CaRD) project, which aims to produce oxygen from simulated lunar regolith for use at the Moon’s south pole. For this test, the team integrated the...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="17"
+             data-headline="Leonardo Will Build UK’s New Medium Helicopter After Contract Award on Brink of Deadline"
+             data-blurb="After an official announcement at Leonardo’s Yeovil plant on Feb. 26 was scrubbed at the last minute, it is now reported that the UK Treasury has finally given the delay-plagued program its approval. At least 23 AW149 helicopters will be built at Leonardo’s Yeovil helicopter factory, which the co..."
+             data-takeaway="Military aviation advances influence broader industry."
+             data-source-name="The Aviationist"
+             data-source-url="https://theaviationist.com/2026/02/27/nmh-contract-awarded/"
+             data-category="military"
+             data-date="Feb 27, 2026, 6:05 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #6B7280">Military</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Leonardo Will Build UK’s New Medium Helicopter After Contract Award on Brink of Deadline</h2>
+          <p class="blurb">After an official announcement at Leonardo’s Yeovil plant on Feb. 26 was scrubbed at the last minute, it is now reported that the UK Treasury has finally given the delay-plagued program its approval. At least 23 AW149 helicopters will be built at Leonardo’s Yeovil helicopter factory, which the co...</p>
+          <p class="takeaway">Military aviation advances influence broader industry.</p>
+          <p class="source-link">
+            See <a href="https://theaviationist.com/2026/02/27/nmh-contract-awarded/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">The Aviationist</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="18"
+             data-headline="America’s 250th To Shape AirVenture 2026 Programming"
+             data-blurb="‘Celebrating the Freedom of Flight’ will highlight aviation milestones during weeklong event."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/air-shows-events/airventure/americas-250-to-shape-airventure-2026/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:41 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">America’s 250th To Shape AirVenture 2026 Programming</h2>
+          <p class="blurb">‘Celebrating the Freedom of Flight’ will highlight aviation milestones during weeklong event.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/air-shows-events/airventure/americas-250-to-shape-airventure-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="19"
+             data-headline="Picture of the Day: Feb. 27, 2026"
+             data-blurb="A Navy reconnaissance aircraft over Maryland."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/multimedia/gallery/picture-of-the-day-feb-27-2026/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:25 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Picture of the Day: Feb. 27, 2026</h2>
+          <p class="blurb">A Navy reconnaissance aircraft over Maryland.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/multimedia/gallery/picture-of-the-day-feb-27-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="20"
+             data-headline="New Report Examines Women’s Advancement In Aviation"
+             data-blurb="Second edition survey reviews leadership progression, workplace experience and sponsorship across the industry."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/new-report-examines-women-in-aviation/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 5:07 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">New Report Examines Women’s Advancement In Aviation</h2>
+          <p class="blurb">Second edition survey reviews leadership progression, workplace experience and sponsorship across the industry.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/new-report-examines-women-in-aviation/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="21"
+             data-headline="NASA’s Home for Experimental Flight Advances Aeronautics Mission"
+             data-blurb="Nestled in the Mojave Desert, NASA’s Armstrong Flight Research Center in Edwards, California, pushes the boundaries of flight to advance the agency’s aeronautics mission. This is where Chuck Yeager broke the sound barrier and engineers are now pioneering the future of high-speed, autonomous, and ..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 4:46 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA’s Home for Experimental Flight Advances Aeronautics Mission</h2>
+          <p class="blurb">Nestled in the Mojave Desert, NASA’s Armstrong Flight Research Center in Edwards, California, pushes the boundaries of flight to advance the agency’s aeronautics mission. This is where Chuck Yeager broke the sound barrier and engineers are now pioneering the future of high-speed, autonomous, and ...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="22"
+             data-headline="Military Downs Customs and Border Protection Drone"
+             data-blurb="Second high-energy laser incident this month prompts renewed scrutiny from lawmakers."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/military-shoots-down-cbp-drone-in-texas/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 3:45 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Military Downs Customs and Border Protection Drone</h2>
+          <p class="blurb">Second high-energy laser incident this month prompts renewed scrutiny from lawmakers.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/military-shoots-down-cbp-drone-in-texas/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="23"
+             data-headline="NASA Adds Mission to Artemis Lunar Program, Updates Architecture"
+             data-blurb="As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing ..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 3:37 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA Adds Mission to Artemis Lunar Program, Updates Architecture</h2>
+          <p class="blurb">As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing ...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="24"
+             data-headline="Archer Aviation to use Starlink internet in its eVTOL air taxis, possibly enabling autonomous rides (one day)"
+             data-blurb="In what is being described as an “industry-first collaboration” by Archer Aviation, the eVTOL developer will integrate Starlink high-speed satellite internet into its Midnight air taxis. more…"
+             data-takeaway="Urban air mobility advances toward commercial reality."
+             data-source-name="DroneDJ"
+             data-source-url="https://electrek.co/2026/02/27/archer-aviation-achr-starlink-internet-evtol-air-taxis/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 3:10 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Archer Aviation to use Starlink internet in its eVTOL air taxis, possibly enabling autonomous rides (one day)</h2>
+          <p class="blurb">In what is being described as an “industry-first collaboration” by Archer Aviation, the eVTOL developer will integrate Starlink high-speed satellite internet into its Midnight air taxis. more…</p>
+          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
+          <p class="source-link">
+            See <a href="https://electrek.co/2026/02/27/archer-aviation-achr-starlink-internet-evtol-air-taxis/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="25"
+             data-headline="NASA revises plans for future Artemis missions, cancels upgrades to SLS"
+             data-blurb="NASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System. The post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 3:09 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NASA revises plans for future Artemis missions, cancels upgrades to SLS</h2>
+          <p class="blurb">NASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System. The post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="26"
+             data-headline="NTSB: ALERT Act Falls Short Of Safety Recommendations"
+             data-blurb="Board calls for mandatory ADS-B In equipage after DCA midair."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/flight-safety/ntsb-alert-act-fall-safety-recommendations/"
+             data-category="general-aviation"
+             data-date="Feb 27, 2026, 2:53 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">NTSB: ALERT Act Falls Short Of Safety Recommendations</h2>
+          <p class="blurb">Board calls for mandatory ADS-B In equipage after DCA midair.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/flight-safety/ntsb-alert-act-fall-safety-recommendations/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="27"
+             data-headline="10 million calls: The drone system changing policing"
+             data-blurb="How fast can a drone respond to a 911 call? In some departments, the answer is under 60 seconds, and the software making that possible just passed 10 million processed calls. more…"
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="DroneDJ"
+             data-source-url="https://dronedj.com/2026/02/27/skydio-drone-dfr-police-emergency/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 1:20 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">10 million calls: The drone system changing policing</h2>
+          <p class="blurb">How fast can a drone respond to a 911 call? In some departments, the answer is under 60 seconds, and the software making that possible just passed 10 million processed calls. more…</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://dronedj.com/2026/02/27/skydio-drone-dfr-police-emergency/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="28"
+             data-headline="Airbus vents frustration at GTF engine delays and slow progress on SAF"
+             data-blurb="Airbus’ frustration with Pratt &amp; Whitney was palpable during its full-year earnings presentation earlier this month, with the European airframer directly blaming its reduced A320 production rate target on GTF engine delivery delays. It also expressed frustration about the slow pace at which the s..."
+             data-takeaway="Airbus activity reflects European aerospace trends."
+             data-source-name="Runway Girl Network"
+             data-source-url="https://runwaygirlnetwork.com/2026/02/airbus-vents-frustration-at-gtf-engine/"
+             data-category="commercial"
+             data-date="Feb 27, 2026, 1:03 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Airbus vents frustration at GTF engine delays and slow progress on SAF</h2>
+          <p class="blurb">Airbus’ frustration with Pratt &amp; Whitney was palpable during its full-year earnings presentation earlier this month, with the European airframer directly blaming its reduced A320 production rate target on GTF engine delivery delays. It also expressed frustration about the slow pace at which the s...</p>
+          <p class="takeaway">Airbus activity reflects European aerospace trends.</p>
+          <p class="source-link">
+            See <a href="https://runwaygirlnetwork.com/2026/02/airbus-vents-frustration-at-gtf-engine/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Runway Girl Network</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="29"
+             data-headline="Rocket Lab delays Neutron debut to late 2026"
+             data-blurb="The failure of a propellant tank during testing in January will delay the first launch of Rocket Lab’s Neutron rocket to at least the fourth quarter of this year. The post Rocket Lab delays Neutron debut to late 2026 appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 12:53 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Rocket Lab delays Neutron debut to late 2026</h2>
+          <p class="blurb">The failure of a propellant tank during testing in January will delay the first launch of Rocket Lab’s Neutron rocket to at least the fourth quarter of this year. The post Rocket Lab delays Neutron debut to late 2026 appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="30"
+             data-headline="China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight"
+             data-blurb="China will begin its first one-year duration astronaut mission this year, while the first international astronaut will make a short visit to Tiangong space station. The post China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 10:09 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight</h2>
+          <p class="blurb">China will begin its first one-year duration astronaut mission this year, while the first international astronaut will make a short visit to Tiangong space station. The post China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="31"
+             data-headline="Shoot First, Ask the FAA Later: How the Military shot down a Customs and Border Protection Drone"
+             data-blurb="The American south-west has become an unwitting testing ground for a dangerous power struggle between"
+             data-takeaway="Regulatory changes may affect industry operations."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/shoot-first-ask-the-faa-later-how-the-military-shot-down-a-customs-and-border-protection-drone/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 9:33 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Shoot First, Ask the FAA Later: How the Military shot down a Customs and Border Protection Drone</h2>
+          <p class="blurb">The American south-west has become an unwitting testing ground for a dangerous power struggle between</p>
+          <p class="takeaway">Regulatory changes may affect industry operations.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/shoot-first-ask-the-faa-later-how-the-military-shot-down-a-customs-and-border-protection-drone/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="32"
+             data-headline="Aviation Training and Operations Readiness Lead"
+             data-blurb="Wing offers drone delivery as a safe, fast, and sustainable solution for last mile logistics."
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="sUAS News"
+             data-source-url="https://www.suasnews.com/2026/02/aviation-training-and-operations-readiness-lead/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 9:18 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Aviation Training and Operations Readiness Lead</h2>
+          <p class="blurb">Wing offers drone delivery as a safe, fast, and sustainable solution for last mile logistics.</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://www.suasnews.com/2026/02/aviation-training-and-operations-readiness-lead/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">sUAS News</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="33"
+             data-headline="Chesapeake Bay Locked in Ice"
+             data-blurb="Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="NASA"
+             data-source-url="https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/"
+             data-category="aerospace"
+             data-date="Feb 27, 2026, 5:00 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">Chesapeake Bay Locked in Ice</h2>
+          <p class="blurb">Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="34"
+             data-headline="DJI distributor admits illegal drone price restrictions"
+             data-blurb="Here’s something DJI buyers don’t want to hear: your drone price might not have been negotiable. An Australian agricultural drone distributor has admitted it illegally tried to stop resellers from discounting DJI products, triggering action from the country’s competition regulator. more…"
+             data-takeaway="Drone technology continues to reshape aviation operations."
+             data-source-name="DroneDJ"
+             data-source-url="https://dronedj.com/2026/02/26/dji-drone-price-fixing-australia/"
+             data-category="drones"
+             data-date="Feb 27, 2026, 4:38 AM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #84CC16">Drones</span>
+            <span class="date">Feb 27, 2026</span>
+          </div>
+          <h2 class="headline">DJI distributor admits illegal drone price restrictions</h2>
+          <p class="blurb">Here’s something DJI buyers don’t want to hear: your drone price might not have been negotiable. An Australian agricultural drone distributor has admitted it illegally tried to stop resellers from discounting DJI products, triggering action from the country’s competition regulator. more…</p>
+          <p class="takeaway">Drone technology continues to reshape aviation operations.</p>
+          <p class="source-link">
+            See <a href="https://dronedj.com/2026/02/26/dji-drone-price-fixing-australia/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">DroneDJ</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="35"
+             data-headline="Space Force keeps door open to future human presence in orbit"
+             data-blurb="Officials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate The post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/"
+             data-category="aerospace"
+             data-date="Feb 26, 2026, 11:14 PM"
+             onclick="openModal(this)">
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Feb 26, 2026</span>
+          </div>
+          <h2 class="headline">Space Force keeps door open to future human presence in orbit</h2>
+          <p class="blurb">Officials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate The post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews.</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsfeed-footer">
+      <div class="source-summary">
+        36 articles from 12 sources | Updated: Feb 28, 2026, 4:53 PM UTC
+      </div>
+      <div class="footer-actions">
+        <a href="#" class="footer-link suggest-link" onclick="openSuggestModal(event)">Suggest a Source</a>
+        <span class="keyboard-hint">Space: pause | Arrows: speed</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for expanded article view -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <div class="modal-header">
+        <span class="modal-category" id="modalCategory">Category</span>
+        <span class="modal-date" id="modalDate">Date</span>
+      </div>
+      <h2 class="modal-headline" id="modalHeadline">Headline</h2>
+      <div class="modal-takeaway" id="modalTakeaway">Takeaway</div>
+      <p class="modal-blurb" id="modalBlurb">Description</p>
+      <a class="modal-source-link" id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer">
+        See <span id="modalSourceName">Source</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Suggest a Source Modal -->
+  <div class="suggest-overlay" id="suggestOverlay">
+    <div class="suggest-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeSuggestModal()">&times;</button>
+      <div class="suggest-title">Suggest a Source</div>
+      <p class="suggest-subtitle">Know a great aviation news source? Let us know and we'll consider adding it to PAI AeroNews.</p>
+      <form class="suggest-form" id="suggestForm" onsubmit="submitSuggestion(event)">
+        <div class="suggest-field">
+          <label for="suggestName">Source Name</label>
+          <input type="text" id="suggestName" placeholder="e.g. AVweb, AOPA News" required />
+        </div>
+        <div class="suggest-field">
+          <label for="suggestUrl">Website or RSS Feed URL</label>
+          <input type="url" id="suggestUrl" placeholder="https://example.com/feed/" required />
+        </div>
+        <div class="suggest-field">
+          <label for="suggestCategory">Category</label>
+          <select id="suggestCategory">
+            <option value="general-aviation">General Aviation</option>
+            <option value="commercial">Commercial</option>
+            <option value="business-aviation">Business Aviation</option>
+            <option value="industry" selected>Industry</option>
+            <option value="aerospace">Aerospace</option>
+            <option value="evtol">eVTOL</option>
+            <option value="drones">Drones</option>
+            <option value="electric">Electric</option>
+            <option value="regulatory">Regulatory</option>
+            <option value="safety">Safety</option>
+            <option value="military">Military</option>
+            <option value="corporate">Corporate</option>
+            <option value="international">International</option>
+          </select>
+        </div>
+        <div class="suggest-field">
+          <label for="suggestNotes">Notes <span class="optional">(optional)</span></label>
+          <textarea id="suggestNotes" placeholder="Why do you recommend this source?"></textarea>
+        </div>
+        <div class="suggest-field">
+          <label for="suggestEmail">Your Email <span class="optional">(optional)</span></label>
+          <input type="email" id="suggestEmail" placeholder="you@example.com" />
+        </div>
+        <button type="submit" class="suggest-submit">Send Suggestion</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // State
+    let isPaused = false;
+    let currentSpeed = 'normal';
+    const speeds = {
+      slow: 108 * 2,
+      normal: 108,
+      fast: 108 / 2
+    };
+
+    // Category colors for modal
+    const categoryColors = {
+      'general-aviation': '#10B981',
+      'commercial': '#3B82F6',
+      'business-aviation': '#8B5CF6',
+      'industry': '#F59E0B',
+      'aerospace': '#EC4899',
+      'evtol': '#06B6D4',
+      'drones': '#84CC16',
+      'electric': '#22D3EE',
+      'regulatory': '#EF4444',
+      'safety': '#DC2626',
+      'military': '#6B7280',
+      'corporate': '#A855F7',
+      'international': '#14B8A6'
+    };
+
+    const categoryLabels = {
+      'general-aviation': 'General Aviation',
+      'commercial': 'Commercial',
+      'business-aviation': 'Business Aviation',
+      'industry': 'Industry',
+      'aerospace': 'Aerospace',
+      'evtol': 'eVTOL',
+      'drones': 'Drones',
+      'electric': 'Electric',
+      'regulatory': 'Regulatory',
+      'safety': 'Safety',
+      'military': 'Military',
+      'corporate': 'Corporate',
+      'international': 'International'
+    };
+
+    // Toggle play/pause
+    function togglePlayPause() {
+      const newsfeed = document.getElementById('newsfeed');
+      const pauseIcon = document.getElementById('pauseIcon');
+      const playIcon = document.getElementById('playIcon');
+      const playPauseText = document.getElementById('playPauseText');
+
+      isPaused = !isPaused;
+
+      if (isPaused) {
+        newsfeed.classList.add('paused');
+        pauseIcon.style.display = 'none';
+        playIcon.style.display = 'block';
+        playPauseText.textContent = 'Play';
+      } else {
+        newsfeed.classList.remove('paused');
+        pauseIcon.style.display = 'block';
+        playIcon.style.display = 'none';
+        playPauseText.textContent = 'Pause';
+      }
+    }
+
+    // Set scroll speed
+    function setSpeed(speed) {
+      currentSpeed = speed;
+      const inner = document.getElementById('newsfeed-inner');
+      inner.style.animationDuration = speeds[speed] + 's';
+
+      // Update button states
+      document.getElementById('slowBtn').classList.remove('active');
+      document.getElementById('normalBtn').classList.remove('active');
+      document.getElementById('fastBtn').classList.remove('active');
+      document.getElementById(speed + 'Btn').classList.add('active');
+    }
+
+    // Open modal with article details
+    function openModal(card) {
+      const overlay = document.getElementById('modalOverlay');
+      const category = card.dataset.category;
+
+      document.getElementById('modalCategory').textContent = categoryLabels[category] || 'News';
+      document.getElementById('modalCategory').style.backgroundColor = categoryColors[category] || '#6B7280';
+      document.getElementById('modalDate').textContent = card.dataset.date;
+      document.getElementById('modalHeadline').textContent = card.dataset.headline;
+      document.getElementById('modalTakeaway').textContent = card.dataset.takeaway;
+      document.getElementById('modalBlurb').textContent = card.dataset.blurb || 'No additional details available.';
+      document.getElementById('modalSourceName').textContent = card.dataset.sourceName;
+      document.getElementById('modalSourceLink').href = card.dataset.sourceUrl;
+
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      // Pause scrolling when modal is open
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.add('paused');
+      }
+    }
+
+    // Close modal
+    function closeModal(event) {
+      if (event && event.target !== document.getElementById('modalOverlay')) {
+        return;
+      }
+      const overlay = document.getElementById('modalOverlay');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+
+      // Resume scrolling if it wasn't paused before
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.remove('paused');
+      }
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      // Don't trigger if modal is open and pressing other keys
+      const modalOpen = document.getElementById('modalOverlay').classList.contains('active');
+
+      if (e.key === 'Escape') {
+        if (document.getElementById('suggestOverlay').classList.contains('active')) {
+          closeSuggestModal();
+          return;
+        }
+        if (modalOpen) {
+          closeModal();
+          return;
+        }
+      }
+
+      if (modalOpen) return;
+
+      switch(e.key) {
+        case ' ':
+          e.preventDefault();
+          togglePlayPause();
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (currentSpeed === 'fast') setSpeed('normal');
+          else if (currentSpeed === 'normal') setSpeed('slow');
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          if (currentSpeed === 'slow') setSpeed('normal');
+          else if (currentSpeed === 'normal') setSpeed('fast');
+          break;
+      }
+    });
+
+    // Close modal on outside click
+    document.getElementById('modalOverlay').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+
+    // Suggest a Source modal
+    function openSuggestModal(event) {
+      event.preventDefault();
+      document.getElementById('suggestOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.add('paused');
+      }
+    }
+
+    function closeSuggestModal() {
+      document.getElementById('suggestOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+      if (!isPaused) {
+        document.getElementById('newsfeed').classList.remove('paused');
+      }
+    }
+
+    document.getElementById('suggestOverlay').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeSuggestModal();
+      }
+    });
+
+    function submitSuggestion(event) {
+      event.preventDefault();
+
+      var name = document.getElementById('suggestName').value.trim();
+      var url = document.getElementById('suggestUrl').value.trim();
+      var category = document.getElementById('suggestCategory').options[document.getElementById('suggestCategory').selectedIndex].text;
+      var notes = document.getElementById('suggestNotes').value.trim();
+      var email = document.getElementById('suggestEmail').value.trim();
+
+      var subject = 'PAI AeroNews - Source Suggestion: ' + name;
+      var body = 'Source Name: ' + name + '\n'
+        + 'URL: ' + url + '\n'
+        + 'Category: ' + category + '\n'
+        + (notes ? 'Notes: ' + notes + '\n' : '')
+        + (email ? 'Submitted by: ' + email + '\n' : '');
+
+      window.location.href = 'mailto:keithestes@paiconsulting.com'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(body);
+
+      document.getElementById('suggestForm').reset();
+      closeSuggestModal();
+    }
+  </script>
+
+</body>
+</html>
