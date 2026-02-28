@@ -94,7 +94,6 @@ jobs:
   # Analyst Mode — daily digest to dedicated Teams channel
   # Only runs on the daily analyst cron or manual dispatch with forceAnalystNow
   analyst-digest:
-    needs: update-news
     if: >-
       (github.event_name == 'workflow_dispatch' && inputs.forceAnalystNow == true) ||
       (github.event_name == 'schedule' && github.event.schedule == '15 15 * * *')
