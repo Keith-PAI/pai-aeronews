@@ -326,9 +326,8 @@ Takeaway:`;
 
   let attempted = false;
   try {
-    attempted = true;
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${CONFIG.googleAiApiKey}`,
+    const fetchPromise = fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${CONFIG.googleAiApiKey}`,
       {
         method: 'POST',
         headers: {
@@ -345,6 +344,8 @@ Takeaway:`;
         }),
       }
     );
+    attempted = true;
+    const response = await fetchPromise;
 
     const data = await response.json();
 
