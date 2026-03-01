@@ -451,3 +451,39 @@ Before merging any Phase 2+ change:
 2. Public Teams/Slack digest is unaffected
 3. New mode works end-to-end when secrets are present
 4. New mode skips gracefully when secrets are missing (exit 0, no errors)
+
+---
+
+# Engineering Rules for PAI AeroNews
+
+## Deployment Model
+- main is PR-only
+- gh-pages stores generated dist output
+- CI must never push to main
+- dist/ must never appear in feature PRs
+
+## Gemini Cost Safety
+- All Gemini calls must be guarded by canSpendGemini()
+- recordGeminiCalls(1) must be called exactly once per HTTP attempt
+- No double counting allowed
+- No silent cost paths
+
+## PR Hygiene
+- One concern per PR
+- No workflow changes inside feature PRs
+- No generated artifacts in PRs
+- Always review: gh pr diff <num> --name-only
+
+## Conflict Resolution Rule
+If conflict involves:
+- dist/*
+- .github/workflows/*
+- generated output
+
+Default resolution = take origin/main unless explicitly building infra.
+
+## Keith Reminder System
+When recommending merges or rebases:
+- Always print exact git status before proceeding
+- Always show diff list before merge
+- Always confirm branch name
