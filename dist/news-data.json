@@ -1,6 +1,74 @@
 {
-  "lastUpdated": "2026-03-05T21:42:27.013Z",
+  "lastUpdated": "2026-03-05T22:38:45.306Z",
   "articles": [
+    {
+      "id": "df9zky",
+      "type": "news",
+      "headline": "A Look At The Salaries Of US Commercial Pilots In 2026",
+      "blurb": "A thorough look at how pilots in the US are paid.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/salaries-us-commercial-pilots-2026/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "pilot"
+      ],
+      "publishedAt": "2026-03-05T22:30:18.000Z"
+    },
+    {
+      "id": "gwxp13",
+      "type": "news",
+      "headline": "Delta Air Lines’ Widebody Strategy: Why The Airbus A350 & A330 Work Together",
+      "blurb": "A new era for the iconic carrier.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/delta-air-lines-widebody-strategy-airbus-a350-a330-work-together/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-05T22:00:18.000Z"
+    },
+    {
+      "id": "uqg9jb",
+      "type": "news",
+      "headline": "Air Canada Rouge Debuts First 737 MAX 8 With Upgraded Cabins",
+      "blurb": "Air Canada Rouge's first Boeing 737 MAX 8 takes flight launching services to Edmonton and Kelowna, before it expands internationally.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/air-canada-rouge-first-737-max-8-upgraded-cabins/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-05T21:47:20.000Z"
+    },
+    {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-05T22:38:40.721Z",
+      "paiContent": true
+    },
     {
       "id": "be36pq",
       "type": "news",
@@ -66,6 +134,27 @@
       "publishedAt": "2026-03-05T20:30:50.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-05T22:38:40.721Z",
+      "paiContent": true
+    },
+    {
       "id": "6yw4za",
       "type": "news",
       "headline": "Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’",
@@ -78,26 +167,6 @@
       "category": "industry",
       "keywords": [],
       "publishedAt": "2026-03-05T20:29:00.000Z"
-    },
-    {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-05T21:42:22.038Z",
-      "paiContent": true
     },
     {
       "id": "uko8p2",
@@ -145,6 +214,29 @@
       "publishedAt": "2026-03-05T20:20:39.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-05T22:38:40.721Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "knjfmi",
       "type": "news",
       "headline": "$1 Billion & Counting: The Cost To Gulf Carriers Of The Middle East Meltdown",
@@ -157,26 +249,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-05T20:15:14.000Z"
-    },
-    {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-05T21:42:22.038Z",
-      "paiContent": true
     },
     {
       "id": "cgn769",
@@ -244,29 +316,6 @@
       "publishedAt": "2026-03-05T19:19:48.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-05T21:42:22.038Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "yil38t",
       "type": "news",
       "headline": "Turkey’s First Airborne Stand-Off Jammer Aircraft Breaks Cover",
@@ -297,20 +346,6 @@
         "pilot"
       ],
       "publishedAt": "2026-03-05T18:30:17.000Z"
-    },
-    {
-      "id": "5x4eh9",
-      "type": "news",
-      "headline": "Is It True That Snow Can Actually Increase Aircraft Engine Thrust?",
-      "blurb": "What happens when aircraft operate in snowy conditions?",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/true-snow-actually-increase-aircraft-engine-thrust/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-05T18:01:17.000Z"
     },
     {
       "id": "5es25u",
@@ -426,38 +461,6 @@
         "airport"
       ],
       "publishedAt": "2026-03-05T15:13:03.000Z"
-    },
-    {
-      "id": "172u7w",
-      "type": "news",
-      "headline": "Emirates' 1st Flight On The Massive 569-Seat Airbus A380 Starts Next Month",
-      "blurb": "The first passenger-carrying service on the new 569-seater will take place next month, marking a significant shift in Emirates' fleet.",
-      "takeaway": "Airbus activity reflects European aerospace trends.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/emirates-1st-flight-on-the-massive-569-seat-airbus-a380-starts-next-month/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-03-05T15:00:17.000Z"
-    },
-    {
-      "id": "irmiwc",
-      "type": "news",
-      "headline": "Trendsetter? How This Airline Introduced A Brand-New Cabin To The World Over 2 Decades Ago",
-      "blurb": "In 1992, a single airline challenged the industry's rigid class structure with a cabin that sat between economy and business.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/how-airline-introduced-brand-new-cabin-class-world-over-2-decades-ago/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-05T15:00:17.000Z"
     },
     {
       "id": "x9jfgw",
