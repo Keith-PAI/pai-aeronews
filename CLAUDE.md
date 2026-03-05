@@ -16,6 +16,31 @@ PAI AeroNews is an automated aviation news aggregator for **Performance Aircraft
 
 ---
 
+## Operator Context
+
+### Operator Profile
+- Keith is the sole operator — non-expert coder, disciplined process follower
+- He builds using AI coding tools ("vibecoder") and learns by doing
+- He understands Git basics but relies on explicit step-by-step instructions
+- He will verify your work — do not skip steps or assume he'll fill gaps
+
+### Repository Environment
+- Production GitHub repository with active CI
+- Cost-sensitive Gemini API usage (operator pays out of pocket)
+- Branch protection enabled on `main` (PR-only merges)
+- `gh-pages` branch holds generated `dist/` output
+- CI must never push to `main`
+
+### How to Work With Keith
+- Be explicit with every Git command — include the full command, not shorthand
+- Always verify branch state before making changes (`git status`, `git branch`)
+- Never recommend destructive Git commands (force push, reset --hard) without clearly explaining what they do and asking for confirmation
+- When modifying files, state which file you're changing and why before doing it
+- Optimize for production safety over speed
+- If a task has risk (touching workflows, cost logic, CI), flag it before proceeding
+
+---
+
 ## Architecture Overview
 
 ```
@@ -41,18 +66,56 @@ pai-aeronews/
 │   └── workflows/
 │       └── update-news.yml    # Scheduled GitHub Action (hourly)
 ├── scripts/
-│   └── fetch-rss.js           # RSS fetching + AI takeaways script
+│   └── fetch-rss.js           # RSS fetching + AI takeaways + content mixing script
 ├── src/
 │   └── template.html          # HTML template with styling + controls
 ├── dist/
 │   ├── index.html             # Generated output (deployed)
-│   └── news-data.json         # Structured data for Phase 2 features
+│   └── news-data.json         # Structured data with type field on all articles
 ├── sources.json               # RSS feed configuration
 ├── manual.json                # Manual article entries
+├── pai-content-library.json   # PAI blog articles + YouTube videos for feed mixing
+├── pai-content-admin.html     # Local admin page for managing the content library
 ├── CLAUDE.md                  # This documentation
 ├── package.json               # Node.js dependencies
 └── .env.example               # Environment variables template
 ```
+
+---
+
+## PAI Content Mixing
+
+The content mixing feature blends PAI Consulting's own blog articles and curated YouTube videos into the AeroNews scrolling newsfeed alongside external RSS news.
+
+### How It Works
+The hourly update script (`fetch-rss.js`) reads from two content sources:
+1. **External RSS feeds** — fetched from `sources.json` (existing behavior)
+2. **PAI content library** — read from `pai-content-library.json` (new)
+
+After fetching external news, the script selects a small number of PAI items per cycle (configurable) and inserts them at natural-looking positions in the feed — never first, and spaced apart.
+
+### pai-content-library.json
+Located in the project root. Contains:
+- **settings** — `maxPaiItemsPerCycle` (default 2) and `maxVideosPerCycle` (default 1)
+- **blogArticles[]** — PAI Consulting blog posts with fields: `id`, `headline`, `blurb`, `url` (relative path), `blog` (series name), `category`, `keywords`, `priority` (high/medium), `evergreen`, `active`
+- **videos[]** — Curated YouTube videos with fields: `id`, `headline`, `blurb`, `youtubeUrl`, `channel`, `duration`, `category`, `matchKeywords`, `active`
+
+### Article Type Field
+All articles in `news-data.json` now carry a `type` field:
+- `"news"` — External RSS articles (default; also used when `type` is missing for backward compatibility)
+- `"pai-blog"` — PAI Consulting blog articles (marked with `paiContent: true`)
+- `"video"` — YouTube videos (marked with `videoContent: true` and `duration`)
+
+### Feed Renderer Behavior
+- **news** cards render exactly as before
+- **pai-blog** cards show a small "PAI" badge in the card corner and link to paiconsulting.com (same tab)
+- **video** cards show a play icon overlay and duration, linking to YouTube (new tab)
+
+### Admin Page
+`pai-content-admin.html` is a standalone local HTML file (not deployed). Keith opens it in his browser to add, edit, toggle, and delete content library items, then downloads the updated JSON to commit.
+
+### No New Dependencies or Environment Variables
+This feature uses no additional npm packages or secrets.
 
 ---
 
@@ -376,12 +439,14 @@ npm run preview
 - [x] Manual article entry support
 - [x] news-data.json for Phase 2
 
-### Phase 2: Delivery Channels (Future)
+### Phase 2: Delivery Channels
 - [ ] Browser push notifications
 - [ ] Email digest (daily/weekly)
-- [ ] Teams/Slack webhooks
+- [x] Teams/Slack webhooks (daily digest via Adaptive Cards + Slack Block Kit)
+- [x] Daily SMS analyst digest via Teams (`scripts/analyst-mode.js`)
+- [x] Gemini API cost controls (`scripts/usage-limit.js`, daily call caps)
 - [ ] Personalized topic alerts
-- [ ] "Suggest a Source" form
+- [x] "Suggest a Source" form (modal in template with name, URL, category fields)
 
 ### Phase 3+: Advanced Features (Long-term)
 - [ ] AI trend analysis across articles
@@ -463,10 +528,11 @@ Before merging any Phase 2+ change:
 - dist/ must never appear in feature PRs
 
 ## Gemini Cost Safety
-- All Gemini calls must be guarded by canSpendGemini()
-- recordGeminiCalls(1) must be called exactly once per HTTP attempt
+- All Gemini API calls must be guarded by `canSpendGemini()` before execution
+- `recordGeminiCalls(1)` must fire exactly once per HTTP attempt
 - No double counting allowed
-- No silent cost paths
+- No silent cost paths — every call must be visible in usage tracking
+- When in doubt, ask before making changes that could trigger API calls
 
 ## PR Hygiene
 - One concern per PR
@@ -484,6 +550,8 @@ Default resolution = take origin/main unless explicitly building infra.
 
 ## Keith Reminder System
 When recommending merges or rebases:
-- Always print exact git status before proceeding
+- Always print exact `git status` before proceeding
 - Always show diff list before merge
 - Always confirm branch name
+- Never recommend destructive commands without explaining what they do and asking for confirmation
+- If a task touches workflows, cost logic, or CI, flag the risk before proceeding
