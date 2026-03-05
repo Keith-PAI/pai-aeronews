@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAI Content Library — Admin</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #F3F4F6;
+      color: #1F2937;
+      line-height: 1.5;
+      padding: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .subtitle { color: #6B7280; font-size: 0.85rem; margin-bottom: 20px; }
+
+    .section { background: white; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+
+    /* Top bar */
+    .top-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
+    .top-bar label { font-weight: 600; font-size: 0.85rem; }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .btn-primary { background: #002F69; color: white; }
+    .btn-primary:hover { background: #001a3d; }
+    .btn-secondary { background: #E5E7EB; color: #374151; }
+    .btn-secondary:hover { background: #D1D5DB; }
+    .btn-danger { background: #FEE2E2; color: #DC2626; }
+    .btn-danger:hover { background: #FECACA; }
+    .btn-sm { padding: 4px 10px; font-size: 0.75rem; }
+
+    /* Item list */
+    .item-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #F3F4F6;
+    }
+    .item-row:last-child { border-bottom: none; }
+    .item-row.inactive { opacity: 0.45; }
+
+    .item-info { flex: 1; min-width: 0; }
+    .item-headline { font-weight: 600; font-size: 0.9rem; }
+    .item-meta { font-size: 0.75rem; color: #6B7280; margin-top: 2px; }
+    .item-actions { display: flex; gap: 6px; flex-shrink: 0; align-items: center; }
+
+    /* Toggle switch */
+    .toggle { position: relative; width: 36px; height: 20px; flex-shrink: 0; }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle .slider {
+      position: absolute; inset: 0; background: #D1D5DB; border-radius: 10px;
+      cursor: pointer; transition: background 0.2s;
+    }
+    .toggle .slider::before {
+      content: ''; position: absolute; width: 16px; height: 16px;
+      left: 2px; bottom: 2px; background: white; border-radius: 50%;
+      transition: transform 0.2s;
+    }
+    .toggle input:checked + .slider { background: #10B981; }
+    .toggle input:checked + .slider::before { transform: translateX(16px); }
+
+    /* Form */
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .form-grid .full { grid-column: 1 / -1; }
+
+    .field label { display: block; font-size: 0.8rem; font-weight: 600; color: #374151; margin-bottom: 3px; }
+    .field input, .field select, .field textarea {
+      width: 100%; padding: 8px 10px; border: 1px solid #D1D5DB; border-radius: 6px;
+      font-size: 0.85rem; font-family: inherit; color: #1F2937;
+    }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      outline: none; border-color: #002F69; box-shadow: 0 0 0 2px rgba(0,47,105,0.1);
+    }
+    .field textarea { resize: vertical; min-height: 50px; }
+
+    .form-actions { display: flex; gap: 8px; margin-top: 12px; }
+
+    /* Settings */
+    .settings-row { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+    .settings-row .field { flex: 0 0 auto; }
+    .settings-row input[type="number"] { width: 60px; text-align: center; }
+
+    /* Preview */
+    .preview-box {
+      background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 8px;
+      padding: 12px; font-family: 'SF Mono', Monaco, Consolas, monospace;
+      font-size: 0.75rem; color: #374151; white-space: pre-wrap; word-break: break-all;
+      max-height: 300px; overflow-y: auto; margin-top: 12px;
+    }
+
+    .count-badge {
+      background: #DBEAFE; color: #1E40AF; font-size: 0.7rem; font-weight: 600;
+      padding: 2px 8px; border-radius: 10px;
+    }
+
+    /* Hidden */
+    .hidden { display: none !important; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .form-grid { grid-template-columns: 1fr; }
+      .settings-row { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>PAI Content Library — Admin</h1>
+<p class="subtitle">Manage blog articles and videos for the AeroNews feed. Load your library, edit items, then download the updated file.</p>
+
+<!-- Top bar: Load / Save -->
+<div class="top-bar">
+  <label for="fileInput">Load JSON:</label>
+  <input type="file" id="fileInput" accept=".json" />
+  <button class="btn-primary" onclick="downloadJson()">Save / Download JSON</button>
+</div>
+
+<!-- Settings -->
+<div class="section" id="settingsSection">
+  <h2>Settings</h2>
+  <div class="settings-row">
+    <div class="field">
+      <label for="maxBlogs">Max blog articles per cycle</label>
+      <input type="number" id="maxBlogs" min="0" max="10" value="2" onchange="updateSettings()" />
+    </div>
+    <div class="field">
+      <label for="maxVideos">Max videos per cycle</label>
+      <input type="number" id="maxVideos" min="0" max="10" value="1" onchange="updateSettings()" />
+    </div>
+  </div>
+</div>
+
+<!-- Blog Articles -->
+<div class="section">
+  <h2>Blog Articles <span class="count-badge" id="blogCount">0 active</span></h2>
+  <div id="blogList"></div>
+  <button class="btn-secondary" style="margin-top:12px;" onclick="showBlogForm()">+ Add Blog Article</button>
+  <div id="blogFormContainer" class="hidden" style="margin-top:16px;">
+    <div class="form-grid">
+      <div class="field"><label>ID (pai-slug)</label><input id="bf-id" placeholder="pai-my-article" /></div>
+      <div class="field"><label>Blog Series</label>
+        <select id="bf-blog">
+          <option value="sms-quick-takes">SMS Quick Takes</option>
+          <option value="stet-happens">Stet Happens</option>
+          <option value="meeting-your-needs">Meeting Your Needs</option>
+        </select>
+      </div>
+      <div class="field full"><label>Headline</label><input id="bf-headline" /></div>
+      <div class="field full"><label>Blurb</label><textarea id="bf-blurb"></textarea></div>
+      <div class="field full"><label>URL path (relative, e.g. /sms-quick-takes-all-about-sms/...)</label><input id="bf-url" /></div>
+      <div class="field"><label>Category</label>
+        <select id="bf-category">
+          <option value="safety">Safety</option>
+          <option value="general-aviation">General Aviation</option>
+          <option value="commercial">Commercial</option>
+          <option value="business-aviation">Business Aviation</option>
+          <option value="industry">Industry</option>
+          <option value="aerospace">Aerospace</option>
+          <option value="evtol">eVTOL</option>
+          <option value="drones">Drones</option>
+          <option value="electric">Electric</option>
+          <option value="regulatory">Regulatory</option>
+          <option value="military">Military</option>
+          <option value="corporate">Corporate</option>
+          <option value="international">International</option>
+        </select>
+      </div>
+      <div class="field"><label>Priority</label>
+        <select id="bf-priority"><option value="high">High</option><option value="medium">Medium</option></select>
+      </div>
+      <div class="field full"><label>Keywords (comma-separated)</label><input id="bf-keywords" placeholder="sms, risk, faa" /></div>
+      <div class="field"><label>Evergreen?</label>
+        <select id="bf-evergreen"><option value="true">Yes</option><option value="false">No</option></select>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" onclick="saveBlog()">Save Article</button>
+      <button class="btn-secondary" onclick="cancelBlogForm()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Videos -->
+<div class="section">
+  <h2>Videos <span class="count-badge" id="videoCount">0 active</span></h2>
+  <div id="videoList"></div>
+  <button class="btn-secondary" style="margin-top:12px;" onclick="showVideoForm()">+ Add Video</button>
+  <div id="videoFormContainer" class="hidden" style="margin-top:16px;">
+    <div class="form-grid">
+      <div class="field"><label>ID (yt-slug)</label><input id="vf-id" placeholder="yt-my-video" /></div>
+      <div class="field"><label>Channel Name</label><input id="vf-channel" /></div>
+      <div class="field full"><label>Headline</label><input id="vf-headline" /></div>
+      <div class="field full"><label>Blurb</label><textarea id="vf-blurb"></textarea></div>
+      <div class="field full"><label>YouTube URL</label><input id="vf-url" placeholder="https://www.youtube.com/watch?v=..." /></div>
+      <div class="field"><label>Duration</label><input id="vf-duration" placeholder="12:34" /></div>
+      <div class="field"><label>Category</label>
+        <select id="vf-category">
+          <option value="safety">Safety</option>
+          <option value="general-aviation">General Aviation</option>
+          <option value="commercial">Commercial</option>
+          <option value="business-aviation">Business Aviation</option>
+          <option value="industry">Industry</option>
+          <option value="aerospace">Aerospace</option>
+          <option value="evtol">eVTOL</option>
+          <option value="drones">Drones</option>
+          <option value="electric">Electric</option>
+          <option value="regulatory">Regulatory</option>
+          <option value="military">Military</option>
+          <option value="corporate">Corporate</option>
+          <option value="international">International</option>
+        </select>
+      </div>
+      <div class="field full"><label>Match Keywords (comma-separated)</label><input id="vf-keywords" placeholder="aviation, safety" /></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" onclick="saveVideo()">Save Video</button>
+      <button class="btn-secondary" onclick="cancelVideoForm()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Preview -->
+<div class="section">
+  <h2>Preview</h2>
+  <p style="font-size:0.8rem;color:#6B7280;">Click any item above to see its feed JSON format here.</p>
+  <div class="preview-box" id="previewBox">Select an item to preview its JSON output.</div>
+</div>
+
+<script>
+// ---- State ----
+var library = {
+  lastEdited: new Date().toISOString(),
+  settings: { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1 },
+  blogArticles: [],
+  videos: []
+};
+var editingBlogIndex = -1;
+var editingVideoIndex = -1;
+
+// ---- File I/O ----
+document.getElementById('fileInput').addEventListener('change', function(e) {
+  var file = e.target.files[0];
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function(ev) {
+    try {
+      var parsed = JSON.parse(ev.target.result);
+      library = parsed;
+      library.blogArticles = library.blogArticles || [];
+      library.videos = library.videos || [];
+      library.settings = library.settings || { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1 };
+      document.getElementById('maxBlogs').value = library.settings.maxPaiItemsPerCycle || 2;
+      document.getElementById('maxVideos').value = library.settings.maxVideosPerCycle || 1;
+      renderAll();
+    } catch (err) {
+      alert('Invalid JSON file: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+function downloadJson() {
+  library.lastEdited = new Date().toISOString();
+  var blob = new Blob([JSON.stringify(library, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'pai-content-library.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// ---- Settings ----
+function updateSettings() {
+  library.settings.maxPaiItemsPerCycle = parseInt(document.getElementById('maxBlogs').value) || 2;
+  library.settings.maxVideosPerCycle = parseInt(document.getElementById('maxVideos').value) || 1;
+}
+
+// ---- Render ----
+function renderAll() {
+  renderBlogs();
+  renderVideos();
+}
+
+function renderBlogs() {
+  var list = document.getElementById('blogList');
+  var active = library.blogArticles.filter(function(a) { return a.active; }).length;
+  document.getElementById('blogCount').textContent = active + ' active';
+  if (library.blogArticles.length === 0) {
+    list.innerHTML = '<p style="color:#9CA3AF;font-size:0.85rem;">No blog articles yet.</p>';
+    return;
+  }
+  list.innerHTML = library.blogArticles.map(function(a, i) {
+    return '<div class="item-row' + (a.active ? '' : ' inactive') + '">'
+      + '<div class="item-info" onclick="previewBlog(' + i + ')" style="cursor:pointer;">'
+      + '<div class="item-headline">' + esc(a.headline) + '</div>'
+      + '<div class="item-meta">' + esc(a.id) + ' &middot; ' + esc(a.blog) + ' &middot; ' + esc(a.category) + ' &middot; ' + a.priority + '</div>'
+      + '</div>'
+      + '<div class="item-actions">'
+      + '<label class="toggle"><input type="checkbox"' + (a.active ? ' checked' : '') + ' onchange="toggleBlog(' + i + ')"><span class="slider"></span></label>'
+      + '<button class="btn-secondary btn-sm" onclick="editBlog(' + i + ')">Edit</button>'
+      + '<button class="btn-danger btn-sm" onclick="deleteBlog(' + i + ')">Del</button>'
+      + '</div></div>';
+  }).join('');
+}
+
+function renderVideos() {
+  var list = document.getElementById('videoList');
+  var active = library.videos.filter(function(v) { return v.active; }).length;
+  document.getElementById('videoCount').textContent = active + ' active';
+  if (library.videos.length === 0) {
+    list.innerHTML = '<p style="color:#9CA3AF;font-size:0.85rem;">No videos yet.</p>';
+    return;
+  }
+  list.innerHTML = library.videos.map(function(v, i) {
+    return '<div class="item-row' + (v.active ? '' : ' inactive') + '">'
+      + '<div class="item-info" onclick="previewVideo(' + i + ')" style="cursor:pointer;">'
+      + '<div class="item-headline">' + esc(v.headline) + '</div>'
+      + '<div class="item-meta">' + esc(v.id) + ' &middot; ' + esc(v.channel) + ' &middot; ' + (v.duration || '') + ' &middot; ' + esc(v.category) + '</div>'
+      + '</div>'
+      + '<div class="item-actions">'
+      + '<label class="toggle"><input type="checkbox"' + (v.active ? ' checked' : '') + ' onchange="toggleVideo(' + i + ')"><span class="slider"></span></label>'
+      + '<button class="btn-secondary btn-sm" onclick="editVideo(' + i + ')">Edit</button>'
+      + '<button class="btn-danger btn-sm" onclick="deleteVideo(' + i + ')">Del</button>'
+      + '</div></div>';
+  }).join('');
+}
+
+// ---- Blog CRUD ----
+function showBlogForm() {
+  editingBlogIndex = -1;
+  clearBlogForm();
+  document.getElementById('blogFormContainer').classList.remove('hidden');
+}
+
+function cancelBlogForm() {
+  document.getElementById('blogFormContainer').classList.add('hidden');
+  editingBlogIndex = -1;
+}
+
+function clearBlogForm() {
+  ['bf-id','bf-headline','bf-blurb','bf-url','bf-keywords'].forEach(function(id) {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('bf-blog').value = 'sms-quick-takes';
+  document.getElementById('bf-category').value = 'safety';
+  document.getElementById('bf-priority').value = 'high';
+  document.getElementById('bf-evergreen').value = 'true';
+}
+
+function editBlog(i) {
+  editingBlogIndex = i;
+  var a = library.blogArticles[i];
+  document.getElementById('bf-id').value = a.id;
+  document.getElementById('bf-headline').value = a.headline;
+  document.getElementById('bf-blurb').value = a.blurb;
+  document.getElementById('bf-url').value = a.url;
+  document.getElementById('bf-blog').value = a.blog;
+  document.getElementById('bf-category').value = a.category;
+  document.getElementById('bf-priority').value = a.priority;
+  document.getElementById('bf-keywords').value = (a.keywords || []).join(', ');
+  document.getElementById('bf-evergreen').value = String(a.evergreen);
+  document.getElementById('blogFormContainer').classList.remove('hidden');
+}
+
+function saveBlog() {
+  var obj = {
+    id: document.getElementById('bf-id').value.trim(),
+    headline: document.getElementById('bf-headline').value.trim(),
+    blurb: document.getElementById('bf-blurb').value.trim(),
+    url: document.getElementById('bf-url').value.trim(),
+    blog: document.getElementById('bf-blog').value,
+    category: document.getElementById('bf-category').value,
+    keywords: document.getElementById('bf-keywords').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean),
+    priority: document.getElementById('bf-priority').value,
+    evergreen: document.getElementById('bf-evergreen').value === 'true',
+    active: true
+  };
+  if (!obj.id || !obj.headline) { alert('ID and Headline are required.'); return; }
+
+  if (editingBlogIndex >= 0) {
+    obj.active = library.blogArticles[editingBlogIndex].active;
+    library.blogArticles[editingBlogIndex] = obj;
+  } else {
+    library.blogArticles.push(obj);
+  }
+  cancelBlogForm();
+  renderBlogs();
+}
+
+function toggleBlog(i) {
+  library.blogArticles[i].active = !library.blogArticles[i].active;
+  renderBlogs();
+}
+
+function deleteBlog(i) {
+  if (!confirm('Delete "' + library.blogArticles[i].headline + '"?')) return;
+  library.blogArticles.splice(i, 1);
+  renderBlogs();
+}
+
+// ---- Video CRUD ----
+function showVideoForm() {
+  editingVideoIndex = -1;
+  clearVideoForm();
+  document.getElementById('videoFormContainer').classList.remove('hidden');
+}
+
+function cancelVideoForm() {
+  document.getElementById('videoFormContainer').classList.add('hidden');
+  editingVideoIndex = -1;
+}
+
+function clearVideoForm() {
+  ['vf-id','vf-headline','vf-blurb','vf-url','vf-channel','vf-duration','vf-keywords'].forEach(function(id) {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('vf-category').value = 'safety';
+}
+
+function editVideo(i) {
+  editingVideoIndex = i;
+  var v = library.videos[i];
+  document.getElementById('vf-id').value = v.id;
+  document.getElementById('vf-headline').value = v.headline;
+  document.getElementById('vf-blurb').value = v.blurb;
+  document.getElementById('vf-url').value = v.youtubeUrl;
+  document.getElementById('vf-channel').value = v.channel;
+  document.getElementById('vf-duration').value = v.duration || '';
+  document.getElementById('vf-category').value = v.category;
+  document.getElementById('vf-keywords').value = (v.matchKeywords || []).join(', ');
+  document.getElementById('videoFormContainer').classList.remove('hidden');
+}
+
+function saveVideo() {
+  var obj = {
+    id: document.getElementById('vf-id').value.trim(),
+    headline: document.getElementById('vf-headline').value.trim(),
+    blurb: document.getElementById('vf-blurb').value.trim(),
+    youtubeUrl: document.getElementById('vf-url').value.trim(),
+    channel: document.getElementById('vf-channel').value.trim(),
+    duration: document.getElementById('vf-duration').value.trim(),
+    category: document.getElementById('vf-category').value,
+    matchKeywords: document.getElementById('vf-keywords').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean),
+    active: true
+  };
+  if (!obj.id || !obj.headline) { alert('ID and Headline are required.'); return; }
+
+  if (editingVideoIndex >= 0) {
+    obj.active = library.videos[editingVideoIndex].active;
+    library.videos[editingVideoIndex] = obj;
+  } else {
+    library.videos.push(obj);
+  }
+  cancelVideoForm();
+  renderVideos();
+}
+
+function toggleVideo(i) {
+  library.videos[i].active = !library.videos[i].active;
+  renderVideos();
+}
+
+function deleteVideo(i) {
+  if (!confirm('Delete "' + library.videos[i].headline + '"?')) return;
+  library.videos.splice(i, 1);
+  renderVideos();
+}
+
+// ---- Preview ----
+var blogNames = { 'sms-quick-takes': 'SMS Quick Takes', 'stet-happens': 'Stet Happens', 'meeting-your-needs': 'Meeting Your Needs' };
+
+function previewBlog(i) {
+  var a = library.blogArticles[i];
+  var feedObj = {
+    id: a.id,
+    type: 'pai-blog',
+    headline: a.headline,
+    blurb: a.blurb,
+    takeaway: '',
+    source: {
+      name: 'PAI Consulting \u2014 ' + (blogNames[a.blog] || a.blog),
+      url: 'https://www.paiconsulting.com' + a.url
+    },
+    category: a.category,
+    keywords: a.keywords,
+    publishedAt: '<current timestamp>',
+    paiContent: true
+  };
+  document.getElementById('previewBox').textContent = JSON.stringify(feedObj, null, 2);
+}
+
+function previewVideo(i) {
+  var v = library.videos[i];
+  var feedObj = {
+    id: v.id,
+    type: 'video',
+    headline: v.headline,
+    blurb: v.blurb,
+    takeaway: '',
+    source: {
+      name: v.channel + ' (YouTube)',
+      url: v.youtubeUrl
+    },
+    category: v.category,
+    keywords: v.matchKeywords,
+    publishedAt: '<current timestamp>',
+    videoContent: true,
+    duration: v.duration
+  };
+  document.getElementById('previewBox').textContent = JSON.stringify(feedObj, null, 2);
+}
+
+// ---- Util ----
+function esc(s) {
+  if (!s) return '';
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// Initial render
+renderAll();
+</script>
+</body>
+</html>

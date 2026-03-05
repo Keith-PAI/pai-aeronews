@@ -29,6 +29,7 @@ const CONFIG = {
   templatePath: path.join(__dirname, '..', 'src', 'template.html'),
   sourcesPath: path.join(__dirname, '..', 'sources.json'),
   manualPath: path.join(__dirname, '..', 'manual.json'),
+  paiContentPath: path.join(__dirname, '..', 'pai-content-library.json'),
   scrollDuration: 60, // seconds for full scroll cycle
 };
 
@@ -75,6 +76,147 @@ function loadManualArticles() {
     console.warn('No manual.json found or invalid format, skipping manual articles');
     return [];
   }
+}
+
+/**
+ * Blog series slug → readable name mapping
+ */
+const BLOG_NAMES = {
+  'sms-quick-takes': 'SMS Quick Takes',
+  'stet-happens': 'Stet Happens',
+  'meeting-your-needs': 'Meeting Your Needs',
+};
+
+/**
+ * Load PAI content library from pai-content-library.json
+ * Returns null if file is missing or malformed (graceful fallback)
+ */
+function loadPaiContentLibrary() {
+  try {
+    const data = fs.readFileSync(CONFIG.paiContentPath, 'utf-8');
+    const library = JSON.parse(data);
+    if (!library || typeof library !== 'object') return null;
+    return library;
+  } catch (error) {
+    console.warn('No pai-content-library.json found or invalid format, skipping PAI content mixing');
+    return null;
+  }
+}
+
+/**
+ * Select PAI blog articles for this cycle using priority weighting
+ */
+function selectPaiBlogArticles(blogArticles, max) {
+  const active = blogArticles.filter(a => a.active);
+  if (active.length === 0 || max <= 0) return [];
+
+  // Build weighted pool: high priority items appear 2x
+  const weighted = [];
+  for (const article of active) {
+    weighted.push(article);
+    if (article.priority === 'high') {
+      weighted.push(article);
+    }
+  }
+
+  // Shuffle and pick unique items up to max
+  const shuffled = weighted.sort(() => Math.random() - 0.5);
+  const selected = [];
+  const seen = new Set();
+  for (const article of shuffled) {
+    if (seen.has(article.id)) continue;
+    seen.add(article.id);
+    selected.push(article);
+    if (selected.length >= max) break;
+  }
+
+  return selected;
+}
+
+/**
+ * Select YouTube videos for this cycle, preferring keyword overlap with current news
+ */
+function selectPaiVideos(videos, max, newsKeywords) {
+  const active = videos.filter(v => v.active);
+  if (active.length === 0 || max <= 0) return [];
+
+  // Score by keyword overlap with current news
+  const scored = active.map(video => {
+    const overlap = (video.matchKeywords || []).filter(k =>
+      newsKeywords.has(k.toLowerCase())
+    ).length;
+    return { video, overlap };
+  });
+
+  // Sort by overlap descending, then shuffle ties
+  scored.sort((a, b) => b.overlap - a.overlap || (Math.random() - 0.5));
+
+  return scored.slice(0, max).map(s => s.video);
+}
+
+/**
+ * Convert a PAI blog article to the feed article format
+ */
+function convertPaiBlogToArticle(blog) {
+  const blogName = BLOG_NAMES[blog.blog] || blog.blog;
+  return {
+    id: blog.id,
+    type: 'pai-blog',
+    headline: blog.headline,
+    blurb: blog.blurb,
+    takeaway: '',
+    source: {
+      name: `PAI Consulting — ${blogName}`,
+      url: `https://www.paiconsulting.com${blog.url}`,
+    },
+    category: blog.category,
+    keywords: blog.keywords || [],
+    publishedAt: new Date().toISOString(),
+    paiContent: true,
+  };
+}
+
+/**
+ * Convert a YouTube video to the feed article format
+ */
+function convertVideoToArticle(video) {
+  return {
+    id: video.id,
+    type: 'video',
+    headline: video.headline,
+    blurb: video.blurb,
+    takeaway: '',
+    source: {
+      name: `${video.channel} (YouTube)`,
+      url: video.youtubeUrl,
+    },
+    category: video.category,
+    keywords: video.matchKeywords || [],
+    publishedAt: new Date().toISOString(),
+    videoContent: true,
+    duration: video.duration || '',
+  };
+}
+
+/**
+ * Merge PAI items into the articles array at natural-looking positions
+ * - Never place as the very first article
+ * - First PAI item around position 3-5
+ * - Additional items spaced at least 4-5 positions apart
+ */
+function mergePaiItems(articles, paiItems) {
+  if (paiItems.length === 0) return articles;
+
+  const result = [...articles];
+  const startPos = 3 + Math.floor(Math.random() * 3); // position 3-5
+  const spacing = 4 + Math.floor(Math.random() * 2);   // 4-5 apart
+
+  for (let i = 0; i < paiItems.length; i++) {
+    const insertAt = Math.min(startPos + i * spacing, result.length);
+    result.splice(insertAt, 0, paiItems[i]);
+  }
+
+  return result;
 }
 
 /**
@@ -451,6 +593,7 @@ function escapeHtml(text) {
 function generateNewsCard(article, index) {
   const date = formatDate(article.publishedAt);
   const categoryInfo = CATEGORY_INFO[article.category] || { label: 'News', color: '#6B7280' };
+  const type = article.type || 'news';
 
   // Escape content for HTML attributes (for modal data)
   const escapedHeadline = escapeHtml(article.headline);
@@ -458,10 +601,28 @@ function generateNewsCard(article, index) {
   const escapedTakeaway = escapeHtml(article.takeaway);
   const escapedSourceName = escapeHtml(article.source.name);
   const escapedSourceUrl = escapeHtml(article.source.url);
+  const escapedDuration = escapeHtml(article.duration || '');
+
+  // PAI blog cards link same-tab; video and news open new tab
+  const linkTarget = type === 'pai-blog' ? '' : ' target="_blank" rel="noopener noreferrer"';
+
+  // PAI badge for pai-blog cards
+  const paiBadge = type === 'pai-blog'
+    ? '<span class="pai-badge">PAI</span>'
+    : '';
+
+  // Video overlay for video cards
+  const videoOverlay = type === 'video'
+    ? `<div class="video-overlay"><span class="video-play-icon">&#9654;</span>${escapedDuration ? `<span class="video-duration">${escapedDuration}</span>` : ''}</div>`
+    : '';
+
+  // Extra CSS class for card type
+  const typeClass = type !== 'news' ? ` card-type-${type}` : '';
 
   return `
-        <div class="news-card"
+        <div class="news-card${typeClass}"
              data-index="${index}"
+             data-type="${type}"
              data-headline="${escapedHeadline}"
              data-blurb="${escapedBlurb}"
              data-takeaway="${escapedTakeaway}"
@@ -469,7 +630,10 @@ function generateNewsCard(article, index) {
              data-source-url="${escapedSourceUrl}"
              data-category="${article.category}"
              data-date="${formatDateTime(article.publishedAt)}"
+             data-duration="${escapedDuration}"
              onclick="openModal(this)">
+          ${paiBadge}
+          ${videoOverlay}
           <div class="card-header">
             <span class="category-badge" style="background-color: ${categoryInfo.color}">${categoryInfo.label}</span>
             <span class="date">${date}</span>
@@ -478,7 +642,7 @@ function generateNewsCard(article, index) {
           <p class="blurb">${escapedBlurb}</p>
           <p class="takeaway">${escapedTakeaway}</p>
           <p class="source-link">
-            See <a href="${escapedSourceUrl}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${escapedSourceName}</a> &rarr;
+            See <a href="${escapedSourceUrl}"${linkTarget} onclick="event.stopPropagation()">${escapedSourceName}</a> &rarr;
           </p>
         </div>`;
 }
@@ -554,16 +718,25 @@ function writeOutput(html, articles) {
   // Write JSON data file (for future use / Phase 2)
   const jsonData = {
     lastUpdated: new Date().toISOString(),
-    articles: articles.map(a => ({
-      id: a.id,
-      headline: a.headline,
-      blurb: a.blurb,
-      takeaway: a.takeaway,
-      source: a.source,
-      category: a.category,
-      keywords: a.keywords,
-      publishedAt: a.publishedAt,
-    })),
+    articles: articles.map(a => {
+      const article = {
+        id: a.id,
+        type: a.type || 'news',
+        headline: a.headline,
+        blurb: a.blurb,
+        takeaway: a.takeaway,
+        source: a.source,
+        category: a.category,
+        keywords: a.keywords,
+        publishedAt: a.publishedAt,
+      };
+      if (a.paiContent) article.paiContent = true;
+      if (a.videoContent) {
+        article.videoContent = true;
+        if (a.duration) article.duration = a.duration;
+      }
+      return article;
+    }),
   };
 
   const jsonPath = path.join(CONFIG.outputDir, 'news-data.json');
@@ -864,9 +1037,50 @@ async function main() {
       ...normalManual.filter(a => !seenUrls.has(a.source.url)),
     ];
 
+    // Add type: "news" to all existing articles
+    for (const article of combinedArticles) {
+      if (!article.type) {
+        article.type = 'news';
+      }
+    }
+
+    // Mix in PAI content library items
+    const paiLibrary = loadPaiContentLibrary();
+    let paiItemsToMerge = [];
+
+    if (paiLibrary) {
+      const maxPaiBlog = paiLibrary.settings?.maxPaiItemsPerCycle ?? 2;
+      const maxVideos = paiLibrary.settings?.maxVideosPerCycle ?? 1;
+
+      // Collect all news keywords for video matching
+      const newsKeywords = new Set();
+      for (const article of combinedArticles) {
+        for (const kw of (article.keywords || [])) {
+          newsKeywords.add(kw.toLowerCase());
+        }
+      }
+
+      // Select and convert blog articles
+      const selectedBlogs = selectPaiBlogArticles(paiLibrary.blogArticles || [], maxPaiBlog);
+      const blogArticles = selectedBlogs.map(convertPaiBlogToArticle);
+
+      // Select and convert videos
+      const selectedVideos = selectPaiVideos(paiLibrary.videos || [], maxVideos, newsKeywords);
+      const videoArticles = selectedVideos.map(convertVideoToArticle);
+
+      paiItemsToMerge = [...blogArticles, ...videoArticles];
+
+      if (paiItemsToMerge.length > 0) {
+        console.log(`PAI content: ${blogArticles.length} blog article(s), ${videoArticles.length} video(s) selected for mixing`);
+      }
+    }
+
+    // Merge PAI items at natural positions
+    const mergedArticles = mergePaiItems(combinedArticles, paiItemsToMerge);
+
     // Limit to configured max
     const maxArticles = sources.settings?.maxArticlesInTicker || 36;
-    const finalArticles = combinedArticles.slice(0, maxArticles);
+    const finalArticles = mergedArticles.slice(0, maxArticles);
 
     console.log(`After deduplication and limiting: ${finalArticles.length} articles\n`);
 

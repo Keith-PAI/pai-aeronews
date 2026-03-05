@@ -157,6 +157,57 @@
       cursor: pointer;
       transition: all 0.3s ease;
       border: 2px solid transparent;
+      position: relative;
+    }
+
+    /* PAI Blog Card — subtle left accent border */
+    .card-type-pai-blog {
+      border-left: 3px solid #1a3c5e;
+    }
+
+    /* PAI Badge — flow element above category pill, matching video overlay position */
+    .pai-badge {
+      display: inline-flex;
+      align-items: center;
+      background: #1a3c5e;
+      color: white;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border-radius: 4px;
+      line-height: 1.3;
+      margin-bottom: 2px;
+    }
+
+    /* Video Card Overlay */
+    .video-overlay {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2px;
+    }
+
+    .video-play-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: #EF4444;
+      color: white;
+      border-radius: 50%;
+      font-size: 0.7rem;
+      flex-shrink: 0;
+    }
+
+    .video-duration {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #6B7280;
+      background: #F3F4F6;
+      padding: 2px 6px;
+      border-radius: 4px;
     }
 
     .news-card:hover {
@@ -646,6 +697,7 @@
       </div>
       <h2 class="modal-headline" id="modalHeadline">Headline</h2>
       <div class="modal-takeaway" id="modalTakeaway">Takeaway</div>
+      <p class="modal-duration" id="modalDuration" style="display:none;font-size:0.85rem;color:#6B7280;margin-bottom:8px;"></p>
       <p class="modal-blurb" id="modalBlurb">Description</p>
       <a class="modal-source-link" id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer">
         See <span id="modalSourceName">Source</span>
@@ -786,15 +838,44 @@
     function openModal(card) {
       const overlay = document.getElementById('modalOverlay');
       const category = card.dataset.category;
+      const type = card.dataset.type || 'news';
 
       document.getElementById('modalCategory').textContent = categoryLabels[category] || 'News';
       document.getElementById('modalCategory').style.backgroundColor = categoryColors[category] || '#6B7280';
       document.getElementById('modalDate').textContent = card.dataset.date;
       document.getElementById('modalHeadline').textContent = card.dataset.headline;
-      document.getElementById('modalTakeaway').textContent = card.dataset.takeaway;
       document.getElementById('modalBlurb').textContent = card.dataset.blurb || 'No additional details available.';
       document.getElementById('modalSourceName').textContent = card.dataset.sourceName;
       document.getElementById('modalSourceLink').href = card.dataset.sourceUrl;
+
+      // Show/hide takeaway (PAI blog and video items may have empty takeaway)
+      var takeawayEl = document.getElementById('modalTakeaway');
+      var takeawayText = card.dataset.takeaway;
+      if (takeawayText) {
+        takeawayEl.textContent = takeawayText;
+        takeawayEl.style.display = '';
+      } else {
+        takeawayEl.style.display = 'none';
+      }
+
+      // Show duration for video type
+      var durationEl = document.getElementById('modalDuration');
+      if (type === 'video' && card.dataset.duration) {
+        durationEl.textContent = 'Duration: ' + card.dataset.duration;
+        durationEl.style.display = '';
+      } else {
+        durationEl.style.display = 'none';
+      }
+
+      // PAI blog links open same tab; others open new tab
+      var sourceLink = document.getElementById('modalSourceLink');
+      if (type === 'pai-blog') {
+        sourceLink.removeAttribute('target');
+        sourceLink.removeAttribute('rel');
+      } else {
+        sourceLink.setAttribute('target', '_blank');
+        sourceLink.setAttribute('rel', 'noopener noreferrer');
+      }
 
       overlay.classList.add('active');
       document.body.style.overflow = 'hidden';
