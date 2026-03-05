@@ -157,6 +157,57 @@
       cursor: pointer;
       transition: all 0.3s ease;
       border: 2px solid transparent;
+      position: relative;
+    }
+
+    /* PAI Blog Card — subtle left accent border */
+    .card-type-pai-blog {
+      border-left: 3px solid #1a3c5e;
+    }
+
+    /* PAI Badge — flow element above category pill, matching video overlay position */
+    .pai-badge {
+      display: inline-flex;
+      align-items: center;
+      background: #1a3c5e;
+      color: white;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border-radius: 4px;
+      line-height: 1.3;
+      margin-bottom: 2px;
+    }
+
+    /* Video Card Overlay */
+    .video-overlay {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2px;
+    }
+
+    .video-play-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: #EF4444;
+      color: white;
+      border-radius: 50%;
+      font-size: 0.7rem;
+      flex-shrink: 0;
+    }
+
+    .video-duration {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #6B7280;
+      background: #F3F4F6;
+      padding: 2px 6px;
+      border-radius: 4px;
     }
 
     .news-card:hover {
@@ -624,6 +675,215 @@
         
         <div class="news-card"
              data-index="0"
+             data-type="news"
+             data-headline="General Galactic aims to become “the galaxy’s energy logistics company”"
+             data-blurb="SAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Ga..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/"
+             data-category="aerospace"
+             data-date="Mar 5, 2026, 8:30 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">General Galactic aims to become “the galaxy’s energy logistics company”</h2>
+          <p class="blurb">SAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Ga...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="1"
+             data-type="news"
+             data-headline="Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’"
+             data-blurb="AURORA, Colo.–While it may take two years to field, a dual-mount bulkhead in the nose of the Lockheed Martin F-35 to accommodate both the AN/APG-81 radar or the twice as powerful AN/APG-85, […] The post Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’ appeared..."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="Aviation Today"
+             data-source-url="https://www.aviationtoday.com/2026/03/05/air-force-acquisition-official-apg-85-is-a-helluva-radar-unless-you-dont-have-one/"
+             data-category="industry"
+             data-date="Mar 5, 2026, 8:29 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #F59E0B">Industry</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’</h2>
+          <p class="blurb">AURORA, Colo.–While it may take two years to field, a dual-mount bulkhead in the nose of the Lockheed Martin F-35 to accommodate both the AN/APG-81 radar or the twice as powerful AN/APG-85, […] The post Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’ appeared...</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://www.aviationtoday.com/2026/03/05/air-force-acquisition-official-apg-85-is-a-helluva-radar-unless-you-dont-have-one/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Aviation Today</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="2"
+             data-type="news"
+             data-headline="Skyryse Plans ‘Universal’ Autoland for Helicopters, Airplanes"
+             data-blurb="Automation feature intended for both helicopters and airplanes."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/skyryse-plans-emergency-autoland-skyos/"
+             data-category="general-aviation"
+             data-date="Mar 5, 2026, 8:25 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Skyryse Plans ‘Universal’ Autoland for Helicopters, Airplanes</h2>
+          <p class="blurb">Automation feature intended for both helicopters and airplanes.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/skyryse-plans-emergency-autoland-skyos/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="3"
+             data-type="news"
+             data-headline="Picture of the Day: March 5, 2026"
+             data-blurb="A quick off-field snap."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/picture-of-the-day-march-5-2026/"
+             data-category="general-aviation"
+             data-date="Mar 5, 2026, 8:25 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Picture of the Day: March 5, 2026</h2>
+          <p class="blurb">A quick off-field snap.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/picture-of-the-day-march-5-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="4"
+             data-type="news"
+             data-headline="The Simple Flying Podcast Episode 282: Iran Aviation Crisis, United Airlines Boeing 787 Emergency At LAX"
+             data-blurb="Join Tom &amp; Channing for the latest aviation hot topics."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/the-simple-flying-podcast-episode-282-scrapping-3-year-old-a320neos-united-backs-ge-for-787s/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:20 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">The Simple Flying Podcast Episode 282: Iran Aviation Crisis, United Airlines Boeing 787 Emergency At LAX</h2>
+          <p class="blurb">Join Tom &amp; Channing for the latest aviation hot topics.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/the-simple-flying-podcast-episode-282-scrapping-3-year-old-a320neos-united-backs-ge-for-787s/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card card-type-pai-blog"
+             data-index="5"
+             data-type="pai-blog"
+             data-headline="Selecting Risk Controls and Accepting Residual Risk"
+             data-blurb="Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d)."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="PAI Consulting — SMS Quick Takes"
+             data-source-url="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          <span class="pai-badge">PAI</span>
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Selecting Risk Controls and Accepting Residual Risk</h2>
+          <p class="blurb">Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk" onclick="event.stopPropagation()">PAI Consulting — SMS Quick Takes</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="6"
+             data-type="news"
+             data-headline="$1 Billion &amp; Counting: The Cost To Gulf Carriers Of The Middle East Meltdown"
+             data-blurb="Lost revenue is only part of the problem, as stranded passengers and aircraft chaos are compounding costs daily."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/1-billion-and-counting-cost-to-gulf-carriers-during-middle-east-meltdown/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:15 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">$1 Billion &amp; Counting: The Cost To Gulf Carriers Of The Middle East Meltdown</h2>
+          <p class="blurb">Lost revenue is only part of the problem, as stranded passengers and aircraft chaos are compounding costs daily.</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/1-billion-and-counting-cost-to-gulf-carriers-during-middle-east-meltdown/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="7"
+             data-type="news"
+             data-headline="Just 63 Miles: Inside Southwest&#39;s 15 New Ultra-Short Flights In 2026"
+             data-blurb="Three of its very short routes began on the day this article was published..."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/just-63-miles-inside-southwests-15-new-ultra-short-flights-in-2026/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:00 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Just 63 Miles: Inside Southwest&#39;s 15 New Ultra-Short Flights In 2026</h2>
+          <p class="blurb">Three of its very short routes began on the day this article was published...</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/just-63-miles-inside-southwests-15-new-ultra-short-flights-in-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="8"
+             data-type="news"
              data-headline="British Airways &amp; Qatar Airways Pivot To Muscat For Airlifts"
              data-blurb="With Doha&#39;s airport closed due to the Iran conflict, Qatar Airways is relocating a small number of jets, pilots, and crew to Muscat."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -631,7 +891,10 @@
              data-source-url="https://simpleflying.com/british-airways-qatar-airways-pivot-muscat-airlifts/"
              data-category="commercial"
              data-date="Mar 5, 2026, 7:45 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -645,7 +908,8 @@
         </div>
 
         <div class="news-card"
-             data-index="1"
+             data-index="9"
+             data-type="news"
              data-headline="Azerbaijan Shuts Southern Airspace After Iranian Drone Incursion"
              data-blurb="Azerbaijan&#39;s southern skies were temporarily locked down as drones, suspected to have crossed from Iran, entered the Nakhchivan Autonomous Republic."
              data-takeaway="Drone technology continues to reshape aviation operations."
@@ -653,7 +917,10 @@
              data-source-url="https://simpleflying.com/azerbaijan-shuts-southern-airspace-iranian-drone-incursion/"
              data-category="commercial"
              data-date="Mar 5, 2026, 7:29 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -666,8 +933,35 @@
           </p>
         </div>
 
+        <div class="news-card card-type-pai-blog"
+             data-index="10"
+             data-type="pai-blog"
+             data-headline="How to Assess Safety Risk"
+             data-blurb="A practical walkthrough of safety risk assessment under 14 CFR Part 5."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="PAI Consulting — SMS Quick Takes"
+             data-source-url="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          <span class="pai-badge">PAI</span>
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">How to Assess Safety Risk</h2>
+          <p class="blurb">A practical walkthrough of safety risk assessment under 14 CFR Part 5.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk" onclick="event.stopPropagation()">PAI Consulting — SMS Quick Takes</a> &rarr;
+          </p>
+        </div>
+
         <div class="news-card"
-             data-index="2"
+             data-index="11"
+             data-type="news"
              data-headline="Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities"
              data-blurb="LONDON – In-orbit services provider Infinite Orbits announced plans March 3 to acquireLondon-based in-orbit servicing and manufacturing startup Lunasa, marking a step in the company’s expansion into the United Kingdom. The acquisition, the value of which the companies didn’t disclose, will bring ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -675,7 +969,10 @@
              data-source-url="https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 7:19 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -689,7 +986,8 @@
         </div>
 
         <div class="news-card"
-             data-index="3"
+             data-index="12"
+             data-type="news"
              data-headline="Turkey’s First Airborne Stand-Off Jammer Aircraft Breaks Cover"
              data-blurb="The Hava SOJ program envisages four aircraft, based on the Bombardier Global 6000 aircraft, with Aselsan developing the payload and Turkish Aerospace Industries (TAI) integrating it. The first of the Turkish Air Force’s (Türk Hava Kuvvetleri – THK/TurAF) Stand-Off Jammer (SOJ) aircraft was photog..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -697,7 +995,10 @@
              data-source-url="https://theaviationist.com/2026/03/05/turkeys-hava-soj-breaks-cover/"
              data-category="military"
              data-date="Mar 5, 2026, 6:56 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #6B7280">Military</span>
             <span class="date">Mar 5, 2026</span>
@@ -711,7 +1012,8 @@
         </div>
 
         <div class="news-card"
-             data-index="4"
+             data-index="13"
+             data-type="news"
              data-headline="Why Do Pilots Fear Turbulence Less Than Passengers Do?"
              data-blurb="The cockpit stays cool even when the cabin is rocking."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -719,7 +1021,10 @@
              data-source-url="https://simpleflying.com/why-do-pilots-fear-turbulence-less-than-passengers-do/"
              data-category="commercial"
              data-date="Mar 5, 2026, 6:30 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -733,7 +1038,8 @@
         </div>
 
         <div class="news-card"
-             data-index="5"
+             data-index="14"
+             data-type="news"
              data-headline="Is It True That Snow Can Actually Increase Aircraft Engine Thrust?"
              data-blurb="What happens when aircraft operate in snowy conditions?"
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -741,7 +1047,10 @@
              data-source-url="https://simpleflying.com/true-snow-actually-increase-aircraft-engine-thrust/"
              data-category="commercial"
              data-date="Mar 5, 2026, 6:01 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -754,8 +1063,35 @@
           </p>
         </div>
 
+        <div class="news-card card-type-video"
+             data-index="15"
+             data-type="video"
+             data-headline="FAA Aviation Safety at Oshkosh"
+             data-blurb="Go behind the scenes at EAA AirVenture with the FAA&#39;s Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="Federal Aviation Administration (YouTube)"
+             data-source-url="https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration="16:49"
+             onclick="openModal(this)">
+          
+          <div class="video-overlay"><span class="video-play-icon">&#9654;</span><span class="video-duration">16:49</span></div>
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">FAA Aviation Safety at Oshkosh</h2>
+          <p class="blurb">Go behind the scenes at EAA AirVenture with the FAA&#39;s Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.youtube.com/watch?v=hlAFUO1S0Xs" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Federal Aviation Administration (YouTube)</a> &rarr;
+          </p>
+        </div>
+
         <div class="news-card"
-             data-index="6"
+             data-index="16"
+             data-type="news"
              data-headline="NASA Wallops Supports First Rocket Lab HASTE Launch of 2026"
              data-blurb="NASA’s Wallops Flight Facility supported a Rocket Lab HASTE suborbital launch from the company’s Launch Complex 2 in Virginia on Feb. 27, 2026. The mission, called Cassowary Vex, supported a flight of a hypersonic test platform for the Department of War’s Defense Innovation Unit. The NASA Wallops..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -763,7 +1099,10 @@
              data-source-url="https://www.nasa.gov/image-article/nasa-wallops-supports-first-rocket-lab-haste-launch-of-2026/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 5:13 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -777,7 +1116,8 @@
         </div>
 
         <div class="news-card"
-             data-index="7"
+             data-index="17"
+             data-type="news"
              data-headline="Delta Names New President in Executive Shuffle"
              data-blurb="Airline also appoints new COO and CFO as longtime operations chief retires."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -785,7 +1125,10 @@
              data-source-url="https://avweb.com/aviation-news/company-news/delta-new-president-in-executive-shuffle/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 4:45 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -799,7 +1142,8 @@
         </div>
 
         <div class="news-card"
-             data-index="8"
+             data-index="18"
+             data-type="news"
              data-headline="Total Lunar Eclipse"
              data-blurb="The Moon appears red during a total lunar eclipse over New Orleans, home of NASA’s Michoud Assembly Facility, on March 3, 2026. This “blood moon” occurs during a total lunar eclipse, as Earth lines up between the Moon and the Sun. When this happens, the only light that reaches the Moon’s surface ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -807,7 +1151,10 @@
              data-source-url="https://www.nasa.gov/image-article/total-lunar-eclipse/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 4:27 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -821,7 +1168,8 @@
         </div>
 
         <div class="news-card"
-             data-index="9"
+             data-index="19"
+             data-type="news"
              data-headline="USAF Looks To Replace Radios On HH-60Ws"
              data-blurb="The U.S. Air Force is looking to replace the Link-16 TacNet Tactical Radios (TTRs) by RTX‘s Collins Aerospace on the service’s fleet of Lockheed Martin HH-60W Jolly Green II combat […] The post USAF Looks To Replace Radios On HH-60Ws appeared first on Aviation Tech Today."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -829,7 +1177,10 @@
              data-source-url="https://www.aviationtoday.com/2026/03/05/usaf-looks-to-replace-radios-on-hh-60ws/"
              data-category="industry"
              data-date="Mar 5, 2026, 3:58 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #F59E0B">Industry</span>
             <span class="date">Mar 5, 2026</span>
@@ -843,7 +1194,8 @@
         </div>
 
         <div class="news-card"
-             data-index="10"
+             data-index="20"
+             data-type="news"
              data-headline="Russ Meyer, Former Cessna Chairman And Citation Program Leader, Flies West"
              data-blurb="Longtime aviation executive helped guide development of the Citation jet family and supported major industry initiatives."
              data-takeaway="Industry developments to monitor closely."
@@ -851,7 +1203,10 @@
              data-source-url="https://avweb.com/aviation-news/russ-meyer-past-cessna-chairman-flies-west/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 3:54 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -865,7 +1220,8 @@
         </div>
 
         <div class="news-card"
-             data-index="11"
+             data-index="21"
+             data-type="news"
              data-headline="Texas as a strategic space hub"
              data-blurb="In this episode of Space Minds, Jeff Foust moderates a panel at AIAA AscendxTexas on the role Texas is playing in the space economy. With a series of industry leaders they […] The post Texas as a strategic space hub appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -873,7 +1229,10 @@
              data-source-url="https://spacenews.com/texas-as-a-strategic-space-hub/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 3:41 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -887,7 +1246,8 @@
         </div>
 
         <div class="news-card"
-             data-index="12"
+             data-index="22"
+             data-type="news"
              data-headline="NBAA-BACE Comes to New Orleans in 2028"
              data-blurb="Business aviation convention to be held at convention center and Louis Armstrong airport."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -895,7 +1255,10 @@
              data-source-url="https://avweb.com/air-shows-events/nbaa/nbaa-bace-scheduled-for-new-orleans-2028/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 3:13 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -909,7 +1272,8 @@
         </div>
 
         <div class="news-card"
-             data-index="13"
+             data-index="23"
+             data-type="news"
              data-headline="Emirates&#39; 1st Flight On The Massive 569-Seat Airbus A380 Starts Next Month"
              data-blurb="The first passenger-carrying service on the new 569-seater will take place next month, marking a significant shift in Emirates&#39; fleet."
              data-takeaway="Airbus activity reflects European aerospace trends."
@@ -917,7 +1281,10 @@
              data-source-url="https://simpleflying.com/emirates-1st-flight-on-the-massive-569-seat-airbus-a380-starts-next-month/"
              data-category="commercial"
              data-date="Mar 5, 2026, 3:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -931,7 +1298,8 @@
         </div>
 
         <div class="news-card"
-             data-index="14"
+             data-index="24"
+             data-type="news"
              data-headline="Trendsetter? How This Airline Introduced A Brand-New Cabin To The World Over 2 Decades Ago"
              data-blurb="In 1992, a single airline challenged the industry&#39;s rigid class structure with a cabin that sat between economy and business."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -939,7 +1307,10 @@
              data-source-url="https://simpleflying.com/how-airline-introduced-brand-new-cabin-class-world-over-2-decades-ago/"
              data-category="commercial"
              data-date="Mar 5, 2026, 3:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -953,7 +1324,8 @@
         </div>
 
         <div class="news-card"
-             data-index="15"
+             data-index="25"
+             data-type="news"
              data-headline="Exclusive Interview: Turkish Airlines Chair Reveals Secrets Behind $2.2B Profit Success"
              data-blurb="The carrier exceeded its operational expectations last year, resulting in billions of dollars of profit."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -961,7 +1333,10 @@
              data-source-url="https://simpleflying.com/turkish-airlines-2025-financial-results-interview/"
              data-category="commercial"
              data-date="Mar 5, 2026, 2:37 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -975,7 +1350,8 @@
         </div>
 
         <div class="news-card"
-             data-index="16"
+             data-index="26"
+             data-type="news"
              data-headline="First Blue Angels Shows Canceled Over Security Concerns"
              data-blurb="El Centro and NAS Lemoore events called off as military bases move to higher force protection levels amid military operations in Iran."
              data-takeaway="Industry developments to monitor closely."
@@ -983,7 +1359,10 @@
              data-source-url="https://avweb.com/air-shows-events/first-blue-angels-shows-canceled-iran/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 2:35 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -997,51 +1376,8 @@
         </div>
 
         <div class="news-card"
-             data-index="17"
-             data-headline="The Real Reason Why Quadjets Could Go Back Into Production"
-             data-blurb="Quadjets are icons of the aviation world, and most of them are slowly being phased out, but could we see them return?"
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/real-reason-quadjets-back-into-production/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 2:30 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">The Real Reason Why Quadjets Could Go Back Into Production</h2>
-          <p class="blurb">Quadjets are icons of the aviation world, and most of them are slowly being phased out, but could we see them return?</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/real-reason-quadjets-back-into-production/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="18"
-             data-headline="This London Airport’s New Policy Upsets Passengers: Is It Necessary?"
-             data-blurb="The new pick-up/drop-off fees at Southend have been controversial. But do ongoing pandemic-era headwinds justify them?"
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/london-airport-new-policy-upsets-passengers-necessary/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 2:00 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">This London Airport’s New Policy Upsets Passengers: Is It Necessary?</h2>
-          <p class="blurb">The new pick-up/drop-off fees at Southend have been controversial. But do ongoing pandemic-era headwinds justify them?</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/london-airport-new-policy-upsets-passengers-necessary/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="19"
+             data-index="27"
+             data-type="news"
              data-headline="Unlocking AI in space: the case for greater industry and space agency collaboration"
              data-blurb="For decades, space has served as humanity’s most demanding testing laboratory, where only the most resilient technologies survive the vacuum, radiation and temperature extremes beyond Earth’s protective embrace. Today, we stand at an inflection point where artificial intelligence is poised to fun..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1049,7 +1385,10 @@
              data-source-url="https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 2:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1063,29 +1402,8 @@
         </div>
 
         <div class="news-card"
-             data-index="20"
-             data-headline="&quot;Technical Issues&quot; Delay UK Bound Middle East Repatriation Flight"
-             data-blurb="The UK government provided passengers with complimentary overnight accommodation, and the flight safely landed back in Britain the following morning."
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/technical-issues-delay-uk-middle-east-repatriation-flight/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 1:57 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">&quot;Technical Issues&quot; Delay UK Bound Middle East Repatriation Flight</h2>
-          <p class="blurb">The UK government provided passengers with complimentary overnight accommodation, and the flight safely landed back in Britain the following morning.</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/technical-issues-delay-uk-middle-east-repatriation-flight/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="21"
+             data-index="28"
+             data-type="news"
              data-headline="UK announces £500 million package for industrial growth and national security"
              data-blurb="LONDON – The United Kingdom is refocusing its funding priorities with a new 500 million pound ($668 million) space funding package that aligns more closely with economic growth and national security priorities, Liz Lloyd, the UK minister for the Digital Economy at the Department for Science, Inno..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1093,7 +1411,10 @@
              data-source-url="https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:28 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1107,7 +1428,8 @@
         </div>
 
         <div class="news-card"
-             data-index="22"
+             data-index="29"
+             data-type="news"
              data-headline="Vast raises $500 million for commercial space station development"
              data-blurb="Commercial space station developer Vast has raised $500 million in its first significant outside investment round. The post Vast raises $500 million for commercial space station development appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1115,7 +1437,10 @@
              data-source-url="https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:01 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1129,7 +1454,8 @@
         </div>
 
         <div class="news-card"
-             data-index="23"
+             data-index="30"
+             data-type="news"
              data-headline="Sierra Space raises $550 million in Series C funding"
              data-blurb="Investment comes as company shifts toward national security programs The post Sierra Space raises $550 million in Series C funding appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1137,7 +1463,10 @@
              data-source-url="https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1151,7 +1480,8 @@
         </div>
 
         <div class="news-card"
-             data-index="24"
+             data-index="31"
+             data-type="news"
              data-headline="Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator"
              data-blurb="When Jared Isaacman was sworn in as NASA administrator Dec. 18, he hit the ground running — or, perhaps more accurately, hit the air flying. At a town hall the next day, he said he would visit all the agency’s field centers, a task he completed by late January. In some cases he showed up […] The ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1159,7 +1489,10 @@
              data-source-url="https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 12:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1173,7 +1506,8 @@
         </div>
 
         <div class="news-card"
-             data-index="25"
+             data-index="32"
+             data-type="news"
              data-headline="Qatari F-15QAs Confirmed Behind Shootdown of Iranian Su-24s"
              data-blurb="CNN says Qatari and U.S. sources confirmed a F-15QA Ababil intercepted the two Iranian Su-24s “two minutes” away from Al Udeid Air Base and Ras Laffan during a low altitude strike run. On Mar. 2, 2026, the Qatari Ministry of Defense has announced that the Qatar Emiri Air Force (QEAF) has shot dow..."
              data-takeaway="Military aviation advances influence broader industry."
@@ -1181,7 +1515,10 @@
              data-source-url="https://theaviationist.com/2026/03/05/qatari-f-15qas-confirmed-shootdown-iranian-su-24s/"
              data-category="military"
              data-date="Mar 5, 2026, 10:29 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #6B7280">Military</span>
             <span class="date">Mar 5, 2026</span>
@@ -1195,7 +1532,8 @@
         </div>
 
         <div class="news-card"
-             data-index="26"
+             data-index="33"
+             data-type="news"
              data-headline="Firefly drone nears commercial launch after key FAA approval"
              data-blurb="A new heavy-lift drone built in the United States is getting ready to take on some of the toughest jobs in the sky, thanks to a key regulatory green light. more…"
              data-takeaway="Regulatory changes may affect industry operations."
@@ -1203,7 +1541,10 @@
              data-source-url="https://dronedj.com/2026/03/04/firefly-drone-parallel-flight-faa/"
              data-category="drones"
              data-date="Mar 5, 2026, 7:47 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #84CC16">Drones</span>
             <span class="date">Mar 5, 2026</span>
@@ -1217,7 +1558,8 @@
         </div>
 
         <div class="news-card"
-             data-index="27"
+             data-index="34"
+             data-type="news"
              data-headline="A Little Town with a Long Name"
              data-blurb="A NASA luminary from the Apollo era grew up in Wales near Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1225,7 +1567,10 @@
              data-source-url="https://science.nasa.gov/earth/earth-observatory/a-little-town-with-a-long-name/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 5:01 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1239,7 +1584,8 @@
         </div>
 
         <div class="news-card"
-             data-index="28"
+             data-index="35"
+             data-type="news"
              data-headline="Third Kairos launch fails"
              data-blurb="The third launch of a small launch vehicle developed by a Japanese company failed shortly after liftoff March 4, raising questions about the rocket’s future. The post Third Kairos launch fails appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1247,7 +1593,10 @@
              data-source-url="https://spacenews.com/third-kairos-launch-fails/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 3:26 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1257,165 +1606,220 @@
           <p class="takeaway">Aerospace developments expand industry horizons.</p>
           <p class="source-link">
             See <a href="https://spacenews.com/third-kairos-launch-fails/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="29"
-             data-headline="High-Speed Flight Project Overview"
-             data-blurb="What We do The High-Speed Flight (HSF) project develops technologies that make high-speed, airbreathing, commercial flight possible from Mach 1 to Mach 5 and above. HSF creates tools, technologies, and knowledge that will help eliminate today’s technical barriers to practical supersonic flight, m..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="NASA"
-             data-source-url="https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/"
-             data-category="aerospace"
-             data-date="Mar 5, 2026, 1:05 AM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">High-Speed Flight Project Overview</h2>
-          <p class="blurb">What We do The High-Speed Flight (HSF) project develops technologies that make high-speed, airbreathing, commercial flight possible from Mach 1 to Mach 5 and above. HSF creates tools, technologies, and knowledge that will help eliminate today’s technical barriers to practical supersonic flight, m...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="30"
-             data-headline="Senate committee advances NASA authorization bill that changes Artemis and extends ISS"
-             data-blurb="The Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS The post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on S..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/"
-             data-category="aerospace"
-             data-date="Mar 5, 2026, 12:20 AM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">Senate committee advances NASA authorization bill that changes Artemis and extends ISS</h2>
-          <p class="blurb">The Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS The post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on S...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="31"
-             data-headline="Telus invests in AST SpaceMobile to expand D2D coverage in Canada"
-             data-blurb="Canadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation. The post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 11:18 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Telus invests in AST SpaceMobile to expand D2D coverage in Canada</h2>
-          <p class="blurb">Canadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation. The post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews.</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="32"
-             data-headline="Space Force presses case for more personnel and training"
-             data-blurb="At Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’ The post Space Force presses case for more personnel and training appeared first on SpaceNews."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 11:06 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Space Force presses case for more personnel and training</h2>
-          <p class="blurb">At Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’ The post Space Force presses case for more personnel and training appeared first on SpaceNews.</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="33"
-             data-headline="Washington Lawmakers Eye Repeal Of Luxury Aircraft Tax"
-             data-blurb="Washington lawmakers are moving to repeal the state’s luxury aircraft tax, citing strong pushback from the aviation community."
-             data-takeaway="Industry developments to monitor closely."
-             data-source-name="AVweb"
-             data-source-url="https://avweb.com/aviation-news/washington-lawmakers-eye-repeal-of-luxury-aircraft-tax/"
-             data-category="general-aviation"
-             data-date="Mar 4, 2026, 7:45 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Washington Lawmakers Eye Repeal Of Luxury Aircraft Tax</h2>
-          <p class="blurb">Washington lawmakers are moving to repeal the state’s luxury aircraft tax, citing strong pushback from the aviation community.</p>
-          <p class="takeaway">Industry developments to monitor closely.</p>
-          <p class="source-link">
-            See <a href="https://avweb.com/aviation-news/washington-lawmakers-eye-repeal-of-luxury-aircraft-tax/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="34"
-             data-headline="NASA Study Finds Urban Residents More Sensitive To Air Taxi Noise"
-             data-blurb="A new NASA study finds urban residents report higher annoyance from air taxi noise than suburban residents."
-             data-takeaway="Urban air mobility advances toward commercial reality."
-             data-source-name="AVweb"
-             data-source-url="https://avweb.com/aviation-news/nasa-air-taxi-noise-study/"
-             data-category="general-aviation"
-             data-date="Mar 4, 2026, 7:22 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">NASA Study Finds Urban Residents More Sensitive To Air Taxi Noise</h2>
-          <p class="blurb">A new NASA study finds urban residents report higher annoyance from air taxi noise than suburban residents.</p>
-          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
-          <p class="source-link">
-            See <a href="https://avweb.com/aviation-news/nasa-air-taxi-noise-study/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="35"
-             data-headline="About Advanced Air Vehicles Program (AAVP)"
-             data-blurb="NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="NASA"
-             data-source-url="https://www.nasa.gov/directorates/armd/aavp/about-aavp/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 7:00 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">About Advanced Air Vehicles Program (AAVP)</h2>
-          <p class="blurb">NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://www.nasa.gov/directorates/armd/aavp/about-aavp/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
           </p>
         </div>
 
         <div class="news-card"
              data-index="0"
+             data-type="news"
+             data-headline="General Galactic aims to become “the galaxy’s energy logistics company”"
+             data-blurb="SAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Ga..."
+             data-takeaway="Aerospace developments expand industry horizons."
+             data-source-name="SpaceNews"
+             data-source-url="https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/"
+             data-category="aerospace"
+             data-date="Mar 5, 2026, 8:30 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">General Galactic aims to become “the galaxy’s energy logistics company”</h2>
+          <p class="blurb">SAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Ga...</p>
+          <p class="takeaway">Aerospace developments expand industry horizons.</p>
+          <p class="source-link">
+            See <a href="https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="1"
+             data-type="news"
+             data-headline="Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’"
+             data-blurb="AURORA, Colo.–While it may take two years to field, a dual-mount bulkhead in the nose of the Lockheed Martin F-35 to accommodate both the AN/APG-81 radar or the twice as powerful AN/APG-85, […] The post Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’ appeared..."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="Aviation Today"
+             data-source-url="https://www.aviationtoday.com/2026/03/05/air-force-acquisition-official-apg-85-is-a-helluva-radar-unless-you-dont-have-one/"
+             data-category="industry"
+             data-date="Mar 5, 2026, 8:29 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #F59E0B">Industry</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’</h2>
+          <p class="blurb">AURORA, Colo.–While it may take two years to field, a dual-mount bulkhead in the nose of the Lockheed Martin F-35 to accommodate both the AN/APG-81 radar or the twice as powerful AN/APG-85, […] The post Air Force Acquisition Official: ‘APG-85 Is A Helluva Radar Unless You Don’t Have One’ appeared...</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://www.aviationtoday.com/2026/03/05/air-force-acquisition-official-apg-85-is-a-helluva-radar-unless-you-dont-have-one/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Aviation Today</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="2"
+             data-type="news"
+             data-headline="Skyryse Plans ‘Universal’ Autoland for Helicopters, Airplanes"
+             data-blurb="Automation feature intended for both helicopters and airplanes."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/skyryse-plans-emergency-autoland-skyos/"
+             data-category="general-aviation"
+             data-date="Mar 5, 2026, 8:25 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Skyryse Plans ‘Universal’ Autoland for Helicopters, Airplanes</h2>
+          <p class="blurb">Automation feature intended for both helicopters and airplanes.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/skyryse-plans-emergency-autoland-skyos/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="3"
+             data-type="news"
+             data-headline="Picture of the Day: March 5, 2026"
+             data-blurb="A quick off-field snap."
+             data-takeaway="Industry developments to monitor closely."
+             data-source-name="AVweb"
+             data-source-url="https://avweb.com/aviation-news/picture-of-the-day-march-5-2026/"
+             data-category="general-aviation"
+             data-date="Mar 5, 2026, 8:25 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Picture of the Day: March 5, 2026</h2>
+          <p class="blurb">A quick off-field snap.</p>
+          <p class="takeaway">Industry developments to monitor closely.</p>
+          <p class="source-link">
+            See <a href="https://avweb.com/aviation-news/picture-of-the-day-march-5-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="4"
+             data-type="news"
+             data-headline="The Simple Flying Podcast Episode 282: Iran Aviation Crisis, United Airlines Boeing 787 Emergency At LAX"
+             data-blurb="Join Tom &amp; Channing for the latest aviation hot topics."
+             data-takeaway="Boeing developments impact global aviation supply chain."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/the-simple-flying-podcast-episode-282-scrapping-3-year-old-a320neos-united-backs-ge-for-787s/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:20 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">The Simple Flying Podcast Episode 282: Iran Aviation Crisis, United Airlines Boeing 787 Emergency At LAX</h2>
+          <p class="blurb">Join Tom &amp; Channing for the latest aviation hot topics.</p>
+          <p class="takeaway">Boeing developments impact global aviation supply chain.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/the-simple-flying-podcast-episode-282-scrapping-3-year-old-a320neos-united-backs-ge-for-787s/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card card-type-pai-blog"
+             data-index="5"
+             data-type="pai-blog"
+             data-headline="Selecting Risk Controls and Accepting Residual Risk"
+             data-blurb="Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d)."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="PAI Consulting — SMS Quick Takes"
+             data-source-url="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          <span class="pai-badge">PAI</span>
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Selecting Risk Controls and Accepting Residual Risk</h2>
+          <p class="blurb">Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk" onclick="event.stopPropagation()">PAI Consulting — SMS Quick Takes</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="6"
+             data-type="news"
+             data-headline="$1 Billion &amp; Counting: The Cost To Gulf Carriers Of The Middle East Meltdown"
+             data-blurb="Lost revenue is only part of the problem, as stranded passengers and aircraft chaos are compounding costs daily."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/1-billion-and-counting-cost-to-gulf-carriers-during-middle-east-meltdown/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:15 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">$1 Billion &amp; Counting: The Cost To Gulf Carriers Of The Middle East Meltdown</h2>
+          <p class="blurb">Lost revenue is only part of the problem, as stranded passengers and aircraft chaos are compounding costs daily.</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/1-billion-and-counting-cost-to-gulf-carriers-during-middle-east-meltdown/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="7"
+             data-type="news"
+             data-headline="Just 63 Miles: Inside Southwest&#39;s 15 New Ultra-Short Flights In 2026"
+             data-blurb="Three of its very short routes began on the day this article was published..."
+             data-takeaway="Commercial aviation dynamics shape travel industry."
+             data-source-name="Simple Flying"
+             data-source-url="https://simpleflying.com/just-63-miles-inside-southwests-15-new-ultra-short-flights-in-2026/"
+             data-category="commercial"
+             data-date="Mar 5, 2026, 8:00 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">Just 63 Miles: Inside Southwest&#39;s 15 New Ultra-Short Flights In 2026</h2>
+          <p class="blurb">Three of its very short routes began on the day this article was published...</p>
+          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
+          <p class="source-link">
+            See <a href="https://simpleflying.com/just-63-miles-inside-southwests-15-new-ultra-short-flights-in-2026/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
+          </p>
+        </div>
+
+        <div class="news-card"
+             data-index="8"
+             data-type="news"
              data-headline="British Airways &amp; Qatar Airways Pivot To Muscat For Airlifts"
              data-blurb="With Doha&#39;s airport closed due to the Iran conflict, Qatar Airways is relocating a small number of jets, pilots, and crew to Muscat."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1423,7 +1827,10 @@
              data-source-url="https://simpleflying.com/british-airways-qatar-airways-pivot-muscat-airlifts/"
              data-category="commercial"
              data-date="Mar 5, 2026, 7:45 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1437,7 +1844,8 @@
         </div>
 
         <div class="news-card"
-             data-index="1"
+             data-index="9"
+             data-type="news"
              data-headline="Azerbaijan Shuts Southern Airspace After Iranian Drone Incursion"
              data-blurb="Azerbaijan&#39;s southern skies were temporarily locked down as drones, suspected to have crossed from Iran, entered the Nakhchivan Autonomous Republic."
              data-takeaway="Drone technology continues to reshape aviation operations."
@@ -1445,7 +1853,10 @@
              data-source-url="https://simpleflying.com/azerbaijan-shuts-southern-airspace-iranian-drone-incursion/"
              data-category="commercial"
              data-date="Mar 5, 2026, 7:29 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1458,8 +1869,35 @@
           </p>
         </div>
 
+        <div class="news-card card-type-pai-blog"
+             data-index="10"
+             data-type="pai-blog"
+             data-headline="How to Assess Safety Risk"
+             data-blurb="A practical walkthrough of safety risk assessment under 14 CFR Part 5."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="PAI Consulting — SMS Quick Takes"
+             data-source-url="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration=""
+             onclick="openModal(this)">
+          <span class="pai-badge">PAI</span>
+          
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">How to Assess Safety Risk</h2>
+          <p class="blurb">A practical walkthrough of safety risk assessment under 14 CFR Part 5.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk" onclick="event.stopPropagation()">PAI Consulting — SMS Quick Takes</a> &rarr;
+          </p>
+        </div>
+
         <div class="news-card"
-             data-index="2"
+             data-index="11"
+             data-type="news"
              data-headline="Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities"
              data-blurb="LONDON – In-orbit services provider Infinite Orbits announced plans March 3 to acquireLondon-based in-orbit servicing and manufacturing startup Lunasa, marking a step in the company’s expansion into the United Kingdom. The acquisition, the value of which the companies didn’t disclose, will bring ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1467,7 +1905,10 @@
              data-source-url="https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 7:19 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1481,7 +1922,8 @@
         </div>
 
         <div class="news-card"
-             data-index="3"
+             data-index="12"
+             data-type="news"
              data-headline="Turkey’s First Airborne Stand-Off Jammer Aircraft Breaks Cover"
              data-blurb="The Hava SOJ program envisages four aircraft, based on the Bombardier Global 6000 aircraft, with Aselsan developing the payload and Turkish Aerospace Industries (TAI) integrating it. The first of the Turkish Air Force’s (Türk Hava Kuvvetleri – THK/TurAF) Stand-Off Jammer (SOJ) aircraft was photog..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1489,7 +1931,10 @@
              data-source-url="https://theaviationist.com/2026/03/05/turkeys-hava-soj-breaks-cover/"
              data-category="military"
              data-date="Mar 5, 2026, 6:56 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #6B7280">Military</span>
             <span class="date">Mar 5, 2026</span>
@@ -1503,7 +1948,8 @@
         </div>
 
         <div class="news-card"
-             data-index="4"
+             data-index="13"
+             data-type="news"
              data-headline="Why Do Pilots Fear Turbulence Less Than Passengers Do?"
              data-blurb="The cockpit stays cool even when the cabin is rocking."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1511,7 +1957,10 @@
              data-source-url="https://simpleflying.com/why-do-pilots-fear-turbulence-less-than-passengers-do/"
              data-category="commercial"
              data-date="Mar 5, 2026, 6:30 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1525,7 +1974,8 @@
         </div>
 
         <div class="news-card"
-             data-index="5"
+             data-index="14"
+             data-type="news"
              data-headline="Is It True That Snow Can Actually Increase Aircraft Engine Thrust?"
              data-blurb="What happens when aircraft operate in snowy conditions?"
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1533,7 +1983,10 @@
              data-source-url="https://simpleflying.com/true-snow-actually-increase-aircraft-engine-thrust/"
              data-category="commercial"
              data-date="Mar 5, 2026, 6:01 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1546,8 +1999,35 @@
           </p>
         </div>
 
+        <div class="news-card card-type-video"
+             data-index="15"
+             data-type="video"
+             data-headline="FAA Aviation Safety at Oshkosh"
+             data-blurb="Go behind the scenes at EAA AirVenture with the FAA&#39;s Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community."
+             data-takeaway="Safety implications warrant industry attention."
+             data-source-name="Federal Aviation Administration (YouTube)"
+             data-source-url="https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+             data-category="safety"
+             data-date="Mar 5, 2026, 8:32 PM"
+             data-duration="16:49"
+             onclick="openModal(this)">
+          
+          <div class="video-overlay"><span class="video-play-icon">&#9654;</span><span class="video-duration">16:49</span></div>
+          <div class="card-header">
+            <span class="category-badge" style="background-color: #DC2626">Safety</span>
+            <span class="date">Mar 5, 2026</span>
+          </div>
+          <h2 class="headline">FAA Aviation Safety at Oshkosh</h2>
+          <p class="blurb">Go behind the scenes at EAA AirVenture with the FAA&#39;s Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.</p>
+          <p class="takeaway">Safety implications warrant industry attention.</p>
+          <p class="source-link">
+            See <a href="https://www.youtube.com/watch?v=hlAFUO1S0Xs" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Federal Aviation Administration (YouTube)</a> &rarr;
+          </p>
+        </div>
+
         <div class="news-card"
-             data-index="6"
+             data-index="16"
+             data-type="news"
              data-headline="NASA Wallops Supports First Rocket Lab HASTE Launch of 2026"
              data-blurb="NASA’s Wallops Flight Facility supported a Rocket Lab HASTE suborbital launch from the company’s Launch Complex 2 in Virginia on Feb. 27, 2026. The mission, called Cassowary Vex, supported a flight of a hypersonic test platform for the Department of War’s Defense Innovation Unit. The NASA Wallops..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1555,7 +2035,10 @@
              data-source-url="https://www.nasa.gov/image-article/nasa-wallops-supports-first-rocket-lab-haste-launch-of-2026/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 5:13 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1569,7 +2052,8 @@
         </div>
 
         <div class="news-card"
-             data-index="7"
+             data-index="17"
+             data-type="news"
              data-headline="Delta Names New President in Executive Shuffle"
              data-blurb="Airline also appoints new COO and CFO as longtime operations chief retires."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1577,7 +2061,10 @@
              data-source-url="https://avweb.com/aviation-news/company-news/delta-new-president-in-executive-shuffle/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 4:45 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -1591,7 +2078,8 @@
         </div>
 
         <div class="news-card"
-             data-index="8"
+             data-index="18"
+             data-type="news"
              data-headline="Total Lunar Eclipse"
              data-blurb="The Moon appears red during a total lunar eclipse over New Orleans, home of NASA’s Michoud Assembly Facility, on March 3, 2026. This “blood moon” occurs during a total lunar eclipse, as Earth lines up between the Moon and the Sun. When this happens, the only light that reaches the Moon’s surface ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1599,7 +2087,10 @@
              data-source-url="https://www.nasa.gov/image-article/total-lunar-eclipse/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 4:27 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1613,7 +2104,8 @@
         </div>
 
         <div class="news-card"
-             data-index="9"
+             data-index="19"
+             data-type="news"
              data-headline="USAF Looks To Replace Radios On HH-60Ws"
              data-blurb="The U.S. Air Force is looking to replace the Link-16 TacNet Tactical Radios (TTRs) by RTX‘s Collins Aerospace on the service’s fleet of Lockheed Martin HH-60W Jolly Green II combat […] The post USAF Looks To Replace Radios On HH-60Ws appeared first on Aviation Tech Today."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1621,7 +2113,10 @@
              data-source-url="https://www.aviationtoday.com/2026/03/05/usaf-looks-to-replace-radios-on-hh-60ws/"
              data-category="industry"
              data-date="Mar 5, 2026, 3:58 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #F59E0B">Industry</span>
             <span class="date">Mar 5, 2026</span>
@@ -1635,7 +2130,8 @@
         </div>
 
         <div class="news-card"
-             data-index="10"
+             data-index="20"
+             data-type="news"
              data-headline="Russ Meyer, Former Cessna Chairman And Citation Program Leader, Flies West"
              data-blurb="Longtime aviation executive helped guide development of the Citation jet family and supported major industry initiatives."
              data-takeaway="Industry developments to monitor closely."
@@ -1643,7 +2139,10 @@
              data-source-url="https://avweb.com/aviation-news/russ-meyer-past-cessna-chairman-flies-west/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 3:54 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -1657,7 +2156,8 @@
         </div>
 
         <div class="news-card"
-             data-index="11"
+             data-index="21"
+             data-type="news"
              data-headline="Texas as a strategic space hub"
              data-blurb="In this episode of Space Minds, Jeff Foust moderates a panel at AIAA AscendxTexas on the role Texas is playing in the space economy. With a series of industry leaders they […] The post Texas as a strategic space hub appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1665,7 +2165,10 @@
              data-source-url="https://spacenews.com/texas-as-a-strategic-space-hub/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 3:41 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1679,7 +2182,8 @@
         </div>
 
         <div class="news-card"
-             data-index="12"
+             data-index="22"
+             data-type="news"
              data-headline="NBAA-BACE Comes to New Orleans in 2028"
              data-blurb="Business aviation convention to be held at convention center and Louis Armstrong airport."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1687,7 +2191,10 @@
              data-source-url="https://avweb.com/air-shows-events/nbaa/nbaa-bace-scheduled-for-new-orleans-2028/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 3:13 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -1701,7 +2208,8 @@
         </div>
 
         <div class="news-card"
-             data-index="13"
+             data-index="23"
+             data-type="news"
              data-headline="Emirates&#39; 1st Flight On The Massive 569-Seat Airbus A380 Starts Next Month"
              data-blurb="The first passenger-carrying service on the new 569-seater will take place next month, marking a significant shift in Emirates&#39; fleet."
              data-takeaway="Airbus activity reflects European aerospace trends."
@@ -1709,7 +2217,10 @@
              data-source-url="https://simpleflying.com/emirates-1st-flight-on-the-massive-569-seat-airbus-a380-starts-next-month/"
              data-category="commercial"
              data-date="Mar 5, 2026, 3:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1723,7 +2234,8 @@
         </div>
 
         <div class="news-card"
-             data-index="14"
+             data-index="24"
+             data-type="news"
              data-headline="Trendsetter? How This Airline Introduced A Brand-New Cabin To The World Over 2 Decades Ago"
              data-blurb="In 1992, a single airline challenged the industry&#39;s rigid class structure with a cabin that sat between economy and business."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1731,7 +2243,10 @@
              data-source-url="https://simpleflying.com/how-airline-introduced-brand-new-cabin-class-world-over-2-decades-ago/"
              data-category="commercial"
              data-date="Mar 5, 2026, 3:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1745,7 +2260,8 @@
         </div>
 
         <div class="news-card"
-             data-index="15"
+             data-index="25"
+             data-type="news"
              data-headline="Exclusive Interview: Turkish Airlines Chair Reveals Secrets Behind $2.2B Profit Success"
              data-blurb="The carrier exceeded its operational expectations last year, resulting in billions of dollars of profit."
              data-takeaway="Commercial aviation dynamics shape travel industry."
@@ -1753,7 +2269,10 @@
              data-source-url="https://simpleflying.com/turkish-airlines-2025-financial-results-interview/"
              data-category="commercial"
              data-date="Mar 5, 2026, 2:37 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
             <span class="date">Mar 5, 2026</span>
@@ -1767,7 +2286,8 @@
         </div>
 
         <div class="news-card"
-             data-index="16"
+             data-index="26"
+             data-type="news"
              data-headline="First Blue Angels Shows Canceled Over Security Concerns"
              data-blurb="El Centro and NAS Lemoore events called off as military bases move to higher force protection levels amid military operations in Iran."
              data-takeaway="Industry developments to monitor closely."
@@ -1775,7 +2295,10 @@
              data-source-url="https://avweb.com/air-shows-events/first-blue-angels-shows-canceled-iran/"
              data-category="general-aviation"
              data-date="Mar 5, 2026, 2:35 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #10B981">General Aviation</span>
             <span class="date">Mar 5, 2026</span>
@@ -1789,51 +2312,8 @@
         </div>
 
         <div class="news-card"
-             data-index="17"
-             data-headline="The Real Reason Why Quadjets Could Go Back Into Production"
-             data-blurb="Quadjets are icons of the aviation world, and most of them are slowly being phased out, but could we see them return?"
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/real-reason-quadjets-back-into-production/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 2:30 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">The Real Reason Why Quadjets Could Go Back Into Production</h2>
-          <p class="blurb">Quadjets are icons of the aviation world, and most of them are slowly being phased out, but could we see them return?</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/real-reason-quadjets-back-into-production/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="18"
-             data-headline="This London Airport’s New Policy Upsets Passengers: Is It Necessary?"
-             data-blurb="The new pick-up/drop-off fees at Southend have been controversial. But do ongoing pandemic-era headwinds justify them?"
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/london-airport-new-policy-upsets-passengers-necessary/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 2:00 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">This London Airport’s New Policy Upsets Passengers: Is It Necessary?</h2>
-          <p class="blurb">The new pick-up/drop-off fees at Southend have been controversial. But do ongoing pandemic-era headwinds justify them?</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/london-airport-new-policy-upsets-passengers-necessary/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="19"
+             data-index="27"
+             data-type="news"
              data-headline="Unlocking AI in space: the case for greater industry and space agency collaboration"
              data-blurb="For decades, space has served as humanity’s most demanding testing laboratory, where only the most resilient technologies survive the vacuum, radiation and temperature extremes beyond Earth’s protective embrace. Today, we stand at an inflection point where artificial intelligence is poised to fun..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1841,7 +2321,10 @@
              data-source-url="https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 2:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1855,29 +2338,8 @@
         </div>
 
         <div class="news-card"
-             data-index="20"
-             data-headline="&quot;Technical Issues&quot; Delay UK Bound Middle East Repatriation Flight"
-             data-blurb="The UK government provided passengers with complimentary overnight accommodation, and the flight safely landed back in Britain the following morning."
-             data-takeaway="Commercial aviation dynamics shape travel industry."
-             data-source-name="Simple Flying"
-             data-source-url="https://simpleflying.com/technical-issues-delay-uk-middle-east-repatriation-flight/"
-             data-category="commercial"
-             data-date="Mar 5, 2026, 1:57 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #3B82F6">Commercial</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">&quot;Technical Issues&quot; Delay UK Bound Middle East Repatriation Flight</h2>
-          <p class="blurb">The UK government provided passengers with complimentary overnight accommodation, and the flight safely landed back in Britain the following morning.</p>
-          <p class="takeaway">Commercial aviation dynamics shape travel industry.</p>
-          <p class="source-link">
-            See <a href="https://simpleflying.com/technical-issues-delay-uk-middle-east-repatriation-flight/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Simple Flying</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="21"
+             data-index="28"
+             data-type="news"
              data-headline="UK announces £500 million package for industrial growth and national security"
              data-blurb="LONDON – The United Kingdom is refocusing its funding priorities with a new 500 million pound ($668 million) space funding package that aligns more closely with economic growth and national security priorities, Liz Lloyd, the UK minister for the Digital Economy at the Department for Science, Inno..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1885,7 +2347,10 @@
              data-source-url="https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:28 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1899,7 +2364,8 @@
         </div>
 
         <div class="news-card"
-             data-index="22"
+             data-index="29"
+             data-type="news"
              data-headline="Vast raises $500 million for commercial space station development"
              data-blurb="Commercial space station developer Vast has raised $500 million in its first significant outside investment round. The post Vast raises $500 million for commercial space station development appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1907,7 +2373,10 @@
              data-source-url="https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:01 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1921,7 +2390,8 @@
         </div>
 
         <div class="news-card"
-             data-index="23"
+             data-index="30"
+             data-type="news"
              data-headline="Sierra Space raises $550 million in Series C funding"
              data-blurb="Investment comes as company shifts toward national security programs The post Sierra Space raises $550 million in Series C funding appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1929,7 +2399,10 @@
              data-source-url="https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 1:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1943,7 +2416,8 @@
         </div>
 
         <div class="news-card"
-             data-index="24"
+             data-index="31"
+             data-type="news"
              data-headline="Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator"
              data-blurb="When Jared Isaacman was sworn in as NASA administrator Dec. 18, he hit the ground running — or, perhaps more accurately, hit the air flying. At a town hall the next day, he said he would visit all the agency’s field centers, a task he completed by late January. In some cases he showed up […] The ..."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -1951,7 +2425,10 @@
              data-source-url="https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 12:00 PM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -1965,7 +2442,8 @@
         </div>
 
         <div class="news-card"
-             data-index="25"
+             data-index="32"
+             data-type="news"
              data-headline="Qatari F-15QAs Confirmed Behind Shootdown of Iranian Su-24s"
              data-blurb="CNN says Qatari and U.S. sources confirmed a F-15QA Ababil intercepted the two Iranian Su-24s “two minutes” away from Al Udeid Air Base and Ras Laffan during a low altitude strike run. On Mar. 2, 2026, the Qatari Ministry of Defense has announced that the Qatar Emiri Air Force (QEAF) has shot dow..."
              data-takeaway="Military aviation advances influence broader industry."
@@ -1973,7 +2451,10 @@
              data-source-url="https://theaviationist.com/2026/03/05/qatari-f-15qas-confirmed-shootdown-iranian-su-24s/"
              data-category="military"
              data-date="Mar 5, 2026, 10:29 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #6B7280">Military</span>
             <span class="date">Mar 5, 2026</span>
@@ -1987,7 +2468,8 @@
         </div>
 
         <div class="news-card"
-             data-index="26"
+             data-index="33"
+             data-type="news"
              data-headline="Firefly drone nears commercial launch after key FAA approval"
              data-blurb="A new heavy-lift drone built in the United States is getting ready to take on some of the toughest jobs in the sky, thanks to a key regulatory green light. more…"
              data-takeaway="Regulatory changes may affect industry operations."
@@ -1995,7 +2477,10 @@
              data-source-url="https://dronedj.com/2026/03/04/firefly-drone-parallel-flight-faa/"
              data-category="drones"
              data-date="Mar 5, 2026, 7:47 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #84CC16">Drones</span>
             <span class="date">Mar 5, 2026</span>
@@ -2009,7 +2494,8 @@
         </div>
 
         <div class="news-card"
-             data-index="27"
+             data-index="34"
+             data-type="news"
              data-headline="A Little Town with a Long Name"
              data-blurb="A NASA luminary from the Apollo era grew up in Wales near Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -2017,7 +2503,10 @@
              data-source-url="https://science.nasa.gov/earth/earth-observatory/a-little-town-with-a-long-name/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 5:01 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -2031,7 +2520,8 @@
         </div>
 
         <div class="news-card"
-             data-index="28"
+             data-index="35"
+             data-type="news"
              data-headline="Third Kairos launch fails"
              data-blurb="The third launch of a small launch vehicle developed by a Japanese company failed shortly after liftoff March 4, raising questions about the rocket’s future. The post Third Kairos launch fails appeared first on SpaceNews."
              data-takeaway="Aerospace developments expand industry horizons."
@@ -2039,7 +2529,10 @@
              data-source-url="https://spacenews.com/third-kairos-launch-fails/"
              data-category="aerospace"
              data-date="Mar 5, 2026, 3:26 AM"
+             data-duration=""
              onclick="openModal(this)">
+          
+          
           <div class="card-header">
             <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
             <span class="date">Mar 5, 2026</span>
@@ -2049,160 +2542,6 @@
           <p class="takeaway">Aerospace developments expand industry horizons.</p>
           <p class="source-link">
             See <a href="https://spacenews.com/third-kairos-launch-fails/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="29"
-             data-headline="High-Speed Flight Project Overview"
-             data-blurb="What We do The High-Speed Flight (HSF) project develops technologies that make high-speed, airbreathing, commercial flight possible from Mach 1 to Mach 5 and above. HSF creates tools, technologies, and knowledge that will help eliminate today’s technical barriers to practical supersonic flight, m..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="NASA"
-             data-source-url="https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/"
-             data-category="aerospace"
-             data-date="Mar 5, 2026, 1:05 AM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">High-Speed Flight Project Overview</h2>
-          <p class="blurb">What We do The High-Speed Flight (HSF) project develops technologies that make high-speed, airbreathing, commercial flight possible from Mach 1 to Mach 5 and above. HSF creates tools, technologies, and knowledge that will help eliminate today’s technical barriers to practical supersonic flight, m...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="30"
-             data-headline="Senate committee advances NASA authorization bill that changes Artemis and extends ISS"
-             data-blurb="The Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS The post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on S..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/"
-             data-category="aerospace"
-             data-date="Mar 5, 2026, 12:20 AM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 5, 2026</span>
-          </div>
-          <h2 class="headline">Senate committee advances NASA authorization bill that changes Artemis and extends ISS</h2>
-          <p class="blurb">The Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS The post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on S...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="31"
-             data-headline="Telus invests in AST SpaceMobile to expand D2D coverage in Canada"
-             data-blurb="Canadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation. The post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 11:18 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Telus invests in AST SpaceMobile to expand D2D coverage in Canada</h2>
-          <p class="blurb">Canadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation. The post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews.</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="32"
-             data-headline="Space Force presses case for more personnel and training"
-             data-blurb="At Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’ The post Space Force presses case for more personnel and training appeared first on SpaceNews."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="SpaceNews"
-             data-source-url="https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 11:06 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Space Force presses case for more personnel and training</h2>
-          <p class="blurb">At Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’ The post Space Force presses case for more personnel and training appeared first on SpaceNews.</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">SpaceNews</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="33"
-             data-headline="Washington Lawmakers Eye Repeal Of Luxury Aircraft Tax"
-             data-blurb="Washington lawmakers are moving to repeal the state’s luxury aircraft tax, citing strong pushback from the aviation community."
-             data-takeaway="Industry developments to monitor closely."
-             data-source-name="AVweb"
-             data-source-url="https://avweb.com/aviation-news/washington-lawmakers-eye-repeal-of-luxury-aircraft-tax/"
-             data-category="general-aviation"
-             data-date="Mar 4, 2026, 7:45 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">Washington Lawmakers Eye Repeal Of Luxury Aircraft Tax</h2>
-          <p class="blurb">Washington lawmakers are moving to repeal the state’s luxury aircraft tax, citing strong pushback from the aviation community.</p>
-          <p class="takeaway">Industry developments to monitor closely.</p>
-          <p class="source-link">
-            See <a href="https://avweb.com/aviation-news/washington-lawmakers-eye-repeal-of-luxury-aircraft-tax/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="34"
-             data-headline="NASA Study Finds Urban Residents More Sensitive To Air Taxi Noise"
-             data-blurb="A new NASA study finds urban residents report higher annoyance from air taxi noise than suburban residents."
-             data-takeaway="Urban air mobility advances toward commercial reality."
-             data-source-name="AVweb"
-             data-source-url="https://avweb.com/aviation-news/nasa-air-taxi-noise-study/"
-             data-category="general-aviation"
-             data-date="Mar 4, 2026, 7:22 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #10B981">General Aviation</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">NASA Study Finds Urban Residents More Sensitive To Air Taxi Noise</h2>
-          <p class="blurb">A new NASA study finds urban residents report higher annoyance from air taxi noise than suburban residents.</p>
-          <p class="takeaway">Urban air mobility advances toward commercial reality.</p>
-          <p class="source-link">
-            See <a href="https://avweb.com/aviation-news/nasa-air-taxi-noise-study/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">AVweb</a> &rarr;
-          </p>
-        </div>
-
-        <div class="news-card"
-             data-index="35"
-             data-headline="About Advanced Air Vehicles Program (AAVP)"
-             data-blurb="NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe..."
-             data-takeaway="Aerospace developments expand industry horizons."
-             data-source-name="NASA"
-             data-source-url="https://www.nasa.gov/directorates/armd/aavp/about-aavp/"
-             data-category="aerospace"
-             data-date="Mar 4, 2026, 7:00 PM"
-             onclick="openModal(this)">
-          <div class="card-header">
-            <span class="category-badge" style="background-color: #EC4899">Aerospace</span>
-            <span class="date">Mar 4, 2026</span>
-          </div>
-          <h2 class="headline">About Advanced Air Vehicles Program (AAVP)</h2>
-          <p class="blurb">NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe...</p>
-          <p class="takeaway">Aerospace developments expand industry horizons.</p>
-          <p class="source-link">
-            See <a href="https://www.nasa.gov/directorates/armd/aavp/about-aavp/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">NASA</a> &rarr;
           </p>
         </div>
       </div>
@@ -2210,7 +2549,7 @@
 
     <div class="newsfeed-footer">
       <div class="source-summary">
-        36 articles from 12 sources | Updated: Mar 5, 2026, 7:55 PM UTC
+        36 articles from 12 sources | Updated: Mar 5, 2026, 8:32 PM UTC
       </div>
       <div class="footer-actions">
         <a href="#" class="footer-link suggest-link" onclick="openSuggestModal(event)">Suggest a Source</a>
@@ -2229,6 +2568,7 @@
       </div>
       <h2 class="modal-headline" id="modalHeadline">Headline</h2>
       <div class="modal-takeaway" id="modalTakeaway">Takeaway</div>
+      <p class="modal-duration" id="modalDuration" style="display:none;font-size:0.85rem;color:#6B7280;margin-bottom:8px;"></p>
       <p class="modal-blurb" id="modalBlurb">Description</p>
       <a class="modal-source-link" id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer">
         See <span id="modalSourceName">Source</span>
@@ -2369,15 +2709,44 @@
     function openModal(card) {
       const overlay = document.getElementById('modalOverlay');
       const category = card.dataset.category;
+      const type = card.dataset.type || 'news';
 
       document.getElementById('modalCategory').textContent = categoryLabels[category] || 'News';
       document.getElementById('modalCategory').style.backgroundColor = categoryColors[category] || '#6B7280';
       document.getElementById('modalDate').textContent = card.dataset.date;
       document.getElementById('modalHeadline').textContent = card.dataset.headline;
-      document.getElementById('modalTakeaway').textContent = card.dataset.takeaway;
       document.getElementById('modalBlurb').textContent = card.dataset.blurb || 'No additional details available.';
       document.getElementById('modalSourceName').textContent = card.dataset.sourceName;
       document.getElementById('modalSourceLink').href = card.dataset.sourceUrl;
+
+      // Show/hide takeaway (PAI blog and video items may have empty takeaway)
+      var takeawayEl = document.getElementById('modalTakeaway');
+      var takeawayText = card.dataset.takeaway;
+      if (takeawayText) {
+        takeawayEl.textContent = takeawayText;
+        takeawayEl.style.display = '';
+      } else {
+        takeawayEl.style.display = 'none';
+      }
+
+      // Show duration for video type
+      var durationEl = document.getElementById('modalDuration');
+      if (type === 'video' && card.dataset.duration) {
+        durationEl.textContent = 'Duration: ' + card.dataset.duration;
+        durationEl.style.display = '';
+      } else {
+        durationEl.style.display = 'none';
+      }
+
+      // PAI blog links open same tab; others open new tab
+      var sourceLink = document.getElementById('modalSourceLink');
+      if (type === 'pai-blog') {
+        sourceLink.removeAttribute('target');
+        sourceLink.removeAttribute('rel');
+      } else {
+        sourceLink.setAttribute('target', '_blank');
+        sourceLink.setAttribute('rel', 'noopener noreferrer');
+      }
 
       overlay.classList.add('active');
       document.body.style.overflow = 'hidden';
