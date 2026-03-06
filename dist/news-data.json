@@ -1,6 +1,38 @@
 {
-  "lastUpdated": "2026-03-05T23:54:59.013Z",
+  "lastUpdated": "2026-03-06T02:35:52.423Z",
   "articles": [
+    {
+      "id": "8vgitk",
+      "type": "news",
+      "headline": "How Boeing Fighters Stack Up Against Lockheed Martin In 2026",
+      "blurb": "Two of the biggest names go head-to-head.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-boeing-fighters-stack-up-against-lockheed/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-06T01:00:17.000Z"
+    },
+    {
+      "id": "lsafy8",
+      "type": "news",
+      "headline": "How Iran Defied Sanctions To Build A Secret Boeing Fleet",
+      "blurb": "Smuggling jetliners to Tehran.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-iran-defied-sanctions-build-secret-boeing/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-06T00:00:17.000Z"
+    },
     {
       "id": "phf7m1",
       "type": "news",
@@ -16,6 +48,26 @@
         "space"
       ],
       "publishedAt": "2026-03-05T23:32:20.000Z"
+    },
+    {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-06T02:35:46.466Z",
+      "paiContent": true
     },
     {
       "id": "tixgg9",
@@ -99,7 +151,7 @@
         "faa",
         "declaration"
       ],
-      "publishedAt": "2026-03-05T23:54:54.024Z",
+      "publishedAt": "2026-03-06T02:35:46.466Z",
       "paiContent": true
     },
     {
@@ -165,24 +217,27 @@
       "publishedAt": "2026-03-05T20:45:05.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-05T23:54:54.024Z",
-      "paiContent": true
+      "publishedAt": "2026-03-06T02:35:46.466Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "1t3xi9",
@@ -245,29 +300,6 @@
       "publishedAt": "2026-03-05T20:25:29.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-05T23:54:54.024Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "j0k9cc",
       "type": "news",
       "headline": "The Simple Flying Podcast Episode 282: Iran Aviation Crisis, United Airlines Boeing 787 Emergency At LAX",
@@ -311,40 +343,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-05T20:00:18.000Z"
-    },
-    {
-      "id": "1ob83i",
-      "type": "news",
-      "headline": "British Airways & Qatar Airways Pivot To Muscat For Airlifts",
-      "blurb": "With Doha's airport closed due to the Iran conflict, Qatar Airways is relocating a small number of jets, pilots, and crew to Muscat.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/british-airways-qatar-airways-pivot-muscat-airlifts/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airport",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-05T19:45:27.000Z"
-    },
-    {
-      "id": "ionzp8",
-      "type": "news",
-      "headline": "Azerbaijan Shuts Southern Airspace After Iranian Drone Incursion",
-      "blurb": "Azerbaijan's southern skies were temporarily locked down as drones, suspected to have crossed from Iran, entered the Nakhchivan Autonomous Republic.",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/azerbaijan-shuts-southern-airspace-iranian-drone-incursion/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "drone",
-        "space"
-      ],
-      "publishedAt": "2026-03-05T19:29:50.000Z"
     },
     {
       "id": "d58qzi",
