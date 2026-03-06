@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-06T02:35:52.423Z",
+  "lastUpdated": "2026-03-06T04:46:40.630Z",
   "articles": [
+    {
+      "id": "x5h1uy",
+      "type": "news",
+      "headline": "About Advanced Air Mobility Pathfinders Project",
+      "blurb": "The Advanced Air Mobility Pathfinders (AAMP) project accelerates advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships. AAMP researches emerging technologies, establishes aircraft strategic deconfliction fram...",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "aam",
+        "saf",
+        "space"
+      ],
+      "publishedAt": "2026-03-06T02:59:34.000Z"
+    },
     {
       "id": "8vgitk",
       "type": "news",
@@ -34,6 +52,26 @@
       "publishedAt": "2026-03-06T00:00:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-06T04:46:36.357Z",
+      "paiContent": true
+    },
+    {
       "id": "phf7m1",
       "type": "news",
       "headline": "Poland-based Liftero will provide chemical propulsion for Indian firm OrbitAID’s in-orbit servicing mission",
@@ -48,26 +86,6 @@
         "space"
       ],
       "publishedAt": "2026-03-05T23:32:20.000Z"
-    },
-    {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-06T02:35:46.466Z",
-      "paiContent": true
     },
     {
       "id": "tixgg9",
@@ -119,6 +137,27 @@
       "publishedAt": "2026-03-05T22:30:18.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-06T04:46:36.357Z",
+      "paiContent": true
+    },
+    {
       "id": "gwxp13",
       "type": "news",
       "headline": "Delta Air Lines’ Widebody Strategy: Why The Airbus A350 & A330 Work Together",
@@ -133,26 +172,6 @@
         "airbus"
       ],
       "publishedAt": "2026-03-05T22:00:18.000Z"
-    },
-    {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-06T02:35:46.466Z",
-      "paiContent": true
     },
     {
       "id": "uqg9jb",
@@ -203,20 +222,6 @@
       "publishedAt": "2026-03-05T21:00:00.000Z"
     },
     {
-      "id": "eixp7k",
-      "type": "news",
-      "headline": "Rolls-Royce F130 Engine For B-52 Passes Altitude And Operability Testing, Company Says",
-      "blurb": "Rolls-Royce said on Feb. 24 that it has completed altitude and operability testing for the company’s F130 engine as part of the U.S. Air Force’s Commercial Engine Replacement Program (CERP) […] The post Rolls-Royce F130 Engine For B-52 Passes Altitude And Operability Testing, Company Says appeare...",
-      "takeaway": "Industry developments to monitor closely.",
-      "source": {
-        "name": "Aviation Today",
-        "url": "https://www.aviationtoday.com/2026/03/05/rolls-royce-f130-engine-for-b-52-passes-altitude-and-operability-testing-company-says/"
-      },
-      "category": "industry",
-      "keywords": [],
-      "publishedAt": "2026-03-05T20:45:05.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -235,9 +240,23 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-06T02:35:46.466Z",
+      "publishedAt": "2026-03-06T04:46:36.357Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "eixp7k",
+      "type": "news",
+      "headline": "Rolls-Royce F130 Engine For B-52 Passes Altitude And Operability Testing, Company Says",
+      "blurb": "Rolls-Royce said on Feb. 24 that it has completed altitude and operability testing for the company’s F130 engine as part of the U.S. Air Force’s Commercial Engine Replacement Program (CERP) […] The post Rolls-Royce F130 Engine For B-52 Passes Altitude And Operability Testing, Company Says appeare...",
+      "takeaway": "Industry developments to monitor closely.",
+      "source": {
+        "name": "Aviation Today",
+        "url": "https://www.aviationtoday.com/2026/03/05/rolls-royce-f130-engine-for-b-52-passes-altitude-and-operability-testing-company-says/"
+      },
+      "category": "industry",
+      "keywords": [],
+      "publishedAt": "2026-03-05T20:45:05.000Z"
     },
     {
       "id": "1t3xi9",
@@ -569,23 +588,6 @@
         "space"
       ],
       "publishedAt": "2026-03-05T13:00:00.000Z"
-    },
-    {
-      "id": "qzewko",
-      "type": "news",
-      "headline": "Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator",
-      "blurb": "When Jared Isaacman was sworn in as NASA administrator Dec. 18, he hit the ground running — or, perhaps more accurately, hit the air flying. At a town hall the next day, he said he would visit all the agency’s field centers, a task he completed by late January. In some cases he showed up […] The ...",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-05T12:00:00.000Z"
     }
   ]
 }
