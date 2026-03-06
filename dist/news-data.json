@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T15:45:04.258Z",
+  "lastUpdated": "2026-03-06T15:53:52.823Z",
   "articles": [
     {
       "id": "y7xi8f",
@@ -70,22 +70,6 @@
       "publishedAt": "2026-03-06T14:30:17.000Z"
     },
     {
-      "id": "nppwc",
-      "type": "news",
-      "headline": "Hyperscalers are coming to an orbit near you. Power will decide the winners.",
-      "blurb": "Amid the explosive growth surrounding telecommunications megaconstellations, orbital data centers and next-generation payloads, the space ecosystem is entering a period of rapid and irreversible change. Announcements and filings for satellite constellations numbering in the tens of thousands, hun...",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-06T14:00:00.000Z"
-    },
-    {
       "id": "pai-evolution-sms",
       "type": "pai-blog",
       "headline": "The Evolution of Aviation SMS",
@@ -103,8 +87,24 @@
         "history",
         "aviation safety"
       ],
-      "publishedAt": "2026-03-06T15:45:00.263Z",
+      "publishedAt": "2026-03-06T15:53:49.362Z",
       "paiContent": true
+    },
+    {
+      "id": "nppwc",
+      "type": "news",
+      "headline": "Hyperscalers are coming to an orbit near you. Power will decide the winners.",
+      "blurb": "Amid the explosive growth surrounding telecommunications megaconstellations, orbital data centers and next-generation payloads, the space ecosystem is entering a period of rapid and irreversible change. Announcements and filings for satellite constellations numbering in the tens of thousands, hun...",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-06T14:00:00.000Z"
     },
     {
       "id": "ekdbib",
@@ -140,6 +140,26 @@
       "publishedAt": "2026-03-06T13:28:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-06T15:53:49.362Z",
+      "paiContent": true
+    },
+    {
       "id": "e1i9ys",
       "type": "news",
       "headline": "Press Release: TrueNoord delivers three factory-new A220s to Breeze",
@@ -172,26 +192,6 @@
       "publishedAt": "2026-03-06T13:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-06T15:45:00.263Z",
-      "paiContent": true
-    },
-    {
       "id": "2c89qt",
       "type": "news",
       "headline": "Typhoon Spotted Loaded With Rocket Pods for the First Time",
@@ -204,6 +204,29 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-06T12:51:34.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-06T15:53:49.362Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "ojaaga",
@@ -252,29 +275,6 @@
         "space"
       ],
       "publishedAt": "2026-03-06T11:01:13.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-06T15:45:00.264Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "nvyzye",
