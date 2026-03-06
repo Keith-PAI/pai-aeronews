@@ -1,6 +1,37 @@
 {
-  "lastUpdated": "2026-03-06T08:48:44.305Z",
+  "lastUpdated": "2026-03-06T09:49:24.097Z",
   "articles": [
+    {
+      "id": "k7p2s7",
+      "type": "news",
+      "headline": "How Much? The Boeing 787-9's Extended Range Over The Airbus A330-900neo",
+      "blurb": "The Boeing 787-9 and Airbus A330-900neo represent two vastly different philosophies in modern twin-engine engineering, but which one truly leads?",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-much-range-boeing-787-9-over-airbus-a330-900neo/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "airbus"
+      ],
+      "publishedAt": "2026-03-06T09:00:16.000Z"
+    },
+    {
+      "id": "dz6g26",
+      "type": "news",
+      "headline": "No Longer Returning: JetBlue Cuts Summer Seasonal Flights Between Boston & Sacramento",
+      "blurb": "JetBlue cancels the route after planning flights between June and September.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/jetblue-cuts-summer-seasonal-flights-boston-sacramento/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-06T08:59:15.000Z"
+    },
     {
       "id": "begqys",
       "type": "news",
@@ -16,6 +47,26 @@
         "drone"
       ],
       "publishedAt": "2026-03-06T08:02:00.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-06T09:49:19.441Z",
+      "paiContent": true
     },
     {
       "id": "yasdxy",
@@ -50,26 +101,6 @@
       "publishedAt": "2026-03-06T07:06:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-06T08:48:38.927Z",
-      "paiContent": true
-    },
-    {
       "id": "epic9w",
       "type": "news",
       "headline": "Unlucky Again? American Airlines Boeing 787 Remains Grounded 1 Month After Madrid Incident",
@@ -86,6 +117,26 @@
         "airline"
       ],
       "publishedAt": "2026-03-06T06:51:09.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-06T09:49:19.441Z",
+      "paiContent": true
     },
     {
       "id": "5ghwla",
@@ -134,24 +185,27 @@
       "publishedAt": "2026-03-06T05:30:29.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-06T08:48:38.927Z",
-      "paiContent": true
+      "publishedAt": "2026-03-06T09:49:19.441Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "o27hv",
@@ -219,29 +273,6 @@
         "space"
       ],
       "publishedAt": "2026-03-06T02:59:34.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-06T08:48:38.927Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "8vgitk",
@@ -355,38 +386,6 @@
         "airbus"
       ],
       "publishedAt": "2026-03-05T22:00:18.000Z"
-    },
-    {
-      "id": "uqg9jb",
-      "type": "news",
-      "headline": "Air Canada Rouge Debuts First 737 MAX 8 With Upgraded Cabins",
-      "blurb": "Air Canada Rouge's first Boeing 737 MAX 8 takes flight launching services to Edmonton and Kelowna, before it expands internationally.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/air-canada-rouge-first-737-max-8-upgraded-cabins/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-05T21:47:20.000Z"
-    },
-    {
-      "id": "be36pq",
-      "type": "news",
-      "headline": "Why American Airlines Is Doubling Down On Its Premium Product Across Its Widebody Fleet",
-      "blurb": "American Airlines is expanding Flagship Suites and premium-heavy aircraft as it reshapes its fleet around higher-yield premium travel.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-american-airlines-doubling-down-premium-product-widebody-fleet/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-05T21:00:17.000Z"
     },
     {
       "id": "eaw5cg",
