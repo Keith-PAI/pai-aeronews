@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-06T09:49:24.097Z",
+  "lastUpdated": "2026-03-06T10:43:00.823Z",
   "articles": [
+    {
+      "id": "nvyzye",
+      "type": "news",
+      "headline": "China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint",
+      "blurb": "China has designated aerospace to be an “emerging pillar industry” in a draft national economic plan, also setting major objectives for the five years ahead. The post China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint appeared first on...",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-06T10:20:31.000Z"
+    },
     {
       "id": "k7p2s7",
       "type": "news",
@@ -49,23 +65,24 @@
       "publishedAt": "2026-03-06T08:02:00.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
         "faa",
-        "srm"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-06T09:49:19.441Z",
+      "publishedAt": "2026-03-06T10:42:55.969Z",
       "paiContent": true
     },
     {
@@ -119,6 +136,22 @@
       "publishedAt": "2026-03-06T06:51:09.000Z"
     },
     {
+      "id": "5ghwla",
+      "type": "news",
+      "headline": "The World’s Longest Economy Class Legroom Seats You Can Book Today",
+      "blurb": "Which airlines have the most legroom?",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/longest-economy-class-legroom-seats-book-today/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-06T06:00:17.000Z"
+    },
+    {
       "id": "pai-safety-culture",
       "type": "pai-blog",
       "headline": "Safety Culture in Aviation SMS",
@@ -135,24 +168,8 @@
         "reporting",
         "just culture"
       ],
-      "publishedAt": "2026-03-06T09:49:19.441Z",
+      "publishedAt": "2026-03-06T10:42:55.969Z",
       "paiContent": true
-    },
-    {
-      "id": "5ghwla",
-      "type": "news",
-      "headline": "The World’s Longest Economy Class Legroom Seats You Can Book Today",
-      "blurb": "Which airlines have the most legroom?",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/longest-economy-class-legroom-seats-book-today/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-06T06:00:17.000Z"
     },
     {
       "id": "ks860p",
@@ -185,29 +202,6 @@
       "publishedAt": "2026-03-06T05:30:29.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-06T09:49:19.441Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "o27hv",
       "type": "news",
       "headline": "How Enhanced Vision Systems Are Reshaping Lease Values",
@@ -237,6 +231,29 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-06T05:01:00.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-06T10:42:55.970Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "ixps0v",
@@ -578,23 +595,6 @@
         "nasa"
       ],
       "publishedAt": "2026-03-05T16:27:19.000Z"
-    },
-    {
-      "id": "vojpat",
-      "type": "news",
-      "headline": "USAF Looks To Replace Radios On HH-60Ws",
-      "blurb": "The U.S. Air Force is looking to replace the Link-16 TacNet Tactical Radios (TTRs) by RTX‘s Collins Aerospace on the service’s fleet of Lockheed Martin HH-60W Jolly Green II combat […] The post USAF Looks To Replace Radios On HH-60Ws appeared first on Aviation Tech Today.",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "Aviation Today",
-        "url": "https://www.aviationtoday.com/2026/03/05/usaf-looks-to-replace-radios-on-hh-60ws/"
-      },
-      "category": "industry",
-      "keywords": [
-        "saf",
-        "space"
-      ],
-      "publishedAt": "2026-03-05T15:58:34.000Z"
     }
   ]
 }
