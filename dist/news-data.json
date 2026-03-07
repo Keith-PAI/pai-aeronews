@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-07T15:30:09.184Z",
+  "lastUpdated": "2026-03-07T15:36:18.685Z",
   "articles": [
+    {
+      "id": "r205ao",
+      "type": "news",
+      "headline": "Air Canada Airbus A321XLR: Inside All Planned 12 Routes In 2026",
+      "blurb": "A narrowbody revolution is coming to the Canadian flag carrier.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/air-canada-airbus-a321xlr-routes-2026/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-07T15:30:18.000Z"
+    },
     {
       "id": "ixn5ad",
       "type": "news",
@@ -56,6 +72,22 @@
       "publishedAt": "2026-03-07T13:32:26.000Z"
     },
     {
+      "id": "r0t4iw",
+      "type": "news",
+      "headline": "Etihad Announces Non-Stop Flights To Western Canada",
+      "blurb": "On January 26th, Etihad Airways announced the launch of the first-ever nonstop flights between the UAE and Calgary. The airline says that this move will create a new strategic air link between the Middle East and Western Canada.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/video/etihad-announces-non-stop-flights-to-western-canada/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-07T13:30:16.000Z"
+    },
+    {
       "id": "pai-safety-culture",
       "type": "pai-blog",
       "headline": "Safety Culture in Aviation SMS",
@@ -72,24 +104,8 @@
         "reporting",
         "just culture"
       ],
-      "publishedAt": "2026-03-07T15:30:04.603Z",
+      "publishedAt": "2026-03-07T15:36:13.550Z",
       "paiContent": true
-    },
-    {
-      "id": "r0t4iw",
-      "type": "news",
-      "headline": "Etihad Announces Non-Stop Flights To Western Canada",
-      "blurb": "On January 26th, Etihad Airways announced the launch of the first-ever nonstop flights between the UAE and Calgary. The airline says that this move will create a new strategic air link between the Middle East and Western Canada.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/video/etihad-announces-non-stop-flights-to-western-canada/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-07T13:30:16.000Z"
     },
     {
       "id": "uh7jgi",
@@ -136,23 +152,24 @@
       "publishedAt": "2026-03-07T12:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
         "faa",
-        "srm"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-07T15:30:04.603Z",
+      "publishedAt": "2026-03-07T15:36:13.550Z",
       "paiContent": true
     },
     {
@@ -202,23 +219,6 @@
       "publishedAt": "2026-03-07T09:00:16.000Z"
     },
     {
-      "id": "my80s6",
-      "type": "news",
-      "headline": "Embraer Hits All-Time High $31 Billion Backlog As Airlines Flock To E-Jets",
-      "blurb": "The company sold more E jets in 2025 than any other year.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/embraer-all-time-high-31-billion-backlog-airlines/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "embraer",
-        "airline"
-      ],
-      "publishedAt": "2026-03-07T07:21:56.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -237,9 +237,26 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-07T15:30:04.603Z",
+      "publishedAt": "2026-03-07T15:36:13.550Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "my80s6",
+      "type": "news",
+      "headline": "Embraer Hits All-Time High $31 Billion Backlog As Airlines Flock To E-Jets",
+      "blurb": "The company sold more E jets in 2025 than any other year.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/embraer-all-time-high-31-billion-backlog-airlines/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "embraer",
+        "airline"
+      ],
+      "publishedAt": "2026-03-07T07:21:56.000Z"
     },
     {
       "id": "gze6t7",
@@ -256,22 +273,6 @@
         "airbus"
       ],
       "publishedAt": "2026-03-07T06:00:17.000Z"
-    },
-    {
-      "id": "n6acnp",
-      "type": "news",
-      "headline": "Celebrate America: 4 Airlines To Unveil Planes Honoring Nation’s Semiquincentennial",
-      "blurb": "American Airlines is set to be the first among major US carriers to unveil planes honoring the nation's semiquincentennial.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/4-airlines-unveil-planes-nation-semiquincentennial/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-07T03:27:39.000Z"
     },
     {
       "id": "51xut1",
