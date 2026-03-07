@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-07T08:38:57.022Z",
+  "lastUpdated": "2026-03-07T09:35:56.219Z",
   "articles": [
+    {
+      "id": "4otvzc",
+      "type": "news",
+      "headline": "The 6 Largest North American Air Bases By Aircraft Count",
+      "blurb": "Where the warbirds go to roost.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/largest-north-american-air-bases-aircraft/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-07T09:00:16.000Z"
+    },
     {
       "id": "my80s6",
       "type": "news",
@@ -67,23 +81,24 @@
       "publishedAt": "2026-03-07T03:00:30.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
         "faa",
-        "srm"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-07T08:38:52.570Z",
+      "publishedAt": "2026-03-07T09:35:49.855Z",
       "paiContent": true
     },
     {
@@ -136,27 +151,6 @@
       "publishedAt": "2026-03-06T23:42:43.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-07T08:38:52.570Z",
-      "paiContent": true
-    },
-    {
       "id": "dt9vfi",
       "type": "news",
       "headline": "Why Southwest Airlines Is Retiring Its Boeing 737 NGs",
@@ -172,6 +166,26 @@
         "airline"
       ],
       "publishedAt": "2026-03-06T22:30:17.000Z"
+    },
+    {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-07T09:35:49.855Z",
+      "paiContent": true
     },
     {
       "id": "vwbra3",
@@ -205,29 +219,6 @@
         "nasa"
       ],
       "publishedAt": "2026-03-06T22:00:00.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-07T08:38:52.570Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "8dz9dn",
@@ -264,6 +255,29 @@
       "publishedAt": "2026-03-06T21:36:22.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-07T09:35:49.855Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "5n8ff0",
       "type": "news",
       "headline": "Pentagon, FAA Plan Counter-Drone Laser Testing in New Mexico",
@@ -281,22 +295,6 @@
         "safety"
       ],
       "publishedAt": "2026-03-06T21:16:48.000Z"
-    },
-    {
-      "id": "giooua",
-      "type": "news",
-      "headline": "Boeing Eyes 500-Jet Mega Deal As China Trade Ties Rebound",
-      "blurb": "The upcoming meeting between President Trump and Chinese President Xi Jinping in April may bring a major boost for Boeing, with potential orders.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/boeing-eyes-500-jet-mega-deal-china-trade-ties-rebound/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-06T21:14:33.000Z"
     },
     {
       "id": "ndt3sj",
