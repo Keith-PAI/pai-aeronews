@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-07T14:30:35.357Z",
+  "lastUpdated": "2026-03-07T15:30:09.184Z",
   "articles": [
+    {
+      "id": "ixn5ad",
+      "type": "news",
+      "headline": "The Airbus A220’s Unique Cabin Design That Balances Space & Efficiency",
+      "blurb": "The Airbus A220's cabin design sets it apart from competitors, offering a spacious and airy environment in a small single-aisle, narrow-body airliner.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/airbus-a220-unique-cabin-design-balance-efficiency/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus",
+        "airline",
+        "space"
+      ],
+      "publishedAt": "2026-03-07T15:00:16.000Z"
+    },
     {
       "id": "73bud",
       "type": "news",
@@ -38,6 +56,26 @@
       "publishedAt": "2026-03-07T13:32:26.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-07T15:30:04.603Z",
+      "paiContent": true
+    },
+    {
       "id": "r0t4iw",
       "type": "news",
       "headline": "Etihad Announces Non-Stop Flights To Western Canada",
@@ -52,26 +90,6 @@
         "airline"
       ],
       "publishedAt": "2026-03-07T13:30:16.000Z"
-    },
-    {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-07T14:30:29.073Z",
-      "paiContent": true
     },
     {
       "id": "uh7jgi",
@@ -118,23 +136,23 @@
       "publishedAt": "2026-03-07T12:00:17.000Z"
     },
     {
-      "id": "pai-sms-compliance",
+      "id": "pai-risk-controls",
       "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "compliance",
+        "risk",
         "faa",
-        "declaration"
+        "srm"
       ],
-      "publishedAt": "2026-03-07T14:30:29.073Z",
+      "publishedAt": "2026-03-07T15:30:04.603Z",
       "paiContent": true
     },
     {
@@ -184,6 +202,23 @@
       "publishedAt": "2026-03-07T09:00:16.000Z"
     },
     {
+      "id": "my80s6",
+      "type": "news",
+      "headline": "Embraer Hits All-Time High $31 Billion Backlog As Airlines Flock To E-Jets",
+      "blurb": "The company sold more E jets in 2025 than any other year.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/embraer-all-time-high-31-billion-backlog-airlines/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "embraer",
+        "airline"
+      ],
+      "publishedAt": "2026-03-07T07:21:56.000Z"
+    },
+    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -202,26 +237,9 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-07T14:30:29.073Z",
+      "publishedAt": "2026-03-07T15:30:04.603Z",
       "videoContent": true,
       "duration": "16:49"
-    },
-    {
-      "id": "my80s6",
-      "type": "news",
-      "headline": "Embraer Hits All-Time High $31 Billion Backlog As Airlines Flock To E-Jets",
-      "blurb": "The company sold more E jets in 2025 than any other year.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/embraer-all-time-high-31-billion-backlog-airlines/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "embraer",
-        "airline"
-      ],
-      "publishedAt": "2026-03-07T07:21:56.000Z"
     },
     {
       "id": "gze6t7",
@@ -254,22 +272,6 @@
         "airline"
       ],
       "publishedAt": "2026-03-07T03:27:39.000Z"
-    },
-    {
-      "id": "8fn76y",
-      "type": "news",
-      "headline": "Why Boeing 737 MAX Orders Are Booming In The US",
-      "blurb": "The Boeing 737 MAX is back at the center of major fleet announcements across the US aviation market.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-boeing-737-max-orders-booming-us/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-07T03:00:30.000Z"
     },
     {
       "id": "51xut1",
