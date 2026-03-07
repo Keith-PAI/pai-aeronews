@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T07:34:23.676Z",
+  "lastUpdated": "2026-03-07T08:38:57.022Z",
   "articles": [
     {
       "id": "my80s6",
@@ -51,6 +51,22 @@
       "publishedAt": "2026-03-07T03:27:39.000Z"
     },
     {
+      "id": "8fn76y",
+      "type": "news",
+      "headline": "Why Boeing 737 MAX Orders Are Booming In The US",
+      "blurb": "The Boeing 737 MAX is back at the center of major fleet announcements across the US aviation market.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-boeing-737-max-orders-booming-us/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-07T03:00:30.000Z"
+    },
+    {
       "id": "pai-risk-controls",
       "type": "pai-blog",
       "headline": "Selecting Risk Controls and Accepting Residual Risk",
@@ -67,24 +83,8 @@
         "faa",
         "srm"
       ],
-      "publishedAt": "2026-03-07T07:34:19.411Z",
+      "publishedAt": "2026-03-07T08:38:52.570Z",
       "paiContent": true
-    },
-    {
-      "id": "8fn76y",
-      "type": "news",
-      "headline": "Why Boeing 737 MAX Orders Are Booming In The US",
-      "blurb": "The Boeing 737 MAX is back at the center of major fleet announcements across the US aviation market.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-boeing-737-max-orders-booming-us/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-07T03:00:30.000Z"
     },
     {
       "id": "8zbrmd",
@@ -136,23 +136,24 @@
       "publishedAt": "2026-03-06T23:42:43.000Z"
     },
     {
-      "id": "pai-safety-culture",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-07T07:34:19.411Z",
+      "publishedAt": "2026-03-07T08:38:52.570Z",
       "paiContent": true
     },
     {
@@ -206,22 +207,6 @@
       "publishedAt": "2026-03-06T22:00:00.000Z"
     },
     {
-      "id": "8dz9dn",
-      "type": "news",
-      "headline": "Southwest Airlines Launches 1st Flights To This Exciting New City",
-      "blurb": "The world's largest low-cost carrier, Southwest has debuted in Knoxville.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/southwest-airlines-launches-1st-flights-to-this-exciting-new-city/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-06T21:50:19.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -240,9 +225,25 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-07T07:34:19.412Z",
+      "publishedAt": "2026-03-07T08:38:52.570Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "8dz9dn",
+      "type": "news",
+      "headline": "Southwest Airlines Launches 1st Flights To This Exciting New City",
+      "blurb": "The world's largest low-cost carrier, Southwest has debuted in Knoxville.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/southwest-airlines-launches-1st-flights-to-this-exciting-new-city/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-06T21:50:19.000Z"
     },
     {
       "id": "spil29",
