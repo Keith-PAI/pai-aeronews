@@ -1,6 +1,23 @@
 {
-  "lastUpdated": "2026-03-08T14:31:14.665Z",
+  "lastUpdated": "2026-03-08T15:30:43.363Z",
   "articles": [
+    {
+      "id": "rexyke",
+      "type": "news",
+      "headline": "Why In The World Does The Boeing 787-10 Dreamliner Have Fewer Wheels Than The Airbus A350-1000?",
+      "blurb": "The Airbus A350-1000 uses six-wheel landing gear bogies, while the Boeing 787-10 uses four-wheel bogies.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-boeing-787-10-dreamliner-fewer-wheels-airbus-a350-900/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "airbus"
+      ],
+      "publishedAt": "2026-03-08T15:00:16.000Z"
+    },
     {
       "id": "m2dz47",
       "type": "news",
@@ -51,6 +68,27 @@
       "publishedAt": "2026-03-08T13:05:07.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-08T15:30:39.871Z",
+      "paiContent": true
+    },
+    {
       "id": "2hbzp4",
       "type": "news",
       "headline": "Why Might The “Big Twin Freighter” Be Boeing’s Worst Nightmare For Its Newest Cargo Jet?",
@@ -65,26 +103,6 @@
         "boeing"
       ],
       "publishedAt": "2026-03-08T13:00:17.000Z"
-    },
-    {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-08T14:31:10.621Z",
-      "paiContent": true
     },
     {
       "id": "itfz8",
@@ -119,6 +137,26 @@
       "publishedAt": "2026-03-08T11:06:35.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-08T15:30:39.871Z",
+      "paiContent": true
+    },
+    {
       "id": "68c90g",
       "type": "news",
       "headline": "Why So Few MD-11 Aircraft Were Built",
@@ -151,26 +189,6 @@
       "publishedAt": "2026-03-08T10:58:56.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-08T14:31:10.621Z",
-      "paiContent": true
-    },
-    {
       "id": "ivmwe3",
       "type": "news",
       "headline": "Historic: London Gatwick To Welcome 8 New Airlines In 2026",
@@ -187,20 +205,27 @@
       "publishedAt": "2026-03-08T10:30:17.000Z"
     },
     {
-      "id": "vkcmrq",
-      "type": "news",
-      "headline": "Too Valuable: Here’s Why Delta Air Lines Isn’t Getting Rid Of The Boeing 757 Just Yet",
-      "blurb": "Despite being a 30-year-old aircraft, the Boeing 757 represents an era where power remained the most critical part of an aircraft.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-delta-air-lines-keeps-boeing-757/"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
-      "category": "commercial",
+      "category": "safety",
       "keywords": [
-        "boeing"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-08T10:00:16.000Z"
+      "publishedAt": "2026-03-08T15:30:39.871Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "ov67ga",
@@ -231,29 +256,6 @@
         "space"
       ],
       "publishedAt": "2026-03-08T01:31:17.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-08T14:31:10.621Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "h6u7gp",
