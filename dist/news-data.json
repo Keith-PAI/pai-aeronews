@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-08T20:34:23.389Z",
+  "lastUpdated": "2026-03-08T21:30:10.245Z",
   "articles": [
+    {
+      "id": "6crodx",
+      "type": "news",
+      "headline": "Kansas City Airport Reopens After 2nd Security Threat In Less Than 3 Months",
+      "blurb": "Local authorities worked with the FBI to investigate the nature of the threat.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/kansas-city-airport-reopens-2nd-security-threat-less-than-3-months/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-03-08T20:34:08.000Z"
+    },
     {
       "id": "qttidx",
       "type": "news",
@@ -52,23 +68,23 @@
       "publishedAt": "2026-03-08T18:51:06.000Z"
     },
     {
-      "id": "pai-safety-culture",
+      "id": "pai-sms-compliance",
       "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "compliance",
+        "faa",
+        "declaration"
       ],
-      "publishedAt": "2026-03-08T20:34:17.801Z",
+      "publishedAt": "2026-03-08T21:30:05.380Z",
       "paiContent": true
     },
     {
@@ -123,6 +139,26 @@
       "publishedAt": "2026-03-08T18:00:16.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-08T21:30:05.380Z",
+      "paiContent": true
+    },
+    {
       "id": "ki1pvl",
       "type": "news",
       "headline": "France Extends Nuclear Deterrence to European Allies – What Does This Mean for European Security?",
@@ -135,27 +171,6 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-08T17:44:06.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-08T20:34:17.801Z",
-      "paiContent": true
     },
     {
       "id": "x98b3x",
@@ -188,39 +203,6 @@
       "publishedAt": "2026-03-08T17:25:01.000Z"
     },
     {
-      "id": "agmuf0",
-      "type": "news",
-      "headline": "Inside Van Nuys On Oscars Weekend: Hollywood’s Busiest Private Airport",
-      "blurb": "As Hollywood prepares for the Academy Awards, Van Nuys Airport transforms into one of the most strategically important aviation hubs in the world.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/inside-van-nuys-oscars-weekend-hollywoods-busiest/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airport"
-      ],
-      "publishedAt": "2026-03-08T16:01:17.000Z"
-    },
-    {
-      "id": "rexyke",
-      "type": "news",
-      "headline": "Why In The World Does The Boeing 787-10 Dreamliner Have Fewer Wheels Than The Airbus A350-1000?",
-      "blurb": "The Airbus A350-1000 uses six-wheel landing gear bogies, while the Boeing 787-10 uses four-wheel bogies.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-boeing-787-10-dreamliner-fewer-wheels-airbus-a350-900/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing",
-        "airbus"
-      ],
-      "publishedAt": "2026-03-08T15:00:16.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -239,9 +221,25 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-08T20:34:17.801Z",
+      "publishedAt": "2026-03-08T21:30:05.380Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "agmuf0",
+      "type": "news",
+      "headline": "Inside Van Nuys On Oscars Weekend: Hollywood’s Busiest Private Airport",
+      "blurb": "As Hollywood prepares for the Academy Awards, Van Nuys Airport transforms into one of the most strategically important aviation hubs in the world.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/inside-van-nuys-oscars-weekend-hollywoods-busiest/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-03-08T16:01:17.000Z"
     },
     {
       "id": "ov67ga",
