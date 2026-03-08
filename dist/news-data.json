@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-08T08:39:09.438Z",
+  "lastUpdated": "2026-03-08T09:36:20.520Z",
   "articles": [
+    {
+      "id": "ov67ga",
+      "type": "news",
+      "headline": "Israeli Air Force Strikes Iranian F-14 Tomcat Fleet at Isfahan Air Base",
+      "blurb": "Iranian F-14 fleet attacked at a base in central Iran believed to host all the remaining F-14s in Iranian service. Early in the morning on Mar. 8, 2026, the IDF announced that all Iranian Air Force F-14 Tomcats at the 8th Tactical Fighter Base in Isfahan (or Esfahan), in central Iran, home to the...",
+      "takeaway": "Military aviation advances influence broader industry.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/08/iranian-f-14-fleet-update/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-03-08T09:05:31.000Z"
+    },
     {
       "id": "d0y0fl",
       "type": "news",
@@ -47,27 +61,6 @@
       "publishedAt": "2026-03-08T05:00:21.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-08T08:39:06.231Z",
-      "paiContent": true
-    },
-    {
       "id": "zbrfxz",
       "type": "news",
       "headline": "Security Scare: SWAT Team Deployed On Southwest Airlines Flight After Alleged Bomb Threat",
@@ -82,6 +75,26 @@
         "airline"
       ],
       "publishedAt": "2026-03-08T03:26:32.000Z"
+    },
+    {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-08T09:36:17.087Z",
+      "paiContent": true
     },
     {
       "id": "p2ghxz",
@@ -133,23 +146,23 @@
       "publishedAt": "2026-03-07T23:56:28.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-safety-culture",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
-        "faa",
-        "srm"
+        "safety culture",
+        "reporting",
+        "just culture"
       ],
-      "publishedAt": "2026-03-08T08:39:06.231Z",
+      "publishedAt": "2026-03-08T09:36:17.087Z",
       "paiContent": true
     },
     {
@@ -197,20 +210,6 @@
       "publishedAt": "2026-03-07T23:00:17.000Z"
     },
     {
-      "id": "ytz4ac",
-      "type": "news",
-      "headline": "The Striking Differences Between The C-17 Globemaster & The C-5 Galaxy",
-      "blurb": "From strategic airlift to tactical flexibility.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/differences-c-17-globemaster-c-5-galaxy/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-07T22:30:17.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -229,9 +228,23 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-08T08:39:06.231Z",
+      "publishedAt": "2026-03-08T09:36:17.087Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "ytz4ac",
+      "type": "news",
+      "headline": "The Striking Differences Between The C-17 Globemaster & The C-5 Galaxy",
+      "blurb": "From strategic airlift to tactical flexibility.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/differences-c-17-globemaster-c-5-galaxy/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-07T22:30:17.000Z"
     },
     {
       "id": "otafcz",
@@ -566,22 +579,6 @@
         "incident"
       ],
       "publishedAt": "2026-03-06T17:58:06.000Z"
-    },
-    {
-      "id": "ulu39c",
-      "type": "news",
-      "headline": "Eutelsat completes $5.8 billion refinancing plan",
-      "blurb": "Eutelsat has completed the last step in a 5 billion euro ($5.8 billion) refinancing plan to refresh its OneWeb constellation and support Europe’s IRIS² sovereign connectivity program, the French satellite operator announced March 6. The post Eutelsat completes $5.8 billion refinancing plan appear...",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-06T17:16:18.000Z"
     }
   ]
 }
