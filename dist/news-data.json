@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-08T04:48:31.694Z",
+  "lastUpdated": "2026-03-08T05:49:32.029Z",
   "articles": [
+    {
+      "id": "pnpx96",
+      "type": "news",
+      "headline": "The 7 Largest Canadian Air Bases By Land Area",
+      "blurb": "Air power of the Great North.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/largest-canadian-air-bases-land-area/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-08T05:00:21.000Z"
+    },
     {
       "id": "zbrfxz",
       "type": "news",
@@ -32,6 +46,26 @@
         "space"
       ],
       "publishedAt": "2026-03-08T01:31:17.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-08T05:49:27.636Z",
+      "paiContent": true
     },
     {
       "id": "e6xxm0",
@@ -67,26 +101,6 @@
       "publishedAt": "2026-03-07T23:56:28.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-08T04:48:25.183Z",
-      "paiContent": true
-    },
-    {
       "id": "y8vtur",
       "type": "news",
       "headline": "$200,000 One-Way: Inside The Desperate Scramble To Charter Private Jets Out Of The Gulf",
@@ -99,6 +113,26 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-07T23:51:08.000Z"
+    },
+    {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-08T05:49:27.636Z",
+      "paiContent": true
     },
     {
       "id": "yfjm3m",
@@ -145,24 +179,27 @@
       "publishedAt": "2026-03-07T22:30:17.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-08T04:48:25.183Z",
-      "paiContent": true
+      "publishedAt": "2026-03-08T05:49:27.636Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "otafcz",
@@ -223,29 +260,6 @@
       "publishedAt": "2026-03-07T20:00:18.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-08T04:48:25.183Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "bgpkj5",
       "type": "news",
       "headline": "UK Typhoons, Wildcats, and Merlin Deployed to Bolster Counter-Drone Defences",
@@ -261,20 +275,6 @@
         "atc"
       ],
       "publishedAt": "2026-03-07T19:28:05.000Z"
-    },
-    {
-      "id": "q7jr2",
-      "type": "news",
-      "headline": "Rio–New York: Brazil's GOL To Launch First-Ever Long-Haul Flights This Summer",
-      "blurb": "Brazilian carrier GOL's bold move into long-haul flights with its first-ever route connecting Rio de Janeiro and New York set to launch in 2026.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/rionew-york-brazils-gol-to-launch-first-ever-long-haul-flights-this-summer/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-07T19:13:00.000Z"
     },
     {
       "id": "tvtiw4",
