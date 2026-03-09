@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T16:07:23.983Z",
+  "lastUpdated": "2026-03-09T16:12:46.759Z",
   "articles": [
     {
       "id": "h2tfhx",
@@ -51,26 +51,6 @@
       "publishedAt": "2026-03-09T15:17:30.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-09T16:07:19.949Z",
-      "paiContent": true
-    },
-    {
       "id": "7ouku",
       "type": "news",
       "headline": "Webb Studies Cranium Nebula",
@@ -86,6 +66,26 @@
         "space"
       ],
       "publishedAt": "2026-03-09T15:09:37.000Z"
+    },
+    {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-03-09T16:12:42.638Z",
+      "paiContent": true
     },
     {
       "id": "lvha27",
@@ -133,23 +133,24 @@
       "publishedAt": "2026-03-09T14:58:28.000Z"
     },
     {
-      "id": "pai-safety-culture",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-09T16:07:19.949Z",
+      "publishedAt": "2026-03-09T16:12:42.638Z",
       "paiContent": true
     },
     {
@@ -197,22 +198,6 @@
       "publishedAt": "2026-03-09T13:53:11.000Z"
     },
     {
-      "id": "3z9a8z",
-      "type": "news",
-      "headline": "Why Delta Air Lines Is Retiring Its Boeing 767-300ERs",
-      "blurb": "Delta will retire its aging Boeing 767-300ERs by 2030, replacing them with fuel-efficient A350s and A330neos while keeping the 767-400ER flying.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-delta-air-lines-is-retiring-boeing-767-300ers/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-09T13:30:18.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -231,9 +216,25 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-09T16:07:19.949Z",
+      "publishedAt": "2026-03-09T16:12:42.638Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "3z9a8z",
+      "type": "news",
+      "headline": "Why Delta Air Lines Is Retiring Its Boeing 767-300ERs",
+      "blurb": "Delta will retire its aging Boeing 767-300ERs by 2030, replacing them with fuel-efficient A350s and A330neos while keeping the 767-400ER flying.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-delta-air-lines-is-retiring-boeing-767-300ers/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-09T13:30:18.000Z"
     },
     {
       "id": "q8lbw0",
