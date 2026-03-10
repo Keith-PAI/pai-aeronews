@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T21:34:59.725Z",
+  "lastUpdated": "2026-03-10T22:35:23.672Z",
   "articles": [
     {
       "id": "usvg2s",
@@ -50,23 +50,23 @@
       "publishedAt": "2026-03-10T20:29:04.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-sms-compliance",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
+        "compliance",
         "faa",
-        "srm"
+        "declaration"
       ],
-      "publishedAt": "2026-03-10T21:34:55.682Z",
+      "publishedAt": "2026-03-10T22:35:18.680Z",
       "paiContent": true
     },
     {
@@ -119,26 +119,6 @@
       "publishedAt": "2026-03-10T20:00:18.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-10T21:34:55.682Z",
-      "paiContent": true
-    },
-    {
       "id": "f5pmen",
       "type": "news",
       "headline": "Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing",
@@ -151,6 +131,26 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-10T19:43:07.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-10T22:35:18.680Z",
+      "paiContent": true
     },
     {
       "id": "d7iir2",
@@ -184,29 +184,6 @@
       "publishedAt": "2026-03-10T19:12:01.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-10T21:34:55.682Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "h8yq60",
       "type": "news",
       "headline": "Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators",
@@ -237,6 +214,29 @@
         "airline"
       ],
       "publishedAt": "2026-03-10T19:00:19.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-10T22:35:18.680Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "pav5ke",
