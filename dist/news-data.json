@@ -1,6 +1,52 @@
 {
-  "lastUpdated": "2026-03-10T04:46:57.925Z",
+  "lastUpdated": "2026-03-10T05:52:10.759Z",
   "articles": [
+    {
+      "id": "xxvaew",
+      "type": "news",
+      "headline": "400 Knots & No Runway: Inside DARPA's New X-76 Fold-Away Rotor Aircraft",
+      "blurb": "Bell is reinventing aviation, again.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/400-knots-no-runway-darpa-x76-rotor-aircraft/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-10T05:38:58.000Z"
+    },
+    {
+      "id": "gik627",
+      "type": "news",
+      "headline": "Why Are New Airbus Aircraft Ferried To Different Sites Before Delivery?",
+      "blurb": "The journey of a new Airbus aircraft is far from over once it leaves the final assembly line.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-new-airbus-aircraft-ferries-different-sites-delivery/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-10T05:15:17.000Z"
+    },
+    {
+      "id": "fvyysq",
+      "type": "news",
+      "headline": "Slow Start: Why Airbus Deliveries Are Already Trailing Last Year’s Output",
+      "blurb": "The European planemaker is struggling with supply chain constraints.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/slow-start-why-airbus-deliveries-trailing-last-year/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-10T04:56:57.000Z"
+    },
     {
       "id": "kwmwdq",
       "type": "news",
@@ -31,6 +77,26 @@
         "airport"
       ],
       "publishedAt": "2026-03-10T00:00:17.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-10T05:52:07.153Z",
+      "paiContent": true
     },
     {
       "id": "v1c712",
@@ -100,7 +166,7 @@
         "faa",
         "srm"
       ],
-      "publishedAt": "2026-03-10T04:46:53.756Z",
+      "publishedAt": "2026-03-10T05:52:07.153Z",
       "paiContent": true
     },
     {
@@ -153,6 +219,29 @@
       "publishedAt": "2026-03-09T21:31:17.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-10T05:52:07.153Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "x5ut7k",
       "type": "news",
       "headline": "Missile detection satellites designed by BAE Systems pass early review",
@@ -167,27 +256,6 @@
         "space"
       ],
       "publishedAt": "2026-03-09T21:15:08.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-10T04:46:53.756Z",
-      "paiContent": true
     },
     {
       "id": "cyqibf",
@@ -251,29 +319,6 @@
         "drone"
       ],
       "publishedAt": "2026-03-09T20:21:31.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-10T04:46:53.756Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "14sl1k",
@@ -386,38 +431,6 @@
       "publishedAt": "2026-03-09T18:53:05.000Z"
     },
     {
-      "id": "6kagz0",
-      "type": "news",
-      "headline": "The Invisible Checkpoint Crisis Threatening To Ground Your Flight",
-      "blurb": "As the government shutdown drags on, airport security lines are growing longer, threatening to delay or even ground flights across the United States.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/invisible-checkpoint-crisis-threatening-to-ground-your-flight/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airport"
-      ],
-      "publishedAt": "2026-03-09T18:41:29.000Z"
-    },
-    {
-      "id": "skagh0",
-      "type": "news",
-      "headline": "Headphone Police: American Airlines Passenger Ejected As Carriers Crack Down On Speakers",
-      "blurb": "An American Airlines flight from Miami to Tampa was disrupted when a passenger refused to comply with the 'Quiet Cabin' policy.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/headphone-police-american-airlines-ejected-crackdown-speakers/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-09T18:33:52.000Z"
-    },
-    {
       "id": "i2kwuj",
       "type": "news",
       "headline": "About Flight Demonstrations and Capabilities (FDC) Project",
@@ -433,22 +446,6 @@
         "safety"
       ],
       "publishedAt": "2026-03-09T18:30:00.000Z"
-    },
-    {
-      "id": "hay43t",
-      "type": "news",
-      "headline": "Why Embraer’s New E-Freighter Is A Major Threat To The 737 Classic",
-      "blurb": "The Brazilian manufacturer is looking to disrupt a legacy market.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-embraer-new-efreighter-major-threat-737-classic/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "embraer"
-      ],
-      "publishedAt": "2026-03-09T18:15:18.000Z"
     },
     {
       "id": "pah1p1",
