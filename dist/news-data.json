@@ -1,6 +1,38 @@
 {
-  "lastUpdated": "2026-03-10T20:41:14.851Z",
+  "lastUpdated": "2026-03-10T21:34:59.725Z",
   "articles": [
+    {
+      "id": "usvg2s",
+      "type": "news",
+      "headline": "The Final Bid: Where Will New Pacific’s Boeing 757s Land Next?",
+      "blurb": "These aircraft are set to be auctioned.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/the-final-bid-where-will-new-pacifics-boeing-757s-land-next/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-10T21:30:17.000Z"
+    },
+    {
+      "id": "kvpmk9",
+      "type": "news",
+      "headline": "Why American Airlines Doesn't Want Flagship First Class Anymore",
+      "blurb": "In 2022, the carrier confirmed that it would eliminate its Flagship First class.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-american-airlines-doesnt-want-flagship-first-class-anymore/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-10T21:30:17.000Z"
+    },
     {
       "id": "pgjd7e",
       "type": "news",
@@ -16,6 +48,26 @@
         "space"
       ],
       "publishedAt": "2026-03-10T20:29:04.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-10T21:34:55.682Z",
+      "paiContent": true
     },
     {
       "id": "2m8xft",
@@ -67,23 +119,23 @@
       "publishedAt": "2026-03-10T20:00:18.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-assess-safety-risk",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
+        "risk assessment",
         "faa",
-        "srm"
+        "part 5"
       ],
-      "publishedAt": "2026-03-10T20:41:10.623Z",
+      "publishedAt": "2026-03-10T21:34:55.682Z",
       "paiContent": true
     },
     {
@@ -132,24 +184,27 @@
       "publishedAt": "2026-03-10T19:12:01.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-10T20:41:10.623Z",
-      "paiContent": true
+      "publishedAt": "2026-03-10T21:34:55.682Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "h8yq60",
@@ -198,29 +253,6 @@
         "airport"
       ],
       "publishedAt": "2026-03-10T18:52:47.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-10T20:41:10.623Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "sicdw5",
@@ -352,36 +384,6 @@
       "category": "drones",
       "keywords": [],
       "publishedAt": "2026-03-10T17:12:41.000Z"
-    },
-    {
-      "id": "wjuf7g",
-      "type": "news",
-      "headline": "Delta Launches 11 New Long-Haul Nonstop Routes: See All Flights Now",
-      "blurb": "These long-haul additions are set to take flight this year.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/delta-launches-11-new-long-haul-nonstop-routes-see-all-flights-now/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-10T17:01:17.000Z"
-    },
-    {
-      "id": "89acrq",
-      "type": "news",
-      "headline": "7 Most Affordable Premium Economy Cabins You Can Book Today",
-      "blurb": "Discover 7 affordable premium economy cabins offering extra space, better dining, and strong value without business class prices.",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/7-most-affordable-premium-economy-cabins-book-today/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-10T17:01:17.000Z"
     },
     {
       "id": "9srjgw",
