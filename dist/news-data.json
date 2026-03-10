@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-10T02:34:45.242Z",
+  "lastUpdated": "2026-03-10T04:46:57.925Z",
   "articles": [
+    {
+      "id": "kwmwdq",
+      "type": "news",
+      "headline": "Shades of a Lunar Eclipse",
+      "blurb": "A series of nighttime satellite images revealed how moonlight reaching Earth varied throughout a total lunar eclipse.",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/shades-of-a-lunar-eclipse/"
+      },
+      "category": "aerospace",
+      "keywords": [],
+      "publishedAt": "2026-03-10T04:01:00.000Z"
+    },
     {
       "id": "kp8f8x",
       "type": "news",
@@ -53,26 +67,6 @@
       "publishedAt": "2026-03-09T22:28:26.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-10T02:34:41.347Z",
-      "paiContent": true
-    },
-    {
       "id": "wfwxay",
       "type": "news",
       "headline": "Which New York Airport Has The Best Airline Lounges?",
@@ -88,6 +82,26 @@
         "airport"
       ],
       "publishedAt": "2026-03-09T22:00:17.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-10T04:46:53.756Z",
+      "paiContent": true
     },
     {
       "id": "pvfyxk",
@@ -120,27 +134,6 @@
         "space"
       ],
       "publishedAt": "2026-03-09T21:48:28.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-10T02:34:41.347Z",
-      "paiContent": true
     },
     {
       "id": "3p0vi3",
@@ -176,6 +169,27 @@
       "publishedAt": "2026-03-09T21:15:08.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-10T04:46:53.756Z",
+      "paiContent": true
+    },
+    {
       "id": "cyqibf",
       "type": "news",
       "headline": "Bird Strike Forces United 737 MAX Back To EWR With Cracked Windshield",
@@ -188,29 +202,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-09T21:02:13.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-10T02:34:41.347Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "wkslrs",
@@ -260,6 +251,29 @@
         "drone"
       ],
       "publishedAt": "2026-03-09T20:21:31.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-10T04:46:53.756Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "14sl1k",
@@ -582,22 +596,6 @@
         "space"
       ],
       "publishedAt": "2026-03-09T15:50:56.000Z"
-    },
-    {
-      "id": "6ordlc",
-      "type": "news",
-      "headline": "Fort Worth Police Helicopter Makes an Emergency Landing",
-      "blurb": "The flight's pilot and tactical flight officer were transported to a hospital for evaluation.",
-      "takeaway": "Industry developments to monitor closely.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/flight-safety/accidents-ntsb/fort-worth-police-helicopter-emergency/"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-03-09T15:17:30.000Z"
     }
   ]
 }
