@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-10T06:59:42.518Z",
+  "lastUpdated": "2026-03-10T07:50:40.162Z",
   "articles": [
+    {
+      "id": "t5umu7",
+      "type": "news",
+      "headline": "DJI fixes ROMO security bug that exposed thousands of homes",
+      "blurb": "A software engineer who uncovered a major vulnerability in DJI’s cloud infrastructure — one that potentially exposed thousands of robot vacuum devices — has been promised a $30,000 reward from the company. more…",
+      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "source": {
+        "name": "DroneDJ",
+        "url": "https://dronedj.com/2026/03/10/dji-romo-security-bug-bounty/"
+      },
+      "category": "drones",
+      "keywords": [
+        "drone"
+      ],
+      "publishedAt": "2026-03-10T07:05:00.000Z"
+    },
     {
       "id": "xxvaew",
       "type": "news",
@@ -48,6 +64,26 @@
       "publishedAt": "2026-03-10T04:56:57.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-10T07:50:36.680Z",
+      "paiContent": true
+    },
+    {
       "id": "kwmwdq",
       "type": "news",
       "headline": "Shades of a Lunar Eclipse",
@@ -60,26 +96,6 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-10T04:01:00.000Z"
-    },
-    {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-10T06:59:38.086Z",
-      "paiContent": true
     },
     {
       "id": "kp8f8x",
@@ -115,6 +131,26 @@
       "publishedAt": "2026-03-09T23:00:17.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-10T07:50:36.680Z",
+      "paiContent": true
+    },
+    {
       "id": "b51xas",
       "type": "news",
       "headline": "Press Release: US preclearance facility to open at Billy Bishop",
@@ -131,26 +167,6 @@
         "airport"
       ],
       "publishedAt": "2026-03-09T22:28:26.000Z"
-    },
-    {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-10T06:59:38.086Z",
-      "paiContent": true
     },
     {
       "id": "wfwxay",
@@ -186,22 +202,6 @@
       "publishedAt": "2026-03-09T21:52:59.000Z"
     },
     {
-      "id": "qjg8nr",
-      "type": "news",
-      "headline": "SSTL to build spacecraft for private space telescope",
-      "blurb": "Surrey Satellite Technology Ltd. (SSTL), a British company best known for developing small satellites, will help build a large, privately funded space telescope. The post SSTL to build spacecraft for private space telescope appeared first on SpaceNews.",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-09T21:48:28.000Z"
-    },
-    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -220,9 +220,25 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-10T06:59:38.086Z",
+      "publishedAt": "2026-03-10T07:50:36.680Z",
       "videoContent": true,
       "duration": "16:49"
+    },
+    {
+      "id": "qjg8nr",
+      "type": "news",
+      "headline": "SSTL to build spacecraft for private space telescope",
+      "blurb": "Surrey Satellite Technology Ltd. (SSTL), a British company best known for developing small satellites, will help build a large, privately funded space telescope. The post SSTL to build spacecraft for private space telescope appeared first on SpaceNews.",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-09T21:48:28.000Z"
     },
     {
       "id": "3p0vi3",
@@ -574,25 +590,6 @@
         "space"
       ],
       "publishedAt": "2026-03-09T15:57:36.000Z"
-    },
-    {
-      "id": "n19m35",
-      "type": "news",
-      "headline": "TB 26-03 Flammability Testing Configuration and Approach of Barrier MaterialAssemblies Designed for Space Flight Applications",
-      "blurb": "The NASA Engineering and Safety Center (NESC) partnered with Materials and Processes and Flammability subject matter experts from the Johnson Space Center, White Sands Test Facility, and the Marshall Space Flight Center to design and develop a test for evaluating the effectiveness of material ass...",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "saf",
-        "safety",
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-09T15:50:56.000Z"
     }
   ]
 }
