@@ -867,10 +867,10 @@
         durationEl.style.display = 'none';
       }
 
-      // PAI blog links open same tab; others open new tab
+      // PAI blog links break out of iframe; others open new tab
       var sourceLink = document.getElementById('modalSourceLink');
       if (type === 'pai-blog') {
-        sourceLink.removeAttribute('target');
+        sourceLink.setAttribute('target', '_top');
         sourceLink.removeAttribute('rel');
       } else {
         sourceLink.setAttribute('target', '_blank');
