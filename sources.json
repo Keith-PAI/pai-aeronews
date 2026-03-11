@@ -89,6 +89,18 @@
       "url": "https://airwaysmagazine.substack.com/feed",
       "category": "commercial",
       "enabled": true
+    },
+    {
+      "name": "NTSB",
+      "url": "https://www.ntsb.gov/_layouts/feed.aspx?xsl=1&web=%2F&page=674e62a9-4f3b-4058-846b-150bc1c21aa0&wp=a19255e2-c8e3-41fd-8c99-f8bc0453cb58&pageurl=%2FPages%2FRSS%2DFeed%2DPage%2Easpx",
+      "category": "safety",
+      "enabled": true
+    },
+    {
+      "name": "EASA",
+      "url": "https://www.easa.europa.eu/rss.xml",
+      "category": "safety",
+      "enabled": true
     }
   ],
   "settings": {
