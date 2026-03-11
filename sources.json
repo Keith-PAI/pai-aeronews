@@ -71,6 +71,24 @@
       "url": "https://verticalmag.com/feed/",
       "category": "general-aviation",
       "enabled": true
+    },
+    {
+      "name": "AeroTime Hub",
+      "url": "https://www.aerotime.aero/feed/",
+      "category": "commercial",
+      "enabled": true
+    },
+    {
+      "name": "FreightWaves Air",
+      "url": "https://www.freightwaves.com/airforwarders-freightwaves",
+      "category": "air-cargo",
+      "enabled": true
+    },
+    {
+      "name": "Airways Magazine",
+      "url": "https://airwaysmagazine.substack.com/feed",
+      "category": "commercial",
+      "enabled": true
     }
   ],
   "settings": {
