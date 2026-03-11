@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-11T04:48:07.137Z",
+  "lastUpdated": "2026-03-11T05:54:46.473Z",
   "articles": [
+    {
+      "id": "qkcjr",
+      "type": "news",
+      "headline": "How Many McDonnell Douglas MD‑11s Are Still Flying As Freighters?",
+      "blurb": "The MD-11's once-thriving cargo operations have dwindled, with the vast majority of the remaining aircraft now stored rather than actively flying.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-many-mcdonnell-douglas-md11s-are-still-flying-as-freighters/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-11T05:00:16.000Z"
+    },
     {
       "id": "g6j7fr",
       "type": "news",
@@ -48,6 +62,27 @@
       "publishedAt": "2026-03-11T03:17:11.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-11T05:54:42.425Z",
+      "paiContent": true
+    },
+    {
       "id": "5pg039",
       "type": "news",
       "headline": "About Subsonic Vehicle Technologies and Tools Project",
@@ -79,26 +114,6 @@
         "space"
       ],
       "publishedAt": "2026-03-10T23:11:13.000Z"
-    },
-    {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-11T04:48:00.844Z",
-      "paiContent": true
     },
     {
       "id": "qmx4ns",
@@ -134,6 +149,26 @@
       "publishedAt": "2026-03-10T21:30:17.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-11T05:54:42.425Z",
+      "paiContent": true
+    },
+    {
       "id": "kvpmk9",
       "type": "news",
       "headline": "Why American Airlines Doesn't Want Flagship First Class Anymore",
@@ -164,26 +199,6 @@
         "space"
       ],
       "publishedAt": "2026-03-10T20:29:04.000Z"
-    },
-    {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-11T04:48:00.844Z",
-      "paiContent": true
     },
     {
       "id": "2m8xft",
@@ -219,6 +234,29 @@
       "publishedAt": "2026-03-10T20:00:18.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-11T05:54:42.425Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "jkn20g",
       "type": "news",
       "headline": "Why Didn’t Boeing Change The McDonnell Douglas MD-11’s Name?",
@@ -247,29 +285,6 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-10T19:43:07.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-11T04:48:00.844Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "d7iir2",
@@ -383,22 +398,6 @@
         "pilot"
       ],
       "publishedAt": "2026-03-10T18:22:11.000Z"
-    },
-    {
-      "id": "y138w7",
-      "type": "news",
-      "headline": "Why Does The Boeing 777-300ER Have An Exclusive Engine Even Though Other Variants Don’t?",
-      "blurb": "Inside the game changing twinjet.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-boeing-777-300er-exclusive-engine-other-variants-dont/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-10T18:15:17.000Z"
     },
     {
       "id": "himkc1",
