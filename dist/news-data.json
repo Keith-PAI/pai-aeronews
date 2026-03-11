@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T17:34:05.825Z",
+  "lastUpdated": "2026-03-11T17:35:51.799Z",
   "articles": [
     {
       "id": "a4pwf3",
@@ -83,24 +83,23 @@
       "publishedAt": "2026-03-11T15:39:51.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-risk-controls",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
+        "risk",
         "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "srm"
       ],
-      "publishedAt": "2026-03-11T17:33:59.470Z",
+      "publishedAt": "2026-03-11T17:35:47.743Z",
       "paiContent": true
     },
     {
@@ -148,26 +147,6 @@
       "publishedAt": "2026-03-11T14:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-11T17:33:59.470Z",
-      "paiContent": true
-    },
-    {
       "id": "pj7swc",
       "type": "news",
       "headline": "Will Your Flights Get More Expensive? The Iran War Might Cost US Airlines $11 Billion",
@@ -182,6 +161,26 @@
         "airline"
       ],
       "publishedAt": "2026-03-11T13:54:22.000Z"
+    },
+    {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-03-11T17:35:47.743Z",
+      "paiContent": true
     },
     {
       "id": "4s2tzu",
@@ -218,29 +217,6 @@
       "publishedAt": "2026-03-11T13:30:16.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-11T17:33:59.470Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "ddqs76",
       "type": "news",
       "headline": "Press Release: Assaia launches airport stand and gate optimization",
@@ -272,6 +248,29 @@
         "space"
       ],
       "publishedAt": "2026-03-11T13:00:00.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-11T17:35:47.743Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "51c8v4",
