@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T08:52:47.940Z",
+  "lastUpdated": "2026-03-11T09:52:14.841Z",
   "articles": [
     {
       "id": "4hg6va",
@@ -21,7 +21,7 @@
       "id": "6y5j4m",
       "type": "news",
       "headline": "Runway Debris Punches Hole In American Eagle CRJ-700 Radome During DCA Takeoff",
-      "blurb": "The aircraft has since returned to service following the concerning incidents.",
+      "blurb": "The aircraft has since returned to service following the concerning incident.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "Simple Flying",
@@ -48,6 +48,26 @@
       "publishedAt": "2026-03-11T06:36:49.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-11T09:52:10.579Z",
+      "paiContent": true
+    },
+    {
       "id": "8vqm6i",
       "type": "news",
       "headline": "Curiosity Blog, Sols 4825-4831: Exploring the Borderlands",
@@ -62,26 +82,6 @@
         "space"
       ],
       "publishedAt": "2026-03-11T05:24:17.000Z"
-    },
-    {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-11T08:52:43.696Z",
-      "paiContent": true
     },
     {
       "id": "qkcjr",
@@ -128,23 +128,24 @@
       "publishedAt": "2026-03-11T04:01:00.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
         "faa",
-        "srm"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-11T08:52:43.696Z",
+      "publishedAt": "2026-03-11T09:52:10.579Z",
       "paiContent": true
     },
     {
@@ -197,6 +198,23 @@
       "publishedAt": "2026-03-10T23:11:13.000Z"
     },
     {
+      "id": "qmx4ns",
+      "type": "news",
+      "headline": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
+      "blurb": "The two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders The post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews.",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "atc",
+        "space"
+      ],
+      "publishedAt": "2026-03-10T22:38:12.000Z"
+    },
+    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -215,26 +233,9 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-11T08:52:43.696Z",
+      "publishedAt": "2026-03-11T09:52:10.579Z",
       "videoContent": true,
       "duration": "16:49"
-    },
-    {
-      "id": "qmx4ns",
-      "type": "news",
-      "headline": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
-      "blurb": "The two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders The post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews.",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "atc",
-        "space"
-      ],
-      "publishedAt": "2026-03-10T22:38:12.000Z"
     },
     {
       "id": "usvg2s",
