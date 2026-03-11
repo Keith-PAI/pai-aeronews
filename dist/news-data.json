@@ -1,6 +1,23 @@
 {
-  "lastUpdated": "2026-03-11T19:01:22.341Z",
+  "lastUpdated": "2026-03-11T20:40:21.626Z",
   "articles": [
+    {
+      "id": "kq5eod",
+      "type": "news",
+      "headline": "United Airlines’ Longest Routes With The Boeing 737 MAX 8 In 2026",
+      "blurb": "The data shows United is expanding its niche transcontinental network using the most popular 737 MAX variant.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/united-airlines-longest-routes-boeing-737-max-8-2026/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "airline"
+      ],
+      "publishedAt": "2026-03-11T20:01:18.000Z"
+    },
     {
       "id": "3apui6",
       "type": "news",
@@ -64,6 +81,26 @@
       "publishedAt": "2026-03-11T18:27:49.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-03-11T20:40:17.078Z",
+      "paiContent": true
+    },
+    {
       "id": "of0y0g",
       "type": "news",
       "headline": "Why Restarting Production Of Legacy Jets Is Hard But Not Impossible",
@@ -76,26 +113,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-11T18:00:18.000Z"
-    },
-    {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-11T19:01:18.112Z",
-      "paiContent": true
     },
     {
       "id": "uv85c",
@@ -129,6 +146,43 @@
         "airline"
       ],
       "publishedAt": "2026-03-11T17:30:18.000Z"
+    },
+    {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-11T20:40:17.078Z",
+      "paiContent": true
+    },
+    {
+      "id": "fl2lfp",
+      "type": "news",
+      "headline": "About University Innovation Project (UI)",
+      "blurb": "NASA’s University Innovation (UI) project funds university-led innovation to address the agency’s Aeronautics Research Mission Directorate’s system-level challenges via independent, NASA-alternate-path, multi-disciplinary awards. Strategic Goals The UI portfolio’s strategic goals in descending or...",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/directorates/armd/tacp/ui/about-ui/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa"
+      ],
+      "publishedAt": "2026-03-11T17:00:00.000Z"
     },
     {
       "id": "u0q5ar",
@@ -165,24 +219,27 @@
       "publishedAt": "2026-03-11T16:00:18.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-11T19:01:18.112Z",
-      "paiContent": true
+      "publishedAt": "2026-03-11T20:40:17.078Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "jtlwhq",
@@ -242,45 +299,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-11T14:14:32.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-11T19:01:18.112Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
-      "id": "5pfemy",
-      "type": "news",
-      "headline": "The US Airlines With The World’s Most Improved Narrowbody Seats In 2026",
-      "blurb": "Carriers have only continued to innovate.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/us-airlines-worlds-most-improved-narrowbody-seats/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-11T14:00:17.000Z"
     },
     {
       "id": "4s2tzu",
@@ -570,22 +588,6 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-11T06:36:49.000Z"
-    },
-    {
-      "id": "himkc1",
-      "type": "news",
-      "headline": "This sensor lets DJI drones detect methane and toxic gases",
-      "blurb": "AIRINS, the company formerly known as Soarability, has unveiled new multi-sensor gas detection configurations for DJI drones, designed to capture richer environmental and industrial gas data during a single flight. more…",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
-      "source": {
-        "name": "DroneDJ",
-        "url": "https://dronedj.com/2026/03/10/dji-drone-gas-detection-airins/"
-      },
-      "category": "drones",
-      "keywords": [
-        "drone"
-      ],
-      "publishedAt": "2026-03-11T06:10:00.000Z"
     }
   ]
 }
