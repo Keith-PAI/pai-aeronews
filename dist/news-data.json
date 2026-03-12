@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-12T04:52:44.959Z",
+  "lastUpdated": "2026-03-12T05:56:43.780Z",
   "articles": [
+    {
+      "id": "4kqpjw",
+      "type": "news",
+      "headline": "Here’s How Much Different The Boeing 747-8’s Engines Are Compared To The 787",
+      "blurb": "Discover the surprising design differences between the engines of the Boeing 747-8 and 787 Dreamliner, and how they impact performance.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-much-different-boeing-747-8-engines-787/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-12T05:00:16.000Z"
+    },
     {
       "id": "bwp70i",
       "type": "news",
@@ -34,6 +50,26 @@
       "publishedAt": "2026-03-12T04:08:40.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-12T05:56:39.170Z",
+      "paiContent": true
+    },
+    {
       "id": "hycabr",
       "type": "news",
       "headline": "Dust Outbreak Reaches Europe",
@@ -46,27 +82,6 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-12T04:01:00.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-12T04:52:40.623Z",
-      "paiContent": true
     },
     {
       "id": "ai0gec",
@@ -97,6 +112,26 @@
         "space"
       ],
       "publishedAt": "2026-03-12T01:10:51.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-12T05:56:39.170Z",
+      "paiContent": true
     },
     {
       "id": "2tashj",
@@ -132,26 +167,6 @@
       "publishedAt": "2026-03-12T00:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-12T04:52:40.623Z",
-      "paiContent": true
-    },
-    {
       "id": "djyitf",
       "type": "news",
       "headline": "Report criticizes delays in Artemis lunar lander development",
@@ -167,6 +182,29 @@
         "space"
       ],
       "publishedAt": "2026-03-11T22:57:28.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-12T05:56:39.171Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "876lrc",
@@ -216,29 +254,6 @@
         "boeing"
       ],
       "publishedAt": "2026-03-11T21:30:17.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-12T04:52:40.623Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "w2cgot",
@@ -360,22 +375,6 @@
       },
       "category": "commercial",
       "keywords": [],
-      "publishedAt": "2026-03-11T19:00:17.000Z"
-    },
-    {
-      "id": "xvfjj3",
-      "type": "news",
-      "headline": "FAA Staffing Issues: A Persistent Problem Since 1981",
-      "blurb": "Explore the long-standing FAA staffing issues that have persisted since 1981, despite various attempts to address the problem and improve training methods for air traffic controllers.",
-      "takeaway": "Regulatory changes may affect industry operations.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/heres-why-the-faa-is-paying-some-employees-to-not-retire-yet/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "faa"
-      ],
       "publishedAt": "2026-03-11T19:00:17.000Z"
     },
     {
