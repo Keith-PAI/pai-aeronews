@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T08:43:14.703Z",
+  "lastUpdated": "2026-03-14T09:40:12.553Z",
   "articles": [
     {
       "id": "5tm66o",
@@ -48,26 +48,6 @@
       "publishedAt": "2026-03-14T06:30:23.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-14T08:43:10.361Z",
-      "paiContent": true
-    },
-    {
       "id": "8cjnn3",
       "type": "news",
       "headline": "What Is The Busiest Airport For Boeing 777-300ER Flights?",
@@ -83,6 +63,26 @@
         "airport"
       ],
       "publishedAt": "2026-03-14T05:00:17.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-14T09:40:06.969Z",
+      "paiContent": true
     },
     {
       "id": "o797aj",
@@ -129,27 +129,6 @@
       "publishedAt": "2026-03-13T23:32:56.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-14T08:43:10.361Z",
-      "paiContent": true
-    },
-    {
       "id": "x0wlg0",
       "type": "news",
       "headline": "The Simple Flying Podcast Episode 283: TSA Officers Quit Amid DHS Shutdown, Lufthansa Comments On Boeing 777X",
@@ -164,6 +143,26 @@
         "boeing"
       ],
       "publishedAt": "2026-03-13T22:24:42.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-14T09:40:06.969Z",
+      "paiContent": true
     },
     {
       "id": "557sj4",
@@ -216,6 +215,20 @@
       "publishedAt": "2026-03-13T21:42:44.000Z"
     },
     {
+      "id": "gm2zw8",
+      "type": "news",
+      "headline": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
+      "blurb": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mi...",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/"
+      },
+      "category": "aerospace",
+      "keywords": [],
+      "publishedAt": "2026-03-13T21:42:20.000Z"
+    },
+    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -234,23 +247,9 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-14T08:43:10.361Z",
+      "publishedAt": "2026-03-14T09:40:06.970Z",
       "videoContent": true,
       "duration": "16:49"
-    },
-    {
-      "id": "gm2zw8",
-      "type": "news",
-      "headline": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
-      "blurb": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mi...",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "NASA",
-        "url": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/"
-      },
-      "category": "aerospace",
-      "keywords": [],
-      "publishedAt": "2026-03-13T21:42:20.000Z"
     },
     {
       "id": "w8mziz",
