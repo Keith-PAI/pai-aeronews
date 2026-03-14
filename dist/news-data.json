@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T06:57:25.923Z",
+  "lastUpdated": "2026-03-14T07:41:00.564Z",
   "articles": [
     {
       "id": "k6nqbg",
@@ -49,26 +49,6 @@
       "publishedAt": "2026-03-14T05:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-14T06:57:22.101Z",
-      "paiContent": true
-    },
-    {
       "id": "o797aj",
       "type": "news",
       "headline": "Flight Delays: Overheating Circuit Board Causes “Strong Chemical Smell” At Potomac TRACON",
@@ -95,6 +75,26 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-14T00:00:18.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-14T07:40:55.559Z",
+      "paiContent": true
     },
     {
       "id": "1kzv1s",
@@ -127,26 +127,6 @@
         "boeing"
       ],
       "publishedAt": "2026-03-13T22:24:42.000Z"
-    },
-    {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-14T06:57:22.101Z",
-      "paiContent": true
     },
     {
       "id": "557sj4",
@@ -183,6 +163,26 @@
       "publishedAt": "2026-03-13T22:00:18.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-14T07:40:55.559Z",
+      "paiContent": true
+    },
+    {
       "id": "c8culi",
       "type": "news",
       "headline": "Just 67 Miles: Inside United Airlines' 10 New Ultra-Short Flights In 2026",
@@ -211,29 +211,6 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-13T21:42:20.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-14T06:57:22.101Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "w8mziz",
@@ -266,6 +243,29 @@
         "space"
       ],
       "publishedAt": "2026-03-13T21:20:24.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-14T07:40:55.559Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "juysli",
