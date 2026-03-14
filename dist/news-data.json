@@ -1,6 +1,25 @@
 {
-  "lastUpdated": "2026-03-14T09:40:12.553Z",
+  "lastUpdated": "2026-03-14T10:35:30.830Z",
   "articles": [
+    {
+      "id": "b7dl02",
+      "type": "news",
+      "headline": "Watch: Viral Video Shows Brutal \"Airport Karen\" Takedown At American Airlines LaGuardia Counter",
+      "blurb": "Industry studies and data show a significant rise in the number of unruly passenger incidents, both within the US and globally.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/watch-viral-video-brutal-airport-karen-american-airlines-laguardia/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "incident",
+        "airline",
+        "airport",
+        "atc"
+      ],
+      "publishedAt": "2026-03-14T09:44:37.000Z"
+    },
     {
       "id": "5tm66o",
       "type": "news",
@@ -65,23 +84,23 @@
       "publishedAt": "2026-03-14T05:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-assess-safety-risk",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
+        "risk assessment",
         "faa",
-        "srm"
+        "part 5"
       ],
-      "publishedAt": "2026-03-14T09:40:06.969Z",
+      "publishedAt": "2026-03-14T10:35:25.474Z",
       "paiContent": true
     },
     {
@@ -129,22 +148,6 @@
       "publishedAt": "2026-03-13T23:32:56.000Z"
     },
     {
-      "id": "x0wlg0",
-      "type": "news",
-      "headline": "The Simple Flying Podcast Episode 283: TSA Officers Quit Amid DHS Shutdown, Lufthansa Comments On Boeing 777X",
-      "blurb": "Join Tom & Channing for the latest aviation hot topics.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/podcast-283/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-13T22:24:42.000Z"
-    },
-    {
       "id": "pai-safety-culture",
       "type": "pai-blog",
       "headline": "Safety Culture in Aviation SMS",
@@ -161,8 +164,24 @@
         "reporting",
         "just culture"
       ],
-      "publishedAt": "2026-03-14T09:40:06.969Z",
+      "publishedAt": "2026-03-14T10:35:25.474Z",
       "paiContent": true
+    },
+    {
+      "id": "x0wlg0",
+      "type": "news",
+      "headline": "The Simple Flying Podcast Episode 283: TSA Officers Quit Amid DHS Shutdown, Lufthansa Comments On Boeing 777X",
+      "blurb": "Join Tom & Channing for the latest aviation hot topics.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/podcast-283/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-13T22:24:42.000Z"
     },
     {
       "id": "557sj4",
@@ -199,6 +218,29 @@
       "publishedAt": "2026-03-13T22:00:18.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-14T10:35:25.475Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "c8culi",
       "type": "news",
       "headline": "Just 67 Miles: Inside United Airlines' 10 New Ultra-Short Flights In 2026",
@@ -227,45 +269,6 @@
       "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-13T21:42:20.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-14T09:40:06.970Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
-      "id": "w8mziz",
-      "type": "news",
-      "headline": "Airbus A380: Inside The Biggest Passenger Aircraft Ever Built",
-      "blurb": "The giant double-decker is closing in on two decades of service.",
-      "takeaway": "Airbus activity reflects European aerospace trends.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/airbus-a380-inside-biggest-passenger-aircraft-ever/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-03-13T21:30:17.000Z"
     },
     {
       "id": "dxl331",
