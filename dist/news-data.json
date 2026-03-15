@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T18:27:38.377Z",
+  "lastUpdated": "2026-03-15T18:30:05.673Z",
   "articles": [
     {
       "id": "umx4gb",
@@ -51,26 +51,6 @@
       "publishedAt": "2026-03-15T17:59:34.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-15T18:27:33.808Z",
-      "paiContent": true
-    },
-    {
       "id": "m7k7a2",
       "type": "news",
       "headline": "End Of An Era: Emirates Removes All Airbus A380 Flights To This Major European City",
@@ -104,6 +84,27 @@
       "publishedAt": "2026-03-15T17:30:17.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-15T18:30:01.100Z",
+      "paiContent": true
+    },
+    {
       "id": "l3e22f",
       "type": "news",
       "headline": "Revealed: Lufthansa’s New A380 Cabins To Debut On These Four Routes In April",
@@ -134,27 +135,6 @@
       "publishedAt": "2026-03-15T16:04:52.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-15T18:27:33.808Z",
-      "paiContent": true
-    },
-    {
       "id": "t9of2b",
       "type": "news",
       "headline": "Strait of Hormuz crisis drives demand for commercial geospatial intelligence",
@@ -169,6 +149,26 @@
         "space"
       ],
       "publishedAt": "2026-03-15T15:06:01.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-15T18:30:01.100Z",
+      "paiContent": true
     },
     {
       "id": "l9ln4g",
@@ -235,7 +235,7 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-15T18:27:33.808Z",
+      "publishedAt": "2026-03-15T18:30:01.100Z",
       "videoContent": true,
       "duration": "16:49"
     },
@@ -287,6 +287,22 @@
       "publishedAt": "2026-03-15T13:01:17.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Sustainable aviation technology gains momentum.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "commercial",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-15T18:30:01.100Z"
+    },
+    {
       "id": "d44etf",
       "type": "news",
       "headline": "Up To 3,300 Miles: Air Canada's 7 Transatlantic Boeing 737 MAX Routes This Year",
@@ -301,22 +317,6 @@
         "boeing"
       ],
       "publishedAt": "2026-03-15T13:01:17.000Z"
-    },
-    {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Sustainable aviation technology gains momentum.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "commercial",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-15T18:27:33.808Z"
     },
     {
       "id": "g0j1kq",
