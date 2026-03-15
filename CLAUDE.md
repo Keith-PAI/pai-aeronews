@@ -491,9 +491,9 @@ npm run preview
 ## Operating Rules
 
 ### A) Branching
-- Never commit directly to `main`
+- Never commit directly to `main` — **exception**: content-only updates to `pai-content-library.json` (adding/editing articles, videos, curated items via the admin page) may be committed and pushed directly to `main`
 - Use `phase-<N>-<short-name>` branches (e.g., `phase-2-analyst-mode`)
-- Merge via pull requests only
+- Merge via pull requests only (except content updates noted above)
 
 ### B) Stability
 - Phase 1 public feed (`fetch-rss.js`, `template.html`, `dist/` output) is frozen unless explicitly stated
