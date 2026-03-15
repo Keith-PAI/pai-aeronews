@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T15:35:20.549Z",
+  "lastUpdated": "2026-03-15T15:43:48.218Z",
   "articles": [
     {
       "id": "t9of2b",
@@ -48,26 +48,6 @@
       "publishedAt": "2026-03-15T14:00:17.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-15T15:35:16.477Z",
-      "paiContent": true
-    },
-    {
       "id": "64hqtp",
       "type": "news",
       "headline": "Surf Air orders BETA Technologies all-electric ALIA for Hawaii passenger flights",
@@ -101,22 +81,6 @@
       "publishedAt": "2026-03-15T13:30:17.000Z"
     },
     {
-      "id": "ls9jz2",
-      "type": "news",
-      "headline": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
-      "blurb": "The contract supports communications terminals used in the U.S. nuclear command-and-control architecture The post Raytheon contract for protected satellite communications terminals raised by $2 billion appeared first on SpaceNews.",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-15T13:14:06.000Z"
-    },
-    {
       "id": "pai-evolution-sms",
       "type": "pai-blog",
       "headline": "The Evolution of Aviation SMS",
@@ -134,8 +98,24 @@
         "history",
         "aviation safety"
       ],
-      "publishedAt": "2026-03-15T15:35:16.477Z",
+      "publishedAt": "2026-03-15T15:43:44.362Z",
       "paiContent": true
+    },
+    {
+      "id": "ls9jz2",
+      "type": "news",
+      "headline": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
+      "blurb": "The contract supports communications terminals used in the U.S. nuclear command-and-control architecture The post Raytheon contract for protected satellite communications terminals raised by $2 billion appeared first on SpaceNews.",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-15T13:14:06.000Z"
     },
     {
       "id": "noxzsc",
@@ -168,6 +148,26 @@
       "publishedAt": "2026-03-15T13:01:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-15T15:43:44.362Z",
+      "paiContent": true
+    },
+    {
       "id": "1qet2j",
       "type": "news",
       "headline": "Southwest Passenger Fractures Police Officer's Eye Socket After Failing TSA Identity Check",
@@ -180,29 +180,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-15T12:53:46.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-15T15:35:16.477Z",
-      "videoContent": true,
-      "duration": "16:49"
     },
     {
       "id": "hvmmiu",
@@ -233,6 +210,29 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-15T11:40:36.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-15T15:43:44.362Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "yeqjcx",
