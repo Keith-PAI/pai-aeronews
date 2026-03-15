@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-15T18:50:36.082Z",
+  "lastUpdated": "2026-03-15T19:33:53.619Z",
   "articles": [
+    {
+      "id": "jbt1c0",
+      "type": "news",
+      "headline": "Does Upgrading To Business Class At Check-In Really Cost More?",
+      "blurb": "Unraveling the mystery of airport upgrades, this article explores whether waiting until check-in truly saves money on business class travel.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/upgrading-business-class-check-in-cost-more/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-03-15T19:00:17.000Z"
+    },
     {
       "id": "l5xgf5",
       "type": "news",
@@ -50,23 +66,24 @@
       "publishedAt": "2026-03-15T18:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
         "faa",
-        "srm"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-15T18:50:31.425Z",
+      "publishedAt": "2026-03-15T19:33:47.439Z",
       "paiContent": true
     },
     {
@@ -90,7 +107,7 @@
       "id": "us7kyb",
       "type": "news",
       "headline": "Panasonic enjoys rapid IFE growth as connected seatback takes wing",
-      "blurb": "Today, only about 8% of Panasonic Avionics’ embedded inflight entertainment systems in the world fleet are connected to onboard connectivity. But in the not-too-distant future, Panasonic seatback screens will be “connected to the network,” including via low-latency Low Earth Orbit (LEO) satcom, a...",
+      "blurb": "Today, only about 8% of Panasonic Avionics’ embedded inflight entertainment systems in the world fleet are connected to onboard connectivity. But in the not-too-distant future, Panasonic seatback screens will increasingly be “connected to the network,” including via low-latency Low Earth Orbit (L...",
       "takeaway": "Commercial aviation dynamics shape travel industry.",
       "source": {
         "name": "Runway Girl Network",
@@ -119,6 +136,26 @@
       "publishedAt": "2026-03-15T17:41:10.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-15T19:33:47.439Z",
+      "paiContent": true
+    },
+    {
       "id": "keep20",
       "type": "news",
       "headline": "The Hardest Airports In The World To Land At",
@@ -134,27 +171,6 @@
         "pilot"
       ],
       "publishedAt": "2026-03-15T17:30:17.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-15T18:50:31.425Z",
-      "paiContent": true
     },
     {
       "id": "l3e22f",
@@ -187,6 +203,29 @@
       "publishedAt": "2026-03-15T16:04:52.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-15T19:33:47.439Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "t9of2b",
       "type": "news",
       "headline": "Strait of Hormuz crisis drives demand for commercial geospatial intelligence",
@@ -217,29 +256,6 @@
       "publishedAt": "2026-03-15T15:01:18.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-15T18:50:31.425Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "sco3jg",
       "type": "news",
       "headline": "How Much Do Narrowbody Pilots Make In 2026?",
@@ -254,6 +270,22 @@
         "pilot"
       ],
       "publishedAt": "2026-03-15T14:00:17.000Z"
+    },
+    {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Sustainable aviation technology gains momentum.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "commercial",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-15T19:33:47.439Z"
     },
     {
       "id": "64hqtp",
@@ -305,22 +337,6 @@
       "publishedAt": "2026-03-15T13:14:06.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Sustainable aviation technology gains momentum.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "commercial",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-15T18:50:31.425Z"
-    },
-    {
       "id": "noxzsc",
       "type": "news",
       "headline": "Is The B-21 Raider Bigger Than The B-2 Spirit?",
@@ -332,22 +348,6 @@
       },
       "category": "commercial",
       "keywords": [],
-      "publishedAt": "2026-03-15T13:01:17.000Z"
-    },
-    {
-      "id": "d44etf",
-      "type": "news",
-      "headline": "Up To 3,300 Miles: Air Canada's 7 Transatlantic Boeing 737 MAX Routes This Year",
-      "blurb": "How many of these routes have you flown on?",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/air-canada-transatlantic-boeing-737-max-routes-2026/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
       "publishedAt": "2026-03-15T13:01:17.000Z"
     },
     {
