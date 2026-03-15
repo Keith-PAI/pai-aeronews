@@ -123,7 +123,7 @@
 <body>
 
 <h1>PAI Content Library — Admin</h1>
-<p class="subtitle">Manage blog articles and videos for the AeroNews feed. Load your library, edit items, then download the updated file.</p>
+<p class="subtitle">Manage blog articles, videos, and curated articles for the AeroNews feed. Load your library, edit items, then download the updated file.</p>
 
 <!-- Top bar: Load / Save -->
 <div class="top-bar">
@@ -143,6 +143,10 @@
     <div class="field">
       <label for="maxVideos">Max videos per cycle</label>
       <input type="number" id="maxVideos" min="0" max="10" value="1" onchange="updateSettings()" />
+    </div>
+    <div class="field">
+      <label for="maxCurated">Max curated articles per cycle</label>
+      <input type="number" id="maxCurated" min="0" max="10" value="1" onchange="updateSettings()" />
     </div>
   </div>
 </div>
@@ -236,6 +240,44 @@
   </div>
 </div>
 
+<!-- Curated Articles -->
+<div class="section">
+  <h2>Curated Articles <span class="count-badge" id="curatedCount">0 active</span></h2>
+  <div id="curatedList"></div>
+  <button class="btn-secondary" style="margin-top:12px;" onclick="showCuratedForm()">+ Add Curated Article</button>
+  <div id="curatedFormContainer" class="hidden" style="margin-top:16px;">
+    <div class="form-grid">
+      <div class="field full"><label>ID (ext-slug)</label><input id="cf-id" placeholder="ext-interesting-article" /></div>
+      <div class="field full"><label>Headline</label><input id="cf-headline" /></div>
+      <div class="field full"><label>Blurb</label><textarea id="cf-blurb"></textarea></div>
+      <div class="field full"><label>Source URL</label><input id="cf-sourceUrl" placeholder="https://example.com/article" /></div>
+      <div class="field"><label>Source Name</label><input id="cf-sourceName" placeholder="e.g. AVweb" /></div>
+      <div class="field"><label>Category</label>
+        <select id="cf-category">
+          <option value="safety">Safety</option>
+          <option value="general-aviation">General Aviation</option>
+          <option value="commercial">Commercial</option>
+          <option value="business-aviation">Business Aviation</option>
+          <option value="industry" selected>Industry</option>
+          <option value="aerospace">Aerospace</option>
+          <option value="evtol">eVTOL</option>
+          <option value="drones">Drones</option>
+          <option value="electric">Electric</option>
+          <option value="regulatory">Regulatory</option>
+          <option value="military">Military</option>
+          <option value="corporate">Corporate</option>
+          <option value="international">International</option>
+        </select>
+      </div>
+      <div class="field full"><label>Keywords (comma-separated)</label><input id="cf-keywords" placeholder="aviation, safety" /></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" onclick="saveCurated()">Save Curated Article</button>
+      <button class="btn-secondary" onclick="cancelCuratedForm()">Cancel</button>
+    </div>
+  </div>
+</div>
+
 <!-- Preview -->
 <div class="section">
   <h2>Preview</h2>
@@ -247,12 +289,14 @@
 // ---- State ----
 var library = {
   lastEdited: new Date().toISOString(),
-  settings: { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1 },
+  settings: { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1, maxCuratedPerCycle: 1 },
   blogArticles: [],
-  videos: []
+  videos: [],
+  curatedArticles: []
 };
 var editingBlogIndex = -1;
 var editingVideoIndex = -1;
+var editingCuratedIndex = -1;
 
 // ---- File I/O ----
 document.getElementById('fileInput').addEventListener('change', function(e) {
@@ -265,9 +309,11 @@ document.getElementById('fileInput').addEventListener('change', function(e) {
       library = parsed;
       library.blogArticles = library.blogArticles || [];
       library.videos = library.videos || [];
-      library.settings = library.settings || { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1 };
+      library.curatedArticles = library.curatedArticles || [];
+      library.settings = library.settings || { maxPaiItemsPerCycle: 2, maxVideosPerCycle: 1, maxCuratedPerCycle: 1 };
       document.getElementById('maxBlogs').value = library.settings.maxPaiItemsPerCycle || 2;
       document.getElementById('maxVideos').value = library.settings.maxVideosPerCycle || 1;
+      document.getElementById('maxCurated').value = library.settings.maxCuratedPerCycle || 1;
       renderAll();
     } catch (err) {
       alert('Invalid JSON file: ' + err.message);
@@ -290,12 +336,14 @@ function downloadJson() {
 function updateSettings() {
   library.settings.maxPaiItemsPerCycle = parseInt(document.getElementById('maxBlogs').value) || 2;
   library.settings.maxVideosPerCycle = parseInt(document.getElementById('maxVideos').value) || 1;
+  library.settings.maxCuratedPerCycle = parseInt(document.getElementById('maxCurated').value) || 1;
 }
 
 // ---- Render ----
 function renderAll() {
   renderBlogs();
   renderVideos();
+  renderCurated();
 }
 
 function renderBlogs() {
@@ -483,6 +531,94 @@ function deleteVideo(i) {
   renderVideos();
 }
 
+// ---- Curated CRUD ----
+function renderCurated() {
+  var list = document.getElementById('curatedList');
+  var active = library.curatedArticles.filter(function(a) { return a.active; }).length;
+  document.getElementById('curatedCount').textContent = active + ' active';
+  if (library.curatedArticles.length === 0) {
+    list.innerHTML = '<p style="color:#9CA3AF;font-size:0.85rem;">No curated articles yet.</p>';
+    return;
+  }
+  list.innerHTML = library.curatedArticles.map(function(a, i) {
+    return '<div class="item-row' + (a.active ? '' : ' inactive') + '">'
+      + '<div class="item-info" onclick="previewCurated(' + i + ')" style="cursor:pointer;">'
+      + '<div class="item-headline">' + esc(a.headline) + '</div>'
+      + '<div class="item-meta">' + esc(a.id) + ' &middot; ' + esc(a.sourceName) + ' &middot; ' + esc(a.category) + '</div>'
+      + '</div>'
+      + '<div class="item-actions">'
+      + '<label class="toggle"><input type="checkbox"' + (a.active ? ' checked' : '') + ' onchange="toggleCurated(' + i + ')"><span class="slider"></span></label>'
+      + '<button class="btn-secondary btn-sm" onclick="editCurated(' + i + ')">Edit</button>'
+      + '<button class="btn-danger btn-sm" onclick="deleteCurated(' + i + ')">Del</button>'
+      + '</div></div>';
+  }).join('');
+}
+
+function showCuratedForm() {
+  editingCuratedIndex = -1;
+  clearCuratedForm();
+  document.getElementById('curatedFormContainer').classList.remove('hidden');
+}
+
+function cancelCuratedForm() {
+  document.getElementById('curatedFormContainer').classList.add('hidden');
+  editingCuratedIndex = -1;
+}
+
+function clearCuratedForm() {
+  ['cf-id','cf-headline','cf-blurb','cf-sourceUrl','cf-sourceName','cf-keywords'].forEach(function(id) {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('cf-category').value = 'industry';
+}
+
+function editCurated(i) {
+  editingCuratedIndex = i;
+  var a = library.curatedArticles[i];
+  document.getElementById('cf-id').value = a.id;
+  document.getElementById('cf-headline').value = a.headline;
+  document.getElementById('cf-blurb').value = a.blurb;
+  document.getElementById('cf-sourceUrl').value = a.sourceUrl;
+  document.getElementById('cf-sourceName').value = a.sourceName;
+  document.getElementById('cf-category').value = a.category;
+  document.getElementById('cf-keywords').value = (a.keywords || []).join(', ');
+  document.getElementById('curatedFormContainer').classList.remove('hidden');
+}
+
+function saveCurated() {
+  var obj = {
+    id: document.getElementById('cf-id').value.trim(),
+    headline: document.getElementById('cf-headline').value.trim(),
+    blurb: document.getElementById('cf-blurb').value.trim(),
+    sourceUrl: document.getElementById('cf-sourceUrl').value.trim(),
+    sourceName: document.getElementById('cf-sourceName').value.trim(),
+    category: document.getElementById('cf-category').value,
+    keywords: document.getElementById('cf-keywords').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean),
+    active: true
+  };
+  if (!obj.id || !obj.headline) { alert('ID and Headline are required.'); return; }
+
+  if (editingCuratedIndex >= 0) {
+    obj.active = library.curatedArticles[editingCuratedIndex].active;
+    library.curatedArticles[editingCuratedIndex] = obj;
+  } else {
+    library.curatedArticles.push(obj);
+  }
+  cancelCuratedForm();
+  renderCurated();
+}
+
+function toggleCurated(i) {
+  library.curatedArticles[i].active = !library.curatedArticles[i].active;
+  renderCurated();
+}
+
+function deleteCurated(i) {
+  if (!confirm('Delete "' + library.curatedArticles[i].headline + '"?')) return;
+  library.curatedArticles.splice(i, 1);
+  renderCurated();
+}
+
 // ---- Preview ----
 var blogNames = { 'sms-quick-takes': 'SMS Quick Takes', 'stet-happens': 'Stet Happens', 'meeting-your-needs': 'Meeting Your Needs' };
 
@@ -523,6 +659,25 @@ function previewVideo(i) {
     publishedAt: '<current timestamp>',
     videoContent: true,
     duration: v.duration
+  };
+  document.getElementById('previewBox').textContent = JSON.stringify(feedObj, null, 2);
+}
+
+function previewCurated(i) {
+  var a = library.curatedArticles[i];
+  var feedObj = {
+    id: a.id,
+    type: 'curated',
+    headline: a.headline,
+    blurb: a.blurb,
+    takeaway: '',
+    source: {
+      name: a.sourceName,
+      url: a.sourceUrl
+    },
+    category: a.category,
+    keywords: a.keywords,
+    publishedAt: '<current timestamp>'
   };
   document.getElementById('previewBox').textContent = JSON.stringify(feedObj, null, 2);
 }

@@ -199,6 +199,37 @@ function convertVideoToArticle(video) {
 }
 
 /**
+ * Select curated articles for this cycle (simple random pick from active items)
+ */
+function selectCuratedArticles(curatedArticles, max) {
+  const active = curatedArticles.filter(a => a.active);
+  if (active.length === 0 || max <= 0) return [];
+
+  const shuffled = [...active].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, max);
+}
+
+/**
+ * Convert a curated article to the feed article format
+ */
+function convertCuratedToArticle(curated) {
+  return {
+    id: curated.id,
+    type: 'curated',
+    headline: curated.headline,
+    blurb: curated.blurb,
+    takeaway: '',
+    source: {
+      name: curated.sourceName,
+      url: curated.sourceUrl,
+    },
+    category: curated.category,
+    keywords: curated.keywords || [],
+    publishedAt: new Date().toISOString(),
+  };
+}
+
+/**
  * Merge PAI items into the articles array at natural-looking positions
  * - Never place as the very first article
  * - First PAI item around position 3-5
@@ -1068,10 +1099,15 @@ async function main() {
       const selectedVideos = selectPaiVideos(paiLibrary.videos || [], maxVideos, newsKeywords);
       const videoArticles = selectedVideos.map(convertVideoToArticle);
 
-      paiItemsToMerge = [...blogArticles, ...videoArticles];
+      // Select and convert curated articles
+      const maxCurated = paiLibrary.settings?.maxCuratedPerCycle ?? 1;
+      const selectedCurated = selectCuratedArticles(paiLibrary.curatedArticles || [], maxCurated);
+      const curatedArticles = selectedCurated.map(convertCuratedToArticle);
+
+      paiItemsToMerge = [...blogArticles, ...videoArticles, ...curatedArticles];
 
       if (paiItemsToMerge.length > 0) {
-        console.log(`PAI content: ${blogArticles.length} blog article(s), ${videoArticles.length} video(s) selected for mixing`);
+        console.log(`PAI content: ${blogArticles.length} blog article(s), ${videoArticles.length} video(s), ${curatedArticles.length} curated article(s) selected for mixing`);
       }
     }
 
