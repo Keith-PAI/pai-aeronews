@@ -2,7 +2,8 @@
   "lastEdited": "2026-03-05T19:50:06.988Z",
   "settings": {
     "maxPaiItemsPerCycle": 2,
-    "maxVideosPerCycle": 1
+    "maxVideosPerCycle": 1,
+    "maxCuratedPerCycle": 1
   },
   "blogArticles": [
     {
@@ -111,5 +112,6 @@
       ],
       "active": true
     }
-  ]
+  ],
+  "curatedArticles": []
 }
