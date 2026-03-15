@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-03-15T17:34:33.396Z",
+  "lastUpdated": "2026-03-15T17:43:41.321Z",
   "articles": [
+    {
+      "id": "m7k7a2",
+      "type": "news",
+      "headline": "End Of An Era: Emirates Removes All Airbus A380 Flights To This Major European City",
+      "blurb": "It's time for change at the UAE flag carrier.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/emirates-ends-copenhagen-airbus-a380-flights/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-15T17:41:10.000Z"
+    },
     {
       "id": "keep20",
       "type": "news",
@@ -33,6 +49,27 @@
       "publishedAt": "2026-03-15T17:09:17.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-15T17:43:36.757Z",
+      "paiContent": true
+    },
+    {
       "id": "4c8a6c",
       "type": "news",
       "headline": "OSTP taking on space policy coordination work in place of National Space Council",
@@ -47,26 +84,6 @@
         "space"
       ],
       "publishedAt": "2026-03-15T16:04:52.000Z"
-    },
-    {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-15T17:34:29.393Z",
-      "paiContent": true
     },
     {
       "id": "t9of2b",
@@ -97,6 +114,26 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-15T15:01:18.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-15T17:43:36.757Z",
+      "paiContent": true
     },
     {
       "id": "sco3jg",
@@ -131,27 +168,6 @@
       "publishedAt": "2026-03-15T13:52:43.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-15T17:34:29.393Z",
-      "paiContent": true
-    },
-    {
       "id": "3fptsf",
       "type": "news",
       "headline": "Boeing 777-300ER Vs. Airbus A350: Which Has The Longer Range?",
@@ -167,6 +183,29 @@
         "airbus"
       ],
       "publishedAt": "2026-03-15T13:30:17.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-15T17:43:36.757Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "ls9jz2",
@@ -215,27 +254,20 @@
       "publishedAt": "2026-03-15T13:01:17.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Sustainable aviation technology gains momentum.",
       "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
       },
-      "category": "safety",
+      "category": "commercial",
       "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
+        "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-15T17:34:29.393Z",
-      "videoContent": true,
-      "duration": "16:49"
+      "publishedAt": "2026-03-15T17:43:36.757Z"
     },
     {
       "id": "1qet2j",
@@ -280,22 +312,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-15T11:40:36.000Z"
-    },
-    {
-      "id": "yeqjcx",
-      "type": "news",
-      "headline": "American Airlines A321 Circles Aruba For 2 Hours After Hydraulic Failure During Takeoff",
-      "blurb": "The hydraulic issue appears to be serious enough that the aircraft has remained grounded for nearly three days (at the time of writing).",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/american-airlines-a321-circles-aruba-2-hours-hydraulic-failure-takeoff/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-15T10:51:22.000Z"
     },
     {
       "id": "zfnkto",
@@ -557,22 +573,6 @@
         "electric"
       ],
       "publishedAt": "2026-03-13T19:54:09.000Z"
-    },
-    {
-      "id": "sbzs3b",
-      "type": "news",
-      "headline": "Picture of the Day: March 13, 2026",
-      "blurb": "A Douglas C-54 Takes Off From An Atc Base In Greenland. August 1943.",
-      "takeaway": "Industry developments to monitor closely.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-march-13-2026/"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "atc"
-      ],
-      "publishedAt": "2026-03-13T19:45:14.000Z"
     }
   ]
 }
