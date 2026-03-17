@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "2026-03-17T21:45:29.153Z",
+  "lastUpdated": "2026-03-17T22:40:02.278Z",
   "articles": [
+    {
+      "id": "uufgo9",
+      "type": "news",
+      "headline": "Written Off: Maintenance Fire Leads To First Airbus A220 Hull Loss",
+      "blurb": "airBaltic’s damaged jet marks the first write-off in Airbus A220 history.",
+      "takeaway": "Airbus activity reflects European aerospace trends.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/written-off-maintenance-fire-first-a220-hull-loss/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airbus"
+      ],
+      "publishedAt": "2026-03-17T22:03:30.000Z"
+    },
+    {
+      "id": "plie42",
+      "type": "news",
+      "headline": "Boeing Under Pressure As Investors Sue Over 737 MAX Safety Claims",
+      "blurb": "Shareholders have some serious questions for the manufacturer.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/boeing-under-pressure-investors-sue-737-max-safety-claims/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "saf",
+        "safety"
+      ],
+      "publishedAt": "2026-03-17T22:00:17.000Z"
+    },
+    {
+      "id": "4uxok5",
+      "type": "news",
+      "headline": "Flyers Are Saying First Class Isn’t What It Used To Be: Here's Why",
+      "blurb": "First class is shrinking across the airline industry as business class evolves, airlines cut costs, and passenger expectations reshape luxury flying.",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/flyers-first-class-isnt-what-it-used-to-be-why/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-17T22:00:17.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-17T22:39:57.964Z",
+      "paiContent": true
+    },
     {
       "id": "bud7m9",
       "type": "news",
@@ -74,24 +144,23 @@
       "publishedAt": "2026-03-17T20:48:46.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-assess-safety-risk",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
+        "risk assessment",
         "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "part 5"
       ],
-      "publishedAt": "2026-03-17T21:45:25.501Z",
+      "publishedAt": "2026-03-17T22:39:57.964Z",
       "paiContent": true
     },
     {
@@ -143,26 +212,6 @@
       "publishedAt": "2026-03-17T20:05:09.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-17T21:45:25.501Z",
-      "paiContent": true
-    },
-    {
       "id": "6fxako",
       "type": "news",
       "headline": "Why The Boeing 787 Dreamliner’s Main Landing Gear Only Needs 8 Tires",
@@ -177,6 +226,29 @@
         "boeing"
       ],
       "publishedAt": "2026-03-17T20:01:17.000Z"
+    },
+    {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-17T22:39:57.964Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "a9epp1",
@@ -209,29 +281,6 @@
       "publishedAt": "2026-03-17T19:41:48.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-17T21:45:25.501Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "xau569",
       "type": "news",
       "headline": "Evolve Dynamics appoints Paul Finn-Kelcey as Chief Product Officer to scale British uncrewed systems",
@@ -262,20 +311,6 @@
       "publishedAt": "2026-03-17T19:23:45.000Z"
     },
     {
-      "id": "x04ipv",
-      "type": "news",
-      "headline": "Orqa Announces Groundbreaking Teaming Agreement with Red River Army Depot",
-      "blurb": "Orqa is honored to announce a groundbreaking Teaming Agreement with Red River Army Depot RRAD",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
-      "source": {
-        "name": "sUAS News",
-        "url": "https://www.suasnews.com/2026/03/orqa-announces-groundbreaking-teaming-agreement-with-red-river-army-depot/"
-      },
-      "category": "drones",
-      "keywords": [],
-      "publishedAt": "2026-03-17T19:23:11.000Z"
-    },
-    {
       "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
       "type": "curated",
       "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
@@ -289,7 +324,21 @@
       "keywords": [
         "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-17T21:45:25.501Z"
+      "publishedAt": "2026-03-17T22:39:57.965Z"
+    },
+    {
+      "id": "x04ipv",
+      "type": "news",
+      "headline": "Orqa Announces Groundbreaking Teaming Agreement with Red River Army Depot",
+      "blurb": "Orqa is honored to announce a groundbreaking Teaming Agreement with Red River Army Depot RRAD",
+      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/03/orqa-announces-groundbreaking-teaming-agreement-with-red-river-army-depot/"
+      },
+      "category": "drones",
+      "keywords": [],
+      "publishedAt": "2026-03-17T19:23:11.000Z"
     },
     {
       "id": "685pp3",
@@ -476,22 +525,6 @@
       "publishedAt": "2026-03-17T17:00:17.000Z"
     },
     {
-      "id": "9yzpaa",
-      "type": "news",
-      "headline": "The Brand-New Loyalty Program Change That United Airlines Passengers Are Discussing",
-      "blurb": "What changes might be happening at the Star Alliance carrier?",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/loyalty-program-change-united-airlines-passengers-discussing/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-17T17:00:17.000Z"
-    },
-    {
       "id": "kmik3p",
       "type": "news",
       "headline": "EA-18G Growlers Appear to Be Flying Over Iran with Four Anti-Radiation Missiles",
@@ -521,36 +554,6 @@
         "airline"
       ],
       "publishedAt": "2026-03-17T16:47:19.000Z"
-    },
-    {
-      "id": "sex1c9",
-      "type": "news",
-      "headline": "5 Airlines With The World's Most Luxurious First Class Suites In 2026",
-      "blurb": "Indulgent to the max.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/5-airlines-worlds-most-luxurious-first-class-suites-2026/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-17T16:00:17.000Z"
-    },
-    {
-      "id": "bme3dq",
-      "type": "news",
-      "headline": "Total Shutdown In Berlin: Strike Leaves 57,000 Without Flights",
-      "blurb": "A major union has taken exception to low pay rises against the backdrop of the rising cost of living.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/total-shutdown-berlin-strike-leaves-57000-without-flights/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-17T15:22:30.000Z"
     },
     {
       "id": "5emv5k",
