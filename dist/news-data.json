@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T23:38:38.103Z",
+  "lastUpdated": "2026-03-18T02:46:34.720Z",
   "articles": [
     {
       "id": "vacjh8",
@@ -68,6 +68,26 @@
       "publishedAt": "2026-03-17T22:00:17.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-18T02:46:31.436Z",
+      "paiContent": true
+    },
+    {
       "id": "bud7m9",
       "type": "news",
       "headline": "Why Was The Boeing 737-900 A Failure?",
@@ -85,27 +105,6 @@
         "atc"
       ],
       "publishedAt": "2026-03-17T21:31:17.000Z"
-    },
-    {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-17T23:38:34.571Z",
-      "paiContent": true
     },
     {
       "id": "vozmnx",
@@ -161,23 +160,24 @@
       "publishedAt": "2026-03-17T20:48:46.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
+      "id": "pai-evolution-sms",
       "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk assessment",
         "faa",
-        "part 5"
+        "icao",
+        "history",
+        "aviation safety"
       ],
-      "publishedAt": "2026-03-17T23:38:34.571Z",
+      "publishedAt": "2026-03-18T02:46:31.436Z",
       "paiContent": true
     },
     {
@@ -229,6 +229,22 @@
       "publishedAt": "2026-03-17T20:05:09.000Z"
     },
     {
+      "id": "6fxako",
+      "type": "news",
+      "headline": "Why The Boeing 787 Dreamliner’s Main Landing Gear Only Needs 8 Tires",
+      "blurb": "The light-footed widebody's secret.",
+      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-boeing-787-dreamliner-main-landing-gear-8-tires/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-17T20:01:17.000Z"
+    },
+    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
@@ -247,25 +263,9 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-17T23:38:34.571Z",
+      "publishedAt": "2026-03-18T02:46:31.436Z",
       "videoContent": true,
       "duration": "16:49"
-    },
-    {
-      "id": "6fxako",
-      "type": "news",
-      "headline": "Why The Boeing 787 Dreamliner’s Main Landing Gear Only Needs 8 Tires",
-      "blurb": "The light-footed widebody's secret.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-boeing-787-dreamliner-main-landing-gear-8-tires/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-03-17T20:01:17.000Z"
     },
     {
       "id": "a9epp1",
@@ -298,22 +298,6 @@
       "publishedAt": "2026-03-17T19:41:48.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Sustainable aviation technology gains momentum.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "commercial",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-17T23:38:34.571Z"
-    },
-    {
       "id": "xau569",
       "type": "news",
       "headline": "Evolve Dynamics appoints Paul Finn-Kelcey as Chief Product Officer to scale British uncrewed systems",
@@ -342,6 +326,22 @@
       "category": "general-aviation",
       "keywords": [],
       "publishedAt": "2026-03-17T19:23:45.000Z"
+    },
+    {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Sustainable aviation technology gains momentum.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "commercial",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-18T02:46:31.436Z"
     },
     {
       "id": "x04ipv",
