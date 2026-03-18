@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-03-18T21:41:08.326Z",
+  "lastUpdated": "2026-03-18T22:37:58.072Z",
   "articles": [
+    {
+      "id": "dq36im",
+      "type": "news",
+      "headline": "U.S. Air Force to Update U-2 Dragon Lady Defensive System",
+      "blurb": "The iconic 70-year-old spy plane is receiving updates to its AN/ALQ-221 Advanced Defensive System. Despite ever changing plans to retire the type in the next few years, the U.S. Air Force’s U-2 Dragon Lady continues to play a crucial role in providing vital ISR (Intelligence, Surveillance, and Re...",
+      "takeaway": "Military aviation advances influence broader industry.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/18/u-2-ads-updates/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-03-18T22:10:16.000Z"
+    },
+    {
+      "id": "r0z3yo",
+      "type": "news",
+      "headline": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
+      "blurb": "The contract is for 20 hypersonic flight missions over four years The post Rocket Lab wins $190 million Pentagon deal for hypersonic test flights appeared first on SpaceNews.",
+      "takeaway": "Aerospace developments expand industry horizons.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-18T21:56:59.000Z"
+    },
     {
       "id": "dvzqww",
       "type": "news",
@@ -53,24 +83,23 @@
       "publishedAt": "2026-03-18T21:08:39.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-risk-controls",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
       "takeaway": "Safety implications warrant industry attention.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
+        "risk",
         "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "srm"
       ],
-      "publishedAt": "2026-03-18T21:41:08.289Z",
+      "publishedAt": "2026-03-18T22:37:58.023Z",
       "paiContent": true
     },
     {
@@ -125,20 +154,6 @@
       "publishedAt": "2026-03-18T20:45:00.000Z"
     },
     {
-      "id": "nazact",
-      "type": "news",
-      "headline": "Telesat further optimizes Lightspeed for defense, sees schedule slip",
-      "blurb": "Observing “significant global demand” for military Ka-band Low Earth Orbit (LEO) satellite capacity, Telesat is further optimizing its forthcoming Lightspeed LEO network for defense requirements by adding military Ka-band spectrum (Mil-Ka) to its initial 156 Lightspeed satellites. “Specifically, ...",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Runway Girl Network",
-        "url": "https://runwaygirlnetwork.com/2026/03/telesat-optimizes-lightspeed-for-defense-sees-slight-schedule-slip/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-18T19:57:44.000Z"
-    },
-    {
       "id": "pai-safety-culture",
       "type": "pai-blog",
       "headline": "Safety Culture in Aviation SMS",
@@ -155,8 +170,22 @@
         "reporting",
         "just culture"
       ],
-      "publishedAt": "2026-03-18T21:41:08.289Z",
+      "publishedAt": "2026-03-18T22:37:58.023Z",
       "paiContent": true
+    },
+    {
+      "id": "nazact",
+      "type": "news",
+      "headline": "Telesat further optimizes Lightspeed for defense, sees schedule slip",
+      "blurb": "Observing “significant global demand” for military Ka-band Low Earth Orbit (LEO) satellite capacity, Telesat is further optimizing its forthcoming Lightspeed LEO network for defense requirements by adding military Ka-band spectrum (Mil-Ka) to its initial 156 Lightspeed satellites. “Specifically, ...",
+      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "source": {
+        "name": "Runway Girl Network",
+        "url": "https://runwaygirlnetwork.com/2026/03/telesat-optimizes-lightspeed-for-defense-sees-slight-schedule-slip/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-18T19:57:44.000Z"
     },
     {
       "id": "ygqviw",
@@ -190,6 +219,29 @@
       "publishedAt": "2026-03-18T19:31:23.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "Safety implications warrant industry attention.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-18T22:37:58.023Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "qrlfoo",
       "type": "news",
       "headline": "FAA Streamlines Licensing For Commercial Space Launches",
@@ -221,29 +273,6 @@
       "publishedAt": "2026-03-18T19:28:43.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-18T21:41:08.289Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "eog1d1",
       "type": "news",
       "headline": "Delta Under Fire As Musician Blasts Airline For Ruined Bags",
@@ -258,6 +287,22 @@
         "airline"
       ],
       "publishedAt": "2026-03-18T19:17:33.000Z"
+    },
+    {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Sustainable aviation technology gains momentum.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "commercial",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-18T22:37:58.023Z"
     },
     {
       "id": "ktbpa9",
@@ -306,22 +351,6 @@
         "airline"
       ],
       "publishedAt": "2026-03-18T19:00:18.000Z"
-    },
-    {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Sustainable aviation technology gains momentum.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "commercial",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-18T21:41:08.289Z"
     },
     {
       "id": "uvym5c",
@@ -559,36 +588,6 @@
       "category": "general-aviation",
       "keywords": [],
       "publishedAt": "2026-03-18T16:26:03.000Z"
-    },
-    {
-      "id": "n2if01",
-      "type": "news",
-      "headline": "Lufthansa proposes to merge transitional pension into company plan for pilots",
-      "blurb": "Lufthansa announced it has made a new offer to the Vereinigung Cockpit union regarding the company pension plan… The post Lufthansa proposes to merge transitional pension into company plan for pilots appeared first on AeroTime.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/lufthansa-proposes-to-merge-transitional-pension-into-company-plan-for-pilots"
-      },
-      "category": "commercial",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-03-18T15:30:25.000Z"
-    },
-    {
-      "id": "94efaw",
-      "type": "news",
-      "headline": "Lava Flows Down Mayon",
-      "blurb": "The OLI (Operational Land Imager) on Landsat 8 acquired this rare, relatively clear image of Mayon, the most active volcano in the Philippines, on Feb. 26, 2026. The natural-color scene is overlaid with infrared observations to highlight the lava’s heat signature. On that day, the Philippine Inst...",
-      "takeaway": "Aerospace developments expand industry horizons.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/image-article/lava-flows-down-mayon/"
-      },
-      "category": "aerospace",
-      "keywords": [],
-      "publishedAt": "2026-03-18T15:19:59.000Z"
     }
   ]
 }
