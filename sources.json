@@ -132,8 +132,7 @@
         "compliance", "human factors", "runway", "fatigue",
         "maintenance error"
       ],
-      "geminiMaxTokens": 300,
-      "geminiTemperature": 0.5,
+      "claudeMaxTokens": 300,
       "teamsWebhookEnvVar": "ANALYST_TEAMS_WEBHOOK_URL"
     }
   }

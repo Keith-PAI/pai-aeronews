@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * PAI AeroNews - Gemini Usage Limiter
+ * PAI AeroNews - Claude API Usage Limiter
  *
- * Tracks daily Gemini API call counts in dist/usage-counters.json
+ * Tracks daily Anthropic Claude API call counts in dist/usage-counters.json
  * and enforces hard caps to prevent cost spikes from loop bugs.
  *
  * Counter resets automatically each UTC day (YYYY-MM-DD boundary).
@@ -40,7 +40,7 @@ function loadCounters() {
   } catch {
     // File missing or corrupted — start fresh
   }
-  return { date: utcToday(), geminiCallsToday: 0 };
+  return { date: utcToday(), claudeCallsToday: 0 };
 }
 
 /**
@@ -55,37 +55,37 @@ function saveCounters(counters) {
 }
 
 /**
- * Check whether `callsNeeded` more Gemini calls fit under `cap`.
+ * Check whether `callsNeeded` more Claude API calls fit under `cap`.
  * Returns true if allowed, false if the cap would be exceeded.
  */
-export function canSpendGemini(callsNeeded = 1, cap) {
+export function canSpendClaude(callsNeeded = 1, cap) {
   const counters = loadCounters();
-  return (counters.geminiCallsToday + callsNeeded) <= cap;
+  return (counters.claudeCallsToday + callsNeeded) <= cap;
 }
 
 /**
- * Record that `count` Gemini calls were made.
+ * Record that `count` Claude API calls were made.
  * Persists immediately so the counter survives process crashes.
  */
-export function recordGeminiCalls(count = 1) {
+export function recordClaudeCalls(count = 1) {
   const counters = loadCounters();
-  counters.geminiCallsToday += count;
+  counters.claudeCallsToday += count;
   saveCounters(counters);
-  return counters.geminiCallsToday;
+  return counters.claudeCallsToday;
 }
 
 /**
  * Return the current call count for today (read-only).
  */
-export function geminiCallsToday() {
-  return loadCounters().geminiCallsToday;
+export function claudeCallsToday() {
+  return loadCounters().claudeCallsToday;
 }
 
 /**
  * Return the remaining calls under the given cap.
  */
-export function geminiCallsRemaining(cap) {
-  const used = loadCounters().geminiCallsToday;
+export function claudeCallsRemaining(cap) {
+  const used = loadCounters().claudeCallsToday;
   return Math.max(0, cap - used);
 }
 
@@ -96,15 +96,15 @@ export function geminiCallsRemaining(cap) {
 //   node scripts/usage-limit.js reset
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(__filename)) {
   const cmd = process.argv[2];
-  const PUBLIC_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_PUBLIC || '900', 10);
-  const ANALYST_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_ANALYST || '100', 10);
+  const PUBLIC_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_PUBLIC || '900', 10);
+  const ANALYST_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_ANALYST || '100', 10);
 
   if (cmd === 'status') {
     const c = loadCounters();
     console.log(`Date:            ${c.date}`);
-    console.log(`Gemini calls:    ${c.geminiCallsToday}`);
-    console.log(`Public cap:      ${PUBLIC_CAP}  (remaining: ${Math.max(0, PUBLIC_CAP - c.geminiCallsToday)})`);
-    console.log(`Analyst cap:     ${ANALYST_CAP}  (remaining: ${Math.max(0, ANALYST_CAP - c.geminiCallsToday)})`);
+    console.log(`Claude calls:    ${c.claudeCallsToday}`);
+    console.log(`Public cap:      ${PUBLIC_CAP}  (remaining: ${Math.max(0, PUBLIC_CAP - c.claudeCallsToday)})`);
+    console.log(`Analyst cap:     ${ANALYST_CAP}  (remaining: ${Math.max(0, ANALYST_CAP - c.claudeCallsToday)})`);
   } else if (cmd === 'simulate') {
     const n = parseInt(process.argv[3], 10);
     if (isNaN(n) || n < 0) {
@@ -112,13 +112,13 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(__filename
       process.exit(1);
     }
     const counters = loadCounters();
-    counters.geminiCallsToday = n;
+    counters.claudeCallsToday = n;
     saveCounters(counters);
     console.log(`Simulated ${n} calls for ${counters.date}`);
     console.log(`Public cap (${PUBLIC_CAP}):  ${n >= PUBLIC_CAP ? 'REACHED' : 'OK'}`);
     console.log(`Analyst cap (${ANALYST_CAP}): ${n >= ANALYST_CAP ? 'REACHED' : 'OK'}`);
   } else if (cmd === 'reset') {
-    saveCounters({ date: utcToday(), geminiCallsToday: 0 });
+    saveCounters({ date: utcToday(), claudeCallsToday: 0 });
     console.log('Counters reset to 0.');
   } else {
     console.log('Usage:');

@@ -4,25 +4,25 @@
  * PAI AeroNews - RSS Feed Fetching Script
  *
  * Fetches aviation news from RSS feeds and generates static HTML.
- * Uses Google Gemini API to generate AI takeaways (free tier).
+ * Uses Anthropic Claude API to generate AI takeaways.
  *
  * Usage:
  *   node scripts/fetch-rss.js
- *   GOOGLE_AI_API_KEY=xxx node scripts/fetch-rss.js
+ *   ANTHROPIC_API_KEY=xxx node scripts/fetch-rss.js
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { XMLParser } from 'fast-xml-parser';
-import { canSpendGemini, recordGeminiCalls, geminiCallsRemaining } from './usage-limit.js';
+import { canSpendClaude, recordClaudeCalls, claudeCallsRemaining } from './usage-limit.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
 const CONFIG = {
-  googleAiApiKey: process.env.GOOGLE_AI_API_KEY,
+  anthropicApiKey: process.env.ANTHROPIC_API_KEY,
   teamsWebhookUrl: process.env.TEAMS_WEBHOOK_URL,
   slackWebhookUrl: process.env.SLACK_WEBHOOK_URL,
   outputDir: path.join(__dirname, '..', 'dist'),
@@ -464,24 +464,24 @@ function extractKeywords(text) {
 }
 
 /**
- * Daily Gemini call cap for the public pipeline.
+ * Daily Claude API call cap for the public pipeline.
  */
-const GEMINI_PUBLIC_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_PUBLIC || '900', 10);
+const CLAUDE_PUBLIC_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_PUBLIC || '900', 10);
 
 /**
- * Generate AI takeaway using Google Gemini API.
+ * Generate AI takeaway using Anthropic Claude API.
  * Enforces a hard daily call cap — falls back gracefully when exceeded.
  */
 async function generateTakeaway(article) {
-  if (!CONFIG.googleAiApiKey) {
+  if (!CONFIG.anthropicApiKey) {
     return createFallbackTakeaway(article);
   }
 
   // Hard daily cap check
-  if (!canSpendGemini(1, GEMINI_PUBLIC_CAP)) {
+  if (!canSpendClaude(1, CLAUDE_PUBLIC_CAP)) {
     if (!generateTakeaway._capLogged) {
-      const remaining = geminiCallsRemaining(GEMINI_PUBLIC_CAP);
-      console.warn(`⚠ GEMINI DAILY CAP REACHED (public pipeline cap: ${GEMINI_PUBLIC_CAP}, remaining: ${remaining}). Using fallback takeaways for remaining articles.`);
+      const remaining = claudeCallsRemaining(CLAUDE_PUBLIC_CAP);
+      console.warn(`⚠ CLAUDE DAILY CAP REACHED (public pipeline cap: ${CLAUDE_PUBLIC_CAP}, remaining: ${remaining}). Using fallback takeaways for remaining articles.`);
       generateTakeaway._capLogged = true;
     }
     return createFallbackTakeaway(article);
@@ -500,20 +500,21 @@ Takeaway:`;
   let attempted = false;
   try {
     const fetchPromise = fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${CONFIG.googleAiApiKey}`,
+      'https://api.anthropic.com/v1/messages',
       {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-api-key': CONFIG.anthropicApiKey,
+          'anthropic-version': '2023-06-01',
         },
         body: JSON.stringify({
-          contents: [{
-            parts: [{ text: prompt }]
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 100,
+          messages: [{
+            role: 'user',
+            content: prompt,
           }],
-          generationConfig: {
-            maxOutputTokens: 100,
-            temperature: 0.7,
-          },
         }),
       }
     );
@@ -522,13 +523,13 @@ Takeaway:`;
 
     const data = await response.json();
 
-    if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
-      return data.candidates[0].content.parts[0].text.trim();
+    if (data.content?.[0]?.text) {
+      return data.content[0].text.trim();
     }
   } catch (error) {
     console.warn(`AI takeaway failed for "${article.headline}":`, error.message);
   } finally {
-    if (attempted) recordGeminiCalls(1);
+    if (attempted) recordClaudeCalls(1);
   }
 
   return createFallbackTakeaway(article);
