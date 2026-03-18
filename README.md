@@ -1,11 +1,11 @@
 # PAI AeroNews
 
-Automated aviation news aggregator for **PAI Consulting**. Fetches aviation industry news from RSS feeds, generates AI-powered takeaways via Google Gemini, and displays them in a scrolling ticker designed to embed in Squarespace.
+Automated aviation news aggregator for **PAI Consulting**. Fetches aviation industry news from RSS feeds, generates AI-powered takeaways via Anthropic Claude, and displays them in a scrolling ticker designed to embed in Squarespace.
 
 ## Features
 
 - 12+ aviation RSS sources across multiple categories
-- AI-generated takeaways via Google Gemini (free tier)
+- AI-generated takeaways via Anthropic Claude API
 - Hourly automatic updates via GitHub Actions
 - Scrolling ticker with playback controls (pause, speed)
 - Click-to-expand modal with full article details
@@ -30,11 +30,11 @@ Go to your repository: **Settings → Secrets and variables → Actions**, then 
 
 | Secret | Required | Description |
 |--------|----------|-------------|
-| `GOOGLE_AI_API_KEY` | Recommended | Google Gemini API key for AI takeaways. [Get one free](https://makersuite.google.com/app/apikey) |
+| `ANTHROPIC_API_KEY` | Recommended | Anthropic API key for Claude AI takeaways. [Get one here](https://console.anthropic.com/) |
 | `TEAMS_WEBHOOK_URL` | Optional | Microsoft Teams incoming webhook URL for notifications |
 | `SLACK_WEBHOOK_URL` | Optional | Slack incoming webhook URL for notifications |
 
-Without the Gemini API key, the system falls back to rule-based takeaways.
+Without the Anthropic API key, the system falls back to rule-based takeaways.
 
 ### 3. Enable GitHub Pages
 
@@ -68,7 +68,7 @@ Either:
 npm run build
 
 # Run with AI takeaways
-GOOGLE_AI_API_KEY=your_key npm run build
+ANTHROPIC_API_KEY=your_key npm run build
 
 # Preview the generated HTML
 npm run preview
@@ -125,8 +125,8 @@ Configure in the `webhooks` section of `sources.json`:
 | GitHub Pages hosting | Free |
 | GitHub Actions (hourly) | Free (public repo) |
 | RSS feeds | Free |
-| Google Gemini API | Free (60 req/min) |
-| **Total** | **$0/month** |
+| Anthropic Claude API | Pay-per-use (Haiku 4.5) |
+| **Total** | **~$1-5/month** (depends on API usage) |
 
 ## Documentation
 

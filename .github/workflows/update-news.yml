@@ -60,7 +60,7 @@ jobs:
 
       - name: Fetch RSS feeds and generate HTML
         env:
-          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: npm run build
@@ -122,7 +122,7 @@ jobs:
 
       - name: Run analyst mode
         env:
-          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANALYST_TEAMS_WEBHOOK_URL: ${{ secrets.ANALYST_TEAMS_WEBHOOK_URL }}
           ANALYST_FORCE_NOW: ${{ inputs.forceAnalystNow == true && '1' || '' }}
         run: node scripts/analyst-mode.js

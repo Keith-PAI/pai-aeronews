@@ -6,7 +6,7 @@ PAI AeroNews is an automated aviation news aggregator for **Performance Aircraft
 - Fetches aviation industry news from RSS feeds (free, unlimited)
 - Updates automatically every hour via GitHub Actions
 - Displays 24-48 articles in a scrolling ticker with PAI branding
-- Generates AI-powered "takeaways" via Google Gemini (free tier)
+- Generates AI-powered "takeaways" via Anthropic Claude API
 - Features playback controls (pause, speed) and click-to-expand modal
 - Embeds seamlessly in Squarespace via iframe
 - Provides proper source attribution with category badges
@@ -26,7 +26,7 @@ PAI AeroNews is an automated aviation news aggregator for **Performance Aircraft
 
 ### Repository Environment
 - Production GitHub repository with active CI
-- Cost-sensitive Gemini API usage (operator pays out of pocket)
+- Cost-sensitive Anthropic API usage (operator pays out of pocket)
 - Branch protection enabled on `main` (PR-only merges)
 - `gh-pages` branch holds generated `dist/` output
 - CI must never push to `main`
@@ -50,7 +50,7 @@ GitHub Action (runs every hour)
          ↓
 Node.js script (fetch-rss.js)
          ↓
-Google Gemini API for AI takeaways (free tier)
+Anthropic Claude API for AI takeaways
          ↓
 dist/index.html + dist/news-data.json
          ↓
@@ -269,10 +269,10 @@ Push to main branch → automatic rebuild.
 
 ```bash
 # Optional - for AI takeaways (highly recommended)
-GOOGLE_AI_API_KEY=your_gemini_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
 
-Get free Gemini API key: https://makersuite.google.com/app/apikey
+Get Anthropic API key: https://console.anthropic.com/
 
 **Without API key**: Falls back to rule-based takeaways based on keywords/category.
 
@@ -294,7 +294,7 @@ Get free Gemini API key: https://makersuite.google.com/app/apikey
 6. Deploy to GitHub Pages
 
 ### Secrets Required
-- `GOOGLE_AI_API_KEY` - (Optional but recommended) Google AI API key for Gemini
+- `ANTHROPIC_API_KEY` - (Optional but recommended) Anthropic API key for Claude
 
 ---
 
@@ -349,10 +349,10 @@ Close with: X button, click outside, or Escape key
 
 ## AI Takeaways
 
-### Google Gemini API
-- **Model**: gemini-1.5-flash (fast, free tier)
-- **Free Tier**: 60 requests/minute (plenty for ~36 articles/hour)
-- **Cost**: $0/month within free tier
+### Anthropic Claude API
+- **Model**: claude-haiku-4-5-20251001 (fastest/cheapest Claude model)
+- **Pricing**: Pay-per-use (Haiku tier — very low cost for short takeaways)
+- **Daily Cap**: 900 calls/day (configurable via `CLAUDE_DAILY_CALL_CAP_PUBLIC`)
 
 ### Prompt
 Generates one-sentence insights focusing on:
@@ -380,7 +380,7 @@ npm install
 npm run build
 
 # Run with AI takeaways
-GOOGLE_AI_API_KEY=xxx npm run build
+ANTHROPIC_API_KEY=xxx npm run build
 
 # Preview the generated HTML
 npm run preview
@@ -404,8 +404,8 @@ npm run preview
 4. Try alternative feed URL from same source
 
 ### AI Takeaways Not Generating
-1. Verify `GOOGLE_AI_API_KEY` secret is set in GitHub
-2. Check Gemini API quota in Google Cloud Console
+1. Verify `ANTHROPIC_API_KEY` secret is set in GitHub
+2. Check Anthropic API usage at https://console.anthropic.com/
 3. Fallback takeaways will be used if API fails
 
 ### Iframe Not Displaying
@@ -422,8 +422,8 @@ npm run preview
 | GitHub Pages hosting | Free |
 | GitHub Actions (hourly) | Free (public repo) |
 | RSS feeds | Free |
-| Google Gemini API (takeaways) | Free (60 req/min limit) |
-| **Total** | **$0/month** |
+| Anthropic Claude API (takeaways) | Pay-per-use (Haiku tier) |
+| **Total** | **~$1-5/month** (depends on API usage) |
 
 ---
 
@@ -432,7 +432,7 @@ npm run preview
 ### Phase 1: Core Newsfeed (Current)
 - [x] RSS feed aggregation (14+ sources)
 - [x] GitHub Actions hourly updates
-- [x] AI takeaways via Google Gemini
+- [x] AI takeaways via Anthropic Claude
 - [x] Modern UI with playback controls
 - [x] Click-to-expand modal
 - [x] Category badges and filtering foundation
@@ -444,7 +444,7 @@ npm run preview
 - [ ] Email digest (daily/weekly)
 - [x] Teams/Slack webhooks (daily digest via Adaptive Cards + Slack Block Kit)
 - [x] Daily SMS analyst digest via Teams (`scripts/analyst-mode.js`)
-- [x] Gemini API cost controls (`scripts/usage-limit.js`, daily call caps)
+- [x] Claude API cost controls (`scripts/usage-limit.js`, daily call caps)
 - [ ] Personalized topic alerts
 - [x] "Suggest a Source" form (modal in template with name, URL, category fields)
 
@@ -468,7 +468,7 @@ npm run preview
 ### v2.0.0 (RSS Migration)
 - Migrated from NewsAPI to RSS feeds (free, unlimited)
 - Added 14+ RSS sources across multiple categories
-- Implemented Google Gemini for AI takeaways (free tier)
+- Implemented Anthropic Claude for AI takeaways
 - Added playback controls (pause/play, speed)
 - Added click-to-expand modal with full details
 - Added category badges with color coding
@@ -500,10 +500,10 @@ npm run preview
 - New modes must not modify the public pipeline or its outputs
 
 ### C) Cost / Quota
-- Pre-filter and deduplicate articles before any Gemini API call
-- One Gemini call per article maximum
+- Pre-filter and deduplicate articles before any Claude API call
+- One Claude API call per article maximum
 - Internal modes (analyst, etc.) run daily, not hourly — use schedule gates in scripts
-- Monitor free-tier limits: 60 requests/minute for Gemini
+- Monitor daily call caps via `scripts/usage-limit.js`
 
 ### D) Secrets
 - Never commit secrets or API keys
@@ -527,9 +527,9 @@ Before merging any Phase 2+ change:
 - CI must never push to main
 - dist/ must never appear in feature PRs
 
-## Gemini Cost Safety
-- All Gemini API calls must be guarded by `canSpendGemini()` before execution
-- `recordGeminiCalls(1)` must fire exactly once per HTTP attempt
+## Claude API Cost Safety
+- All Claude API calls must be guarded by `canSpendClaude()` before execution
+- `recordClaudeCalls(1)` must fire exactly once per HTTP attempt
 - No double counting allowed
 - No silent cost paths — every call must be visible in usage tracking
 - When in doubt, ask before making changes that could trigger API calls

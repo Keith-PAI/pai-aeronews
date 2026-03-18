@@ -11,9 +11,9 @@
 - [ ] No CI changes that cause pushes to `main`
 - [ ] If workflow changes are necessary, they are isolated and justified (include rationale below)
 
-## Cost safety (Gemini)
-- [ ] Any Gemini call path is guarded by `canSpendGemini()`
-- [ ] `recordGeminiCalls(1)` is called **exactly once per HTTP attempt**
+## Cost safety (Claude API)
+- [ ] Any Claude API call path is guarded by `canSpendClaude()`
+- [ ] `recordClaudeCalls(1)` is called **exactly once per HTTP attempt**
 - [ ] No silent cost paths / no double-counting
 
 ## Git hygiene

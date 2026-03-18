@@ -4,19 +4,19 @@
  * PAI AeroNews - Analyst Mode
  *
  * Consumes dist/news-data.json, filters by SMS/safety keywords,
- * generates Gemini analyst briefs, and posts to a dedicated Teams channel.
+ * generates Claude analyst briefs, and posts to a dedicated Teams channel.
  *
  * Zero changes to the public pipeline. Runs daily at the configured UTC hour.
  *
  * Usage:
  *   node scripts/analyst-mode.js
- *   GOOGLE_AI_API_KEY=xxx ANALYST_TEAMS_WEBHOOK_URL=yyy node scripts/analyst-mode.js
+ *   ANTHROPIC_API_KEY=xxx ANALYST_TEAMS_WEBHOOK_URL=yyy node scripts/analyst-mode.js
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { canSpendGemini, recordGeminiCalls, geminiCallsRemaining } from './usage-limit.js';
+import { canSpendClaude, recordClaudeCalls, claudeCallsRemaining } from './usage-limit.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -93,40 +93,26 @@ function filterByKeywords(articles, keywords) {
 }
 
 /**
- * Extract text from a Gemini response, handling multiple response shapes defensively.
- * Supports: candidates[].content.parts[].text, output_text, and error messages.
+ * Extract text from a Claude API response, handling multiple response shapes defensively.
  */
-function extractGeminiText(data) {
-  // Standard shape: candidates[0].content.parts[].text
-  const parts = data.candidates?.[0]?.content?.parts;
-  if (Array.isArray(parts)) {
-    const joined = parts.map(p => p.text).filter(Boolean).join('\n');
+function extractClaudeText(data) {
+  // Standard shape: content[0].text
+  if (Array.isArray(data.content)) {
+    const joined = data.content.map(b => b.text).filter(Boolean).join('\n');
     if (joined) return joined.trim();
-  }
-
-  // Alternative: top-level output_text (some model versions)
-  if (typeof data.output_text === 'string' && data.output_text) {
-    return data.output_text.trim();
-  }
-
-  // Alternative: single candidate text shorthand
-  const candidateText = data.candidates?.[0]?.text;
-  if (typeof candidateText === 'string' && candidateText) {
-    return candidateText.trim();
   }
 
   return null;
 }
 
 /**
- * Generate an analyst brief for one article via Gemini
+ * Generate an analyst brief for one article via Claude API
  */
 async function generateAnalystBrief(article, config) {
-  const apiKey = process.env.GOOGLE_AI_API_KEY;
+  const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return null;
 
-  const modelUrl =
-    'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+  const apiUrl = 'https://api.anthropic.com/v1/messages';
 
   const prompt = `You are an aviation safety management system (SMS) analyst.
 Given this article, provide a brief in this exact format:
@@ -145,23 +131,28 @@ Description: ${article.blurb || 'No description available'}`;
   let counted = false;
   try {
     const response = await fetch(
-      `${modelUrl}?key=${apiKey}`,
+      apiUrl,
       {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+        },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            maxOutputTokens: config.geminiMaxTokens || 300,
-            temperature: config.geminiTemperature ?? 0.5,
-          },
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: config.claudeMaxTokens || 300,
+          messages: [{
+            role: 'user',
+            content: prompt,
+          }],
         }),
         signal: AbortSignal.timeout(20000),
       }
     );
 
     // Record exactly once — the HTTP request consumed quota
-    recordGeminiCalls(1);
+    recordClaudeCalls(1);
     counted = true;
 
     if (!response.ok) {
@@ -170,29 +161,29 @@ Description: ${article.blurb || 'No description available'}`;
         const raw = await response.text();
         bodySnippet = raw.substring(0, 500);
       } catch { /* ignore read errors */ }
-      console.warn(`  Gemini HTTP ${response.status} for "${article.headline}"`);
-      console.warn(`  Model URL: ${modelUrl}`);
-      console.warn(`  GOOGLE_AI_API_KEY: ${apiKey ? 'present' : 'missing'}`);
+      console.warn(`  Claude HTTP ${response.status} for "${article.headline}"`);
+      console.warn(`  API URL: ${apiUrl}`);
+      console.warn(`  ANTHROPIC_API_KEY: ${apiKey ? 'present' : 'missing'}`);
       console.warn(`  Response body: ${bodySnippet || '(empty)'}`);
       return null;
     }
 
     const data = await response.json();
-    const text = extractGeminiText(data);
+    const text = extractClaudeText(data);
     if (text) return text;
 
-    // Gemini returned 200 but no usable text — log details
+    // Claude returned 200 but no usable text — log details
     const dataSnippet = JSON.stringify(data).substring(0, 500);
-    console.warn(`  No usable Gemini text for "${article.headline}"`);
-    console.warn(`  Model URL: ${modelUrl}`);
-    console.warn(`  GOOGLE_AI_API_KEY: present`);
+    console.warn(`  No usable Claude text for "${article.headline}"`);
+    console.warn(`  API URL: ${apiUrl}`);
+    console.warn(`  ANTHROPIC_API_KEY: present`);
     console.warn(`  Parsed response: ${dataSnippet}`);
     return null;
   } catch (error) {
-    if (!counted) recordGeminiCalls(1);
-    console.warn(`  Gemini call failed for "${article.headline}": ${error.message}`);
-    console.warn(`  Model URL: ${modelUrl}`);
-    console.warn(`  GOOGLE_AI_API_KEY: ${process.env.GOOGLE_AI_API_KEY ? 'present' : 'missing'}`);
+    if (!counted) recordClaudeCalls(1);
+    console.warn(`  Claude call failed for "${article.headline}": ${error.message}`);
+    console.warn(`  API URL: ${apiUrl}`);
+    console.warn(`  ANTHROPIC_API_KEY: ${process.env.ANTHROPIC_API_KEY ? 'present' : 'missing'}`);
     return null;
   }
 }
@@ -370,21 +361,21 @@ async function main() {
   console.log(`${capped.length} articles matched keywords (capped from ${filtered.length})`);
 
   // 6. Generate analyst briefs (with daily cap enforcement)
-  const ANALYST_CAP = parseInt(process.env.GEMINI_DAILY_CALL_CAP_ANALYST || '100', 10);
+  const ANALYST_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_ANALYST || '100', 10);
   let capReached = false;
 
-  if (!process.env.GOOGLE_AI_API_KEY) {
-    console.warn('No GOOGLE_AI_API_KEY set — skipping Gemini analyst briefs.');
-  } else if (!canSpendGemini(1, ANALYST_CAP)) {
-    const remaining = geminiCallsRemaining(ANALYST_CAP);
-    console.warn(`⚠ GEMINI DAILY CAP REACHED (analyst cap: ${ANALYST_CAP}, remaining: ${remaining}). Skipping analyst briefs.`);
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.warn('No ANTHROPIC_API_KEY set — skipping Claude analyst briefs.');
+  } else if (!canSpendClaude(1, ANALYST_CAP)) {
+    const remaining = claudeCallsRemaining(ANALYST_CAP);
+    console.warn(`⚠ CLAUDE DAILY CAP REACHED (analyst cap: ${ANALYST_CAP}, remaining: ${remaining}). Skipping analyst briefs.`);
     capReached = true;
   } else {
-    console.log(`\nGenerating analyst briefs via Gemini (cap: ${ANALYST_CAP}, remaining: ${geminiCallsRemaining(ANALYST_CAP)})...`);
+    console.log(`\nGenerating analyst briefs via Claude (cap: ${ANALYST_CAP}, remaining: ${claudeCallsRemaining(ANALYST_CAP)})...`);
     for (const article of capped) {
       // Re-check cap before each call (public pipeline may have used calls too)
-      if (!canSpendGemini(1, ANALYST_CAP)) {
-        console.warn(`⚠ GEMINI DAILY CAP REACHED mid-loop (analyst cap: ${ANALYST_CAP}). Skipping remaining briefs.`);
+      if (!canSpendClaude(1, ANALYST_CAP)) {
+        console.warn(`⚠ CLAUDE DAILY CAP REACHED mid-loop (analyst cap: ${ANALYST_CAP}). Skipping remaining briefs.`);
         capReached = true;
         break;
       }
