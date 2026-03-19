@@ -475,6 +475,7 @@ function extractKeywords(text) {
  */
 const CLAUDE_PUBLIC_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_PUBLIC || '900', 10);
 
+
 /**
  * Generate AI takeaway using Anthropic Claude API.
  * Enforces a hard daily call cap — falls back gracefully when exceeded.
@@ -496,7 +497,7 @@ async function generateTakeaway(article) {
 
   const systemPrompt = 'You are a concise aviation industry analyst. Generate a single sentence of insight for aviation professionals. Output ONLY a JSON object — no preamble, no commentary, no questions, no refusals, no meta-analysis. If the article is about aerospace or space exploration, write about its relevance to aerospace. Never output anything except the JSON object.';
 
-  const userPrompt = `Write a one-sentence insight for aviation professionals about this article. Also determine the most accurate category for this article from this list: general-aviation, commercial, business-aviation, industry, aerospace, military, safety, regulatory, corporate, evtol, drones, electric, international, air-cargo.
+  const userPrompt = `Write a one-sentence insight for aviation professionals about this article. The takeaway must be a single crisp sentence, ideally under 160 characters and never more than 180 characters. Also determine the most accurate category for this article from this list: general-aviation, commercial, business-aviation, industry, aerospace, military, safety, regulatory, corporate, evtol, drones, electric, international, air-cargo.
 
 Return ONLY a JSON object in this exact format, nothing else:
 {"takeaway": "your single insight sentence", "category": "best-matching-category"}
@@ -563,6 +564,7 @@ Article description: ${article.blurb || 'No description available'}`;
     if (attempted) recordClaudeCalls(1);
   }
 
+  console.warn('  ⚠ Using fallback takeaway for: ' + article.headline.substring(0, 50));
   return createFallbackTakeaway(article);
 }
 
