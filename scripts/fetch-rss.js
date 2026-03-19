@@ -34,6 +34,12 @@ const CONFIG = {
 };
 
 // Category display names and colors
+const VALID_CATEGORIES = new Set([
+  'general-aviation', 'commercial', 'business-aviation', 'industry',
+  'aerospace', 'military', 'safety', 'regulatory', 'corporate',
+  'evtol', 'drones', 'electric', 'international', 'air-cargo',
+]);
+
 const CATEGORY_INFO = {
   'general-aviation': { label: 'General Aviation', color: '#10B981' },
   'commercial': { label: 'Commercial', color: '#3B82F6' },
@@ -48,6 +54,7 @@ const CATEGORY_INFO = {
   'military': { label: 'Military', color: '#6B7280' },
   'corporate': { label: 'Corporate', color: '#A855F7' },
   'international': { label: 'International', color: '#14B8A6' },
+  'air-cargo': { label: 'Air Cargo', color: '#F97316' },
 };
 
 /**
@@ -487,15 +494,17 @@ async function generateTakeaway(article) {
     return createFallbackTakeaway(article);
   }
 
-  const prompt = `You are an aviation industry analyst. Given this news headline and description, write ONE sentence (max 20 words) summarizing the key takeaway for aviation professionals.
+  const systemPrompt = 'You are a concise aviation industry analyst. Generate a single sentence of insight for aviation professionals. Output ONLY a JSON object — no preamble, no commentary, no questions, no refusals, no meta-analysis. If the article is about aerospace or space exploration, write about its relevance to aerospace. Never output anything except the JSON object.';
 
-Focus on: safety implications, operational impacts, business trends, or regulatory significance.
-Be concise, professional, and insightful. Do not start with "This" or "The".
+  const userPrompt = `Write a one-sentence insight for aviation professionals about this article. Also determine the most accurate category for this article from this list: general-aviation, commercial, business-aviation, industry, aerospace, military, safety, regulatory, corporate, evtol, drones, electric, international, air-cargo.
 
-Headline: ${article.headline}
-Description: ${article.blurb || 'No description available'}
+Return ONLY a JSON object in this exact format, nothing else:
+{"takeaway": "your single insight sentence", "category": "best-matching-category"}
 
-Takeaway:`;
+If unsure about the category, use: ${article.category}
+
+Article headline: ${article.headline}
+Article description: ${article.blurb || 'No description available'}`;
 
   let attempted = false;
   try {
@@ -510,10 +519,11 @@ Takeaway:`;
         },
         body: JSON.stringify({
           model: 'claude-haiku-4-5-20251001',
-          max_tokens: 100,
+          max_tokens: 150,
+          system: systemPrompt,
           messages: [{
             role: 'user',
-            content: prompt,
+            content: userPrompt,
           }],
         }),
       }
@@ -524,7 +534,28 @@ Takeaway:`;
     const data = await response.json();
 
     if (data.content?.[0]?.text) {
-      return data.content[0].text.trim();
+      const rawText = data.content[0].text.trim();
+      try {
+        // Try to extract JSON from the response (handle markdown code fences)
+        const jsonMatch = rawText.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) throw new Error('No JSON object found in response');
+        const parsed = JSON.parse(jsonMatch[0]);
+
+        const takeaway = typeof parsed.takeaway === 'string' && parsed.takeaway.length > 0
+          ? parsed.takeaway
+          : null;
+        const correctedCategory = typeof parsed.category === 'string'
+          && VALID_CATEGORIES.has(parsed.category)
+          ? parsed.category
+          : null;
+
+        if (takeaway) {
+          if (correctedCategory) article.category = correctedCategory;
+          return takeaway;
+        }
+      } catch (parseError) {
+        console.warn(`  ⚠ JSON parse failed for "${article.headline.substring(0, 40)}…", using fallback`);
+      }
     }
   } catch (error) {
     console.warn(`AI takeaway failed for "${article.headline}":`, error.message);
