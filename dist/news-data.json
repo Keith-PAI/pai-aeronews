@@ -1,12 +1,42 @@
 {
-  "lastUpdated": "2026-03-18T23:36:00.293Z",
+  "lastUpdated": "2026-03-19T02:48:43.208Z",
   "articles": [
+    {
+      "id": "u7qm8o",
+      "type": "news",
+      "headline": "737 MAX 10 Solution: Boeing’s Bold Move To Get Its Largest Narrowbody Certified",
+      "blurb": "The American planemaker is on course to the finish line.",
+      "takeaway": "Boeing advances 737 MAX 10 certification, expanding its narrowbody portfolio and competitive positioning against Airbus.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/boeing-737-max-10-everett-certification/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-19T02:33:11.000Z"
+    },
+    {
+      "id": "n8tr96",
+      "type": "news",
+      "headline": "The 6 Most Significant System Differences Between The F-22 Raptor & F-35 Lightning II",
+      "blurb": "The F-22 & F-35s system differences reflect the different time periods they were developed as well as different mission sets.",
+      "takeaway": "F-22 and F-35 system divergences stem from distinct development eras and operational roles, affecting interoperability and modernization strategies.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/most-significant-system-differences-f-22-raptor-f-35-lightning-ii/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-19T01:00:20.000Z"
+    },
     {
       "id": "itnsfr",
       "type": "news",
       "headline": "5 Economy Seats With The World’s Greatest Pitch In 2026",
       "blurb": "Most airlines offer 30-32 inches of seat pitch in economy class, although a few can get up to 34 inches on select seats in some configurations.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "Premium economy differentiation intensifies as select carriers compete on comfort metrics beyond traditional cabin segmentation strategies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/economy-seats-worlds-greatest-pitch-2026/"
@@ -22,7 +52,7 @@
       "type": "news",
       "headline": "Major Airline Looking To Reduce Flight Attendant Workforce By Offering Nearly $20,000 To Quit",
       "blurb": "SWISS is paying cabin crew to leave as grounded jets and pilot shortages bite.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "SWISS incentivizes voluntary attrition to align staffing with reduced capacity amid fleet groundings and pilot shortages.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airline-reduce-flight-attendant-workforce-offering-20000-quit/"
@@ -35,11 +65,32 @@
       "publishedAt": "2026-03-18T22:55:26.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS frameworks shift aviation from accident investigation to systematic risk prevention, reshaping operational and regulatory compliance requirements.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-19T02:48:09.932Z",
+      "paiContent": true
+    },
+    {
       "id": "dq36im",
       "type": "news",
       "headline": "U.S. Air Force to Update U-2 Dragon Lady Defensive System",
       "blurb": "The iconic 70-year-old spy plane is receiving updates to its AN/ALQ-221 Advanced Defensive System. Despite ever changing plans to retire the type in the next few years, the U.S. Air Force’s U-2 Dragon Lady continues to play a crucial role in providing vital ISR (Intelligence, Surveillance, and Re...",
-      "takeaway": "Military aviation advances influence broader industry.",
+      "takeaway": "Air Force extends U-2 operational viability through defensive system modernization despite ongoing retirement discussions.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/18/u-2-ads-updates/"
@@ -53,7 +104,7 @@
       "type": "news",
       "headline": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
       "blurb": "The contract is for 20 hypersonic flight missions over four years The post Rocket Lab wins $190 million Pentagon deal for hypersonic test flights appeared first on SpaceNews.",
-      "takeaway": "Aerospace developments expand industry horizons.",
+      "takeaway": "Rocket Lab expands beyond traditional launch services into defense hypersonic testing, signaling aerospace diversification opportunities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/"
@@ -69,7 +120,7 @@
       "type": "news",
       "headline": "Why In The World Does American Airlines Fly The Boeing 787 And Not The Airbus A350?",
       "blurb": "The carrier has decided against operating the flagship Airbus widebody.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "takeaway": "American Airlines' Boeing 787 selection over Airbus A350 reflects strategic confidence in 787 economics and operational integration.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-does-american-airlines-fly-boeing-787-over-airbus-a350/"
@@ -83,23 +134,23 @@
       "publishedAt": "2026-03-18T21:30:18.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-safety-culture",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Safety implications warrant industry attention.",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Strong safety reporting cultures within SMS programs directly reduce incidents by encouraging proactive hazard identification over punitive blame.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
-        "faa",
-        "srm"
+        "safety culture",
+        "reporting",
+        "just culture"
       ],
-      "publishedAt": "2026-03-18T23:36:00.032Z",
+      "publishedAt": "2026-03-19T02:48:09.932Z",
       "paiContent": true
     },
     {
@@ -107,7 +158,7 @@
       "type": "news",
       "headline": "Space Command classified wargame to include 25 commercial players",
       "blurb": "Maj. Gen. Keener: The exercise will help Space Command ‘better understand commercial challenges, requirements, and how we can better work together’ The post Space Command classified wargame to include 25 commercial players appeared first on SpaceNews.",
-      "takeaway": "Aerospace developments expand industry horizons.",
+      "takeaway": "U.S. Space Command expands military-commercial aviation collaboration to address emerging operational and regulatory integration challenges.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-command-classified-wargame-to-include-25-commercial-players/"
@@ -123,7 +174,7 @@
       "type": "news",
       "headline": "Could This Be Our Best Ever Look at America’s Elusive RQ-180?",
       "blurb": "According to Greek outlet OnLarissa, a flying wing aircraft, clearly not a B-2 Spirit, was photographed reportedly flying over Larissa, Greece. Is this our best view ever of the U.S. Air Force’s secretive ISR drone? OnLarissa reports, based on comment from local sources, that the aircraft was a B...",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "takeaway": "Rare imagery of advanced U.S. ISR drone capabilities emerges, potentially revealing classified reconnaissance aircraft operational deployment patterns.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/18/could-this-be-our-best-ever-look-rq-180/"
@@ -140,7 +191,7 @@
       "type": "news",
       "headline": "“More Dangerous”: FAA & DOT Reportedly Introduce New ATC Separation Mandate Without Guidance",
       "blurb": "There is some discussion about this new rule.",
-      "takeaway": "Regulatory changes may affect industry operations.",
+      "takeaway": "FAA-DOT ATC separation mandate lacks implementation guidance, creating operational risks for carriers and controllers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/faa-dot-introduce-new-atc-separation-mandate-without-guidance/"
@@ -153,31 +204,34 @@
       "publishedAt": "2026-03-18T21:00:18.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Safety implications warrant industry attention.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "FAA emphasizes proactive safety engagement and community education at major general aviation events.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
       "category": "safety",
       "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-18T23:36:00.032Z",
-      "paiContent": true
+      "publishedAt": "2026-03-19T02:48:09.933Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "pmx2bn",
       "type": "news",
       "headline": "The US Airlines With The World’s Most Cross-Border Canada Flights",
       "blurb": "United Airlines dominates US-Canada flights, connecting major hubs with Canada's business centers.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "United Airlines' dominant US-Canada network positions it as the leading carrier for cross-border connectivity and bilateral market share.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-airlines-worlds-most-cross-border-canada-flights/"
@@ -193,7 +247,7 @@
       "type": "news",
       "headline": "34 California Airports Appear On FAA Hot Spot List",
       "blurb": "Updated Southwest hot spot list identifies 34 California airports where pilots should exercise extra caution on taxiways and runways.",
-      "takeaway": "Regulatory changes may affect industry operations.",
+      "takeaway": "Elevated runway and taxiway hazards at 34 California airports demand heightened pilot situational awareness and operational vigilance.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/34-california-airports-appear-on-faa-hot-spot-list/"
@@ -211,7 +265,7 @@
       "type": "news",
       "headline": "Telesat further optimizes Lightspeed for defense, sees schedule slip",
       "blurb": "Observing “significant global demand” for military Ka-band Low Earth Orbit (LEO) satellite capacity, Telesat is further optimizing its forthcoming Lightspeed LEO network for defense requirements by adding military Ka-band spectrum (Mil-Ka) to its initial 156 Lightspeed satellites. “Specifically, ...",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "Military demand reshaping LEO satellite deployment timelines; defense customization causing schedule delays for commercial Lightspeed rollout.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/telesat-optimizes-lightspeed-for-defense-sees-slight-schedule-slip/"
@@ -221,34 +275,27 @@
       "publishedAt": "2026-03-18T19:57:44.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "Safety implications warrant industry attention.",
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Advanced operational technologies can simultaneously expand airport capacity and reduce aviation's environmental footprint amid growing demand.",
       "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
       },
-      "category": "safety",
+      "category": "commercial",
       "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
+        "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-18T23:36:00.032Z",
-      "videoContent": true,
-      "duration": "16:49"
+      "publishedAt": "2026-03-19T02:48:09.933Z"
     },
     {
       "id": "ygqviw",
       "type": "news",
       "headline": "FAA streamlines US commercial space license approvals",
       "blurb": "The Federal Aviation Administration (FAA) has completed a long-running overhaul of its commercial space licensing process, moving all launch and… The post FAA streamlines US commercial space license approvals appeared first on AeroTime.",
-      "takeaway": "Regulatory changes may affect industry operations.",
+      "takeaway": "FAA's streamlined commercial space licensing accelerates market entry for launch operators and reduces regulatory approval timelines.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/faa-streamlines-commercial-space-license-approvals"
@@ -265,7 +312,7 @@
       "type": "news",
       "headline": "Merlin goes public with $200M to advance autonomous flight program",
       "blurb": "Merlin, a Boston-based autonomous flight company, began trading on the Nasdaq under the ticker MRLN on March 17,… The post Merlin goes public with $200M to advance autonomous flight program appeared first on AeroTime.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "Merlin's $200M NASDAQ debut signals investor confidence in autonomous aircraft technology's near-term commercial viability.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/merlin-goes-public-200m-autonomous-flight"
@@ -279,7 +326,7 @@
       "type": "news",
       "headline": "FAA Streamlines Licensing For Commercial Space Launches",
       "blurb": "The FAA has simplified commercial space licensing by consolidating multiple rules into Part 450.",
-      "takeaway": "Regulatory changes may affect industry operations.",
+      "takeaway": "FAA's consolidated Part 450 licensing streamlines commercial space operations, reducing regulatory burden for launch providers.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-part-450-commercial-space-licenses/"
@@ -292,27 +339,11 @@
       "publishedAt": "2026-03-18T19:30:00.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Sustainable aviation technology gains momentum.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "commercial",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-18T23:36:00.032Z"
-    },
-    {
       "id": "qxcgq0",
       "type": "news",
       "headline": "Name Announced for France’s Next Generation Nuclear Powered Aircraft Carrier",
       "blurb": "The France Libre, or Free France, will be powered by two nuclear reactors, displace just shy of 80,000 tons, and is planned to enter service and replace the Charles de Gaulle from 2038. French President Emmanuel Macron announced the name, which pays tribute to French citizens who resisted Nazi ru...",
-      "takeaway": "Military aviation advances influence broader industry.",
+      "takeaway": "France's nuclear carrier development has minimal direct aviation impact; military procurement timelines extend beyond current industry planning horizons.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/18/france-names-next-aircraft-carrier/"
@@ -326,7 +357,7 @@
       "type": "news",
       "headline": "Delta Under Fire As Musician Blasts Airline For Ruined Bags",
       "blurb": "Delta Air Lines faces backlash after high-end luggage worth thousands of dollars is returned damaged to US rapper Chika.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "Baggage handling damage incidents risk brand reputation and potential liability exposure for carriers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-under-fire-musician-blasts-airline-ruined-bag/"
@@ -342,7 +373,7 @@
       "type": "news",
       "headline": "Curiosity Blog, Sols 4832–4837: Driving the (Contact) Line!",
       "blurb": "Written by Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University of New Brunswick, Canada Earth planning date: Friday, March 13, 2026 We are in our final phase of the boxwork campaign, investigating the contacts between the boxwork unit and the layered su...",
-      "takeaway": "Aerospace developments expand industry horizons.",
+      "takeaway": "I appreciate the effort, but this headline and description are about NASA's Curiosity Mars rover, not aviation industry news. There's no aviation content to analyze here.\n\nCould you provide an actual aviation industry headline and description? I'm ready to deliver a concise, professional takeaway once you do.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/"
@@ -356,7 +387,7 @@
       "type": "news",
       "headline": "Press Release: Greenpoint delivers VVIP BBJ 787-9 interior completion",
       "blurb": "Greenpoint Technologies, a Safran company and global leader in aircraft completions and modifications, announced the delivery of another VVIP BBJ 787-9 interior completion to an undisclosed client. The redelivery reinforces Greenpoint’s leadership on the Boeing 787 platform and underscores the co...",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "takeaway": "Greenpoint's 787 BBJ completion demonstrates sustained demand for ultra-premium aircraft interiors among high-net-worth clientele.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/greenpoint-technologies-vvip-bbj-787-9-interior/"
@@ -373,7 +404,7 @@
       "type": "news",
       "headline": "United Airlines Adds 89% More Boeing 737 MAX Transatlantic Flights: Here's Where They’re Going",
       "blurb": "Get ready for a summer of soaring transatlantic flights, as United grows its MAX 8 activity by 89%. But is it all as it seems?",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "takeaway": "United's aggressive 737 MAX transatlantic expansion signals confidence in aircraft reliability while maximizing high-margin international capacity.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-adds-89pc-more-boeing-737-max-transatlantic-flights-heres-where-theyre-going/"
@@ -390,7 +421,7 @@
       "type": "news",
       "headline": "What Are The Best Seats In Each Class Of Alaska Airlines’ Boeing 737 MAXs In 2026?",
       "blurb": "We look into Alaska's seven different 737 configurations.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
+      "takeaway": "Alaska's diverse 737 MAX configurations require crew training standardization and passenger service consistency across fleet variants.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/best-seats-each-class-alaska-airlines-boeing-737-max-2026/"
@@ -407,7 +438,7 @@
       "type": "news",
       "headline": "TransAstra aims to move 100-ton asteroid to stable orbit for processing",
       "blurb": "SAN FRANCISCO — TransAstra is performing a study, funded by investors and customers, to explore the technical feasibility of moving a 100-metric-ton asteroid to a stable near-Earth orbit. “We want to bring an asteroid to the Earth-moon system and turn it into a robotic research outpost for materi...",
-      "takeaway": "Aerospace developments expand industry horizons.",
+      "takeaway": "Space resource utilization ventures may create new orbital traffic management and debris mitigation challenges for aviation regulators.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/"
@@ -423,7 +454,7 @@
       "type": "news",
       "headline": "DeKalb-Peachtree Joins Growing List Of Airports Adding Landing Fees",
       "blurb": "A new memo details weight-based landing fees set to take effect April 1 at DeKalb-Peachtree Airport, targeting transient aircraft.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
+      "takeaway": "DeKalb-Peachtree's weight-based landing fees reflect industry trend toward increased airport revenue recovery from transient aviation operators.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/pdk-landing-fees-transient-aircraft/"
@@ -439,7 +470,7 @@
       "type": "news",
       "headline": "Volatus Aerospace Receives NRC-IRAP Funding to Support Condor XL Development",
       "blurb": "Volatus Aerospace Inc. (TSXV: FLT) (OTCQB: TAKOF) (FSE: ABB.F) (“Volatus” or the “Company”), a Canadian",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "takeaway": "Canadian drone manufacturer secures government funding for advanced aerial vehicle development, signaling industry growth in commercial unmanned aircraft.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/volatus-aerospace-receives-nrc-irap-funding-to-support-condor-xl-development/"
@@ -455,7 +486,7 @@
       "type": "news",
       "headline": "TEKEVER and EPE announce strategic partnership to support advanced autonomous systems capability in New Zealand",
       "blurb": "TEKEVER, a leading pan-European technology company driving innovation in defence and security through AI-centric autonomous",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "takeaway": "TEKEVER-EPE partnership expands autonomous aircraft capabilities in New Zealand, signaling growing adoption of AI-driven defense aviation technology.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/tekever-and-epe-announce-strategic-partnership-to-support-advanced-autonomous-systems-capability-in-new-zealand/"
@@ -469,7 +500,7 @@
       "type": "news",
       "headline": "Volz Servos powers Quantum Systems’ Twister eVTOL with customised actuator technology",
       "blurb": "We are proud to support Quantum Systems’ Twister sUAS project with customised servo technology developed",
-      "takeaway": "Urban air mobility advances toward commercial reality.",
+      "takeaway": "Specialized actuator suppliers enable advanced eVTOL development, signaling growing market demand for custom aviation propulsion components.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/volz-servos-powers-quantum-systems-twister-evtol-with-customised-actuator-technology/"
@@ -486,7 +517,7 @@
       "type": "news",
       "headline": "Protected: Oliver Wyman seeks input for an industry survey",
       "blurb": "There is no excerpt because this is a protected post. The post Protected: Oliver Wyman seeks input for an industry survey appeared first on Vertical Mag.",
-      "takeaway": "Industry developments to monitor closely.",
+      "takeaway": "Oliver Wyman consulting survey indicates aviation industry stakeholders should prepare to share operational insights on emerging challenges.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/oliver-wyman-seeks-input-for-an-industry-survey/"
@@ -500,7 +531,7 @@
       "type": "news",
       "headline": "Dronetag Becomes the First Czech Company Selected for the EUDIS Business Accelerator",
       "blurb": "Prague-based drone detection company joins EU’s flagship defence innovation programmeunder the European Defence Fund Dronetag,",
-      "takeaway": "Drone technology continues to reshape aviation operations.",
+      "takeaway": "Czech drone detection firm Dronetag advances EU airspace security capabilities through defense-funded innovation program.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/dronetag-becomes-the-first-czech-company-selected-for-the-eudis-business-accelerator/"
@@ -516,7 +547,7 @@
       "type": "news",
       "headline": "DJI Avata 2 prices crash ahead of new 8K FPV drone",
       "blurb": "DJI may be gearing up to drop its next immersive FPV drone, Avata 360, on March 26. But in a move that’s far more relevant for US buyers today, the company has quietly slashed prices on its current-gen FPV favorite, the DJI Avata 2. more…",
-      "takeaway": "Safety implications warrant industry attention.",
+      "takeaway": "DJI's price reduction on Avata 2 signals imminent product transition, affecting airspace operations and regulatory considerations for commercial drone operators.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/18/avata-2-deal-discount-dji/"
@@ -529,28 +560,11 @@
       "publishedAt": "2026-03-18T18:00:00.000Z"
     },
     {
-      "id": "o7lhwu",
-      "type": "news",
-      "headline": "Boeing Vs Lockheed: Who Has The Best-Selling Military Aircraft Of All Time?",
-      "blurb": "Crunching the numbers of two defense aerospace juggernauts.",
-      "takeaway": "Boeing developments impact global aviation supply chain.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/boeing-vs-lockheed-best-selling-military-aircraft/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing",
-        "space"
-      ],
-      "publishedAt": "2026-03-18T17:31:17.000Z"
-    },
-    {
       "id": "vh48kj",
       "type": "news",
       "headline": "FAA Ends ‘See and Avoid’ In Mixed Helicopter Traffic Areas",
       "blurb": "The FAA has suspended visual separation for helicopters and fixed-wing aircraft in high-traffic airspace.",
-      "takeaway": "Regulatory changes may affect industry operations.",
+      "takeaway": "FAA eliminates visual separation requirement for helicopters in mixed traffic, mandating instrument-based collision avoidance systems.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/faa-radar-separation-helicopters-airplanes/"
@@ -563,25 +577,11 @@
       "publishedAt": "2026-03-18T17:28:33.000Z"
     },
     {
-      "id": "c6955r",
-      "type": "news",
-      "headline": "What Are The Benefits Of Flying Delta Premium Select?",
-      "blurb": "Delta Premium Select offers wider seats, better meals, and priority services. See how Delta’s premium economy compares to economy and business class.",
-      "takeaway": "Commercial aviation dynamics shape travel industry.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/benefits-flying-delta-premium-select/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-18T17:00:18.000Z"
-    },
-    {
       "id": "j8m31q",
       "type": "news",
       "headline": "Cornyn Bill Targets TSA Perks for Congress",
       "blurb": "Measure would require lawmakers to follow standard TSA procedures amid shutdown-related disruptions.",
-      "takeaway": "Industry developments to monitor closely.",
+      "takeaway": "Congressional TSA exemptions elimination could establish precedent for uniform security protocols across all travelers.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/cornyn-bill-targets-tsa-perks-for-congress/"
