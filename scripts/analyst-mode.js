@@ -328,11 +328,16 @@ async function main() {
   }
 
   // 2. Schedule gate
-  const currentHourUTC = new Date().getUTCHours();
-  const targetHour = config.dailyHourUTC ?? 12;
-  if (currentHourUTC !== targetHour) {
-    console.log(`Not analyst digest hour (current: ${currentHourUTC} UTC, target: ${targetHour} UTC). Skipping.`);
-    process.exit(0);
+  const forceNow = process.env.ANALYST_FORCE_NOW === 'true';
+  if (!forceNow) {
+    const currentHourUTC = new Date().getUTCHours();
+    const targetHour = config.dailyHourUTC ?? 11;
+    if (currentHourUTC !== targetHour) {
+      console.log(`Not analyst digest hour (current: ${currentHourUTC} UTC, target: ${targetHour} UTC). Skipping.`);
+      process.exit(0);
+    }
+  } else {
+    console.log('ANALYST_FORCE_NOW set — bypassing schedule gate.');
   }
 
   // 3. Load news data
