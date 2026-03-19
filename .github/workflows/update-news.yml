@@ -4,8 +4,8 @@ on:
   # Run every hour (public feed)
   schedule:
     - cron: '0 * * * *'
-    # Daily analyst digest at 15:00 UTC (matches sources.json dailyHourUTC)
-    - cron: '15 15 * * *'
+    # Daily analyst digest at 11:15 UTC (matches sources.json dailyHourUTC)
+    - cron: '15 11 * * *'
 
   # Run on push to main when relevant files change
   push:
