@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-03-19T19:07:56.207Z",
+  "lastUpdated": "2026-03-19T19:33:44.713Z",
   "articles": [
+    {
+      "id": "t1ocyb",
+      "type": "news",
+      "headline": "US official warns small airports could soon close over TSA absences",
+      "blurb": "US Transportation Secretary Sean Duffy warned on March 19, 2026, that small airport terminals could soon be forced to… The post US official warns small airports could soon close over TSA absences appeared first on AeroTime.",
+      "takeaway": "TSA staffing shortages threaten small airport viability, requiring immediate federal intervention to prevent terminal closures.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/us-warns-small-airports-could-close-over-tsa-absences"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-03-19T19:08:36.000Z"
+    },
     {
       "id": "n3xiho",
       "type": "news",
       "headline": "DPE Class Action Targets FAA Termination Policies",
       "blurb": "Lawsuit alleges loss of appeal rights and procedural protections.",
-      "takeaway": "The FAA faces legal scrutiny over Designated Pilot Examiner termination procedures, potentially reshaping how the agency enforces regulatory compliance and examiner accountability across the certification system.",
+      "takeaway": "DPE lawsuit challenges FAA termination procedures, potentially reshaping designated examiner oversight and appeal protections across the certification system.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/aviation-law/dpe-class-action-targets-faa-termination/"
@@ -22,7 +38,7 @@
       "type": "news",
       "headline": "United Airlines To Debut 1st Premium-Heavy Boeing 787-9 From San Francisco Next Month",
       "blurb": "United Airlines unveils its most premium international aircraft, featuring a nose-to-tail layout of 99 premium seats.",
-      "takeaway": "United's 787-9 deployment with 99 premium seats from San Francisco signals a strategic shift toward premium-heavy international route profitability and market positioning against competitors on long-haul routes.",
+      "takeaway": "United's new 787-9 with 99 premium seats signals a strategic pivot toward higher-margin international operations, reshaping long-haul profitability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-debut-1st-premium-heavy-boeing-787-9-san-francisco-next-month/"
@@ -39,7 +55,7 @@
       "type": "news",
       "headline": "Register now: The energy imperative driving the push toward orbital data centers",
       "blurb": "Join us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation The post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews.",
-      "takeaway": "Orbital data centers represent an emerging aerospace infrastructure opportunity that could reshape how the space industry manages computational demands while addressing terrestrial energy constraints.",
+      "takeaway": "Orbital data centers represent a new aerospace market opportunity driven by Earth's energy constraints, creating potential demand for specialized launch and station services.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/the-energy-imperative-orbital-data-centers-virtual-event/"
@@ -56,7 +72,7 @@
       "type": "news",
       "headline": "USAF Expects KC-135 Center Console Refresh Solicitation In May",
       "blurb": "The Air Force Life Cycle Management Center’s (AFLCMC) KC-135 Center Console Refresh (CCR) program office at Tinker AFB, Okla., said that it expects to issue a solicitation in May after […] The post USAF Expects KC-135 Center Console Refresh Solicitation In May appeared first on Aviation Tech Today.",
-      "takeaway": "The USAF's planned May solicitation for KC-135 center console modernization represents a significant opportunity for avionics and cockpit systems suppliers to compete for upgrades on one of the military's most critical aging tanker platforms.",
+      "takeaway": "USAF KC-135 center console modernization solicitation launching May, creating significant avionics upgrade opportunities for defense contractors.",
       "source": {
         "name": "Aviation Today",
         "url": "https://www.aviationtoday.com/2026/03/19/usaf-expects-kc-135-center-console-refresh-solicitation-in-may/"
@@ -68,11 +84,31 @@
       "publishedAt": "2026-03-19T18:24:35.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Operators must formally document SMS compliance to the FAA, demonstrating systematic safety management implementation across all operations.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-03-19T19:33:04.520Z",
+      "paiContent": true
+    },
+    {
       "id": "jrf3s9",
       "type": "news",
       "headline": "Firefly Aerospace’s Blue Ghost Mission 1 wins 2025 Collier Trophy",
       "blurb": "Firefly Aerospace’s Blue Ghost Mission 1 team has been selected to receive the 2025 Robert J. Collier Trophy,… The post Firefly Aerospace’s Blue Ghost Mission 1 wins 2025 Collier Trophy appeared first on AeroTime.",
-      "takeaway": "Firefly Aerospace's Blue Ghost lunar lander mission winning the Collier Trophy demonstrates the commercial space industry's advancement in autonomous lunar payload delivery, establishing a new benchmark for aerospace innovation and private sector capability.",
+      "takeaway": "Firefly Aerospace's Blue Ghost lunar lander achievement demonstrates commercial space transportation's growing capability and industry recognition.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/firefly-blue-ghost-mission-1-wins-2025-collier-trophy"
@@ -84,31 +120,11 @@
       "publishedAt": "2026-03-19T18:23:31.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Building an effective Safety Management System requires cultivating organizational trust and psychological safety to encourage frontline personnel to voluntarily report hazards and near-misses without fear of punitive consequences.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-19T19:07:08.619Z",
-      "paiContent": true
-    },
-    {
       "id": "5vx8ss",
       "type": "news",
       "headline": "Kratos wins $446 million Space Force contract for missile-tracking ground systems",
       "blurb": "The agreement is for ground management and integration for the Resilient Missile Warning and Tracking satellite program The post Kratos wins $446 million Space Force contract for missile-tracking ground systems appeared first on SpaceNews.",
-      "takeaway": "Kratos's $446 million Space Force contract for missile-tracking ground systems demonstrates growing defense aerospace demand for integrated satellite command infrastructure, presenting opportunities for aviation suppliers supporting military space operations.",
+      "takeaway": "Kratos's $446M Space Force contract demonstrates growing demand for advanced ground infrastructure supporting next-generation missile warning systems.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/kratos-wins-446-million-space-force-contract-for-missile-tracking-ground-systems/"
@@ -124,7 +140,7 @@
       "type": "news",
       "headline": "F-35 makes emergency landing after taking damage during combat mission over Iran",
       "blurb": "A US Air Force F-35 made an emergency landing at a US base in the Middle East after… The post F-35 makes emergency landing after taking damage during combat mission over Iran appeared first on AeroTime.",
-      "takeaway": "The F-35's emergency landing capability demonstrates the aircraft's survivability systems and structural integrity under combat conditions, reinforcing confidence in its operational resilience for allied air forces.",
+      "takeaway": "F-35 combat damage resilience demonstrates advanced aircraft survivability engineering critical for military aviation operations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-f35-emergency-landing-damage-combat-mission-iran"
@@ -138,34 +154,33 @@
       "type": "news",
       "headline": "Picture of the Day: March 19, 2026",
       "blurb": "Protecting forests from above.",
-      "takeaway": "Aerial forest monitoring represents a growing commercial opportunity for aviation operators to support environmental sustainability and wildfire prevention through specialized surveillance platforms.",
+      "takeaway": "Aerial forest monitoring demonstrates expanding commercial opportunities for aviation in environmental protection and sustainability services.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-march-19-2026/"
       },
-      "category": "commercial",
+      "category": "general-aviation",
       "keywords": [],
       "publishedAt": "2026-03-19T17:33:46.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-risk-controls",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "The FAA's 2024 SMS rule represents the aviation industry's fundamental shift from investigating accidents after they occur to systematically identifying and mitigating risks before they materialize.",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Safety Risk Management requires organizations to systematically select controls and formally accept residual risk rather than pursue elimination alone.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "sms",
+        "risk",
         "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "srm"
       ],
-      "publishedAt": "2026-03-19T19:07:08.619Z",
+      "publishedAt": "2026-03-19T19:33:04.520Z",
       "paiContent": true
     },
     {
@@ -173,7 +188,7 @@
       "type": "news",
       "headline": "Antonov An-225 Mriya: 5 Facts About The Largest Aircraft Ever Built",
       "blurb": "Discover what made Antonov's 'Dream' so amazing.",
-      "takeaway": "The An-225's destruction represents a critical loss of irreplaceable heavy-lift cargo capacity in global aviation, with no immediate successor capable of matching its 250-ton payload capability for oversized freight operations.",
+      "takeaway": "The An-225's exceptional payload capacity and cargo dimensions established unmatched benchmarks for large-scale logistics that remain operationally relevant despite the aircraft's loss.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-facts-about-antonov-an-225-mriya-largest-aircraft-built/"
@@ -187,7 +202,7 @@
       "type": "news",
       "headline": "The Striking Differences Passengers Notice Between The Airbus A380 & Boeing 747",
       "blurb": "Find out the key differences between the passenger experience on the Boeing 747 and A380.",
-      "takeaway": "While both aircraft dominate long-haul markets, the A380's double-deck configuration and larger cabin cross-section fundamentally reshape passenger comfort and operational economics compared to the 747's single-deck design.",
+      "takeaway": "A380's upper deck design and cabin width offer superior comfort and space compared to 747, influencing airline revenue optimization and fleet selection strategy.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-differences-passengers-notice-between-airbus-a380/"
@@ -204,7 +219,7 @@
       "type": "news",
       "headline": "Portal Space Systems and Paladin Space plan debris removal service",
       "blurb": "Portal Space Systems, a company developing maneuverable spacecraft, is partnering with an Australian startup to offer a commercial orbital debris removal service. The post Portal Space Systems and Paladin Space plan debris removal service appeared first on SpaceNews.",
-      "takeaway": "Commercial orbital debris removal services represent an emerging aerospace market opportunity that addresses critical space sustainability challenges while creating new revenue streams for spacecraft technology providers.",
+      "takeaway": "Commercial orbital debris removal services are emerging as a critical infrastructure business, with implications for launch cadence sustainability and satellite constellation viability.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/portal-space-systems-and-paladin-space-plan-debris-removal-service/"
@@ -216,11 +231,27 @@
       "publishedAt": "2026-03-19T17:00:00.000Z"
     },
     {
+      "id": "jhddg4",
+      "type": "news",
+      "headline": "Press Release: British Airways’ first Starlink flight, a fitted 787, takes off",
+      "blurb": "British Airways’ first aircraft equipped with Starlink Wi-Fi took to the skies today, the first flight operated by a UK airline featuring the innovative technology. The 787-8 aircraft bound for Houston is the first in the airline’s fleet to be connected, giving customers free access to fast, reli...",
+      "takeaway": "British Airways' Starlink-equipped 787 deployment signals a competitive shift toward free satellite connectivity as a standard passenger amenity for long-haul operations.",
+      "source": {
+        "name": "Runway Girl Network",
+        "url": "https://runwaygirlnetwork.com/2026/03/press-release-british-airways-first-starlink-flight-a-fitted-787-takes-off/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-19T16:44:49.000Z"
+    },
+    {
       "id": "yt-faa-aviation-safety-oshkosh",
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
       "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "The FAA's proactive safety presence at EAA AirVenture demonstrates the agency's commitment to educating general aviation operators on compliance and risk management at the industry's largest gathering.",
+      "takeaway": "The FAA's safety presence at AirVenture demonstrates proactive engagement with general aviation community education and event risk management.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
         "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
@@ -234,32 +265,16 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-19T19:07:08.619Z",
+      "publishedAt": "2026-03-19T19:33:04.520Z",
       "videoContent": true,
       "duration": "16:49"
-    },
-    {
-      "id": "jhddg4",
-      "type": "news",
-      "headline": "Press Release: British Airways’ first Starlink flight, a fitted 787, takes off",
-      "blurb": "British Airways’ first aircraft equipped with Starlink Wi-Fi took to the skies today, the first flight operated by a UK airline featuring the innovative technology. The 787-8 aircraft bound for Houston is the first in the airline’s fleet to be connected, giving customers free access to fast, reli...",
-      "takeaway": "British Airways' deployment of Starlink-equipped aircraft represents a competitive differentiator in transatlantic service, with free high-speed connectivity becoming an operational and revenue-protection asset for premium carriers.",
-      "source": {
-        "name": "Runway Girl Network",
-        "url": "https://runwaygirlnetwork.com/2026/03/press-release-british-airways-first-starlink-flight-a-fitted-787-takes-off/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-19T16:44:49.000Z"
     },
     {
       "id": "d3kkfh",
       "type": "news",
       "headline": "F-35 Makes Emergency Landing Following Combat Over Iran",
       "blurb": "Pilot reported in stable condition following incident under investigation.",
-      "takeaway": "Military aviation incidents involving advanced fighter platforms underscore the critical importance of robust emergency procedures and pilot training protocols, even among the most sophisticated aircraft in operational service.",
+      "takeaway": "Military aviation incidents involving advanced fighters require rapid investigation protocols to identify systemic issues and prevent recurrence in operational environments.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/f-35-emergency-landing-after-combat-iran/"
@@ -276,7 +291,7 @@
       "type": "news",
       "headline": "U.S. F-35 Makes Emergency Landing After Allegedly Being Hit by Iranian Fire",
       "blurb": "CENTCOM says a U.S. F-35 made an emergency landing at a U.S. air base in the Middle East after it “was struck by what is believed to be Iranian fire,” according to sources quoted by CNN. A U.S. F-35 Lightning II fighter jet was forced to make an emergency landing at a U.S. air base […]",
-      "takeaway": "Combat aircraft vulnerability to hostile fire necessitates enhanced defensive systems and operational protocols for military aviation assets deployed in contested airspace.",
+      "takeaway": "F-35 combat resilience demonstrated through successful emergency landing after hostile fire impact, validating aircraft design durability under operational stress.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/19/us-f-35-emergency-landing-hit-by-iranian-fire/"
@@ -286,27 +301,11 @@
       "publishedAt": "2026-03-19T16:09:57.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization through advanced technologies offers airlines and airports a pragmatic pathway to accommodate growing demand while simultaneously reducing environmental impact and congestion.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-19T19:07:08.619Z"
-    },
-    {
       "id": "g7wjy4",
       "type": "news",
       "headline": "First British Airways aircraft with Elon Musk’s Starlink Wi-Fi enters service",
       "blurb": "The first British Airways aircraft fitted with Elon Musk’s Starlink Wi-Fi has entered service after announcing the plan… The post First British Airways aircraft with Elon Musk’s Starlink Wi-Fi enters service appeared first on AeroTime.",
-      "takeaway": "British Airways' adoption of Starlink Wi-Fi represents a significant shift in in-flight connectivity strategy, positioning satellite-based internet as a competitive differentiator in premium cabin service delivery.",
+      "takeaway": "BA's Starlink Wi-Fi deployment marks a competitive shift in inflight connectivity, potentially disrupting traditional aviation internet providers.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/first-british-airways-aircraft-with-elon-musks-starlink-wi-fi-enters-service"
@@ -320,7 +319,7 @@
       "type": "news",
       "headline": "Press Release: Egyptair’s new A350-900 to feature Panasonic IFE",
       "blurb": "Panasonic Avionics Corporation (Panasonic Avionics), the world’s leading supplier of in-flight engagement and connectivity (IFEC) solutions, today announced that EgyptAir’s new A350-900 has entered service featuring award winning in-flight engagement and connectivity (IFEC) systems and a suite of...",
-      "takeaway": "EgyptAir's deployment of Panasonic's advanced IFEC systems on its new A350-900 strengthens the carrier's competitive positioning in long-haul markets while validating Panasonic's continued dominance in premium in-flight entertainment solutions.",
+      "takeaway": "EgyptAir's new A350-900 deployment with Panasonic's advanced IFEC systems strengthens competitive positioning in long-haul markets through enhanced passenger engagement.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/egyptair-a350-900-panasonic-avionics/"
@@ -330,11 +329,27 @@
       "publishedAt": "2026-03-19T16:00:21.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Integrating advanced technologies across airline, airport, and flight operations is critical for achieving sustainable aviation while managing projected traffic growth.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-19T19:33:04.520Z"
+    },
+    {
       "id": "bbd9rm",
       "type": "news",
       "headline": "Eileen Collins on what it takes to become Space Shuttle Commander",
       "blurb": "In this episode of the Space Minds podcast, host David Ariosto speaks with Eileen Collins, retired NASA astronaut, Air Force colonel and the first woman to pilot the Space Shuttle […] The post Eileen Collins on what it takes to become Space Shuttle Commander appeared first on SpaceNews.",
-      "takeaway": "Eileen Collins's career trajectory as the first female Space Shuttle pilot demonstrates the critical importance of military test pilot experience, technical mastery, and leadership resilience for commanding complex aerospace systems.",
+      "takeaway": "Space Shuttle commanders require extensive military and astronaut training, with Collins's pioneering path demonstrating the rigorous selection and development standards NASA maintained.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/eileen-collins-on-what-it-takes-to-become-space-shuttle-commander/"
@@ -352,7 +367,7 @@
       "type": "news",
       "headline": "Press Release: Tickets on sale for United’s 787-9 with Elevated interior",
       "blurb": "Starting today, travelers can book seats on United’s most premium international aircraft yet — the 787-9 Dreamliner with the United Elevated interior. Unveiled last May, this new aircraft has been redesigned from nose-to-tail with 99 total premium seats — the highest of percentage among U.S. carr...",
-      "takeaway": "United's enhanced 787-9 Dreamliner with elevated premium seating configuration represents a competitive differentiation strategy in long-haul international markets, targeting high-yield passengers with superior cabin experience.",
+      "takeaway": "United's 787-9 Elevated interior maximizes premium seating capacity at 99 seats, setting a new U.S. carrier benchmark for high-yield international service.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/press-release-tickets-on-sale-for-uniteds-787-9-with-elevated-interior/"
@@ -368,7 +383,7 @@
       "type": "news",
       "headline": "Achieving New Heights: Luke Bell and the Antigravity Series Propulsion",
       "blurb": "Luke Maximobell is a pioneering DIY drone engineer known for his remarkable achievements in drone",
-      "takeaway": "DIY drone engineering innovations like Luke Bell's Antigravity Series propulsion demonstrate how independent developers are advancing unmanned aircraft technology outside traditional aerospace channels.",
+      "takeaway": "DIY drone innovators like Luke Bell are pushing propulsion boundaries, signaling emerging competition for commercial drone manufacturers in specialized applications.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/achieving-new-heights-luke-bell-and-the-antigravity-series-propulsion/"
@@ -384,7 +399,7 @@
       "type": "news",
       "headline": "American Bald Eagle at NASA’s Kennedy Space Center",
       "blurb": "An American bald eagle flies away from its nest and tree at NASA’s Kennedy Space Center in Florida on Friday, March 13, 2026. Bald eagle nesting surveys across NASA Kennedy, Merritt Island National Wildlife Refuge, and Canaveral National Seashore are conducted annually to document the number of b...",
-      "takeaway": "NASA's Kennedy Space Center serves as critical habitat for protected species like bald eagles, demonstrating how aerospace facilities must balance launch operations with environmental stewardship and wildlife conservation.",
+      "takeaway": "NASA's Kennedy Space Center supports critical bald eagle conservation efforts alongside space operations, demonstrating aerospace facilities' environmental stewardship responsibilities.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/american-bald-eagle-at-nasas-kennedy-space-center/"
@@ -401,7 +416,7 @@
       "type": "news",
       "headline": "How NASA is Collecting Explosion Data for Next Generation Rockets",
       "blurb": "Commercial launch providers continue to advance propulsion technology with a renewed focus on liquid oxygen and methane propelled rockets and spacecraft. As systems grow in scale, carrying millions of pounds of propellant, so too does the responsibility to fully understand the safety profile. Eng...",
-      "takeaway": "NASA's systematic collection of explosion data for advanced propulsion systems is critical for establishing safety protocols as commercial launch providers scale up liquid oxygen and methane rocket technologies.",
+      "takeaway": "NASA's explosion data collection on advanced propellant systems is critical for validating safety profiles as commercial rockets scale to multi-million-pound propellant capacities.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/centers-and-facilities/stennis/collecting-explosion-data-for-next-generation-rockets/"
@@ -420,7 +435,7 @@
       "type": "news",
       "headline": "Ondas’ Sentrycs Supports Airspace Protection at World Economic Forum 2026 in Davos",
       "blurb": "Ondas Inc. (Nasdaq: ONDS) (“Ondas” or the “Company”), a leading provider of autonomous aerial and ground",
-      "takeaway": "Ondas' Sentrycs airspace protection technology demonstrates growing commercial demand for counter-UAS solutions in high-security events, signaling potential regulatory frameworks and market opportunities for airspace management systems.",
+      "takeaway": "Autonomous airspace management systems are becoming critical infrastructure for protecting sensitive venues, offering aviation operators new compliance requirements.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/ondas-sentrycs-supports-airspace-protection-at-world-economic-forum-2026-in-davos/"
@@ -436,7 +451,7 @@
       "type": "news",
       "headline": "Diamond Updates DA62 MPP, Outlines 2026 Roadmap",
       "blurb": "The company discussed connectivity testing, certification changes and new mission equipment to its special mission aircraft.",
-      "takeaway": "Diamond's DA62 MPP enhancements and 2026 roadmap demonstrate the general aviation manufacturer's commitment to modernizing special mission capabilities through connectivity integration and regulatory alignment.",
+      "takeaway": "Diamond's DA62 MPP updates and 2026 roadmap emphasize connectivity and mission equipment enhancements positioning the platform for evolving special operations demands.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/diamond-updates-da62-mpp-outlines-2026/"
@@ -450,7 +465,7 @@
       "type": "news",
       "headline": "Hiding in plain sight: the biomimetic drone patrolling our coastlines in the guise of a seagull",
       "blurb": "The ubiquitous seagull, long considered a mere coastal nuisance, has been reimagined as the future",
-      "takeaway": "Biomimetic drone technology disguised as seagulls represents an emerging surveillance and inspection capability that aviation professionals should monitor for both coastal monitoring applications and potential integration with broader airspace management systems.",
+      "takeaway": "Biomimetic drone design disguised as seagulls offers covert surveillance capabilities for coastal monitoring without public detection or resistance.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/hiding-in-plain-sight-the-biomimetic-drone-patrolling-our-coastlines-in-the-guise-of-a-seagull/"
@@ -466,7 +481,7 @@
       "type": "news",
       "headline": "Etihad Airways Announces Biggest US Expansion In History: 42% Flight Surge",
       "blurb": "The carrier plans substantially more US flights this summer. See all the developments here!",
-      "takeaway": "Etihad's 42% expansion in US capacity signals intensifying competition on transatlantic routes and demonstrates Gulf carriers' strategic commitment to North American market penetration despite economic headwinds.",
+      "takeaway": "Etihad's aggressive 42% US capacity increase signals intensifying transatlantic competition and expanding opportunities for connecting traffic through Middle Eastern hubs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/etihad-airways-announces-biggest-us-expansion-in-history-42-flight-surge/"
@@ -480,7 +495,7 @@
       "type": "news",
       "headline": "NASA Laser Reflecting Instrument Makes GPS Satellite More Accurate",
       "blurb": "A NASA laser reflecting technology that will aid Global Positioning System (GPS) accuracy is now operational as of March 9. The instrument, known as a laser retroreflector array, or LRA, launched aboard GPS III SV-09, the ninth of U.S. Space Force’s Block III Global Positioning System satellites,...",
-      "takeaway": "NASA's laser retroreflector array on GPS III SV-09 enhances satellite positioning accuracy, which directly improves navigation precision for all aviation operations relying on GPS-based systems.",
+      "takeaway": "NASA's laser retroreflector array on GPS III SV-09 enhances positioning accuracy, enabling more precise navigation for aviation operations globally.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-laser-reflecting-instrument-makes-gps-satellite-more-accurate/"
@@ -497,7 +512,7 @@
       "type": "news",
       "headline": "Airlines demand EU leaders set 21-day notice for air traffic control strikes",
       "blurb": "An airline body representing some of Europe’s largest and most influential carriers is demanding that EU leaders set… The post Airlines demand EU leaders set 21-day notice for air traffic control strikes appeared first on AeroTime.",
-      "takeaway": "European airlines are seeking regulatory intervention to require advance strike notice from air traffic controllers, highlighting the operational vulnerability of the continent's carriers to labor disruptions in critical ground infrastructure.",
+      "takeaway": "European carriers are pushing for mandatory 21-day strike notice periods for ATC to mitigate operational disruptions and planning chaos.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airlines-demand-eu-leaders-set-21-day-notice-for-air-traffic-control-strikes"
@@ -513,12 +528,12 @@
       "type": "news",
       "headline": "FCC Exempts Four Drones From Import Ban",
       "blurb": "March action follows January temporary exemptions tied to broader foreign UAS restrictions.",
-      "takeaway": "The FCC's selective drone import exemptions signal that regulatory bodies are creating case-by-case pathways for critical unmanned systems while maintaining broader foreign UAS restrictions, requiring operators to navigate evolving compliance frameworks.",
+      "takeaway": "The FCC's selective drone import exemptions signal regulatory flexibility for specific operators while maintaining broader restrictions on foreign UAS systems.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/drones/fcc-exempts-four-drones-from-import-ban/"
       },
-      "category": "regulatory",
+      "category": "drones",
       "keywords": [
         "drone",
         "uas"
@@ -530,7 +545,7 @@
       "type": "news",
       "headline": "French A400M makes first-ever landing on Arctic sea ice in Greenland",
       "blurb": "A French Air and Space Force A400M Atlas has landed on Arctic sea ice in northern Greenland, in what France’s… The post French A400M makes first-ever landing on Arctic sea ice in Greenland appeared first on AeroTime.",
-      "takeaway": "The A400M's successful Arctic sea ice landing demonstrates the tactical versatility of modern military transport aircraft in extreme environments, opening new operational capabilities for polar region logistics and rescue missions.",
+      "takeaway": "The A400M's Arctic sea ice landing demonstrates military transport aircraft capability in extreme environments, expanding operational flexibility for polar missions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/french-a400m-first-arctic-sea-ice-landing-greenland"
@@ -546,7 +561,7 @@
       "type": "news",
       "headline": "Robinson Helicopter Details New Unmanned Business Unit, Cargo UAS Project With Sikorsky",
       "blurb": "Robinson Helicopter on March 9 announced the launch of its new Robinson Unmanned business unit, and detailed a new unmanned cargo helicopter offering utilizing Sikorsky’s autonomy capability. With Robinson Unmanned, […] The post Robinson Helicopter Details New Unmanned Business Unit, Cargo UAS Pr...",
-      "takeaway": "Robinson Helicopter's new unmanned business unit and autonomous cargo helicopter partnership with Sikorsky signals the rotorcraft industry's strategic pivot toward autonomous logistics solutions to address supply chain demands.",
+      "takeaway": "Robinson's new unmanned business unit and partnership with Sikorsky for autonomous cargo helicopters signals a strategic pivot toward autonomous heavy-lift operations.",
       "source": {
         "name": "Aviation Today",
         "url": "https://www.aviationtoday.com/2026/03/19/robinson-helicopter-details-new-unmanned-business-unit-cargo-uas-project-with-sikorsky/"
@@ -562,7 +577,7 @@
       "type": "news",
       "headline": "A-10s Now Hunting Iranian Fast Attack Craft in the Strait of Hormuz",
       "blurb": "U.S. Air Force A-10s in maritime attack role are hunting small Iranian fast attack boats that could threaten shipping or naval forces in the Strait of Hormuz. The U.S. Air Force A-10 Thundebolt II jets supporting operation Epic Fury have started flying a different type of mission. As explained by...",
-      "takeaway": "The U.S. Air Force is operationally adapting legacy A-10 Warthogs for maritime interdiction missions against asymmetric threats in strategically critical waterways, demonstrating the platform's continued relevance beyond traditional close air support roles.",
+      "takeaway": "A-10 Warthogs are being repurposed for maritime patrol and anti-surface warfare in the Strait of Hormuz, expanding their tactical role beyond traditional ground attack.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/19/a-10s-now-hunting-iranian-fast-attack-craft-in-the-strait-of-hormuz/"
@@ -570,24 +585,6 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-19T14:24:05.000Z"
-    },
-    {
-      "id": "t9xgbj",
-      "type": "news",
-      "headline": "NASA to Cover Progress 94 Spacecraft Launch, Space Station Docking",
-      "blurb": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Roscosmos Progress 94 resupply spacecraft is scheduled to launch at 7:59 a.m. EDT (4:5...",
-      "takeaway": "NASA's continued reliance on Roscosmos cargo missions underscores the strategic importance of international space partnerships for maintaining ISS operations and highlights supply chain vulnerabilities that aviation and aerospace logistics must address.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-94-spacecraft-launch-space-station-docking/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "pilot",
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-19T14:15:03.000Z"
     }
   ]
 }
