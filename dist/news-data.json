@@ -1,12 +1,46 @@
 {
-  "lastUpdated": "2026-03-20T14:51:23.537Z",
+  "lastUpdated": "2026-03-20T15:51:38.370Z",
   "articles": [
+    {
+      "id": "4u3p4b",
+      "type": "news",
+      "headline": "United begins Boeing 737-800 succession in Guam with arrival of first of 10 MAXs",
+      "blurb": "United Airlines has begun the process of replacing the fleet of Boeing 737-800 aircraft at its Guam base with the unveiling of… The post United begins Boeing 737-800 succession in Guam with arrival of first of 10 MAXs appeared first on AeroTime.",
+      "takeaway": "United's deployment of 10 737 MAXs to Guam signals confidence in MAX reliability while modernizing regional Pacific operations with improved fuel efficiency.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/united-airlines-boeing-737-800-guam-max-aircraft"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "uam",
+        "airline"
+      ],
+      "publishedAt": "2026-03-20T15:17:29.000Z"
+    },
+    {
+      "id": "dlupgb",
+      "type": "news",
+      "headline": "Italian Eurofighters Intercept Russian Su-30 That Violated Estonian Airspace Over the Baltic Sea",
+      "blurb": "The Italian Air Force jets, deployed to Estonia to support NATO Baltic Air Policing mission, intercepted and escorted the Russian Navy Su-30SM. On Mar. 18, 2026, a Russian Navy Su-30SM multirole fighter entered Estonian airspace, which extends 12 NM (Nautical Miles) offshore from Estonia’s sovere...",
+      "takeaway": "NATO Baltic air policing operations demonstrate the critical role of forward-deployed fighter squadrons in deterring and responding to Russian airspace violations.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/20/russian-su-30-violates-estonian-airspace/"
+      },
+      "category": "military",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-20T15:16:06.000Z"
+    },
     {
       "id": "fkwauk",
       "type": "news",
       "headline": "GAA Names 2026 National Honorees",
       "blurb": "Three recognized for contributions to instruction, maintenance and safety.",
-      "takeaway": "GAA honors three professionals whose excellence in instruction, maintenance, and safety sets the standard for general aviation's operational foundation.",
+      "takeaway": "General aviation recognizes excellence across instruction, maintenance, and safety—key pillars for sustaining a healthy pilot and technician workforce.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/gaa-names-2026-national-honorees/"
@@ -19,11 +53,31 @@
       "publishedAt": "2026-03-20T14:42:55.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to systematically implement controls and formally document acceptance of residual risks that cannot be eliminated.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-20T15:50:54.218Z",
+      "paiContent": true
+    },
+    {
       "id": "9j4rvi",
       "type": "news",
       "headline": "UK Aviation Explodes: 31 Flight Routes Hit 1 Million Passengers In 2025",
       "blurb": "The UK's three largest airports had 31 routes with 1 million+ passengers. But 2026 will bring a fourth airport to the list.",
-      "takeaway": "UK's fourth major airport reaching 1M+ passenger routes in 2026 signals concentrated growth consolidation among hub airports, challenging regional connectivity.",
+      "takeaway": "UK's major airport hubs are consolidating passenger volume on high-capacity routes, signaling market maturation and opportunities for network optimization.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/uk-aviation-explodes-31-routes-1-million-passengers/"
@@ -39,7 +93,7 @@
       "type": "news",
       "headline": "How Russia Defied Sanctions To Maintain Its Long-Haul Commercial Fleet",
       "blurb": "In the wake of 2022 sanctions, Russia defied predictions of a grounded fleet by building a parallel, self-sustaining ecosystem to stay flying.",
-      "takeaway": "Russia's adaptive supply chain strategy demonstrates how geopolitical sanctions can paradoxically strengthen domestic aviation capability through forced vertical integration.",
+      "takeaway": "Russia's aircraft maintenance ecosystem demonstrates how geopolitical isolation can drive innovation in supply chain resilience, a lesson for global aviation operators facing future disruptions.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-russia-defied-sanctions-maintain-long-haul-fleet/"
@@ -53,7 +107,7 @@
       "type": "news",
       "headline": "NASA Simulations Improve Artemis II Launch Environment",
       "blurb": "Airflow around rockets as they travel from Earth into space can have a dramatic impact on a mission, which is why NASA used advanced simulations to provide the best possible launch conditions for the Artemis II test flight around the Moon. To better understand the Artemis Space Launch System (SLS...",
-      "takeaway": "Advanced computational fluid dynamics simulations optimize launch environments, reducing mission risk and improving trajectory precision for heavy-lift vehicles.",
+      "takeaway": "Advanced airflow simulations optimize launch conditions for Artemis II, demonstrating how aerospace engineering precision ensures mission success.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/aeronautics/artemis-sls-launch-sim/"
@@ -70,7 +124,7 @@
       "type": "news",
       "headline": "French Rafale fighters down around 60 Iranian drones over UAE: report",
       "blurb": "French Rafale fighter jets are said to have shot down around 60 Iranian drones over the United Arab Emirates. France… The post French Rafale fighters down around 60 Iranian drones over UAE: report appeared first on AeroTime.",
-      "takeaway": "Rafale fighter effectiveness against drone swarms demonstrates critical air defense capabilities for modern military aviation operations.",
+      "takeaway": "Rafale fighter jets demonstrated air defense capabilities against mass drone attacks, validating modern fighter effectiveness against unmanned threats.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/french-rafales-down-60-iranian-drones-over-uae"
@@ -82,23 +136,23 @@
       "publishedAt": "2026-03-20T13:56:02.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-safety-culture",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically select controls and formally document acceptance of residual risks to meet regulatory compliance standards.",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Strong safety culture enables effective safety management systems by fostering non-punitive reporting environments that identify hazards before incidents occur.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
-        "faa",
-        "srm"
+        "safety culture",
+        "reporting",
+        "just culture"
       ],
-      "publishedAt": "2026-03-20T14:50:37.521Z",
+      "publishedAt": "2026-03-20T15:50:54.218Z",
       "paiContent": true
     },
     {
@@ -106,7 +160,7 @@
       "type": "news",
       "headline": "AOPA Board Elects New Chairman",
       "blurb": "Leadership transition announced ahead of annual meeting.",
-      "takeaway": "AOPA's leadership transition signals continued advocacy priorities for general aviation community engagement and regulatory representation.",
+      "takeaway": "AOPA's leadership transition signals potential shifts in general aviation advocacy priorities and member representation strategy.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/aopa-board-elects-new-chairman/"
@@ -120,7 +174,7 @@
       "type": "news",
       "headline": "‘Brief’ But Brutal: 3 Delta Crew Hospitalized After Sydney Mid-Air Event",
       "blurb": "The flight hit a patch of turbulence while descending towards its Australian destination.",
-      "takeaway": "Severe turbulence encounters remain an unpredictable safety hazard requiring enhanced crew training and passenger restraint protocols.",
+      "takeaway": "Severe turbulence during descent into Sydney hospitalized three Delta crew members, highlighting risks of unexpected weather encounters in final approach phases.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-sydney-flight-turbulence-crew-hospitalized/"
@@ -136,7 +190,7 @@
       "type": "news",
       "headline": "The Aircraft Replacing The Boeing 777 Freighter",
       "blurb": "The Boeing 777-8F is set to enter service in 2028.",
-      "takeaway": "Boeing's 777-8F freighter will modernize long-range cargo operations with improved efficiency when it enters service in 2028.",
+      "takeaway": "Boeing's 777-8F freighter, arriving in 2028, will modernize cargo operations with advanced aerodynamics and increased payload capacity.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/aircraft-replacing-the-boeing-777-freighter/"
@@ -148,32 +202,11 @@
       "publishedAt": "2026-03-20T13:30:17.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS transforms aviation safety from reactive incident investigation to proactive risk management, fundamentally changing how operators prevent accidents.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-20T14:50:37.521Z",
-      "paiContent": true
-    },
-    {
       "id": "edshyj",
       "type": "news",
       "headline": "NASA Glenn Opens Applications for Free Summer Engineering Institute",
       "blurb": "NASA’s Glenn Research Center in Cleveland is hosting the 2026 NASA Glenn High School Engineering Institute this July. The hands-on learning experience is designed to help high school students prepare for a future in the aerospace workforce. Rising high school juniors and seniors can submit applic...",
-      "takeaway": "NASA Glenn's free engineering institute provides critical talent pipeline development for aerospace workforce, addressing industry's ongoing shortage of skilled engineers.",
+      "takeaway": "NASA's free summer engineering institute directly pipelines talented high school students into aerospace careers, addressing critical workforce shortages.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-glenn-hosts-engineering-institute/"
@@ -186,11 +219,34 @@
       "publishedAt": "2026-03-20T13:00:00.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "FAA's on-site safety presence at AirVenture demonstrates proactive engagement with general aviation community to ensure event safety and disseminate critical compliance resources.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "safety",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-20T15:50:54.218Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "htc944",
       "type": "news",
       "headline": "Holistic space observation: the shift from SSA to SDA",
       "blurb": "Recent reporting on SpaceX’s proposal to deploy up to one million satellites in low Earth orbit — paired with a vision of AI-enabled, autonomous orbital infrastructure — marks a decisive moment for the space community. Regardless of whether these numbers ultimately materialize, the direction is u...",
-      "takeaway": "The shift from Space Situational Awareness to Space Domain Awareness reflects a fundamental change in how the aerospace industry monitors orbital congestion and collision risks.",
+      "takeaway": "Space situational awareness is evolving into space domain awareness with AI-enabled autonomous systems, fundamentally changing orbital infrastructure management and aviation airspace coordination.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/holistic-space-observation-the-shift-from-ssa-to-sda/"
@@ -207,7 +263,7 @@
       "type": "news",
       "headline": "Loganair and BETA begin series of demonstration mail delivery electric flights",
       "blurb": "Loganair and BETA Technologies have begun a series of demonstration flights to showcase the capabilities of the ALIA… The post Loganair and BETA begin series of demonstration mail delivery electric flights appeared first on AeroTime.",
-      "takeaway": "Electric aircraft are moving beyond concept to operational viability as Loganair and BETA Technologies demonstrate practical mail delivery routes.",
+      "takeaway": "Electric aviation is moving from concept to operational application, with practical mail delivery demonstrations validating eVTOL viability for regional transport.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/loganair-beta-technologies-demonstration-mail-delivery-electric-flights"
@@ -219,34 +275,11 @@
       "publishedAt": "2026-03-20T12:52:03.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "The FAA's direct engagement at AirVenture demonstrates proactive safety culture-building with general aviation operators through accessible education and community presence.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-20T14:50:37.521Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "5npj7s",
       "type": "news",
       "headline": "The US Air Force Won't Buy Any More KC-46s Until Issues Are Fixed",
       "blurb": "On March 4th, the US Air Force’s new Vice Chief of Staff told lawmakers that his branch won’t finalize a new deal with Boeing for another 75 KC-46 tankers until some of the “deficiencies” with the refueler are resolved. As you may or may not already know, the 767-based tanker transport has experi...",
-      "takeaway": "Air Force's KC-46 procurement halt signals Boeing must resolve tanker deficiencies before securing additional $30B+ contract extension.",
+      "takeaway": "Boeing's KC-46 tanker program faces a critical halt on new orders until quality issues are resolved, signaling stricter Air Force procurement standards.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/the-us-air-force-won-t-buy-any-more-kc-46s-until-issues-are-fixed/"
@@ -262,7 +295,7 @@
       "type": "news",
       "headline": "ESA to fly dedicated Crew Dragon mission to ISS",
       "blurb": "The European Space Agency plans to charter a SpaceX Crew Dragon mission to the International Space Station to give more flight opportunities for its astronauts. The post ESA to fly dedicated Crew Dragon mission to ISS appeared first on SpaceNews.",
-      "takeaway": "ESA's dedicated Crew Dragon charter expands astronaut access to ISS, signaling commercial spaceflight's role in international space operations.",
+      "takeaway": "ESA's charter of dedicated Crew Dragon flights ensures reliable ISS access for European astronauts independent of traditional partnership arrangements.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/esa-to-fly-dedicated-crew-dragon-mission-to-iss/"
@@ -275,11 +308,27 @@
       "publishedAt": "2026-03-20T12:18:38.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Optimizing airline, airport, and flight operations through advanced technologies is critical to managing growth while reducing aviation's environmental impact.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-20T15:50:54.218Z"
+    },
+    {
       "id": "ygww7k",
       "type": "news",
       "headline": "How Iran Secretly Built a Boeing Fleet Under Sanctions",
       "blurb": "For decades, Iran has operated one of the most unusual airline fleets in the world. Despite sweeping international sanctions designed to isolate the country from the global aerospace industry, Iranian airlines still fly dozens of Boeing and Airbus aircraft. Many of those jets were never supposed ...",
-      "takeaway": "Iran's covert aircraft acquisition network reveals critical vulnerabilities in sanctions enforcement and supply chain controls for commercial aviation assets.",
+      "takeaway": "Iran's sanctions-evasion aircraft procurement through shell companies and secondary markets demonstrates critical vulnerabilities in aviation supply chain compliance monitoring.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/how-iran-secretly-built-a-boeing-fleet-under-sanctions/"
@@ -294,27 +343,11 @@
       "publishedAt": "2026-03-20T11:00:17.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization through advanced technologies is critical to managing surging air traffic while meeting environmental sustainability demands across aviation systems.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-20T14:50:37.521Z"
-    },
-    {
       "id": "n34re5",
       "type": "news",
       "headline": "Here's Why This Airline Has One Of The World's Most Luxurious First Class Suites In 2026",
       "blurb": "SWISS Air Lines' new A350 first class offers unparalleled privacy, comfort, and luxury.",
-      "takeaway": "SWISS's A350 first-class suites represent a competitive luxury differentiation strategy that justifies premium pricing in long-haul markets.",
+      "takeaway": "SWISS's A350 first-class suites represent a premium differentiation strategy that justifies higher fares through enclosed privacy and bespoke amenities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-airline-one-worlds-most-luxurious-first-class-suites-2026/"
@@ -330,7 +363,7 @@
       "type": "news",
       "headline": "Kayhan targets investors, insurers with expanded orbital intelligence platform",
       "blurb": "Kayhan Space is branching out from providing orbital intelligence used to coordinate satellite fleets with a new software platform that turns that data into business insights for investors and insurers. The post Kayhan targets investors, insurers with expanded orbital intelligence platform appear...",
-      "takeaway": "Kayhan Space's expanded orbital intelligence platform monetizes satellite data for financial sector clients, creating new revenue streams in the growing space-derived analytics market.",
+      "takeaway": "Kayhan's orbital intelligence platform expansion into investor and insurer markets creates new revenue streams by monetizing satellite data analytics beyond fleet coordination.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/kayhan-targets-investors-insurers-with-expanded-orbital-intelligence-platform/"
@@ -346,7 +379,7 @@
       "type": "news",
       "headline": "NTSB orders probe into close call between Alaska and FedEx jets at Newark",
       "blurb": "The National Transport Safety Board (NTSB) has ordered an investigation into a ‘close call’ between Alaska Airlines and… The post NTSB orders probe into close call between Alaska and FedEx jets at Newark appeared first on AeroTime.",
-      "takeaway": "Near-miss incidents at major hubs like Newark demand urgent investigation to prevent catastrophic collisions amid increasing air traffic density.",
+      "takeaway": "Newark airspace near-miss between Alaska and FedEx highlights urgent need for enhanced ATC procedures at congested hubs.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/ntsb-probe-close-call-alaska-airlines-fedex-jets-newark-airport"
@@ -366,12 +399,12 @@
       "type": "news",
       "headline": "“The Country Is At Stake”: TSA Absences Are So Bad That Some Airports Could Just Shut Down",
       "blurb": "Even at larger hubs, absences are are high as 38%.",
-      "takeaway": "Critical TSA staffing shortages threaten airport operations, with absence rates up to 38% potentially forcing major hub closures and disrupting air traffic nationwide.",
+      "takeaway": "TSA staffing crises threaten airport operations nationwide, with absence rates reaching 38% at major hubs risking significant capacity disruptions.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/tsa-absences-bad-airports-shut-down/"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "airport"
       ],
@@ -382,7 +415,7 @@
       "type": "news",
       "headline": "US Army tests AH-64 Apache helicopter in counter-drone role in Germany",
       "blurb": "The US Army’s 12th Combat Aviation Brigade (12th CAB) has used the AH-64E Apache in a counter-drone role… The post US Army tests AH-64 Apache helicopter in counter-drone role in Germany appeared first on AeroTime.",
-      "takeaway": "Apache helicopters are evolving beyond traditional combat roles, demonstrating adaptive capability against emerging unmanned threats in modern warfare scenarios.",
+      "takeaway": "Army's AH-64E Apache adaptation for counter-drone operations signals growing military aviation focus on unmanned threat interdiction.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-army-tests-ah64-apache-counter-drone-role-germany"
@@ -398,7 +431,7 @@
       "type": "news",
       "headline": "Why Doesn't The World's Fastest Commercial Aircraft Have Winglets?",
       "blurb": "The Boeing 747-8's innovative raked wingtips offer a sleek, integrated solution to reduce induced drag.",
-      "takeaway": "The 747-8's raked wingtips provide superior drag reduction compared to conventional winglets, demonstrating how integrated wing design optimizes efficiency in large commercial aircraft.",
+      "takeaway": "The 747-8's raked wingtips achieve drag reduction through integrated design rather than traditional winglets, optimizing aerodynamic efficiency.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-worlds-fast-commerical-aircraft-no-winglets/"
@@ -414,7 +447,7 @@
       "type": "news",
       "headline": "United Airlines To Cease All Boeing 737-800 Flights From Tokyo Narita Earlier Than Planned",
       "blurb": "United Airlines has accelerated its Boeing 737 MAX 8 expansion from Tokyo Narita Airport.",
-      "takeaway": "United's accelerated 737 MAX 8 deployment at Tokyo Narita signals confidence in the aircraft's recovery and reflects strategic fleet modernization in competitive Asian markets.",
+      "takeaway": "United's accelerated 737 MAX 8 deployment at Tokyo Narita reflects renewed confidence in the aircraft and signals operational optimization on key international routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-cease-boeing-737-800-flights-tokyo-narita-earlier-planned/"
@@ -432,7 +465,7 @@
       "type": "news",
       "headline": "PHM Technology and SYPAQ Systems Pty Ltd Partner to Bring MADE Digital RAMS Backbone Capability to the ADF",
       "blurb": "Melbourne, Australia — PHM Technology (PHMT) and SYPAQ Systems Pty Ltd today announced a strategic",
-      "takeaway": "PHMT and SYPAQ's partnership brings integrated digital RAMS (Reliability, Availability, Maintainability, Safety) capabilities to Australian Defence Force operations, enhancing military aircraft sustainment efficiency.",
+      "takeaway": "Strategic partnership integrates predictive maintenance and digital RAMS capabilities into Australian Defence Force operations, enhancing aircraft reliability and readiness.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/phm-technology-and-sypaq-systems-pty-ltd-partner-to-bring-made-digital-rams-backbone-capability-to-the-adf/"
@@ -446,7 +479,7 @@
       "type": "news",
       "headline": "Embraer APAC head Raul Villaron on why company is betting big on Southeast Asia",
       "blurb": "Raul Villaron, Embraer’s Senior Vice President of Marketing and Sales and Head of Asia Pacific, looked entirely at… The post Embraer APAC head Raul Villaron on why company is betting big on Southeast Asia appeared first on AeroTime.",
-      "takeaway": "Embraer's strategic focus on Southeast Asia reflects growing demand for regional aircraft in high-growth markets with expanding middle-class air travel.",
+      "takeaway": "Embraer's strategic focus on Southeast Asia signals growing demand for regional aircraft in emerging markets with expanding middle-class passenger bases.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/embraer-apac-head-raul-villaron-on-why-company-is-betting-big-on-southeast-asia"
@@ -462,7 +495,7 @@
       "type": "news",
       "headline": "Restless Kīlauea Launches Lava and Ash",
       "blurb": "Episode 43 of the Hawaiian volcano’s current eruption was marked by high lava fountains and widespread ash dispersal.",
-      "takeaway": "Volcanic ash from Kīlauea's eruption poses significant hazards to aircraft operations in Hawaiian airspace, requiring enhanced flight planning and ash avoidance procedures.",
+      "takeaway": "Volcanic ash from Kīlauea's eruption poses significant hazards to aircraft operations in Hawaiian airspace, requiring real-time monitoring and flight route adjustments.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/"
@@ -476,7 +509,7 @@
       "type": "news",
       "headline": "Blue Origin joins the orbital data center race",
       "blurb": "Blue Origin is the latest company to propose an orbital data center system, filing plans for a constellation of up to 51,600 satellites. The post Blue Origin joins the orbital data center race appeared first on SpaceNews.",
-      "takeaway": "Blue Origin's orbital data center constellation proposal signals intensifying competition in space-based computing infrastructure with significant implications for satellite launch demand.",
+      "takeaway": "Blue Origin's massive satellite constellation proposal signals aerospace industry convergence toward space-based computing infrastructure as a new revenue frontier.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/blue-origin-joins-the-orbital-data-center-race/"
@@ -492,7 +525,7 @@
       "type": "news",
       "headline": "DJI’s smallest drone just hit it’s lowest price… again",
       "blurb": "DJI’s smallest drone has just gotten cheaper over on Amazon. The DJI Neo, DJI’s cheapest drone, is for a short time having a $50 coupon code available on Amazon, bringing the price down to just $150. This follows an earlier price drop last month. more…",
-      "takeaway": "DJI's aggressive pricing strategy on entry-level drones continues lowering barriers to recreational UAV adoption and market expansion.",
+      "takeaway": "DJI's aggressive pricing strategy for consumer drones continues to compress entry-level market segments, signaling intensifying competition in accessible drone technology.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/19/djis-smallest-drone-just-hit-its-lowest-price-again/"
@@ -508,7 +541,7 @@
       "type": "news",
       "headline": "DJI Mini 4K now priced like a budget accessory",
       "blurb": "The DJI Mini 4K, one of the easiest, most beginner-friendly drones you can buy right now, has just dropped to its lowest price ever. And we’re not talking about a small discount deal. These are the kind of prices that make you double-check if it’s real. more…",
-      "takeaway": "DJI's aggressive pricing on consumer drones could intensify pressure on commercial drone operators to differentiate through advanced capabilities and regulatory compliance.",
+      "takeaway": "DJI's aggressive pricing on consumer drones continues to democratize aerial imagery, expanding the market of potential commercial drone operators.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/19/dji-mini-drone-deal-price/"
@@ -524,7 +557,7 @@
       "type": "news",
       "headline": "US drone ban has a growing exemption list",
       "blurb": "The United States has exempted four foreign-made drones from its sweeping import ban. See the latest additions to a list that’s quietly getting longer… more…",
-      "takeaway": "Growing exemptions to US drone import bans create regulatory uncertainty and potential competitive advantages for select foreign manufacturers in the commercial drone market.",
+      "takeaway": "The US drone import ban's expanding exemption list reveals selective enforcement that may create competitive advantages for certain manufacturers while undermining broader supply chain restrictions.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/19/us-drone-ban-new-exemption/"
@@ -540,7 +573,7 @@
       "type": "news",
       "headline": "IMRBPB Annual Meeting 2026",
       "blurb": "IMRBPB Annual Meeting 2026 The IMRBPB aims at developing higher maintenance standards and improving safety in maintenance aspects. It allows harmonization between authorities and ensures a common approach.At the IMRBPB Annual Meeting 2026, various improvements are to be agreed, among others:- the...",
-      "takeaway": "IMRBPB's 2026 meeting will harmonize maintenance standards across authorities, strengthening safety protocols and operational consistency industry-wide.",
+      "takeaway": "IMRBPB's 2026 meeting will establish harmonized maintenance standards across aviation authorities, strengthening safety oversight through regulatory alignment.",
       "source": {
         "name": "EASA",
         "url": "https://www.easa.europa.eu/newsroom-and-events/events/imrbpb-annual-meeting-2026"
@@ -557,7 +590,7 @@
       "type": "news",
       "headline": "Russia Sends MiG-31s Armed with Kinzhal Hypersonic Missiles Over Sea of Japan",
       "blurb": "Russian Aerospace Forces publicized for the first time the MiG-31 armed with the Kh-47M2 Kinzhal aeroballistic hypersonic missile flying in the Indo-Pacific region. Russia’s Ministry of Defense (RuMoD) released footage on Mar. 17, 2026, of its MiG-31I jets carrying the Kh-47M2 Kinzhal hypersonic ...",
-      "takeaway": "Russia's deployment of Kinzhal-armed MiG-31s in the Indo-Pacific signals escalating hypersonic missile capabilities in contested airspace.",
+      "takeaway": "Russia's deployment of Kinzhal-armed MiG-31s in the Indo-Pacific signals escalating hypersonic missile capabilities in strategically contested airspace.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/19/russia-mig-31s-kinzhal-over-sea-of-japan/"
@@ -567,37 +600,6 @@
         "space"
       ],
       "publishedAt": "2026-03-19T21:02:54.000Z"
-    },
-    {
-      "id": "pmbrr",
-      "type": "news",
-      "headline": "Designing for Decades: Building Upgradeable IFC in a 30-Year Airframe",
-      "blurb": "Global Avionics Round-Up from Aircraft Value News (AVN) Commercial aircraft routinely serve for a quarter century or more. Satellite constellations and modems, by contrast, evolve on a five-year cadence. That […] The post Designing for Decades: Building Upgradeable IFC in a 30-Year Airframe appea...",
-      "takeaway": "In-flight connectivity systems must be designed for modularity to match 30-year aircraft lifespans against 5-year technology cycles.",
-      "source": {
-        "name": "Aviation Today",
-        "url": "https://www.aviationtoday.com/2026/03/19/designing-for-decades-building-upgradeable-ifc-in-a-30-year-airframe/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-19T20:51:10.000Z"
-    },
-    {
-      "id": "bkoum0",
-      "type": "news",
-      "headline": "Factory-Fitted Future: How Line-Fit Connectivity Is Rewriting IFC Competition",
-      "blurb": "Global Avionics Round-Up from Aircraft Value News (AVN) In-Flight Connectivity (IFC) has moved from aftermarket upgrade to factory-installed feature. Airframers now embed antennas, radomes, wiring provisions, and server space during […] The post Factory-Fitted Future: How Line-Fit Connectivity Is...",
-      "takeaway": "OEMs embedding factory-installed IFC systems eliminate retrofit costs and create integrated ecosystem advantages over traditional aftermarket providers.",
-      "source": {
-        "name": "Aviation Today",
-        "url": "https://www.aviationtoday.com/2026/03/19/factory-fitted-future-how-line-fit-connectivity-is-rewriting-ifc-competition/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus",
-        "space"
-      ],
-      "publishedAt": "2026-03-19T20:43:20.000Z"
     }
   ]
 }
