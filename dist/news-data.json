@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-03-21T11:35:36.609Z",
+  "lastUpdated": "2026-03-21T13:03:41.162Z",
   "articles": [
+    {
+      "id": "xcf6cx",
+      "type": "news",
+      "headline": "66% More Routes: Why British Airways, Finnair & Turkish Airlines Are Betting Big On Australia",
+      "blurb": "A closer look at an emerging long-haul market.",
+      "takeaway": "Australian long-haul market expansion signals carriers' confidence in demand recovery and new route profitability despite high operational costs.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/european-airlines-australian-routes-boost-analysis/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-21T13:00:17.000Z"
+    },
     {
       "id": "x5kl91",
       "type": "news",
       "headline": "Iran Fires Two Intermediate-Range Ballistic Missiles at Diego Garcia Base",
       "blurb": "The attempted strike on Diego Garcia would mark a major escalation, highlighting Tehran’s apparent ability to target the strategic U.S.-UK base deep in the Indian Ocean and potentially put parts of Europe within reach. Iran has launched two missiles at the joint UK-U.S. base at Diego Garcia in th...",
-      "takeaway": "Ballistic missile threats to Diego Garcia underscore critical airspace security vulnerabilities for military operations in the Indian Ocean region.",
+      "takeaway": "Adversarial ballistic missile capabilities targeting strategic airbases underscore critical vulnerabilities in force projection infrastructure and demand enhanced air defense modernization.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/21/iran-fires-two-intermediate-range-ballistic-missiles-at-diego-garcia-base/"
@@ -20,7 +36,7 @@
       "type": "news",
       "headline": "Boeing 737 MAX 8 Vs. 737 MAX 10: Range Limitations & Passenger Seating Capacity Differences",
       "blurb": "The latest and longest of the 737 MAX family isn't far away, but how does it match up with the most popular variant of all?",
-      "takeaway": "The 737 MAX 10's extended fuselage offers higher seating capacity but reduced range compared to the MAX 8, requiring operators to choose between volume and mission flexibility.",
+      "takeaway": "The 737 MAX 10's extended fuselage enables higher seating capacity but sacrifices range compared to the MAX 8, creating distinct market positioning for operators.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-737-max-8-max-10-range-limitations-seating-capacity-differences/"
@@ -37,7 +53,7 @@
       "type": "news",
       "headline": "Banned For 30 Years: KLM Blacklists Serial Stowaway After Litany Of Offenses",
       "blurb": "This was his second incident in the span of a few months, which resulted in his original five-year ban being extended to 30.",
-      "takeaway": "Airlines are escalating enforcement against repeat security violators, with KLM's 30-year stowaway ban signaling zero-tolerance for persistent breaches.",
+      "takeaway": "Airlines must enforce strict identity verification and security protocols to prevent repeat security breaches by persistent stowaways.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/klm-30-year-ban-serial-stowaway/"
@@ -49,11 +65,31 @@
       "publishedAt": "2026-03-21T08:41:40.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to systematically select appropriate controls and formally document acceptance of any residual risks they choose to retain.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-21T13:03:01.283Z",
+      "paiContent": true
+    },
+    {
       "id": "msrm4y",
       "type": "news",
       "headline": "The Airline Set To Fly One Of The Boeing 777X's Longest Routes",
       "blurb": "This Star Alliance carrier will be one of the world's largest operators of the Boeing 777X.",
-      "takeaway": "Star Alliance carrier's 777X order positions it to capture ultra-long-range market demand with fuel-efficient wide-body capacity.",
+      "takeaway": "A major Star Alliance carrier's large 777X order positions it to exploit the aircraft's exceptional range for competitive long-haul network expansion.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airline-set-fly-boeing-777x-longest-routes/"
@@ -66,31 +102,11 @@
       "publishedAt": "2026-03-21T08:00:17.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 compliance requires systematic safety risk assessment frameworks to identify and mitigate potential hazards before operational implementation.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-21T11:35:00.267Z",
-      "paiContent": true
-    },
-    {
       "id": "iwwif1",
       "type": "news",
       "headline": "This Asian Airport Extends Reign As World's Best After Hamad Airport Withdrawal",
       "blurb": "Singapore Changi Airport was named the World's Best Airport for the 14th time, while also claiming top spot in four other categories!",
-      "takeaway": "Singapore Changi Airport's 14th consecutive World's Best Airport award reinforces Asia's dominance in aviation hub competition and operational excellence standards.",
+      "takeaway": "Singapore Changi Airport's 14th World's Best Airport award reinforces the competitive advantage of consistent operational excellence and customer service in a highly connected regional hub market.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/singapore-changi-worlds-best-airport-2026/"
@@ -106,23 +122,43 @@
       "type": "news",
       "headline": "Wrong Boeing 777 Variant Forces Canada-Bound Air India Flight Into 9-Hour U-Turn",
       "blurb": "Air India's Delhi-Vancouver service turned around mid-flight after realizing the aircraft lacked clearance to arrive in Canada.",
-      "takeaway": "Aircraft certification mismatches require pre-flight verification of operational permits to prevent costly mid-flight diversions and regulatory violations.",
+      "takeaway": "Operational pre-flight verification failures can result in costly mid-flight diversions; airlines must strengthen aircraft-route certification checks.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-india-wrong-boeing-777-canada-flight-9-hour-u-turn/"
       },
-      "category": "regulatory",
+      "category": "commercial",
       "keywords": [
         "boeing"
       ],
       "publishedAt": "2026-03-21T05:53:17.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Strong safety culture drives SMS effectiveness through psychological safety that encourages frontline hazard reporting without fear of blame.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-21T13:03:01.283Z",
+      "paiContent": true
+    },
+    {
       "id": "1l4heh",
       "type": "news",
       "headline": "‘No Point In Burning Cash’: United Slashes 5% Of Flights Amid $11B Fuel Spike",
       "blurb": "The cuts will come during Q2 and Q3 as United braces for rising fuel costs.",
-      "takeaway": "United's proactive capacity reduction demonstrates how volatile fuel costs force carriers to optimize schedules rather than absorb margin compression.",
+      "takeaway": "United's preemptive 5% capacity reduction signals airlines are shifting from demand-driven scheduling to fuel-cost hedging strategies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-slashes-flights-fuel-prices/"
@@ -136,7 +172,7 @@
       "type": "news",
       "headline": "Here's Why The Lockheed SR-72 Has The US Air Force Excited",
       "blurb": "The hypersonic SR-72 “Son of Blackbird” could reach Mach 6, giving the US Air Force a revolutionary reconnaissance and strike aircraft for the 2030s.",
-      "takeaway": "The SR-72 hypersonic aircraft concept promises Mach 6 capabilities for next-generation reconnaissance and strike missions by the 2030s.",
+      "takeaway": "The SR-72's Mach 6 hypersonic capability promises transformational reconnaissance and strike advantages, positioning hypersonic technology as critical competitive differentiator for military aviation through 2030s.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-lockheed-sr-72-usaf-excited/"
@@ -146,31 +182,11 @@
       "publishedAt": "2026-03-21T05:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically develop and implement controls while consciously accepting residual risk that cannot be eliminated.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-21T11:35:00.267Z",
-      "paiContent": true
-    },
-    {
       "id": "pkfnx9",
       "type": "news",
       "headline": "The 5 Largest NATO Air Bases By Fighter Jet Fleet Presence",
       "blurb": "The largest NATO bases with the most fighters are all US Air Force and US Navy bases, with some having more fighters than entire European air forces.",
-      "takeaway": "US military dominance at NATO bases means American air superiority infrastructure significantly outweighs European allied capabilities, reshaping regional defense strategies.",
+      "takeaway": "US military dominance at NATO air bases concentrates fighter assets at five facilities, exceeding some entire European air force inventories.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-largest-nato-air-bases-fighter-jet-presence/"
@@ -180,11 +196,34 @@
       "publishedAt": "2026-03-21T02:00:30.000Z"
     },
     {
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "FAA's on-site safety presence at Oshkosh demonstrates proactive community engagement and real-time risk management for general aviation's largest gathering.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
+      ],
+      "publishedAt": "2026-03-21T13:03:01.283Z",
+      "videoContent": true,
+      "duration": "16:49"
+    },
+    {
       "id": "xgjzyj",
       "type": "news",
       "headline": "How Much Does The Airbus A320neo Cost In 2026?",
       "blurb": "This is how much an A320neo costs in 2026.",
-      "takeaway": "A320neo pricing in 2026 reflects inflation and supply chain stabilization, directly impacting airline fleet modernization ROI calculations.",
+      "takeaway": "A320neo pricing in 2026 reflects ongoing inflationary pressures and supply chain dynamics affecting commercial aircraft acquisition costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-airbus-a320neo-cost-2026/"
@@ -200,7 +239,7 @@
       "type": "news",
       "headline": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
       "blurb": "NASA’s quiet supersonic X-59 aircraft made its second flight on Friday, kicking off a series of dozens of test flights in 2026. Although the flight duration was abbreviated due to a technical issue, the team was able to collect information that will inform future tests. “Despite the early landing...",
-      "takeaway": "NASA's X-59 quiet supersonic technology demonstrates progress toward overland supersonic flight regulations, potentially opening new commercial aviation markets.",
+      "takeaway": "NASA's X-59 quiet supersonic technology demonstrates progress toward overturning sonic boom restrictions, potentially opening new commercial supersonic routes.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/"
@@ -214,50 +253,11 @@
       "publishedAt": "2026-03-20T23:27:18.000Z"
     },
     {
-      "id": "kp8li7",
-      "type": "news",
-      "headline": "British Airways Vs. Qantas Vs. Etihad: Which Carrier Wins Airbus A380 First Class?",
-      "blurb": "Discover how British Airways, Qantas, and Etihad compete in A380 First Class, from privacy and luxury to dining and exclusive inflight suites.",
-      "takeaway": "Ultra-premium A380 First Class differentiation through private suites and bespoke service remains a key competitive advantage for legacy carriers competing for high-yield passengers.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/british-airways-qantas-etihad-carrier-wins-airbus-a380-first-class/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-03-20T23:00:18.000Z"
-    },
-    {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "FAA's on-site safety presence at EAA AirVenture demonstrates proactive engagement with general aviation community through direct outreach and resource provision.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "safety",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-21T11:35:00.267Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "9dmlr1",
       "type": "news",
       "headline": "NASA X-59 Second Flight Ends Early After In-Flight Warning",
       "blurb": "Test campaign set to continue soon despite in-flight issues.",
-      "takeaway": "NASA's X-59 experimental aircraft encountered in-flight warnings during its second test, highlighting the engineering challenges of validating quiet supersonic flight technology critical for future commercial operations.",
+      "takeaway": "NASA's X-59 experimental aircraft encountered in-flight issues during its second test flight, but the program remains on track to advance quiet supersonic technology development.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/nasa-x-59-second-flight-ends-early/"
@@ -269,11 +269,27 @@
       "publishedAt": "2026-03-20T22:43:37.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Optimizing airline, airport, and flight operations through advanced technologies is critical to meeting rising air traffic demand while reducing environmental impact.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-21T13:03:01.283Z"
+    },
+    {
       "id": "on6ycz",
       "type": "news",
       "headline": "Press Release: STELIA to redefine Premium comfort at AIX 2026",
       "blurb": "Renowned globally as a leader in cabin interiors and a key player in Premium passenger seating, STELIA Aerospace is looking forward to exhibiting at the Aircraft Interiors Expo (AIX) 2026 in Hamburg, from 14 to 16 April. On an impressive 405 sq. metre stand (7A30, Hall B7), the brand will demonst...",
-      "takeaway": "STELIA's expanded AIX 2026 presence signals intensifying competition in premium cabin interior design and passenger seating innovation.",
+      "takeaway": "STELIA's expanded AIX 2026 presence signals continued innovation in premium cabin interiors, a growing revenue driver for aircraft manufacturers and airlines.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/press-release-stelia-to-redefine-premium-comfort-at-aix-2026/"
@@ -289,7 +305,7 @@
       "type": "news",
       "headline": "FlightPath3D’s strategic expansion into BizAv pays off",
       "blurb": "Though it has largely operated in stealth mode in business aviation for several years, FlightPath3D’s customizable moving maps with cinematic views are now flying on thousands of BizAv tails, and the Lake Forest, California-based firm is getting a little more vocal about its ever-growing footprin...",
-      "takeaway": "FlightPath3D's cinematic moving map technology has achieved significant adoption across business aviation fleets, validating demand for premium cockpit visualization solutions.",
+      "takeaway": "FlightPath3D's cinematic moving maps are gaining significant market traction in business aviation, with thousands of aircraft now equipped and the company increasing visibility.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/flightpath3d-strategic-expansion-into-bizav-pays-off/"
@@ -303,7 +319,7 @@
       "type": "news",
       "headline": "A photojournalist is challenging FAA’s drone ban over DHS vehicles",
       "blurb": "The FAA is being challenged on a recent flight restriction that banned drone flights over all government buildings and mobile assets. The lawsuit is being managed by The Reporters Committee for Freedom of the Press and is challenging it on both First Amendment and Administrative Procedure Act vio...",
-      "takeaway": "FAA's sweeping drone restrictions over DHS assets face legal challenge on First Amendment grounds, potentially reshaping airspace access for press operations.",
+      "takeaway": "FAA's expanding drone restrictions over government assets face legal scrutiny from press freedom advocates citing First Amendment violations.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/20/a-photojournalist-is-challenging-faas-drone-ban-over-dhs-vehicles/"
@@ -316,27 +332,11 @@
       "publishedAt": "2026-03-20T22:16:17.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization through advanced technologies is critical for airlines and airports to meet rising capacity demands while reducing environmental impact.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-21T11:35:00.268Z"
-    },
-    {
       "id": "1768vv",
       "type": "news",
       "headline": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
       "blurb": "MILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an opti...",
-      "takeaway": "Laser communication ground stations represent emerging infrastructure for next-generation aerospace connectivity and satellite operations.",
+      "takeaway": "Lasercom ground station development in Europe advances free-space optical communication infrastructure critical for next-gen aerospace connectivity.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/"
@@ -352,7 +352,7 @@
       "type": "news",
       "headline": "Rocket Lab launches eighth Synspective radar imaging satellite",
       "blurb": "Rocket Lab launched the latest in a series of satellites for Japanese radar imaging company Synspective on March 20. The post Rocket Lab launches eighth Synspective radar imaging satellite appeared first on SpaceNews.",
-      "takeaway": "Rocket Lab's recurring launch contracts with Synspective demonstrate sustainable small-satellite launch economics vital for Earth observation constellation operators.",
+      "takeaway": "Rocket Lab's consistent deployment of Synspective's constellation demonstrates reliable small-launch market viability for specialized Earth observation missions.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/"
@@ -368,7 +368,7 @@
       "type": "news",
       "headline": "Talon IQ Testbed Performs Simulated Combat Maneuvers Controlled by Hivemind and Prism AIs",
       "blurb": "The Talon IQ testbed conducted combat air patrol and target engagement maneuvers controlled by ShieldAI’s Hivemind AI, before switching back to Northrop Grumman’s Prism AI. Northrop Grumman and Shield AI announced on Mar. 19, 2026, that the Talon IQ autonomy testbed aircraft, based on the Model 4...",
-      "takeaway": "AI-controlled combat aircraft are advancing autonomous flight capabilities with multiple AI systems managing complex tactical maneuvers.",
+      "takeaway": "AI-controlled autonomous aircraft can seamlessly switch between different AI systems during complex combat operations, advancing tactical flexibility.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/20/talon-iq-testbed-combat-maneuvers-controlled-by-ai/"
@@ -382,12 +382,12 @@
       "type": "news",
       "headline": "Hangar One Restoration Project",
       "blurb": "Editor’s Note: This article was originally published on April 25, 2022 and has been updated to reflect changes including the completion of Hangar One’s restoration. Restoration has been completed on Hangar One, a historic landmark in the San Francisco Bay Area and a key part of the region’s early...",
-      "takeaway": "Hangar One's restoration completion restores a historic aviation landmark and preserves critical infrastructure representing early aviation heritage in the San Francisco Bay Area.",
+      "takeaway": "Historic Hangar One's restoration completion preserves critical aerospace infrastructure and reflects aviation heritage investment in the Bay Area.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/centers-and-facilities/ames/hangar-one-restoration-project/"
       },
-      "category": "general-aviation",
+      "category": "aerospace",
       "keywords": [],
       "publishedAt": "2026-03-20T20:53:29.000Z"
     },
@@ -396,7 +396,7 @@
       "type": "news",
       "headline": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
       "blurb": "The change affects the GPS III SV-10 satellite, which had been slated to launch on ULA’s Vulcan Centaur rocket. The post Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues appeared first on SpaceNews.",
-      "takeaway": "SpaceX gains another critical national security contract as ULA's Vulcan delays mount, reshaping the competitive landscape for government space launches.",
+      "takeaway": "SpaceX gains additional national security launch contracts as ULA's Vulcan delays mount, reshaping the competitive landscape for critical infrastructure.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/"
@@ -413,7 +413,7 @@
       "type": "news",
       "headline": "NASA’s X-59 cuts second test flight short after return-to-base call",
       "blurb": "NASA’s X-59 quiet supersonic demonstrator unexpectedly cut short its second test flight on March 20, 2026, after a return-to-base call. The… The post NASA’s X-59 cuts second test flight short after return-to-base call appeared first on AeroTime.",
-      "takeaway": "X-59's abbreviated second test flight highlights certification challenges for experimental supersonic platforms ahead of operational deployment.",
+      "takeaway": "X-59's premature second flight termination highlights development challenges in quiet supersonic technology critical for future commercial supersonic operations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/nasa-x59-cuts-second-test-flight-short-return-to-base-call"
@@ -429,7 +429,7 @@
       "type": "news",
       "headline": "NBAA Study Examines Aviation Workforce Gaps, Safety Impact",
       "blurb": "New report highlights pilot demand in business aviation and operator responses.",
-      "takeaway": "Business aviation faces critical pilot shortages that threaten operational safety and efficiency, requiring industry-wide workforce development strategies.",
+      "takeaway": "Business aviation faces critical pilot shortages that directly threaten operational safety and require immediate workforce development strategies.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/nbaa-study-examines-aviation-workforce-gap/"
@@ -447,7 +447,7 @@
       "type": "news",
       "headline": "DJI Flip now cheaper than many beginner drones",
       "blurb": "There’s a reason drones often sit in online carts longer than they should. It’s not just about cost; it’s the friction. Too many controls. Too much setup. Too many things that can go wrong in the first five minutes. DJI Flip was designed to chip away at that hesitation. And now, with a fresh roun...",
-      "takeaway": "DJI's aggressive pricing on the Flip model addresses the primary barrier to drone adoption—user friction—potentially expanding the consumer market beyond price-sensitive buyers.",
+      "takeaway": "DJI's Flip pricing strategy removes consumer friction barriers, positioning simplified drones as the entry point for mass-market adoption.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/20/dji-flip-lowest-ever-price/"
@@ -463,7 +463,7 @@
       "type": "news",
       "headline": "NASA Selects University Finalists for Technology Concepts Competition",
       "blurb": "NASA selected 14 university teams from across the nation as finalists in the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) Competition. This NASA challenge tasks students to design innovative concepts that could further human life and work on the Moon, Mars, and beyon...",
-      "takeaway": "NASA's RASC-AL competition drives next-generation aerospace innovation by engaging 14 university teams to design lunar, Martian, and deep-space concepts that will shape future exploration systems.",
+      "takeaway": "NASA's RASC-AL competition drives next-generation aerospace innovation through academic partnerships focused on lunar, Martian, and deep-space exploration systems.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-selects-university-finalists-for-technology-concepts-competition/"
@@ -480,7 +480,7 @@
       "type": "news",
       "headline": "Army Receives First Optionally Piloted Black Hawk",
       "blurb": "The helicopter is expected to support autonomy evaluations as the service advances modernization efforts.",
-      "takeaway": "Army's optionally piloted Black Hawk marks significant progress toward autonomous helicopter operations, enabling real-world testing of modernization capabilities.",
+      "takeaway": "Army's optionally piloted Black Hawk enables autonomous flight testing, accelerating military rotorcraft modernization and operational capability integration.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/military-aviation/army-new-optionally-piloted-black-hawk/"
@@ -496,7 +496,7 @@
       "type": "news",
       "headline": "How Open NASA Data on Comet 3I/ATLAS Will Power Tomorrow’s Discoveries",
       "blurb": "The interstellar comet 3I/ATLAS will soon leave our solar system, never to return, but the observations of the comet will live on in NASA’s public data archives. More than a dozen NASA science missions turned their instruments to observe the comet, which is only the third identified object to be ...",
-      "takeaway": "NASA's open-access comet data demonstrates how public scientific archives accelerate aerospace innovation through collaborative observation and accessibility.",
+      "takeaway": "NASA's publicly archived interstellar comet observations demonstrate how open scientific data infrastructure drives innovation across research disciplines and space exploration missions.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/open-science/interstellar-comet-3i-atlas-data/"
@@ -512,7 +512,7 @@
       "type": "news",
       "headline": "Airbus: Ready for Response",
       "blurb": "Designed for demanding public safety missions, Airbus helicopters deliver proven performance when response time matters most. The post Airbus: Ready for Response appeared first on Vertical Mag.",
-      "takeaway": "Airbus helicopters optimize response capabilities for public safety missions where rapid deployment directly impacts operational effectiveness.",
+      "takeaway": "Airbus helicopters demonstrate critical value in public safety operations where rapid response capabilities directly impact mission effectiveness and outcomes.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/airbus-ready-for-response/"
@@ -530,7 +530,7 @@
       "type": "news",
       "headline": "Brazos Safety Systems: Smarter Safety Data",
       "blurb": "Brazos Safety Systems pairs advanced data analysis with close operator collaboration to enhance safety. The post Brazos Safety Systems: Smarter Safety Data appeared first on Vertical Mag.",
-      "takeaway": "Real-time safety data analytics combined with operator feedback loops create predictive maintenance advantages and risk mitigation for aviation operations.",
+      "takeaway": "Brazos Safety Systems demonstrates how data-driven analysis combined with operator feedback creates smarter safety interventions for aviation operations.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/brazos-safety-systems-smarter-safety-data/"
@@ -547,7 +547,7 @@
       "type": "news",
       "headline": "Canadian Air Parts: A Comprehensive Aviation Partner",
       "blurb": "Canadian Air Parts has evolved from a parts supplier into a one-stop aviation support partner for global operators. The post Canadian Air Parts: A Comprehensive Aviation Partner appeared first on Vertical Mag.",
-      "takeaway": "Integrated supply chain partnerships reduce operator complexity by consolidating parts sourcing, maintenance support, and logistics into single vendor relationships.",
+      "takeaway": "Canadian Air Parts' evolution into a comprehensive support partner demonstrates the competitive advantage of vertical integration in the global aviation supply chain.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/canadian-air-parts-a-comprehensive-aviation-partner/"
@@ -561,7 +561,7 @@
       "type": "news",
       "headline": "DIT-MCO International: Intelligent Cable Control",
       "blurb": "DIT-MCO International introduces a smarter approach to managing adapter cables and wiring test assets. The post DIT-MCO International: Intelligent Cable Control appeared first on Vertical Mag.",
-      "takeaway": "Smart cable management systems optimize aircraft maintenance efficiency by reducing downtime and improving asset tracking in complex wiring ecosystems.",
+      "takeaway": "Intelligent cable control systems streamline aircraft maintenance operations by reducing complexity in wiring test asset management and improving diagnostic efficiency.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/dit-mco-international-intelligent-cable-control/"
@@ -575,12 +575,12 @@
       "type": "news",
       "headline": "Helitak: Scaling firefighting capacity",
       "blurb": "Helitak expands U.S. manufacturing to meet growing global demand for aerial firefighting capability. The post Helitak: Scaling firefighting capacity appeared first on Vertical Mag.",
-      "takeaway": "Helitak's U.S. manufacturing expansion addresses critical global demand for aerial firefighting platforms, creating new operational capabilities for emergency response operators.",
+      "takeaway": "Helitak's U.S. manufacturing expansion positions aerial firefighting as a critical growth market for helicopter operators seeking specialized revenue diversification.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/helitak-scaling-firefighting-capacity/"
       },
-      "category": "general-aviation",
+      "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-03-20T18:52:32.000Z"
     }
