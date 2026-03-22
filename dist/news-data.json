@@ -1,12 +1,45 @@
 {
-  "lastUpdated": "2026-03-22T15:33:23.988Z",
+  "lastUpdated": "2026-03-22T16:39:16.428Z",
   "articles": [
+    {
+      "id": "z19lf7",
+      "type": "news",
+      "headline": "How Quvia helps airlines throw out the IFC playbook and take control",
+      "blurb": "The inflight connectivity marketplace is moving very quickly. And aviation industry stakeholders have never seen anything like it before. The cycles are getting faster. The technology is evolving rapidly, including the antenna hardware. At least five or more broadband Low Earth Orbit (LEO) satell...",
+      "takeaway": "Airlines can now bypass traditional IFC vendors through Quvia's marketplace, enabling faster technology adoption and greater control over connectivity solutions.",
+      "source": {
+        "name": "Runway Girl Network",
+        "url": "https://runwaygirlnetwork.com/2026/03/how-quvia-helps-airlines-throw-out-the-ifc-playbook-and-take-control/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-22T16:16:18.000Z"
+    },
+    {
+      "id": "7mzsd3",
+      "type": "news",
+      "headline": "United Airlines' Pivot To The Boeing 737 MAX 10 Streamlines Domestic High-Density Operations",
+      "blurb": "Exploring how the 737 MAX 10 fits into United Airlines' fleet, network, and long-term strategy.",
+      "takeaway": "United's 737 MAX 10 adoption optimizes domestic high-density routes with improved fuel efficiency and capacity, reducing per-seat costs on core domestic operations.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/united-airlines-pivot-boeing-737-max-10-streamlines-domestic-high-density-operations/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "airline"
+      ],
+      "publishedAt": "2026-03-22T16:00:18.000Z"
+    },
     {
       "id": "34mkhc",
       "type": "news",
       "headline": "Boeing 777-200LR Vs. 787-9: Ultra-Long-Haul Endurance & Cabin Pressurization Metrics",
       "blurb": "Discover the cabin pressure and other endurance advancements made by the 787 that yield far better comfort for long-haul flying than the 777-200LR.",
-      "takeaway": "The 787-9's advanced cabin pressurization technology delivers superior passenger comfort on ultra-long-haul routes compared to the 777-200LR.",
+      "takeaway": "The 787-9's advanced cabin pressurization technology significantly reduces passenger fatigue on ultra-long-haul routes compared to the 777-200LR.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-777-200lr-787-9-ultra-long-haul-endurance-cabin-pressurization/"
@@ -22,7 +55,7 @@
       "type": "news",
       "headline": "Delta Air Lines' Premium Lounge Expansion Targets High-Value Business Travelers In Non-Hub Cities",
       "blurb": "An aggressive expansion program is set to see Delta's lounges pop up far and wide",
-      "takeaway": "Delta's lounge expansion into non-hub cities signals a strategic shift to capture premium revenue from business travelers outside traditional hub markets.",
+      "takeaway": "Delta's lounge expansion into non-hub markets signals a strategic shift to capture high-yield business travelers in underserved regions, creating competitive differentiation beyond traditional hub-and-spoke networks.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-air-lines-premium-lounge-expansion-targets-high-value-business-non-hub-cities/"
@@ -32,11 +65,31 @@
       "publishedAt": "2026-03-22T14:00:19.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to systematically select controls and formally document acceptance of residual risks per regulatory requirements.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-22T16:38:40.545Z",
+      "paiContent": true
+    },
+    {
       "id": "wzdq56",
       "type": "news",
       "headline": "Why The Flagship Of The World’s Elite Airlines Is No Longer In Production",
       "blurb": "Boeing recently made the decision to halt the production of one of its best-selling widebody aircraft.",
-      "takeaway": "Boeing's discontinuation of a flagship widebody signals shifting airline priorities toward newer, more efficient aircraft models.",
+      "takeaway": "Boeing's discontinuation of a flagship widebody aircraft signals shifting market demand and forces airlines to reassess fleet modernization strategies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/flagship-worlds-elite-airlines-no-longer-in-production-why/"
@@ -53,7 +106,7 @@
       "type": "news",
       "headline": "Why American Airlines Targets Europe's 67th Busiest Airport Using The Airbus A321XLR",
       "blurb": "Further Scottish growth could be on the horizon.",
-      "takeaway": "American Airlines' deployment of the A321XLR to a secondary European airport demonstrates how new long-range narrow-body aircraft enable profitable point-to-point transatlantic routes beyond traditional major hubs.",
+      "takeaway": "American Airlines' deployment of the A321XLR to a secondary European airport demonstrates how ultra-long-range narrowbodies enable profitable transatlantic service to underserved markets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/american-airlines-targets-glasgow-airbus-a321xlr/"
@@ -67,31 +120,11 @@
       "publishedAt": "2026-03-22T13:00:17.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically develop and implement controls while explicitly accepting residual risks that cannot be eliminated.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-22T15:32:42.589Z",
-      "paiContent": true
-    },
-    {
       "id": "l9kfpn",
       "type": "news",
       "headline": "The Real Reason Why Airlines Love The Airbus A220",
       "blurb": "Discover the A220's unique combination of low operating costs, long-range capability, and improved passenger experience.",
-      "takeaway": "The A220's superior economics through fuel efficiency and low maintenance costs make it the preferred choice for airlines seeking to optimize regional and narrow-body routes.",
+      "takeaway": "The A220's low operating costs and extended range make it economically compelling for airlines seeking to profitably serve underserved regional routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/real-reason-airlines-love-airbus-a220/"
@@ -108,7 +141,7 @@
       "type": "news",
       "headline": "Six Flights A Day: Singapore Airlines Boosts London Capacity To Record Levels",
       "blurb": "With a second daily service to Gatwick, the Singapore - London city pair will see the airline operate 6 daily flights this summer.",
-      "takeaway": "Singapore Airlines' expansion to six daily London flights signals robust transatlantic demand recovery and intensified capacity competition on premium long-haul routes.",
+      "takeaway": "Singapore Airlines' expansion to six daily London flights signals strong transatlantic demand recovery and intensifies competition on premium long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/singapore-airlines-6-daily-london-flights-record-capacity/"
@@ -120,11 +153,31 @@
       "publishedAt": "2026-03-22T12:58:24.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Strong reporting cultures within SMS programs directly correlate with identifying hazards earlier and preventing accidents before they occur.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-22T16:38:40.545Z",
+      "paiContent": true
+    },
+    {
       "id": "f1qs1r",
       "type": "news",
       "headline": "Headphone Police: American Airlines Ejects Passenger As Carriers Crack Down On Speakers",
       "blurb": "An American Airlines passenger had their trip cut short recently, after being ejected from the flight for playing a video from her cellphone using the device’s speaker rather than having sound come through headphones/earbuds.",
-      "takeaway": "Airlines are increasingly enforcing cabin noise policies by removing passengers for speaker use, reflecting growing intolerance for audio disturbances during flights.",
+      "takeaway": "Airlines are increasingly enforcing cabin comfort policies by removing passengers for speaker use, signaling stricter behavioral standards during flights.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/headphone-police-american-airlines-ejects-passenger-as-carriers-crack-down-on-speakers/"
@@ -136,31 +189,11 @@
       "publishedAt": "2026-03-22T12:26:17.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Understanding 14 CFR Part 5 safety risk assessment procedures is essential for aviation operators to systematically identify and mitigate operational hazards.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-22T15:32:42.589Z",
-      "paiContent": true
-    },
-    {
       "id": "r5sqm6",
       "type": "news",
       "headline": "Video Shows Saab 340 Airborne Radar Flying in Ukraine",
       "blurb": "The Saab 340 AEW, also called the S 100D Argus, will enhance Ukraine’s situational awareness when facing Russian cruise missile and kamikaze drone barrages. Ukraine appears to have received its first Airborne Early Warning and Control (AEW&C) aircraft, after the Swedish Saab 340 airborne radar wa...",
-      "takeaway": "Ukraine's acquisition of the Saab 340 AEW&C platform significantly enhances air defense capabilities against Russian missile and drone threats through advanced airborne radar surveillance.",
+      "takeaway": "Ukraine's acquisition of the Saab 340 AEW&C aircraft significantly enhances its air defense capabilities against Russian cruise missiles and unmanned threats.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/22/saab-340-aew-ukraine/"
@@ -176,7 +209,7 @@
       "type": "news",
       "headline": "De Havilland Canada delivers 1,000th DHC-6 Twin Otter, first introduced in 1966",
       "blurb": "De Havilland Canada is celebrating the 1,000th delivery of its versatile DHC-6 Twin Otter after over six decades… The post De Havilland Canada delivers 1,000th DHC-6 Twin Otter, first introduced in 1966 appeared first on AeroTime.",
-      "takeaway": "The DHC-6 Twin Otter's 1,000-unit milestone demonstrates unmatched aircraft longevity, validating its enduring utility in regional and remote operations.",
+      "takeaway": "The DHC-6 Twin Otter's 1,000th delivery milestone demonstrates unmatched aircraft longevity and market demand for versatile regional transport over 58 years.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/de-havilland-canada-delivers-1000th-dhc-6-twin-otter"
@@ -190,12 +223,12 @@
       "type": "news",
       "headline": "RSI Europe",
       "blurb": "RSI Europe is a rapidly growing defense technology company based in Vilnius, Lithuania, developing and",
-      "takeaway": "European defense contractors are expanding aerospace capabilities, signaling growing geopolitical investment in advanced aviation technologies.",
+      "takeaway": "Defense technology innovation from Eastern Europe presents emerging opportunities for aviation and aerospace supply chain diversification.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/rsi-europe-fpv-drone-operator/"
       },
-      "category": "military",
+      "category": "aerospace",
       "keywords": [
         "drone"
       ],
@@ -206,12 +239,12 @@
       "type": "video",
       "headline": "FAA Aviation Safety at Oshkosh",
       "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "FAA's on-site safety presence at AirVenture demonstrates proactive engagement with general aviation community education and event risk management.",
+      "takeaway": "The FAA's presence at EAA AirVenture demonstrates proactive safety engagement with general aviation community through direct education and resource sharing.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
         "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
-      "category": "general-aviation",
+      "category": "safety",
       "keywords": [
         "regulation",
         "hypoxia",
@@ -220,7 +253,7 @@
         "medicine",
         "forum"
       ],
-      "publishedAt": "2026-03-22T15:32:42.589Z",
+      "publishedAt": "2026-03-22T16:38:40.545Z",
       "videoContent": true,
       "duration": "16:49"
     },
@@ -229,7 +262,7 @@
       "type": "news",
       "headline": "Up To 17-Hour Nonstop Flights: London Heathrow's New Ultra-Long Route Revealed",
       "blurb": "The ongoing conflict in the Middle East is throwing up some operational oddities.",
-      "takeaway": "Middle East geopolitical tensions are forcing airlines to extend flight times and develop new ultra-long-range routing strategies to avoid conflict zones.",
+      "takeaway": "Middle East geopolitical tensions are forcing airlines to adopt ultra-long routing alternatives, creating new operational and fuel management challenges.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/london-heathrow-new-ultra-long-haul-route/"
@@ -243,7 +276,7 @@
       "type": "news",
       "headline": "United’s answer to jet fuel cost surge won’t include furlough or deferred orders",
       "blurb": "The CEO of United Airlines Scott Kirby has said that despite jet fuel prices having more than doubled… The post United’s answer to jet fuel cost surge won’t include furlough or deferred orders appeared first on AeroTime.",
-      "takeaway": "United Airlines commits to absorbing elevated fuel costs through operational efficiency rather than workforce reductions or fleet delays.",
+      "takeaway": "United Airlines commits to absorbing fuel cost volatility through operational efficiency rather than workforce reductions or order deferrals.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/united-airlines-jet-fuel-cost-surge-furlough-deferred-orders-scott-kirby"
@@ -259,7 +292,7 @@
       "type": "news",
       "headline": "Caught in the crossfire: how Switzerland’s US arms ban threatens its domestic defence sector",
       "blurb": "In a historic assertion of its cherished neutrality, the Swiss Federal Council has suspended all",
-      "takeaway": "Switzerland's US arms embargo could disrupt domestic defence contractors' supply chains, affecting aerospace component manufacturers serving both civilian and military sectors.",
+      "takeaway": "Switzerland's arms export restrictions may impact domestic aerospace defense suppliers reliant on US technology partnerships and international contracts.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/caught-in-the-crossfire-how-switzerlands-us-arms-ban-threatens-its-domestic-defence-sector/"
@@ -269,11 +302,27 @@
       "publishedAt": "2026-03-22T10:24:32.000Z"
     },
     {
+      "id": "6hg81g",
+      "type": "news",
+      "headline": "Ticking Clock: Airlines Warn Jet Fuel Could Run Dry Within Weeks",
+      "blurb": "Carriers are expected to make mass cancellations in response.",
+      "takeaway": "Airlines face imminent jet fuel shortages that could trigger widespread cancellations, requiring immediate supply chain intervention.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/airline-jet-fuel-shortage-running-dry-warning-weeks/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-22T10:19:20.000Z"
+    },
+    {
       "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
       "type": "curated",
       "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
       "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization through advanced technologies is critical to accommodating growing air traffic while meeting environmental sustainability demands across airlines and airports.",
+      "takeaway": "Optimizing airline, airport, and flight operations through advanced technologies is critical to accommodating growing air traffic while meeting environmental sustainability demands.",
       "source": {
         "name": "MDPI",
         "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
@@ -282,47 +331,14 @@
       "keywords": [
         "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-22T15:32:42.589Z"
-    },
-    {
-      "id": "6hg81g",
-      "type": "news",
-      "headline": "Ticking Clock: Airlines Warn Jet Fuel Could Run Dry Within Weeks",
-      "blurb": "Carriers are expected to make mass cancellations in response.",
-      "takeaway": "Airlines face imminent operational disruptions due to potential jet fuel shortages, requiring immediate supply chain contingency planning and passenger communication strategies.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/airline-jet-fuel-shortage-running-dry-warning-weeks/"
-      },
-      "category": "industry",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-22T10:19:20.000Z"
-    },
-    {
-      "id": "4o7eps",
-      "type": "news",
-      "headline": "Why Lufthansa Is Retiring Its Remaining Airbus A340s & Boeing 747-400s",
-      "blurb": "Lufthansa is on a mission to ramp up profitability and retirements make up a huge part of this.",
-      "takeaway": "Lufthansa's A340 and 747 retirements reflect industry-wide shift toward newer, fuel-efficient aircraft to improve profitability amid economic pressures.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-lufthansa-retiring-remaining-airbus-a340-boeing-747-400s/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing",
-        "airbus"
-      ],
-      "publishedAt": "2026-03-22T10:00:17.000Z"
+      "publishedAt": "2026-03-22T16:38:40.545Z"
     },
     {
       "id": "gynqrw",
       "type": "news",
       "headline": "Qatar Airways sends five more widebody aircraft to safety of Teruel Airport",
       "blurb": "Qatar Airways is sending five more widebody aircraft to the safety of Teruel Airport (TEV) as the airline… The post Qatar Airways sends five more widebody aircraft to safety of Teruel Airport appeared first on AeroTime.",
-      "takeaway": "Qatar Airways' expansion of aircraft storage at Teruel reflects sustained demand for long-term parking amid capacity management strategies.",
+      "takeaway": "Qatar Airways' continued deployment of widebody aircraft to Teruel indicates strategic asset preservation amid operational disruptions or market volatility.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/qatar-airways-widebody-aircraft-teruel-airport-spain"
@@ -341,7 +357,7 @@
       "type": "news",
       "headline": "Delivery drones cleared for flight over populated cities in Brazil",
       "blurb": "In a significant development for urban logistics, Brazil’s civil aviation authority has authorised delivery drones",
-      "takeaway": "Brazil's approval of delivery drones over populated areas establishes a regulatory precedent for urban air mobility, signaling market expansion opportunities for operators and manufacturers in Latin America.",
+      "takeaway": "Brazil's authorization of delivery drones over populated areas establishes a regulatory precedent for urban air mobility integration in emerging markets.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/delivery-drones-cleared-for-flight-over-populated-cities-in-brazil/"
@@ -353,27 +369,11 @@
       "publishedAt": "2026-03-22T07:52:18.000Z"
     },
     {
-      "id": "nqvybp",
-      "type": "news",
-      "headline": "Some European Launcher Challenge funding remains in limbo",
-      "blurb": "Nearly 140 million euros ($162 million) that European Space Agency member states allocated to a program to support launch vehicle development remains in limbo and could be lost. The post Some European Launcher Challenge funding remains in limbo appeared first on SpaceNews.",
-      "takeaway": "European launch vehicle development risks losing €140M in allocated funding due to administrative delays, threatening regional space competitiveness.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/some-european-launcher-challenge-funding-remains-in-limbo/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-22T00:53:32.000Z"
-    },
-    {
       "id": "t9paeo",
       "type": "news",
       "headline": "ePropelled unveils expansion at Global Innovation Centre in Coventry",
       "blurb": "ePropelled opened its new Global Innovation Centre in Coventry on 20 March, a major expansion",
-      "takeaway": "ePropelled's Coventry facility expansion signals accelerating UK investment in electric propulsion technology development for aviation.",
+      "takeaway": "ePropelled's Global Innovation Centre expansion in Coventry signals growing UK investment in electric propulsion technology development for aviation.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/epropelled-unveils-expansion-at-global-innovation-centre-in-coventry/"
@@ -387,7 +387,7 @@
       "type": "news",
       "headline": "B-52 Spotted Yet Again Testing the AGM-181 Next-Gen Stealth Nuclear Cruise Missile",
       "blurb": "The B-52H Stratofortress is continuing the integration tests with the AGM-181 Long Range Stand Off (LRSO) missile, the Air Force’s next-gen stealth nuclear cruise missile. The U.S. Air Force is progressing with the integrations tests of the AGM-181 Long Range Stand Off (LRSO) missile, the service...",
-      "takeaway": "B-52H integration testing of AGM-181 LRSO demonstrates accelerating modernization of strategic deterrent platforms requiring sustained airworthiness.",
+      "takeaway": "B-52H integration testing of AGM-181 LRSO demonstrates continued advancement in next-generation stealth nuclear cruise missile development for strategic deterrence.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/21/b-52-spotted-again-agm-181-lrso/"
@@ -401,7 +401,7 @@
       "type": "news",
       "headline": "Closest View Yet of F-22 Raptor With Stealth Tanks and Stealth Pods",
       "blurb": "New photographs show the best view yet of an F-22A Raptor sporting the stealthy drop tanks and equipment pods in development for the stealth fighter. Californian aviation photographer Jarod Hamilton once again caught a scoop, this time giving us the closest view yet of a Lockheed Martin F-22A Rap...",
-      "takeaway": "Advanced F-22 stealth tank and pod configurations demonstrate ongoing evolution of fighter aircraft external carriage systems for reduced radar cross-section.",
+      "takeaway": "F-22 Raptor stealth tank and pod development represents critical advancement in extended-range combat capability while maintaining low observable characteristics.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/21/f-22-raptor-with-stealth-tanks-and-stealth-pods/"
@@ -411,27 +411,11 @@
       "publishedAt": "2026-03-21T16:51:42.000Z"
     },
     {
-      "id": "xujwzt",
-      "type": "news",
-      "headline": "Artemis 2 returns to the pad for April launch attempt",
-      "blurb": "The Artemis 2 launch vehicle and spacecraft have returned to the launch pad for a launch as soon as April 1. The post Artemis 2 returns to the pad for April launch attempt appeared first on SpaceNews.",
-      "takeaway": "Artemis 2's April launch represents critical momentum for lunar exploration capabilities that could influence future space industry commercial partnerships.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/artemis-2-returns-to-the-pad-for-april-launch-attempt/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-21T15:14:03.000Z"
-    },
-    {
       "id": "f6u78q",
       "type": "news",
       "headline": "UK’s First Electric Flight Demonstrations Launch Today, as Loganair and BETA Technologies Fly Royal Mail Postal Routes",
       "blurb": "Loganair and BETA showcase the ALIA CTOL electric aircraft on Glasgow to Dundee route, launching",
-      "takeaway": "Electric aircraft are transitioning from concept to operational service, with BETA's ALIA demonstrating viable regional route capabilities for established carriers.",
+      "takeaway": "Electric aviation is transitioning from concept to operational service, with UK postal routes validating zero-emission regional transport viability.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/uks-first-electric-flight-demonstrations-launch-today-as-loganair-and-beta-technologies-fly-royal-mail-postal-routes/"
@@ -447,12 +431,12 @@
       "type": "news",
       "headline": "Grid Aero Job Opportunities",
       "blurb": "We’re building a new class of aircraft: rugged, low-cost, long-range autonomous systems designed to move",
-      "takeaway": "Grid Aero's autonomous aircraft platform addresses the emerging market for cost-effective, long-range cargo delivery systems with minimal operational overhead.",
+      "takeaway": "Grid Aero's autonomous aircraft platform targets cost-effective cargo solutions through rugged, long-range design for emerging commercial logistics markets.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/grid-aero-job-opportunities/"
       },
-      "category": "drones",
+      "category": "air-cargo",
       "keywords": [],
       "publishedAt": "2026-03-21T14:08:11.000Z"
     },
@@ -461,7 +445,7 @@
       "type": "news",
       "headline": "Iran Fires Two Intermediate-Range Ballistic Missiles at Diego Garcia Base",
       "blurb": "The attempted strike on Diego Garcia would mark a major escalation, highlighting Tehran’s apparent ability to target the strategic U.S.-UK base deep in the Indian Ocean and potentially put parts of Europe within reach. Iran has launched two missiles at the joint UK-U.S. base at Diego Garcia in th...",
-      "takeaway": "Intermediate-range ballistic missile capabilities now extend to Diego Garcia, forcing strategic aviation planners to reassess force positioning and air operations security protocols.",
+      "takeaway": "Iranian ballistic missile capability against Diego Garcia underscores critical infrastructure vulnerabilities for military aviation operations across the Indian Ocean region.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/21/iran-fires-two-intermediate-range-ballistic-missiles-at-diego-garcia-base/"
@@ -475,7 +459,7 @@
       "type": "news",
       "headline": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
       "blurb": "NASA’s quiet supersonic X-59 aircraft made its second flight on Friday, kicking off a series of dozens of test flights in 2026. Although the flight duration was abbreviated due to a technical issue, the team was able to collect information that will inform future tests. “Despite the early landing...",
-      "takeaway": "NASA's X-59 quiet supersonic technology demonstrates progress toward enabling overland supersonic flight, with 2026 test campaign critical for regulatory certification pathways.",
+      "takeaway": "NASA's X-59 demonstrates supersonic flight validation progress, critical for future commercial supersonic aircraft certification and noise regulation compliance.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/"
@@ -493,7 +477,7 @@
       "type": "news",
       "headline": "NASA X-59 Second Flight Ends Early After In-Flight Warning",
       "blurb": "Test campaign set to continue soon despite in-flight issues.",
-      "takeaway": "NASA's X-59 experimental aircraft encountered mid-flight issues requiring early landing, but the test program remains on track for continued operations pending investigation.",
+      "takeaway": "NASA's X-59 aeronautical research platform experienced an in-flight anomaly requiring early termination, but the test program's continuation signals confidence in addressing issues and advancing supersonic technology development.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/nasa-x-59-second-flight-ends-early/"
@@ -509,7 +493,7 @@
       "type": "news",
       "headline": "Press Release: STELIA to redefine Premium comfort at AIX 2026",
       "blurb": "Renowned globally as a leader in cabin interiors and a key player in Premium passenger seating, STELIA Aerospace is looking forward to exhibiting at the Aircraft Interiors Expo (AIX) 2026 in Hamburg, from 14 to 16 April. On an impressive 405 sq. metre stand (7A30, Hall B7), the brand will demonst...",
-      "takeaway": "STELIA's expanded AIX 2026 presence signals major premium cabin innovations aimed at redefining passenger comfort standards for commercial operators.",
+      "takeaway": "STELIA's expanded AIX 2026 presence signals continued innovation in premium cabin solutions driving competitive differentiation for airlines.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/press-release-stelia-to-redefine-premium-comfort-at-aix-2026/"
@@ -525,7 +509,7 @@
       "type": "news",
       "headline": "FlightPath3D’s strategic expansion into BizAv pays off",
       "blurb": "Though it has largely operated in stealth mode in business aviation for several years, FlightPath3D’s customizable moving maps with cinematic views are now flying on thousands of BizAv tails, and the Lake Forest, California-based firm is getting a little more vocal about its ever-growing footprin...",
-      "takeaway": "FlightPath3D's advanced 3D moving map technology has achieved significant market penetration in business aviation, positioning it as a competitive alternative to established cockpit display providers.",
+      "takeaway": "FlightPath3D's cinematic moving map technology is gaining significant traction in business aviation, with deployments across thousands of aircraft signaling strong market demand for enhanced avionics visualization.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/flightpath3d-strategic-expansion-into-bizav-pays-off/"
@@ -539,7 +523,7 @@
       "type": "news",
       "headline": "A photojournalist is challenging FAA’s drone ban over DHS vehicles",
       "blurb": "The FAA is being challenged on a recent flight restriction that banned drone flights over all government buildings and mobile assets. The lawsuit is being managed by The Reporters Committee for Freedom of the Press and is challenging it on both First Amendment and Administrative Procedure Act vio...",
-      "takeaway": "FAA's blanket drone restrictions over DHS assets face legal challenge on First Amendment grounds, potentially reshaping airspace access for news gathering.",
+      "takeaway": "FAA's broad drone restrictions over DHS vehicles face First Amendment legal challenge, potentially reshaping government airspace policies for journalism.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/20/a-photojournalist-is-challenging-faas-drone-ban-over-dhs-vehicles/"
@@ -552,36 +536,48 @@
       "publishedAt": "2026-03-20T22:16:17.000Z"
     },
     {
-      "id": "1768vv",
+      "id": "re7ulx",
       "type": "news",
-      "headline": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
-      "blurb": "MILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an opti...",
-      "takeaway": "Lasercom ground stations enable high-bandwidth satellite communications critical for next-generation aviation connectivity and autonomous operations.",
+      "headline": "Talon IQ Testbed Performs Simulated Combat Maneuvers Controlled by Hivemind and Prism AIs",
+      "blurb": "The Talon IQ testbed conducted combat air patrol and target engagement maneuvers controlled by ShieldAI’s Hivemind AI, before switching back to Northrop Grumman’s Prism AI. Northrop Grumman and Shield AI announced on Mar. 19, 2026, that the Talon IQ autonomy testbed aircraft, based on the Model 4...",
+      "takeaway": "AI-controlled autonomous aircraft are rapidly progressing from simulation to real-world combat maneuvers, signaling a fundamental shift in military aviation operations.",
       "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/"
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/20/talon-iq-testbed-combat-maneuvers-controlled-by-ai/"
       },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-20T21:49:39.000Z"
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-03-20T21:13:23.000Z"
     },
     {
-      "id": "wieftb",
+      "id": "mx5hgv",
       "type": "news",
-      "headline": "Rocket Lab launches eighth Synspective radar imaging satellite",
-      "blurb": "Rocket Lab launched the latest in a series of satellites for Japanese radar imaging company Synspective on March 20. The post Rocket Lab launches eighth Synspective radar imaging satellite appeared first on SpaceNews.",
-      "takeaway": "Rocket Lab's continued cadence with Synspective demonstrates reliable small-launch demand for commercial Earth observation constellations.",
+      "headline": "Hangar One Restoration Project",
+      "blurb": "Editor’s Note: This article was originally published on April 25, 2022 and has been updated to reflect changes including the completion of Hangar One’s restoration. Restoration has been completed on Hangar One, a historic landmark in the San Francisco Bay Area and a key part of the region’s early...",
+      "takeaway": "Hangar One's restoration completion preserves critical aerospace infrastructure and heritage, supporting ongoing aviation operations in a key commercial hub.",
       "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/"
+        "name": "NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/ames/hangar-one-restoration-project/"
+      },
+      "category": "aerospace",
+      "keywords": [],
+      "publishedAt": "2026-03-20T20:53:29.000Z"
+    },
+    {
+      "id": "so9u88",
+      "type": "news",
+      "headline": "NASA’s X-59 cuts second test flight short after return-to-base call",
+      "blurb": "NASA’s X-59 quiet supersonic demonstrator unexpectedly cut short its second test flight on March 20, 2026, after a return-to-base call. The… The post NASA’s X-59 cuts second test flight short after return-to-base call appeared first on AeroTime.",
+      "takeaway": "NASA's X-59 quiet supersonic demonstrator experienced an unexpected early termination during its second test flight, potentially impacting the quiet supersonic technology demonstration timeline.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/nasa-x59-cuts-second-test-flight-short-return-to-base-call"
       },
       "category": "aerospace",
       "keywords": [
-        "space"
+        "nasa"
       ],
-      "publishedAt": "2026-03-20T21:15:03.000Z"
+      "publishedAt": "2026-03-20T20:22:17.000Z"
     }
   ]
 }
