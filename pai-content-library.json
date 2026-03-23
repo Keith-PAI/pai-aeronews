@@ -1,8 +1,8 @@
 {
-  "lastEdited": "2026-03-15T16:44:32.907Z",
+  "lastEdited": "2026-03-23T17:46:46.161Z",
   "settings": {
     "maxPaiItemsPerCycle": 2,
-    "maxVideosPerCycle": 1,
+    "maxVideosPerCycle": 2,
     "maxCuratedPerCycle": 1
   },
   "blogArticles": [
@@ -111,6 +111,64 @@
         "forum"
       ],
       "active": true
+    },
+    {
+      "id": "yt-nbaa-pt5-sms-small-ops-sa",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Assurance",
+      "blurb": "This video covers the safety management system (SMS) component safety assurance, which  evaluates the continued effectiveness of implemented risk control strategies and supports the identification of new hazards. Whether you're an owner, operator or part of a small aviation team, this guide provides valuable insights and tools to enhance your safety management practices and ensure a safer operational environment.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JooZXsQx1ds",
+      "channel": "NBAA",
+      "duration": "15:03",
+      "category": "safety",
+      "matchKeywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "hazard",
+        "assurance"
+      ],
+      "active": true
+    },
+    {
+      "id": "yt-nbaa-pt5-sms-small-ops-spsp",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
+      "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kwaAzylG2bQ",
+      "channel": "NBAA",
+      "duration": "20:47",
+      "category": "safety",
+      "matchKeywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "policy",
+        "promotion",
+        "gap",
+        "leadership"
+      ],
+      "active": true
+    },
+    {
+      "id": "yt-nbaa-pt5-sms-small-ops-srm",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Risk Management",
+      "blurb": "This video covers the safety management system (SMS) component safety risk management, which determines the need for, and adequacy of, new or revised risk controls based on the assessment of acceptable risk.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Vx_idwnPZDE",
+      "channel": "NBAA",
+      "duration": "9:39",
+      "category": "safety",
+      "matchKeywords": [
+        "aviation",
+        "safety",
+        "SMS",
+        "risk",
+        "management",
+        "SRM"
+      ],
+      "active": true
     }
   ],
   "curatedArticles": [
@@ -134,7 +192,13 @@
       "playlistId": "PL5vHkqHi51DT2Y54kjRtmjJ3Dgaj_Sv7V",
       "channelName": "Federal Aviation Administration",
       "category": "safety",
-      "matchKeywords": ["faa", "general aviation", "safety", "regulation", "pilot"],
+      "matchKeywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
       "maxVideosPerFetch": 3,
       "active": true
     },
@@ -144,7 +208,14 @@
       "playlistId": "PL5vHkqHi51DSNpsBC8nb8Q8gFcGVmWhGA",
       "channelName": "Federal Aviation Administration",
       "category": "general-aviation",
-      "matchKeywords": ["airport", "pilot", "approach", "atc", "runway", "flight deck"],
+      "matchKeywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
       "maxVideosPerFetch": 3,
       "active": true
     }
