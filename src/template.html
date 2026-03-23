@@ -242,7 +242,7 @@
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
-      min-height: 2.7em;
+      min-height: 3em;
       flex: 1;
     }
 
@@ -485,38 +485,45 @@
       height: 16px;
     }
 
-    /* Responsive — mobile */
-    @media (max-width: 768px) {
-      .newsfeed-section {
-        padding: 10px 12px 0;
-        border-radius: 12px;
-      }
+    /* Mobile layout (applied via ResizeObserver on container, works inside iframes) */
+    .newsfeed-section.mobile-layout {
+      padding: 10px 12px 0;
+      border-radius: 12px;
+    }
 
-      .scrub-hint {
-        display: none;
-      }
+    .mobile-layout .scrub-hint {
+      display: none;
+    }
 
-      .btn-label {
-        display: none;
-      }
+    .mobile-layout .btn-label {
+      display: none;
+    }
 
-      .news-card .blurb {
-        -webkit-line-clamp: 4;
-        min-height: 5.6em;
-      }
+    .mobile-layout .news-card .blurb {
+      -webkit-line-clamp: 4;
+      min-height: 5.6em;
+    }
 
-      .news-card .takeaway {
-        -webkit-line-clamp: 3;
-        min-height: 4.05em;
-      }
+    .mobile-layout .news-card .takeaway {
+      -webkit-line-clamp: 3;
+      min-height: 4.05em;
+    }
 
-      .modal-content {
-        padding: 20px;
-      }
+    .mobile-layout .modal-content {
+      padding: 20px;
+    }
 
-      .modal-headline {
-        font-size: 1.25rem;
-      }
+    .mobile-layout .modal-headline {
+      font-size: 1.25rem;
+    }
+
+    .mobile-layout .newsfeed {
+      padding-bottom: 44px;
+    }
+
+    /* Ensure feed container fits at least one card + bottom bar */
+    .newsfeed-section {
+      min-height: calc(200px + 44px);
     }
   </style>
 </head>
@@ -622,7 +629,7 @@
       var container = document.getElementById('newsfeed');
       var width = container.clientWidth;
       var gap = 16;
-      var isMobile = window.innerWidth < 768;
+      var isMobile = container.closest('.newsfeed-section').classList.contains('mobile-layout');
       var cardWidth = isMobile ? width : (width - 2 * gap) / 3;
       container.style.setProperty('--card-width', cardWidth + 'px');
     }
@@ -851,6 +858,20 @@
           break;
       }
     });
+
+    // ── ResizeObserver for mobile layout (works inside iframes) ──
+    var feedSection = document.querySelector('.newsfeed-section');
+    if (typeof ResizeObserver !== 'undefined') {
+      new ResizeObserver(function(entries) {
+        var width = entries[0].contentRect.width;
+        if (width < 600) {
+          feedSection.classList.add('mobile-layout');
+        } else {
+          feedSection.classList.remove('mobile-layout');
+        }
+        updateCardWidth();
+      }).observe(feedSection);
+    }
 
     // ── Init ──
     window.addEventListener('resize', updateCardWidth);
