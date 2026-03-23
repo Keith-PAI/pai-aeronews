@@ -98,7 +98,8 @@ After fetching external news, the script selects a small number of PAI items per
 Located in the project root. Contains:
 - **settings** — `maxPaiItemsPerCycle` (default 2) and `maxVideosPerCycle` (default 1)
 - **blogArticles[]** — PAI Consulting blog posts with fields: `id`, `headline`, `blurb`, `url` (relative path), `blog` (series name), `category`, `keywords`, `priority` (high/medium), `evergreen`, `active`
-- **videos[]** — Curated YouTube videos with fields: `id`, `headline`, `blurb`, `youtubeUrl`, `channel`, `duration`, `category`, `matchKeywords`, `active`
+- **videos[]** — Manually curated YouTube videos with fields: `id`, `headline`, `blurb`, `youtubeUrl`, `channel`, `duration`, `category`, `matchKeywords`, `active`
+- **youtubeFeeds[]** — YouTube playlist feeds for auto-fetching videos. Fields: `id`, `name`, `playlistId`, `channelName`, `category`, `matchKeywords`, `maxVideosPerFetch`, `active`. Auto-fetched videos are converted to the same shape as manual `videos[]` entries with `autoFetched: true` to distinguish them. Deduplication against manual `videos[]` is performed by YouTube URL.
 
 ### Article Type Field
 All articles in `news-data.json` now carry a `type` field:

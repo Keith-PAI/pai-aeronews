@@ -162,6 +162,119 @@ function selectPaiVideos(videos, max, newsKeywords) {
 }
 
 /**
+ * Fetch YouTube playlist feeds and convert entries to video objects.
+ * Runs all feeds in parallel; failures are logged and skipped.
+ */
+async function fetchYoutubeFeeds(youtubeFeeds, existingVideoUrls) {
+  const activeFeeds = (youtubeFeeds || []).filter(f => f.active);
+  if (activeFeeds.length === 0) return [];
+
+  console.log(`\nFetching ${activeFeeds.length} YouTube playlist feed(s)...`);
+
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: '@_',
+  });
+
+  const results = await Promise.allSettled(activeFeeds.map(async (feed) => {
+    const url = `https://www.youtube.com/feeds/videos.xml?playlist_id=${feed.playlistId}`;
+    console.log(`  Fetching: ${feed.name}...`);
+
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'PAI-AeroNews/1.0 (Aviation News Aggregator)',
+        'Accept': 'application/xml, text/xml, */*',
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const xml = await response.text();
+    const parsed = parser.parse(xml);
+
+    // YouTube uses Atom format — entries are in parsed.feed.entry
+    let entries = parsed.feed?.entry || [];
+    if (!Array.isArray(entries)) entries = [entries];
+
+    // Limit to maxVideosPerFetch (newest first — YouTube returns them in order)
+    entries = entries.slice(0, feed.maxVideosPerFetch || 3);
+
+    const videos = [];
+    for (const entry of entries) {
+      // Extract link — can be array or single object
+      let videoUrl = '';
+      if (Array.isArray(entry.link)) {
+        const alt = entry.link.find(l => l['@_rel'] === 'alternate');
+        videoUrl = alt?.['@_href'] || entry.link[0]?.['@_href'] || '';
+      } else if (entry.link) {
+        videoUrl = entry.link['@_href'] || '';
+      }
+
+      // Skip if this URL is already in the manual videos array
+      if (existingVideoUrls.has(videoUrl)) continue;
+
+      // Extract video ID — prefer yt:videoId, fall back to URL parsing
+      let videoId = entry['yt:videoId'] || '';
+      if (!videoId && videoUrl) {
+        const match = videoUrl.match(/[?&]v=([^&]+)/);
+        if (match) videoId = match[1];
+      }
+      if (!videoId) continue; // skip entries we can't identify
+
+      // Extract description from media:group
+      const description = entry['media:group']?.['media:description'] || '';
+      const blurb = typeof description === 'string'
+        ? description.slice(0, 200).trim()
+        : '';
+
+      const title = typeof entry.title === 'object'
+        ? (entry.title['#text'] || '')
+        : (entry.title || '');
+
+      videos.push({
+        id: `yt-auto-${videoId}`,
+        headline: title,
+        blurb,
+        youtubeUrl: videoUrl,
+        channel: feed.channelName,
+        duration: '',
+        category: feed.category,
+        matchKeywords: feed.matchKeywords || [],
+        active: true,
+        autoFetched: true,
+      });
+    }
+
+    console.log(`    ✓ Found ${videos.length} video(s) from ${feed.name}`);
+    return videos;
+  }));
+
+  // Collect successful results, log failures
+  const allVideos = [];
+  for (let i = 0; i < results.length; i++) {
+    if (results[i].status === 'fulfilled') {
+      allVideos.push(...results[i].value);
+    } else {
+      console.warn(`    ✗ Failed to fetch ${activeFeeds[i].name}: ${results[i].reason?.message || results[i].reason}`);
+    }
+  }
+
+  // Deduplicate by YouTube URL within auto-fetched results
+  const seen = new Set();
+  const dedupedVideos = allVideos.filter(v => {
+    if (seen.has(v.youtubeUrl)) return false;
+    seen.add(v.youtubeUrl);
+    return true;
+  });
+
+  console.log(`  YouTube auto-fetch total: ${dedupedVideos.length} video(s)\n`);
+  return dedupedVideos;
+}
+
+/**
  * Convert a PAI blog article to the feed article format
  */
 function convertPaiBlogToArticle(blog) {
@@ -1129,8 +1242,14 @@ async function main() {
       const selectedBlogs = selectPaiBlogArticles(paiLibrary.blogArticles || [], maxPaiBlog);
       const blogArticles = selectedBlogs.map(convertPaiBlogToArticle);
 
+      // Fetch auto YouTube feeds and combine with manual videos
+      const manualVideos = paiLibrary.videos || [];
+      const existingVideoUrls = new Set(manualVideos.map(v => v.youtubeUrl));
+      const autoVideos = await fetchYoutubeFeeds(paiLibrary.youtubeFeeds || [], existingVideoUrls);
+      const allVideos = [...manualVideos, ...autoVideos];
+
       // Select and convert videos
-      const selectedVideos = selectPaiVideos(paiLibrary.videos || [], maxVideos, newsKeywords);
+      const selectedVideos = selectPaiVideos(allVideos, maxVideos, newsKeywords);
       const videoArticles = selectedVideos.map(convertVideoToArticle);
 
       // Select and convert curated articles

@@ -126,5 +126,27 @@
       ],
       "active": true
     }
+  ],
+  "youtubeFeeds": [
+    {
+      "id": "faa-general-aviation",
+      "name": "FAA General Aviation",
+      "playlistId": "PL5vHkqHi51DT2Y54kjRtmjJ3Dgaj_Sv7V",
+      "channelName": "Federal Aviation Administration",
+      "category": "safety",
+      "matchKeywords": ["faa", "general aviation", "safety", "regulation", "pilot"],
+      "maxVideosPerFetch": 3,
+      "active": true
+    },
+    {
+      "id": "faa-flight-deck",
+      "name": "FAA From the Flight Deck",
+      "playlistId": "PL5vHkqHi51DSNpsBC8nb8Q8gFcGVmWhGA",
+      "channelName": "Federal Aviation Administration",
+      "category": "general-aviation",
+      "matchKeywords": ["airport", "pilot", "approach", "atc", "runway", "flight deck"],
+      "maxVideosPerFetch": 3,
+      "active": true
+    }
   ]
 }
