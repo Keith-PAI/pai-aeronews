@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-03-23T14:58:28.614Z",
+  "lastUpdated": "2026-03-23T15:03:39.394Z",
   "articles": [
+    {
+      "id": "757bcc",
+      "type": "news",
+      "headline": "7 New Nonstop Routes In Just 5 Days: Where Alaska Airlines & United Airlines Fly Now",
+      "blurb": "One of them have never been served by any airline before. Find out more!",
+      "takeaway": "Route expansion in underserved markets signals carriers are betting on post-pandemic demand recovery and competitive positioning in regional connectivity.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/7-new-nonstop-routes-in-just-5-days-where-alaska-airlines-united-airlines-fly-now/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-23T15:00:17.000Z"
+    },
     {
       "id": "cj2ll5",
       "type": "news",
       "headline": "De Havilland Canada Delivers 1,000th Twin Otter",
       "blurb": "Milestone delivery adds another chapter to a utility aircraft whose history dates to 1965.",
-      "takeaway": "The Twin Otter's 58-year production run demonstrates exceptional market resilience for a niche utility platform, suggesting operators prioritize proven reliability over modernization in remote-access missions.",
+      "takeaway": "The Twin Otter's 60-year production run demonstrates unprecedented market demand for rugged, versatile utility aircraft in remote operations, suggesting sustained profitability in niche aviation segments.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/de-havilland-delivers-1000th-twin-otter/"
@@ -20,7 +36,7 @@
       "type": "news",
       "headline": "Is LaGuardia More Dangerous Than Other US Airports?",
       "blurb": "LaGuardia’s hazards are real, but its reputation may be bigger than its actual danger.",
-      "takeaway": "LaGuardia's operational challenges stem from infrastructure constraints rather than inherent safety deficiencies, suggesting reputation-based risk perception may exceed measured accident data.",
+      "takeaway": "LaGuardia's accident risk profile may not significantly exceed peer major airports despite its challenging geography and infrastructure constraints.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/laguardia-more-dangerous-other-us-airports/"
@@ -36,7 +52,7 @@
       "type": "news",
       "headline": "NASA to Provide Update on Implementation of National Space Policy",
       "blurb": "NASA will host a public event at 9 a.m. EDT on Tuesday, March 24, at the Mary W. Jackson NASA Headquarters in Washington to outline how the agency is executing President Donald J. Trump’s National Space Policy and accelerating preparations for America’s return to the surface of the Moon by 2028. ...",
-      "takeaway": "NASA's implementation roadmap will clarify how lunar timeline acceleration affects commercial partnerships and industrial contractor resource allocation.",
+      "takeaway": "NASA's accelerated Moon return timeline of 2028 under Trump's space policy signals increased resource allocation and operational urgency for lunar infrastructure and human spaceflight programs.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-to-provide-update-on-implementation-of-national-space-policy/"
@@ -49,11 +65,31 @@
       "publishedAt": "2026-03-23T14:20:59.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Part 5's structured risk assessment framework provides operators with standardized methods to identify hazards before they escalate into safety events.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-23T15:02:43.745Z",
+      "paiContent": true
+    },
+    {
       "id": "3hpamj",
       "type": "news",
       "headline": "NASA’s Hubble Revisits Crab Nebula to Track 25 Years of Expansion",
       "blurb": "A quarter-century after its first observations of the full Crab Nebula, NASA’s Hubble Space Telescope has taken a fresh look at the supernova remnant. The result is an unparalleled, detailed look at the aftermath of a supernova and how it has evolved over Hubble’s long lifetime. A paper detailing...",
-      "takeaway": "Hubble's quarter-century dataset on the Crab Nebula provides aerospace engineers with unprecedented data on supernova dynamics and stellar debris behavior, directly informing deep-space mission planning and radiation shielding requirements.",
+      "takeaway": "Hubble's quarter-century monitoring of Crab Nebula expansion provides critical validation data for supernova physics models that inform aerospace propulsion and energy generation research.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-revisits-crab-nebula-to-track-25-years-of-expansion/"
@@ -66,48 +102,11 @@
       "publishedAt": "2026-03-23T14:00:54.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation from investigating accidents after they occur to systematically identifying and mitigating hazards before incidents happen.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-23T14:57:44.418Z",
-      "paiContent": true
-    },
-    {
-      "id": "pine45",
-      "type": "news",
-      "headline": "York Space rides defense demand as procurement changes cloud outlook",
-      "blurb": "The company points to backlog and commercial wins as it navigates transition in Space Development Agency-led programs The post York Space rides defense demand as procurement changes cloud outlook appeared first on SpaceNews.",
-      "takeaway": "York Space's growing defense backlog provides near-term revenue stability even as SDA program restructuring introduces uncertainty about long-term space procurement patterns and satellite constellation viability.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/york-space-rides-defense-demand-as-procurement-changes-cloud-outlook/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-23T14:00:00.000Z"
-    },
-    {
       "id": "2p61m3",
       "type": "news",
       "headline": "This Airline Has The World’s Best Economy Class Seat In 2026",
       "blurb": "Japan Airlines was recently given the award for the best economy class seat in the world.",
-      "takeaway": "JAL's economy seat recognition signals that premium cabin features are increasingly becoming competitive differentiators in mainstream travel rather than luxury-tier exclusives.",
+      "takeaway": "JAL's economy seat advancement signals a competitive shift where carriers are investing in premium coach experiences to differentiate on long-haul routes and improve revenue per available seat mile.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/worlds-best-economy-seat-2026/"
@@ -123,7 +122,7 @@
       "type": "news",
       "headline": "Air Canada Jet Crash at LaGuardia Kills Two Pilots",
       "blurb": "Crash shuts down major New York airport, injures dozens and disrupts hundreds of flights.",
-      "takeaway": "Airport closures from major incidents can cascade disruptions across regional networks, underscoring the need for robust contingency planning and alternative routing protocols.",
+      "takeaway": "Airport closure from fatal crash will cascade operational disruptions across Northeast aviation networks for days, straining recovery capacity.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/air-canada-jet-crash-laguardia-kills-two/"
@@ -137,11 +136,31 @@
       "publishedAt": "2026-03-23T13:26:50.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Strong reporting cultures reduce accidents by enabling proactive hazard identification before incidents occur, making SMS effectiveness dependent on leadership commitment to psychological safety.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-23T15:02:43.745Z",
+      "paiContent": true
+    },
+    {
       "id": "7uiols",
       "type": "news",
       "headline": "Squawk 7700: Aer Lingus A330 Briefly Becomes World's Most Tracked Plane Amid Medical Emergency",
       "blurb": "The plane landed safely in the Irish capital, where it was met by emergency services.",
-      "takeaway": "Medical emergencies triggering 7700 squawks generate massive public tracking interest, highlighting how real-time flight data transparency impacts airline reputation and operational communication strategies.",
+      "takeaway": "Medical emergencies triggering emergency broadcasts create real-time crowd-sourced flight tracking spikes that highlight aviation's transparency and global interest in safety outcomes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/aer-lingus-airbus-a330-most-tracked-plane/"
@@ -153,31 +172,11 @@
       "publishedAt": "2026-03-23T13:06:25.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 risk assessment methodology provides structured frameworks that operators can apply to identify hazards earlier in decision-making processes, potentially preventing incidents before they occur.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-23T14:57:44.418Z",
-      "paiContent": true
-    },
-    {
       "id": "u3x602",
       "type": "news",
       "headline": "Here’s Why The US Navy Still Needs The F/A-18 Super Hornet In 2026",
       "blurb": "With over 4 million flight hours and continuous upgrades, the combat-proven Super Hornet remains a cornerstone of carrier air wings.",
-      "takeaway": "The Navy's reliance on aging F/A-18s through 2026 reveals critical delays in next-generation fighter procurement and potential readiness gaps as adversaries modernize.",
+      "takeaway": "The Navy's reliance on the aging F/A-18 Super Hornet through 2026 reveals critical delays in next-generation fighter development and sustained demand for reliable legacy platforms in operational readiness.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-us-navy-still-needs-fa-18-super-hornet-2026/"
@@ -191,7 +190,7 @@
       "type": "news",
       "headline": "Press Release: Finnair orders up to 46 Embraer E195-E2 twinjets",
       "blurb": "Embraer and Finnair have signed an agreement for up to 46 E195-E2 aircraft, comprising 18 firm orders, 16 options, and 12 purchase rights. The E195-E2 will replace Finnair’s older aircraft, supporting the airline’s strategy for profitable growth. Selected for its superior efficiency, reliability,...",
-      "takeaway": "Finnair's 18-firm-order commitment to E195-E2s signals confidence in regional jet profitability amid industry restructuring toward larger, more efficient narrowbodies.",
+      "takeaway": "Finnair's commitment to 46 E195-E2 aircraft signals confidence in regional twin-jet economics for profitable European operations while modernizing its fleet.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/finnair-embraer-e195-e2/"
@@ -204,27 +203,34 @@
       "publishedAt": "2026-03-23T13:00:02.000Z"
     },
     {
-      "id": "n9etlz",
-      "type": "news",
-      "headline": "The software behind Artemis, Gateway and America’s defense in space deserves its own strategy",
-      "blurb": "When we talk about national space infrastructure, we talk about rockets, launch pads and ground stations. We invest billions in the vehicles that carry astronauts to the moon and the telescopes that peer to the edge of the universe. But we rarely talk about the software that makes all of it work....",
-      "takeaway": "Space mission-critical software represents an underinvested national security vulnerability requiring dedicated strategic focus beyond hardware procurement.",
+      "id": "yt-faa-aviation-safety-oshkosh",
+      "type": "video",
+      "headline": "FAA Aviation Safety at Oshkosh",
+      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
+      "takeaway": "FAA's on-site safety personnel at AirVenture actively engage general aviation pilots with real-time compliance guidance and risk mitigation strategies beyond standard regulatory enforcement.",
       "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/the-software-behind-artemis-gateway-and-americas-defense-in-space-deserves-its-own-strategy/"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
       },
-      "category": "aerospace",
+      "category": "safety",
       "keywords": [
-        "space"
+        "regulation",
+        "hypoxia",
+        "accident",
+        "certification",
+        "medicine",
+        "forum"
       ],
-      "publishedAt": "2026-03-23T13:00:00.000Z"
+      "publishedAt": "2026-03-23T15:02:43.745Z",
+      "videoContent": true,
+      "duration": "16:49"
     },
     {
       "id": "9xjyz8",
       "type": "news",
       "headline": "Massive Boost: Singapore Airlines Adds Airbus A380 Flights On This Critical Long-Haul Route",
       "blurb": "Superjumbo service returns to this hugely important route after a three-year absence.",
-      "takeaway": "A380 redeployment to a premium long-haul route signals confidence in sustained demand recovery and justifies the aircraft's high operating costs on specific profitable segments.",
+      "takeaway": "Singapore Airlines' A380 redeployment signals confidence in ultra-long-haul premium cabin demand recovery and efficient deployment of high-capacity aircraft on profitable routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/massive-boost-singapore-airlines-adds-airbus-a380-flights-on-this-critical-long-haul-route/"
@@ -237,34 +243,11 @@
       "publishedAt": "2026-03-23T12:41:17.000Z"
     },
     {
-      "id": "yt-faa-aviation-safety-oshkosh",
-      "type": "video",
-      "headline": "FAA Aviation Safety at Oshkosh",
-      "blurb": "Go behind the scenes at EAA AirVenture with the FAA's Aviation Safety organization. Meet the people who help ensure safety at this event and provide essential information resources to the general aviation community.",
-      "takeaway": "The FAA's embedded safety team at AirVenture demonstrates proactive risk management at high-traffic events while using the venue as a platform to disseminate safety guidance directly to general aviation operators.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=hlAFUO1S0Xs"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "regulation",
-        "hypoxia",
-        "accident",
-        "certification",
-        "medicine",
-        "forum"
-      ],
-      "publishedAt": "2026-03-23T14:57:44.418Z",
-      "videoContent": true,
-      "duration": "16:49"
-    },
-    {
       "id": "zcn7o7",
       "type": "news",
       "headline": "10 longest US Domestic",
       "blurb": "Until the latest schedule update, United Airlines was to operate the US's longest domestic route in 2026. It was to be from Newark to Honolulu. But it has now been relegated to the second spot. But what are the top 10 longest domestic US flights this year?",
-      "takeaway": "Alaska Airlines now operates the longest US domestic route (Honolulu-Boston), surpassing United's Newark-Honolulu service and signaling intensifying competition on ultra-long-haul domestic segments.",
+      "takeaway": "Alaska Airlines' Seattle-Honolulu expansion has reclaimed the longest domestic route title from United's planned Newark service, signaling intensifying competition for ultra-long domestic markets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/10-longest-us-domestic/"
@@ -280,7 +263,7 @@
       "type": "news",
       "headline": "DJI sues Insta360 days before Avata 360 drone launch",
       "blurb": "Just as DJI is gearing up to unveil its first-ever 360-degree FPV drone, the Avata 360, the company has launched a legal offensive against its fastest-rising rival, Insta360. And this time, the battle isn’t about specs or features — it’s about who owns the underlying technology powering the next ...",
-      "takeaway": "DJI's pre-launch lawsuit against Insta360 signals intensifying intellectual property disputes in the competitive 360-degree FPV drone market as technology convergence accelerates.",
+      "takeaway": "DJI's pre-launch lawsuit against Insta360 signals intensifying IP battles as 360-degree FPV drone technology becomes a critical competitive differentiator in the consumer drone market.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/23/dji-insta360-lawsuit-patent-drone/"
@@ -292,11 +275,27 @@
       "publishedAt": "2026-03-23T12:07:36.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across airlines, airports, and flight planning can simultaneously address capacity constraints and environmental concerns without waiting for new aircraft technology.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-23T15:02:43.745Z"
+    },
+    {
       "id": "9pdbz5",
       "type": "news",
       "headline": "B-52s are now Launching from RAF Fairford Loaded with JDAM Bombs",
       "blurb": "After initially employing only AGM-158 JASSM stand-off weapons, B-52s are now launching from RAF Fairford with the external pylons fully loaded with GBU-31 JDAM bombs. After weeks flying only with AGM-158 Joint Air-to-Surface Standoff Missiles (JASSM) under their wings, the U.S. Air Force B-52H S...",
-      "takeaway": "B-52 operational flexibility has expanded at RAF Fairford to include precision-guided munitions alongside standoff missiles, demonstrating sustained US air power commitment to European deterrence.",
+      "takeaway": "B-52 deployments from RAF Fairford now include precision-guided munitions on external pylons, expanding operational payload flexibility beyond standoff missiles.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/23/b-52s-launching-from-raf-fairford-with-jdams/"
@@ -310,7 +309,7 @@
       "type": "news",
       "headline": "beOnd to launch flights to Paris and London, add frequency to Zurich, Munich",
       "blurb": "Luxury airline beOnd announced on March 23, 2026, that it will be connecting Male (MLE), in the Maldives,… The post beOnd to launch flights to Paris and London, add frequency to Zurich, Munich appeared first on AeroTime.",
-      "takeaway": "beOnd's European expansion targets premium leisure travelers from the Maldives, signaling growing ultra-luxury airline viability beyond traditional hubs.",
+      "takeaway": "beOnd's expansion into major European leisure and business hubs signals growing demand for ultra-premium point-to-point services beyond traditional long-haul markets.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/beond-to-launch-flights-to-paris-and-london-add-frequency-to-zurich-munich"
@@ -322,27 +321,11 @@
       "publishedAt": "2026-03-23T11:46:06.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across integrated airline-airport-flight systems offers greater near-term emissions reductions than technology alone, requiring systemic coordination rather than isolated upgrades.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-23T14:57:44.418Z"
-    },
-    {
       "id": "2aw7uv",
       "type": "news",
       "headline": "Russian Progress cargo craft to dock manually with ISS after antenna issue",
       "blurb": "A Russian Progress cargo spacecraft heading to the International Space Station (ISS) will have to be docked manually… The post Russian Progress cargo craft to dock manually with ISS after antenna issue appeared first on AeroTime.",
-      "takeaway": "Manual docking procedures remain critical contingency capabilities for ISS operations when automated systems fail, emphasizing redundancy in human spaceflight infrastructure.",
+      "takeaway": "Manual docking procedures remain critical contingency capability for ISS resupply operations when automated systems fail, highlighting dependence on ground control expertise.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/russian-progress-manual-docking-iss-antenna-issue"
@@ -358,7 +341,7 @@
       "type": "news",
       "headline": "2 Extra Inches On 237 Aircraft: easyJet Orders New Airbus A320neo Seats As Newcastle Base Opens",
       "blurb": "The British low-cost carrier is investing heavily in its fleet and network.",
-      "takeaway": "easyJet's seat modification strategy demonstrates how LCCs extract incremental revenue through cabin reconfiguration rather than aircraft replacement.",
+      "takeaway": "easyJet's seat density optimization demonstrates how LCCs extract incremental revenue gains through cabin reconfiguration rather than aircraft expansion.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/easyjet-orders-new-airbus-a320neo-seats-opens-newcastle-base/"
@@ -374,7 +357,7 @@
       "type": "news",
       "headline": "6-Hour Lines: Delta Staff Step In As TSA Shortages Paralyze Atlanta Hub",
       "blurb": "Errors on the airport's website have compounded the situation.",
-      "takeaway": "Airlines are now absorbing customer service functions typically handled by government agencies, signaling a critical inflection point where operational gaps may force carriers to restructure airport staffing models.",
+      "takeaway": "Delta's operational resilience in covering TSA gaps reveals how airlines are becoming de facto security partners when government staffing fails, creating liability and service quality risks.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-staff-tsa-shortage-atlanta-6-hour-lines/"
@@ -390,7 +373,7 @@
       "type": "news",
       "headline": "A Look At The Salaries Of Commercial Widebody Captains At Major US Airlines",
       "blurb": "For many, becoming a widebody captain is a the final stage of a pilot's aviation career and when they earn the highest salary.",
-      "takeaway": "Major US carriers offer widebody captain salaries ranging from $250K-$350K annually, with seniority and airline profitability directly impacting earnings and career progression timelines.",
+      "takeaway": "Major US carriers compensate widebody captains at $300k-$400k annually, reflecting two decades of seniority investments and the airline's operational risk exposure on international routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/salaries-commercial-widebody-captains-major-us-airlines/"
@@ -403,28 +386,11 @@
       "publishedAt": "2026-03-23T10:00:17.000Z"
     },
     {
-      "id": "25lnna",
-      "type": "news",
-      "headline": "Lunar lander developers say they are ready to meet anticipated increased NASA demand",
-      "blurb": "Two lunar lander companies say they’re ready to meet NASA’s plans for a major increase in the cadence of landings but offered few details about how they would do so. The post Lunar lander developers say they are ready to meet anticipated increased NASA demand appeared first on SpaceNews.",
-      "takeaway": "Lunar lander manufacturers are positioning for NASA's accelerated landing schedule, signaling commercial space infrastructure maturity for sustained lunar operations.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/lunar-lander-developers-say-they-are-ready-to-meet-anticipated-increased-nasa-demand/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-23T09:40:29.000Z"
-    },
-    {
       "id": "r9ynt2",
       "type": "news",
       "headline": "SNC’s AEGIR-W Sea Drone Washes Ashore on Turkey’s Black Sea Coast",
       "blurb": "The AEGIR-W Unmanned Surface Vessel mysteriously ran aground on the Black Sea Coast in northeastern Turkey and was later blown up by Turkish authorities. An Unmanned Surface Vessel (USV) was found washed ashore on northeastern Turkey’s Black Sea coast in the Ordu region early in the afternoon of ...",
-      "takeaway": "Loss of autonomous maritime systems in contested regions raises operational security concerns for defense contractors operating near geopolitical flashpoints.",
+      "takeaway": "Loss of autonomous maritime platform highlights operational risks and geopolitical sensitivities when unmanned systems operate near contested strategic waterways without reliable recovery protocols.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/23/aegir-w-sea-drone-washes-ashore-turkey/"
@@ -440,7 +406,7 @@
       "type": "news",
       "headline": "Greenland’s ice secrets uncovered using DJI drone technology",
       "blurb": "There’s a reason scientists are increasingly turning to drones to understand climate change, and a new mission in Greenland shows exactly why. more…",
-      "takeaway": "Drone deployment in Arctic research enables real-time ice dynamics monitoring at lower operational costs than traditional manned aircraft, expanding climate science capabilities.",
+      "takeaway": "Drone-based environmental monitoring is becoming critical infrastructure for climate research, expanding commercial drone applications beyond traditional inspection and mapping into scientific discovery.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/23/dji-drone-greenland-glacier-iceberg/"
@@ -456,7 +422,7 @@
       "type": "news",
       "headline": "Finnair signs deal for up to 46 Embraer E195-E2s, source Airbus A320/321ceos",
       "blurb": "Finnair has signed an agreement with Embraer for up to 46 E195-E2s and announced plans to source up… The post Finnair signs deal for up to 46 Embraer E195-E2s, source Airbus A320/321ceos appeared first on AeroTime.",
-      "takeaway": "Finnair's dual aircraft strategy balances Embraer's regional capacity with Airbus narrowbodies, signaling a shift toward right-sized fleet management for Nordic route economics.",
+      "takeaway": "Finnair's dual aircraft strategy signals a strategic shift toward regional capacity expansion while modernizing its narrowbody fleet for competitive positioning in Nordic markets.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/finnair-signs-deal-embraer-e195-e2s-airbus-a320-321ceos"
@@ -473,7 +439,7 @@
       "type": "news",
       "headline": "Two dead after Air Canada Express CRJ900 hits fire truck at LaGuardia",
       "blurb": "An Air Canada Express regional jet struck a Port Authority firefighting vehicle on Runway 4 at New York… The post Two dead after Air Canada Express CRJ900 hits fire truck at LaGuardia appeared first on AeroTime.",
-      "takeaway": "Ground vehicle collisions during runway operations represent a critical safety gap requiring enhanced coordination protocols between aircraft and airport emergency response teams.",
+      "takeaway": "Ground vehicle safety protocols at major airports require urgent review following this fatality incident involving active runway operations during emergency response.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/air-canada-express-crj900-hits-fire-truck-laguardia"
@@ -483,29 +449,11 @@
       "publishedAt": "2026-03-23T07:08:00.000Z"
     },
     {
-      "id": "35vjcz",
-      "type": "news",
-      "headline": "Airbus A380 Vs. Boeing 747: The 5 Major Differences In Pilot Cockpit Layouts",
-      "blurb": "Both icons of the sky, the A380 and 747 have stark differences in the cockpit.",
-      "takeaway": "Cockpit layout differences between the A380 and 747 reflect divergent design philosophies that impact pilot workload, training requirements, and operational procedures.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/airbus-a380-boeing-747-5-major-differences-cockpit-layouts/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing",
-        "airbus",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-23T07:00:17.000Z"
-    },
-    {
       "id": "jvb120",
       "type": "news",
       "headline": "ITA Airways to join Lufthansa Group’s frequent flyer program Miles & More",
       "blurb": "ITA Airways will join Lufthansa Group’s frequent flyer program Miles & More from next month, opening the loyalty… The post ITA Airways to join Lufthansa Group’s frequent flyer program Miles & More appeared first on AeroTime.",
-      "takeaway": "ITA Airways' integration into Miles & More expands Lufthansa Group's loyalty ecosystem across Southern Europe, potentially increasing competitive pressure on non-alliance carriers in the Mediterranean market.",
+      "takeaway": "ITA Airways' integration into Miles & More expands Lufthansa Group's loyalty network across Southern Europe and strengthens competitive positioning against rival alliances.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/ita-airways-to-join-lufthansa-groups-frequent-flyer-program-miles-more"
@@ -519,7 +467,7 @@
       "type": "news",
       "headline": "A Fault Line in Full Bloom",
       "blurb": "Plains around the San Andreas Fault and across Carrizo Plain National Monument are awash with yellow as wildflowers bloom.",
-      "takeaway": "Geological monitoring of fault zones through satellite imagery and aerial surveys provides critical data for seismic risk assessment affecting airport infrastructure and aviation operations in California.",
+      "takeaway": "This article about wildflowers and geology has no relevance to aviation or aerospace industries.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/a-fault-line-in-full-bloom/"
@@ -529,27 +477,11 @@
       "publishedAt": "2026-03-23T04:01:00.000Z"
     },
     {
-      "id": "g85ofs",
-      "type": "news",
-      "headline": "Swissto12 to build small optical relay GEO satellite for Space Compass",
-      "blurb": "Swissto12, the Switzerland-based small geostationary satellite specialist, has signed a contract to build the first optical relay spacecraft using its washing machine-sized HummingSat platform. The post Swissto12 to build small optical relay GEO satellite for Space Compass appeared first on Space...",
-      "takeaway": "Compact GEO satellite platforms are enabling new optical relay constellations that could support aviation communications and navigation infrastructure.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/swissto12-to-build-small-optical-relay-geo-satellite-for-space-compass/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-23T04:01:00.000Z"
-    },
-    {
       "id": "w2760j",
       "type": "news",
       "headline": "EASA publishes the updated Easy Access Rules for Large Rotorcraft (CS-29)",
       "blurb": "EASA publishes the updated Easy Access Rules for Large Rotorcraft (CS-29) European Union Aviation Safety Agency has published the Amendment 12 of the Easy Access Rules for Large Rotorcraft (CS-29) available in PDF, machine-readable XML, and in a new improved online version with: Annalisa Farina M...",
-      "takeaway": "EASA's CS-29 Amendment 12 update introduces machine-readable XML and enhanced online accessibility, streamlining regulatory compliance documentation for large rotorcraft manufacturers and operators.",
+      "takeaway": "Amendment 12 introduces machine-readable XML and an improved online format to the CS-29 rules, significantly enhancing accessibility and integration capabilities for rotorcraft manufacturers and operators.",
       "source": {
         "name": "EASA",
         "url": "https://www.easa.europa.eu/newsroom-and-events/news/easa-publishes-updated-easy-access-rules-large-rotorcraft-cs-29-0"
@@ -567,7 +499,7 @@
       "type": "news",
       "headline": "Transformational Tools and Technologies Resources",
       "blurb": "Vision Studies, Analysis of Alternatives (AoA) Studies, and White Papers",
-      "takeaway": "Strategic planning resources like vision studies and alternatives analysis help aerospace organizations systematically evaluate competing technology pathways before major investment decisions.",
+      "takeaway": "Structured analytical frameworks like vision studies and AoA methodologies enable evidence-based decision-making for complex aerospace program development and technology investment prioritization.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/directorates/armd/tacp/ttt/ttt-resources/"
@@ -581,7 +513,7 @@
       "type": "news",
       "headline": "The Tomcat’s Six Pack: The F-14 Six on Six Phoenix Test",
       "blurb": "Designed for fleet air defense, the F-14 was armed with a potent long-range missile and, with a powerful new radar, could engage multiple airborne targets at once. The United States Navy’s F-14 Tomcat was the most potent fleet defense aircraft of its time. Its AIM-54 Phoenix missile had a long ra...",
-      "takeaway": "The F-14's simultaneous multi-target engagement capability via Phoenix missiles represented a paradigm shift in fleet defense doctrine by enabling single aircraft to neutralize multiple threats beyond visual range.",
+      "takeaway": "The F-14's capability to simultaneously engage six targets with AIM-54 Phoenix missiles established a revolutionary multi-target engagement standard that influenced naval air defense doctrine for decades.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/22/the-tomcats-six-pack-the-f-14-six-on-six-phoenix-test/"
@@ -589,6 +521,68 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-22T18:43:16.000Z"
+    },
+    {
+      "id": "w1v5md",
+      "type": "news",
+      "headline": "U.S. Army Receives DARPA’s Optionally Piloted H-60Mx Black Hawk",
+      "blurb": "The U.S. Army will put the H-60Mx and Sikorsky’s MATRIX flight autonomy software through a rigorous operational testing campaign with real world logistics in contested scenarios. The U.S. Army received on Mar. 19, 2026, the H-60Mx Black Hawk Optionally Piloted Vehicle (OPV) at Fort Eustis, Virgin...",
+      "takeaway": "Army's autonomous Black Hawk testing in contested logistics scenarios validates DARPA's MATRIX autonomy for real-world military operations beyond lab environments.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/22/us-army-receives-darpa-optionally-piloted-h-60mx-black-hawk/"
+      },
+      "category": "military",
+      "keywords": [
+        "pilot"
+      ],
+      "publishedAt": "2026-03-22T18:18:10.000Z"
+    },
+    {
+      "id": "z19lf7",
+      "type": "news",
+      "headline": "How Quvia helps airlines throw out the IFC playbook and take control",
+      "blurb": "The inflight connectivity marketplace is moving very quickly. And aviation industry stakeholders have never seen anything like it before. The cycles are getting faster. The technology is evolving rapidly, including the antenna hardware. At least five or more broadband Low Earth Orbit (LEO) satell...",
+      "takeaway": "Airlines can now bypass traditional IFC vendors and directly manage connectivity solutions through marketplace platforms, reducing dependency on legacy providers and accelerating technology adoption cycles.",
+      "source": {
+        "name": "Runway Girl Network",
+        "url": "https://runwaygirlnetwork.com/2026/03/how-quvia-helps-airlines-throw-out-the-ifc-playbook-and-take-control/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-03-22T16:16:18.000Z"
+    },
+    {
+      "id": "r5sqm6",
+      "type": "news",
+      "headline": "Video Shows Saab 340 Airborne Radar Flying in Ukraine",
+      "blurb": "The Saab 340 AEW, also called the S 100D Argus, will enhance Ukraine’s situational awareness when facing Russian cruise missile and kamikaze drone barrages. Ukraine appears to have received its first Airborne Early Warning and Control (AEW&C) aircraft, after the Swedish Saab 340 airborne radar wa...",
+      "takeaway": "Ukraine's acquisition of airborne early warning capability significantly elevates its air defense coordination against distributed Russian missile and drone attacks.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/22/saab-340-aew-ukraine/"
+      },
+      "category": "military",
+      "keywords": [
+        "drone"
+      ],
+      "publishedAt": "2026-03-22T12:02:05.000Z"
+    },
+    {
+      "id": "hryuy4",
+      "type": "news",
+      "headline": "De Havilland Canada delivers 1,000th DHC-6 Twin Otter, first introduced in 1966",
+      "blurb": "De Havilland Canada is celebrating the 1,000th delivery of its versatile DHC-6 Twin Otter after over six decades… The post De Havilland Canada delivers 1,000th DHC-6 Twin Otter, first introduced in 1966 appeared first on AeroTime.",
+      "takeaway": "The Twin Otter's 1,000-unit milestone across 58 years demonstrates exceptional market longevity and sustained demand for rugged, short-takeoff-landing capability in niche aviation segments.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/de-havilland-canada-delivers-1000th-dhc-6-twin-otter"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-22T11:26:26.000Z"
     }
   ]
 }
