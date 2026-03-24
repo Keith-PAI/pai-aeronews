@@ -1,12 +1,43 @@
 {
-  "lastUpdated": "2026-03-24T02:41:26.814Z",
+  "lastUpdated": "2026-03-24T05:00:10.548Z",
   "articles": [
+    {
+      "id": "qaqvvy",
+      "type": "news",
+      "headline": "Tropical Cyclone Narelle Crosses Australia",
+      "blurb": "The powerful storm lashed the northern edge of the continent with damaging winds and drenching rain as it made landfall multiple times.",
+      "takeaway": "Cyclone Narelle's multiple landfall pattern creates sustained low-visibility and wind shear hazards across northern Australian airports, disrupting regional aviation operations beyond initial impact zones.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/"
+      },
+      "category": "safety",
+      "keywords": [],
+      "publishedAt": "2026-03-24T04:01:00.000Z"
+    },
+    {
+      "id": "akzer2",
+      "type": "news",
+      "headline": "Boeing 787 Range Boost: FAA Approves 400 Extra Miles For The Dreamliner",
+      "blurb": "Boeing's best widebody is getting an upgrade.",
+      "takeaway": "Extended 787 range enables direct transatlantic routing from more North American cities, reducing fuel costs and improving crew scheduling efficiency for operators.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/boeing-787-faa-mtow-boost-400-mile-range/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "faa"
+      ],
+      "publishedAt": "2026-03-24T03:38:29.000Z"
+    },
     {
       "id": "qttd9s",
       "type": "news",
       "headline": "Brussels Airlines BRU-JFK: distinctly Belgian and rather decadent",
       "blurb": "Brussels Airlines, part of the Lufthansa Group, is an odd duck. Despite operating in a unique market, Africa, and being the main airline serving the de facto political capital of Europe, its long-haul fleet comprises ageing Airbus A330s with a variety of business class cabins. While some of the t...",
-      "takeaway": "Brussels Airlines' fragmented business class cabin configurations across its aging A330 fleet create operational complexity that rivals often exploit, particularly on competitive transatlantic routes where product consistency drives premium bookings.",
+      "takeaway": "Brussels Airlines' aging A330 fleet with mismatched business-class configurations reflects cost constraints within Lufthansa Group that limit competitive modernization on key transatlantic and African routes.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/distinctly-belgian-and-rather-decadent-a-brussels-airlines-a330-review/"
@@ -19,11 +50,32 @@
       "publishedAt": "2026-03-24T02:30:10.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern aviation SMS shifts from investigating accidents post-occurrence to systematically identifying and mitigating hazards before they cause incidents, fundamentally transforming safety culture industry-wide.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-24T04:59:31.873Z",
+      "paiContent": true
+    },
+    {
       "id": "j5jxf2",
       "type": "news",
       "headline": "How Much Does An Airbus A350-900 Cost In 2026?",
       "blurb": "Despite its high list price, the A350-900's presence on the global stage is massive.",
-      "takeaway": "Airlines typically negotiate 40-50% discounts off Airbus's $445M list price for A350-900s, making actual acquisition costs significantly lower than published figures suggest.",
+      "takeaway": "Airbus A350-900 list prices in 2026 will reflect inflationary pressures and supply chain dynamics, though actual transaction prices typically discount 40-50% from published figures.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-a350-900-cost-2026/"
@@ -39,7 +91,7 @@
       "type": "news",
       "headline": "NTSB Team Still En Route To LaGuardia: Delayed By TSA Lines",
       "blurb": "The NTSB is undertaking a complete walking inspection of the LaGuardia crash site, facing a tremendous amount of debris strewn across the runway and taxiways.",
-      "takeaway": "TSA security delays are impacting accident investigation timelines, highlighting potential friction between aviation safety and airport security protocols.",
+      "takeaway": "Paradoxically, standard airport security protocols are slowing the very federal investigators tasked with improving aviation safety.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/ntsb-team-still-en-route-to-laguardia-delayed-by-tsa-lines/"
@@ -52,32 +104,11 @@
       "publishedAt": "2026-03-24T00:06:39.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation's risk approach from investigating accidents after they occur to identifying and mitigating hazards before incidents happen.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-24T02:40:41.899Z",
-      "paiContent": true
-    },
-    {
       "id": "alsq6c",
       "type": "news",
       "headline": "The B-2 Spirit Bomber’s Flat Architecture Explained: Radar Evasion Tactics For Pilots",
       "blurb": "Inside America's tailless, flying wing stealth bomber.",
-      "takeaway": "The B-2's blended flying-wing design eliminates vertical surfaces that reflect radar signals, fundamentally reducing detectability compared to conventional fuselage-and-tail aircraft architectures.",
+      "takeaway": "The B-2's flying wing design minimizes radar cross-section by eliminating vertical surfaces that typically reflect signals, fundamentally changing how military aviation approaches stealth geometry.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/b-2-spirit-bomber-flat-architechture-explained/"
@@ -89,11 +120,31 @@
       "publishedAt": "2026-03-24T00:00:18.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to systematically document why selected controls are proportionate to identified hazards and justify acceptance of remaining risks.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-24T04:59:31.873Z",
+      "paiContent": true
+    },
+    {
       "id": "41y1hk",
       "type": "news",
       "headline": "The 5 Largest US Air Force Bases By Active Aircraft Count In 2026",
       "blurb": "From trainers to transport jets, explore the 5 largest US Air Force bases by aircraft count in 2026 and how they power global operations.",
-      "takeaway": "The geographic concentration of active aircraft at five major US Air Force bases reveals critical operational vulnerabilities that adversaries could exploit through coordinated targeting.",
+      "takeaway": "US Air Force operational capacity remains concentrated at five major hubs, creating strategic vulnerabilities and maintenance bottlenecks that planners must address.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/largest-usaf-bases-active-aircraft-2026/"
@@ -107,7 +158,7 @@
       "type": "news",
       "headline": "Air Canada Flight Attendant Thrown 100 Meters In Jump Seat During LaGuardia Crash",
       "blurb": "A flight attendant's miraculous survival after being thrown more than 100 meters from an Air Canada Express plane during a fatal crash at LGA.",
-      "takeaway": "Extreme g-forces during crash impacts can eject occupants despite restraint systems, highlighting critical gaps in jump seat safety engineering standards.",
+      "takeaway": "Severe crash forces aircrew to reconsider jump seat safety protocols as extreme forces can eject personnel far beyond fuselage wreckage.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canada-flight-attendant-thrown-from-plane-laguardia-crash/"
@@ -119,31 +170,11 @@
       "publishedAt": "2026-03-23T22:36:32.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Organizations must document why residual risks remain acceptable after implementing controls, creating a compliance and liability trail for regulators and accident investigators.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-03-24T02:40:41.899Z",
-      "paiContent": true
-    },
-    {
       "id": "ded99q",
       "type": "news",
       "headline": "Why Newer Aircraft Aren’t Always Better",
       "blurb": "The newest jets promise efficiency and luxury, but hidden trade-offs lurk beneath the shiny exterior.",
-      "takeaway": "Operators must weigh modern aircraft's fuel efficiency gains against higher maintenance complexity, parts obsolescence risks, and total cost of ownership that often exceed older platforms.",
+      "takeaway": "Operators must weigh fuel efficiency gains against higher maintenance complexity and supply chain vulnerabilities that can offset newer aircraft's promised operational benefits.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-newer-aircraft-arent-always-better/"
@@ -153,16 +184,42 @@
       "publishedAt": "2026-03-23T22:00:18.000Z"
     },
     {
+      "id": "yt-nbaa-pt5-sms-small-ops-spsp",
+      "type": "video",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
+      "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
+      "takeaway": "Small operators can leverage structured SMS frameworks to demonstrate regulatory compliance while building sustainable safety cultures through leadership engagement and employee training.",
+      "source": {
+        "name": "NBAA (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kwaAzylG2bQ"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "policy",
+        "promotion",
+        "gap",
+        "leadership"
+      ],
+      "publishedAt": "2026-03-24T04:59:32.055Z",
+      "videoContent": true,
+      "duration": "20:47"
+    },
+    {
       "id": "wk5cpm",
       "type": "news",
       "headline": "Space Force adds cyber units to guard rocket launches",
       "blurb": "‘Cyber defense’ squadrons at Cape Canaveral and Vandenberg reflect growing concern over malicious hacks The post Space Force adds cyber units to guard rocket launches appeared first on SpaceNews.",
-      "takeaway": "Military space operations now require dedicated cyber defense infrastructure, signaling that launch facility vulnerabilities have become as critical as physical security threats.",
+      "takeaway": "Military launch operations now face coordinated cyber threats requiring dedicated defensive infrastructure, signaling the evolution of space security beyond traditional physical threats.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-force-adds-cyber-units-to-guard-rocket-launches/"
       },
-      "category": "aerospace",
+      "category": "military",
       "keywords": [
         "space"
       ],
@@ -173,7 +230,7 @@
       "type": "news",
       "headline": "The Real Reason Why Boeing Is Building The F-47 Stealth Fighter And Not Lockheed",
       "blurb": "The jet will be built on stealth, speed, and strategy.",
-      "takeaway": "Boeing's F-47 program represents a strategic pivot to recapture fighter jet market share through next-generation stealth capabilities rather than competing on traditional performance metrics.",
+      "takeaway": "Boeing's F-47 development signals a strategic pivot to compete in next-generation stealth fighter contracts where speed and stealth capabilities are becoming primary differentiators over traditional advantages.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/real-reason-why-boeing-building-f-47-stealth-fighter-not-lockheed/"
@@ -185,32 +242,11 @@
       "publishedAt": "2026-03-23T21:31:18.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
-      "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter accident",
-      "takeaway": "Wire strikes remain a leading fatal helicopter hazard despite pilot overconfidence in reaction time, requiring enhanced situational awareness and detection technologies.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-24T02:40:42.578Z",
-      "videoContent": true
-    },
-    {
       "id": "jhwiwr",
       "type": "news",
       "headline": "NASA Data Hackathon Inspires Community Action",
       "blurb": "On Jan. 31, students, library staff, researchers, and community members gathered at the University of Florida’s (UF) Marston Science Library for the Environmental Monitoring through Education, Research, and Geospatial Engagement (EMERGE) NASA Data Hackathon. This initiative empowers libraries, ed...",
-      "takeaway": "NASA's EMERGE hackathon demonstrates how open geospatial data can drive grassroots environmental solutions beyond traditional aerospace applications.",
+      "takeaway": "NASA's data hackathon model demonstrates how public-private partnerships in libraries can accelerate aerospace research democratization and community innovation in Earth observation applications.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/"
@@ -222,11 +258,34 @@
       "publishedAt": "2026-03-23T21:30:46.000Z"
     },
     {
+      "id": "yt-nbaa-pt5-sms-small-ops-srm",
+      "type": "video",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Risk Management",
+      "blurb": "This video covers the safety management system (SMS) component safety risk management, which determines the need for, and adequacy of, new or revised risk controls based on the assessment of acceptable risk.",
+      "takeaway": "Small operators must systematically assess acceptable risk thresholds to determine which safety controls are genuinely necessary, avoiding both under-protection and compliance bloat.",
+      "source": {
+        "name": "NBAA (YouTube)",
+        "url": "https://www.youtube.com/watch?v=Vx_idwnPZDE"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "aviation",
+        "safety",
+        "SMS",
+        "risk",
+        "management",
+        "SRM"
+      ],
+      "publishedAt": "2026-03-24T04:59:32.055Z",
+      "videoContent": true,
+      "duration": "9:39"
+    },
+    {
       "id": "wsswrv",
       "type": "news",
       "headline": "Confirmed: This Is Emirates' Only US Route That's Still Suspended",
       "blurb": "Eight in ten travelers transit via Dubai from Orlando to other international destinations",
-      "takeaway": "Emirates' Orlando suspension reflects broader post-pandemic network rationalization, with 80% of that route's traffic being connecting passengers rather than final destination travelers, making restoration dependent on rebuilding hubbing efficiency.",
+      "takeaway": "Emirates' Orlando suspension reflects hub-and-spoke vulnerability, as 80% of that route's value derived from onward connections rather than point-to-point demand.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/confirmed-emirates-only-us-route-suspended/"
@@ -240,12 +299,12 @@
       "type": "news",
       "headline": "FAA approves higher takeoff weights for Boeing 787-9 and 787-10",
       "blurb": "Boeing said on March 23, 2026, that the Federal Aviation Administration has certified increased maximum takeoff weight options… The post FAA approves higher takeoff weights for Boeing 787-9 and 787-10 appeared first on AeroTime.",
-      "takeaway": "Higher MTOW certifications enable 787 operators to carry additional payload on long-haul routes without requiring new aircraft purchases, directly improving fleet economics.",
+      "takeaway": "Higher MTOW certification enables Boeing 787s to carry additional cargo or fuel without redesign, directly improving aircraft profitability on long-haul routes.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/faa-clears-higher-takeoff-weight-boeing-787-9-787-10"
       },
-      "category": "regulatory",
+      "category": "commercial",
       "keywords": [
         "boeing",
         "faa"
@@ -253,33 +312,11 @@
       "publishedAt": "2026-03-23T21:01:54.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
-      "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use t",
-      "takeaway": "Eastern Iowa Airport's diverse traffic mix from trainers to air carriers makes it a critical hub for both pilot development and regional connectivity in the Midwest.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-24T02:40:42.578Z",
-      "videoContent": true
-    },
-    {
       "id": "vsm0jc",
       "type": "news",
       "headline": "Extra Security: Why All US F-14 Tomcats Were Destroyed In The Arizona Desert",
       "blurb": "How the US ensured that F-14 parts woudn't end up in enemy hands.",
-      "takeaway": "The systematic destruction of retired F-14s in Arizona reflected Cold War-era concerns that advanced fighter components could be reverse-engineered by adversaries if allowed to enter the global surplus market.",
+      "takeaway": "The systematic destruction of retired F-14s reflects Cold War concerns about advanced avionics and engine technology proliferation to hostile nations, establishing a precedent for military aircraft retirement protocols.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-us-f-14-tomcats-destroyed-arizona-desert/"
@@ -289,11 +326,27 @@
       "publishedAt": "2026-03-23T21:00:17.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all aviation sectors can simultaneously address capacity constraints and environmental pressures as traffic demand continues rising.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-24T04:59:32.055Z"
+    },
+    {
       "id": "vw86qn",
       "type": "news",
       "headline": "Phoenix Police Helicopters Targeted in Three Recent Shootings",
       "blurb": "Two of the three encounters took place over the weekend.",
-      "takeaway": "Rising threats to law enforcement aviation operations necessitate enhanced threat assessment protocols and operational security measures for rotorcraft conducting routine patrols.",
+      "takeaway": "Multiple attacks on law enforcement aircraft suggest escalating threats to rotorcraft operations in urban airspace, necessitating enhanced safety protocols for police aviation units.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/phoenix-police-helicopter-targeted-3-times/"
@@ -303,43 +356,11 @@
       "publishedAt": "2026-03-23T20:46:51.000Z"
     },
     {
-      "id": "1rjxsk",
-      "type": "news",
-      "headline": "110 Soldiers Onboard: Lockheed C-130 Crashes",
-      "blurb": "The Lockheed C-130 Hercules, a staple of military aviation, crashed in Colombia's Amazon region, leaving many questions about the cause.",
-      "takeaway": "The C-130's ubiquity across 70+ air forces masks critical operational risks in remote, high-altitude terrain where maintenance and emergency response capabilities are severely limited.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/lockheed-c-130-troop-transport-crash-south-amercia/"
-      },
-      "category": "military",
-      "keywords": [
-        "crash"
-      ],
-      "publishedAt": "2026-03-23T20:44:43.000Z"
-    },
-    {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational efficiency gains through technology integration offer near-term environmental benefits without waiting for fleet-wide aircraft replacement cycles.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-24T02:40:42.579Z"
-    },
-    {
       "id": "olz1wp",
       "type": "news",
       "headline": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
       "blurb": "Amazon vowed to double the annual launch rate for its low Earth orbit broadband constellation to more than 20 missions, hinging largely on rockets yet to prove themselves at scale. The post Amazon Leo targets faster deployment cadence as deadline pressure mounts appeared first on SpaceNews.",
-      "takeaway": "Amazon's Leo constellation acceleration depends on unproven rocket platforms, creating significant execution risk against regulatory deployment deadlines.",
+      "takeaway": "Amazon's aggressive LEO constellation timeline depends on unproven rocket capacity, creating execution risk that could impact satellite internet services for aviation connectivity.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/amazon-leo-targets-faster-deployment-cadence-as-deadline-pressure-mounts/"
@@ -355,7 +376,7 @@
       "type": "news",
       "headline": "ICE agents deployed to US airports as TSA staffing crisis worsens",
       "blurb": "Immigration and Customs Enforcement (ICE) officers began assisting at airport security checkpoints on March 23, 2026, as a partial US… The post ICE agents deployed to US airports as TSA staffing crisis worsens appeared first on AeroTime.",
-      "takeaway": "ICE deployment at security checkpoints signals that the TSA staffing shortage has reached critical operational levels requiring emergency cross-agency resource reallocation.",
+      "takeaway": "ICE deployment at TSA checkpoints signals escalating border security challenges are now directly impacting commercial aviation passenger processing capacity and wait times.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/ice-agents-deployed-to-us-airports-as-tsa-staffing-crisis-worsens"
@@ -371,7 +392,7 @@
       "type": "news",
       "headline": "Colombian military C-130 crashes after takeoff with 125 aboard",
       "blurb": "A Colombian Air Force Lockheed Martin C-130 Hercules with 125 people on board crashed shortly after takeoff on… The post Colombian military C-130 crashes after takeoff with 125 aboard appeared first on AeroTime.",
-      "takeaway": "The C-130's high passenger load suggests a humanitarian or troop transport mission, indicating military aviation operates at significant risk margins during surge operations.",
+      "takeaway": "The incident highlights critical risks of operating aging military transport aircraft at maximum capacity in challenging terrain, raising questions about maintenance standards and operational procedures in regional militaries.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/colombian-military-c130-crashes-after-takeoff"
@@ -387,7 +408,7 @@
       "type": "news",
       "headline": "Science Through Shadows: How Astronomical Alignments Reveal the Universe",
       "blurb": "When one celestial object passes in front of another, it can cast a shadow that travels across space – and sometimes across Earth. These moments of alignment, known as eclipses, occultations, and transits, allow scientists to study distant objects in remarkable ways. By observing how light change...",
-      "takeaway": "Astronomical alignment observations provide critical data for validating navigation systems and celestial positioning technologies essential to aviation operations.",
+      "takeaway": "Precise celestial alignment observation techniques used in astronomical research have direct applications to aircraft navigation systems and satellite tracking methodologies.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/learning-resources/science-activation/science-through-shadows-how-astronomical-alignments-reveal-the-universe/"
@@ -403,7 +424,7 @@
       "type": "news",
       "headline": "ICE Agents Assigned To Airports to Alleviate TSA Staffing Strain",
       "blurb": "ICE and Homeland Security Investigations personnel sent to 14 airports amid TSA absenteeism and resignations during partial shutdown.",
-      "takeaway": "ICE deployment to airports signals government willingness to repurpose immigration enforcement staff for aviation security screening, potentially establishing a precedent for cross-agency staffing flexibility during crises.",
+      "takeaway": "ICE deployment to airports indicates critical TSA staffing gaps threaten security screening capacity beyond temporary shutdown effects.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/ice-assigned-to-airports-tsa-staffing/"
@@ -419,7 +440,7 @@
       "type": "news",
       "headline": "Terra Drone Announces Strategic Entry into the Defense Equipment Market, As Drones Emerge as Game-Changers in Modern Defense",
       "blurb": "Terra Drone Corporation, a leading drone and Urban Air Mobility (UAM) technology company headquartered in",
-      "takeaway": "Defense sector adoption of commercial drone technology signals accelerating militarization of UAV platforms and potential revenue diversification for commercial operators.",
+      "takeaway": "Terra Drone's defense market expansion signals accelerating commercialization of drone technology in military applications beyond traditional reconnaissance.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/terra-drone-announces-strategic-entry-into-the-defense-equipment-market-as-drones-emerge-as-game-changers-in-modern-defense/"
@@ -436,7 +457,7 @@
       "type": "news",
       "headline": "Radiate Engineering & Design introduces FlyBlocks – a production-ready structuralairframe platform for long-range VTOL UAV applications",
       "blurb": "Radiate Engineering & Design AG, based in Zurich, introduces FlyBlocks, a production-ready structuralairframe platform for",
-      "takeaway": "FlyBlocks standardizes VTOL UAV airframe design for production, potentially reducing development costs and accelerating commercial deployment of long-range autonomous systems.",
+      "takeaway": "FlyBlocks enables manufacturers to rapidly deploy long-range VTOL UAVs by providing pre-engineered structural components, reducing development cycles and time-to-market significantly.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/radiate-engineering-design-introduces-flyblocks-a-production-ready-structuralairframe-platform-for-long-range-vtol-uav-applications/"
@@ -450,7 +471,7 @@
       "type": "news",
       "headline": "Parsons unveils new satellite antenna aimed at military market",
       "blurb": "Hybrid antenna developed by Parsons and Raven Defense combines a six-meter parabolic dish with an electronically steered phased-array feed The post Parsons unveils new satellite antenna aimed at military market appeared first on SpaceNews.",
-      "takeaway": "Parsons' hybrid antenna design combining mechanical and electronic steering could reduce military satellite communication costs while improving flexibility for deployed operations.",
+      "takeaway": "Hybrid antenna technology combining parabolic and phased-array systems enables military satellite communications with enhanced flexibility and reduced mechanical complexity.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/parsons-unveils-new-satellite-antenna-aimed-at-military-market/"
@@ -467,7 +488,7 @@
       "type": "news",
       "headline": "Pendleton UAS Range and Gambit Partner to Deliver Red Force as aService for Counter UAS Testing and Training",
       "blurb": "Live Demonstration Scheduled for April 23 Gambit and Pendleton UAS Range (PUR) announced a partnership",
-      "takeaway": "Outsourced adversarial drone services enable military and commercial operators to conduct realistic counter-UAS training without developing proprietary threat capabilities.",
+      "takeaway": "Gambit's Red Force-as-a-Service model enables operators to simulate realistic adversarial drone scenarios without maintaining dedicated opposing forces, reducing counter-UAS training costs.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/pendleton-uas-range-and-gambit-partner-to-deliver-red-force-as-aservice-for-counter-uas-testing-and-training/"
@@ -483,7 +504,7 @@
       "type": "news",
       "headline": "Suspected cross-border drone explodes in southern Lithuania",
       "blurb": "Lithuanian authorities are investigating after an unidentified object, believed to be a drone, exploded overnight near the village… The post Suspected cross-border drone explodes in southern Lithuania appeared first on AeroTime.",
-      "takeaway": "Eastern European airspace intrusions underscore growing drone threats to civilian infrastructure and highlight detection gaps along NATO borders.",
+      "takeaway": "The incident highlights escalating airspace security vulnerabilities in NATO border regions, requiring enhanced detection and interception protocols for unmanned threats.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/suspected-cross-border-drone-explodes-lithuania"
@@ -499,7 +520,7 @@
       "type": "news",
       "headline": "Draganfly and Palladyne AI Achieve Integration Milestone Advancing Autonomous Swarm Capabilities",
       "blurb": "Successful SwarmOS Integration and Flight Simulation Marks Step Toward Next-Generation Defense Applications Draganfly Inc. (NASDAQ:",
-      "takeaway": "Autonomous drone swarm integration with AI operating systems could enable scaled military and defense operations previously limited by coordination complexity.",
+      "takeaway": "Draganfly's SwarmOS integration enables coordinated autonomous drone operations for defense applications, expanding beyond single-vehicle limitations.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/draganfly-and-palladyne-ai-achieve-integration-milestone-advancing-autonomous-swarm-capabilities/"
@@ -513,7 +534,7 @@
       "type": "news",
       "headline": "Steadicopter Launches Dedicated UAS Academy to Train GlobalOperators and Technicians on Advanced Rotary UAV Missions",
       "blurb": "Steadicopter, a leading developer and manufacturer of rotary unmanned aerial systems (UAS), has announced the",
-      "takeaway": "Dedicated manufacturer training academies signal growing professionalization of UAS operations as regulatory requirements and mission complexity demand standardized operator certification.",
+      "takeaway": "Steadicopter's academy addresses the critical skills gap in advanced rotary UAV operations, enabling operators to safely handle complex missions beyond basic drone piloting.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/steadicopter-launches-dedicated-uas-academy-to-train-globaloperators-and-technicians-on-advanced-rotary-uav-missions/"
@@ -529,7 +550,7 @@
       "type": "news",
       "headline": "Remembering the Green Ramp Disaster",
       "blurb": "Tragedy struck on March 23, 1994, at Pope Air Force Base, North Carolina, on an aircraft parking ramp known as ‘Green Ramp.’ A number of paratroopers were lost and several injured after flames and debris rained down on their training and assembly area after a mid-air collision between a fighter j...",
-      "takeaway": "The 1994 Green Ramp disaster killed 24 paratroopers during training, establishing critical lessons in military airfield safety protocols and airspace management near ground troop assembly areas.",
+      "takeaway": "The 1994 Green Ramp disaster killed 24 paratroopers when an F-16 collided with a C-130, highlighting critical gaps in airfield safety protocols and low-altitude training procedures that persist today.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/23/remembering-the-green-ramp-disaster/"
@@ -543,7 +564,7 @@
       "type": "news",
       "headline": "See NASA’s GUARDIAN Catch a Tsunami",
       "blurb": "A new data visualization illustrates how an experimental NASA technology can provide extra lead time to communities in the path of a tsunami. Called GUARDIAN (GNSS Upper Atmospheric Real-time Disaster Information and Alert Network), the software detects slight distortions in satellite navigation ...",
-      "takeaway": "NASA's GUARDIAN system offers aviation and maritime industries a critical 10-15 minute advance warning window by detecting ionospheric disturbances before tsunami waves arrive.",
+      "takeaway": "GUARDIAN's atmospheric detection capabilities could provide critical minutes of additional warning by identifying tsunami signatures before traditional ocean-based sensors, potentially saving lives through earlier evacuation windows.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/science-research/earth-science/see-nasas-guardian-catch-a-tsunami/"
@@ -560,7 +581,7 @@
       "type": "news",
       "headline": "Sovereign demand and institutional capital reshape space economy",
       "blurb": "Large infrastructure funds are “carefully looking” into entering the space sector, Seraphim Space CEO Mark Boggett said March 23, giving early-stage investors more confidence to back ambitious startups that may later need billions of dollars to scale. The post Sovereign demand and institutional c...",
-      "takeaway": "Institutional capital influx into space sector is creating a clear funding pathway for startups to scale from early investment to multi-billion-dollar deployment phases.",
+      "takeaway": "Institutional capital influx into space ventures signals a maturing market where early-stage aerospace startups can now realistically plan multi-billion-dollar scaling pathways.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/sovereign-demand-and-institutional-capital-reshape-space-economy/"
@@ -570,20 +591,6 @@
         "space"
       ],
       "publishedAt": "2026-03-23T17:29:38.000Z"
-    },
-    {
-      "id": "u3g6d0",
-      "type": "news",
-      "headline": "SWOT Mission Unlocks a New View of Our Waterways",
-      "blurb": "Explore how rivers move, change, and sustain life across the planet with SWOT data.",
-      "takeaway": "SWOT satellite data enables unprecedented monitoring of global water systems, offering commercial aerospace operators new Earth observation capabilities for environmental and infrastructure applications.",
-      "source": {
-        "name": "NASA",
-        "url": "https://science.nasa.gov/earth/swot-mission-unlocks-a-new-view-of-our-waterways/"
-      },
-      "category": "aerospace",
-      "keywords": [],
-      "publishedAt": "2026-03-23T17:22:04.000Z"
     }
   ]
 }
