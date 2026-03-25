@@ -227,7 +227,9 @@ async function fetchYoutubeFeeds(youtubeFeeds, existingVideoUrls) {
       // Extract description from media:group
       const description = entry['media:group']?.['media:description'] || '';
       const blurb = typeof description === 'string'
-        ? description.slice(0, 200).trim()
+        ? (description.length > 200
+          ? description.substring(0, 200).replace(/\s+\S*$/, '') + '...'
+          : description.trim())
         : '';
 
       const title = typeof entry.title === 'object'
@@ -551,7 +553,7 @@ function cleanDescription(description) {
 
   // Limit length
   if (cleaned.length > 300) {
-    cleaned = cleaned.substring(0, 297) + '...';
+    cleaned = cleaned.substring(0, 300).replace(/\s+\S*$/, '') + '...';
   }
 
   return cleaned;
