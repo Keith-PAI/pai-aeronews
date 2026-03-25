@@ -1,17 +1,35 @@
 {
-  "lastUpdated": "2026-03-25T06:11:29.625Z",
+  "lastUpdated": "2026-03-25T07:57:59.227Z",
   "articles": [
+    {
+      "id": "ap06pd",
+      "type": "news",
+      "headline": "Drone enters Latvian airspace from Russia, crashes near Kraslava",
+      "blurb": "Latvia’s Air Force has identified a foreign unmanned aerial vehicle entering the country’s airspace from Russia before crashing… The post Drone enters Latvian airspace from Russia, crashes near Kraslava appeared first on AeroTime.",
+      "takeaway": "NATO member Latvia's airspace incursion highlights the evolving cross-border unmanned threats challenging Eastern European air defense systems and border security protocols.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/drone-latvia-airspace-russia-crash-kraslava"
+      },
+      "category": "military",
+      "keywords": [
+        "drone",
+        "crash",
+        "space"
+      ],
+      "publishedAt": "2026-03-25T07:21:13.000Z"
+    },
     {
       "id": "4wqzrr",
       "type": "news",
       "headline": "\"Inexcusable\": Why Delta’s CEO Just Stripped Congress Of Their VIP Perks",
       "blurb": "Lawmakers will have to queue alongside regular passengers.",
-      "takeaway": "Delta's removal of congressional flight privileges signals escalating corporate pushback against government relations traditionally leveraged for regulatory influence.",
+      "takeaway": "Delta's removal of congressional flight privileges signals airline leadership's willingness to challenge political relationships, potentially influencing how carriers manage government relations during regulatory negotiations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-ceo-strips-congress-vip-perks/"
       },
-      "category": "commercial",
+      "category": "corporate",
       "keywords": [],
       "publishedAt": "2026-03-25T05:40:55.000Z"
     },
@@ -20,7 +38,7 @@
       "type": "news",
       "headline": "How The Northrop Grumman’s B-2 Spirit Cockpit Layout Prioritizes Long-Duration Mission Endurance",
       "blurb": "A closer look at the ergonomics of the world's first fifth-generation bomber.",
-      "takeaway": "B-2's cockpit design reduces pilot fatigue through optimized instrument clustering and seat positioning, directly enabling the 15+ hour mission endurance that defines stealth bomber operations.",
+      "takeaway": "The B-2's cockpit design minimizes pilot fatigue during 44-hour missions through specialized seating, automated systems, and optimized control placement—principles applicable to commercial long-haul operations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/b-2-spirit-cockpit-layout-long-duration-missions/"
@@ -30,11 +48,31 @@
       "publishedAt": "2026-03-25T05:00:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective risk control implementation requires organizations to systematically document why accepted residual risks remain tolerable, shifting SRM from theoretical analysis to practical operational accountability.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-25T07:57:15.526Z",
+      "paiContent": true
+    },
+    {
       "id": "ge8pwd",
       "type": "news",
       "headline": "Couches In Economy: United Airlines Brings Premium To All Cabins With New Long-Haul Perk",
       "blurb": "UA's new Relax Row is rolling out in the main cabin this year.",
-      "takeaway": "United's Relax Row pricing strategy targets price-sensitive long-haul passengers willing to pay moderately above economy fares, potentially capturing ancillary revenue from the 80% of passengers who don't purchase premium cabin seats.",
+      "takeaway": "United's Relax Row extends premium amenities to economy passengers, potentially reshaping cabin revenue models by monetizing comfort upgrades across all fare classes rather than restricting them to first/business.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/couches-economy-united-airlines-premium-cabins-long-haul-perk/"
@@ -50,12 +88,12 @@
       "type": "news",
       "headline": "Kona Storms Flood Oʻahu",
       "blurb": "Back-to-back subtropical cyclones in March fueled destructive flash flooding on several of the Hawaiian Islands.",
-      "takeaway": "Flash flooding from subtropical cyclones can disrupt airport operations and supply chains across Hawaii, affecting both passenger and cargo aviation serving the islands.",
+      "takeaway": "Infrastructure disruptions from severe weather events in Hawaii could impact aircraft operations and supply chains serving island communities dependent on air transport.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/kona-storms-flood-o%ca%bbahu/"
       },
-      "category": "safety",
+      "category": "general-aviation",
       "keywords": [],
       "publishedAt": "2026-03-25T04:01:00.000Z"
     },
@@ -64,7 +102,7 @@
       "type": "news",
       "headline": "How Much Does It Cost To Fly A Boeing 747-400 For 1 Hour?",
       "blurb": "The Boeing 747-400 is both more expensive and less expensive to operate than modern aircraft with fuel spikes adding to the cost range.",
-      "takeaway": "The 747-400's operating costs are highly volatile due to fuel sensitivity, making budgeting unpredictable compared to newer aircraft with more efficient engines.",
+      "takeaway": "Operating costs for the 747-400 fluctuate significantly with fuel prices, making it less economically predictable than newer, more fuel-efficient widebodies for airlines planning routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-747-400-cost-per-flight-hour/"
@@ -76,24 +114,23 @@
       "publishedAt": "2026-03-25T00:00:17.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-assess-safety-risk",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation's safety paradigm from investigating accidents after they occur to identifying and mitigating risks before they materialize operationally.",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Part 5 compliance requires structured risk assessment methodology beyond traditional audits, demanding systematic documentation of hazard identification and mitigation controls.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
       },
-      "category": "safety",
+      "category": "regulatory",
       "keywords": [
         "sms",
+        "risk assessment",
         "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "part 5"
       ],
-      "publishedAt": "2026-03-25T06:10:49.792Z",
+      "publishedAt": "2026-03-25T07:57:15.526Z",
       "paiContent": true
     },
     {
@@ -101,7 +138,7 @@
       "type": "news",
       "headline": "Digitizing borders could free up space to reimagine #PaxEx",
       "blurb": "Border control and lost baggage are the two remaining “pain points” when it comes to creating seamless air passenger journeys. But smart technology deployment and closer cooperation between airlines, airports and regulators could help resolve these issues and free up enough space to transform the...",
-      "takeaway": "Resolving border control inefficiencies through digitization could reclaim physical airport space currently dedicated to security processing, enabling airports to reinvest in passenger experience amenities rather than infrastructure expansion.",
+      "takeaway": "Digitizing border processes could recover valuable terminal space currently consumed by immigration infrastructure, enabling airports to reinvest that real estate into premium passenger amenities and commercial services.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/digitizing-borders-could-free-up-space-to-reimagine-paxex/"
@@ -119,12 +156,12 @@
       "type": "news",
       "headline": "How Much Does Pilot Training Cost Before A US Airline First Officer Reaches The Flight Deck?",
       "blurb": "A closer look at the roadmap to the cockpit.",
-      "takeaway": "Aspiring US airline pilots face cumulative training costs exceeding $200,000 before securing a first officer position, creating significant financial barriers to career entry.",
+      "takeaway": "Aspiring airline pilots face $200,000+ in cumulative training costs before their first commercial flight, creating a significant barrier to workforce entry during a critical pilot shortage.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/pilot-training-cost-us-airline-first-officer/"
       },
-      "category": "commercial",
+      "category": "general-aviation",
       "keywords": [
         "airline",
         "pilot"
@@ -136,7 +173,7 @@
       "type": "news",
       "headline": "U.S. Considering Deployment of 82nd Airborne Division to the Middle East",
       "blurb": "Senior officials are reportedly considering the deployment of the Immediate Response Force, which includes a Battalion Combat Team of the 82nd Airborne Division, according to U.S. media. After increasing rumors regarding a deployment of U.S. Army troops being in progress, new reports now mention ...",
-      "takeaway": "Military airlift capacity will face increased demand if the 82nd Airborne's rapid-response battalion deploys, affecting strategic transport aircraft availability and logistics planning.",
+      "takeaway": "Military airlift capacity requirements will surge if the 82nd Airborne deploys, creating significant demand for strategic transport aircraft and potential impact on civilian charter availability.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/24/us-considering-deployment-82nd-airborne-division/"
@@ -146,11 +183,32 @@
       "publishedAt": "2026-03-24T22:56:16.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter accident",
+      "takeaway": "Helicopter pilots consistently underestimate wire strike risk despite it ranking among the deadliest accident causes, indicating a critical gap between perceived and actual hazard awareness.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-25T07:57:15.939Z",
+      "videoContent": true
+    },
+    {
       "id": "504ce4",
       "type": "news",
       "headline": "Premium For Everyone: United Airlines Invests In 3 Aircraft Types To Transform Flying",
       "blurb": "Since 2019, the legacy carrier has added nearly 40% more premium seats.",
-      "takeaway": "United's diversified premium fleet strategy across aircraft types signals a shift toward capturing higher-margin revenue streams rather than competing primarily on capacity or price.",
+      "takeaway": "United's multi-aircraft premium expansion strategy signals airlines are prioritizing high-yield capacity over overall fleet growth to maximize revenue per available seat.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-invests-3-aircraft-transform-flying/"
@@ -162,31 +220,11 @@
       "publishedAt": "2026-03-24T22:45:50.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Psychological safety and non-punitive reporting are foundational to SMS effectiveness, as they directly influence whether frontline employees surface hazards before incidents occur.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-25T06:10:49.792Z",
-      "paiContent": true
-    },
-    {
       "id": "9bjc28",
       "type": "news",
       "headline": "How The Fairchild Republic A-10 Warthog’s Titanium Bathtub Protects Pilots From Ground-Level Ballistics",
       "blurb": "The story behind America's flying tank buster.",
-      "takeaway": "The A-10's titanium armor cockpit design, tested against real combat threats, established a blueprint for survivability engineering that influences modern military aircraft development.",
+      "takeaway": "The A-10's titanium armor cockpit can sustain direct hits from 23mm rounds, making pilot survivability in low-altitude combat zones significantly higher than conventional fighter jets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/a-10-warthog-titanium-bathtub-pilot-protection/"
@@ -202,7 +240,7 @@
       "type": "news",
       "headline": "NASA PC-12 Aircraft Makes Move to Support Flight Research Across Agency",
       "blurb": "A NASA Pilatus PC-12 aircraft will now be based at NASA’s Armstrong Flight Research Center in Edwards, California, in order to support flight research efforts across the agency. The PC-12 was acquired in 2022 by NASA’s Glenn Research Center in Cleveland for use in advanced technology development....",
-      "takeaway": "NASA's PC-12 relocation to Armstrong consolidates flight research capabilities and improves resource efficiency across geographically dispersed research centers.",
+      "takeaway": "NASA's relocation of its PC-12 from Glenn to Armstrong enables broader cross-agency flight research access while optimizing research infrastructure deployment across geographically distributed facilities.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/nasa-pc-12-aircraft-makes-move-to-support-flight-research-across-agency/"
@@ -214,11 +252,32 @@
       "publishedAt": "2026-03-24T21:49:35.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo, Metro-Oak",
+      "takeaway": "San Carlos Airport's noise abatement procedures reflect the operational constraints imposed by proximity to Class B airspace and residential areas, requiring pilots to balance safety with community relations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-25T07:57:15.939Z",
+      "videoContent": true
+    },
+    {
       "id": "ggt5jx",
       "type": "news",
       "headline": "Delta suspends airport perks for members of US Congress as shutdown strains TSA",
       "blurb": "Delta Air Lines said on March 24, 2026, that it is temporarily suspending special services for members of… The post Delta suspends airport perks for members of US Congress as shutdown strains TSA appeared first on AeroTime.",
-      "takeaway": "Delta's suspension of Congressional perks signals how extended TSA staffing shortages create operational pressure on carriers to withdraw service differentiation across all passenger segments.",
+      "takeaway": "Airlines are leveraging operational disruptions as leverage points in political negotiations, signaling willingness to curtail premium services when government functions falter.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/delta-suspends-congressional-airport-perks-amid-tsa-shutdown-strain"
@@ -234,7 +293,7 @@
       "type": "news",
       "headline": "Air Transat Scraps New 12-Hour Longest Route Before A Single Flight Takes Off",
       "blurb": "The leisure operator was due to take off from Toronto to Ghana's capital on June 27. But the route has been pulled before the first departure...",
-      "takeaway": "Leisure carriers face increasing pressure to validate ultra-long routes before launch, suggesting demand forecasting gaps for carrier viability on niche markets.",
+      "takeaway": "Leisure carriers are reassessing ultra-long routes as fuel costs and crew fatigue regulations squeeze thin-margin international expansion economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-transat-scraps-new-12-hour-longest-route-before-a-single-flight-takes-off/"
@@ -244,34 +303,11 @@
       "publishedAt": "2026-03-24T21:00:17.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-srm",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Risk Management",
-      "blurb": "This video covers the safety management system (SMS) component safety risk management, which determines the need for, and adequacy of, new or revised risk controls based on the assessment of acceptable risk.",
-      "takeaway": "Small operators must systematically assess whether existing risk controls remain adequate or require enhancement as operational conditions and hazards evolve over time.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=Vx_idwnPZDE"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "aviation",
-        "safety",
-        "SMS",
-        "risk",
-        "management",
-        "SRM"
-      ],
-      "publishedAt": "2026-03-25T06:10:50.041Z",
-      "videoContent": true,
-      "duration": "9:39"
-    },
-    {
       "id": "9w4kvv",
       "type": "news",
       "headline": "How Much Does It Cost To Upgrade To Lie-Flat Business Class On Transatlantic Flights?",
       "blurb": "Booking business class isn't the only way to access lie-flat transatlantic aviation. Most major transatlantic airlines offer upgrades.",
-      "takeaway": "Upgrade pricing strategies vary significantly across carriers, allowing premium economy passengers to access lie-flat beds at substantial savings versus full business class fares.",
+      "takeaway": "Premium cabin upgrades from economy can cost 30-70% less than direct business-class tickets, making lie-flat access more accessible for price-conscious frequent flyers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/cost-upgrade-lie-flat-business-class-transatlantic/"
@@ -283,11 +319,27 @@
       "publishedAt": "2026-03-24T21:00:17.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across integrated airline-airport-airspace systems offers near-term emissions reductions without waiting for next-generation aircraft technology maturation.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-25T07:57:15.939Z"
+    },
+    {
       "id": "zctdxm",
       "type": "news",
       "headline": "Geopolitical shifts bring opportunities and headaches for satellite execs",
       "blurb": "A shifting geopolitical landscape is driving huge business opportunities for satcoms but also bringing new supply chain and regulatory challenges, industry executives said March 24 at the Satellite Conference in Washington, D.C. The post Geopolitical shifts bring opportunities and headaches for s...",
-      "takeaway": "Satellite operators must navigate intensifying regulatory fragmentation and supply chain vulnerabilities while capitalizing on geopolitical demand for independent communications infrastructure.",
+      "takeaway": "Satellite operators must navigate competing regulatory frameworks across fragmented markets while capitalizing on geopolitical demand for independent communications infrastructure.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/geopolitical-shifts-bring-opportunities-and-headaches-for-satellite-execs/"
@@ -304,7 +356,7 @@
       "type": "news",
       "headline": "Reminders of Where We’ve Been, Where We’re Going",
       "blurb": "Three Moon rocks are on display during a March 24, 2026, event where NASA announced a series of transformative agencywide initiatives designed to achieve the National Space Policy and advance American leadership in space. NASA leadership provided updates on mission priorities, including sending t...",
-      "takeaway": "NASA's concurrent focus on lunar exploration and broader space leadership initiatives signals a strategic shift toward sustainable deep-space infrastructure rather than isolated missions.",
+      "takeaway": "NASA's display of lunar samples underscores the agency's commitment to sustained deep-space exploration capabilities that will drive advancement in aerospace technologies and international competitive positioning.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/reminders-of-where-weve-been-where-were-going/"
@@ -321,7 +373,7 @@
       "type": "news",
       "headline": "No Transponder, No Warning: NTSB Details LaGuardia Alert Failure",
       "blurb": "NTSB says LaGuardia’s surface warning system was \"unable to alert.\"",
-      "takeaway": "LaGuardia's ground collision avoidance system failed to function because the aircraft lacked a transponder, revealing a critical gap in airport safety infrastructure that depends on cooperative technologies.",
+      "takeaway": "LaGuardia's surface warning system lacked integration with non-transponder equipped aircraft detection, exposing a critical gap in ground-based safety infrastructure for unequipped or malfunctioning aircraft.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/no-transponders-no-warning-ntsb/"
@@ -333,35 +385,11 @@
       "publishedAt": "2026-03-24T20:49:12.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-sa",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Assurance",
-      "blurb": "This video covers the safety management system (SMS) component safety assurance, which  evaluates the continued effectiveness of implemented risk control strategies and supports the identification of new hazards. Whether you're an owner, operator or part of a small aviation team, this guide provides valuable insights and tools to enhance your safety management practices and ensure a safer operational environment.",
-      "takeaway": "Small operators can implement scalable SMS safety assurance practices to continuously validate risk controls and detect emerging hazards without the complexity required of larger carriers.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=JooZXsQx1ds"
-      },
-      "category": "safety",
-      "keywords": [
-        "aviation",
-        "safety",
-        "part 5",
-        "SMS",
-        "risk",
-        "hazard",
-        "assurance"
-      ],
-      "publishedAt": "2026-03-25T06:10:50.041Z",
-      "videoContent": true,
-      "duration": "15:03"
-    },
-    {
       "id": "tznjw5",
       "type": "news",
       "headline": "FAA Expands Swift 100R Engine STC",
       "blurb": "Amended STC broadens engine coverage for the unleaded avgas.",
-      "takeaway": "The expanded STC enables more aircraft models to operate on Swift 100R unleaded fuel, accelerating industry transition away from leaded avgas and reducing fleet fragmentation.",
+      "takeaway": "The expanded STC for Swift 100R enables broader aircraft compatibility with unleaded avgas, accelerating industry transition away from leaded fuel dependence.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-expands-swift-100r-engine-stc/"
@@ -377,7 +405,7 @@
       "type": "news",
       "headline": "3 Ways Students Can Get Involved With Artemis",
       "blurb": "NASA’s Artemis program will establish a sustainable lunar presence, unlock new scientific discoveries, and develop technologies for spaceflight to Mars and beyond – and students can help shape this new era of space exploration. As America launches this new Golden Age of innovation and exploration...",
-      "takeaway": "Student participation in Artemis bridges academic engagement with NASA's deep-space infrastructure development, creating a pipeline of talent for sustained lunar operations and Mars exploration missions.",
+      "takeaway": "Students engaging with Artemis gain hands-on experience in next-generation spacecraft systems and lunar operations that will define aerospace careers for the next decade.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/learning-resources/3-ways-students-can-get-involved-with-artemis/"
@@ -395,7 +423,7 @@
       "type": "news",
       "headline": "NTSB: A multitude of factors likely led to deadly LaGuardia collision",
       "blurb": "The National Transportation Safety Board (NTSB) held a second briefing, on March 24, 2026, that offered further details… The post NTSB: A multitude of factors likely led to deadly LaGuardia collision appeared first on AeroTime.",
-      "takeaway": "Multiple contributing factors rather than a single cause suggests systemic gaps in airport operations, ground control procedures, or pilot-controller communications that may affect other high-density terminals.",
+      "takeaway": "NTSB's multi-factor analysis suggests systemic vulnerabilities in airport operations rather than single-point failures, requiring comprehensive procedural reviews across similar high-traffic environments.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/ntsb-laguardia-crash-likely-involved-multiple-factors"
@@ -414,39 +442,23 @@
       "type": "news",
       "headline": "NASA Selects Finalists in Student Aircraft Maintenance Competition",
       "blurb": "Editor’s note: This advisory was updated on March 24, 2026, to update the finalists list. NASA has selected seven student teams as finalists in the 2026 Gateways to Blue Skies Competition, giving them the resources to help address a critical challenge for U.S. aviation: aircraft maintenance. Chal...",
-      "takeaway": "NASA's maintenance competition targets the technician workforce shortage by engaging students early, potentially reshaping how the aviation industry recruits skilled mechanics.",
+      "takeaway": "NASA's competition targets the aerospace maintenance workforce shortage by engaging students early, potentially creating a pipeline of skilled technicians for the industry.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/"
       },
-      "category": "industry",
+      "category": "aerospace",
       "keywords": [
         "nasa"
       ],
       "publishedAt": "2026-03-24T20:30:00.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Integrated operational optimization across airlines, airports, and flight systems offers a near-term pathway to accommodate rising demand while reducing environmental impact without waiting for new aircraft technology.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-25T06:10:50.041Z"
-    },
-    {
       "id": "y08vct",
       "type": "news",
       "headline": "ResilienX Receives FAA Waiver for Remote BVLOS Operations",
       "blurb": "ResilienX, Inc., a leader in aviation safety and BVLOS drone networks, announced today that it",
-      "takeaway": "FAA waiver grants ResilienX operational flexibility for beyond-visual-line-of-sight missions, validating commercial viability of autonomous drone networks for infrastructure and emergency response applications.",
+      "takeaway": "ResilienX's FAA waiver enables beyond-visual-line-of-sight operations without visual observers, significantly reducing deployment costs and expanding commercial drone application feasibility.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/resilienx-receives-faa-waiver-for-remote-bvlos-operations/"
@@ -465,7 +477,7 @@
       "type": "news",
       "headline": "When Wireless Networks Falter, Drones Can Provide Backup Connectivity, According to Stevens Researchers",
       "blurb": "Researchers at Stevens Institute of Technology have developed a drone-based system designed to provide temporary",
-      "takeaway": "Drone-delivered backup connectivity could enable emergency responders and isolated communities to maintain critical communications when terrestrial networks fail during disasters.",
+      "takeaway": "Drone swarms can rapidly deploy as resilient communication infrastructure during network outages, enabling emergency response coordination when terrestrial systems fail.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/when-wireless-networks-falter-drones-can-provide-backup-connectivity-according-to-stevens-researchers/"
@@ -481,7 +493,7 @@
       "type": "news",
       "headline": "America’s new 911 drone is always ready",
       "blurb": "Drones responding to 911 calls are no longer experimental. Across the US, police departments are already using Drone as First Responder (DFR) programs to get eyes on emergencies faster than patrol units. In many cities, drones arrive in under two minutes, well before officers. But even with that ...",
-      "takeaway": "Sub-two-minute drone response times to 911 calls are reshaping emergency dispatch priorities, forcing police departments to fundamentally retriage which incidents warrant immediate aerial assessment versus ground units.",
+      "takeaway": "DFR programs are demonstrating measurable operational value by achieving sub-2-minute response times, establishing drones as a viable complement to traditional emergency response infrastructure.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/24/brinc-911-drone-guardian-starlink/"
@@ -497,7 +509,7 @@
       "type": "news",
       "headline": "NASA X-Ray Mission Gets Fresh Look at 2,000-Year-Old Supernova",
       "blurb": "NASA’s IXPE (Imaging X-ray Polarimetry Explorer) mission has taken a new observation of a supernova, RCW 86, helping fill in a fuller picture of what other telescopes have observed. When astronomers using NASA’s Chandra X-ray Observatory previously targeted RCW 86, they discovered that a large “c...",
-      "takeaway": "X-ray polarimetry data from IXPE reveals previously unmeasured magnetic field structures in ancient supernova remnants, enabling more precise astrophysical modeling for space-based observatories.",
+      "takeaway": "IXPE's X-ray polarimetry measurements of ancient supernovae provide aerospace engineers with critical validation data for next-generation space telescope designs and high-energy astrophysics instrumentation.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/nasa-x-ray-mission-gets-fresh-look-at-2000-year-old-supernova/"
@@ -513,12 +525,12 @@
       "type": "news",
       "headline": "SparkPNT Enters the Next Chapter with Facet FP",
       "blurb": "Designed with the belief that users should have total control over the devices they own,",
-      "takeaway": "SparkPNT's partnership with Facet FP emphasizes user sovereignty and device autonomy, signaling a shift toward open-architecture positioning systems that reduce dependency on traditional GPS infrastructure.",
+      "takeaway": "Facet FP's user-control focus addresses growing aviation industry concerns about proprietary device limitations and supply chain vulnerabilities in critical positioning systems.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/sparkpnt-enters-the-next-chapter-with-facet-fp/"
       },
-      "category": "industry",
+      "category": "regulatory",
       "keywords": [],
       "publishedAt": "2026-03-24T19:28:30.000Z"
     },
@@ -527,7 +539,7 @@
       "type": "news",
       "headline": "Moog taps Redwire to provide solar arrays for Meteor",
       "blurb": "WASHINGTON — Redwire announced the first award for its new solar arrays, a $12.8 million contract from Moog. Under the contract announced March 24, Redwire will deliver Extensible Low-Profile Solar Array (ELSA) wings for Moog’s Meteor satellite bus ordered by an undisclosed national security cust...",
-      "takeaway": "Redwire's commercial solar array technology is gaining traction in the national security satellite market, signaling growing demand for modular power solutions in military space platforms.",
+      "takeaway": "Redwire's commercial solar array technology is securing defense contracts, signaling growing private sector capability in national security space systems.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/moog-taps-redwire-to-provide-solar-arrays-for-meteor/"
@@ -543,7 +555,7 @@
       "type": "news",
       "headline": "NTSB: LaGuardia Surface Alert System Did Not Trigger",
       "blurb": "Investigators said the fire truck involved did not have a transponder, and a stepped-on radio transmission remains under review.",
-      "takeaway": "Equipment gaps and communication failures during emergency response operations can disable airport safety systems designed to prevent collisions, highlighting critical vulnerabilities in ground operations.",
+      "takeaway": "Equipment gaps and communication failures during ground operations create blind spots that automated safety systems cannot detect, highlighting vulnerability in airport surface management.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/ntsb-laguardia-surface-alert-system/"
@@ -559,12 +571,12 @@
       "type": "news",
       "headline": "IAA Prosecutes Drone Operator for Impeding Investigation and Breach of Direction",
       "blurb": "The Irish Aviation Authority (IAA) brought a prosecution in the District Court against a drone operator for impeding an official investigation",
-      "takeaway": "Irish authorities are escalating enforcement by prosecuting obstruction of investigations, signaling stricter accountability for operators who fail to cooperate with regulatory inquiries.",
+      "takeaway": "Irish regulatory enforcement against obstructive drone operators signals strengthened authority to prosecute non-compliance beyond technical violations.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/iaa-prosecutes-drone-operator-for-impeding-investigation-and-breach-of-direction/"
       },
-      "category": "regulatory",
+      "category": "drones",
       "keywords": [
         "drone"
       ],
@@ -575,7 +587,7 @@
       "type": "news",
       "headline": "OrbitsIQ Global Announces Breakthrough in Space-Based IoT Connectivity",
       "blurb": "Washington, D.C., March 24, 2026 – OrbitsIQ Global (OIQ), an innovator in AI-driven secure connectivity across terrestrial and satellite networks, today announced a major technological milestone achieved in collaboration with […] The post OrbitsIQ Global Announces Breakthrough in Space-Based IoT ...",
-      "takeaway": "Space-based IoT connectivity breakthroughs could enable real-time aircraft tracking and operational data collection beyond terrestrial network coverage, expanding aviation's digital infrastructure globally.",
+      "takeaway": "Space-based IoT connectivity breakthroughs could enable aircraft and ground infrastructure to leverage satellite networks for real-time data transmission beyond traditional coverage areas.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/orbitsiq-global-announces-breakthrough-in-space-based-iot-connectivity/"
@@ -585,23 +597,6 @@
         "space"
       ],
       "publishedAt": "2026-03-24T18:57:22.000Z"
-    },
-    {
-      "id": "7mk9p0",
-      "type": "news",
-      "headline": "FAA Updates GNSS Interference Guide Months After First Release",
-      "blurb": "Update adds pilot procedures and expands detail on recognizing and reporting jamming and spoofing.",
-      "takeaway": "Pilots now have structured procedures to detect and report GNSS attacks, enabling faster industry response to emerging navigation threats.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/aviation-news/faa-updates-gnss-interference-guide/"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "faa",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-24T18:30:00.000Z"
     }
   ]
 }
