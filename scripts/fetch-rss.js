@@ -551,6 +551,9 @@ function cleanDescription(description) {
   // Normalize whitespace and trim
   cleaned = cleaned.replace(/\s+/g, ' ').trim();
 
+  // Strip WordPress "The post ... appeared first on ..." boilerplate
+  cleaned = cleaned.replace(/\s*The post .+ appeared first on .+\.$/, '').trim();
+
   // Limit length
   if (cleaned.length > 300) {
     cleaned = cleaned.substring(0, 300).replace(/\s+\S*$/, '') + '...';
