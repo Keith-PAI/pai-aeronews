@@ -1,12 +1,197 @@
 {
-  "lastUpdated": "2026-03-25T19:05:02.325Z",
+  "lastUpdated": "2026-03-25T20:49:40.124Z",
   "articles": [
+    {
+      "id": "i35d1s",
+      "type": "news",
+      "headline": "US House passes bill to clear way for overland supersonic flights",
+      "blurb": "The US House of Representatives passed legislation aimed at opening the skies to civil supersonic flight over land,…",
+      "takeaway": "Regulatory approval could enable a new market segment for supersonic aircraft operators, but noise-certification standards will determine which aircraft designs become commercially viable.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/house-passes-bill-overland-supersonic-flights"
+      },
+      "category": "regulatory",
+      "keywords": [],
+      "publishedAt": "2026-03-25T20:35:21.000Z"
+    },
+    {
+      "id": "of36vo",
+      "type": "news",
+      "headline": "Eve flies eVTOL prototype for Brazilian president in high-profile test milestone",
+      "blurb": "Eve Air Mobility flew its full-scale engineering prototype for Brazilian authorities, including President Luiz Inácio Lula da Silva,…",
+      "takeaway": "Eve's demonstration to Brazil's leadership signals government confidence in eVTOL viability and positions the nation as potential early-adopter hub for urban air mobility infrastructure.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/eve-flies-evtol-prototype-for-brazilian-president"
+      },
+      "category": "evtol",
+      "keywords": [
+        "evtol"
+      ],
+      "publishedAt": "2026-03-25T20:14:55.000Z"
+    },
+    {
+      "id": "oeqgbk",
+      "type": "news",
+      "headline": "How Many McDonnell Douglas MD-11 Aircraft Are In Service?",
+      "blurb": "The jet has mostly disappeared from our skies.",
+      "takeaway": "The MD-11's near-complete retirement reflects how airframe economics and engine efficiency gains made tri-jet designs obsolete within two decades of service.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/how-many-mcdonnell-douglas-md-11-aircraft/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-25T20:00:22.000Z"
+    },
+    {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS represents a paradigm shift from post-accident investigations to continuous hazard identification, reducing incident risk before accidents occur.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-25T20:48:55.451Z",
+      "paiContent": true
+    },
+    {
+      "id": "4oafrh",
+      "type": "news",
+      "headline": "NASA Names Jennifer Lyons Acting Launch Services Program Manager",
+      "blurb": "NASA has selected Jennifer Lyons as acting program manager for the agency’s Launch Services Program (LSP) based at Kennedy Space Center in Florida. In this role, Lyons will lead NASA’s acquisition and management of domestic commercial launch services for science and robotic exploration missions...",
+      "takeaway": "NASA's shift to commercial launch services management signals continued consolidation of government reliance on private spaceflight providers for deep-space missions.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-names-jennifer-lyons-as-acting-launch-services-program-manager/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "publishedAt": "2026-03-25T19:59:37.000Z"
+    },
+    {
+      "id": "44equ1",
+      "type": "news",
+      "headline": "BRINC Unveils Guardian, Launching the Next Era of Drone as First Responder",
+      "blurb": "Guardian delivers 24/7 operations, unmatched imaging, Starlink connectivity, and more to help public safety agencies",
+      "takeaway": "Guardian's Starlink integration enables first responders to deploy drones with persistent connectivity beyond traditional radio range, expanding operational reach for critical incidents.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/03/brinc-unveils-guardian-launching-the-next-era-of-drone-as-first-responder/"
+      },
+      "category": "drones",
+      "keywords": [
+        "drone",
+        "saf",
+        "safety",
+        "atc"
+      ],
+      "publishedAt": "2026-03-25T19:58:50.000Z"
+    },
+    {
+      "id": "7rmtqh",
+      "type": "news",
+      "headline": "Office of Space Commerce releases mission authorization proposal",
+      "blurb": "The Office of Space Commerce has rolled out its proposal for a “light touch” approach to mission authorization, the latest attempt in an effort to regulate new commercial space applications.",
+      "takeaway": "The OSC's lighter regulatory framework could accelerate commercial space venture launches by reducing bureaucratic barriers while maintaining safety oversight.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/office-of-space-commerce-releases-mission-authorization-proposal/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-25T19:50:28.000Z"
+    },
+    {
+      "id": "687ra3",
+      "type": "news",
+      "headline": "Flying Fox",
+      "blurb": "Cheap drones are no longer a compromise — they are becoming the strategy.The demand is",
+      "takeaway": "Budget drone manufacturers are shifting from cost-cutting to intentional market positioning, capturing price-sensitive segments that traditional suppliers cannot profitably serve.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/03/flying-fox-fox-lightening/"
+      },
+      "category": "drones",
+      "keywords": [
+        "drone"
+      ],
+      "publishedAt": "2026-03-25T19:49:39.000Z"
+    },
+    {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Psychological safety and blame-free reporting systems directly correlate with safety performance outcomes, making culture change as critical as technical compliance in SMS programs.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-25T20:48:55.451Z",
+      "paiContent": true
+    },
+    {
+      "id": "n5vwm3",
+      "type": "news",
+      "headline": "Metrics",
+      "blurb": "Services Catalog Click here to view the FY25 Services Catalog The catalogs provide service description, chargeback rate, unit of measure, and service level indicators for each NSSC service. Service Level Agreement (SLA) Click here to view the Service Level Agreement The SLA provides information...",
+      "takeaway": "Government aerospace service catalogs establishing transparent chargeback rates and service level agreements enable better cost allocation and performance accountability across contracted operations.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/nssc/metrics/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa"
+      ],
+      "publishedAt": "2026-03-25T19:43:35.000Z"
+    },
+    {
+      "id": "32ekjm",
+      "type": "news",
+      "headline": "NAVI AI Launches Pilot Training Platform",
+      "blurb": "Navi AI has unveiled a new AI-driven platform designed to enhance pilot training by automating post-flight debriefs.",
+      "takeaway": "AI-powered debrief automation can accelerate pilot skill development by analyzing flight data in real-time rather than relying on manual instructor review.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/aviation-news/navi-ai-pilot-training-platformg/"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "pilot"
+      ],
+      "publishedAt": "2026-03-25T19:41:06.000Z"
+    },
     {
       "id": "uhhxvs",
       "type": "news",
       "headline": "Pilot Shares What It’s Like To Perform A Go-Around During Landing",
       "blurb": "A pilot reveals the reality of go-arounds—why they happen, how they’re flown, and why abandoning a landing is often the safest decision.",
-      "takeaway": "Go-arounds are standard risk-management procedures, not failures, with pilots trained to prioritize safety over schedule pressure or landing completion.",
+      "takeaway": "Go-arounds represent a critical safety skill where pilots must override landing commitments to execute safe climbs, preventing accidents caused by unstable approaches or runway obstructions.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/pilot-shares-go-around-experience/"
@@ -23,7 +208,7 @@
       "type": "news",
       "headline": "Textron Aviation To Showcase Full Range Of Aircraft At Sun ’n Fun",
       "blurb": "Textron Aviation will display Cessna, Beechcraft, and Pipistrel aircraft together for the first time at Sun ’n Fun 2026.",
-      "takeaway": "Unified aircraft display signals Textron's intent to position its diverse brands as complementary solutions rather than competitors within the general aviation market.",
+      "takeaway": "Textron's unified exhibit signals deeper integration across its three aircraft brands, potentially streamlining customer access to diverse mission profiles from single-engine trainers to turboprops.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/air-shows-events/sun-n-fun/textron-aviation-to-showcase-full-range-of-aircraft-at-sun-n-fun/"
@@ -35,11 +220,32 @@
       "publishedAt": "2026-03-25T19:00:00.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strikes remain a leading fatal helicopter hazard because pilots systematically overestimate their ability to detect and react to overhead obstacles in real-world flying conditions.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-25T20:48:55.720Z",
+      "videoContent": true
+    },
+    {
       "id": "6nhlw5",
       "type": "news",
       "headline": "Cirrus posts strong 2025 with 691 SR Series deliveries, 106 Vision Jets",
       "blurb": "Cirrus Aircraft reported it delivered 691 SR Series piston aircraft and a record 106 Vision Jets in 2025,…",
-      "takeaway": "Vision Jet's 57% year-over-year growth signals accelerating single-engine jet adoption among owner-pilots despite premium pricing, reshaping general aviation's performance tier.",
+      "takeaway": "Cirrus's Vision Jet production surge signals accelerating market adoption of single-engine jets in the personal aviation segment, challenging traditional piston dominance.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/cirrus-2025-deliveries-sr-series-vision-jet"
@@ -55,7 +261,7 @@
       "type": "news",
       "headline": "Webb Captures Saturn in Infrared",
       "blurb": "Saturn’s icy rings glow in this infrared view from NASA’s James Webb Space Telescope released on March 25, 2026. Combining this image with another that NASA’s Hubble Space Telescope captured – also released on the same day – provides scientists with a richer, more layered understanding of the gas...",
-      "takeaway": "Webb's infrared imaging of Saturn reveals thermal properties invisible to optical telescopes, advancing planetary science methods applicable to exoplanet characterization.",
+      "takeaway": "Webb's infrared Saturn observations demonstrate complementary Earth-orbit telescope capabilities that advance planetary science methodology applicable to atmospheric sensing research.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/webb-captures-saturn-in-infrared/"
@@ -68,31 +274,11 @@
       "publishedAt": "2026-03-25T18:33:40.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "SMS Declaration of Compliance demonstrates operator accountability for safety management maturity and signals regulatory shift toward data-driven oversight rather than prescriptive rules.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-25T19:04:19.394Z",
-      "paiContent": true
-    },
-    {
       "id": "korvm5",
       "type": "news",
       "headline": "Study Unveils Redevelopment Concepts For Burke Lakefront Airport",
       "blurb": "A new economic study outlines two potential mixed-use redevelopment plans for Burke Lakefront Airport, part of Mayor Justin Bibb’s effort to close the city-operated airport.",
-      "takeaway": "Municipal airport closures are increasingly justified through mixed-use redevelopment studies, signaling a shift in how cities balance aviation infrastructure with urban real estate value.",
+      "takeaway": "Municipal airports face pressure to repurpose underutilized facilities into mixed-use developments, reflecting declining demand at smaller urban hubs and shifting city priorities toward real estate revenue.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/study-unveils-redevelopment-concepts-for-burke-lakefront-airport/"
@@ -104,11 +290,49 @@
       "publishedAt": "2026-03-25T18:28:36.000Z"
     },
     {
+      "id": "jbl2p6",
+      "type": "news",
+      "headline": "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026",
+      "blurb": "IRVINE, Calif., March 25, 2026 — Terran Orbital Corporation, a Lockheed Martin company, today announced the introduction of its new star tracker product line at SATSHOW 2026, expanding the company’s […]",
+      "takeaway": "Terran Orbital's new star tracker line strengthens Lockheed Martin's competitive positioning in the growing satellite attitude determination market.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/terran-orbital-introduces-new-star-tracker-product-line-at-satshow-2026/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-25T18:16:23.000Z"
+    },
+    {
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Regional airports like CID serve dual roles as both flight training hubs and commercial carriers, making them critical infrastructure for workforce pipeline and community connectivity.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-25T20:48:55.720Z",
+      "videoContent": true
+    },
+    {
       "id": "w8h5i5",
       "type": "news",
       "headline": "Spirit Airlines vs. Frontier Airlines: Comparing The 2 Ultra-Low-Cost Carriers' Seat Pitch And Carry-On Bag Restrictions",
       "blurb": "The two airlines offer a similar experience, but have slight variations.",
-      "takeaway": "Both carriers' increasingly restrictive seat pitch and baggage policies reflect intensifying competition to reduce costs, signaling that base fares alone may no longer sustain ultra-low-cost viability.",
+      "takeaway": "Both ULCCs employ near-identical revenue optimization strategies through seat density and baggage fees, suggesting industry convergence toward standardized ultra-low-cost models.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/spirit-airlines-vs-frontier-seat-pitch-carry-on-rules/"
@@ -124,7 +348,7 @@
       "type": "news",
       "headline": "NASA Webb, Hubble Share Most Comprehensive View of Saturn to Date",
       "blurb": "NASA’s James Webb Space Telescope and Hubble Space Telescope have teamed up to capture new views of Saturn, revealing the planet in strikingly different ways. Observing in complementary wavelengths of light, the two space observatories provide scientists with a richer, more layered understanding of...",
-      "takeaway": "Multi-wavelength observations from Webb and Hubble demonstrate how complementary sensor technologies reveal atmospheric details critical for understanding planetary dynamics and improving remote sensing methodologies.",
+      "takeaway": "Multi-wavelength space telescope observations advance planetary science methodology applicable to atmospheric monitoring technologies in commercial aviation.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/webb/nasa-webb-hubble-share-most-comprehensive-view-of-saturn-to-date/"
@@ -137,31 +361,11 @@
       "publishedAt": "2026-03-25T18:00:00.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 compliance requires systematic risk assessment methodologies that extend beyond traditional hazard identification to quantify and mitigate safety exposure.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-25T19:04:19.394Z",
-      "paiContent": true
-    },
-    {
       "id": "pxemrq",
       "type": "news",
       "headline": "Why Did Antonov Construct The An-225 With 6 Engines?",
       "blurb": "A closer look at one of the coolest quirks of a legendary aircraft.",
-      "takeaway": "The An-225's six-engine configuration enabled unmatched payload capacity of 250+ tons by distributing thrust across multiple smaller turbofans rather than relying on fewer massive engines, optimizing both efficiency and structural feasibility for ultra-heavy cargo operations.",
+      "takeaway": "The An-225's six-engine configuration was engineered to achieve unprecedented payload capacity of 250 tons, enabling strategic military and cargo operations impossible with conventional four-engine designs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-did-antonov-construct-an-225-6-engines/"
@@ -175,7 +379,7 @@
       "type": "news",
       "headline": "10 Boeing Jets With The Longest Range Flying Today",
       "blurb": "Boeing’s longest-range jets reach over 8,500 NM, enabling ultra-long-haul flights.",
-      "takeaway": "Ultra-long-range Boeing aircraft exceed 8,500 nautical miles, enabling direct routes that reduce fuel costs and operational complexity for carriers on transcontinental and transpacific networks.",
+      "takeaway": "Boeing's ultra-long-range aircraft dominate transcontinental routes, reducing airline hub-dependency and opening profitability on previously unviable point-to-point markets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-jets-longest-range-flying-today/"
@@ -187,11 +391,27 @@
       "publishedAt": "2026-03-25T17:00:18.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all aviation domains can simultaneously address capacity constraints and environmental goals, with critical research gaps remaining in implementation pathways.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-25T20:48:55.720Z"
+    },
+    {
       "id": "y0bpsy",
       "type": "news",
       "headline": "NASA-JAXA’s XRISM Telescope Clocks Hot Wind of Galaxy M82",
       "blurb": "For the first time, astronomers have directly measured the speed of superheated gas billowing from a cauldron of stellar activity at the heart of M82.",
-      "takeaway": "X-ray spectroscopy advances from space telescopes enable precise measurement of galactic phenomena, informing computational models applicable to aerospace propulsion and thermal dynamics research.",
+      "takeaway": "Advanced X-ray spectroscopy collaboration demonstrates measurement capabilities relevant to aerospace instrumentation and remote sensing technology development.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/xrism/nasa-jaxas-xrism-telescope-clocks-hot-wind-of-galaxy-m82/"
@@ -203,33 +423,11 @@
       "publishedAt": "2026-03-25T16:10:32.000Z"
     },
     {
-      "id": "yt-auto-3sJ1UJ6i5OA",
-      "type": "video",
-      "headline": "From the Flight Deck – Frederick Municipal Airport, MD (FDK)",
-      "blurb": "Frederick Municipal is a small general and corporate aviation airport located just east of the city of Frederick, Maryland. The traffic mix runs the spectrum from single engine training aircraft up...",
-      "takeaway": "Frederick Municipal's diverse traffic mix from trainers to corporate jets positions regional airports as critical infrastructure for distributed aviation networks beyond major hubs.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=3sJ1UJ6i5OA"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-25T19:04:20.600Z",
-      "videoContent": true
-    },
-    {
       "id": "1i8qlf",
       "type": "news",
       "headline": "FAA Clears Higher Takeoff Weights For Boeing 787-9, -10",
       "blurb": "The FAA has approved higher takeoff weights for the Boeing 787-9 and 787-10, giving operators more flexibility to carry additional payload or extend range on long-haul routes.",
-      "takeaway": "Weight increases enable operators to optimize fuel-payload tradeoffs on long-haul routes, potentially improving unit economics on thin-margin international services.",
+      "takeaway": "Higher 787 takeoff weights enable airlines to optimize revenue on transcontinental routes without aircraft modifications or operational constraints.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-clears-higher-takeoff-weights-for-boeing-787-9-10/"
@@ -246,7 +444,7 @@
       "type": "news",
       "headline": "Delta Suspends Flights On Major Long-Haul Route (Full Schedule Inside)",
       "blurb": "Delta's latest development follows other airlines in the market. See the latest information here!",
-      "takeaway": "Route suspensions signal airline capacity rebalancing amid demand fluctuations and competitive pressures on premium long-haul markets.",
+      "takeaway": "Delta's route suspension reflects broader capacity reductions across major carriers as airlines adjust fleet deployment amid demand volatility and operational constraints.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-suspends-flights-on-major-long-haul-route-full-schedule-inside/"
@@ -262,7 +460,7 @@
       "type": "news",
       "headline": "Press Release: ZIPAIR selects Axinom Stream for next-gen streaming",
       "blurb": "ZIPAIR Tokyo Inc. (“ZIPAIR”) and Axinom today announced the airline’s selection of Axinom Stream to power its modern onboard streaming platform as part of its in-flight entertainment (IFE) offering. Built on Axinom Stream, the solution enables DRM-protected Hollywood content delivery to passengers’...",
-      "takeaway": "ZIPAIR's adoption of Axinom Stream demonstrates how budget carriers are investing in premium streaming infrastructure to differentiate passenger experience and compete with full-service competitors.",
+      "takeaway": "ZIPAIR's adoption of Axinom Stream demonstrates how budget carriers are modernizing IFE infrastructure with DRM-protected streaming to compete with legacy carriers on passenger experience.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/zipair-axinom-stream/"
@@ -274,33 +472,11 @@
       "publishedAt": "2026-03-25T16:00:58.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway exit design at LAX creates a specific geometry that increases pilot confusion during high-traffic operations, requiring enhanced crew resource management during ground operations.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-25T19:04:20.600Z",
-      "videoContent": true
-    },
-    {
       "id": "2osi6w",
       "type": "news",
       "headline": "NASA Awards Astrophysics Postdoctoral Fellowships for 2026",
       "blurb": "The highly competitive NASA Hubble Fellowship Program (NHFP) recently named 24 new fellows to its 2026 class. The NHFP enables outstanding postdoctoral scientists to pursue independent research in any area of NASA Astrophysics, using theory, observations, simulations, experimentation, or instrument...",
-      "takeaway": "NASA's competitive fellowship program develops the scientific talent pipeline that drives innovations applicable to aerospace technology and satellite systems.",
+      "takeaway": "NASA's Hubble Fellowship Program attracts elite postdoctoral researchers whose theoretical and observational work informs advanced sensor technologies and data processing systems applicable to aerospace systems.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/hubble/nasa-awards-astrophysics-postdoctoral-fellowships-for-2026/"
@@ -316,7 +492,7 @@
       "type": "news",
       "headline": "NASA-ISRO Satellite Captures Pacific Northwest Through Clouds",
       "blurb": "Seattle and Portland, Oregon, are among the cloudiest cities in the United States. But that infamous cloud cover is no match for the U.S.-Indian Earth satellite NISAR (NASA-ISRO Synthetic Aperture Radar), which is designed to peer straight through clouds. Doing so allows scientists to study the...",
-      "takeaway": "NISAR's cloud-penetrating radar capability enables continuous Earth observation over persistently cloudy regions, reducing weather-dependent gaps in critical infrastructure and environmental monitoring data.",
+      "takeaway": "NISAR's cloud-penetrating radar capabilities enable continuous Earth observation over persistently cloudy regions, potentially revolutionizing monitoring of aviation weather patterns and terrain hazards for flight operations.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/nisar/nasa-isro-satellite-captures-pacific-northwest-through-clouds/"
@@ -333,7 +509,7 @@
       "type": "news",
       "headline": "New Images Show B-2 Spirit Bombers Departing for Iran Mission with Unknown White Patches on Wings",
       "blurb": "Recently released photos show B-2 stealth bombers preparing to launch for a mission over Iran last week, with multiple unidentified white patches added along the leading edges of their wings. The U.S. Central Command has released new photos of the B-2A Spirit stealth bomber, one of the assets that,...",
-      "takeaway": "The white patches on B-2 wings likely represent field-applied countermeasures or sensor upgrades, suggesting ongoing operational modifications to stealth aircraft for specific threat environments.",
+      "takeaway": "The white patches on B-2 wings likely represent operational modifications for Iranian air defenses, suggesting evolving countermeasures against advanced radar systems in high-threat environments.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/25/b-2-spirit-unknown-white-patches-on-wings/"
@@ -345,27 +521,11 @@
       "publishedAt": "2026-03-25T15:38:29.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operators can simultaneously expand airport capacity and reduce environmental impact by implementing integrated optimization across airline scheduling, ground operations, and airspace management systems.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-25T19:04:20.600Z"
-    },
-    {
       "id": "ulciv3",
       "type": "news",
       "headline": "Digital Airman Certificate Bill Clears U.S. House",
       "blurb": "Measure would permit pilots to present electronic credentials during FAA inspections.",
-      "takeaway": "Digital airman certificates could streamline compliance checks and reduce administrative burden for pilots, while enabling the FAA to modernize credential verification systems.",
+      "takeaway": "Paperless pilot credentials could streamline compliance checks and reduce administrative burden while modernizing FAA oversight procedures.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/house-bill-digital-airman-certificates/"
@@ -382,7 +542,7 @@
       "type": "news",
       "headline": "Brazil unveils first Gripen E fighter assembled on home soil",
       "blurb": "Brazil has unveiled the first Gripen E fighter assembled on its own soil, a milestone for the Saab-Embraer…",
-      "takeaway": "Brazil's domestic Gripen E assembly demonstrates successful technology transfer and positions Embraer as a strategic aerospace manufacturer capable of supporting advanced fighter production in Latin America.",
+      "takeaway": "Brazil's domestic Gripen assembly capability signals Latin America's emerging aerospace manufacturing sophistication and reduces regional dependency on foreign military procurement.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/brazil-unveils-first-gripen-e-fighter-assembled-locally"
@@ -398,7 +558,7 @@
       "type": "news",
       "headline": "China Eastern orders over 100 Airbus aircraft, plans to retire at least 53 A320s",
       "blurb": "China Eastern Airlines has placed a $15.802 billion Airbus order for 101 A320neo family aircraft, comprised of A320neo,…",
-      "takeaway": "China Eastern's massive A320neo order signals confidence in regional growth despite fleet modernization costs tied to retiring older narrowbodies.",
+      "takeaway": "China Eastern's massive $15.8B order signals confidence in narrowbody demand recovery while simultaneously accelerating fleet modernization through older A320 retirements.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/china-eastern-orders-airbus-a320neo-family-aircraft"
@@ -411,11 +571,28 @@
       "publishedAt": "2026-03-25T15:29:12.000Z"
     },
     {
+      "id": "ahv647",
+      "type": "news",
+      "headline": "Telesat eyes defense role with laser comms test ahead of LEO debut",
+      "blurb": "Canadian operator adds military Ka-band and plans 2027 NASA demonstration as Pentagon seeks faster space data transport",
+      "takeaway": "Telesat's laser communications demonstration positions satellite operators as critical infrastructure for military data networks, creating new revenue streams beyond traditional commercial broadband markets.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/telesat-eyes-defense-role-with-laser-comms-test-ahead-of-leo-debut/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "publishedAt": "2026-03-25T15:20:04.000Z"
+    },
+    {
       "id": "ew0uu5",
       "type": "news",
       "headline": "UK, Turkey sign Eurofighter Typhoon support deal to advance fighter export",
       "blurb": "The UK and Turkey have signed a new support and training agreement tied to Ankara’s Eurofighter Typhoon purchase,…",
-      "takeaway": "Strategic support agreements beyond initial aircraft sales are becoming critical differentiators for fighter jet exports in competitive markets.",
+      "takeaway": "Strategic support agreements are becoming differentiators in fighter jet sales as nations compete for export market share through long-term sustainment commitments.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/uk-turkey-sign-eurofighter-typhoon-support-deal-to-advance-fighter-export"
@@ -423,180 +600,6 @@
       "category": "military",
       "keywords": [],
       "publishedAt": "2026-03-25T15:18:16.000Z"
-    },
-    {
-      "id": "nxogmf",
-      "type": "news",
-      "headline": "Wizz Air CCO on recovering the cost lead, offering Wi-Fi, and hedging fuel",
-      "blurb": "On March 25, 2026, Wizz Air announced that it had signed a deal with Barcelona-based inflight technology provider…",
-      "takeaway": "Ultra-low-cost carriers are now monetizing ancillary services like Wi-Fi to recover margin compression from fuel hedging strategies, signaling a shift toward hybrid revenue models.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/wizz-air-cco-on-recovering-the-cost-lead-offering-wi-fi-and-hedging-fuel"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-25T15:00:07.000Z"
-    },
-    {
-      "id": "2sy900",
-      "type": "news",
-      "headline": "House Moves to Bring Back Civil Overland Supersonic Flight",
-      "blurb": "Measure would direct FAA to write new regulations for civil aircraft flying faster than Mach 1.",
-      "takeaway": "Regulatory reform could enable a new market segment, but operators must overcome sonic boom mitigation challenges that previously blocked overland supersonic service.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/aviation-news/house-civil-overland-supersonic-flight/"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "faa"
-      ],
-      "publishedAt": "2026-03-25T14:55:18.000Z"
-    },
-    {
-      "id": "vko48e",
-      "type": "news",
-      "headline": "Make-Or-Break Week: United Airlines Enters Final Contract Talks With Flight Attendants",
-      "blurb": "Representatives of the carrier's cabin crew are hoping to be able to lock down a tentative agreement.",
-      "takeaway": "United's flight attendant negotiations enter critical phase as labor costs remain a pivotal factor in post-pandemic airline profitability recovery.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/united-airlines-flight-attendant-contract-final-talks/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-25T14:51:20.000Z"
-    },
-    {
-      "id": "uiub7p",
-      "type": "news",
-      "headline": "DJI just nuked drone prices across the board",
-      "blurb": "Something strange is happening to DJI drone prices right now. And if you’ve ever even briefly considered buying a drone, this is one of those moments where ignoring it might come back to haunt you. Because this isn’t a typical seasonal sale or a small round of discounts tucked away on a product...",
-      "takeaway": "DJI's aggressive pricing strategy may signal intensifying competition in the commercial drone market and could reshape customer acquisition patterns for the entire industry.",
-      "source": {
-        "name": "DroneDJ",
-        "url": "https://dronedj.com/2026/03/25/dji-drone-deals-lowest-discount/"
-      },
-      "category": "drones",
-      "keywords": [
-        "drone"
-      ],
-      "publishedAt": "2026-03-25T14:37:10.000Z"
-    },
-    {
-      "id": "ggj3uu",
-      "type": "news",
-      "headline": "Air Arabia debuts Panasonic Avionics multi-orbit IFC",
-      "blurb": "Already a customer of Panasonic Avionics’ eXW wireless inflight entertainment system, UAE-based Air Arabia is now flying with the IFEC giant’s Ku-band multi-orbit onboard connectivity solution, Runway Girl Network can reveal. The all-Airbus A320 Family operator is among a cluster of carriers...",
-      "takeaway": "Air Arabia's adoption of Panasonic's multi-orbit Ku-band connectivity demonstrates growing airline confidence in hybrid satellite solutions that reduce single-orbit latency dependencies.",
-      "source": {
-        "name": "Runway Girl Network",
-        "url": "https://runwaygirlnetwork.com/2026/03/air-arabia-debuts-panasonic-avionics-multi-orbit-ifc/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-03-25T14:30:40.000Z"
-    },
-    {
-      "id": "hpw3xh",
-      "type": "news",
-      "headline": "FAA Letter Says Whiteman Airport Obligated to Stay Open",
-      "blurb": "Los Angeles County still continues to study closure.",
-      "takeaway": "Despite ongoing closure studies, the FAA has legally bound Whiteman Airport to remain operational, potentially blocking local efforts to repurpose the facility.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/aviation-news/faa-says-whiteman-airport-must-stay-open/"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "faa",
-        "airport"
-      ],
-      "publishedAt": "2026-03-25T14:24:28.000Z"
-    },
-    {
-      "id": "952l86",
-      "type": "news",
-      "headline": "Philippine carriers cut flights, secure fuel as government declares emergency",
-      "blurb": "The Philippines has become the first country to declare a national state of energy emergency amid escalating Middle…",
-      "takeaway": "Airlines facing fuel supply disruptions must implement aggressive capacity reductions, signaling that geopolitical energy crises now directly constrain regional aviation operations and require government intervention.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/philippine-carriers-cut-flights-secure-fuel-as-government-declares-emergency"
-      },
-      "category": "international",
-      "keywords": [],
-      "publishedAt": "2026-03-25T14:03:50.000Z"
-    },
-    {
-      "id": "8sqcvk",
-      "type": "news",
-      "headline": "Southwest Airlines Cabin Reconfiguration Increases Seat Pitch, Reducing Overall Passenger Capacity",
-      "blurb": "Southwest Airlines has added extra-legroom seats to its fleet.",
-      "takeaway": "Southwest's capacity reduction through increased seat pitch represents a strategic bet that premium seating revenue and improved passenger satisfaction will offset lower load factors.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/southwest-airlines-cabin-reconfiguration-increases-pitch-reduces-passenger-capacity/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-25T14:00:18.000Z"
-    },
-    {
-      "id": "6beci6",
-      "type": "news",
-      "headline": "$15.8 Billion Vote Of Confidence: Airbus Scores Massive 101-Plane Deal",
-      "blurb": "The European planemaker continues to make big steps forward in a key market.",
-      "takeaway": "Airbus's 101-plane order signals sustained demand recovery and validates its competitive positioning against Boeing in a critical market segment.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/china-eastern-airbus-order/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-03-25T13:42:34.000Z"
-    },
-    {
-      "id": "nmh0t6",
-      "type": "news",
-      "headline": "Why Can’t The Airbus A350 Be Powered By Any Other Engine Type?",
-      "blurb": "The Airbus A350 and Rolls-Royce Trent XWB are a match made in aviation heaven.",
-      "takeaway": "The A350's airframe design is aerodynamically optimized exclusively for the Trent XWB's bypass ratio and thrust characteristics, making engine substitution technically and economically infeasible.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-airbus-a350-cant-be-powered-by-other-engine-type/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus",
-        "atc"
-      ],
-      "publishedAt": "2026-03-25T13:30:17.000Z"
-    },
-    {
-      "id": "2bzlye",
-      "type": "news",
-      "headline": "JetBlue Flight Halted After Bizarre Runway Encounter With Coyote",
-      "blurb": "The aircraft did not suffer any damage and was back in the air shortly after the incident, transporting passengers to their original destination.",
-      "takeaway": "Wildlife intrusions at major airports remain a persistent operational risk requiring enhanced perimeter security protocols beyond current deterrent systems.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/jetblue-flight-halted-after-bizarre-runway-encounter-with-coyote/"
-      },
-      "category": "safety",
-      "keywords": [
-        "incident"
-      ],
-      "publishedAt": "2026-03-25T13:10:31.000Z"
     }
   ]
 }
