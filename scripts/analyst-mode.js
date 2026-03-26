@@ -328,7 +328,7 @@ async function main() {
   }
 
   // 2. Schedule gate
-  const forceNow = process.env.ANALYST_FORCE_NOW === 'true';
+  const forceNow = !!process.env.ANALYST_FORCE_NOW;
   if (!forceNow) {
     const currentHourUTC = new Date().getUTCHours();
     const targetHour = config.dailyHourUTC ?? 11;

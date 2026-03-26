@@ -203,7 +203,7 @@ async function main() {
   console.log('='.repeat(40));
 
   // 1. Schedule gate
-  const forceNow = process.env.OPPORTUNITY_FORCE_NOW === 'true';
+  const forceNow = !!process.env.OPPORTUNITY_FORCE_NOW;
   if (!forceNow) {
     const currentHourUTC = new Date().getUTCHours();
     const targetHour = 12; // noon UTC
