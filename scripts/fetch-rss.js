@@ -559,6 +559,11 @@ function cleanDescription(description) {
     cleaned = cleaned.substring(0, 300).replace(/\s+\S*$/, '') + '...';
   }
 
+  // Ensure blurb ends with terminal punctuation (handles truncated RSS excerpts)
+  if (cleaned && !/[.!?]$/.test(cleaned)) {
+    cleaned = cleaned + '...';
+  }
+
   return cleaned;
 }
 
