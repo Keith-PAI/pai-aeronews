@@ -6,6 +6,8 @@ on:
     - cron: '0 * * * *'
     # Daily analyst digest at 11:15 UTC (matches sources.json dailyHourUTC)
     - cron: '15 11 * * *'
+    # Daily opportunity spotter at noon UTC
+    - cron: '0 12 * * *'
 
   # Run on push to main when relevant files change
   push:
@@ -23,6 +25,11 @@ on:
     inputs:
       forceAnalystNow:
         description: 'Bypass analyst schedule gate (for testing)'
+        required: false
+        type: boolean
+        default: false
+      forceOpportunitySpotterNow:
+        description: 'Bypass opportunity spotter schedule gate (for testing)'
         required: false
         type: boolean
         default: false
@@ -143,6 +150,60 @@ jobs:
           rm -rf "$tmp"
           git add dist/usage-counters.json
           git diff --staged --quiet || git commit -m "Update analyst usage counters [skip ci]"
+          git push origin gh-pages
+
+  # Opportunity Spotter — daily content ideas to Teams channel
+  # Only runs on the daily noon cron or manual dispatch with forceOpportunitySpotterNow
+  opportunity-spotter:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && inputs.forceOpportunitySpotterNow == true) ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 12 * * *')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Restore dist from gh-pages
+        run: |
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout origin/gh-pages -- dist/ 2>/dev/null || echo "No dist/ on gh-pages yet"
+          else
+            echo "gh-pages branch does not exist yet"
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run opportunity spotter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOG_TEAMS_WEBHOOK_URL: ${{ secrets.BLOG_TEAMS_WEBHOOK_URL }}
+          OPPORTUNITY_FORCE_NOW: ${{ inputs.forceOpportunitySpotterNow == true && '1' || '' }}
+        run: node scripts/opportunity-spotter.js
+
+      - name: Push updated counters to gh-pages
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          tmp=$(mktemp -d)
+          cp -a dist/. "$tmp/"
+
+          git fetch origin gh-pages
+          git checkout -B gh-pages origin/gh-pages
+
+          # Only update usage-counters.json (don't overwrite other dist files)
+          cp "$tmp/usage-counters.json" dist/usage-counters.json 2>/dev/null || true
+          rm -rf "$tmp"
+          git add dist/usage-counters.json
+          git diff --staged --quiet || git commit -m "Update opportunity-spotter usage counters [skip ci]"
           git push origin gh-pages
 
   # Deploy to GitHub Pages
