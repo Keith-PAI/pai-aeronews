@@ -1,12 +1,79 @@
 {
-  "lastUpdated": "2026-03-26T14:49:49.937Z",
+  "lastUpdated": "2026-03-26T15:13:40.861Z",
   "articles": [
+    {
+      "id": "x7vn4l",
+      "type": "news",
+      "headline": "FAA Presses California for Records in Airport-Funding Dispute",
+      "blurb": "California airport funding dispute draws new FAA scrutiny.",
+      "takeaway": "FAA's records request signals potential enforcement action against California, escalating a funding dispute that could reshape state airport operations and set precedent for federal oversight of airport finances.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/aviation-news/aviation-law/faa-presses-california-for-records-funding/"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "airport"
+      ],
+      "publishedAt": "2026-03-26T15:07:41.000Z"
+    },
+    {
+      "id": "97kqtu",
+      "type": "news",
+      "headline": "La NASA anuncia la cobertura de la de la primera misión tripulada Artemis alrededor de la Luna",
+      "blurb": "Diversos eventos previos al lanzamiento, del lanzamiento y de la misión Artemis II de la NASA alrededor de la Luna se transmitirán en línea. La agencia tiene como fecha objetivo no antes del miércoles 1 de abril para este vuelo de prueba, con una ventana de lanzamiento de dos horas que se abre a...",
+      "takeaway": "NASA's April 1 target for Artemis II lunar mission signals the agency's accelerating timeline to return humans to lunar orbit after decades of planning.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/news-release/la-nasa-anuncia-la-cobertura-de-la-de-la-primera-mision-tripulada-artemis-alrededor-de-la-luna/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa"
+      ],
+      "publishedAt": "2026-03-26T14:55:22.000Z"
+    },
+    {
+      "id": "sosngc",
+      "type": "news",
+      "headline": "DJI Avata 360 Sets New Standards for Immersive 360 FPV Flying",
+      "blurb": "Equipped with DJI’s flagship 1-inch imaging, O4+ video transmission, and omnidirectional obstacle sensing, creators can now...",
+      "takeaway": "DJI's omnidirectional obstacle avoidance enables unprecedented safety for 360-degree FPV operations, reducing barrier-to-entry for immersive aerial content creation at scale.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/03/dji-avata-360-sets-new-standards-for-immersive-360-fpv-flying/"
+      },
+      "category": "drones",
+      "keywords": [],
+      "publishedAt": "2026-03-26T14:52:26.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must document how they selected specific controls and justified acceptance of remaining risks to meet regulatory compliance under 14 CFR §5.55.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-26T15:12:55.999Z",
+      "paiContent": true
+    },
     {
       "id": "amvaeb",
       "type": "news",
       "headline": "Southwest Airlines Transforms Austin-Bergstrom Airport, Unleashing A New Era For Travelers And Crew",
       "blurb": "The carrier has scheduled almost 3,500 departures from the Texan facility this month alone.",
-      "takeaway": "Southwest's massive Austin deployment signals aggressive market capture in a high-growth region, with 3,500 monthly departures representing substantial operational scaling and crew base expansion requirements.",
+      "takeaway": "Southwest's 3,500 monthly departures from Austin signals a hub-building strategy that could reshape Texas aviation by concentrating point-to-point network capacity in a secondary market.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/southwest-airlines-new-crew-base-austin/"
@@ -23,7 +90,7 @@
       "type": "news",
       "headline": "Pentagon eyes redirecting Ukraine’s Patriot missiles to Middle East",
       "blurb": "The Pentagon is considering whether to redirect air defense interceptor missiles originally earmarked for Ukraine to the Middle…...",
-      "takeaway": "Military air defense supply chain prioritization reflects shifting geopolitical threats, potentially affecting allied procurement timelines and defense industry production schedules.",
+      "takeaway": "Shifting air defense resources from Europe to the Middle East could strain global missile production capacity and delay Ukraine's air defense modernization amid competing geopolitical demands.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/pentagon-ukraine-air-defense-missiles-middle-east"
@@ -37,7 +104,7 @@
       "type": "news",
       "headline": "Virgin Australia named world’s best cabin crew for eighth year running",
       "blurb": "Virgin Australia has been named World’s Best Cabin Crew for the eighth consecutive year in the AirlineRatings.com World’s…...",
-      "takeaway": "Sustained excellence in customer service delivery has become a competitive differentiator that directly influences airline brand valuation and passenger loyalty metrics.",
+      "takeaway": "Sustained cabin crew excellence creates measurable competitive differentiation, suggesting service quality investments yield quantifiable market recognition and likely customer loyalty advantages.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/virgin-australia-named-worlds-best-cabin-crew-for-eighth-year-running"
@@ -49,11 +116,32 @@
       "publishedAt": "2026-03-26T14:10:34.000Z"
     },
     {
-      "id": "lba4vj",
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS shifts aviation from investigating accidents after they occur to systematically identifying and mitigating hazards before incidents happen, fundamentally changing safety culture.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-26T15:12:55.999Z",
+      "paiContent": true
+    },
+    {
+      "id": "czi8nd",
       "type": "news",
-      "headline": "Hartsfield–Jackson Atlanta International Airport Remains North America's Busiest By Total Passengers",
+      "headline": "Hartsfield-Jackson Atlanta International Airport Remains North America's Busiest By Total Passengers",
       "blurb": "With over 100 million passengers handled in 2025, ATL continues to dominate global rankings for the world's busiest airport.",
-      "takeaway": "ATL's sustained 100M+ annual passenger volume underscores the critical infrastructure demands on hub airports and their role in network connectivity for carriers.",
+      "takeaway": "ATL's sustained 100M+ passenger throughput demonstrates the critical infrastructure demands on hub airports that concentrate both domestic and international traffic flows.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/hartsfield-jackson-atlanta-international-airport-north-americas-busiest-total-passengers/"
@@ -65,31 +153,11 @@
       "publishedAt": "2026-03-26T14:00:17.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations with psychological safety see 3-4x higher incident reporting rates, enabling proactive risk identification before accidents occur rather than reactive investigation afterward.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-26T14:49:06.268Z",
-      "paiContent": true
-    },
-    {
       "id": "ukvygv",
       "type": "news",
       "headline": "NASA’s Hubble Detects First-Ever Spin Reversal of Tiny Comet",
       "blurb": "Astronomers using NASA’s Hubble Space Telescope have found evidence that the spinning of a small comet slowed and then reversed its direction of rotation, offering a dramatic example of how volatile activity can affect the spin and physical evolution of small bodies in the solar system. This is the...",
-      "takeaway": "Cometary spin reversals induced by outgassing demonstrate critical mechanisms affecting small body trajectories, relevant to planetary defense and space mission planning.",
+      "takeaway": "Comet spin reversals demonstrate that outgassing forces can fundamentally alter trajectories of small celestial bodies, critical for aerospace mission planning near comets.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/"
@@ -106,7 +174,7 @@
       "type": "news",
       "headline": "Hughes targets sovereign satcom demand with network control software",
       "blurb": "Company rolls out AI-enabled modem as militaries shift to hybrid networks...",
-      "takeaway": "Hughes's AI-enabled modem addresses military operators' critical need to seamlessly integrate commercial and military satellite networks without infrastructure replacement.",
+      "takeaway": "Hughes' AI-enabled modem addresses military demand for resilient hybrid satellite-terrestrial networks, positioning commercial satcom vendors to capture defense modernization spending.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/hughes-targets-sovereign-satcom-demand-with-network-control-software/"
@@ -120,11 +188,32 @@
       "publishedAt": "2026-03-26T14:00:00.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures must navigate complex Bay Area airspace constraints and surrounding terrain, requiring pilots to execute precise departure profiles to maintain community relations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-26T15:12:56.392Z",
+      "videoContent": true
+    },
+    {
       "id": "xugzwg",
       "type": "news",
       "headline": "Video Shows Russian Geran Drone Shot Down by Rifle-Armed Ukrainian Yak-52 Crew",
       "blurb": "A first-person point-of-view video shows the crew member in the rear seat of a Ukrainian Yak-52 shooting with a rifle at a Russian Geran drone, which later detonates in a powerful explosion. A video that emerged on Mar. 24, 2026, shows a Russian Geran-type One-Way Attack (OWA) drone exploding...",
-      "takeaway": "Ukrainian forces are adapting legacy aircraft like the Yak-52 trainer into improvised air-defense platforms, demonstrating creative low-tech countermeasures against unmanned threats.",
+      "takeaway": "Ukrainian pilots are adapting Cold War-era trainer aircraft as makeshift interceptors, using small arms to engage low-flying drones where conventional air defense is unavailable.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/26/geran-drone-shot-down-by-ukrainian-yak-52/"
@@ -140,7 +229,7 @@
       "type": "news",
       "headline": "$147,000 Damage: Military KC-46A Tanker Rips Up 25 Foot Section Of Airport Tarmac",
       "blurb": "The continuous high temperature and pressure from the engine blast affected the integrity of the parking ramp, resulting in this damage.",
-      "takeaway": "Engine blast damage to airport infrastructure reveals critical vulnerability in KC-46A parking procedures, potentially necessitating revised ramp specifications or operational protocols for large military tankers.",
+      "takeaway": "Engine exhaust thermal degradation of airport infrastructure reveals potential maintenance liability issues for military aircraft operations at civilian facilities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/military-kc-46a-destroys-fairbanks-airport-tarmac/"
@@ -152,32 +241,11 @@
       "publishedAt": "2026-03-26T13:31:54.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS frameworks shift airlines from investigating accidents to predicting and preventing them through continuous safety data analysis.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-26T14:49:06.268Z",
-      "paiContent": true
-    },
-    {
       "id": "my7t7t",
       "type": "news",
       "headline": "Here’s How Much Larger The Boeing 777-300ER’s Windows Are Compared To The Airbus A350",
       "blurb": "Did you know that the older Triple-Seven has larger windows than a 21st-century clean-sheet carbon-composite widebody?",
-      "takeaway": "The 777-300ER's larger window size reflects 1990s design priorities for passenger comfort, while the A350's smaller windows optimize structural efficiency in modern composite construction.",
+      "takeaway": "Boeing's 777-300ER windows exceed A350 dimensions despite being nearly three decades older, demonstrating how cabin design priorities have shifted from passenger amenities to fuel efficiency and structural optimization.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-777-300er-windows-larger-than-airbus-a350-analysis/"
@@ -190,11 +258,33 @@
       "publishedAt": "2026-03-26T13:30:18.000Z"
     },
     {
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Regional airports like CID serve as crucial multi-use hubs supporting diverse aviation segments from flight training to commercial carriers, creating economic multiplier effects beyond typical general aviation.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-26T15:12:56.392Z",
+      "videoContent": true
+    },
+    {
       "id": "t7xej3",
       "type": "news",
       "headline": "AirAsia Philippines risks losing licenses over $14.5 million unpaid fees",
       "blurb": "The Civil Aviation Authority of the Philippines (CAAP) has issued a final demand letter to AirAsia Philippines for…...",
-      "takeaway": "Regulatory non-compliance on financial obligations poses an existential threat to airline operations, signaling potential systemic payment management failures beyond mere administrative oversight.",
+      "takeaway": "Regulatory enforcement against major carriers for fee non-compliance could trigger broader industry scrutiny of financial obligations and operating privileges across Southeast Asian markets.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airasia-philippines-risks-losing-licenses-over-14-5-million-unpaid-fees"
@@ -208,7 +298,7 @@
       "type": "news",
       "headline": "Volotea closes smaller than anticipated funding round following strong results",
       "blurb": "Regional low-cost carrier Volotea has completed its latest capital increase round. The airline announced in September 2024 that…...",
-      "takeaway": "Volotea's decision to close a smaller-than-planned funding round despite strong operational results signals improved financial self-sufficiency, reducing dilution pressure on existing shareholders.",
+      "takeaway": "Volotea's decision to close a smaller funding round despite strong operational results suggests investor confidence in the airline's profitability trajectory may be reducing capital requirements.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/volotea-closes-smaller-than-anticipated-funding-round-following-strong-results"
@@ -224,43 +314,37 @@
       "type": "news",
       "headline": "Toy Soldiers Bricking It: Danish Mix-Up Nearly Disassembles LegoLand Plane.",
       "blurb": "Back in September 2025, during a period of intense, unexplained unmanned aerial vehicle (UAV) activity,...",
-      "takeaway": "Unexplained UAV activity near airports poses operational risks even to specialized facilities, highlighting aviation's vulnerability to unidentified drone interference beyond commercial airspace.",
+      "takeaway": "The incident highlights critical supply chain vulnerabilities where industrial components can be misrouted to consumer manufacturers, potentially compromising aircraft safety protocols.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/toy-soldiers-bricking-it-danish-mix-up-nearly-disassembles-legoland-plane/"
       },
-      "category": "drones",
+      "category": "safety",
       "keywords": [],
       "publishedAt": "2026-03-26T13:09:53.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
-      "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Eastern Iowa Airport serves as a critical hub connecting general aviation training operations with commercial air carrier traffic, positioning regional airports as essential infrastructure for pilot development pipelines.",
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all aviation segments can simultaneously address capacity constraints and environmental impact, with research gaps remaining in implementation scalability.",
       "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
       },
-      "category": "general-aviation",
+      "category": "industry",
       "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
+        "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-26T14:49:06.522Z",
-      "videoContent": true
+      "publishedAt": "2026-03-26T15:12:56.392Z"
     },
     {
       "id": "hkv96o",
       "type": "news",
       "headline": "The Airline That Introduced Lie-Flat Business Class Seats To The World",
       "blurb": "Find out everything you need to know about the airlines that introduced lie-flat business class seats to the world.",
-      "takeaway": "Lie-flat seats became a premium differentiator that fundamentally changed long-haul profitability by enabling airlines to command 5-10x economy fares on the same routes.",
+      "takeaway": "Lie-flat seats fundamentally shifted business-class revenue models by justifying premium pricing through rest quality, enabling airlines to capture high-margin long-haul traffic from first-class.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airline-introduced-lie-flat-business-class-seats-world/"
@@ -276,7 +360,7 @@
       "type": "news",
       "headline": "Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence",
       "blurb": "While often described as a moonshot for missile defense, the Golden Dome for America mission is in reality something even more challenging: an exercise in disciplined systems engineering under threat. Hypersonic glide vehicles, maneuvering ballistic missiles and complex decoys are compressing...",
-      "takeaway": "Ground-based optical tracking systems are becoming mission-critical infrastructure for defending against advanced hypersonic threats, requiring aerospace suppliers to prioritize sensor reliability over speed.",
+      "takeaway": "Ground-based optical tracking systems are becoming mission-critical for intercepting advanced hypersonic threats, shifting defense priorities toward persistent surveillance architecture rather than kinetic response speed alone.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/golden-dome-and-the-velocity-race-why-ground-based-optics-are-the-key-to-mission-persistence/"
@@ -292,7 +376,7 @@
       "type": "news",
       "headline": "Bombardier delivers first Global 8000 to NetJets",
       "blurb": "Bombardier has handed over the first Global 8000 business jet to NetJets, marking the fleet launch customer’s entry…...",
-      "takeaway": "NetJets' adoption of the Global 8000 signals charter operators' confidence in ultra-long-range capabilities as fractional ownership demand evolves beyond traditional markets.",
+      "takeaway": "NetJets' adoption of the Global 8000 signals market confidence in next-generation ultra-long-range cabins as fractional operators prioritize premium cabin experience to justify higher fractional shares.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/bombardier-global-8000-first-delivery-netjets"
@@ -306,7 +390,7 @@
       "type": "news",
       "headline": "Up To 17-Hour Nonstop: Emirates' 10 Ultra-Long Routes In 2026",
       "blurb": "Emirates is the world's second-largest long-haul operator, after United Airlines. In 2026, the carrier has an average of 134 daily long-haul passenger departures from its Dubai hub. Over half of the carrier's total flights fall into this category.",
-      "takeaway": "Emirates' ultra-long-haul expansion requires aircraft reliability and crew scheduling optimization at the edge of operational limits.",
+      "takeaway": "Emirates' dominance in ultra-long-haul routes reflects a strategic hub-and-spoke model where over 50% of operations are long-haul flights, enabling premium revenue concentration.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/up-to-17-hour-nonstop-emirates-10-ultra-long-routes-in-2026/"
@@ -318,32 +402,11 @@
       "publishedAt": "2026-03-26T12:28:17.000Z"
     },
     {
-      "id": "yt-auto-R8xtl4OW9eg",
-      "type": "video",
-      "headline": "RNO Mustang 9 Departure",
-      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "The Mustang 9 Departure from RNO requires strict adherence to published procedures to avoid terrain and airspace conflicts in the Reno basin's complex high-altitude environment.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-26T14:49:06.522Z",
-      "videoContent": true
-    },
-    {
       "id": "63cz2q",
       "type": "news",
       "headline": "United Airlines transforms devil’s chariot into premium CRJ-450",
       "blurb": "LOS ANGELES — Before the COVID-19 pandemic upended the airline industry, one-third of all United Airlines’ domestic US departures were on 50-seat regional jets. While that number has fallen to just 10% today, United isn’t resting on its laurels as demand for premium travel products remains high....",
-      "takeaway": "United's conversion of 50-seat regional jets into premium-configured aircraft addresses declining regional capacity while capitalizing on sustained demand for higher-margin business travel.",
+      "takeaway": "United's retrofit of 50-seat CRJ-450s with premium cabin configurations addresses the paradox of reduced regional jet capacity alongside persistent premium travel demand.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/united-airlines-transforms-devils-chariot-into-premium-crj-450/"
@@ -359,7 +422,7 @@
       "type": "news",
       "headline": "South Korea rolls out first mass-production KF-21 Boramae",
       "blurb": "South Korea has rolled out the first mass-produced KF-21 Boramae fighter jet, completing a major production milestone for…...",
-      "takeaway": "South Korea's KF-21 production milestone strengthens Asia-Pacific aerospace sovereignty and establishes a new regional competitor in the advanced fighter aircraft market.",
+      "takeaway": "South Korea's transition to mass production of the KF-21 Boramae signals the country's emergence as a credible indigenous fighter jet manufacturer and reduces regional dependency on foreign defense suppliers.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/south-korea-kf-21-boramae-mass-production-rollout"
@@ -373,7 +436,7 @@
       "type": "news",
       "headline": "DJI Avata 360 global launch begins, US delayed again",
       "blurb": "DJI has kicked off the global rollout of the Avata 360, positioning it as its most immersive consumer drone yet. In many parts of the world, that means orders are either already live or pre-sales have begun. In the US, though, things are playing out a little differently, again. more…...",
-      "takeaway": "DJI's global market fragmentation strategy reveals sustained US regulatory barriers that continue to delay consumer drone product access while international markets advance.",
+      "takeaway": "DJI's global expansion strategy now treats US market access as a secondary consideration, reflecting deepening regulatory fragmentation that forces drone manufacturers to prioritize international revenue streams.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/26/dji-avata-360-drone-launch-2/"
@@ -389,7 +452,7 @@
       "type": "news",
       "headline": "Up To 16-Hour Nonstop Flights: Etihad Airways' 10 New Ultra-Long Routes In 2026",
       "blurb": "Two of the routes are brand-new this year, while another started in 2025. Learn more here!",
-      "takeaway": "Etihad's expansion into ultra-long-haul routes demonstrates how carriers are leveraging new aircraft capabilities and demand patterns to compete in premium international markets.",
+      "takeaway": "Etihad's expansion of ultra-long routes demonstrates how Middle Eastern hubs are capturing premium long-haul market share through aircraft efficiency and strategic positioning between Europe and Asia-Pacific.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/up-to-16-hour-nonstop-flights-etihad-airways-10-new-ultra-long-routes-in-2026/"
@@ -399,32 +462,16 @@
       "publishedAt": "2026-03-26T12:00:18.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all levels—airlines, airports, and individual flights—offers immediate efficiency gains that can offset capacity growth without waiting for next-generation aircraft.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-26T14:49:06.522Z"
-    },
-    {
       "id": "ewkxhg",
       "type": "news",
       "headline": "Changi Airports International to help develop Phu Quoc as ‘airport destination’",
       "blurb": "Changi Airports International (CAI) announced it has signed a strategic cooperation agreement with Vietnam’s Sun Group to develop…...",
-      "takeaway": "Singapore's airport operator is expanding beyond terminal management into destination development, signaling how Asian airports compete on tourism and commercial services beyond air transport.",
+      "takeaway": "Asian airport operators are expanding beyond traditional aviation services into integrated resort and leisure experiences to maximize revenue per passenger and compete for regional tourism share.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/changi-airports-international-to-help-develop-phu-quoc-as-airport-destination"
       },
-      "category": "international",
+      "category": "commercial",
       "keywords": [
         "airport"
       ],
@@ -435,7 +482,7 @@
       "type": "news",
       "headline": "First Production KF-21 Boramae Rolled Out of Factory in South Korea",
       "blurb": "The first serial production KF-21 Boramae fighter jet has rolled out of the Korea Aerospace Industries (KAI) factory in a major milestone for the program. The first of 40 serial production KF-21 Boramae fighter jets has rolled out of the Korea Aerospace Industries (KAI) factory, marking a major...",
-      "takeaway": "South Korea's indigenous fighter program advances toward operational deployment with serial production commencing, reducing dependency on foreign combat aircraft suppliers.",
+      "takeaway": "South Korea's domestically-developed KF-21 fighter enters production phase, reducing the nation's reliance on foreign combat aircraft and establishing a new regional aerospace manufacturing capability.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/26/first-production-kf-21-boramae-rolled-out/"
@@ -451,7 +498,7 @@
       "type": "news",
       "headline": "NASA to test nuclear electric propulsion with 2028 mission to Mars",
       "blurb": "NASA’s new exploration strategy includes the rapid development of a nuclear-powered mission to Mars in 2028, leveraging hardware originally built for the lunar Gateway.",
-      "takeaway": "NASA's nuclear electric propulsion system will repurpose existing lunar Gateway hardware, accelerating Mars mission development while reducing costs through component reuse.",
+      "takeaway": "Repurposing lunar Gateway hardware accelerates Mars exploration timelines while reducing development costs for NASA's nuclear electric propulsion demonstration.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/nasa-to-test-nuclear-electric-propulsion-with-2028-mission-to-mars/"
@@ -469,7 +516,7 @@
       "type": "news",
       "headline": "Airbus tests firefighting system linking drones, aircraft and ground crews",
       "blurb": "Airbus has demonstrated a concept in which diverse aerial and ground assets share a common data picture during…...",
-      "takeaway": "Integrated drone-aircraft-ground coordination through shared data systems could significantly reduce wildfire response times and improve crew safety by eliminating communication gaps.",
+      "takeaway": "Integrated airborne and ground data sharing could significantly reduce coordination delays in emergency response operations, improving firefighting efficiency across multiple asset types.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airbus-networked-firefighting-system-trial"
@@ -486,7 +533,7 @@
       "type": "news",
       "headline": "Skyways",
       "blurb": "Austin, TX Open Roles – Skyways / Full-time / On-site At Skyways, we are building...",
-      "takeaway": "Skyways' Austin expansion signals growing competition in the urban air mobility sector as companies race to establish operational hubs in tech-forward markets.",
+      "takeaway": "Skyways is actively hiring for full-time positions in Austin, signaling expansion of operations in a competitive air mobility market.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/skyways-head-of-flight/"
@@ -500,7 +547,7 @@
       "type": "news",
       "headline": "A350-900 vs 777-300ER: Who Wins on Range?",
       "blurb": "For more than two decades, the Boeing 777-300ER has been one of the most recognizable long-haul aircraft in the world. It has carried millions of passengers across continents, linking global hubs like Dubai, New York, Hong Kong, and Los Angeles with remarkable reliability. Airlines have long...",
-      "takeaway": "The A350-900's superior fuel efficiency enables comparable range to the 777-300ER while carrying similar passenger loads with significantly lower operating costs, reshaping fleet economics for long-haul operators.",
+      "takeaway": "The A350-900's superior fuel efficiency enables comparable range to the 777-300ER while carrying more passengers, reshaping long-haul fleet economics for airlines planning their next-generation wide-body investments.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/a350-900-vs-777-300er-who-wins-on-range/"
@@ -518,7 +565,7 @@
       "type": "news",
       "headline": "The Striking Differences Between The Boeing 777X & Airbus A350-1000",
       "blurb": "Find out how the Boeing 777X and Airbus A350-1000 Compete...",
-      "takeaway": "The 777X's larger cabin and cargo capacity target long-haul freight profitability, while the A350's fuel efficiency prioritizes passenger economics on similar routes.",
+      "takeaway": "The 777X targets ultra-long-range cargo and premium routes while the A350-1000 emphasizes fuel efficiency and lower operating costs for airlines seeking competitive advantages.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-differences-airbus-a350-boeing-777x/"
@@ -535,7 +582,7 @@
       "type": "news",
       "headline": "Russia denies sending modified Shahed drones to Iran",
       "blurb": "Russia is reportedly close to completing shipments of modified Shahed-type drones to Iran, according to Western intelligence cited…...",
-      "takeaway": "Russia's drone technology transfer to Iran could accelerate adversarial UAV capabilities in regions affecting global air traffic and aviation security.",
+      "takeaway": "Russia's drone technology transfer to Iran signals escalating military cooperation that could reshape unmanned warfare capabilities in the Middle East.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/russia-modified-shahed-drones-iran"
@@ -545,52 +592,6 @@
         "drone"
       ],
       "publishedAt": "2026-03-26T10:11:56.000Z"
-    },
-    {
-      "id": "r7nkm",
-      "type": "news",
-      "headline": "FlyFocus unveils KURIER unmanned helicopter",
-      "blurb": "FlyFocus, a Warsaw-based defence technology company specialising in unmanned aerial systems (UAS) and avionics, has...",
-      "takeaway": "European defense contractors are developing autonomous rotorcraft capabilities to compete with established military drone suppliers in the growing UAS market.",
-      "source": {
-        "name": "sUAS News",
-        "url": "https://www.suasnews.com/2026/03/flyfocus-unveils-kurier-unmanned-helicopter/"
-      },
-      "category": "drones",
-      "keywords": [
-        "uas"
-      ],
-      "publishedAt": "2026-03-26T10:02:38.000Z"
-    },
-    {
-      "id": "udomu8",
-      "type": "news",
-      "headline": "Video Shows Super Hornet’s Near Miss After Apparent Iranian MANPADS Launch",
-      "blurb": "A U.S. F/A-18 Super Hornet was involved in a near miss after being targeted by an apparent Iranian MANPADS system during a low altitude strafing run with the 20 mm M61 cannon. Videos emerged online on Mar. 26, 2026, show a U.S. Navy F/A-18 Super Hornet fighter jet targeted by an apparent Iranian...",
-      "takeaway": "Low-altitude cannon runs remain tactically vulnerable to shoulder-fired air defense systems, highlighting persistent risks for close air support operations in contested airspace.",
-      "source": {
-        "name": "The Aviationist",
-        "url": "https://theaviationist.com/2026/03/26/super-hornets-near-miss-iranian-manpads/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-03-26T10:01:44.000Z"
-    },
-    {
-      "id": "wwf5jw",
-      "type": "news",
-      "headline": "The Top 5 Highest Paid US Air Force Pilot Ranks & Their Average 2026 Salaries",
-      "blurb": "Air Force pilots are paid based on their rank and years of service, although even the highest ranks typically earn less than commercial pilots.",
-      "takeaway": "Military pilot compensation maxes out significantly below commercial airline captain earnings, creating retention challenges for experienced Air Force talent.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/top-highest-paid-usaf-pilot-ranks-average-salaries-2026/"
-      },
-      "category": "military",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-03-26T08:00:17.000Z"
     }
   ]
 }
