@@ -99,11 +99,8 @@ jobs:
           git push origin gh-pages
 
   # Analyst Mode — daily digest to dedicated Teams channel
-  # Only runs on the daily analyst cron or manual dispatch with forceAnalystNow
+  # Scripts handle their own schedule gates via ANALYST_FORCE_NOW env var
   analyst-digest:
-    if: >-
-      (github.event_name == 'workflow_dispatch' && inputs.forceAnalystNow == true) ||
-      (github.event_name == 'schedule' && github.event.schedule == '15 15 * * *')
     runs-on: ubuntu-latest
 
     steps:
@@ -153,11 +150,8 @@ jobs:
           git push origin gh-pages
 
   # Opportunity Spotter — daily content ideas to Teams channel
-  # Only runs on the daily noon cron or manual dispatch with forceOpportunitySpotterNow
+  # Scripts handle their own schedule gates via OPPORTUNITY_FORCE_NOW env var
   opportunity-spotter:
-    if: >-
-      (github.event_name == 'workflow_dispatch' && inputs.forceOpportunitySpotterNow == true) ||
-      (github.event_name == 'schedule' && github.event.schedule == '0 12 * * *')
     runs-on: ubuntu-latest
 
     steps:
