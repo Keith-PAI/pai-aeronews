@@ -131,7 +131,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANALYST_TEAMS_WEBHOOK_URL: ${{ secrets.ANALYST_TEAMS_WEBHOOK_URL }}
-          ANALYST_FORCE_NOW: ${{ inputs.forceAnalystNow == true && '1' || '' }}
+          ANALYST_FORCE_NOW: ${{ inputs.forceAnalystNow }}
         run: node scripts/analyst-mode.js
 
       - name: Push updated counters to gh-pages
@@ -185,7 +185,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BLOG_TEAMS_WEBHOOK_URL: ${{ secrets.BLOG_TEAMS_WEBHOOK_URL }}
-          OPPORTUNITY_FORCE_NOW: ${{ inputs.forceOpportunitySpotterNow == true && '1' || '' }}
+          OPPORTUNITY_FORCE_NOW: ${{ inputs.forceOpportunitySpotterNow }}
         run: node scripts/opportunity-spotter.js
 
       - name: Push updated counters to gh-pages
