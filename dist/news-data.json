@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-03-27T20:48:36.768Z",
+  "lastUpdated": "2026-03-27T21:42:46.048Z",
   "articles": [
+    {
+      "id": "kjtil9",
+      "type": "news",
+      "headline": "How GE Aerospace Engines Stack Up Against The Rolls-Royce Trent Series",
+      "blurb": "Which will come out on top?",
+      "takeaway": "GE and Rolls-Royce dominate wide-body engine competition, with aircraft OEM selections increasingly driven by fuel efficiency gains and supply chain resilience post-pandemic.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/ge-aerospace-engines-stack-up-rolls-royce-trent/"
+      },
+      "category": "industry",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-27T21:30:18.000Z"
+    },
+    {
+      "id": "c00mg9",
+      "type": "news",
+      "headline": "NASA Selects Intuitive Machines to Deliver Artemis Science, Tech to Moon",
+      "blurb": "NASA has awarded Intuitive Machines of Houston, $180.4 million to deliver NASA-funded science and technology to the lunar surface as part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program. This lunar delivery, which includes seven payloads — five of them NASA’s...",
+      "takeaway": "NASA's $180.4M contract with Intuitive Machines signals accelerating commercialization of lunar logistics, reducing agency reliance on traditional aerospace contractors for Artemis infrastructure delivery.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa"
+      ],
+      "publishedAt": "2026-03-27T21:12:52.000Z"
+    },
+    {
+      "id": "1xwdd0",
+      "type": "news",
+      "headline": "7 Reasons Why The US Air Force Still Operates The B-52",
+      "blurb": "From nuclear deterrence to missile truck missions, the B-52 Stratofortress remains essential to US airpower even in 2026.",
+      "takeaway": "The B-52's multi-mission flexibility and unmatched payload capacity make it irreplaceable despite 70+ years of service, justifying continued modernization over costly new platform development.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/7-reasons-usaf-operates-b-52/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-03-27T21:00:17.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must document how they selected specific controls and justified accepting remaining risk, creating an auditable decision trail for regulators under Part 5 requirements.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-27T21:42:09.267Z",
+      "paiContent": true
+    },
     {
       "id": "pnim2s",
       "type": "news",
       "headline": "Deaf Woman Says Disability Caused Flight Removal, But Frontier Airlines Says She Had Alcohol",
       "blurb": "Viral Frontier removal dispute pits disability-accommodation claims against the airline’s alcohol accusation.",
-      "takeaway": "Airlines face mounting pressure to document disability vs. misconduct incidents thoroughly, as social media amplifies disputes that could influence regulatory scrutiny of accommodation practices.",
+      "takeaway": "Airlines face increasing litigation risk when removing passengers with disabilities, as disability claims may complicate alcohol-related enforcement and create reputational exposure.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/deaf-woman-disability-caused-flight-removal-frontier-airlines-alcohol/"
       },
-      "category": "commercial",
+      "category": "regulatory",
       "keywords": [
         "airline"
       ],
@@ -22,7 +88,7 @@
       "type": "news",
       "headline": "The 5 Longest US Domestic Flights In 2026",
       "blurb": "All five start or end in Hawaii.",
-      "takeaway": "Hawaii's geographic isolation creates five of the longest domestic routes in the US network, presenting unique operational and scheduling challenges for carriers serving the islands.",
+      "takeaway": "Hawaii's geographic isolation makes it the only US market where ultra-long domestic routes remain economically viable despite fuel costs and crew regulations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-longest-us-domestic-flights/"
@@ -36,7 +102,7 @@
       "type": "news",
       "headline": "Sitting Comfortably? The Top 10 Busiest US Regional Jet Airports",
       "blurb": "Chicago O'Hare reigns supreme as the busiest airport for regional flights in the US, with over 128,000 takeoffs and landings in Q2 2026.",
-      "takeaway": "Regional jet hubs concentrate traffic at major metros, creating capacity constraints that pressurize feeder network economics and gate availability for carriers.",
+      "takeaway": "Regional jet hubs concentrated at major metros create competitive advantages for carriers operating efficient feed networks into legacy hub structures.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-top-10-rj-airports-2026/"
@@ -48,27 +114,11 @@
       "publishedAt": "2026-03-27T19:34:41.000Z"
     },
     {
-      "id": "nsjv3i",
-      "type": "news",
-      "headline": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
-      "blurb": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information...",
-      "takeaway": "NASA's environmental awards program directly influences aerospace contractor sustainability standards and compliance requirements across the industry supply chain.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa"
-      ],
-      "publishedAt": "2026-03-27T19:27:09.000Z"
-    },
-    {
       "id": "pai-safety-culture",
       "type": "pai-blog",
       "headline": "Safety Culture in Aviation SMS",
       "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Safety Management Systems succeed only when organizations create psychological safety that encourages frontline workers to report hazards without fear of punishment.",
+      "takeaway": "Strong SMS effectiveness depends less on compliance procedures than on psychological safety that encourages frontline employees to voluntarily report hazards without fear of punishment.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
         "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
@@ -80,15 +130,31 @@
         "reporting",
         "just culture"
       ],
-      "publishedAt": "2026-03-27T20:47:56.072Z",
+      "publishedAt": "2026-03-27T21:42:09.267Z",
       "paiContent": true
+    },
+    {
+      "id": "nsjv3i",
+      "type": "news",
+      "headline": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
+      "blurb": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information...",
+      "takeaway": "NASA's environmental awards framework incentivizes aerospace facilities to integrate sustainability practices that can influence industry-wide standards for reducing aviation's ecological footprint.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa"
+      ],
+      "publishedAt": "2026-03-27T19:27:09.000Z"
     },
     {
       "id": "7oi1gw",
       "type": "news",
       "headline": "EASA warns non-airworthy stolen engine parts could re-enter the market",
       "blurb": "The European Union Aviation Safety Agency (EASA) is warning airlines, maintenance providers and parts buyers to be on…...",
-      "takeaway": "Stolen engine components risk circumventing traceability systems, potentially compromising fleet safety across European operators if counterfeit parts integrate into supply chains.",
+      "takeaway": "Stolen engine parts from scrapped aircraft may be disguised and sold as serviceable inventory, requiring enhanced supplier verification protocols beyond standard compliance checks.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/easa-warns-stolen-engine-parts-could-re-enter-market"
@@ -107,7 +173,7 @@
       "type": "news",
       "headline": "Inside The Airbus A350's Avionics Bay",
       "blurb": "The aircraft is one of the world's most advanced machines.",
-      "takeaway": "The A350's avionics integration demonstrates how modern aircraft consolidate complex systems into modular designs, reducing maintenance costs and improving dispatch reliability.",
+      "takeaway": "The A350's distributed avionics architecture enables real-time redundancy and modular upgrades, reducing maintenance downtime while supporting next-generation autonomous flight capabilities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/inside-airbus-a350-avionics-bay/"
@@ -119,11 +185,33 @@
       "publishedAt": "2026-03-27T19:00:19.000Z"
     },
     {
+      "id": "yt-auto-3sJ1UJ6i5OA",
+      "type": "video",
+      "headline": "From the Flight Deck – Frederick Municipal Airport, MD (FDK)",
+      "blurb": "Frederick Municipal is a small general and corporate aviation airport located just east of the city of Frederick, Maryland. The traffic mix runs the spectrum from single engine training aircraft up...",
+      "takeaway": "Frederick Municipal demonstrates how regional airports balance mixed traffic from flight training to corporate operations, supporting community aviation connectivity.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=3sJ1UJ6i5OA"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-27T21:42:09.512Z",
+      "videoContent": true
+    },
+    {
       "id": "nnxflr",
       "type": "news",
       "headline": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
       "blurb": "March 27, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Astrolab and Zeno Power, two innovative companies advancing planetary mobility and reliable energy in extreme environments. […]...",
-      "takeaway": "Astrolab and Zeno Power's membership signals growing industry consolidation around lunar surface mobility and power systems critical for sustained commercial space operations.",
+      "takeaway": "Astrolab and Zeno Power's addition signals CSF's expanding focus beyond launch services toward lunar surface operations and power systems critical for sustained deep-space missions.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members/"
@@ -135,36 +223,16 @@
       "publishedAt": "2026-03-27T19:00:00.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 risk assessment frameworks enable operators to systematically quantify safety hazards and justify operational decisions with data-driven evidence rather than assumption.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-27T20:47:56.072Z",
-      "paiContent": true
-    },
-    {
-      "id": "z3vlnq",
+      "id": "jv5w0y",
       "type": "news",
-      "headline": "Put Them On Blast: TMZ Asks Public For Photos Of Vacationing Congress Members Amid TSA Crisis",
+      "headline": "Put Them On Blast: TMZ Asks Public For Photos Of Vacationing Lawmakers Amid TSA Crisis",
       "blurb": "The shutdown, now in its 41st day, has left around 50,000 TSA officers without a paycheck.",
-      "takeaway": "The TSA staffing crisis from unpaid officers creates operational vulnerabilities that could affect flight schedules and security protocols across commercial aviation networks.",
+      "takeaway": "Extended government shutdown threatens aviation security operations as unpaid TSA officers face financial hardship, potentially compromising screening consistency and airline reliability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/tmz-public-photos-vacationing-congress-members-tsa-crisis/"
       },
-      "category": "commercial",
+      "category": "safety",
       "keywords": [],
       "publishedAt": "2026-03-27T18:59:41.000Z"
     },
@@ -173,7 +241,7 @@
       "type": "news",
       "headline": "ESA to decide by June on Europe’s Gateway contributions",
       "blurb": "MUNICH — For more than a year, questions have swirled about Artemis changes and the Gateway’s role in U.S. lunar ambitions. Following NASA’s March 24 decision to halt work on Gateway, the lunar-orbiting station that had been intended to support astronauts before and after lunar surface missions,...",
-      "takeaway": "Europe's delayed Gateway decision could fragment lunar exploration partnerships if ESA commits resources to a NASA-deprioritized program without clear integration into revised Artemis timelines.",
+      "takeaway": "Europe's aerospace sector faces June deadline to commit Gateway funding amid NASA's strategic pivot away from the lunar-orbiting station, creating uncertainty for ESA's Artemis participation strategy.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/esa-to-decide-by-june-on-europes-gateway-contributions/"
@@ -186,11 +254,33 @@
       "publishedAt": "2026-03-27T18:55:53.000Z"
     },
     {
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Eastern Iowa Airport's mixed-use model combining flight training with commercial air carrier operations creates operational complexity that requires careful traffic management and runway coordination.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-27T21:42:09.512Z",
+      "videoContent": true
+    },
+    {
       "id": "rvac3b",
       "type": "news",
       "headline": "American Airlines Strongly Considers Bringing Back Seatback Screens, Eyes Starlink",
       "blurb": "American Airlines may bring back seatback screens while exploring Starlink WiFi, signaling a shift toward enhanced inflight connectivity.",
-      "takeaway": "American Airlines' potential seatback screen reinvestment reflects competitive pressure to bundle premium connectivity and entertainment as differentiated revenue drivers rather than cost-cutting measures.",
+      "takeaway": "American Airlines' seatback screen reversal reflects cabin connectivity improvements making screen viability economical again, unlike previous cost-cutting rationales.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/american-airlines-bringing-back-seatback-screens-eyes-starlink/"
@@ -202,32 +292,11 @@
       "publishedAt": "2026-03-27T18:52:44.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise-abatement procedures require pilots to navigate complex terrain and Class B airspace constraints that demand heightened situational awareness during departures.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-27T20:47:56.603Z",
-      "videoContent": true
-    },
-    {
       "id": "i8lr08",
       "type": "news",
       "headline": "Gallery: Luke Days 2026",
       "blurb": "A glimpse back at last weekend's air show at Luke Air Force Base in Arizona.",
-      "takeaway": "Luke AFB's air show demonstrates continued public engagement with military aviation operations and serves as a recruitment and community relations tool for active-duty squadrons.",
+      "takeaway": "Luke Air Force Base air shows attract significant public engagement and demonstrate modern military aviation capabilities to civilian audiences in the Southwest region.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/gallery-luke-days-2026/"
@@ -241,7 +310,7 @@
       "type": "news",
       "headline": "NISAR’s View of Mount Rainier",
       "blurb": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount Rainier. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface...",
-      "takeaway": "NISAR's synthetic aperture radar capability to penetrate cloud cover provides unprecedented Earth observation data for volcanic monitoring and natural disaster preparedness in regions with persistent weather challenges.",
+      "takeaway": "NISAR's L-band SAR capability to penetrate cloud cover provides aviation weather monitoring with unprecedented surface detail for terrain-critical operations in mountainous regions.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/"
@@ -251,11 +320,27 @@
       "publishedAt": "2026-03-27T18:32:40.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all aviation system layers offers immediate environmental gains while capacity expansion technology development remains critical for handling projected traffic growth.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-27T21:42:09.512Z"
+    },
+    {
       "id": "b5z37h",
       "type": "news",
       "headline": "NISAR Views Mount St. Helens",
       "blurb": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount St. Helens. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface...",
-      "takeaway": "NISAR's L-band synthetic aperture radar enables all-weather Earth observation through cloud cover, expanding monitoring capabilities for volcanic and geological hazards critical to aviation flight planning.",
+      "takeaway": "NISAR's L-band SAR capability to penetrate cloud cover enables persistent volcano monitoring critical for aviation safety and volcanic ash hazard prediction.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/"
@@ -265,32 +350,11 @@
       "publishedAt": "2026-03-27T18:29:54.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
-      "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strikes kill helicopters because pilots systematically underestimate how quickly they approach wires and overestimate their reaction time to avoid them.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-27T20:47:56.603Z",
-      "videoContent": true
-    },
-    {
       "id": "b53zeg",
       "type": "news",
       "headline": "NTSB Issues Preliminary Report on Hudson River Ditching",
       "blurb": "Investigators say an instructional flight ended after a loss of oil pressure and total engine failure.",
-      "takeaway": "Oil pressure loss leading to complete engine failure highlights critical maintenance or design vulnerabilities that warrant immediate fleet-wide inspection protocols.",
+      "takeaway": "The ditching highlights critical gaps in engine monitoring systems, as total failure resulted from oil pressure loss that should have triggered earlier warning mechanisms.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/accidents-ntsb/ntsb-preliminary-hudson-river-ditching/"
@@ -306,7 +370,7 @@
       "type": "news",
       "headline": "How Premium Economy Has Changed Over The Last 10 Years",
       "blurb": "The transformation of premium economy from a niche offering to a central pillar of airline strategy has reshaped how passengers travel.",
-      "takeaway": "Premium economy's evolution from niche to core offering has become airlines' primary margin driver as they optimize cabin configurations between economy and business.",
+      "takeaway": "Premium economy's evolution from niche to mainstream has become airlines' primary margin-expansion strategy, allowing them to capture price-sensitive business travelers without cannibalizing first-class revenue.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-premium-economy-changed-last-10-years/"
@@ -322,7 +386,7 @@
       "type": "news",
       "headline": "NASA Tech and Science Bound for Low Earth Orbit on Commercial Launch",
       "blurb": "Technology and science demonstrations, supported by various NASA industry collaborations and agency developments, are set to launch to low Earth orbit aboard a SpaceX Falcon 9 rocket as part of the company’s Transporter-16 commercial rideshare mission. These demonstrations will test thermal...",
-      "takeaway": "NASA's shift toward commercial rideshare missions reduces launch costs while accelerating technology validation cycles for aerospace developers and suppliers.",
+      "takeaway": "NASA's reliance on commercial rideshare missions reduces standalone launch costs and accelerates technology validation cycles for aerospace development programs.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch/"
@@ -336,27 +400,11 @@
       "publishedAt": "2026-03-27T18:00:08.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across integrated airline-airport-flight systems offers near-term capacity and emissions gains while emerging technologies mature for longer-term sustainability.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-27T20:47:56.604Z"
-    },
-    {
       "id": "k4x26t",
       "type": "news",
       "headline": "House Transportation Chair Sam Graves To Retire",
       "blurb": "Graves helped shape FAA reauthorization, BasicMed and several other general aviation measures.",
-      "takeaway": "Loss of a key congressional advocate for general aviation could slow momentum on pending FAA modernization and pilot certification reforms.",
+      "takeaway": "Graves' retirement removes a key advocate for general aviation regulatory flexibility, potentially shifting congressional focus on FAA modernization priorities.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/transportation-chair-sam-graves-to-retire/"
@@ -372,7 +420,7 @@
       "type": "news",
       "headline": "NASA Names Scientists to Support Lunar South Pole Science",
       "blurb": "NASA has selected 10 participating scientists to help shape a science plan for astronauts to complete on the lunar surface under the Artemis program – including deploying scientific instruments, making critical observations of the landing site, and collecting Moon rocks. “Congratulations to the...",
-      "takeaway": "NASA's scientist selection for Artemis lunar missions signals that surface operations will prioritize rigorous scientific methodology alongside exploration, requiring aviation and spacecraft teams to accommodate specialized equipment and extended surface protocols.",
+      "takeaway": "NASA's selection of 10 scientists to design lunar surface operations signals that Artemis missions will prioritize rigorous scientific methodology alongside exploration, requiring aerospace contractors to develop specialized equipment and sample collection systems.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/artemis/nasa-names-scientists-to-support-lunar-south-pole-science/"
@@ -388,7 +436,7 @@
       "type": "news",
       "headline": "Three killed in Hawaii tour helicopter crash on Kauai",
       "blurb": "Three people died and two others were injured after an Airborne Aviation tour helicopter crashed on the afternoon…...",
-      "takeaway": "Tour helicopter operators face mounting liability exposure as accident investigations increasingly scrutinize maintenance records and pilot experience in scenic flight operations.",
+      "takeaway": "Tour helicopter operations in Hawaii continue facing safety scrutiny as this latest fatal accident adds to a pattern of crashes in the commercial sightseeing sector.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/kauai-tour-helicopter-crash-kalalau-beach-md-500"
@@ -404,7 +452,7 @@
       "type": "news",
       "headline": "I Am Artemis: Michael Guzman",
       "blurb": "Listen to this audio excerpt from Michael Guzman, Artemis II main propulsion systems engineer: A clue to what Mike Guzman, main propulsion systems engineer at NASA’s Kennedy Space Center in Florida, loves most can be found in the signature of his work email: a complex string of equations for rocket...",
-      "takeaway": "NASA's Artemis propulsion engineers like Guzman are critical to lunar mission success, as main propulsion systems require sophisticated mathematical modeling and expertise rarely found outside aerospace.",
+      "takeaway": "NASA's Artemis propulsion engineers combine deep technical expertise with personal passion, critical for the complex system engineering required for lunar missions.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/artemis/artemis-2/i-am-artemis-michael-guzman/"
@@ -421,12 +469,12 @@
       "type": "news",
       "headline": "SES meoSphere will be core to new MEO/LEO inflight connectivity",
       "blurb": "WASHINGTON D.C. — Rapidly putting the wheels in motion to launch a next-generation Medium Earth Orbit satellite network, dubbed meoSphere, SES intends to pair the new service with Low Earth Orbit satcom to power multi-orbit MEO/LEO inflight connectivity for airlines, company CEO Adel Al-Saleh...",
-      "takeaway": "SES's hybrid MEO/LEO meoSphere architecture addresses aviation's latency and capacity constraints by combining medium and low Earth orbit satellites for superior inflight connectivity performance.",
+      "takeaway": "SES's hybrid MEO/LEO meoSphere network addresses connectivity gaps by combining medium and low earth orbit satellites, enabling airlines to achieve more reliable global inflight broadband with reduced latency than single-orbit solutions.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/ses-meosphere-will-be-core-to-new-meo-leo-inflight-connectivity/"
       },
-      "category": "aerospace",
+      "category": "commercial",
       "keywords": [
         "airline",
         "atc"
@@ -438,7 +486,7 @@
       "type": "news",
       "headline": "This firmware update makes Avata 360 ready for real flying",
       "blurb": "The new DJI Avata 360 drone is arriving with a feature-rich day-one firmware update that significantly expands what this immersive FPV drone can do right out of the box. The initial firmware rollout, headlined by v01.00.0100 for the aircraft, arrives alongside updates for the entire ecosystem,...",
-      "takeaway": "DJI's day-one firmware update for Avata 360 expands FPV drone capabilities immediately upon release, reducing time-to-productivity for commercial and recreational operators.",
+      "takeaway": "DJI's day-one firmware update for Avata 360 enables expanded operational capabilities immediately upon delivery, reducing post-purchase configuration time for FPV drone operators.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/27/dji-avata-360-firmware-update/"
@@ -454,7 +502,7 @@
       "type": "news",
       "headline": "The World’s Largest Air Forces By Number Of Pilots",
       "blurb": "Which air force has the deepest roster?",
-      "takeaway": "Pilot supply depth correlates with force sustainability and operational readiness beyond aircraft quantity, revealing strategic advantages in extended operations and training capacity.",
+      "takeaway": "Pilot inventory correlates directly with operational capacity and strategic deterrence, making roster depth a critical metric for assessing national air force readiness.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/worlds-largest-air-forces-by-pilots/"
@@ -470,7 +518,7 @@
       "type": "news",
       "headline": "India’s Bellatrix raises $20 million following overseas expansion drive",
       "blurb": "India-based Bellatrix Aerospace announced March 27 it has raised $20 million to ramp up production of its satellite propulsion systems after securing its first large commercial customer outside the country.",
-      "takeaway": "Bellatrix's overseas customer acquisition validates Indian satellite propulsion technology in global markets, signaling emerging aerospace manufacturing competitiveness beyond domestic space agencies.",
+      "takeaway": "Bellatrix's international customer acquisition validates Indian satellite propulsion technology commercially, signaling emerging competition in a traditionally Western-dominated aerospace supply sector.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/indias-bellatrix-raises-20-million-following-overseas-expansion-drive/"
@@ -486,7 +534,7 @@
       "type": "news",
       "headline": "NextSTEP-3 E: Network Extension for User Continuity and Sustainability (NEXUS) Ka-Band Backward-Compatible Relay Broad",
       "blurb": "Synopsis | 03/23/26 https://sam.gov/workspace/contract/opp/e33cd0cc61064a6497a55fca8e9b30c6/view NASA intends to release a BAA under Next Space Technologies for Exploration Partnerships (NextSTEP-3), Appendix E, for Project NEXUS, Ka-band Backward- Compatible Relay. As the aging Tracking and Data...",
-      "takeaway": "NASA's NEXUS project aims to modernize satellite relay infrastructure with Ka-band technology while maintaining backward compatibility with legacy tracking systems, enabling continuous space mission support beyond aging infrastructure retirement.",
+      "takeaway": "NASA's NEXUS Ka-band relay will maintain backward compatibility with legacy space communications infrastructure while modernizing relay capabilities for sustained deep-space operations.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/general/nextstep-3-e-network-extension-for-user-continuity-and-sustainability-nexus-ka-band-backward-compatible-relay-broad/"
@@ -499,25 +547,11 @@
       "publishedAt": "2026-03-27T17:04:03.000Z"
     },
     {
-      "id": "l5amn5",
-      "type": "news",
-      "headline": "The 5 Highest Altitude Reconnaissance Aircraft Currently Operated By The United States",
-      "blurb": "These aircraft offer long-range capabilities, a factor that pairs well with their high-altitude flying.",
-      "takeaway": "High-altitude reconnaissance platforms provide dual operational advantages through extended dwell time and reduced detection risk, making them critical for intelligence gathering missions.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/highest-altitude-reconnaissance-aircraft-united-states/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-03-27T17:00:18.000Z"
-    },
-    {
       "id": "xh2dcb",
       "type": "news",
       "headline": "DJI Fly update adds support for new Avata 360 drone",
       "blurb": "The DJI Fly app has officially been updated to version 1.20.0, adding support for the newly launched Avata 360 drone. The update also confirms Avata 360’s compatibility with the DJI RC 2, DJI Goggles 3, and DJI Goggles N3. more…...",
-      "takeaway": "DJI's ecosystem expansion through the Avata 360 integration demonstrates strategic cross-compatibility that reduces barriers to adoption for existing goggle and controller users.",
+      "takeaway": "DJI's ecosystem expansion through app compatibility updates demonstrates how drone manufacturers consolidate market control by requiring users to adopt standardized hardware and software platforms.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/27/dji-fly-avata-360-drone/"
@@ -533,7 +567,7 @@
       "type": "news",
       "headline": "The $2B blind spot: Why ‘good enough’ is killing airline profitability",
       "blurb": "AeroTime columnist Ann Cederhall is an instructor with IATA on Airline Distribution Strategy and with Aeroclass on Airline Retailing, Ann is a frequent speaker and…...",
-      "takeaway": "Airlines' acceptance of suboptimal distribution and retailing practices costs the industry $2B annually, suggesting that operational excellence beyond flight operations directly impacts bottom-line profitability.",
+      "takeaway": "Airlines are leaving billions in revenue on the table by accepting suboptimal distribution and retailing strategies rather than maximizing ancillary revenue opportunities.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/2b-blind-spot-good-enough-killing-airline-profitability"
@@ -549,50 +583,16 @@
       "type": "news",
       "headline": "Tennessee Airport Boards Face Possible State Takeover",
       "blurb": "Senate panel advances measure to replace existing airport authority boards with state appointees.",
-      "takeaway": "State control of local airport boards could standardize operations but risks reducing community input in infrastructure decisions affecting regional aviation economies.",
+      "takeaway": "State-level governance consolidation could reshape operational autonomy and funding structures at Tennessee's regional airports, affecting local economic development priorities.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/tennessee-airport-boards-state-takeover/"
       },
-      "category": "regulatory",
+      "category": "general-aviation",
       "keywords": [
         "airport"
       ],
       "publishedAt": "2026-03-27T15:52:09.000Z"
-    },
-    {
-      "id": "7w6v6l",
-      "type": "news",
-      "headline": "Artemis II Crew’s Suits",
-      "blurb": "The Orion Crew Survival System suits that Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialist Christina Koch from NASA, and Mission Specialist Jeremy Hansen from the CSA (Canadian Space Agency) will wear on the Artemis II test flight are seen in the suit-up room of the Neil A....",
-      "takeaway": "Advanced spacesuit design for lunar missions demonstrates critical life-support innovations applicable to high-altitude aviation emergency systems.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/image-article/artemis-ii-crews-suits/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "pilot",
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-27T15:21:21.000Z"
-    },
-    {
-      "id": "1e241g",
-      "type": "news",
-      "headline": "EASA Warns Of Stolen Aircraft Parts Threatening Global Flights",
-      "blurb": "The agency has been alerted to a compromised shipment of more than 600 parts from four engine families.",
-      "takeaway": "Compromised engine parts from multiple manufacturers indicate a supply chain vulnerability affecting multiple aircraft types simultaneously, requiring urgent verification of recent maintenance records.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/easa-warns-stolen-aircraft-parts-threaten-flights/"
-      },
-      "category": "safety",
-      "keywords": [
-        "easa"
-      ],
-      "publishedAt": "2026-03-27T15:10:23.000Z"
     }
   ]
 }
