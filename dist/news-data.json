@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-03-27T05:13:43.579Z",
+  "lastUpdated": "2026-03-27T07:18:19.336Z",
   "articles": [
+    {
+      "id": "8bd9ms",
+      "type": "news",
+      "headline": "TEKEVER successfully integrates Quadsat Electronic Warfare Payload SpectraLoc onto AR3 EVO Drone Platform",
+      "blurb": "London, England — TEKEVER, a leading provider of advanced AI-based autonomous systems, and Quadsat have successfully...",
+      "takeaway": "Integration of advanced EW payloads onto commercial drone platforms expands tactical reconnaissance capabilities for defense and intelligence operations.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/03/tekever-successfully-integrates-quadsat-electronic-warfare-payload-spectraloc-onto-ar3-evo-drone-platform/"
+      },
+      "category": "drones",
+      "keywords": [
+        "drone"
+      ],
+      "publishedAt": "2026-03-27T05:39:01.000Z"
+    },
     {
       "id": "7qll6t",
       "type": "news",
       "headline": "The US Domestic Routes Operated By Widebody Aircraft",
       "blurb": "Some of the country's busiest domestic routes are operated by widebodies.",
-      "takeaway": "Widebody deployment on domestic routes indicates capacity constraints on high-demand corridors, revealing network optimization pressures beyond traditional transcontinental use cases.",
+      "takeaway": "Widebody deployment on domestic routes reflects airline strategy to maximize premium cabin revenue on high-demand corridors despite lower seat efficiency.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-domestic-routes-operated-widebody-aircraft/"
@@ -20,7 +36,7 @@
       "type": "news",
       "headline": "United Airlines Jet & Military Helicopter Separated By Only 500 Feet Over Orange County",
       "blurb": "A close call in the sunny skies of SoCal.",
-      "takeaway": "Near-miss incidents in Class B airspace highlight potential gaps in coordination between civilian ATC and military operations during peak traffic periods.",
+      "takeaway": "Near mid-air collision over Orange County highlights potential coordination gaps between civilian ATC and military helicopter operations in busy airspace.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-jet-military-helicopter-separated-only-500-feet-orange-county/"
@@ -36,7 +52,7 @@
       "type": "news",
       "headline": "Satellite Spots a Spawn",
       "blurb": "The activity of herring around Vancouver Island in British Columbia brightened coastal waters enough to be detectable from space.",
-      "takeaway": "Earth observation satellites' increasing sensitivity to ocean bioluminescence enables real-time monitoring of marine ecosystems, creating new opportunities for environmental intelligence applications in coastal operations.",
+      "takeaway": "Remote sensing technology demonstrates potential for real-time monitoring of marine resources, offering valuable data collection capabilities beyond traditional Earth observation applications.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/satellite-spots-a-spawn/"
@@ -48,23 +64,23 @@
       "publishedAt": "2026-03-27T04:01:00.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-safety-culture",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective risk controls require organizations to document residual risk acceptance decisions, creating accountability beyond initial hazard identification in SMS implementation.",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Organizations with psychologically safe reporting cultures identify hazards earlier and more comprehensively than those relying solely on formal SMS procedures.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "risk",
-        "faa",
-        "srm"
+        "safety culture",
+        "reporting",
+        "just culture"
       ],
-      "publishedAt": "2026-03-27T05:13:06.052Z",
+      "publishedAt": "2026-03-27T07:17:40.790Z",
       "paiContent": true
     },
     {
@@ -72,7 +88,7 @@
       "type": "news",
       "headline": "Here’s How Much Range The Airbus A350-1000 Has Compared To The Boeing 777-300ER",
       "blurb": "The Airbus A350-1000 and Boeing 777-300ER are long-haul aviation titans, but the A350's slight edge in range may not be as decisive as it seems.",
-      "takeaway": "The A350-1000's marginal range advantage over the 777-300ER matters less than fuel efficiency and payload capacity for route economics on ultra-long-haul networks.",
+      "takeaway": "While the A350-1000's range advantage appears marginal, its superior fuel efficiency and payload-range flexibility may offer airlines greater operational flexibility on ultra-long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-more-range-a350-1000-boeing-777-300er/"
@@ -89,7 +105,7 @@
       "type": "news",
       "headline": "AIR claims $1 billion in orders as eVTOL maker pushes personal aircraft",
       "blurb": "Israel-based electric aircraft developer AIR said it has surpassed $1 billion in orders, driven by orders for its…...",
-      "takeaway": "AIR's $1 billion order milestone signals investor confidence in eVTOL personal aircraft economics despite ongoing certification and manufacturing scale challenges.",
+      "takeaway": "AIR's $1 billion order milestone signals growing institutional confidence in eVTOL viability beyond concept stage, validating the personal aircraft market segment's commercial potential.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/air-tops-1-billion-orders-personal-evtol-air-one"
@@ -106,7 +122,7 @@
       "type": "news",
       "headline": "Here’s How Much Larger The GE9X Is Compared To The GE90",
       "blurb": "The engine is set to enter commercial service on the upcoming Boeing 777X.",
-      "takeaway": "The GE9X's significant size increase over its predecessor represents a major engineering milestone that enables the 777X to achieve critical fuel-efficiency and range improvements for long-haul operations.",
+      "takeaway": "The GE9X's size increase represents a fundamental shift in ultra-high-bypass ratio engineering, enabling the 777X to achieve superior fuel efficiency despite heavier airframes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-larger-ge9x-ge90/"
@@ -118,11 +134,27 @@
       "publishedAt": "2026-03-27T00:00:18.000Z"
     },
     {
+      "id": "ti3ujy",
+      "type": "news",
+      "headline": "U.S. GSSAP satellites execute GEO handoff to monitor China’s Shijian-29 spacecraft",
+      "blurb": "Commercial space tracking data shows U.S. satellites coordinating maneuvers to maintain proximity and continuous observation of a pair of Chinese spacecraft in geostationary orbit.",
+      "takeaway": "U.S. space surveillance capabilities now employ coordinated satellite handoffs to maintain persistent monitoring of strategic foreign assets in contested GEO orbits.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/u-s-gssap-satellites-execute-geo-handoff-to-monitor-chinas-shijian-29-spacecraft/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "space"
+      ],
+      "publishedAt": "2026-03-26T23:12:18.000Z"
+    },
+    {
       "id": "pai-evolution-sms",
       "type": "pai-blog",
       "headline": "The Evolution of Aviation SMS",
       "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern aviation SMS shifts accountability from post-incident analysis to continuous hazard identification, fundamentally changing how airlines and operators prevent accidents before they occur.",
+      "takeaway": "Modern SMS shifts accountability from post-accident investigations to continuous risk identification, fundamentally changing how airlines prevent incidents rather than merely respond to them.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
         "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
@@ -135,31 +167,15 @@
         "history",
         "aviation safety"
       ],
-      "publishedAt": "2026-03-27T05:13:06.052Z",
+      "publishedAt": "2026-03-27T07:17:40.790Z",
       "paiContent": true
-    },
-    {
-      "id": "ti3ujy",
-      "type": "news",
-      "headline": "U.S. GSSAP satellites execute GEO handoff to monitor China’s Shijian-29 spacecraft",
-      "blurb": "Commercial space tracking data shows U.S. satellites coordinating maneuvers to maintain proximity and continuous observation of a pair of Chinese spacecraft in geostationary orbit.",
-      "takeaway": "U.S. space surveillance coordination demonstrates escalating orbital monitoring capabilities that could influence aviation communication satellite operations and spectrum management policies.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/u-s-gssap-satellites-execute-geo-handoff-to-monitor-chinas-shijian-29-spacecraft/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-26T23:12:18.000Z"
     },
     {
       "id": "qgljr6",
       "type": "news",
       "headline": "8 Hours In A Boeing 737 MAX? Inside United Airlines' New Longest Nonstop Flights",
       "blurb": "Half of the ten longest routes started in 2025 or will do so in 2026. See them all here!",
-      "takeaway": "Airlines are aggressively expanding ultra-long-range 737 MAX deployments in 2025-2026, signaling confidence in the aircraft's reliability and fuel efficiency for thin-route profitability.",
+      "takeaway": "United's expansion of ultra-long 737 MAX routes reflects airline confidence in the aircraft's reliability and economics for transcontinental competition.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/8-hours-in-a-boeing-737-max-inside-united-airlines-10-longest-nonstop-flights/"
@@ -176,7 +192,7 @@
       "type": "news",
       "headline": "I'm A Flight Attendant, And These Are The Things I Wish Every Passenger Knew Before Boarding",
       "blurb": "Practical advice for passengers that makes flights easier.",
-      "takeaway": "Flight attendants' operational insights reveal that passenger non-compliance with safety procedures and boarding protocols significantly impacts crew efficiency and emergency response capability.",
+      "takeaway": "Flight attendants identify passenger preparation gaps that directly impact cabin safety efficiency and crew workload management during critical boarding phases.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/flight-attendant-things-passengers-should-know-before-boarding/"
@@ -186,33 +202,11 @@
       "publishedAt": "2026-03-26T22:00:17.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway incursion risks persist even at major hubs like LAX where pilot familiarity is highest, indicating systemic design or procedural gaps requiring attention.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-27T05:13:06.400Z",
-      "videoContent": true
-    },
-    {
       "id": "1hv2oi",
       "type": "news",
       "headline": "New Route & 9 More Boosted: JetBlue Keeps Turning Up The Heat In Fort Lauderdale",
       "blurb": "JetBlue adds Cleveland and boosts nine routes as Fort Lauderdale growth accelerates again.",
-      "takeaway": "JetBlue's strategic hub expansion at Fort Lauderdale demonstrates how focused route network investments can drive disproportionate growth in secondary markets.",
+      "takeaway": "JetBlue's expansion at Fort Lauderdale signals competitive capacity building beyond Miami, capturing leisure and business traffic in a strategic secondary market.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/jetblue-new-route-9-boosted-heat-fort-lauderdale/"
@@ -226,7 +220,7 @@
       "type": "news",
       "headline": "The Aircraft Set To Replace Delta Air Lines' Iconic Boeing 717",
       "blurb": "Delta's 717 fleet is soon to be retired, and the airline will be replacing the type's operations with the Airbus A220 family.",
-      "takeaway": "Delta's A220 transition consolidates its narrow-body fleet around a more fuel-efficient, longer-range platform that extends viability on regional routes previously served by the 717.",
+      "takeaway": "Delta's A220 transition consolidates regional and mainline fleets under a single aircraft type, reducing pilot training complexity and maintenance costs across their operation.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/aircraft-replacing-delta-air-lines-boeing-717-fleet/"
@@ -240,11 +234,32 @@
       "publishedAt": "2026-03-26T21:30:17.000Z"
     },
     {
+      "id": "yt-auto-R8xtl4OW9eg",
+      "type": "video",
+      "headline": "RNO Mustang 9 Departure",
+      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
+      "takeaway": "The Mustang 9 departure from RNO requires enhanced pilot attention due to specific procedural complexities that differ from standard departures at this high-altitude airport.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-27T07:17:41.035Z",
+      "videoContent": true
+    },
+    {
       "id": "3tj672",
       "type": "news",
       "headline": "Space Command begins phased move to Alabama",
       "blurb": "The new headquarters building is expected to be completed by 2031...",
-      "takeaway": "Space Command's relocation to Alabama signals a multi-year infrastructure investment that will reshape military space operations and create significant aerospace sector growth opportunities in the region.",
+      "takeaway": "Space Command's 2031 Alabama relocation represents a significant infrastructure investment that will reshape military space operations and potentially influence regional aerospace industry development.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-command-begins-phased-move-to-alabama/"
@@ -256,33 +271,11 @@
       "publishedAt": "2026-03-26T21:20:42.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
-      "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Eastern Iowa Airport's diverse traffic mix from trainers to air carriers positions it as a crucial hub for pilot development while maintaining commercial viability in the midwest region.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-27T05:13:06.400Z",
-      "videoContent": true
-    },
-    {
       "id": "h8p5u0",
       "type": "news",
       "headline": "The 10 Most Popular Transpacific Routes Operated By The Boeing 787 Dreamliner In 2026",
       "blurb": "The 787 and Transpacific routes really go hand-in-hand. The aircraft provides the capacity and efficiency to make these routes work.",
-      "takeaway": "The 787's dominance on transpacific routes reflects how modern twin-engine widebodies have economically displaced older four-engine aircraft on ultra-long-haul missions.",
+      "takeaway": "The 787's fuel efficiency and extended range enable airlines to profitably operate transpacific routes with optimal seat-mile economics that narrower-body aircraft cannot match.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/10-most-popular-transpacific-routes-boeing-787-dreamliner-2026/"
@@ -298,7 +291,7 @@
       "type": "news",
       "headline": "What’s Up: April 2026 Skywatching Tips from NASA",
       "blurb": "Mercury shines at its brightest for the year, the Lyrid meteor shower peaks, and a bright new comet makes an appearance in April’s night sky.",
-      "takeaway": "April's celestial events, including peak meteor activity and comet visibility, provide valuable timing references for night operations and crew training scenarios.",
+      "takeaway": "April 2026 offers rare celestial viewing opportunities that can support pilot training and navigation awareness during night operations.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/solar-system/whats-up-april-2026-skywatching-tips-from-nasa/"
@@ -315,7 +308,7 @@
       "type": "news",
       "headline": "La NASA presentará el telescopio Roman completo y ofrecerá una conferencia de prensa",
       "blurb": "Se invita a los medios de comunicación el martes 21 de abril al Centro de Vuelo Espacial Goddard de la NASA en Greenbelt, Maryland, para conocer el telescopio espacial Nancy Grace Roman de la agencia, cuya construcción terminó recientemente y el cual se encuentra ultimando las pruebas previas a su...",
-      "takeaway": "NASA's Nancy Grace Roman Space Telescope has completed construction and enters final pre-launch testing, positioning it for deployment as a successor to Hubble with significantly expanded astrophysical capabilities.",
+      "takeaway": "NASA's Nancy Grace Roman Space Telescope completion marks a critical milestone for space-based astronomical capabilities with potential applications in deep-space infrastructure and orbital operations.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/la-nasa-presentara-el-telescopio-roman-completo-y-ofrecera-una-conferencia-de-prensa/"
@@ -327,27 +320,32 @@
       "publishedAt": "2026-03-26T20:53:17.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational efficiency gains across all three levels—airline, airport, and flight operations—offer a near-term path to sustainability without waiting for revolutionary aircraft technologies.",
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures must balance residential concerns with complex Bay Area airspace constraints including SFO Class B operations and surrounding terrain.",
       "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
       },
-      "category": "industry",
+      "category": "general-aviation",
       "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
       ],
-      "publishedAt": "2026-03-27T05:13:06.400Z"
+      "publishedAt": "2026-03-27T07:17:41.035Z",
+      "videoContent": true
     },
     {
       "id": "sbumlf",
       "type": "news",
       "headline": "Government use of commercial procurement models has limitations in space",
       "blurb": "While government agencies are increasingly turning to commercial contracting mechanisms for space capabilities, that does not necessarily translate to additional business opportunities for the companies offering them.",
-      "takeaway": "Government space contracts using commercial models may not expand market opportunities for contractors due to structural constraints and limited demand scaling.",
+      "takeaway": "Government space contracts using commercial procurement models may not expand the contractor market as expected, creating uncertainty for companies planning space capability investments.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/government-use-of-commercial-procurement-models-has-limitations-in-space/"
@@ -363,7 +361,7 @@
       "type": "news",
       "headline": "The Simple Flying Podcast Episode 284: Air Canada Crash Latest, United Airlines Introduces Couches In Economy Class",
       "blurb": "Join Tom & Channing for the latest aviation hot topics.",
-      "takeaway": "Air Canada's incident and United's economy seating innovation signal industry focus on both safety investigations and competitive cabin product differentiation.",
+      "takeaway": "Air Canada's recent incident and United's cabin reconfiguration signal industry shifts toward both safety scrutiny and passenger experience innovation amid competitive pressures.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/podcast-284/"
@@ -380,7 +378,7 @@
       "type": "news",
       "headline": "NASA to Unveil Complete Roman Telescope, Host Media Briefing",
       "blurb": "Media are invited Tuesday, April 21, to NASA’s Goddard Space Flight Center in Greenbelt, Maryland, for a look at the agency’s Nancy Grace Roman Space Telescope, which recently completed construction and is wrapping up prelaunch testing. This will be one of the last opportunities to view the fully...",
-      "takeaway": "Roman's completion and public viewing mark a critical milestone for NASA's next-generation space observatory, positioning it for imminent launch after years of development.",
+      "takeaway": "Roman's completion represents NASA's readiness to launch a flagship observatory that will fundamentally advance exoplanet detection and dark energy research capabilities.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-to-unveil-complete-roman-telescope-host-media-briefing/"
@@ -397,7 +395,7 @@
       "type": "news",
       "headline": "NASA Releases Artemis II Moon Mission Launch Countdown",
       "blurb": "Before NASA sends its astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen on their Artemis II mission around the Moon, the launch team at NASA’s Kennedy Space Center in Florida and teams across the country will begin counting down about...",
-      "takeaway": "Artemis II's international crew composition signals NASA's commitment to global partnerships for sustained lunar exploration beyond this single mission.",
+      "takeaway": "Artemis II's crewed lunar flyby represents a critical validation of NASA's deep-space infrastructure before the actual Moon landing attempt, with international crew participation signaling expanded coalition-building for sustained lunar exploration.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/general/nasa-releases-artemis-ii-moon-mission-launch-countdown/"
@@ -410,16 +408,32 @@
       "publishedAt": "2026-03-26T20:12:30.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across airlines, airports, and flight planning can simultaneously address capacity constraints and environmental concerns without requiring complete fleet replacement.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-27T07:17:41.035Z"
+    },
+    {
       "id": "zaq4rw",
       "type": "news",
       "headline": "Navi AI launches publicly with $6 million to expand AI pilot training platform",
       "blurb": "Navi AI has launched publicly with more than $6 million in funding as it looks to expand its…...",
-      "takeaway": "AI-driven pilot training platforms are attracting significant venture capital, signaling market confidence in digital alternatives to traditional flight instruction methods.",
+      "takeaway": "AI-driven pilot training platforms are attracting significant venture capital as airlines seek cost-effective alternatives to traditional flight instruction methods.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/navi-ai-launches-publicly-6-million-pilot-training"
       },
-      "category": "industry",
+      "category": "commercial",
       "keywords": [
         "pilot"
       ],
@@ -430,7 +444,7 @@
       "type": "news",
       "headline": "Station Nation: Aaron Rose, Cold Stowage Mission Manager",
       "blurb": "As a member of the Crew and Thermal Systems Division, Aaron Rose supports critical cargo resupply missions to the International Space Station. In this role, he works with payload developers to safely transport temperature-controlled science experiments to and from station with portable coolers,...",
-      "takeaway": "Specialized thermal management expertise is critical for ISS cargo missions, requiring coordination between ground teams and payload developers to preserve sensitive scientific integrity during transit.",
+      "takeaway": "Mission managers like Rose ensure that temperature-sensitive payloads maintain scientific integrity during orbital transport, directly impacting the commercial viability of ISS research utilization.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/centers-and-facilities/johnson/station-nation-aaron-rose-cold-stowage-mission-manager/"
@@ -447,7 +461,7 @@
       "type": "news",
       "headline": "Turning growth into profits remains a challenge as space demand grows",
       "blurb": "While the space economy is expanding across multiple fronts, questions remain about how some of its most promising opportunities could translate growing demand into sustainable profits.",
-      "takeaway": "The space industry's revenue growth is outpacing profitability gains, signaling that scaling operations alone won't ensure financial viability without operational efficiency improvements.",
+      "takeaway": "Space industry growth is outpacing profitability, creating investment risk despite expanding market opportunities across multiple sectors.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/turning-growth-into-profits-remains-a-challenge-as-space-demand-grows/"
@@ -464,7 +478,7 @@
       "type": "news",
       "headline": "Airbus Tests Multi-Aircraft Aerial Firefighting System",
       "blurb": "Trial linked aircraft, drones and ground crews for enhanced targeting and coordination.",
-      "takeaway": "Networked aerial firefighting platforms can dramatically improve coordination efficiency and targeting precision compared to traditional isolated aircraft operations.",
+      "takeaway": "Networked aerial firefighting systems combining manned aircraft, drones, and ground coordination could significantly reduce water drop overlap and improve targeting efficiency in wildfire suppression.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/airbus-multi-aircraft-aerial-fireflighting/"
@@ -481,7 +495,7 @@
       "type": "news",
       "headline": "Russian YouTuber killed after airplane may have been mistaken for Ukraine drone",
       "blurb": "Russian aviation blogger Pavel Koshkin was killed when the Alto NG aircraft he was flying crashed near Kolomna,…...",
-      "takeaway": "Civilian aircraft losses to friendly-fire incidents highlight critical gaps in airspace management and identification protocols during conflict zones.",
+      "takeaway": "Civilian aircraft losses to friendly fire incidents highlight critical gaps in air traffic control and military identification protocols during conflicts.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/russian-youtuber-killed-after-mistaken-for-ukraine-drone"
@@ -498,7 +512,7 @@
       "type": "news",
       "headline": "Xona raises $170 million for satellite navigation network",
       "blurb": "The company is scaling up production as it looks to build a 258-satellite network to provide positioning, navigation and timing services...",
-      "takeaway": "Xona's satellite constellation will create a GPS-independent positioning network, reducing aviation's reliance on traditional terrestrial and space-based infrastructure for critical navigation services.",
+      "takeaway": "Xona's $170M funding enables independent satellite PNT infrastructure to reduce aviation's reliance on GPS, addressing critical vulnerabilities in navigation systems.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/xona-raises-170-million-for-satellite-navigation-network/"
@@ -514,7 +528,7 @@
       "type": "news",
       "headline": "Picture of the Day: March 26, 2026",
       "blurb": "Departing Geneva toward the Matterhorn.",
-      "takeaway": "Alpine routing near the Matterhorn requires specialized low-level flight planning and terrain awareness procedures distinct from standard commercial corridors.",
+      "takeaway": "Alpine routing near major European hubs presents operational challenges for flight planning around mountainous terrain and weather variability.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-march-26-2026/"
@@ -528,7 +542,7 @@
       "type": "news",
       "headline": "House Committee Advances ALERT Act",
       "blurb": "Measure includes collision-mitigation requirements, changes for military aircraft operations and limits on some ADS-B data use.",
-      "takeaway": "The ALERT Act's collision-mitigation mandate and ADS-B restrictions signal regulatory tightening that will reshape both civil-military airspace coordination and real-time aircraft tracking transparency.",
+      "takeaway": "The ALERT Act's collision-mitigation mandate and military operations modifications signal regulatory momentum beyond traditional airspace separation, while ADS-B restrictions may reshape competitive data access in the aviation ecosystem.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/house-committee-advances-alert-act/"
@@ -542,7 +556,7 @@
       "type": "news",
       "headline": "China sends radar mapping and GNSS augmentation sats into orbit with pair of launches",
       "blurb": "China conducted a pair of launches in recent days, adding new satellites to the SuperView and CentiSpace low Earth orbit infrastructure constellations.",
-      "takeaway": "China's expanding satellite infrastructure for precise navigation and earth observation creates competitive pressure on Western positioning systems and geographic intelligence capabilities.",
+      "takeaway": "China's dual constellation expansion strengthens its independent positioning, navigation, and earth observation capabilities, reducing reliance on foreign GNSS systems for aviation operations across Asia-Pacific.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/china-sends-radar-mapping-and-gnss-augmentation-sats-into-orbit-with-pair-of-launches/"
@@ -558,12 +572,12 @@
       "type": "news",
       "headline": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
       "blurb": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53...",
-      "takeaway": "Declining Arctic sea ice is reshaping polar aviation operations, requiring airlines to reassess routing efficiency and fuel planning for high-latitude flights.",
+      "takeaway": "Declining Arctic sea ice accelerates polar weather pattern disruptions that increasingly affect transatlantic routing efficiency and aircraft fuel consumption planning.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/arctic-winter-sea-ice-2026/"
       },
-      "category": "international",
+      "category": "aerospace",
       "keywords": [
         "atc",
         "nasa"
@@ -575,7 +589,7 @@
       "type": "news",
       "headline": "NASA’s IXPE Gets Fresh Look at Supernova",
       "blurb": "NASA’s IXPE (Imaging X-ray Polarimetry Explorer) mission has taken a new observation of a supernova, RCW 86, seen here in an image released on March 24, 2026. This observation helps fill in a fuller picture of what other telescopes have seen. The full image combines IXPE’s data with legacy...",
-      "takeaway": "IXPE's polarimetry data reveals magnetic field structures in supernova remnants that conventional imaging cannot detect, advancing our understanding of high-energy astrophysics phenomena relevant to spacecraft design and radiation protection.",
+      "takeaway": "IXPE's polarimetry data reveals previously undetectable magnetic field structures in supernova remnants, enabling aerospace engineers to refine models for high-energy astrophysics instrumentation.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/nasas-ixpe-gets-fresh-look-at-supernova/"
@@ -585,22 +599,6 @@
         "nasa"
       ],
       "publishedAt": "2026-03-26T16:58:30.000Z"
-    },
-    {
-      "id": "keckqe",
-      "type": "news",
-      "headline": "Colorado’s Rocky Mountain Metro Airport Launches Unleaded Avgas",
-      "blurb": "UL94 sales begin with state-backed price support and STC reimbursement.",
-      "takeaway": "State-backed pricing incentives are proving critical to accelerating unleaded fuel adoption at regional airports, overcoming pilot resistance and supply chain economics.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/ownership/fuel-news/colorado-airport-launches-unleaded-avgas/"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "airport"
-      ],
-      "publishedAt": "2026-03-26T16:48:55.000Z"
     }
   ]
 }
