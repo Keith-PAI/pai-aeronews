@@ -1,12 +1,29 @@
 {
-  "lastUpdated": "2026-03-28T16:42:10.592Z",
+  "lastUpdated": "2026-03-28T17:36:34.272Z",
   "articles": [
+    {
+      "id": "ddz3sc",
+      "type": "news",
+      "headline": "Why Did Boeing Build The 747 With Only A Partial 2nd Deck?",
+      "blurb": "The Boeing 747 has a partial upper deck, used as seating and lounge space, but what's the story behind its distinctive hump?",
+      "takeaway": "The 747's partial upper deck was a practical compromise that allowed Boeing to maintain structural efficiency while accommodating cargo loading through the nose, shaping wide-body aircraft design for decades.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-did-boeing-build-747-partial-2nd-deck/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "space"
+      ],
+      "publishedAt": "2026-03-28T17:30:17.000Z"
+    },
     {
       "id": "gim2rj",
       "type": "news",
       "headline": "Why US Airport Gridlock Is Here To Stay – Even With Trump's TSA Pay Order",
       "blurb": "US airport chaos will persist despite Trump’s TSA pay order, as political gridlock and staffing shortages continue to disrupt travel nationwide.",
-      "takeaway": "Structural workforce challenges extend beyond compensation, requiring sustained policy reform to address systemic TSA staffing deficits that wage increases alone cannot resolve.",
+      "takeaway": "Structural airport congestion reflects systemic workforce challenges that executive pay orders alone cannot resolve without concurrent congressional funding and multi-year recruitment initiatives.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-airport-gridlock-tsa-trump-pay-order/"
@@ -22,12 +39,12 @@
       "type": "news",
       "headline": "The Striking Differences Between Cargo & Passenger Boeing 747s",
       "blurb": "The Queen of the Skies will forever be an iconic aircraft.",
-      "takeaway": "Cargo 747s require reinforced floors and door modifications that fundamentally alter structural integrity compared to passenger variants, affecting maintenance protocols and operational lifespans.",
+      "takeaway": "Cargo 747s require structural reinforcements and different door configurations that significantly impact weight distribution and operational economics compared to passenger variants.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-differences-cargo-passenger-boeing-747s/"
       },
-      "category": "commercial",
+      "category": "air-cargo",
       "keywords": [
         "boeing"
       ],
@@ -38,7 +55,7 @@
       "type": "news",
       "headline": "5 Things Passengers Don’t Know About Premium Economy",
       "blurb": "The cabin continues to become increasingly popular.",
-      "takeaway": "Premium economy's growing popularity signals airlines are successfully capturing mid-tier revenue by positioning it as a high-margin alternative to business class.",
+      "takeaway": "Premium economy's growing passenger adoption signals airlines' successful strategy to capture higher-margin traffic between economy and business class.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-things-passengers-dont-know-premium-economy/"
@@ -52,7 +69,7 @@
       "type": "news",
       "headline": "End Of An Era: Major Airline Abruptly Axes London Heathrow Long-Haul Route",
       "blurb": "The corridor had only been served (in its most recent iteration) since November.",
-      "takeaway": "Route discontinuation after just months signals airlines are reassessing long-haul profitability on competitive UK-international corridors amid persistent cost pressures.",
+      "takeaway": "The rapid route cancellation signals how quickly airlines are reassessing long-haul viability at capacity-constrained hubs when demand fails to materialize.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/saudia-axes-london-heathrow-dammam-route/"
@@ -64,11 +81,31 @@
       "publishedAt": "2026-03-28T14:00:18.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Psychological safety and non-punitive reporting mechanisms are foundational to SMS effectiveness, as they directly influence whether frontline crews and maintenance staff voluntarily surface hazards before accidents occur.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-03-28T17:35:56.415Z",
+      "paiContent": true
+    },
+    {
       "id": "oh53qi",
       "type": "news",
       "headline": "5 Critical Performance Metrics That Distinguish The F-22 Raptor From Modern Stealth Rivals",
       "blurb": "Breaking down how the Raptor reigns supreme.",
-      "takeaway": "The F-22's sustained supercruise capability and sensor fusion architecture provide tactical advantages that newer stealth platforms are still attempting to replicate operationally.",
+      "takeaway": "The F-22's sustained supercruise capability and integrated avionics architecture provide operational advantages that newer stealth platforms have yet to fully replicate in real-world deployment scenarios.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-ciritical-performance-metricts-f-22-raptor-modern-stealth-rivals/"
@@ -78,31 +115,11 @@
       "publishedAt": "2026-03-28T14:00:18.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 compliance requires structured risk assessment frameworks that go beyond traditional hazard identification to systematically evaluate safety outcomes across operational domains.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-28T16:41:28.832Z",
-      "paiContent": true
-    },
-    {
       "id": "yp81pa",
       "type": "news",
       "headline": "Airbus Files Patent Reimagining The Business Class Seat: What To Expect",
       "blurb": "The planemaker has big plans for the reimagining of business class travel.",
-      "takeaway": "Airbus's patent filing suggests modular seat designs that could reduce cabin reconfiguration costs and accelerate fleet adaptability to shifting premium travel demand patterns.",
+      "takeaway": "Airbus's patent filing suggests airlines may gain competitive differentiation through seat innovation as a key revenue lever beyond traditional cabin density strategies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-files-reimagining-the-business-class-seat/"
@@ -118,7 +135,7 @@
       "type": "news",
       "headline": "US Warns Travelers That Refusing To Unlock Phones In Hong Kong Is Now A Crime",
       "blurb": "All passengers, even those transiting, must hand over access to electronic devices.",
-      "takeaway": "Airlines operating Hong Kong routes must now advise passengers that device non-compliance with local authorities creates liability exposure during transits, affecting crew protocols and passenger communication procedures.",
+      "takeaway": "Airlines operating Hong Kong routes must advise passengers that device non-compliance with local authorities could result in criminal charges, creating potential liability and operational complications for carriers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-warning-hong-kong-phone-unlock-crime/"
@@ -128,16 +145,36 @@
       "publishedAt": "2026-03-28T13:13:24.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Part 5 establishes a systematic framework for operators to quantify and document safety risks, shifting from subjective judgment to measurable compliance criteria.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-03-28T17:35:56.415Z",
+      "paiContent": true
+    },
+    {
       "id": "jntrvh",
       "type": "news",
       "headline": "The War In Iran Has Made This Small Spanish Airport Very Popular",
       "blurb": "By now you’ll know that a large portion of the aviation world has been turned upside down due to the war in Iran and the country’s retaliatory attacks on nearby Gulf countries. These attacks on the United Arab Emirates, Kuwait, Qatar, and Bahrain have severely impacted airline operations. And so...",
-      "takeaway": "Geopolitical tensions in the Middle East are redirecting air traffic patterns and creating unexpected commercial opportunities for alternative regional airports outside conflict zones.",
+      "takeaway": "Regional geopolitical tensions are redirecting Middle Eastern air traffic through alternative European hubs, creating unexpected demand spikes at non-traditional routing airports.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/the-war-in-iran-has-made-this-small-spanish-airport-very-popular/"
       },
-      "category": "commercial",
+      "category": "international",
       "keywords": [
         "airline",
         "airport"
@@ -145,32 +182,11 @@
       "publishedAt": "2026-03-28T12:29:17.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS transforms aviation safety from post-incident investigation to continuous, data-driven risk identification, fundamentally changing how operators prevent accidents rather than analyze them.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-03-28T16:41:28.832Z",
-      "paiContent": true
-    },
-    {
       "id": "h5q2lc",
       "type": "news",
       "headline": "Oops: Secret Service Agent Hospitalized After Philadelphia Airport Gun Mishap",
       "blurb": "No other passengers or bystanders were hurt, and the Airport's operations were not disrupted either. The agent is recovering in stable conditions.",
-      "takeaway": "Airport security incidents involving armed federal agents underscore the need for enhanced weapons handling protocols in high-traffic terminal environments.",
+      "takeaway": "Airport security protocols successfully contained a firearm discharge incident, demonstrating effective compartmentalization that prevented broader operational and safety impacts.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/secret-service-agent-hospitalized-philadelphia-airport-gun-mishap/"
@@ -182,25 +198,11 @@
       "publishedAt": "2026-03-28T12:25:32.000Z"
     },
     {
-      "id": "tvzl5y",
-      "type": "news",
-      "headline": "What Happens When A Flight Is Completely Empty?",
-      "blurb": "Is a flight canceled automatically or are there other options?",
-      "takeaway": "Airlines operate empty flights to maintain schedule integrity and valuable airport slot rights, prioritizing operational continuity over immediate costs.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/what-happens-flight-completely-empty/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-03-28T11:00:17.000Z"
-    },
-    {
       "id": "71w030",
       "type": "news",
       "headline": "Robinson Unmanned",
       "blurb": "Robinson Unmanned (formerly Ascent AeroSystems) is the uncrewed aircraft systems (UAS) business unit of Robinson...",
-      "takeaway": "Robinson's pivot to dedicated UAS operations signals major helicopter manufacturers are competing directly in the commercial drone market.",
+      "takeaway": "Robinson's pivot to dedicated UAS operations signals established rotorcraft manufacturers are restructuring to compete in the rapidly growing uncrewed market.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/robinson-unmanned-software-engineer-uav/"
@@ -212,14 +214,14 @@
       "publishedAt": "2026-03-28T05:55:43.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
+      "id": "yt-auto-R8xtl4OW9eg",
       "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strike fatalities persist because pilots systematically overestimate their reaction time in low-altitude operations, making pre-flight route planning and terrain awareness critical survival skills.",
+      "headline": "RNO Mustang 9 Departure",
+      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
+      "takeaway": "RNO's Mustang 9 Departure requires heightened pilot attention due to specific procedural complexities that differ from standard departure patterns at the airport.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
       },
       "category": "safety",
       "keywords": [
@@ -229,7 +231,7 @@
         "regulation",
         "pilot"
       ],
-      "publishedAt": "2026-03-28T16:41:29.047Z",
+      "publishedAt": "2026-03-28T17:35:56.722Z",
       "videoContent": true
     },
     {
@@ -237,7 +239,7 @@
       "type": "news",
       "headline": "Quantum Systems Strengthens Ukraine’s Air Defence Capabilities with 15,000 Interceptor Contract and WIY Drones Investment",
       "blurb": "In alignment with the defence priorities set out by the Ukrainian Government, Quantum Systems has...",
-      "takeaway": "Quantum Systems' dual investment in interceptor technology and tactical drones signals commercial drone manufacturers are becoming primary defense contractors for active conflict zones.",
+      "takeaway": "Quantum Systems' $15M Ukraine commitment demonstrates how commercial drone manufacturers are directly integrating into military supply chains, reshaping defense procurement models.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/quantum-systems-strengthens-ukraines-air-defence-capabilities-with-15000-interceptor-contract-and-wiy-drones-investment/"
@@ -253,12 +255,12 @@
       "type": "news",
       "headline": "Singapore delays SAF levy rollout amid Middle East conflict",
       "blurb": "As the war in Iran continues to roil world oil markets, Singapore has delayed the rollout of its…...",
-      "takeaway": "Volatile crude prices from Middle East tensions are forcing governments to recalibrate fuel surcharge mechanisms, creating operational uncertainty for airlines during peak booking periods.",
+      "takeaway": "Geopolitical instability's impact on fuel costs is forcing governments to recalibrate aviation taxation timelines, signaling sector-wide economic pressures.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/singapore-delays-saf-levy-middle-east-conflict"
       },
-      "category": "international",
+      "category": "regulatory",
       "keywords": [
         "saf"
       ],
@@ -269,7 +271,7 @@
       "type": "news",
       "headline": "Artemis 2 astronauts arrive at KSC",
       "blurb": "The four Artemis 2 astronauts arrived in Florida March 27 for final preparations ahead of a launch still scheduled as soon as April 1.",
-      "takeaway": "NASA's compressed pre-launch timeline for Artemis 2 demonstrates operational readiness but increases pressure on ground crews to execute flawlessly during final vehicle preparations.",
+      "takeaway": "NASA's compressed pre-launch timeline for Artemis 2 reflects organizational pressure to maintain momentum on lunar exploration despite historically complex mission preparation requirements.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-astronauts-arrive-at-ksc/"
@@ -281,25 +283,24 @@
       "publishedAt": "2026-03-28T00:45:26.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
+      "id": "yt-auto-dosTAQRpXII",
       "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway exit design inconsistencies at major hubs like LAX create systematic incursion risks that require enhanced pilot briefings and potential infrastructure modifications.",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strikes rank among the leading fatal helicopter accidents despite pilot overconfidence in reaction time, requiring enhanced detection systems and operational planning.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
       },
       "category": "safety",
       "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
       ],
-      "publishedAt": "2026-03-28T16:41:29.047Z",
+      "publishedAt": "2026-03-28T17:35:56.722Z",
       "videoContent": true
     },
     {
@@ -307,7 +308,7 @@
       "type": "news",
       "headline": "[Updated] Iranian Attack on Prince Sultan Air Base Reportedly Struck U.S. KC-135s, E-3 Sentry",
       "blurb": "Satellite images show signs of an attack at Prince Sultan Air Base, Saudi Arabia, with The Wall Street Journal now reporting that an Iranian missile damaged “several U.S. refueling aircraft.” Satellite images emerged on Mar. 27, 2026, appeared to show signs of damage on an apron used by U.S....",
-      "takeaway": "Direct strikes on tanker and AWACS aircraft represent a significant escalation in capability to target critical enablers of U.S. air operations, potentially constraining regional power projection.",
+      "takeaway": "Loss or damage to KC-135 tankers directly degrades U.S. air operations' range and endurance across the Middle East, forcing operational rebalancing.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/27/iranian-attack-on-prince-sultan-air-base/"
@@ -321,7 +322,7 @@
       "type": "news",
       "headline": "I Am Artemis: Erik Richards",
       "blurb": "Listen to this audio excerpt from Erik Richards, Near Space Network Mission Manager: For Erik Richards, supporting NASA’s first crewed Artemis mission to the Moon and back is the culmination of a career spent helping spacecraft communicate with Earth. Like many kids who grew up at the height of the...",
-      "takeaway": "Deep Space Network expertise in spacecraft communications has become critical infrastructure for NASA's lunar exploration ambitions, representing decades of accumulated operational knowledge.",
+      "takeaway": "Ground communication infrastructure expertise is critical to mission success, with specialists like Richards spending decades mastering the technical coordination required for deep-space human exploration.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-erik-richards/"
@@ -338,7 +339,7 @@
       "type": "news",
       "headline": "NASA Selects Intuitive Machines to Deliver Artemis Science, Tech to Moon",
       "blurb": "NASA has awarded Intuitive Machines of Houston, $180.4 million to deliver NASA-funded science and technology to the lunar surface as part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program. This lunar delivery, which includes seven payloads — five of them NASA’s...",
-      "takeaway": "NASA's $180.4M contract with Intuitive Machines demonstrates the agency's strategy of leveraging commercial partners to reduce Artemis program costs while validating lunar logistics capabilities ahead of crewed missions.",
+      "takeaway": "NASA's $180.4M investment in Intuitive Machines demonstrates the agency's reliance on commercial partners to reduce Artemis program costs while advancing lunar exploration infrastructure.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/"
@@ -354,7 +355,7 @@
       "type": "curated",
       "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
       "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation levels offers immediate efficiency gains while airlines await breakthrough sustainable fuel and propulsion technologies.",
+      "takeaway": "Operational optimization across airlines, airports, and flights offers immediate efficiency gains while advanced technologies mature, potentially reducing aviation's environmental footprint without waiting for revolutionary propulsion systems.",
       "source": {
         "name": "MDPI",
         "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
@@ -363,14 +364,14 @@
       "keywords": [
         "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-03-28T16:41:29.048Z"
+      "publishedAt": "2026-03-28T17:35:56.722Z"
     },
     {
       "id": "nsjv3i",
       "type": "news",
       "headline": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
       "blurb": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information...",
-      "takeaway": "NASA's environmental awards framework incentivizes aerospace contractors and centers to integrate sustainability practices into operations, potentially influencing supply chain standards across aviation manufacturing.",
+      "takeaway": "NASA's environmental awards program incentivizes aerospace organizations to integrate sustainability and resource stewardship into operational excellence, directly influencing industry-wide environmental compliance standards.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/"
@@ -386,7 +387,7 @@
       "type": "news",
       "headline": "EASA warns non-airworthy stolen engine parts could re-enter the market",
       "blurb": "The European Union Aviation Safety Agency (EASA) is warning airlines, maintenance providers and parts buyers to be on…...",
-      "takeaway": "Stolen engine components entering the aftermarket through supply chain vulnerabilities pose undetected safety risks that current verification procedures may not adequately intercept.",
+      "takeaway": "Counterfeit engine components from theft rings pose undetectable safety risks that standard supplier verification protocols may fail to catch.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/easa-warns-stolen-engine-parts-could-re-enter-market"
@@ -405,7 +406,7 @@
       "type": "news",
       "headline": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
       "blurb": "March 27, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Astrolab and Zeno Power, two innovative companies advancing planetary mobility and reliable energy in extreme environments. […]...",
-      "takeaway": "The CSF's expansion to companies focused on lunar surface mobility and power systems signals industry momentum toward sustained deep-space operations beyond traditional orbital markets.",
+      "takeaway": "Growing membership in commercial space advocacy groups signals expanding investor confidence and market maturation in specialized space technology sectors.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members/"
@@ -421,7 +422,7 @@
       "type": "news",
       "headline": "ESA to decide by June on Europe’s Gateway contributions",
       "blurb": "MUNICH — For more than a year, questions have swirled about Artemis changes and the Gateway’s role in U.S. lunar ambitions. Following NASA’s March 24 decision to halt work on Gateway, the lunar-orbiting station that had been intended to support astronauts before and after lunar surface missions,...",
-      "takeaway": "Europe's delayed Gateway commitment decision signals uncertainty about NASA's revised lunar architecture and may reshape international partnerships for sustained moon exploration.",
+      "takeaway": "Europe's Gateway commitment timeline now hinges on NASA's shifting Artemis priorities, forcing ESA to make strategic resource allocation decisions amid U.S. lunar program uncertainty.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/esa-to-decide-by-june-on-europes-gateway-contributions/"
@@ -438,7 +439,7 @@
       "type": "news",
       "headline": "Gallery: Luke Days 2026",
       "blurb": "A glimpse back at last weekend's air show at Luke Air Force Base in Arizona.",
-      "takeaway": "Luke Days showcases operational fighter squadrons and advanced training capabilities that shape the next generation of U.S. Air Force pilots.",
+      "takeaway": "Luke Days 2026 showcased current USAF operational capabilities and recruitment efforts at one of the largest fighter training complexes in the world.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/gallery-luke-days-2026/"
@@ -452,7 +453,7 @@
       "type": "news",
       "headline": "NISAR’s View of Mount Rainier",
       "blurb": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount Rainier. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface...",
-      "takeaway": "NISAR's cloud-penetrating radar capability enables continuous Earth monitoring for volcanic and geological hazard assessment regardless of weather conditions.",
+      "takeaway": "SAR imaging's cloud-penetration capability enables all-weather Earth observation critical for infrastructure monitoring and disaster response planning.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/"
@@ -466,7 +467,7 @@
       "type": "news",
       "headline": "NISAR Views Mount St. Helens",
       "blurb": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount St. Helens. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface...",
-      "takeaway": "NISAR's L-band synthetic aperture radar enables all-weather Earth observation critical for monitoring volcanic and seismic activity that could affect aviation operations and airport infrastructure.",
+      "takeaway": "NISAR's L-band synthetic aperture radar enables all-weather Earth observation critical for monitoring volcanic and geological hazards regardless of atmospheric conditions.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/"
@@ -480,7 +481,7 @@
       "type": "news",
       "headline": "NTSB Issues Preliminary Report on Hudson River Ditching",
       "blurb": "Investigators say an instructional flight ended after a loss of oil pressure and total engine failure.",
-      "takeaway": "Oil pressure loss preceded the complete engine failure, suggesting maintenance or manufacturing defects warrant scrutiny in accident investigations beyond just pilot response protocols.",
+      "takeaway": "Oil pressure loss leading to total engine failure highlights the critical need for enhanced pre-flight inspection protocols and real-time engine monitoring systems in training operations.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/accidents-ntsb/ntsb-preliminary-hudson-river-ditching/"
@@ -496,7 +497,7 @@
       "type": "news",
       "headline": "NASA Tech and Science Bound for Low Earth Orbit on Commercial Launch",
       "blurb": "Technology and science demonstrations, supported by various NASA industry collaborations and agency developments, are set to launch to low Earth orbit aboard a SpaceX Falcon 9 rocket as part of the company’s Transporter-16 commercial rideshare mission. These demonstrations will test thermal...",
-      "takeaway": "NASA's reliance on commercial rideshare missions demonstrates how public-private partnerships are reducing launch costs while accelerating technology validation timelines for space agencies.",
+      "takeaway": "NASA's reliance on commercial rideshare missions demonstrates how agency technology validation increasingly depends on SpaceX's affordable launch accessibility rather than dedicated government flights.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch/"
@@ -514,7 +515,7 @@
       "type": "news",
       "headline": "House Transportation Chair Sam Graves To Retire",
       "blurb": "Graves helped shape FAA reauthorization, BasicMed and several other general aviation measures.",
-      "takeaway": "Graves' retirement removes a key advocate for general aviation from Congress, potentially affecting pending regulatory reforms and industry legislative priorities.",
+      "takeaway": "Graves' departure removes a key congressional advocate for general aviation reforms, potentially slowing momentum on pending FAA modernization priorities.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/transportation-chair-sam-graves-to-retire/"
@@ -530,7 +531,7 @@
       "type": "news",
       "headline": "NASA Names Scientists to Support Lunar South Pole Science",
       "blurb": "NASA has selected 10 participating scientists to help shape a science plan for astronauts to complete on the lunar surface under the Artemis program – including deploying scientific instruments, making critical observations of the landing site, and collecting Moon rocks. “Congratulations to the...",
-      "takeaway": "Direct scientist involvement in real-time mission planning will enable astronauts to conduct adaptive, high-impact lunar research rather than following predetermined protocols.",
+      "takeaway": "NASA's selection of lunar south pole scientists signals that Artemis missions will prioritize structured geological research over previous Apollo-era approaches, requiring aerospace contractors to design specialized instruments and sample collection systems.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/artemis/nasa-names-scientists-to-support-lunar-south-pole-science/"
@@ -546,7 +547,7 @@
       "type": "news",
       "headline": "Three killed in Hawaii tour helicopter crash on Kauai",
       "blurb": "Three people died and two others were injured after an Airborne Aviation tour helicopter crashed on the afternoon…...",
-      "takeaway": "The crash highlights ongoing safety concerns in Hawaii's tour helicopter sector, which operates frequently in challenging mountainous terrain with limited regulatory oversight compared to commercial carriers.",
+      "takeaway": "Hawaii's tour helicopter sector faces renewed scrutiny as fatal accidents continue despite previous safety initiatives and regulatory oversight.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/kauai-tour-helicopter-crash-kalalau-beach-md-500"
@@ -562,7 +563,7 @@
       "type": "news",
       "headline": "I Am Artemis: Michael Guzman",
       "blurb": "Listen to this audio excerpt from Michael Guzman, Artemis II main propulsion systems engineer: A clue to what Mike Guzman, main propulsion systems engineer at NASA’s Kennedy Space Center in Florida, loves most can be found in the signature of his work email: a complex string of equations for rocket...",
-      "takeaway": "NASA's Artemis II main propulsion engineer's expertise in rocket thermodynamics and fluid dynamics is critical to ensuring the Moon mission's success through complex systems validation.",
+      "takeaway": "NASA's Artemis II propulsion engineer exemplifies the specialized technical expertise required to maintain U.S. deep space exploration capabilities amid growing commercial competition.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/artemis/artemis-2/i-am-artemis-michael-guzman/"
@@ -579,7 +580,7 @@
       "type": "news",
       "headline": "SES meoSphere will be core to new MEO/LEO inflight connectivity",
       "blurb": "WASHINGTON D.C. — Rapidly putting the wheels in motion to launch a next-generation Medium Earth Orbit satellite network, dubbed meoSphere, SES intends to pair the new service with Low Earth Orbit satcom to power multi-orbit MEO/LEO inflight connectivity for airlines, company CEO Adel Al-Saleh...",
-      "takeaway": "Airlines will soon access dual-orbit satellite networks combining MEO and LEO coverage, reducing latency and improving global inflight connectivity reliability.",
+      "takeaway": "SES's dual MEO/LEO satellite architecture addresses aviation's connectivity gap by combining medium-orbit coverage reliability with low-orbit latency advantages for superior inflight broadband.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/ses-meosphere-will-be-core-to-new-meo-leo-inflight-connectivity/"
