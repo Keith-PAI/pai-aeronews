@@ -23,6 +23,7 @@ const __dirname = path.dirname(__filename);
 
 const NEWS_DATA_PATH = path.join(__dirname, '..', 'dist', 'news-data.json');
 const SOURCES_PATH = path.join(__dirname, '..', 'sources.json');
+const ANALYST_COUNTER_KEY = 'analystCallsToday';
 
 // Category display names (subset from fetch-rss.js — kept separate to avoid coupling)
 const CATEGORY_LABELS = {
@@ -152,7 +153,7 @@ Description: ${article.blurb || 'No description available'}`;
     );
 
     // Record exactly once — the HTTP request consumed quota
-    recordClaudeCalls(1);
+    recordClaudeCalls(1, ANALYST_COUNTER_KEY);
     counted = true;
 
     if (!response.ok) {
@@ -180,7 +181,7 @@ Description: ${article.blurb || 'No description available'}`;
     console.warn(`  Parsed response: ${dataSnippet}`);
     return null;
   } catch (error) {
-    if (!counted) recordClaudeCalls(1);
+    if (!counted) recordClaudeCalls(1, ANALYST_COUNTER_KEY);
     console.warn(`  Claude call failed for "${article.headline}": ${error.message}`);
     console.warn(`  API URL: ${apiUrl}`);
     console.warn(`  ANTHROPIC_API_KEY: ${process.env.ANTHROPIC_API_KEY ? 'present' : 'missing'}`);
@@ -268,6 +269,13 @@ function buildAnalystTeamsCard(articles) {
             size: 'large',
             weight: 'bolder',
             color: 'accent',
+          },
+          {
+            type: 'TextBlock',
+            text: '📅 Weekly · Mondays ~6 AM EDT',
+            size: 'small',
+            isSubtle: true,
+            spacing: 'none',
           },
           {
             type: 'TextBlock',
@@ -371,15 +379,15 @@ async function main() {
 
   if (!process.env.ANTHROPIC_API_KEY) {
     console.warn('No ANTHROPIC_API_KEY set — skipping Claude analyst briefs.');
-  } else if (!canSpendClaude(1, ANALYST_CAP)) {
-    const remaining = claudeCallsRemaining(ANALYST_CAP);
+  } else if (!canSpendClaude(1, ANALYST_CAP, ANALYST_COUNTER_KEY)) {
+    const remaining = claudeCallsRemaining(ANALYST_CAP, ANALYST_COUNTER_KEY);
     console.warn(`⚠ CLAUDE DAILY CAP REACHED (analyst cap: ${ANALYST_CAP}, remaining: ${remaining}). Skipping analyst briefs.`);
     capReached = true;
   } else {
-    console.log(`\nGenerating analyst briefs via Claude (cap: ${ANALYST_CAP}, remaining: ${claudeCallsRemaining(ANALYST_CAP)})...`);
+    console.log(`\nGenerating analyst briefs via Claude (cap: ${ANALYST_CAP}, remaining: ${claudeCallsRemaining(ANALYST_CAP, ANALYST_COUNTER_KEY)})...`);
     for (const article of capped) {
-      // Re-check cap before each call (public pipeline may have used calls too)
-      if (!canSpendClaude(1, ANALYST_CAP)) {
+      // Re-check cap before each call
+      if (!canSpendClaude(1, ANALYST_CAP, ANALYST_COUNTER_KEY)) {
         console.warn(`⚠ CLAUDE DAILY CAP REACHED mid-loop (analyst cap: ${ANALYST_CAP}). Skipping remaining briefs.`);
         capReached = true;
         break;

@@ -123,8 +123,8 @@
   "modes": {
     "analyst": {
       "enabled": true,
-      "schedule": "daily",
-      "dailyHourUTC": 11,
+      "schedule": "weekly",
+      "dailyHourUTC": 10,
       "maxArticles": 10,
       "keywords": [
         "safety", "incident", "accident", "investigation",

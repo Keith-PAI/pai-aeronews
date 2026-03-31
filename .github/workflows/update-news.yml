@@ -4,8 +4,8 @@ on:
   # Run every hour (public feed)
   schedule:
     - cron: '0 * * * *'
-    # Daily analyst digest at 11:15 UTC (matches sources.json dailyHourUTC)
-    - cron: '15 11 * * *'
+    # Weekly analyst digest: Mondays 10:00 UTC (matches sources.json dailyHourUTC)
+    - cron: '0 10 * * 1'
     # Daily opportunity spotter at noon UTC
     - cron: '0 12 * * *'
 
@@ -98,12 +98,12 @@ jobs:
           git diff --staged --quiet || git commit -m "Update news feed [skip ci]"
           git push origin gh-pages
 
-  # Analyst Mode — daily digest to dedicated Teams channel
-  # Only runs on the daily analyst cron or manual dispatch with forceAnalystNow
+  # Analyst Mode — weekly digest to dedicated Teams channel
+  # Only runs on the weekly analyst cron (Mondays) or manual dispatch with forceAnalystNow
   analyst-digest:
     if: >-
       (github.event_name == 'workflow_dispatch' && inputs.forceAnalystNow == true) ||
-      (github.event_name == 'schedule' && github.event.schedule == '15 15 * * *')
+      (github.event_name == 'schedule' && github.event.schedule == '0 10 * * 1')
     runs-on: ubuntu-latest
 
     steps:

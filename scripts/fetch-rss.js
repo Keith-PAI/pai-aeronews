@@ -1021,6 +1021,13 @@ function buildTeamsDigest(articles, maxArticles) {
           },
           {
             type: 'TextBlock',
+            text: '📅 Daily · ~6 AM EDT',
+            size: 'small',
+            isSubtle: true,
+            spacing: 'none',
+          },
+          {
+            type: 'TextBlock',
             text: today,
             size: 'small',
             isSubtle: true,
