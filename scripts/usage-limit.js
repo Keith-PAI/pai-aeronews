@@ -57,35 +57,48 @@ function saveCounters(counters) {
 /**
  * Check whether `callsNeeded` more Claude API calls fit under `cap`.
  * Returns true if allowed, false if the cap would be exceeded.
+ *
+ * @param {number} callsNeeded
+ * @param {number} cap
+ * @param {string} [counterKey='claudeCallsToday'] - Counter field name for independent tracking
  */
-export function canSpendClaude(callsNeeded = 1, cap) {
+export function canSpendClaude(callsNeeded = 1, cap, counterKey = 'claudeCallsToday') {
   const counters = loadCounters();
-  return (counters.claudeCallsToday + callsNeeded) <= cap;
+  const used = counters[counterKey] || 0;
+  return (used + callsNeeded) <= cap;
 }
 
 /**
  * Record that `count` Claude API calls were made.
  * Persists immediately so the counter survives process crashes.
+ *
+ * @param {number} count
+ * @param {string} [counterKey='claudeCallsToday'] - Counter field name for independent tracking
  */
-export function recordClaudeCalls(count = 1) {
+export function recordClaudeCalls(count = 1, counterKey = 'claudeCallsToday') {
   const counters = loadCounters();
-  counters.claudeCallsToday += count;
+  counters[counterKey] = (counters[counterKey] || 0) + count;
   saveCounters(counters);
-  return counters.claudeCallsToday;
+  return counters[counterKey];
 }
 
 /**
  * Return the current call count for today (read-only).
+ *
+ * @param {string} [counterKey='claudeCallsToday'] - Counter field name for independent tracking
  */
-export function claudeCallsToday() {
-  return loadCounters().claudeCallsToday;
+export function claudeCallsToday(counterKey = 'claudeCallsToday') {
+  return loadCounters()[counterKey] || 0;
 }
 
 /**
  * Return the remaining calls under the given cap.
+ *
+ * @param {number} cap
+ * @param {string} [counterKey='claudeCallsToday'] - Counter field name for independent tracking
  */
-export function claudeCallsRemaining(cap) {
-  const used = loadCounters().claudeCallsToday;
+export function claudeCallsRemaining(cap, counterKey = 'claudeCallsToday') {
+  const used = loadCounters()[counterKey] || 0;
   return Math.max(0, cap - used);
 }
 
@@ -98,13 +111,14 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(__filename
   const cmd = process.argv[2];
   const PUBLIC_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_PUBLIC || '900', 10);
   const ANALYST_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_ANALYST || '100', 10);
+  const OPPORTUNITY_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_OPPORTUNITY || '10', 10);
 
   if (cmd === 'status') {
     const c = loadCounters();
-    console.log(`Date:            ${c.date}`);
-    console.log(`Claude calls:    ${c.claudeCallsToday}`);
-    console.log(`Public cap:      ${PUBLIC_CAP}  (remaining: ${Math.max(0, PUBLIC_CAP - c.claudeCallsToday)})`);
-    console.log(`Analyst cap:     ${ANALYST_CAP}  (remaining: ${Math.max(0, ANALYST_CAP - c.claudeCallsToday)})`);
+    console.log(`Date:              ${c.date}`);
+    console.log(`Public calls:      ${c.claudeCallsToday || 0}  (cap: ${PUBLIC_CAP}, remaining: ${Math.max(0, PUBLIC_CAP - (c.claudeCallsToday || 0))})`);
+    console.log(`Analyst calls:     ${c.analystCallsToday || 0}  (cap: ${ANALYST_CAP}, remaining: ${Math.max(0, ANALYST_CAP - (c.analystCallsToday || 0))})`);
+    console.log(`Opportunity calls: ${c.opportunityCallsToday || 0}  (cap: ${OPPORTUNITY_CAP}, remaining: ${Math.max(0, OPPORTUNITY_CAP - (c.opportunityCallsToday || 0))})`);
   } else if (cmd === 'simulate') {
     const n = parseInt(process.argv[3], 10);
     if (isNaN(n) || n < 0) {

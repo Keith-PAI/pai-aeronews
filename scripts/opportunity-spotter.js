@@ -23,7 +23,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const NEWS_DATA_PATH = path.join(__dirname, '..', 'dist', 'news-data.json');
-const ANALYST_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_ANALYST || '100', 10);
+const OPPORTUNITY_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_OPPORTUNITY || '10', 10);
+const OPPORTUNITY_COUNTER_KEY = 'opportunityCallsToday';
 
 /**
  * Load news-data.json produced by the public pipeline
@@ -91,7 +92,7 @@ ${articleSummary}`;
     });
 
     // Record exactly once — the HTTP request consumed quota
-    recordClaudeCalls(1);
+    recordClaudeCalls(1, OPPORTUNITY_COUNTER_KEY);
     counted = true;
 
     if (!response.ok) {
@@ -112,7 +113,7 @@ ${articleSummary}`;
     console.warn('Claude returned 200 but no usable text.');
     return null;
   } catch (error) {
-    if (!counted) recordClaudeCalls(1);
+    if (!counted) recordClaudeCalls(1, OPPORTUNITY_COUNTER_KEY);
     console.warn(`Claude call failed: ${error.message}`);
     return null;
   }
@@ -144,6 +145,13 @@ function buildTeamsCard(opportunityText, articleCount) {
             size: 'large',
             weight: 'bolder',
             color: 'accent',
+          },
+          {
+            type: 'TextBlock',
+            text: '📅 Daily · ~6 AM EDT',
+            size: 'small',
+            isSubtle: true,
+            spacing: 'none',
           },
           {
             type: 'TextBlock',
@@ -230,14 +238,14 @@ async function main() {
 
   console.log(`Loaded ${newsData.articles.length} articles from news-data.json`);
 
-  // 4. Check Claude daily cap (one call needed)
-  if (!canSpendClaude(1, ANALYST_CAP)) {
-    const remaining = claudeCallsRemaining(ANALYST_CAP);
-    console.warn(`⚠ CLAUDE DAILY CAP REACHED (analyst cap: ${ANALYST_CAP}, remaining: ${remaining}). Exiting.`);
+  // 4. Check Claude daily cap (one call needed — independent counter)
+  if (!canSpendClaude(1, OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY)) {
+    const remaining = claudeCallsRemaining(OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY);
+    console.warn(`⚠ CLAUDE DAILY CAP REACHED (opportunity cap: ${OPPORTUNITY_CAP}, remaining: ${remaining}). Exiting.`);
     process.exit(0);
   }
 
-  console.log(`Claude cap OK (remaining: ${claudeCallsRemaining(ANALYST_CAP)})`);
+  console.log(`Claude cap OK (remaining: ${claudeCallsRemaining(OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY)})`);
 
   // 5. Generate opportunities (single API call)
   console.log('\nSending articles to Claude for opportunity analysis...');
