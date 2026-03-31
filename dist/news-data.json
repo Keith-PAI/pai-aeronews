@@ -1,12 +1,57 @@
 {
-  "lastUpdated": "2026-03-31T11:01:29.996Z",
+  "lastUpdated": "2026-03-31T11:56:38.126Z",
   "articles": [
+    {
+      "id": "iw0izw",
+      "type": "news",
+      "headline": "More A-10s Are Headed to the Middle East",
+      "blurb": "The deployment of additional A-10Cs to the Middle East, the first of which arrived at RAF Lakenheath, demonstrates the continued reliance on the close air support aircraft for operations in Iran. The U.S. Air Force A-10C Thunderbolt II jets have been actively supporting Operation Epic Fury in Iran...",
+      "takeaway": "The A-10's sustained deployment to the Middle East signals enduring demand for specialized close air support capabilities in contested airspace despite decades-old platform age.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/03/31/more-a-10s-are-headed-to-the-middle-east/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-03-31T11:52:36.000Z"
+    },
+    {
+      "id": "1cpoqd",
+      "type": "news",
+      "headline": "Trump International? One Final Hurdle Left For Palm Beach Airport's Renaming",
+      "blurb": "The name change hasn't been finalized yet, as it still requires FAA approval.",
+      "takeaway": "Airport rebranding requires FAA certification beyond local approval, creating regulatory delays that operators should anticipate when planning facility transitions.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/palm-beach-airport-rename-donald-trump/"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "airport"
+      ],
+      "publishedAt": "2026-03-31T11:50:10.000Z"
+    },
+    {
+      "id": "vspkpr",
+      "type": "news",
+      "headline": "IndiGo names ex-British Airways boss and current IATA head Willie Walsh as CEO",
+      "blurb": "Low-cost-carrier IndiGo has named the former British Airways boss and current director general of International Air Transport Association…...",
+      "takeaway": "Walsh's appointment signals IndiGo's strategic shift from rapid expansion to operational maturity and global market positioning under experienced carrier leadership.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/indigo-names-ex-british-airways-boss-and-current-iata-head-willie-walsh-as-ceo"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-03-31T11:26:47.000Z"
+    },
     {
       "id": "rxni4q",
       "type": "news",
       "headline": "The 12 Airlines That Still Operate 4-Engine Passenger Jets",
       "blurb": "Only three families of passenger quadjets remain in service around the world with a contracting number of commercial airlines.",
-      "takeaway": "The declining quadjet fleet reflects how modern twin-engine wide-bodies have become more economical for long-haul routes, forcing remaining operators to justify their 4-engine aircraft through ultra-premium capacity or niche markets.",
+      "takeaway": "As airlines retire quadjets for twin-engine fuel efficiency, the remaining 12 operators increasingly depend on these aircraft for ultra-long-range routes where no viable alternatives exist.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/the-12-airlines-that-still-operate-4-engine-passenger-jets/"
@@ -18,11 +63,11 @@
       "publishedAt": "2026-03-31T11:00:16.000Z"
     },
     {
-      "id": "pop9ak",
+      "id": "4ieckb",
       "type": "news",
-      "headline": "US asks Poland to send Patriot battery, missiles to Middle East",
+      "headline": "Poland rules out Patriot redeployment after US request reported",
       "blurb": "The United States has informally asked Poland to consider redeploying one of its two Patriot air defense batteries…...",
-      "takeaway": "U.S. defense requests for Poland's Patriot systems signal potential impacts on European air defense capabilities and aviation operations in contested airspace regions.",
+      "takeaway": "Poland's refusal to redeploy Patriot systems signals NATO allies' reluctance to weaken their own air defenses amid evolving regional threats.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-asks-poland-patriot-middle-east"
@@ -32,11 +77,31 @@
       "publishedAt": "2026-03-31T10:30:09.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Operators must formally document their Safety Management System compliance to demonstrate to the FAA that they've implemented required safety processes beyond basic regulatory adherence.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-03-31T11:55:58.918Z",
+      "paiContent": true
+    },
+    {
       "id": "aq8u3n",
       "type": "news",
       "headline": "China targets 140 launches in 2026 amid commercial space surge",
       "blurb": "China plans to conduct around 140 orbital launches this year, according to a commercial launch executive, marking a sharp acceleration in the country’s launch cadence.",
-      "takeaway": "China's 140 planned launches would exceed the entire global launch rate of recent years, signaling a dramatic shift in competitive advantage for satellite deployment and space infrastructure access.",
+      "takeaway": "China's 140-launch target in 2026 would exceed the U.S. historical annual record, signaling a fundamental shift in global launch capacity competition.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/china-targets-140-launches-in-2026-amid-commercial-space-surge/"
@@ -52,41 +117,21 @@
       "type": "news",
       "headline": "Iran war forces IATA to cut global seat capacity growth projections",
       "blurb": "The International Air Transport Association (IATA) has said that global capacity growth eased to 3.3% year on year…...",
-      "takeaway": "Geopolitical tensions are now materially constraining airlines' fleet expansion plans, reducing expected capacity growth by approximately 1-2 percentage points from pre-conflict projections.",
+      "takeaway": "Geopolitical instability is constraining industry-wide capacity expansion below pre-crisis growth trajectories, requiring airlines to reassess fleet deployment strategies.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/iran-war-forces-iata-to-cut-global-seat-capacity-growth-projections"
       },
-      "category": "international",
+      "category": "industry",
       "keywords": [],
       "publishedAt": "2026-03-31T10:06:28.000Z"
-    },
-    {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must formally document their Safety Management System implementation to demonstrate FAA compliance, establishing a critical legal and operational accountability mechanism.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-03-31T11:00:47.156Z",
-      "paiContent": true
     },
     {
       "id": "ov3eik",
       "type": "news",
       "headline": "Massive 25-Hour Flights: Qantas' 10 New Ultra-Long Routes In 2026",
       "blurb": "Huge changes are coming to Qantas' longest services. See them all here!",
-      "takeaway": "Qantas' expansion into ultra-long routes will require significant fleet investments and crew scheduling innovations to maintain profitability on 25-hour operations.",
+      "takeaway": "Qantas' ultra-long routes will test operational limits on crew fatigue, aircraft utilization, and passenger comfort over 25-hour flights.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/massive-25-hour-flights-qantas-10-new-ultra-long-routes-in-2026/"
@@ -100,12 +145,12 @@
       "type": "news",
       "headline": "AI drones are now catching aerial threats like flying cops",
       "blurb": "XTEND is doubling down on one of the biggest challenges in modern warfare: how to stop hostile drones, without making things worse in the process. The AI-driven robotics company, backed by Eric Trump, has announced a new partnership with ParaZero Technologies as part of its broader $1.5 billion...",
-      "takeaway": "AI-enabled drone interception systems are emerging as critical military infrastructure, requiring partnerships between specialized robotics firms to balance threat elimination with collateral damage mitigation.",
+      "takeaway": "Military drone interception now requires AI-powered systems with controlled neutralization protocols to balance threat elimination against collateral damage risks in contested airspace.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/31/xtend-parazero-drone-net-catcher/"
       },
-      "category": "drones",
+      "category": "military",
       "keywords": [
         "drone",
         "uas",
@@ -114,11 +159,31 @@
       "publishedAt": "2026-03-31T09:14:52.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective SRM requires organizations to actively select proportionate controls rather than eliminate all risk, balancing safety investments against operational feasibility.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-03-31T11:55:58.918Z",
+      "paiContent": true
+    },
+    {
       "id": "tl5bd9",
       "type": "news",
       "headline": "Two EA-37Bs Arrive at RAF Mildenhall on Possible First Operational Deployment",
       "blurb": "Two EA-37B Compass Call aircraft stopped at RAF Mildenhall for fuel during what may be the type’s first operational deployment abroad, reports suggesting Turkey as their destination. Two U.S. Air Force EA-37B Compass Call electronic warfare aircraft have arrived at RAF Mildenhall, UK, on Mar. 31,...",
-      "takeaway": "The EA-37B Compass Call's potential first operational deployment signals the U.S. Air Force's expanding electronic warfare capabilities in contested regions, marking a significant shift in regional defense posture.",
+      "takeaway": "EA-37B Compass Call's potential first operational deployment signals expanding U.S. electronic warfare capabilities in NATO theaters, likely addressing regional air defense threats.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/31/two-ea-37bs-arrive-at-raf-mildenhall/"
@@ -128,31 +193,11 @@
       "publishedAt": "2026-03-31T09:09:18.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Effective SMS depends less on formal procedures than on psychological safety that encourages frontline employees to report hazards without fear of retaliation.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-03-31T11:00:47.156Z",
-      "paiContent": true
-    },
-    {
       "id": "tt1obn",
       "type": "news",
       "headline": "Europe’s space sector faces power shift as funding grows",
       "blurb": "New report from Aerospace Corp. highlights rising EU funding and defense focus...",
-      "takeaway": "Europe's increased space investment signals a strategic shift toward defense independence, creating new supplier opportunities for aerospace manufacturers across the continent.",
+      "takeaway": "Europe's increased space investment signals competitive rebalancing in satellite and launch markets, potentially reshaping supply chains for aerospace manufacturers.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/europes-space-sector-faces-power-shift-as-funding-grows/"
@@ -169,7 +214,7 @@
       "type": "news",
       "headline": "DroneShield opens Amsterdam HQ as counter-drone demand grows",
       "blurb": "Drone threats aren’t slowing down in Europe, and neither is DroneShield. The Australia-based counter-drone and electronic warfare specialist has officially opened its new European headquarters in Amsterdam, signaling a deeper, more permanent push into one of its fastest-growing markets. more…...",
-      "takeaway": "DroneShield's European expansion reflects mounting commercial opportunity in counter-drone technology as regulatory frameworks struggle to contain proliferating aerial threats across the continent.",
+      "takeaway": "DroneShield's Amsterdam expansion reflects surging European demand for counter-drone solutions, indicating regulatory and security pressures are driving sustained commercial opportunities in airspace protection.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/31/droneshield-amsterdam-europe-counter-drone/"
@@ -185,7 +230,7 @@
       "type": "news",
       "headline": "Embraer KC-390 Millennium showcases cold weather operations in Sweden",
       "blurb": "Embraer’s KC-390 Millennium demonstrator has completed short takeoff and landing operations at Sweden’s Vidsel Test Range as part of the…...",
-      "takeaway": "Cold-weather STOL validation in Nordic conditions strengthens the KC-390 Millennium's competitive positioning for high-latitude military and humanitarian logistics missions.",
+      "takeaway": "Vidsel trials validate KC-390's arctic logistics capability, expanding addressable markets for tactical airlifts in Nordic and polar regions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/kc-390-millennium-cold-weather-demo-vidsel-sweden"
@@ -197,16 +242,16 @@
       "publishedAt": "2026-03-31T08:27:35.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
+      "id": "yt-auto-fkMg9Eyapps",
       "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Medium-hub airports like CID that balance flight training operations with commercial air carrier traffic face unique operational challenges requiring flexible infrastructure and scheduling protocols.",
+      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
+      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
+      "takeaway": "Runway exit design at major hubs like LAX creates systematic incursion risks that require pilots to execute non-standard procedures, suggesting infrastructure-level safety interventions may be more effective than relying on procedural compliance alone.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
       },
-      "category": "general-aviation",
+      "category": "safety",
       "keywords": [
         "airport",
         "pilot",
@@ -215,7 +260,7 @@
         "runway",
         "flight deck"
       ],
-      "publishedAt": "2026-03-31T11:00:47.513Z",
+      "publishedAt": "2026-03-31T11:55:59.274Z",
       "videoContent": true
     },
     {
@@ -223,7 +268,7 @@
       "type": "news",
       "headline": "Sphere ditches contractors, speeds up HubT drone deployments",
       "blurb": "Sphere is tightening its grip on autonomous drone deployments with a set of practical upgrades to its HubT platform, but the biggest shift is how the system is now built. more…...",
-      "takeaway": "Sphere's transition to in-house drone operations reduces deployment timelines and operational complexity by eliminating contractor dependencies in autonomous delivery networks.",
+      "takeaway": "Sphere's vertical integration of HubT drone operations removes supply chain dependencies, potentially reducing deployment timelines and operational costs for autonomous logistics.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/31/sphere-drones-hubt-dji-dock-2/"
@@ -239,12 +284,12 @@
       "type": "news",
       "headline": "Researchers say SAF made from solar energy could be scaled to industrial levels",
       "blurb": "The University of Sheffield has developed a new way of making sustainable aviation fuel (SAF) using solar energy…...",
-      "takeaway": "Solar-powered SAF production could reduce aviation's dependence on fossil fuels and grid electricity while scaling manufacturing capacity to meet growing decarbonization demands.",
+      "takeaway": "Solar-derived SAF production moving from laboratory validation to industrial scalability could fundamentally reduce aviation's reliance on fossil fuels and strengthen supply chain resilience.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/saf-aircraft-fuel-solar-energy-university-shefield"
       },
-      "category": "industry",
+      "category": "commercial",
       "keywords": [
         "sustainable",
         "saf"
@@ -256,7 +301,7 @@
       "type": "news",
       "headline": "UK drone rules just got way easier to understand",
       "blurb": "Grey Arrows Drone Club just did something UK drone pilots have quietly needed for years. And if you’ve ever second-guessed where you’re allowed to take off, this could be a game-changer. more…...",
-      "takeaway": "Simplified UK drone guidance reduces operator confusion and compliance errors, potentially lowering regulatory violations and insurance claims across the recreational sector.",
+      "takeaway": "Simplified guidance on UK airspace access removes interpretation barriers that previously forced pilots to make conservative assumptions, potentially unlocking broader operational opportunities.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/31/uk-drone-rules-map-app/"
@@ -269,33 +314,11 @@
       "publishedAt": "2026-03-31T08:00:35.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway exit design at busy airports like LAX creates systematic incursion risks that require pilots to execute precise post-landing procedures under high-workload conditions.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-03-31T11:00:47.513Z",
-      "videoContent": true
-    },
-    {
       "id": "3i31du",
       "type": "news",
       "headline": "The 5 Airlines With The Largest Boeing 737 Fleets Today",
       "blurb": "Boeing's single-aisle narrowbody family has been a popular choice for many years.",
-      "takeaway": "The 737's dominance across major carriers creates significant operational and supply chain dependencies that amplify the impact of Boeing's production and safety issues.",
+      "takeaway": "Narrowbody aircraft concentration among major carriers creates significant supply chain leverage for Boeing and maintenance ecosystem consolidation opportunities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-airlines-largest-boeing-737-fleets/"
@@ -308,11 +331,33 @@
       "publishedAt": "2026-03-31T08:00:17.000Z"
     },
     {
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Regional airports like CID serve as critical training hubs where flight schools and air carriers coexist, creating mixed-traffic operations that demand sophisticated airspace management.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-31T11:55:59.274Z",
+      "videoContent": true
+    },
+    {
       "id": "wksgyk",
       "type": "news",
       "headline": "Rheinmetall and Boeing Australia formalize MQ-28 Ghost Bat bid",
       "blurb": "Germany’s interest in acquiring the MQ-28 Ghost Bat has moved from diplomatic signals to a formal industrial partnership in a…...",
-      "takeaway": "Germany's formal partnership with Boeing Australia signals competitive pressure on European unmanned systems programs and reshapes NATO's autonomous aircraft procurement landscape.",
+      "takeaway": "Germany's pursuit of the MQ-28 Ghost Bat through formal Rheinmetall partnership signals European NATO allies are actively diversifying unmanned combat platform sourcing beyond traditional suppliers.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/rheinmetall-boeing-mq-28-ghost-bat-germany-cca"
@@ -328,7 +373,7 @@
       "type": "news",
       "headline": "MiniV-Bat 234g, 74 minutes hover bicopter",
       "blurb": "Bicopters are theoretically the most efficient multi-rotor design for their size constraint, yet their real-world...",
-      "takeaway": "Bicopter efficiency gains could reduce operational costs and expand mission range for small UAS operators facing weight and endurance constraints.",
+      "takeaway": "Bicopter efficiency advantages suggest potential cost and endurance benefits for small commercial drone operations despite historical development challenges.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/miniv-bat-234g-74-minutes-hover-bicopter/"
@@ -338,27 +383,11 @@
       "publishedAt": "2026-03-31T07:14:16.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational efficiency improvements across all aviation system layers offer nearer-term emissions reductions than waiting for new aircraft technologies to scale industry-wide.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-31T11:00:47.513Z"
-    },
-    {
       "id": "u36nq6",
       "type": "news",
       "headline": "2026 might be the most affordable year to buy a DJI drone",
       "blurb": "DJI drones that once felt like serious investments are now showing up at prices that would’ve seemed unrealistic even a year ago. Thanks to the Amazon Big Spring Sale, models across the lineup are seeing steep discounts, opening the door at just $149 and making it very easy to imagine how different...",
-      "takeaway": "DJI's aggressive pricing strategy through major retailer partnerships is fundamentally shifting consumer drone adoption from hobbyist luxury to mass-market commodity.",
+      "takeaway": "DJI's aggressive pricing strategy is democratizing drone ownership below $150, potentially expanding the consumer base and reshaping market competition in 2026.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/31/dji-drone-deals-lowest-discount/"
@@ -374,7 +403,7 @@
       "type": "news",
       "headline": "Drone survey without GCPs? Wingtra claims sub-3 cm accuracy",
       "blurb": "Wingtra is stepping into 2026 with a clear message for the surveying world: the future of mapping might not need ground control points at all. The Switzerland-based drone company recently launched the SURVEY61 payload, designed to work with the WingtraRAY drone. And the pitch is hard to ignore —...",
-      "takeaway": "Wingtra's elimination of ground control points through advanced sensor fusion could reduce surveying project timelines and costs by removing a major operational bottleneck.",
+      "takeaway": "Wingtra's GCP-free surveying approach could reduce drone mapping costs and deployment time by eliminating labor-intensive ground control point setup, potentially expanding commercial viability for infrastructure and agricultural applications.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/03/30/wingtra-drone-survey-without-gcp/"
@@ -388,16 +417,32 @@
       "publishedAt": "2026-03-31T06:40:46.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization through integrated airline-airport-airspace technologies offers a more immediate environmental impact pathway than waiting for fleet electrification.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-31T11:55:59.274Z"
+    },
+    {
       "id": "3dt3la",
       "type": "news",
       "headline": "Sikorsky Collaborates with Robinson Helicopter Company to Integrate MATRIX™ Autonomy into Robinson R66 TURBINETRUCK",
       "blurb": "Sikorsky, a Lockheed Martin company (NYSE:LMT), and Robinson Helicopter Company (RHC) unveiled the R66 TURBINETRUCK, a game-changing...",
-      "takeaway": "Sikorsky's MATRIX autonomy integration into Robinson's R66 expands autonomous capabilities beyond military platforms into the commercial light helicopter market, potentially accelerating adoption of autonomous systems in civil aviation operations.",
+      "takeaway": "Sikorsky's autonomous MATRIX technology integration into Robinson's R66 platform enables smaller operators to access advanced autonomy previously limited to heavy-lift helicopters.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/sikorsky-collaborates-with-robinson-helicopter-company-to-integrate-matrix-autonomy-into-robinson-r66-turbinetruck/"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [],
       "publishedAt": "2026-03-31T06:30:21.000Z"
     },
@@ -406,7 +451,7 @@
       "type": "news",
       "headline": "Artemis 2 countdown underway",
       "blurb": "The two-day countdown for the Artemis 2 mission around the moon started March 30 with NASA officials reporting no major issues for the launch.",
-      "takeaway": "NASA's Artemis 2 readiness demonstrates sustained progress in lunar exploration infrastructure critical for aerospace industry supply chain and long-duration spaceflight capabilities.",
+      "takeaway": "Artemis 2's smooth countdown progression indicates NASA's human lunar program is tracking toward its critical next phase in cislunar operations.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-countdown-underway/"
@@ -423,12 +468,12 @@
       "type": "news",
       "headline": "ICE Eyes 10 New Boeing 737 And Gulfstream G650s For Deportation Fleet",
       "blurb": "The controversial agency is jet shopping again.",
-      "takeaway": "ICE's expansion of its deportation fleet signals increased demand for used business and commercial aircraft, potentially affecting availability in secondary markets.",
+      "takeaway": "ICE's expansion of dedicated deportation aircraft signals increased operational capacity and cost efficiency compared to charter flights for mass migration enforcement operations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/ice-boeing-737-gulfstream-g650-fleet-expansion/"
       },
-      "category": "military",
+      "category": "commercial",
       "keywords": [
         "boeing",
         "gulfstream"
@@ -440,7 +485,7 @@
       "type": "news",
       "headline": "Inside The Boeing 747's Upper Deck Layout",
       "blurb": "From a secluded cocktail bar to a high-density seating zone, the evolution of the 747's upper deck reflects the changing priorities of aviation.",
-      "takeaway": "The 747's upper deck evolved from luxury amenities to revenue-maximizing high-density seating, mirroring airlines' shift from premium experience to capacity optimization.",
+      "takeaway": "The 747's upper deck evolved from luxury amenities to revenue-maximizing seating, illustrating how carrier economics shifted from premium experience to capacity utilization over the aircraft's production span.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/inside-boeing-747-upper-deck-layout/"
@@ -456,7 +501,7 @@
       "type": "news",
       "headline": "Fires Tear Through Nebraska Grasslands",
       "blurb": "Dry, warm, and windy conditions across the U.S. Great Plains led to extreme fire activity in March 2026.",
-      "takeaway": "Extreme wildfire conditions in the Great Plains may impact regional airspace operations through smoke, visibility restrictions, and potential aircraft diversion requirements.",
+      "takeaway": "Severe grassland fires across the Great Plains may impact regional airspace operations, visibility conditions, and emergency response coordination for aviation services.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/fires-tear-through-nebraska-grasslands/"
@@ -470,7 +515,7 @@
       "type": "news",
       "headline": "5 Fighter Jets With The Highest Top Speeds In Service Today",
       "blurb": "From the Mach 2.83 MiG-31 to the F-22, these are the 5 fastest fighter jets still in service—and why speed still matters in modern air combat.",
-      "takeaway": "Speed remains tactically relevant despite modern air combat emphasis on sensors and missiles, as supersonic capability provides crucial engagement advantages and escape options.",
+      "takeaway": "Sustained supersonic capability remains operationally critical despite modern air-to-air missiles, driving continued investment in high-speed fighter development across competing air forces.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-fighter-jets-with-the-highest-top-speeds-in-service-today/"
@@ -484,7 +529,7 @@
       "type": "news",
       "headline": "JetBlue Hikes Checked Bags Fees, Cites \"Rising Operating Costs\"",
       "blurb": "JetBlue announces a hike checked bag fees, balancing the need to keep fares competitive with the reality of escalating operations costs.",
-      "takeaway": "JetBlue's fee increase signals that carriers are shifting cost pressures to ancillary revenue rather than base fares, a strategic response to margin compression in competitive markets.",
+      "takeaway": "JetBlue's ancillary fee increase signals carriers are shifting cost burdens to passengers rather than raising base fares, a strategy that may become industry-wide as fuel and labor expenses remain elevated.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/jetblue-hikes-checked-bag-fees-rising-operating-costs/"
@@ -498,7 +543,7 @@
       "type": "news",
       "headline": "5 Routes That Push Aircraft To Their Range Limits",
       "blurb": "These services offer extra-long-range connectivity.",
-      "takeaway": "Ultra-long-range routes like Singapore-New York require aircraft operating at 95%+ of maximum range, leaving minimal fuel reserves and demanding precision fuel planning.",
+      "takeaway": "Airlines operating ultra-long-range routes face compressed margins on fuel costs and maintenance cycles, making aircraft efficiency and operational planning critical competitive factors.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-routes-push-aircraft-range-limits/"
@@ -512,7 +557,7 @@
       "type": "news",
       "headline": "Second Starlink satellite suffers anomaly, generating debris",
       "blurb": "For the second time in just over three months, a SpaceX Starlink satellite has generated debris from an apparent on-orbit malfunction.",
-      "takeaway": "Repeated Starlink anomalies raise concerns about debris accumulation in low Earth orbit, potentially accelerating collision risks for operational satellites and the International Space Station.",
+      "takeaway": "Recurring Starlink malfunctions raising concerns about debris accumulation in low Earth orbit and potential cascade collision risks for operational satellites.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/"
@@ -529,7 +574,7 @@
       "type": "news",
       "headline": "Delta Slashes Domestic Boeing 767-400 Flights By 67% In Massive Schedule Shakeup",
       "blurb": "The airline will redeploy a significant portion of its 767-400ER fleet from domestic routes to services to and from Europe, affecting several routes.",
-      "takeaway": "Delta's shift signals that wide-body aircraft are becoming more economically viable on transatlantic routes than domestic markets, reflecting post-pandemic demand patterns and fuel efficiency gains.",
+      "takeaway": "Delta's redeployment of 767-400ERs to transatlantic routes signals confidence in international recovery while revealing structural overcapacity on domestic trunk routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-slashes-domestic-767-400er-flights-by-67pc/"
@@ -540,53 +585,6 @@
         "airline"
       ],
       "publishedAt": "2026-03-30T22:58:00.000Z"
-    },
-    {
-      "id": "5etkkj",
-      "type": "news",
-      "headline": "Inside The F-35's Cockpit System",
-      "blurb": "At the controls of flying supercomputer.",
-      "takeaway": "The F-35's integrated cockpit architecture consolidates multiple sensor feeds into a single pilot interface, fundamentally reducing cognitive load compared to legacy fighter platforms.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/inside-f-35s-cockpit/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-03-30T22:00:18.000Z"
-    },
-    {
-      "id": "dsajml",
-      "type": "news",
-      "headline": "Rocket Lab wins German approval for Mynaric deal",
-      "blurb": "Decision clears path for April closing after months of scrutiny over keeping key space technology in domestic hands...",
-      "takeaway": "German regulatory approval removes a critical hurdle for Rocket Lab's acquisition of Mynaric, enabling the consolidation of satellite communication capabilities within a U.S.-allied aerospace ecosystem.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/rocket-lab-wins-german-approval-for-mynaric-deal/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-03-30T21:19:55.000Z"
-    },
-    {
-      "id": "iubmlt",
-      "type": "news",
-      "headline": "Video: Delta A330 returns to São Paulo after engine failure on takeoff",
-      "blurb": "A Delta Air Lines Airbus A330-300 returned to São Paulo Guarulhos Airport shortly after takeoff on March 29,…...",
-      "takeaway": "Engine failures during takeoff remain among aviation's most critical phases, testing crew training and aircraft redundancy systems in real-world conditions.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/delta-a330-returns-sao-paulo-engine-failure-takeoff"
-      },
-      "category": "safety",
-      "keywords": [
-        "airbus",
-        "airport"
-      ],
-      "publishedAt": "2026-03-30T20:45:24.000Z"
     }
   ]
 }
