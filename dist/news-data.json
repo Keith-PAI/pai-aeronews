@@ -1,12 +1,80 @@
 {
-  "lastUpdated": "2026-03-31T02:54:39.922Z",
+  "lastUpdated": "2026-03-31T05:16:11.968Z",
   "articles": [
+    {
+      "id": "v6jhx6",
+      "type": "news",
+      "headline": "ICE Eyes 10 New Boeing 737 And Gulfstream G650s For Deportation Fleet",
+      "blurb": "The controversial agency is jet shopping again.",
+      "takeaway": "ICE's expansion of dedicated deportation aircraft signals sustained demand for specialized government aviation capacity, creating niche business opportunities for charter operators and aircraft management firms.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/ice-boeing-737-gulfstream-g650-fleet-expansion/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing",
+        "gulfstream"
+      ],
+      "publishedAt": "2026-03-31T05:05:55.000Z"
+    },
+    {
+      "id": "2a0986",
+      "type": "news",
+      "headline": "Inside The Boeing 747's Upper Deck Layout",
+      "blurb": "From a secluded cocktail bar to a high-density seating zone, the evolution of the 747's upper deck reflects the changing priorities of aviation.",
+      "takeaway": "The 747's upper deck transformation from luxury lounge to revenue-generating seating illustrates how airlines shifted from premium amenities to capacity optimization as competition intensified.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/inside-boeing-747-upper-deck-layout/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-03-31T05:00:17.000Z"
+    },
+    {
+      "id": "iajftc",
+      "type": "news",
+      "headline": "Fires Tear Through Nebraska Grasslands",
+      "blurb": "Dry, warm, and windy conditions across the U.S. Great Plains led to extreme fire activity in March 2026.",
+      "takeaway": "Extreme grassland fires in the Great Plains create significant visibility and air quality hazards that restrict VFR operations and require pilots to file IFR flight plans or delay flights.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/fires-tear-through-nebraska-grasslands/"
+      },
+      "category": "safety",
+      "keywords": [],
+      "publishedAt": "2026-03-31T04:01:00.000Z"
+    },
+    {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS shifts aviation safety from responding to accidents toward preventing them through systematic risk identification and mitigation before incidents occur.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-03-31T05:15:36.304Z",
+      "paiContent": true
+    },
     {
       "id": "f2ghks",
       "type": "news",
       "headline": "5 Fighter Jets With The Highest Top Speeds In Service Today",
       "blurb": "From the Mach 2.83 MiG-31 to the F-22, these are the 5 fastest fighter jets still in service—and why speed still matters in modern air combat.",
-      "takeaway": "Speed remains operationally critical for modern fighters despite advanced missiles, enabling tactical advantages in engagement initiation and escape scenarios.",
+      "takeaway": "Sustained supersonic speed remains tactically relevant for evading modern air defenses and achieving first-strike advantages despite advances in missile technology and stealth capabilities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-fighter-jets-with-the-highest-top-speeds-in-service-today/"
@@ -20,7 +88,7 @@
       "type": "news",
       "headline": "JetBlue Hikes Checked Bags Fees, Cites \"Rising Operating Costs\"",
       "blurb": "JetBlue announces a hike checked bag fees, balancing the need to keep fares competitive with the reality of escalating operations costs.",
-      "takeaway": "JetBlue's fee increase signals broader carrier strategy to preserve margins without raising base fares in a price-sensitive market.",
+      "takeaway": "JetBlue's fee increase reflects broader industry pressure to offset fuel, labor, and maintenance costs without pricing out price-sensitive leisure travelers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/jetblue-hikes-checked-bag-fees-rising-operating-costs/"
@@ -34,7 +102,7 @@
       "type": "news",
       "headline": "5 Routes That Push Aircraft To Their Range Limits",
       "blurb": "These services offer extra-long-range connectivity.",
-      "takeaway": "Ultra-long-range routes demand specialized aircraft configurations and fuel management strategies that significantly increase operational complexity and maintenance costs for airlines.",
+      "takeaway": "Ultra-long-range routes demand specialized aircraft configurations and fuel management strategies that create operational and maintenance complexities beyond standard fleet operations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-routes-push-aircraft-range-limits/"
@@ -44,24 +112,23 @@
       "publishedAt": "2026-03-31T00:00:18.000Z"
     },
     {
-      "id": "pai-evolution-sms",
+      "id": "pai-safety-culture",
       "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts airlines from accident investigation to predictive safety modeling, requiring cultural transformation beyond compliance checkbox implementation.",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Organizations with psychologically safe environments see significantly higher voluntary safety reporting rates, directly improving SMS effectiveness and hazard detection.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
+        "safety culture",
+        "reporting",
+        "just culture"
       ],
-      "publishedAt": "2026-03-31T02:54:01.283Z",
+      "publishedAt": "2026-03-31T05:15:36.304Z",
       "paiContent": true
     },
     {
@@ -69,7 +136,7 @@
       "type": "news",
       "headline": "Second Starlink satellite suffers anomaly, generating debris",
       "blurb": "For the second time in just over three months, a SpaceX Starlink satellite has generated debris from an apparent on-orbit malfunction.",
-      "takeaway": "Recurring Starlink anomalies raise concerns about collision cascade risks in already-congested low-earth orbit, potentially affecting aviation operations and satellite communications reliability.",
+      "takeaway": "Recurring Starlink anomalies pose escalating orbital debris risks that could threaten other satellite operators and complicate future aviation operations dependent on constellation reliability.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/"
@@ -86,7 +153,7 @@
       "type": "news",
       "headline": "Delta Slashes Domestic Boeing 767-400 Flights By 67% In Massive Schedule Shakeup",
       "blurb": "The airline will redeploy a significant portion of its 767-400ER fleet from domestic routes to services to and from Europe, affecting several routes.",
-      "takeaway": "Delta's shift reflects reduced domestic wide-body demand as airlines optimize fleet utilization by routing larger aircraft toward higher-yield international markets.",
+      "takeaway": "Delta's 767-400 redeployment signals shifting economics favoring wide-body efficiency on transatlantic routes over domestic premium cabins.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-slashes-domestic-767-400er-flights-by-67pc/"
@@ -103,7 +170,7 @@
       "type": "news",
       "headline": "Inside The F-35's Cockpit System",
       "blurb": "At the controls of flying supercomputer.",
-      "takeaway": "The F-35's integrated avionics architecture demonstrates how aerospace cockpit systems are evolving toward AI-assisted decision support, with implications for next-generation commercial and military aircraft design.",
+      "takeaway": "The F-35's integrated cockpit system consolidates sensor fusion and mission data into a single pilot interface, fundamentally reducing cognitive workload compared to legacy multi-panel designs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/inside-f-35s-cockpit/"
@@ -113,11 +180,33 @@
       "publishedAt": "2026-03-30T22:00:18.000Z"
     },
     {
+      "id": "yt-auto-3sJ1UJ6i5OA",
+      "type": "video",
+      "headline": "From the Flight Deck – Frederick Municipal Airport, MD (FDK)",
+      "blurb": "Frederick Municipal is a small general and corporate aviation airport located just east of the city of Frederick, Maryland. The traffic mix runs the spectrum from single engine training aircraft up...",
+      "takeaway": "Regional airports like Frederick Municipal serve as critical training and corporate hubs that sustain general aviation's economic viability beyond major metropolitan areas.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=3sJ1UJ6i5OA"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-03-31T05:15:36.586Z",
+      "videoContent": true
+    },
+    {
       "id": "e7rxci",
       "type": "news",
       "headline": "TSA Employees Asked To Return Tyler Perry’s $1,000 Gift Cards As Backpay Begins",
       "blurb": "TSA workers receiving backpay as shutdown enters day 45, but those who received $1,000 gift cards from Tyler Perry are asked to return them.",
-      "takeaway": "TSA's extended shutdown created unexpected compliance complications when employee gifts became entangled with federal backpay distribution processes.",
+      "takeaway": "The forced return of Tyler Perry's gift cards underscores how federal shutdown protocols override private charitable gestures, complicating morale recovery for essential airport security personnel.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/tsa-employees-return-tyler-perry-1000-gift-cards-backpay-begins/"
@@ -127,31 +216,11 @@
       "publishedAt": "2026-03-30T21:59:26.000Z"
     },
     {
-      "id": "pai-assess-safety-risk",
-      "type": "pai-blog",
-      "headline": "How to Assess Safety Risk",
-      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
-      "takeaway": "Part 5 provides a structured framework for systematically evaluating and mitigating operational hazards rather than relying on intuition or reactive incident response.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk assessment",
-        "faa",
-        "part 5"
-      ],
-      "publishedAt": "2026-03-31T02:54:01.283Z",
-      "paiContent": true
-    },
-    {
       "id": "wlpzvf",
       "type": "news",
       "headline": "London Gatwick Confirms 9th New Airline In Massive 2026 Shakeup",
       "blurb": "Pegasus gives Gatwick a fresh Istanbul link as its surprising 2026 growth surges.",
-      "takeaway": "Gatwick's nine new carriers in 2026 signal post-capacity-expansion competition intensifying, with budget carriers like Pegasus targeting underserved routes to establish beachheads at previously constrained European hubs.",
+      "takeaway": "Gatwick's capacity expansion is attracting niche carriers to underserved routes, signaling how secondary hubs can compete with London's dominant airports through strategic route development.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/london-gatwick-9th-airline-2026/"
@@ -167,7 +236,7 @@
       "type": "news",
       "headline": "The World’s Largest Air Forces By Number Of F-35s",
       "blurb": "A closer look at some of the leading F-35 armadas around the world.",
-      "takeaway": "F-35 distribution patterns reveal geopolitical alignment shifts, with allied nations rapidly building interoperable fighter fleets that enhance NATO and Indo-Pacific deterrence capabilities.",
+      "takeaway": "F-35 fleet concentration among a few allied nations reflects geopolitical alignment and creates supply chain vulnerabilities for maintenance and upgrades.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/worlds-largest-air-forces-number-of-f-35s/"
@@ -177,11 +246,32 @@
       "publishedAt": "2026-03-30T21:30:18.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures demonstrate how terrain-constrained airports in busy Class B airspace must balance operational efficiency with community relations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-03-31T05:15:36.586Z",
+      "videoContent": true
+    },
+    {
       "id": "dsajml",
       "type": "news",
       "headline": "Rocket Lab wins German approval for Mynaric deal",
       "blurb": "Decision clears path for April closing after months of scrutiny over keeping key space technology in domestic hands...",
-      "takeaway": "German regulatory approval of Rocket Lab's Mynaric acquisition removes geopolitical barriers to closing, signaling growing acceptance of cross-border space industry consolidation despite national security concerns.",
+      "takeaway": "Germany's approval of Rocket Lab's Mynaric acquisition signals a strategic shift toward consolidating space launch and optical communication capabilities under U.S. ownership despite European sovereignty concerns.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/rocket-lab-wins-german-approval-for-mynaric-deal/"
@@ -193,46 +283,11 @@
       "publishedAt": "2026-03-30T21:19:55.000Z"
     },
     {
-      "id": "jph2ol",
-      "type": "news",
-      "headline": "5 Military Aircraft With The Longest Range In Service",
-      "blurb": "Some military aircraft are built for range and endurance, while others only have a long range when they are in ferry configurations.",
-      "takeaway": "Ferry configurations enable some military aircraft to achieve vastly extended ranges beyond their operational combat profiles, creating strategic flexibility for deployment planning.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/5-military-aircraft-longest-range-service/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-03-30T21:01:17.000Z"
-    },
-    {
-      "id": "yt-auto-R8xtl4OW9eg",
-      "type": "video",
-      "headline": "RNO Mustang 9 Departure",
-      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "Reno-Tahoe's Mustang 9 departure from runways 17L/R requires heightened pilot attention due to procedure complexity that poses significant operational risk if misexecuted.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-31T02:54:01.675Z",
-      "videoContent": true
-    },
-    {
       "id": "iubmlt",
       "type": "news",
       "headline": "Video: Delta A330 returns to São Paulo after engine failure on takeoff",
       "blurb": "A Delta Air Lines Airbus A330-300 returned to São Paulo Guarulhos Airport shortly after takeoff on March 29,…...",
-      "takeaway": "Wide-body aircraft engine failures during takeoff remain manageable through proper crew procedures, with successful returns demonstrating effective emergency response protocols.",
+      "takeaway": "Engine failures during initial climb remain a critical vulnerability despite modern aircraft redundancy, requiring immediate return-to-airport procedures that test crew training and aircraft handling limits.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/delta-a330-returns-sao-paulo-engine-failure-takeoff"
@@ -245,27 +300,11 @@
       "publishedAt": "2026-03-30T20:45:24.000Z"
     },
     {
-      "id": "nrc17v",
-      "type": "news",
-      "headline": "Why Airlines Don’t Always Use Their Newest Jets",
-      "blurb": "Examining why the three US legacy carriers operate relatively old aircraft, and why American Airlines' fleet is yoinger than the rest.",
-      "takeaway": "Legacy carriers strategically defer new aircraft deployment to maximize existing asset utilization and manage capital expenditure timing amid fluctuating demand cycles.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-airlines-dont-use-newest-jets/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-03-30T20:00:17.000Z"
-    },
-    {
       "id": "ggiru5",
       "type": "news",
       "headline": "Artemis II by the numbers: an inside look at mankind’s planned return to the Moon",
       "blurb": "NASA’s Artemis II astronauts are go for launch, with the agency targeting April 1, 2026, at 18:24 local…...",
-      "takeaway": "Artemis II's delayed 2026 launch reflects the complexity of human lunar missions, requiring extensive ground systems validation beyond spacecraft readiness alone.",
+      "takeaway": "Artemis II's April 2026 launch date represents a critical validation milestone for lunar return technologies that will inform deep-space aviation operations for the next decade.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/artemis-ii-by-the-numbers-nasa-moon-mission"
@@ -277,11 +316,27 @@
       "publishedAt": "2026-03-30T19:46:07.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across multi-level systems (airline, airport, airspace) offers near-term capacity gains without major infrastructure investment, addressing the industry's urgent efficiency-sustainability tradeoff.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-03-31T05:15:36.586Z"
+    },
+    {
       "id": "qxbj91",
       "type": "news",
       "headline": "China’s Y-9FQ Next Gen ASW Aircraft Intercepted for the First Time Over East China Sea",
       "blurb": "The Y-9FQ ‘High New 15’ made its debut at the Sep. 3, 2025, Victory Day parade in Beijing, and has now been intercepted for the first time by Japan. A Chinese People’s Liberation Army Naval Air Force (PLANAF) Y-9FQ maritime patrol and anti-submarine warfare aircraft was intercepted for the first...",
-      "takeaway": "China's newly unveiled Y-9FQ ASW aircraft has entered operational service faster than expected, demonstrating accelerated modernization of PLA maritime capabilities in contested regions.",
+      "takeaway": "China's newly unveiled Y-9FQ ASW aircraft demonstrates accelerated operational deployment in disputed waters, signaling potential shifts in regional military capabilities and interception protocols.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/03/30/china-y-9fq-intercepted-first-time-east-china-sea/"
@@ -291,32 +346,11 @@
       "publishedAt": "2026-03-30T19:43:39.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
-      "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strike fatalities persist despite pilot overconfidence in reaction time, demanding enhanced detection systems and lower-altitude operational protocols in congested areas.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-03-31T02:54:01.675Z",
-      "videoContent": true
-    },
-    {
       "id": "yuagxz",
       "type": "news",
       "headline": "American’s BBQ partnership with Pecan Lodge hits the spot",
       "blurb": "Some airline routes are special because of the insatiable passenger demand they create, like Seoul to Jeju in South Korea, which is often ranked as the world’s busiest route. Others are special because they link two globally influential cities like New York and London. Then there’s Dallas to New...",
-      "takeaway": "Airline ancillary partnerships with local food vendors create differentiation on competitive routes and generate non-ticket revenue while enhancing passenger experience.",
+      "takeaway": "Airline partnerships with local food vendors create competitive differentiation on price-sensitive routes by leveraging destination authenticity rather than competing solely on service amenities.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/american-airlines-bbq-partnership-with-pecan-lodge-hits-the-spot/"
@@ -332,7 +366,7 @@
       "type": "news",
       "headline": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
       "blurb": "Rhea Space, Sandia and NASA hardware to gather data during high-speed descent...",
-      "takeaway": "Varda's reentry testing of third-party hardware validates commercial space platforms as viable testbeds for aerospace component qualification, reducing development costs for suppliers.",
+      "takeaway": "Varda's reentry missions are validating critical hardware from multiple agencies, accelerating commercial spaceflight infrastructure development beyond the company's core manufacturing focus.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/varda-flies-navigation-payload-heat-shield-tests-on-sixth-reentry-mission/"
@@ -349,7 +383,7 @@
       "type": "news",
       "headline": "NORAD Escorts Aircraft After Palm Beach TFR Violation",
       "blurb": "F-16s intercepted the general aviation aircraft near Mar-a-Lago on Sunday afternoon.",
-      "takeaway": "TFR violations near high-security airspace now trigger immediate military intercept responses, raising operational costs and safety risks for general aviation pilots.",
+      "takeaway": "General aviation pilots must recognize that TFR violations near protected VIPs trigger immediate military interception, creating safety risks and potential enforcement consequences.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/norad-escorts-aircraft-palm-beach-tfr/"
@@ -363,7 +397,7 @@
       "type": "news",
       "headline": "Sendoff for Artemis II Crew",
       "blurb": "From left to right, NASA astronauts Andre Douglas, Victor Glover, and Christina Koch, CSA (Canadian Space Agency) astronauts Jenni Gibbons, NASA astronaut Reid Wiseman, and CSA astronaut Jeremy Hansen pose for a photo before the Artemis II crew proceed to a media event on March 27, 2026. Douglas...",
-      "takeaway": "Artemis II's multinational crew composition reflects NASA's shift toward sustained international partnerships for lunar missions beyond initial exploration phases.",
+      "takeaway": "Artemis II's international crew composition signals NASA's strategy to strengthen partnerships with allied space agencies while advancing lunar exploration capabilities.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/"
@@ -376,27 +410,11 @@
       "publishedAt": "2026-03-30T18:18:27.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across integrated airline-airport-flight systems can simultaneously address capacity constraints and environmental impact, presenting a more achievable path than relying solely on new aircraft technology.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-03-31T02:54:01.675Z"
-    },
-    {
       "id": "ue28to",
       "type": "news",
       "headline": "Air Algérie orders 10 Boeing 737-8s as fleet renewal accelerates",
       "blurb": "Air Algérie has ordered 10 Boeing 737 MAX 8 aircraft, with deliveries set to begin in summer 2026 as the…...",
-      "takeaway": "North African carriers are increasingly embracing MAX aircraft despite prior regional hesitation, signaling growing confidence in Boeing's re-certified platform among emerging market operators.",
+      "takeaway": "Air Algérie's MAX order signals confidence in Boeing's aircraft despite MAX certification challenges, accelerating North African fleet modernization.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/air-algerie-orders-10-boeing-737-8s-fleet-renewal"
@@ -412,7 +430,7 @@
       "type": "news",
       "headline": "ESA launches first Celeste satellites to test complementary LEO navigation layer",
       "blurb": "MILAN — The European Space Agency has launched the first two satellites of the Celeste in-orbit demonstration mission from New Zealand aboard a Rocket Lab Electron launcher on March 28. The two satellites were launched at 10:14 CET and separated from the launcher about an hour later into a...",
-      "takeaway": "ESA's Celeste constellation validates a backup GPS alternative for aviation through low-Earth orbit satellites, reducing European dependence on U.S. systems.",
+      "takeaway": "ESA's Celeste constellation demonstrates a European alternative to GPS that could enhance aviation navigation resilience through terrestrial augmentation rather than reliance on single systems.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/esa-launches-first-celeste-satellites-to-test-complementary-leo-navigation-layer/"
@@ -429,7 +447,7 @@
       "type": "news",
       "headline": "SpaceX launches Transporter-16 rideshare mission",
       "blurb": "SpaceX launched the latest in its series of dedicated rideshare missions March 30, delivering more than 100 payloads to sun-synchronous orbit.",
-      "takeaway": "SpaceX's rideshare model continues validating commercial small-satellite economics by achieving over 100 payloads per mission, establishing scalable launch accessibility for emerging space operators.",
+      "takeaway": "SpaceX's Transporter-16 demonstrates the commercial viability of dedicated rideshare missions for accessing sun-synchronous orbit at scale and reduced cost.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/spacex-launches-transporter-16-rideshare-mission/"
@@ -446,7 +464,7 @@
       "type": "news",
       "headline": "Picture of the Day: March 30, 2026",
       "blurb": "Formation flying with a friend's Subaru-powered home built.",
-      "takeaway": "Subaru automotive engines continue proving cost-effective powerplant alternatives for experimental aircraft builders seeking affordable performance.",
+      "takeaway": "Subaru automotive engines continue enabling experimental aircraft builders to achieve cost-effective, reliable power for recreational flying without traditional aircraft powerplants.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-march-30-2026/"
@@ -460,12 +478,12 @@
       "type": "news",
       "headline": "Merlin Labs sees incremental path to pilot-free passenger flights",
       "blurb": "US start-up Merlin Labs is eyeing civil applications for its AI-powered, defense-grade Merlin Pilot autonomous flight control system and says there is “no hard ceiling” for the size of aircraft its technology could eventually be installed on. Describing fully uncrewed civil flight as “a very long...",
-      "takeaway": "Merlin Labs' defense-derived autonomous system could scale to large aircraft, positioning AI automation as a regulatory-phased transition rather than an all-or-nothing capability leap.",
+      "takeaway": "Merlin Labs' modular approach to autonomous flight certification suggests regulatory pathways may prioritize incremental cargo and smaller aircraft operations before enabling large passenger autonomy.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/merlin-labs-sees-incremental-path-to-pilot-free-passenger-flights/"
       },
-      "category": "commercial",
+      "category": "evtol",
       "keywords": [
         "pilot"
       ],
@@ -476,7 +494,7 @@
       "type": "news",
       "headline": "Spain Bars U.S. Iran-Related Military Flights From Its Airspace",
       "blurb": "Madrid expands earlier restrictions on base access for U.S. military flights.",
-      "takeaway": "Spain's escalating airspace restrictions signal NATO allies' willingness to limit U.S. military operations over geopolitical concerns, potentially fragmenting transatlantic military air corridors.",
+      "takeaway": "Spain's escalating airspace restrictions signal European pushback against U.S. military operations, potentially disrupting transatlantic military logistics and NATO coordination routes.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/military-aviation/spain-bars-us-iran-military-flights/"
@@ -492,7 +510,7 @@
       "type": "news",
       "headline": "China’s Kinetica-2 rocket debuts successfully, sending prototype cargo spacecraft to orbit",
       "blurb": "Chinese firm CAS Space successfully reached orbit with the first launch of its Kinetica-2 launch vehicle Monday, with a prototype cargo spacecraft among the payloads.",
-      "takeaway": "China's commercial launch capability expands with a new domestic rocket platform, reducing reliance on foreign providers for orbital access.",
+      "takeaway": "China's commercial space sector demonstrates reusable rocket capability, intensifying competition for international launch contracts and cargo transportation services.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/chinas-kinetica-2-rocket-debuts-successfully-sending-prototype-cargo-spacecraft-to-orbit/"
@@ -508,7 +526,7 @@
       "type": "news",
       "headline": "Ukraine’s private air defense scores first drone kills over Kharkiv",
       "blurb": "Ukraine’s experimental effort to bring private industry into air defense appears to have reached operational use, with one…...",
-      "takeaway": "Ukraine's privatization of air defense demonstrates how civilian aviation expertise and rapid innovation can address critical wartime gaps that traditional military procurement cannot fill quickly enough.",
+      "takeaway": "Private sector air defense integration demonstrates viability of commercial-military partnerships in active conflict, offering lessons for rapid defense innovation outside traditional procurement.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/ukraine-private-air-defense-first-drone-kills-kharkiv"
@@ -524,12 +542,12 @@
       "type": "news",
       "headline": "Traffic Resumes After Potomac TRACON Evacuation",
       "blurb": "Ground stop affected Washington-area airports Friday for the second time in two weeks.",
-      "takeaway": "Repeated TRACON evacuations signal potential infrastructure vulnerabilities in one of the nation's busiest airspace sectors, warranting urgent systemic review.",
+      "takeaway": "Recurring TRACON evacuations signal potential infrastructure vulnerabilities at a major hub, warranting urgent assessment of facility resilience and backup protocols.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/traffic-resumes-potomac-tracon-evacuation/"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "airport"
       ],
@@ -540,7 +558,7 @@
       "type": "news",
       "headline": "Press Release: The New Terminal One at JFK selects PRA services vendor",
       "blurb": "The New Terminal One at JFK has selected Wilson James, a leading provider of Passengers Requiring Assistance (PRA) services, as its dedicated partner to design and operate a comprehensive assistance program for passengers who require additional support when traveling through the new...",
-      "takeaway": "JFK's New Terminal One is establishing dedicated accessibility infrastructure with specialized staffing, signaling a competitive shift in passenger experience differentiation among major US airports.",
+      "takeaway": "JFK's new terminal is outsourcing passenger assistance to specialized vendors, signaling a shift toward dedicated accessibility infrastructure that could improve service consistency across major hubs.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/03/new-terminal-one-jfk-wilson-james/"
@@ -554,7 +572,7 @@
       "type": "news",
       "headline": "Bomb Threat Holds Up Frontier Flight in Atlanta",
       "blurb": "FBI says there is no continuing threat after passenger’s verbal bomb-threat.",
-      "takeaway": "False bomb threats disrupt operations and trigger costly emergency protocols, highlighting the need for stricter penalties to deter such incidents that waste resources and delay thousands of passengers.",
+      "takeaway": "Airport security protocols successfully contained and resolved the incident, allowing operational recovery without extended disruptions or systemic vulnerabilities being exposed.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/bomb-threat-delays-frontier-flight-atlanta/"
@@ -562,20 +580,6 @@
       "category": "safety",
       "keywords": [],
       "publishedAt": "2026-03-30T14:29:43.000Z"
-    },
-    {
-      "id": "a2idz",
-      "type": "news",
-      "headline": "Pilatus to provide 12 PC-24s to Indonesian Ministry of Defense contractor",
-      "blurb": "Switzerland’s Pilatus has formed an agreement with Indonesia’s Ministry of Defense (MoD) to provide 12 PC-24 aircraft to…...",
-      "takeaway": "Pilatus's PC-24 contract with Indonesia signals growing demand for versatile twin-engine jets in Southeast Asian defense modernization programs.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/pilatus-to-provide-12-pc-24s-to-indonesian-ministry-of-defense-contractor"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-03-30T14:23:42.000Z"
     }
   ]
 }
