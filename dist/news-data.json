@@ -1,12 +1,59 @@
 {
-  "lastUpdated": "2026-04-01T05:59:51.911Z",
+  "lastUpdated": "2026-04-01T07:48:58.563Z",
   "articles": [
+    {
+      "id": "eioujf",
+      "type": "news",
+      "headline": "Hegseth overrules US Army to reinstate Apache crews after Kid Rock flyby",
+      "blurb": "A viral video moment that looked straight out of a political ad for the administration of US President…...",
+      "takeaway": "Political intervention in military operational decisions sets precedent for civilian leadership overriding professional military judgment on safety and readiness standards.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/us-army-suspends-pilots-apache-flyby-kid-rock-home"
+      },
+      "category": "military",
+      "keywords": [
+        "pilot"
+      ],
+      "publishedAt": "2026-04-01T07:07:17.000Z"
+    },
+    {
+      "id": "bxrmv5",
+      "type": "news",
+      "headline": "Anduril – Senior Program Manager, Standards and Safety",
+      "blurb": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied...",
+      "takeaway": "Anduril's focus on standards and safety leadership signals the defense industry's intensifying integration of autonomous systems into operational workflows.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/04/anduril-senior-program-manager-standards-and-safety/"
+      },
+      "category": "military",
+      "keywords": [
+        "saf",
+        "safety"
+      ],
+      "publishedAt": "2026-04-01T07:03:41.000Z"
+    },
+    {
+      "id": "o4l4tw",
+      "type": "news",
+      "headline": "Real Weather, Real Ops: AIRmarket Logs 178km BVLOS Flight in -12°C",
+      "blurb": "In preparation for upcoming flight demonstration events with the iART Alliance and the Alberta Hub...",
+      "takeaway": "AIRmarket's successful long-range BVLOS flight in extreme cold validates commercial drone operations in harsh Canadian winter conditions, demonstrating regulatory readiness for northern logistics applications.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/04/real-weather-real-ops-airmarket-logs-178km-bvlos-flight-in-12c/"
+      },
+      "category": "drones",
+      "keywords": [],
+      "publishedAt": "2026-04-01T07:00:09.000Z"
+    },
     {
       "id": "l4dctg",
       "type": "news",
       "headline": "This Is How Much An Airbus A350 Costs In 2026",
       "blurb": "Discover how much an Airbus A350 costs in 2026, including real prices, lease rates, and what airlines actually pay for this flagship jet.",
-      "takeaway": "A350 pricing in 2026 reflects inflationary pressures and supply chain recovery, directly impacting airline fleet modernization ROI calculations and lease vs. purchase decision-making.",
+      "takeaway": "A350 pricing reflects inflationary pressures and supply chain constraints, directly impacting airline fleet modernization decisions and operating lease economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-airbus-a350-cost-2026/"
@@ -23,7 +70,7 @@
       "type": "news",
       "headline": "No Punishment: US Army Reinstates Apache Pilots After Controversial Kid Rock Flyby",
       "blurb": "Politically co-opted helo-pass posted by singer deemed a 'coincidence.'...",
-      "takeaway": "Military leadership's decision to reinstate pilots without discipline signals organizational tolerance for political messaging through operational assets, potentially setting a concerning precedent for command authority.",
+      "takeaway": "Military aircraft misuse for political purposes carries minimal consequences, potentially undermining command discipline and public trust in operational integrity.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-army-reinstates-apache-pilots-kid-rock-flyby/"
@@ -35,11 +82,31 @@
       "publishedAt": "2026-04-01T04:58:06.000Z"
     },
     {
-      "id": "8m0q81",
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must document their deliberate risk acceptance decisions and demonstrate why implemented controls represent the most practical balance between safety improvements and operational feasibility.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-01T07:48:19.195Z",
+      "paiContent": true
+    },
+    {
+      "id": "4imm70",
       "type": "news",
-      "headline": "Coming Soon: Simple Flying To Launch Its First Airport Lounge",
+      "headline": "Coming Soon: Simple Flying To Launch Its First Airport Lounge?",
       "blurb": "Step inside the future of airline lounges, where planespotting meets luxury in a unique aviation experience.",
-      "takeaway": "Specialized lounges targeting aviation enthusiasts represent a new niche market segment beyond traditional frequent-flyer programs for airlines seeking differentiation.",
+      "takeaway": "Aviation enthusiasts may soon access premium airport facilities designed around planespotting amenities, creating a differentiated lounge concept that monetizes enthusiast engagement.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/coming-soon-simple-flying-to-launch-its-first-airport-lounge/"
@@ -52,45 +119,11 @@
       "publishedAt": "2026-04-01T04:01:21.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Effective safety management systems depend on psychological safety that encourages frontline employees to report hazards without fear of retaliation, fundamentally changing how incidents are detected and prevented.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-01T05:59:01.383Z",
-      "paiContent": true
-    },
-    {
-      "id": "fxjoc9",
-      "type": "news",
-      "headline": "March of the Harmattan",
-      "blurb": "Strong winds in March 2026 carried Saharan dust across northwestern Africa and toward the Canary Islands, reducing visibility and prompting alerts.",
-      "takeaway": "Saharan dust events are becoming predictable enough for advance alerting systems, requiring pilots to factor seasonal wind patterns into flight planning for Atlantic crossings.",
-      "source": {
-        "name": "NASA",
-        "url": "https://science.nasa.gov/earth/earth-observatory/march-of-the-harmattan/"
-      },
-      "category": "safety",
-      "keywords": [],
-      "publishedAt": "2026-04-01T04:00:00.000Z"
-    },
-    {
       "id": "5sqsei",
       "type": "news",
       "headline": "Virgin Galactic expects commercial suborbital flights to resume late this year",
       "blurb": "Virgin Galactic still expects to resume commercial suborbital flights by the end of the year as its first next-generation spaceplane nears completion.",
-      "takeaway": "Virgin Galactic's timeline for commercial operations remains intact despite development delays, signaling investor confidence in their next-generation vehicle economics.",
+      "takeaway": "Virgin Galactic's timeline for resuming commercial operations depends on completing its next-generation spaceplane, signaling a transition from its current fleet to enhanced vehicle capabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/virgin-galactic-expects-commercial-suborbital-flights-to-resume-late-this-year/"
@@ -106,7 +139,7 @@
       "type": "news",
       "headline": "Private Jets: United Airlines Is Giving 50-Seater Aircraft A New Life",
       "blurb": "A closer look at how United Airlines is transforming one of passengers' less-favored jets.",
-      "takeaway": "United's retrofit strategy demonstrates how legacy regional aircraft can improve passenger experience and operational efficiency rather than retirement, extending aircraft lifespan profitably.",
+      "takeaway": "United's repurposing of 50-seat aircraft addresses both fleet optimization and capacity utilization challenges on underperforming regional routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-giving-50-seater-aircraft-new-life/"
@@ -118,11 +151,31 @@
       "publishedAt": "2026-04-01T00:00:17.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Psychological safety—where employees feel comfortable reporting hazards without fear—is the foundational factor that determines whether Safety Management Systems actually prevent accidents or merely create compliance paperwork.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-04-01T07:48:19.195Z",
+      "paiContent": true
+    },
+    {
       "id": "p6bt2i",
       "type": "news",
       "headline": "How Much Does It Cost To Operate A Boeing 737?",
       "blurb": "Operating cost is fundamentally variable, but is typically a couple thousand dollars per hour.",
-      "takeaway": "Boeing 737 operating costs of $2,000+ per hour directly impact airline profitability margins and route economics, making fuel efficiency and maintenance optimization critical competitive factors.",
+      "takeaway": "737 operating costs of $2,000-3,000 per hour translate to $10-15 million annually for typical single-aircraft operators, making fleet utilization critical to profitability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-cost-operate-boeing-737/"
@@ -134,31 +187,11 @@
       "publishedAt": "2026-03-31T23:00:18.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically document why chosen controls are adequate and why remaining residual risks are acceptable, creating defensible compliance records.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-04-01T05:59:01.383Z",
-      "paiContent": true
-    },
-    {
       "id": "j4cfqc",
       "type": "news",
       "headline": "Cast your vote for the best sci-fi spaceship and then watch debaters duke it out at Space Symposium",
       "blurb": "Voting ends April 14. Resistance is futile – you must comply.",
-      "takeaway": "Space Symposium's sci-fi spaceship debate leverages popular culture engagement to stimulate aerospace innovation discussions among industry professionals.",
+      "takeaway": "Space Symposium's sci-fi spaceship debate bridges entertainment and aerospace culture, engaging industry professionals in discussions that may influence design philosophy and public interest in space exploration.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/spaceship-smackdown-space-symposium-2026/"
@@ -175,7 +208,7 @@
       "type": "news",
       "headline": "Blueprint II: JetBlue To Revive Its Iconic Special Livery On An Airbus A220-300",
       "blurb": "The carrier is set to make some major changes.",
-      "takeaway": "JetBlue's A220 deployment signals a shift toward fuel-efficient narrowbodies as the carrier modernizes its fleet while preserving brand heritage through heritage liveries.",
+      "takeaway": "JetBlue's decision to apply its heritage Blueprint livery to the fuel-efficient A220 signals a strategic shift toward modernizing its fleet while leveraging brand nostalgia to differentiate from competitors.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/blueprint-ii-jetblue-revive-iconic-special-livery-airbus-a220-300/"
@@ -187,11 +220,33 @@
       "publishedAt": "2026-03-31T22:01:20.000Z"
     },
     {
+      "id": "yt-auto-fkMg9Eyapps",
+      "type": "video",
+      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
+      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
+      "takeaway": "Runway incursion hazards at high-traffic airports like LAX require pilots to understand specific exit procedures to prevent surface safety incidents during critical ground operations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
+      },
+      "category": "safety",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-04-01T07:48:19.569Z",
+      "videoContent": true
+    },
+    {
       "id": "6r9ady",
       "type": "news",
       "headline": "Air Canada's New Very High-Capacity 440-Seat Boeing 777s [Full Route List & Map]",
       "blurb": "The reduction from 450 seats is notable. See where they'll fly...",
-      "takeaway": "Air Canada's strategic seat reduction to 440 on its 777 fleet prioritizes revenue per passenger over maximum capacity, reflecting industry shift toward premium seating density.",
+      "takeaway": "Air Canada's strategic reduction to 440 seats despite Boeing's 450-seat capability suggests prioritizing passenger comfort and operational margins over maximum capacity density.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canadas-new-very-high-capacity-440-seat-boeing-777s-full-route-list-map/"
@@ -207,7 +262,7 @@
       "type": "news",
       "headline": "The 5 Airlines With The World’s Most Advanced In-Flight Entertainment Systems",
       "blurb": "A look at why some airlines are considered to have the best in-flight entertainment and how they are rushing to roll out in-flight internet access.",
-      "takeaway": "Premium IFE systems are becoming competitive differentiators as airlines prioritize connectivity to justify higher fares and improve passenger retention.",
+      "takeaway": "Airlines investing in advanced IFE systems are using in-flight connectivity as a competitive differentiator to justify premium pricing and improve passenger retention.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-airlines-worlds-most-advances-ife/"
@@ -219,37 +274,11 @@
       "publishedAt": "2026-03-31T22:01:20.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-spsp",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
-      "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
-      "takeaway": "Small charter operators can achieve SMS compliance through structured safety policy development and employee training rather than complex enterprise systems.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kwaAzylG2bQ"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "aviation",
-        "safety",
-        "part 5",
-        "SMS",
-        "risk",
-        "policy",
-        "promotion",
-        "gap",
-        "leadership"
-      ],
-      "publishedAt": "2026-04-01T05:59:01.530Z",
-      "videoContent": true,
-      "duration": "20:47"
-    },
-    {
-      "id": "wdzfaq",
+      "id": "hgyylm",
       "type": "news",
-      "headline": "Pilot ejects safely after US Air Force F-35 crash in Nevada",
+      "headline": "Pilot ejects safely as US Air Force F-35 crashes in Nevada",
       "blurb": "A pilot ejected safely from a US Air Force F-35 after reporting trouble maneuvering before the jet crashed…...",
-      "takeaway": "F-35 ejection seat systems continue to function reliably in emergency situations, validating the aircraft's safety protocols despite ongoing operational challenges.",
+      "takeaway": "F-35 ejection seat performance in actual emergency validated design effectiveness despite aircraft loss, providing critical safety data for fleet operations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/usaf-f35-crash-north-of-creech-pilot-safe"
@@ -263,11 +292,33 @@
       "publishedAt": "2026-03-31T21:47:41.000Z"
     },
     {
+      "id": "yt-auto-3sJ1UJ6i5OA",
+      "type": "video",
+      "headline": "From the Flight Deck – Frederick Municipal Airport, MD (FDK)",
+      "blurb": "Frederick Municipal is a small general and corporate aviation airport located just east of the city of Frederick, Maryland. The traffic mix runs the spectrum from single engine training aircraft up...",
+      "takeaway": "Frederick Municipal's diverse traffic mix from trainers to corporate jets demonstrates how regional airports sustain operations by serving multiple market segments simultaneously.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=3sJ1UJ6i5OA"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-04-01T07:48:19.569Z",
+      "videoContent": true
+    },
+    {
       "id": "9z1pbf",
       "type": "news",
       "headline": "Inside The McDonnell Douglas MD-11's Flight Deck",
       "blurb": "The McDonnell Douglas MD-11's cockpit represented a pivotal moment in aviation history where analog transitioned into digital.",
-      "takeaway": "The MD-11's cockpit digitalization pioneered crew resource management principles still foundational to modern wide-body training standards today.",
+      "takeaway": "The MD-11's cockpit digitalization set the template for modern glass cockpit design, influencing how airlines trained pilots for the next generation of aircraft.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/inside-mcdonnell-douglas-md-11-flght-deck/"
@@ -277,27 +328,11 @@
       "publishedAt": "2026-03-31T21:00:18.000Z"
     },
     {
-      "id": "4aqa8",
-      "type": "news",
-      "headline": "US Army suspends pilots after Apache flyby of Kid Rock’s home",
-      "blurb": "A viral video moment that looked straight out of a political ad for the administration of US President…...",
-      "takeaway": "Military operational security and personnel accountability face heightened scrutiny when aircraft are used in ways that blur the line between official duty and political optics.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/us-army-suspends-pilots-apache-flyby-kid-rock-home"
-      },
-      "category": "military",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-03-31T20:52:17.000Z"
-    },
-    {
       "id": "ubgm4",
       "type": "news",
       "headline": "Insitu Awarded $8.6 Million Services Contract by Canada Armed Forces to Support Long-Endurance CU-172 (Integrator) UAS Fleet",
       "blurb": "Insitu, a Boeing Company, has been awarded an $8.6 million firm fixed-price services contract by...",
-      "takeaway": "Boeing's Insitu secures sustained revenue stream through multi-year support of Canadian military drone operations, signaling growing defense sector reliance on long-endurance UAS logistics.",
+      "takeaway": "Boeing's Insitu expands its aftermarket services footprint in North America, signaling growing demand for sustained support of long-endurance military drone operations beyond initial procurement.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/insitu-awarded-8-6-million-services-contract-by-canada-armed-forces-to-support-long-endurance-cu-172-integrator-uas-fleet/"
@@ -310,51 +345,43 @@
       "publishedAt": "2026-03-31T20:35:43.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-sa",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Assurance",
-      "blurb": "This video covers the safety management system (SMS) component safety assurance, which  evaluates the continued effectiveness of implemented risk control strategies and supports the identification of new hazards. Whether you're an owner, operator or part of a small aviation team, this guide provides valuable insights and tools to enhance your safety management practices and ensure a safer operational environment.",
-      "takeaway": "Small operators can adopt scalable safety assurance practices to systematically validate risk controls and detect emerging hazards without complex enterprise-level SMS infrastructure.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=JooZXsQx1ds"
-      },
-      "category": "safety",
-      "keywords": [
-        "aviation",
-        "safety",
-        "part 5",
-        "SMS",
-        "risk",
-        "hazard",
-        "assurance"
-      ],
-      "publishedAt": "2026-04-01T05:59:01.530Z",
-      "videoContent": true,
-      "duration": "15:03"
-    },
-    {
       "id": "3r3lrv",
       "type": "news",
       "headline": "US airport security lines return to normal as TSA workers are paid",
       "blurb": "Airport security lines eased at several major US airports on March 31, 2026, after Transportation Security Administration (TSA)…...",
-      "takeaway": "TSA payment resolution demonstrates how federal workforce disruptions directly impact passenger experience, signaling that security staffing stability is critical infrastructure for aviation operations.",
+      "takeaway": "TSA staffing disruptions demonstrate the operational vulnerability of US airports to federal workforce disruptions, with immediate ripple effects on passenger throughput and airline schedules.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airport-security-lines-ease-tsa-workers-paid"
       },
-      "category": "safety",
+      "category": "regulatory",
       "keywords": [
         "airport"
       ],
       "publishedAt": "2026-03-31T20:23:52.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across airlines, airports, and airspace—rather than aircraft redesign alone—offers the fastest pathway to meet dual capacity and environmental demands as traffic grows.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-01T07:48:19.569Z"
+    },
+    {
       "id": "jmhp7u",
       "type": "news",
       "headline": "The Striking Differences Between Premium Economy & Economy On Long-Haul Flights",
       "blurb": "A cabin class that is gaining popularity all around the world, as passengers are spending more on travel!",
-      "takeaway": "Premium economy's growing adoption signals airlines' strategy to capture mid-tier revenue between economy and business, potentially reshaping long-haul fleet configurations and pricing strategies.",
+      "takeaway": "Premium economy's growing adoption signals airlines can capture mid-tier revenue by offering meaningful comfort upgrades without full business-class pricing on long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-differences-premium-economy-economy-long-haul/"
@@ -368,7 +395,7 @@
       "type": "news",
       "headline": "Meteomatics – Field Technician for Drone Operations | Full Time | Oslo, Norway",
       "blurb": "We are looking for a hands-on and resilient Drone Flight Operations Technician to support and execute our...",
-      "takeaway": "Meteomatics is expanding drone operations capacity in Norway, signaling growing commercial demand for weather and atmospheric data collection via autonomous platforms.",
+      "takeaway": "Weather data companies are expanding drone operations teams, signaling growing commercial viability of drone-based atmospheric sensing and data collection services.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/meteomatics-field-technician-for-drone-operations-full-time-oslo-norway/"
@@ -384,7 +411,7 @@
       "type": "news",
       "headline": "AirKamuy",
       "blurb": "AirKamuy develops and manufactures fixed-wing VTOL aircraft and provides solutions using unmanned aircraft. We design...",
-      "takeaway": "Fixed-wing VTOL unmanned systems offer operational efficiency gains over rotorcraft by combining vertical takeoff capability with forward-flight speed and endurance.",
+      "takeaway": "Fixed-wing VTOL designs offer extended range and endurance advantages over traditional multirotor drones for unmanned operations.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/airkamuy/"
@@ -394,27 +421,11 @@
       "publishedAt": "2026-03-31T19:29:34.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all three domains—airline, airport, and flight levels—offers the highest-leverage pathway to accommodate projected traffic growth without proportional environmental impact increases.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-01T05:59:01.530Z"
-    },
-    {
       "id": "j9bkm9",
       "type": "news",
       "headline": "Honeywell Aerospace and Odys Aviation Create Airborne Counter-UAS Defense Solution",
       "blurb": "Honeywell (NASDAQ: HON) today announced a collaboration with Odys Aviation, a dual-use aerospace company building...",
-      "takeaway": "Honeywell and Odys Aviation's counter-UAS partnership addresses the growing operational threat of hostile drones to commercial and military aviation operations.",
+      "takeaway": "Honeywell's counter-UAS partnership addresses growing airspace security threats by integrating detection and mitigation capabilities into commercial aircraft systems.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/honeywell-aerospace-and-odys-aviation-create-airborne-counter-uas-defense-solution/"
@@ -431,7 +442,7 @@
       "type": "news",
       "headline": "DroneDeploy Partners with Cairn to Utilise Reality Capture Across Housing Development Portfolio",
       "blurb": "DroneDeploy, the robotics and AI platform used on over 3 million sites worldwide, has partnered...",
-      "takeaway": "Commercial drone operators can now integrate advanced reality capture workflows into large-scale property development projects, expanding UAV applications beyond traditional surveying into ongoing portfolio management.",
+      "takeaway": "Commercial drone platforms are expanding into real estate development workflows, creating recurring revenue opportunities through integrated reality capture services across large portfolio operations.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/03/dronedeploy-partners-with-cairn-to-utilise-reality-capture-across-housing-development-portfolio/"
@@ -447,7 +458,7 @@
       "type": "news",
       "headline": "Switlik: Built for Survival",
       "blurb": "For more than a century, Switlik Survival Products has engineered customizable aviation survival solutions trusted by pilots and first responders worldwide.",
-      "takeaway": "Switlik's century-long specialization in customizable survival equipment positions it as a critical supplier whose products directly impact post-incident crew and passenger outcomes across diverse aviation sectors.",
+      "takeaway": "Switlik's century-long specialization in customizable survival equipment positions it as a critical supply chain partner for aviation operators managing liability and crew safety standards.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/switlik-built-for-survival/"
@@ -463,7 +474,7 @@
       "type": "news",
       "headline": "Picture of the Day: March 31, 2026",
       "blurb": "A Skyhawk waits its turn behind Falcons.",
-      "takeaway": "High-performance business jets like the Falcon dominate ramp space, reflecting their prevalence in aviation operations and the relative scarcity of simpler general aviation aircraft in busy commercial environments.",
+      "takeaway": "General aviation aircraft like Skyhawks remain integral to busy airport operations, competing for runway access alongside more sophisticated business jets.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-march-31-2026/"
@@ -477,7 +488,7 @@
       "type": "news",
       "headline": "Pentagon Considers Anti-Drone Lasers in Washington",
       "blurb": "Reported drone activity near Fort McNair has prompted review of counter-UAS system.",
-      "takeaway": "Pentagon's evaluation of laser-based counter-UAS systems reflects operational gaps in defending critical infrastructure against persistent unmanned threats.",
+      "takeaway": "The Pentagon's evaluation of directed-energy weapons for domestic airspace protection signals potential regulatory changes affecting civilian drone operations near military installations.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/pentagon-anti-drone-lasers-washington/"
@@ -494,7 +505,7 @@
       "type": "news",
       "headline": "ASU: Training Built on Experience",
       "blurb": "How Aviation Specialties Unlimited sets the standard for night vision training.",
-      "takeaway": "ASU's experiential training methodology establishes measurable competency benchmarks that operators can benchmark against industry standards for night vision proficiency.",
+      "takeaway": "ASU's experience-based night vision curriculum creates a competitive advantage for operators seeking standardized training beyond regulatory minimums.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/asu-training-built-on-experience/"
@@ -508,7 +519,7 @@
       "type": "news",
       "headline": "TSA Paychecks Ease Airport Delays",
       "blurb": "Security lines shorten at several major airports, though the shutdown continues to raise staffing and pay concerns.",
-      "takeaway": "Improved TSA staffing from resumed paychecks demonstrates that personnel compensation directly impacts checkpoint throughput and passenger experience metrics.",
+      "takeaway": "TSA staffing improvements demonstrate that wage relief can reduce operational bottlenecks, but sustained budget uncertainty threatens long-term security screening capacity.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/tsa-paychecks-ease-airport-delays/"
@@ -520,29 +531,11 @@
       "publishedAt": "2026-03-31T15:57:53.000Z"
     },
     {
-      "id": "fks33m",
-      "type": "news",
-      "headline": "Godspeed, Artemis II!",
-      "blurb": "NASA astronaut Jessica Meir took this photo of an Artemis program patch floating in the International Space Station’s cupola. She posted it on X on March 30, 2026, with the following caption: “Our work on the @Space_Station has provided the foundation to explore further, preparing us to return...",
-      "takeaway": "ISS research directly validates human spaceflight capabilities needed for lunar missions, reducing risks before Artemis II departure.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/image-article/godspeed-artemis-ii/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "atc",
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-03-31T15:54:19.000Z"
-    },
-    {
       "id": "8nvzee",
       "type": "news",
       "headline": "Jet fuel crisis deepens as Trump tells the world ‘Go get your own oil’",
       "blurb": "As airlines across the globe grapple with a serious jet fuel price crisis that has sent costs soaring…...",
-      "takeaway": "Airlines face margin compression as geopolitical energy policy shifts toward protectionism, forcing carriers to accelerate hedging strategies and fuel surcharge mechanisms.",
+      "takeaway": "Airlines face volatile fuel costs amid geopolitical uncertainty, forcing operators to reassess hedging strategies and route economics as energy independence policies reshape global supply chains.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/jet-fuel-crisis-deepens-trump-go-get-your-own-oil"
@@ -558,12 +551,12 @@
       "type": "news",
       "headline": "EASA: Narrow Mideast Corridors Increase Operational Risk",
       "blurb": "European regulators say conflict-related airspace restrictions are increasing congestion and risks.",
-      "takeaway": "Compressed routing through limited Middle Eastern corridors is forcing airlines into congested flight paths, elevating collision risks and operational inefficiencies beyond traditional conflict avoidance.",
+      "takeaway": "Compressed routing through conflict zones forces aircraft into tighter flight corridors, amplifying collision risk and reducing pilot reaction time despite overall airspace closures.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/easa-narrow-mideast-corridors-raise-risk/"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "easa",
         "space"
@@ -575,7 +568,7 @@
       "type": "news",
       "headline": "Delta Air Lines picks Amazon Leo over Starlink to power future inflight Wi-Fi",
       "blurb": "Delta Air Lines has selected Amazon Leo over SpaceX’s Starlink to power its future inflight Wi-Fi starting with…...",
-      "takeaway": "Delta's choice of Amazon's Leo satellite constellation signals carrier preference for newer infrastructure with potentially lower latency and direct AWS integration benefits over established Starlink service.",
+      "takeaway": "Delta's choice of Amazon Leo signals airline confidence in competing LEO satellite networks and suggests cost, latency, or service terms favored Amazon's offering over Starlink's established infrastructure.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/delta-air-lines-amazon-leo-starlink-inflight-wifi"
@@ -592,7 +585,7 @@
       "type": "news",
       "headline": "SME Aviation: Your Aviation Construction Specialists",
       "blurb": "From concept to grand opening, SME Aviation leverages decades of experience to plan and successfully execute all types of aviation infrastructure projects.",
-      "takeaway": "Specialized aviation construction firms like SME Aviation address the critical infrastructure gap by managing complex projects from design through operational launch, reducing delays common in traditional construction.",
+      "takeaway": "Specialized aviation construction firms now differentiate themselves through end-to-end project management from design through operational launch, reducing complexity for airport operators.",
       "source": {
         "name": "Vertical Magazine",
         "url": "https://verticalmag.com/sme-aviation-your-aviation-construction-specialists/"
