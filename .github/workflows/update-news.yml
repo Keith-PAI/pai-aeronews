@@ -6,8 +6,8 @@ on:
     - cron: '0 * * * *'
     # Weekly analyst digest: Mondays 10:00 UTC (matches sources.json dailyHourUTC)
     - cron: '0 10 * * 1'
-    # Daily opportunity spotter at noon UTC
-    - cron: '0 12 * * *'
+    # Daily opportunity spotter at 10:00 UTC
+    - cron: '0 10 * * *'
 
   # Run on push to main when relevant files change
   push:
@@ -153,11 +153,11 @@ jobs:
           git push origin gh-pages
 
   # Opportunity Spotter — daily content ideas to Teams channel
-  # Only runs on the daily noon cron or manual dispatch with forceOpportunitySpotterNow
+  # Only runs on the daily 10:00 UTC cron or manual dispatch with forceOpportunitySpotterNow
   opportunity-spotter:
     if: >-
       (github.event_name == 'workflow_dispatch' && inputs.forceOpportunitySpotterNow == true) ||
-      (github.event_name == 'schedule' && github.event.schedule == '0 12 * * *')
+      (github.event_name == 'schedule' && github.event.schedule == '0 10 * * *')
     runs-on: ubuntu-latest
 
     steps:
