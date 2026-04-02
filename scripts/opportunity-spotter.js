@@ -214,7 +214,7 @@ async function main() {
   const forceNow = process.env.OPPORTUNITY_FORCE_NOW === 'true';
   if (!forceNow) {
     const currentHourUTC = new Date().getUTCHours();
-    const targetHour = 12; // noon UTC
+    const targetHour = 10; // 10:00 UTC — matches workflow cron
     if (currentHourUTC !== targetHour) {
       console.log(`Not opportunity spotter hour (current: ${currentHourUTC} UTC, target: ${targetHour} UTC). Skipping.`);
       process.exit(0);
