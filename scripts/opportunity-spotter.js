@@ -55,7 +55,7 @@ function extractClaudeText(data) {
  */
 function buildArticleSummary(articles) {
   return articles.map((a, i) =>
-    `${i + 1}. [${a.category || 'news'}] ${a.headline}\n   ${a.blurb || 'No description'}\n   Source: ${a.source?.name || 'Unknown'}`
+    `${i + 1}. [${a.category || 'news'}] ${a.headline} (${a.source?.url || 'no link'})\n   ${a.blurb || 'No description'}\n   Source: ${a.source?.name || 'Unknown'}`
   ).join('\n\n');
 }
 
@@ -68,7 +68,7 @@ async function generateOpportunities(articles) {
 
   const articleSummary = buildArticleSummary(articles);
 
-  const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, identify 2-3 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients. Be specific — name the article that inspired the idea and describe what the tool or post would do.
+  const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, identify 2-3 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients. Be specific — describe what the tool or post would do. For each "Inspired by" citation, format the article title as a markdown link using the URL provided in parentheses, like: [Article Title](https://...). Do not include bare URLs.
 
 Today's articles:
 
