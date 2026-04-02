@@ -1,12 +1,42 @@
 {
-  "lastUpdated": "2026-04-02T02:50:46.864Z",
+  "lastUpdated": "2026-04-02T05:09:16.428Z",
   "articles": [
+    {
+      "id": "qjpzbw",
+      "type": "news",
+      "headline": "Why The Boeing 737 MAX Remains So Popular",
+      "blurb": "Boeing's latest narrowbody aircraft continues to be a commercial success.",
+      "takeaway": "The 737 MAX's sustained market dominance reflects airlines' confidence in its fuel efficiency and payload capabilities offsetting initial safety concerns.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/why-the-boeing-737-max-remains-popular/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "boeing"
+      ],
+      "publishedAt": "2026-04-02T05:00:18.000Z"
+    },
+    {
+      "id": "4zlk2f",
+      "type": "news",
+      "headline": "Réunion Island Lava Reaches the Sea",
+      "blurb": "The February 2026 eruption at Piton de la Fournaise has lasted longer and produced a larger volume of lava than recent eruptions from this frequently active volcano.",
+      "takeaway": "Volcanic activity creating new land formations can affect regional airspace restrictions and ash dispersal patterns that impact aircraft routing and operations in Indian Ocean corridors.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/reunion-island-lava-reaches-the-sea/"
+      },
+      "category": "safety",
+      "keywords": [],
+      "publishedAt": "2026-04-02T04:01:00.000Z"
+    },
     {
       "id": "uidxac",
       "type": "news",
       "headline": "Artemis II launches successfully on first crewed US Moon mission since Apollo",
       "blurb": "NASA’s Artemis II mission launched successfully on April 1, 2026, sending four astronauts into space on the first…...",
-      "takeaway": "Artemis II's success validates NASA's deep-space exploration architecture, enabling commercial lunar logistics providers to plan sustained operations beyond Earth orbit.",
+      "takeaway": "Artemis II's successful crewed launch demonstrates NASA's readiness to execute complex lunar missions, validating the Space Launch System and Orion spacecraft as operational platforms for sustained deep-space exploration.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/artemis-ii-launches-successfully-crewed-us-moon-mission"
@@ -23,7 +53,7 @@
       "type": "news",
       "headline": "Liftoff! NASA Launches Astronauts on Historic Artemis Moon Mission",
       "blurb": "Spurred by American ingenuity, astronauts on NASA’s Artemis II mission are in flight, preparing for the first crewed lunar flyby in more than 50 years. NASA’s SLS (Space Launch System) rocket lifted off from Launch Pad 39B at the agency’s Kennedy Space Center in Florida at 6:35 p.m. EDT Wednesday,...",
-      "takeaway": "Artemis II's successful launch demonstrates NASA's readiness to resume crewed deep-space exploration, with implications for sustained lunar operations and future Mars missions requiring similar heavy-lift capabilities.",
+      "takeaway": "Artemis II's successful launch restores U.S. deep-space human spaceflight capability and demonstrates SLS reliability for future lunar missions and commercial space industry partnerships.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/"
@@ -36,11 +66,32 @@
       "publishedAt": "2026-04-01T23:44:57.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS transforms aviation safety from investigating accidents after they occur to systematically preventing them through continuous risk identification and mitigation.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-02T05:08:37.965Z",
+      "paiContent": true
+    },
+    {
       "id": "9f1phu",
       "type": "news",
       "headline": "Backtrack? Why American Airlines Is Worried Over Delta & United’s Passenger Experience Investments",
       "blurb": "The carrier is concerned by its key competitors in big ways.",
-      "takeaway": "American Airlines faces competitive pressure as Delta and United's passenger experience upgrades threaten market share in premium cabin segments where margins are highest.",
+      "takeaway": "American Airlines faces competitive pressure as Delta and United's superior passenger experience investments risk eroding its market share among premium and loyalty-sensitive customers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-american-airlines-worred-delta-united-passenger-experience-investments/"
@@ -56,7 +107,7 @@
       "type": "news",
       "headline": "Blue Airbus A330: SAS Unveils Special Livery To Commemorate 80 Years Of Flying",
       "blurb": "SAS marks 80 years with a bold blue A330 and a symbolic New York debut.",
-      "takeaway": "SAS's commemorative livery strategy leverages heritage branding to strengthen market positioning and passenger emotional connection during competitive transatlantic operations.",
+      "takeaway": "SAS's heritage livery strategy demonstrates how legacy carriers leverage brand nostalgia to enhance market positioning during fleet modernization.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/sas-special-livery-commemorate-80-years-flying/"
@@ -68,31 +119,11 @@
       "publishedAt": "2026-04-01T22:50:23.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "SMS Declaration of Compliance demonstrates an operator's commitment to systematic safety management, which the FAA now uses as a baseline expectation rather than an optional best practice.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-02T02:50:08.347Z",
-      "paiContent": true
-    },
-    {
       "id": "nc8ypw",
       "type": "news",
       "headline": "Artemis 2 launches on first human mission to the moon in more than 50 years",
       "blurb": "The first human mission beyond Earth orbit in more than 50 years is underway with an April 1 launch of four astronauts on a flight around the moon.",
-      "takeaway": "Artemis 2's crewed lunar orbit mission establishes critical NASA procedures and validates deep-space vehicle systems essential for sustained human exploration infrastructure beyond Earth.",
+      "takeaway": "Artemis 2's crewed lunar orbit mission establishes NASA's operational cadence for sustained human deep-space exploration, directly enabling the subsequent landing missions required to establish permanent lunar infrastructure.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-launches-on-first-mission-to-the-moon-in-more-than-50-years/"
@@ -108,7 +139,7 @@
       "type": "news",
       "headline": "This Is How Much A Boeing 747 Freighter Costs In 2026",
       "blurb": "How has the aircraft's list price changed over the years?",
-      "takeaway": "747 freighter pricing reflects decade-long market dynamics as airlines balance cargo demand against newer, more fuel-efficient widebody alternatives.",
+      "takeaway": "Boeing 747F list prices reflect decades of inflation and production economics, serving as a benchmark for large-format cargo aircraft valuation in the secondary market.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-boeing-747-freighter-cost-2026/"
@@ -120,11 +151,31 @@
       "publishedAt": "2026-04-01T22:00:18.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Part 5's structured risk assessment framework enables operators to quantify and prioritize safety hazards systematically rather than relying on intuition alone.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-04-02T05:08:37.965Z",
+      "paiContent": true
+    },
+    {
       "id": "vow5cx",
       "type": "news",
       "headline": "American Eagle Bombardier CRJ700 Diverts To Philadelphia Due To Nose Gear Steering Issues",
       "blurb": "The incident is certainly cause for concern.",
-      "takeaway": "Nose gear steering failures on regional aircraft highlight maintenance or design vulnerabilities that could affect fleet-wide operations if systemic.",
+      "takeaway": "Nose gear steering failures on regional jets require immediate diversion, highlighting critical maintenance protocols for CRJ fleet operators managing technical emergencies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/american-eagle-bombardier-crj700-diverts-philadelphia-nose-gear-steering-issues/"
@@ -136,31 +187,11 @@
       "publishedAt": "2026-04-01T21:34:18.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Strong reporting cultures in Safety Management Systems reduce unreported incidents by up to 80%, directly improving hazard identification before accidents occur.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-02T02:50:08.347Z",
-      "paiContent": true
-    },
-    {
       "id": "n8wwz2",
       "type": "news",
       "headline": "New RAF Wing Commander aims to lead with integrity, empathy",
       "blurb": "Serving as the newly appointed Station Commander at Royal Air Force (RAF) Wittering, Wing Commander Joan Ochuodho is in charge of an operating base that employs 1,400 personnel and is populated by expert units fulfilling critical flight-training roles. Suffice it to say that in the three months...",
-      "takeaway": "RAF Wittering's new commander oversees a 1,400-person training hub responsible for developing skilled pilots for operational squadrons across the service.",
+      "takeaway": "RAF Wittering's new leadership prioritizes cultural transformation at a 1,400-person training hub critical to pilot development and operational readiness.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/wing-commander-joan-ochuodho/"
@@ -174,7 +205,7 @@
       "type": "news",
       "headline": "Here’s When Delta Air Lines Plans To Debut The Largest Boeing 787 Dreamliner",
       "blurb": "Delta's Dreamliners will serve long-haul routes across the globe.",
-      "takeaway": "Delta's 787-10 deployment signals a strategic shift toward larger wide-body aircraft for premium long-haul markets, optimizing seat-mile economics on established international routes.",
+      "takeaway": "Delta's 787-10 deployment signals a strategic shift toward larger wide-body aircraft to improve unit economics on premium international routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/when-delta-air-lines-debut-largest-boeing-787-dreamliner/"
@@ -190,7 +221,7 @@
       "type": "news",
       "headline": "Airbus Tests Armed ‘Bird of Prey’ Interceptor Drone",
       "blurb": "The ‘Bird of Prey’ platform was developed as a simple, cost-effective counter-drone system that can engage attack UAVs with low-cost air-to-air missiles. Airbus Defence and Space announced on Mar. 30, 2026, the first test of its ‘Bird of Prey’ counter-unmanned aerial systems (C-UAS) platform, based...",
-      "takeaway": "Airbus's Bird of Prey demonstrates a cost-effective interceptor approach to counter-UAS threats, addressing the growing military need for affordable drone-on-drone defense systems.",
+      "takeaway": "Airbus's armed counter-drone system demonstrates the shift toward affordable, automated aerial defense as military UAV threats escalate globally.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/01/airbus-tests-armed-bird-of-prey-interceptor-drone/"
@@ -205,85 +236,11 @@
       "publishedAt": "2026-04-01T20:42:07.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-srm",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Risk Management",
-      "blurb": "This video covers the safety management system (SMS) component safety risk management, which determines the need for, and adequacy of, new or revised risk controls based on the assessment of acceptable risk.",
-      "takeaway": "Small operators must now systematically assess and document risk controls rather than rely on intuition, fundamentally shifting how they approach operational safety.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=Vx_idwnPZDE"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "aviation",
-        "safety",
-        "SMS",
-        "risk",
-        "management",
-        "SRM"
-      ],
-      "publishedAt": "2026-04-02T02:50:08.603Z",
-      "videoContent": true,
-      "duration": "9:39"
-    },
-    {
-      "id": "apkn7k",
-      "type": "news",
-      "headline": "USAF E-3 AWACS Loss in Saudi Arabia Puts Spotlight on E-7 Wedgetail Procurement",
-      "blurb": "The destruction of a U.S. Air Force E-3G Sentry AWACS in Saudi Arabia has reignited debate about the procurement of the E-7A Wedgetail. The loss of a U.S. Air Force E-3G Sentry AWACS (Airborne Warning and Control System) following the drone and missile attack at Prince Sultan Air Base, Saudi...",
-      "takeaway": "The E-3 loss accelerates USAF transition timelines to the E-7 Wedgetail, forcing budget and production planning decisions amid geopolitical threats to forward-deployed assets.",
-      "source": {
-        "name": "The Aviationist",
-        "url": "https://theaviationist.com/2026/04/01/e-3-awacs-loss-saudi-arabia-e-7-wedgetail/"
-      },
-      "category": "military",
-      "keywords": [
-        "drone",
-        "saf"
-      ],
-      "publishedAt": "2026-04-01T20:35:12.000Z"
-    },
-    {
-      "id": "1qf19w",
-      "type": "news",
-      "headline": "SpaceX files for IPO, opening Musk’s Moon and Mars push to investors",
-      "blurb": "After months of speculation, Elon Musk’s SpaceX has filed for an initial public offering in the United States,…...",
-      "takeaway": "SpaceX's IPO signals investor appetite for commercializing deep-space exploration, potentially accelerating aerospace industry competition beyond Earth orbit.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/spacex-files-for-ipo-moon-mars-push-investors"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "spacex",
-        "space"
-      ],
-      "publishedAt": "2026-04-01T20:26:14.000Z"
-    },
-    {
-      "id": "o43sdc",
-      "type": "news",
-      "headline": "SpaceX quietly files for big bang IPO",
-      "blurb": "SpaceX has taken a key step toward going public after confidentially filing for a potentially record-breaking initial public offering, according to multiple reports citing people familiar with the matter, in what space leaders hope is a watershed moment for the industry.",
-      "takeaway": "SpaceX's confidential IPO filing signals investor confidence in commercial space economics, potentially unlocking capital for launch cadence expansion and reducing government dependency across the aerospace sector.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/spacex-quietly-files-for-big-bang-ipo/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "spacex",
-        "space"
-      ],
-      "publishedAt": "2026-04-01T20:04:32.000Z"
-    },
-    {
       "id": "yt-nbaa-pt5-sms-small-ops-spsp",
       "type": "video",
       "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
       "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
-      "takeaway": "Small charter operators can leverage structured SMS implementation around safety policy and promotion to build organizational safety culture while meeting FAA Part 5 compliance requirements.",
+      "takeaway": "Small charter operators can leverage structured SMS implementation aligned with FAA Part 5 to systematically identify safety gaps and build leadership commitment rather than treating safety as a compliance checkbox.",
       "source": {
         "name": "NBAA (YouTube)",
         "url": "https://www.youtube.com/watch?v=kwaAzylG2bQ"
@@ -300,16 +257,67 @@
         "gap",
         "leadership"
       ],
-      "publishedAt": "2026-04-02T02:50:08.603Z",
+      "publishedAt": "2026-04-02T05:08:38.224Z",
       "videoContent": true,
       "duration": "20:47"
+    },
+    {
+      "id": "apkn7k",
+      "type": "news",
+      "headline": "USAF E-3 AWACS Loss in Saudi Arabia Puts Spotlight on E-7 Wedgetail Procurement",
+      "blurb": "The destruction of a U.S. Air Force E-3G Sentry AWACS in Saudi Arabia has reignited debate about the procurement of the E-7A Wedgetail. The loss of a U.S. Air Force E-3G Sentry AWACS (Airborne Warning and Control System) following the drone and missile attack at Prince Sultan Air Base, Saudi...",
+      "takeaway": "The E-3G loss accelerates USAF modernization pressure, positioning the E-7 Wedgetail as critical replacement for aging 1970s-era aircraft vulnerable to advanced threats.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/04/01/e-3-awacs-loss-saudi-arabia-e-7-wedgetail/"
+      },
+      "category": "military",
+      "keywords": [
+        "drone",
+        "saf"
+      ],
+      "publishedAt": "2026-04-01T20:35:12.000Z"
+    },
+    {
+      "id": "1qf19w",
+      "type": "news",
+      "headline": "SpaceX files for IPO, opening Musk’s Moon and Mars push to investors",
+      "blurb": "After months of speculation, Elon Musk’s SpaceX has filed for an initial public offering in the United States,…...",
+      "takeaway": "SpaceX's IPO filing signals investor confidence in commercial space infrastructure, potentially unlocking capital for accelerated lunar and Mars missions while reshaping aerospace industry financing.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/spacex-files-for-ipo-moon-mars-push-investors"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "spacex",
+        "space"
+      ],
+      "publishedAt": "2026-04-01T20:26:14.000Z"
+    },
+    {
+      "id": "o43sdc",
+      "type": "news",
+      "headline": "SpaceX quietly files for big bang IPO",
+      "blurb": "SpaceX has taken a key step toward going public after confidentially filing for a potentially record-breaking initial public offering, according to multiple reports citing people familiar with the matter, in what space leaders hope is a watershed moment for the industry.",
+      "takeaway": "SpaceX's confidential IPO filing signals investor confidence in commercial space profitability, potentially unlocking capital for aerospace competitors and supply chain innovation.",
+      "source": {
+        "name": "SpaceNews",
+        "url": "https://spacenews.com/spacex-quietly-files-for-big-bang-ipo/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "spacex",
+        "space"
+      ],
+      "publishedAt": "2026-04-01T20:04:32.000Z"
     },
     {
       "id": "kn6rk1",
       "type": "news",
       "headline": "F-35 Crash in Nevada Leaves Pilot With Minor Injuries",
       "blurb": "Air Force says the aircraft went down on restricted federal property north of Las Vegas.",
-      "takeaway": "The F-35's crash survivability design protected the pilot despite the aircraft loss, validating billions invested in ejection system and cockpit safety architecture.",
+      "takeaway": "Restricted airspace containment prevented potential civilian casualties despite combat aircraft loss, highlighting the strategic value of military range infrastructure.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/military-aviation/f-35-crash-in-nevada/"
@@ -322,11 +330,35 @@
       "publishedAt": "2026-04-01T20:02:00.000Z"
     },
     {
+      "id": "yt-nbaa-pt5-sms-small-ops-sa",
+      "type": "video",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Assurance",
+      "blurb": "This video covers the safety management system (SMS) component safety assurance, which  evaluates the continued effectiveness of implemented risk control strategies and supports the identification of new hazards. Whether you're an owner, operator or part of a small aviation team, this guide provides valuable insights and tools to enhance your safety management practices and ensure a safer operational environment.",
+      "takeaway": "Safety assurance within SMS enables small operators to continuously measure control effectiveness and detect emerging hazards rather than simply reacting to incidents.",
+      "source": {
+        "name": "NBAA (YouTube)",
+        "url": "https://www.youtube.com/watch?v=JooZXsQx1ds"
+      },
+      "category": "safety",
+      "keywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "hazard",
+        "assurance"
+      ],
+      "publishedAt": "2026-04-02T05:08:38.224Z",
+      "videoContent": true,
+      "duration": "15:03"
+    },
+    {
       "id": "mjwhi2",
       "type": "news",
       "headline": "Just 64 Miles: Delta Air Lines' 10 New Ultra-Short Flights Revealed",
       "blurb": "How many of them can you guess? And to think: Delta had even shorter flights in the past.",
-      "takeaway": "Delta's ultra-short 64-mile routes suggest regional aviation's viability for premium connectivity, potentially reshaping feeder network economics in the post-pandemic era.",
+      "takeaway": "Delta's ultra-short 64-mile routes suggest airlines are optimizing regional networks post-pandemic as business travel patterns shift toward shorter, frequent point-to-point connectivity.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/just-64-miles-delta-air-lines-10-ultra-short-flights-revealed/"
@@ -340,7 +372,7 @@
       "type": "news",
       "headline": "At Top Speed, This Is How Fighter Jets Like The F-35 Perform",
       "blurb": "Fighter jets perform poorly at their theoretical max speeds which is why they almost never fly at those speeds.",
-      "takeaway": "Fighter jets operate at sustained speeds well below their published maximums due to fuel consumption, thermal stress, and tactical inefficiency, making real-world performance metrics significantly different from specifications.",
+      "takeaway": "Fighter jets operate at only a fraction of their rated speeds due to fuel consumption, engine wear, and thermal stress, making sustained supersonic flight impractical for operational missions.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/top-speed-fighter-jets-f-35-perform/"
@@ -350,27 +382,11 @@
       "publishedAt": "2026-04-01T20:01:18.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across integrated airline-airport-airspace systems offers greater near-term environmental gains than waiting for alternative fuel or aircraft technologies alone.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-02T02:50:08.603Z"
-    },
-    {
       "id": "mgw624",
       "type": "news",
       "headline": "Mesa Gateway Adds Light Aircraft Landing Fee",
       "blurb": "New landing fee announced just a week after those at Mesa's Falcon Field.",
-      "takeaway": "Dual fee implementations at Mesa's competing airports within one week signal intensifying airport competition for general aviation traffic and revenue generation.",
+      "takeaway": "General aviation airports are implementing landing fees to generate revenue, signaling a shift toward cost-recovery models at smaller regional facilities.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/mesa-gateway-landing-fees-coming-in-may/"
@@ -384,7 +400,7 @@
       "type": "news",
       "headline": "Picture of the Day: April 1, 2026",
       "blurb": "2020 Game Aero GB1 over Central Florida.",
-      "takeaway": "The Game Aero GB1 represents emerging general aviation aircraft design innovation operating in U.S. airspace by 2026.",
+      "takeaway": "The Game Aero GB1 represents emerging general aviation aircraft design capabilities in the experimental category, signaling continued innovation in lighter-weight personal aircraft development.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-1-2026/"
@@ -394,11 +410,27 @@
       "publishedAt": "2026-04-01T19:10:00.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across the entire aviation ecosystem—from flight planning to airport management—offers achievable near-term emissions reductions without waiting for next-generation aircraft technology.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-02T05:08:38.224Z"
+    },
+    {
       "id": "qh3tk5",
       "type": "news",
       "headline": "Why Bigger Aircraft Are Sometimes Less Efficient",
       "blurb": "Do you know why this can be the case?",
-      "takeaway": "Larger aircraft face diminishing efficiency gains due to increased structural weight, aerodynamic drag, and underutilization on routes with lower demand, making mid-size aircraft optimal for many operations.",
+      "takeaway": "Larger aircraft face diminishing efficiency gains due to structural weight scaling non-linearly with capacity, making mid-size jets competitive on many routes despite lower per-seat costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-bigger-aircraft-sometimes-less-efficient/"
@@ -412,7 +444,7 @@
       "type": "news",
       "headline": "Cirrus Launches New Simulator Training Program For SR Series Owners",
       "blurb": "Mission Ready Simulator Sessions is a free, scenario-based training program for SR20 and SR22 owners.",
-      "takeaway": "Free simulator training reduces aircraft-specific accident risks by targeting owner proficiency gaps in advanced scenarios before real-world flights.",
+      "takeaway": "Cirrus is differentiating its SR series through post-purchase training rather than just manufacturing, potentially improving safety outcomes and owner retention in the piston aircraft market.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/cirrus-mission-ready-simulator-sessions/"
@@ -428,7 +460,7 @@
       "type": "news",
       "headline": "NetJets Expands Augusta Footprint As Masters Traffic Climbs",
       "blurb": "NetJets is building a dedicated private terminal at Augusta Regional Airport to streamline operations during the Masters.",
-      "takeaway": "NetJets' terminal investment at Augusta signals operators are capitalizing on recurring sporting events as reliable revenue drivers amid competitive fractional ownership markets.",
+      "takeaway": "NetJets' capital investment in Augusta terminal infrastructure signals growing revenue expectations from recurring sporting event traffic, validating premium segment demand beyond peak season.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/netjets-augusta-terminal-masters/"
@@ -444,7 +476,7 @@
       "type": "news",
       "headline": "United Airlines’ Mobile App Rolls Out New TSA Wait Time Tracker At 7 Airports",
       "blurb": "United Airlines' latest app update offers passengers a glimpse into the future of air travel, with real-time TSA wait times now integrated directly.",
-      "takeaway": "Real-time TSA wait data integration reduces passenger uncertainty and enables dynamic scheduling decisions, potentially improving on-time performance and operational efficiency across the network.",
+      "takeaway": "Real-time TSA integration reduces passenger uncertainty and enables dynamic pre-flight scheduling, creating competitive differentiation through operational transparency.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-mobile-app-new-tsa-wait-time-tracker-7-airports/"
@@ -457,27 +489,11 @@
       "publishedAt": "2026-04-01T18:06:33.000Z"
     },
     {
-      "id": "9t2vin",
-      "type": "news",
-      "headline": "The Airlines With The Largest Cargo Fleets In The World",
-      "blurb": "The air cargo market in 2026 is defined by scale, efficiency, and a decisive shift toward next-generation freighters. Who operates the largest fleet?",
-      "takeaway": "Next-generation freighters are reshaping competitive dynamics, favoring carriers with capital to modernize over those relying on aging converted passenger aircraft.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/the-airlines-with-the-largest-cargo-fleets-in-the-world/"
-      },
-      "category": "air-cargo",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-04-01T18:00:17.000Z"
-    },
-    {
       "id": "8qxs2k",
       "type": "news",
       "headline": "Teledyne forms dedicated space unit to capture rising demand",
       "blurb": "The aerospace supplier is combining imaging, electronics and component lines under Teledyne Space...",
-      "takeaway": "Teledyne's consolidation of space capabilities signals the industry's confidence that satellite and deep-space missions will sustain growth beyond current defense contracts.",
+      "takeaway": "Teledyne's consolidation of imaging, electronics, and components into a unified space division positions the company to compete more effectively for integrated satellite and deep-space missions as commercial space activity accelerates.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/teledyne-forms-dedicated-space-unit-to-capture-rising-demand/"
@@ -493,7 +509,7 @@
       "type": "news",
       "headline": "NASA’s X-59 returns to flight after false cockpit warning",
       "blurb": "NASA’s X-59 quiet supersonic demonstrator returned to flight after investigators determined that a cockpit warning light that cut…...",
-      "takeaway": "The X-59's flight resumption validates the investigation process for anomalies in experimental aircraft, demonstrating how methodical troubleshooting of non-critical warnings maintains program momentum for noise-reduction research.",
+      "takeaway": "X-59's return to flight validates NASA's diagnostic protocols for avionics anomalies, critical for certifying novel supersonic aircraft designs that lack extensive operational history.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/nasa-x-59-returns-to-flight-false-cockpit-warning"
@@ -509,7 +525,7 @@
       "type": "news",
       "headline": "Artemis 2’s (nearly) 10-day flight around the moon",
       "blurb": "The Artemis 2 mission will send humans to the vicinity of the moon for the first time in more than 50 years on a mission lasting almost 10 days.",
-      "takeaway": "Artemis 2's extended lunar transit duration establishes the operational baseline for deep-space human missions, validating life-support and navigation systems critical for future lunar landing operations.",
+      "takeaway": "Artemis 2's extended lunar trajectory design demonstrates NASA's validation of deep-space life support and navigation systems critical for eventual moon landings.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2s-nearly-10-day-flight-around-the-moon/"
@@ -525,7 +541,7 @@
       "type": "news",
       "headline": "DroneDeploy brings AI-powered site visibility to Irish housing projects",
       "blurb": "If there’s one thing construction teams everywhere can agree on, it’s this: visibility is everything. And now, DroneDeploy is doubling down on that idea through a new partnership with Cairn Homes — Ireland’s leading homebuilder — to bring advanced drone reality capture tech across more than 25...",
-      "takeaway": "AI-powered drone analytics are enabling construction teams to reduce site documentation time and improve project coordination efficiency across distributed housing developments.",
+      "takeaway": "AI-powered drone analytics are enabling real-time construction monitoring at scale, reducing project delays and improving resource allocation across multiple sites.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/01/dronedeploy-irish-housing-construction-drones/"
@@ -542,7 +558,7 @@
       "type": "news",
       "headline": "Saltzman: Space ‘baked into’ modern combat operations",
       "blurb": "Space Force personnel supporting operations under U.S. Central Command are positioned in the Middle East, at headquarters in Tampa, Florida, and at Shaw Air Force Base in South Carolina...",
-      "takeaway": "Space capabilities are now operationally integrated throughout military command structures rather than treated as standalone support assets.",
+      "takeaway": "Space capabilities are now integral to real-time military command and control infrastructure, requiring distributed personnel across operational theaters and continental bases.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/saltzman-space-baked-into-modern-combat-operations/"
@@ -558,12 +574,12 @@
       "type": "news",
       "headline": "FCC eyes sweeping reforms to boost US drone power",
       "blurb": "The Federal Communications Commission is making its next big move in the race to dominate drone technology, and it’s tying that push directly to President Donald Trump’s national strategy for what officials are calling “American drone dominance.” more…...",
-      "takeaway": "FCC spectrum reforms could unlock commercial drone capabilities beyond current line-of-sight operations, directly enabling beyond-visual-line-of-sight (BVLOS) missions critical for logistics and infrastructure inspection markets.",
+      "takeaway": "FCC regulatory reforms for drone spectrum allocation directly support a coordinated federal strategy positioning commercial drone leadership as critical to US technological competitiveness.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/01/fcc-american-drone-dominance-notice/"
       },
-      "category": "drones",
+      "category": "regulatory",
       "keywords": [
         "drone"
       ],
@@ -574,7 +590,7 @@
       "type": "news",
       "headline": "FAA Restricts SFO Landings",
       "blurb": "New FAA landing restrictions at San Francisco International Airport will cut arrival capacity by one-third.",
-      "takeaway": "SFO's 33% capacity reduction will redirect significant traffic to competing Bay Area airports, reshaping regional flight scheduling and potentially increasing operational costs for carriers serving the route.",
+      "takeaway": "SFO's one-third capacity reduction will likely force airlines to reroute regional flights and increase delays system-wide, creating cascading effects on West Coast scheduling.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-restricts-sfo-landings/"
@@ -585,22 +601,6 @@
         "airport"
       ],
       "publishedAt": "2026-04-01T15:20:36.000Z"
-    },
-    {
-      "id": "8t1cev",
-      "type": "news",
-      "headline": "Aspect Aerospace secures early funding to advance swarm-deployable VLEO satellites",
-      "blurb": "Aspect Aerospace, a University of South Alabama spin-off, has secured $2.4 million to develop circuit-board-sized spacecraft that could be deployed from space into very low Earth orbit in swarms to monitor the space environment.",
-      "takeaway": "Swarm-deployable microsatellites from carrier spacecraft could reduce launch costs and enable rapid deployment of distributed Earth observation constellations.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/aspect-aerospace-secures-early-funding-to-advance-swarm-deployable-vleo-satellites/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-01T14:45:13.000Z"
     }
   ]
 }
