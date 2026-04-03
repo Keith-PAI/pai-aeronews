@@ -1,12 +1,44 @@
 {
-  "lastUpdated": "2026-04-03T18:57:54.464Z",
+  "lastUpdated": "2026-04-03T19:46:25.987Z",
   "articles": [
+    {
+      "id": "z2kn2n",
+      "type": "news",
+      "headline": "A-10 Thunderbolt II Crashed Near the Strait of Hormuz, U.S. Officials Tell NYT",
+      "blurb": "Almost the same time as an F-15E Strike Eagle went down over Iran, the U.S. Air Force lost an A-10 Thunderbolt II attack aircraft near the Strait of Hormuz. U.S. officials told NYT that the jet’s pilot was safely rescued. While search and rescue efforts for at least one of the crew members of an […]...",
+      "takeaway": "The simultaneous loss of both an A-10 and F-15E in the Persian Gulf region suggests elevated operational tempo or environmental hazards affecting multiple aircraft types in this theater.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/04/03/a-10-thunderbolt-ii-crashed-near-the-strait-of-hormuz/"
+      },
+      "category": "military",
+      "keywords": [
+        "saf",
+        "crash",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-03T19:20:09.000Z"
+    },
+    {
+      "id": "tw1hvv",
+      "type": "news",
+      "headline": "The Striking Differences Between The F-35 & F-22",
+      "blurb": "The F-22 Raptor and F-35 Lightning II represent two contrasting philosophies in modern airpower: air superiority versus multirole versatility.",
+      "takeaway": "The F-22's air-superiority focus versus the F-35's multirole design reflects fundamental trade-offs between specialized performance and operational flexibility that shape military aviation procurement strategies.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/striking-differences-f-35-f-22/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-04-03T19:00:17.000Z"
+    },
     {
       "id": "w2g3ja",
       "type": "news",
       "headline": "6 Largest Mainline Fleets In North America",
       "blurb": "Home to some of the largest airlines, North America is a region of high airline activity. Which of the regions airlines have the biggest fleets?",
-      "takeaway": "Fleet size concentration among six carriers demonstrates North America's oligopolistic market structure, with significant implications for route competition and pricing power.",
+      "takeaway": "The concentration of massive fleets among North American carriers reflects consolidated market power that influences route competition, capacity allocation, and pilot/crew recruitment across the continent.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/6-largest-mainline-fleets-north-america/"
@@ -22,7 +54,7 @@
       "type": "news",
       "headline": "The Simple Flying Podcast Episode 285: Delta Air Lines' New High-Speed WiFi, FAA Bans SFO's Parallel Landings",
       "blurb": "Join Tom & Channing for the latest aviation hot topics.",
-      "takeaway": "Delta's WiFi upgrade addresses passenger connectivity demands while SFO's parallel landing suspension indicates potential safety concerns requiring operational restructuring.",
+      "takeaway": "Delta's WiFi upgrade addresses competitive pressure from airlines offering premium connectivity, while FAA's SFO runway closure impacts operational efficiency during peak travel periods.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/podcast-285/"
@@ -38,7 +70,7 @@
       "type": "news",
       "headline": "Stopping Power: Boeing 777-9 Brakes Reach 2,500 Degrees In Critical Aborted Takeoff Test",
       "blurb": "The aircraft pushes the limits of its advanced braking system during a simulated maximum-weight, high-speed aborted takeoff.",
-      "takeaway": "Boeing's 777-9 brakes withstand extreme 2,500-degree thermal stress during maximum-weight abort scenarios, validating critical safety margins for the largest twin-engine widebody.",
+      "takeaway": "Boeing's 777-9 braking system must dissipate extreme heat at near-melting temperatures, indicating the challenges of managing kinetic energy for the industry's largest twin-engine aircraft.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-777-9-brakes-25000-degrees-critical-aborted-takeoff-test/"
@@ -50,11 +82,32 @@
       "publishedAt": "2026-04-03T17:47:36.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern Safety Management Systems represent a paradigm shift from post-accident investigations to continuous risk identification and mitigation strategies.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-03T19:45:48.073Z",
+      "paiContent": true
+    },
+    {
       "id": "5oe10q",
       "type": "news",
       "headline": "Meet NASA’s New Artemis II Science Officers",
       "blurb": "NASA’s first Artemis II science officers—Kelsey Young, Trevor Graff, and Angela Garcia—are pioneering a new era of mission operations by integrating advanced lunar science directly into Mission Control. Their work will shape how future Artemis crews observe, analyze, and deepen our understanding of...",
-      "takeaway": "Dedicated science officers in Mission Control will enable real-time lunar observation analysis and adaptive mission strategies, fundamentally changing how crews conduct in-situ scientific work.",
+      "takeaway": "NASA's embedded science officers in Mission Control will enable real-time scientific decision-making during lunar missions, fundamentally changing how crews conduct research beyond Earth orbit.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/artemis/meet-nasas-new-artemis-ii-science-officers/"
@@ -70,7 +123,7 @@
       "type": "news",
       "headline": "Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand",
       "blurb": "Italy’s Argotec has officially opened its first U.S. satellite production facility, cementing a foothold near Kennedy Space Center in Florida to join other foreign space firms pursuing growing demand from American programs.",
-      "takeaway": "European space manufacturers are establishing U.S. production hubs to capture defense and commercial satellite contracts, signaling a shift toward distributed manufacturing in the aerospace supply chain.",
+      "takeaway": "European satellite manufacturers are establishing U.S. production bases to capture defense and commercial space contracts, signaling aerospace supply chain regionalization trends.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/italys-argotec-plans-to-scale-florida-satellite-facility-to-meet-rising-us-demand/"
@@ -82,31 +135,11 @@
       "publishedAt": "2026-04-03T17:33:12.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations with strong psychological safety see higher hazard reporting rates, enabling proactive risk mitigation before incidents occur.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-03T18:57:10.740Z",
-      "paiContent": true
-    },
-    {
       "id": "9corou",
       "type": "news",
       "headline": "Why In The World Did Emirates Buy Another Airbus A380 Last Year?",
       "blurb": "The airline remains committed to the type for the next decade or so.",
-      "takeaway": "Emirates' continued A380 investment signals confidence in ultra-high-capacity aircraft demand for premium routes despite industry-wide shift toward smaller widebodies.",
+      "takeaway": "Emirates' continued A380 investment signals confidence in ultra-high-capacity aircraft for premium leisure routes despite industry shift toward smaller, fuel-efficient widebodies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-emirates-buy-another-airbus-a380/"
@@ -119,11 +152,31 @@
       "publishedAt": "2026-04-03T17:30:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to document why selected controls adequately reduce identified hazards and justify acceptance of any remaining risk.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-03T19:45:48.073Z",
+      "paiContent": true
+    },
+    {
       "id": "xn62fz",
       "type": "news",
       "headline": "6 Military Aircraft With The Highest Operating Costs",
       "blurb": "The priciest warplanes in the sky in 2026.",
-      "takeaway": "Understanding the cost-per-flight-hour drivers of high-end military aircraft—such as fuel consumption, maintenance complexity, and crew requirements—offers valuable benchmarking insights for commercial operators managing similarly advanced platforms.",
+      "takeaway": "Understanding the true cost-per-flight-hour of military aircraft—often exceeding $100,000—provides critical benchmarking data for commercial aviation efficiency and maintenance planning.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/6-military-aircraft-highest-operting-costs/"
@@ -137,7 +190,7 @@
       "type": "news",
       "headline": "US F-15E Shot Down Over Iran, One Crew Member Rescued",
       "blurb": "The fate of the aircraft’s second crew member is unknown.",
-      "takeaway": "Loss of a modern fighter-bomber over hostile territory underscores the persistent air defense threat from regional adversaries and recovery operation complexities.",
+      "takeaway": "Loss of advanced fighter assets over hostile territory raises critical questions about air defense penetration tactics and crew recovery protocols for future operations.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/military-aviation/us-f-15e-shot-down-over-iran-one-crew-member-rescued/"
@@ -147,32 +200,11 @@
       "publishedAt": "2026-04-03T17:28:55.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern aviation SMS shifts operators from investigating accidents after they occur to systematically identifying and mitigating hazards before incidents happen.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-04-03T18:57:10.740Z",
-      "paiContent": true
-    },
-    {
       "id": "4zb72s",
       "type": "news",
       "headline": "FAA report proposes sweeping rewrite of Part 141 flight training rules",
       "blurb": "A 471-page industry report released through the FAA’s Part 141 modernization docket proposes a sweeping rewrite of how…...",
-      "takeaway": "The comprehensive 471-page proposal signals the FAA's willingness to fundamentally restructure flight training regulations, potentially opening pathways for faster certification and alternative training methodologies.",
+      "takeaway": "Modernizing Part 141 rules could streamline pilot certification timelines and reduce training costs by eliminating outdated prescriptive requirements that no longer reflect modern aircraft and training technology.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/faa-part-141-flight-training-overhaul-report"
@@ -184,11 +216,32 @@
       "publishedAt": "2026-04-03T17:22:57.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise-sensitive location within San Francisco's Class B airspace requires precise departure procedures to balance operational efficiency with community relations in constrained terrain.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-03T19:45:48.501Z",
+      "videoContent": true
+    },
+    {
       "id": "ds6nrn",
       "type": "news",
       "headline": "Inside The Boeing 787 Dreamliner's Crew Rest Area",
       "blurb": "Step inside the hidden world of Boeing 787's crew rest areas, a space that remains a mystery to most passengers.",
-      "takeaway": "The 787's upper-deck crew rest compartment reduces fatigue-related errors on ultra-long-haul flights by allowing pilots and flight attendants to rotate off-duty rest periods during 16+ hour operations.",
+      "takeaway": "The 787's upper-deck crew rest compartment enables extended ultra-long-range operations by allowing pilot rotation without pressurization cycles, directly supporting 18+ hour flight economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/inside-boeing-787-dreamliner-crew-rest/"
@@ -205,7 +258,7 @@
       "type": "news",
       "headline": "5 Hidden Features Of The Airbus A350 Cabin Design",
       "blurb": "Airbus has designed a quiet, high-humidity, and comfortably pressurized cabin for its flagship modern widebody aircraft.",
-      "takeaway": "The A350's cabin engineering optimizes three physiological factors simultaneously—noise reduction, humidity retention, and pressurization—to measurably reduce passenger fatigue on long-haul routes.",
+      "takeaway": "The A350's cabin innovations—quiet environment, elevated humidity levels, and optimized pressurization—directly address passenger fatigue factors that influence airline competitiveness and crew productivity on long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-hidden-features-airbus-a350-cabin/"
@@ -217,33 +270,11 @@
       "publishedAt": "2026-04-03T16:56:35.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway exit geometry at LAX creates systematic confusion for pilots transitioning from Runway 24R, indicating that physical infrastructure design—not just procedural compliance—drives incursion risk.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-04-03T18:57:11.001Z",
-      "videoContent": true
-    },
-    {
       "id": "flmqo1",
       "type": "news",
       "headline": "Virgil I. “Gus” Grissom",
       "blurb": "Today marks the 100th anniversary of the birth of Virgil I. “Gus” Grissom, born April 3, 1926, in Mitchell, Indiana. As one of NASA’s first seven astronauts, he became America’s second astronaut to fly in space when he launched aboard the Liberty Bell 7 spacecraft on July 21, 1961, just weeks after...",
-      "takeaway": "Grissom's July 1961 suborbital flight demonstrated rapid American capability to execute human spaceflight just weeks after Shepard's initial success, establishing momentum for the Mercury program's competitive advantage during the Space Race.",
+      "takeaway": "Grissom's Mercury mission established critical early spaceflight protocols that shaped subsequent NASA operations and astronaut selection standards.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/virgil-i-gus-grissom/"
@@ -256,11 +287,33 @@
       "publishedAt": "2026-04-03T16:27:09.000Z"
     },
     {
+      "id": "yt-auto-3sJ1UJ6i5OA",
+      "type": "video",
+      "headline": "From the Flight Deck – Frederick Municipal Airport, MD (FDK)",
+      "blurb": "Frederick Municipal is a small general and corporate aviation airport located just east of the city of Frederick, Maryland. The traffic mix runs the spectrum from single engine training aircraft up...",
+      "takeaway": "Frederick Municipal Airport serves as a critical regional hub balancing flight training operations with corporate aviation demand, supporting the mid-Atlantic's diverse general aviation ecosystem.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=3sJ1UJ6i5OA"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-04-03T19:45:48.501Z",
+      "videoContent": true
+    },
+    {
       "id": "yxh2ar",
       "type": "news",
       "headline": "Picture of the Day: April 3, 2026",
       "blurb": "A C-130J awaits its next assignment on the flightline.",
-      "takeaway": "The C-130J's continued operational presence demonstrates the enduring reliability of this transport platform across decades of military service missions.",
+      "takeaway": "The C-130J's continued operational presence reflects sustained military airlift demand and platform modernization investment across defense logistics networks.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-3-2026/"
@@ -274,7 +327,7 @@
       "type": "news",
       "headline": "ZeroAvia edges closer to cert as FAA issues electric engine conditions",
       "blurb": "ZeroAvia has this week celebrated a “major step” towards certification of its ZA600 hydrogen-electric powertrain, after the U.S. Federal Aviation Administration (FAA) published special conditions to certify the system’s electric engine component. The FAA published 33 special conditions for...",
-      "takeaway": "FAA's 33 special conditions establish the regulatory framework for hydrogen-electric powertrains, accelerating industry standardization beyond ZeroAvia's individual certification path.",
+      "takeaway": "FAA's 33 special conditions signal regulatory clarity on hydrogen-electric propulsion safety standards, potentially accelerating certification timelines for zero-emission regional aircraft.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/zeroavia-edges-closer-to-certification/"
@@ -287,32 +340,11 @@
       "publishedAt": "2026-04-03T15:49:17.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise abatement procedures must balance operational efficiency with residential constraints in one of the nation's most congested airspace regions.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-03T18:57:11.001Z",
-      "videoContent": true
-    },
-    {
       "id": "k6zm7r",
       "type": "news",
       "headline": "White House again proposes steep NASA budget cuts",
       "blurb": "For the second consecutive year, the White House is proposing a major budget cut for NASA that would significantly impact the agency’s science programs and the International Space Station.",
-      "takeaway": "Sustained NASA budget reductions threaten aerospace supply chain stability and commercial space partnerships that depend on ISS operations and government contracts.",
+      "takeaway": "Sustained NASA budget reductions threaten long-term aerospace innovation and ISS operations, potentially ceding space leadership to competing nations.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/white-house-again-proposes-steep-nasa-budget-cuts/"
@@ -325,11 +357,27 @@
       "publishedAt": "2026-04-03T15:15:01.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across multiple aviation domains offers a near-term pathway to environmental sustainability that doesn't require waiting for new aircraft technologies to mature.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-03T19:45:48.501Z"
+    },
+    {
       "id": "lo7h8d",
       "type": "news",
       "headline": "Breaking: US F-15 Shot Down In Iran",
       "blurb": "A search and rescue operation is underway...",
-      "takeaway": "Air-to-air combat losses in contested airspace underscore the operational risks and geopolitical tensions affecting military aviation planning and resource allocation.",
+      "takeaway": "Loss of advanced fighter aircraft over hostile airspace signals escalating regional conflict with potential implications for commercial aviation routing and military supply chains.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/breaking-us-f15-shot-down-iran/"
@@ -343,7 +391,7 @@
       "type": "news",
       "headline": "Test Pilots and the Road Back to the Moon",
       "blurb": "For NASA’s first crewed lunar mission since Apollo, aviation experience is one of the clearest threads linking the astronauts aboard Orion.",
-      "takeaway": "NASA's Artemis lunar program prioritizes pilots with extensive aviation backgrounds, recognizing that atmospheric flight experience provides critical skills for spacecraft operations and contingency management.",
+      "takeaway": "NASA's Artemis mission crew selection prioritizes test pilot backgrounds, mirroring Apollo's approach and ensuring technical expertise for complex lunar operations beyond standard astronaut training.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/features/test-pilots-and-road-to-moon/"
@@ -356,27 +404,11 @@
       "publishedAt": "2026-04-03T14:22:00.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation layers offers immediate efficiency gains while emerging technologies mature, addressing capacity constraints and environmental pressures simultaneously.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-03T18:57:11.001Z"
-    },
-    {
       "id": "x2juch",
       "type": "news",
       "headline": "United Airlines Slashes 26% Of Domestic Widebody Flights: Here's Why",
       "blurb": "An increasing number of 777-200s are being sent to the desert.",
-      "takeaway": "United's widebody reduction signals a structural shift toward narrowbody efficiency as carriers reassess long-haul domestic profitability in a slower demand environment.",
+      "takeaway": "United's widebody reduction signals structural demand weakness in long-haul domestic markets, forcing fleet rationalization beyond typical seasonal adjustments.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/united-airlines-slashes-domestic-widebody-flights-by-26pc/"
@@ -388,27 +420,11 @@
       "publishedAt": "2026-04-03T14:02:21.000Z"
     },
     {
-      "id": "me8ivo",
-      "type": "news",
-      "headline": "Exclusive: Canadians Are Skipping The US – And This Airline Is Cashing In",
-      "blurb": "CEO Adam Scott sat down with Simple Flying to discuss how the flag carrier of Bermuda is preparing for its third summer season.",
-      "takeaway": "Bermuda's flag carrier is capitalizing on Canadian travelers avoiding US connections by expanding its summer network for a third consecutive year.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/canadians-skipping-us-airline-cashing-in/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-04-03T14:00:17.000Z"
-    },
-    {
       "id": "7knhnl",
       "type": "news",
       "headline": "New DJI Terra update adds HEIF support, boosts reconstruction performance",
       "blurb": "DJI is continuing to refine its mapping and modeling ecosystem with the latest update to DJI Terra, and version 5.2.0 brings a mix of speed boosts, smarter automation, and improved output quality for enterprise users. more…...",
-      "takeaway": "DJI's performance optimization focus reflects the drone industry's shift toward real-time enterprise applications where processing speed directly impacts operational efficiency and competitive positioning.",
+      "takeaway": "HEIF format support reduces file sizes while maintaining reconstruction quality, lowering storage and processing costs for enterprise drone mapping operations.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/03/update-dji-terra-drone-software/"
@@ -424,7 +440,7 @@
       "type": "news",
       "headline": "Hello, World",
       "blurb": "NASA astronaut and Artemis II Commander Reid Wiseman took this picture of Earth from the Orion spacecraft’s window after completing the translunar injection burn. There are two auroras (top right and bottom left) and zodiacal light (bottom right) is visible as the Earth eclipses the Sun. This and...",
-      "takeaway": "Artemis II's successful translunar injection demonstrates NASA's operational readiness for lunar return missions, with real-time imagery validating Orion spacecraft performance at critical mission phases.",
+      "takeaway": "Artemis II's translunar injection imagery demonstrates Orion's advanced window systems and positioning capabilities essential for deep-space human exploration missions.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/hello-world/"
@@ -441,7 +457,7 @@
       "type": "news",
       "headline": "US rescues one airman after F-15E shot down over Iran, search continues for second",
       "blurb": "Unverified images circulating on social media on April 3, 2026, appear to show the wreckage of a US…...",
-      "takeaway": "Combat losses over hostile territory complicate recovery operations and underscore vulnerabilities in contested airspace despite advanced fighter capabilities.",
+      "takeaway": "Air defense system improvements and pilot ejection procedures remain critical factors in combat survival rates over contested airspace.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/unverified-images-iran-f15e-debris-lakenheath"
@@ -455,7 +471,7 @@
       "type": "news",
       "headline": "US drone future hinges on policy, investment, coordination",
       "blurb": "The Commercial Drone Alliance is pushing Washington to move faster, and more strategically, on building a truly domestic drone ecosystem. In a newly released white paper, the industry group calls on the Trump Administration to adopt sweeping reforms aimed at strengthening US manufacturing, creating...",
-      "takeaway": "Industry fragmentation and regulatory delays are threatening US competitiveness in drone manufacturing against foreign competitors who face fewer bureaucratic barriers.",
+      "takeaway": "Industry advocates are demanding coordinated federal policy and investment to build domestic drone manufacturing capacity before international competitors establish market dominance.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/03/commercial-drone-alliance-white-paper/"
@@ -471,7 +487,7 @@
       "type": "news",
       "headline": "Video: Red Bull Wingsuiters Chase Northern Lights Over Alaska",
       "blurb": "Red Bull Air Force athletes Jeff Provenzano and John D’Vour complete a years-in-the-making night jump under the aurora.",
-      "takeaway": "Extreme altitude wingsuit operations in polar regions with minimal visibility require specialized night-vision protocols and weather prediction techniques applicable to remote aviation operations.",
+      "takeaway": "Extreme aerial performance in aurora conditions requires specialized timing and navigation capabilities that push the boundaries of human-powered flight operations in polar environments.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/votw/video-red-bull-wingsuiters-northern-lights/"
@@ -485,7 +501,7 @@
       "type": "news",
       "headline": "SpaceX and Amazon spar over satellite deployments",
       "blurb": "Amazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.",
-      "takeaway": "Orbital debris management disputes between commercial satellite operators could influence future regulatory frameworks for mega-constellation deployments.",
+      "takeaway": "Constellation deployment disputes signal growing regulatory scrutiny over orbital slot allocation and debris mitigation standards as competition intensifies.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/"
@@ -504,7 +520,7 @@
       "type": "news",
       "headline": "DARPA’s X-65 Active Flow Control Demonstrator is Taking Shape",
       "blurb": "Aurora Flight Sciences and DARPA are continuing the assembly of the X-65 CRANE demonstrator, targeting a first flight by 2027. Aurora Flight Sciences’ (AFS) latest X-Plane, now designated the X-65, is taking its final shape. The company unveiled the fuselage of the unmanned demonstrator, which uses...",
-      "takeaway": "Active flow control technology could reduce aircraft drag by 5-8%, enabling significant fuel efficiency gains and lower operating costs across commercial aviation fleets.",
+      "takeaway": "Active flow control technology could reduce aircraft drag by 5-8%, potentially lowering fuel consumption and emissions across commercial aviation within the next decade.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/03/darpas-x-65-demonstrator-taking-shape/"
@@ -518,7 +534,7 @@
       "type": "news",
       "headline": "Boeing-Built Core Stage Powers Historic Artemis II Launch",
       "blurb": "The 212-foot rocket component operated ‘exactly as intended’ during around-the-moon launch...",
-      "takeaway": "Boeing's successful Artemis II core stage performance validates the Space Launch System architecture for sustained lunar exploration, establishing a proven foundation for future deep-space missions.",
+      "takeaway": "Boeing's successful core stage performance demonstrates critical aerospace supplier capability for deep-space missions, validating multi-year development cycles for government exploration contracts.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/space-flight/boeing-built-core-stage-powers-historic-artemis-ii-launch/"
@@ -534,7 +550,7 @@
       "type": "news",
       "headline": "Europe’s strategic autonomy in space will define its role in the ‘second space age’",
       "blurb": "Europe’s future in space really boils down to one question: can it stay ahead without relying on technology made somewhere else? As we step into what experts call the “second space age,” strategic autonomy is suddenly front and center for the European Union. And it is increasingly essential that...",
-      "takeaway": "European aerospace competitiveness depends on developing indigenous space capabilities rather than relying on external technology partnerships, fundamentally reshaping the continent's industrial strategy.",
+      "takeaway": "Europe's space independence will determine whether its aerospace industry can compete autonomously in emerging commercial space markets rather than defaulting to foreign technology partnerships.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/europes-strategic-autonomy-in-space-will-define-its-role-in-the-second-space-age/"
@@ -550,7 +566,7 @@
       "type": "news",
       "headline": "Embraer delivers 44 aircraft in Q1 2026, up 47% year on year",
       "blurb": "Embraer delivered 44 aircraft during the first quarter of 2026, a 47% increase over the 30 units handed over in the…...",
-      "takeaway": "Embraer's 47% YoY delivery surge signals robust regional jet demand recovery and the company's ability to scale production amid industry capacity constraints.",
+      "takeaway": "Embraer's 47% delivery surge signals strengthening regional jet demand and improved supply chain recovery post-pandemic constraints.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/embraer-delivers-44-aircraft-q1-2026"
@@ -566,7 +582,7 @@
       "type": "news",
       "headline": "China’s commercial Tianlong-3 rocket fails on debut launch",
       "blurb": "The first launch of the Tianlong-3 rocket from Chinese commercial firm Space Pioneer failed Friday after suffering an anomaly in its ascent phase.",
-      "takeaway": "China's commercial space sector faces development hurdles that could delay aerospace supply chain diversification for satellite operators seeking launch alternatives.",
+      "takeaway": "China's commercial space sector faces execution challenges as private operators scale beyond development, potentially impacting global launch market competition and supply chains dependent on Chinese aerospace capabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/chinas-commercial-tianlong-3-rocket-fails-on-debut-launch/"
@@ -576,22 +592,6 @@
         "space"
       ],
       "publishedAt": "2026-04-03T09:55:37.000Z"
-    },
-    {
-      "id": "mu3hdu",
-      "type": "news",
-      "headline": "Airlines face a fuel hedging reckoning as Iran conflict reshapes flying costs",
-      "blurb": "Jet fuel prices have more than doubled since the start of Operation Epic Fury, but the financial damage…...",
-      "takeaway": "Airlines that locked in fuel hedges before geopolitical escalation now face margin compression as spot prices surge, creating a competitive disadvantage versus hedged competitors.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/airline-fuel-hedging-iran-conflict-crisis"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-04-03T09:53:20.000Z"
     }
   ]
 }
