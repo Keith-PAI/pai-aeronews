@@ -1,12 +1,42 @@
 {
-  "lastUpdated": "2026-04-05T07:17:05.462Z",
+  "lastUpdated": "2026-04-05T08:54:12.778Z",
   "articles": [
+    {
+      "id": "313vgg",
+      "type": "news",
+      "headline": "US special forces rescue second F-15E airman, two C-130s destroyed on ground",
+      "blurb": "US special forces managed to rescue a second airman which had been stranded in Iran since April 3,…...",
+      "takeaway": "The loss of two C-130 transport aircraft during a rescue operation highlights the escalating operational costs and aircraft attrition risks in contested airspace environments.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/us-special-forces-rescue-second-f-15e-airman-two-c-130s-destroyed-on-ground"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-04-05T08:14:26.000Z"
+    },
+    {
+      "id": "23ky4i",
+      "type": "news",
+      "headline": "Easter Weekend Meltdown: Over 5,500 US Flights Delayed As Storms Batter Major Hubs",
+      "blurb": "Airports have been buckling during the Easter travel season.",
+      "takeaway": "Easter weekend disruptions underscore operational vulnerability at major hubs during peak travel periods, requiring improved weather predictability systems and dynamic capacity management strategies.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/easter-weekend-meltdown-us-flight-delays-storms/"
+      },
+      "category": "safety",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-04-05T07:38:43.000Z"
+    },
     {
       "id": "hi2xnl",
       "type": "news",
       "headline": "I’m A Flight Attendant: This Is How We Prepare An Aircraft In 30 Minutes",
       "blurb": "A lot of work in a little time.",
-      "takeaway": "Ground crews execute complex cabin sanitization, catering, and safety checks in tight turnaround windows, revealing operational efficiency constraints that directly impact airline scheduling and profitability.",
+      "takeaway": "Turnaround efficiency directly impacts airline profitability and scheduling reliability, making ground crew coordination as critical as flight operations.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/fa-how-prepare-aircraft-30-minutes/"
@@ -20,7 +50,7 @@
       "type": "news",
       "headline": "U.S. Rescues Downed F-15E WSO Deep Inside Iran",
       "blurb": "The mission to rescue the isolated airman inside Iran has been described as one of the most challenging and complex in the history of U.S. special operations. The Weapons Systems Officer (WSO) who ejected from the downed F-15E Strike Eagle belonging to the 48th Fighter Wing of the U.S. Air Force in...",
-      "takeaway": "The F-15E's combat persistence in contested airspace and successful crew recovery operations validate current fighter-bomber capabilities despite advanced air defense environments.",
+      "takeaway": "The successful recovery of a downed aircrew from deep within hostile territory demonstrates critical capabilities in personnel recovery operations that directly inform military aviation training and tactical planning.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/05/u-s-rescues-downed-f-15e-wso-deep-inside-iran/"
@@ -34,7 +64,7 @@
       "type": "news",
       "headline": "6 Airlines With The World’s Widest Premium Economy Seats In 2026",
       "blurb": "More space, better meals, and none of the business class price tag — but only if you know which airline to book.",
-      "takeaway": "Premium economy seat width has become a competitive differentiator as airlines optimize cabin configurations to capture mid-tier revenue between economy and business class.",
+      "takeaway": "Premium economy seat width varies significantly by carrier, creating substantial passenger comfort disparities at similar price points that savvy travelers can exploit.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/6-airlines-with-the-worlds-widest-premium-economy-seats-in-2026/"
@@ -47,11 +77,31 @@
       "publishedAt": "2026-04-05T04:03:19.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "Operators must now formally document their Safety Management System compliance to the FAA, shifting from informal practices to verifiable accountability requirements.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-04-05T08:53:33.853Z",
+      "paiContent": true
+    },
+    {
       "id": "e6heqw",
       "type": "news",
       "headline": "NASA finalizes science plans for Artemis 2 lunar flyby",
       "blurb": "WASHINGTON — As Artemis 2 approaches the moon, a NASA science team is finalizing plans for the observations they want the astronauts to perform during their flyby. At an April 4 briefing, a representative of the mission’s science team said they were working to complete a plan of observations by the...",
-      "takeaway": "Artemis 2's science objectives are being actively refined to maximize crew observation opportunities during lunar approach, shaping real-time data collection priorities.",
+      "takeaway": "Artemis 2's scientific value extends beyond crew certification, with curated lunar observations adding measurable scientific returns that inform future exploration priorities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/nasa-finalizes-science-plans-for-artemis-2-lunar-flyby/"
@@ -68,7 +118,7 @@
       "type": "news",
       "headline": "Stopping Power: Boeing 777-9 Brakes Reach 2,500 Degrees In Critical Aborted Takeoff Test",
       "blurb": "The aircraft pushes the limits of its advanced braking system during a simulated maximum-weight, high-speed aborted takeoff.",
-      "takeaway": "Boeing's 777-9 braking system withstood extreme thermal stress at 2,500°F during maximum-weight abort testing, validating its ability to safely handle the largest twin-engine aircraft's most demanding operational scenario.",
+      "takeaway": "Boeing's 777-9 brake system must dissipate extreme thermal energy during maximum-weight aborts, validating critical safety margins for the largest twin-engine widebody.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-777-9-brakes-25000-degrees-critical-aborted-takeoff-test/"
@@ -80,31 +130,11 @@
       "publishedAt": "2026-04-05T03:19:55.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Organizations must document why selected risk controls are adequate for their operations, as regulators scrutinize the justification for accepting residual risk rather than implementing additional safeguards.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-04-05T07:16:25.686Z",
-      "paiContent": true
-    },
-    {
       "id": "u85new",
       "type": "news",
       "headline": "5 Aircraft With The Most Powerful Jet Engines",
       "blurb": "The aircraft flying today are dominated by the Boeing 777 family of giant twin-jets, with Airbus' rival A350 coming in behind.",
-      "takeaway": "The GE90 and similar ultra-high-bypass engines powering modern widebodies enable profitable long-haul operations that have fundamentally reshaped global route networks.",
+      "takeaway": "The dominance of high-bypass-ratio engines in modern widebody fleets reflects a fundamental shift toward fuel efficiency over raw thrust in commercial aviation economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-aircraf-most-powerful-jet-engines/"
@@ -117,11 +147,32 @@
       "publishedAt": "2026-04-05T02:00:31.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS shifts aviation from accident investigation to systematic hazard identification, reducing incidents before they occur through continuous data analysis.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-05T08:53:33.853Z",
+      "paiContent": true
+    },
+    {
       "id": "9hknec",
       "type": "news",
       "headline": "Is It True That The Airbus A321XLR’s Fuel Tank Is Visible From The Outside?",
       "blurb": "The plane's massive fuel tanks create a noticeable difference in appearance compared to other A321neo variants.",
-      "takeaway": "The A321XLR's visibly enlarged fuselage for extra fuel capacity represents a notable design trade-off that affects aircraft recognition and maintenance accessibility for operators.",
+      "takeaway": "The A321XLR's externally visible fuel tank structure represents a significant design trade-off where range capability takes visual precedence over aesthetic consistency with other A321 variants.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/true-airbus-a321xlrs-fuel-tank-visible-outside/"
@@ -137,7 +188,7 @@
       "type": "news",
       "headline": "Inside The Airbus A380 Staircase Structure",
       "blurb": "Having two decks on an aircraft is no easy feat to manage. The Airbus A380 reimagined how stairs can be used onboard, doing so on a massive scale.",
-      "takeaway": "The A380's dual-deck architecture required engineering stairs as structural load-bearing elements, fundamentally reshaping interior design constraints for ultra-large aircraft.",
+      "takeaway": "The A380's dual-deck staircase design required structural innovation to manage weight and pressure differentials while maintaining passenger flow efficiency across two full-size cabin levels.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-a380-staircase-structure/"
@@ -149,31 +200,11 @@
       "publishedAt": "2026-04-05T01:00:18.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "The SMS Declaration of Compliance formalizes operator accountability by requiring documented proof that safety management systems meet FAA standards, shifting from voluntary best practices to regulatory obligation.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-05T07:16:25.686Z",
-      "paiContent": true
-    },
-    {
       "id": "g0uy3c",
       "type": "news",
       "headline": "Delta One \"Basic\": It's the Same Seat With Fewer Perks",
       "blurb": "As more and more airlines move unbundling further up the cabin, the carrier adds to this growing list.",
-      "takeaway": "Delta's tiered premium cabin strategy allows price-sensitive premium passengers to access the same hard product at lower fares, potentially capturing additional ancillary revenue while protecting traditional First Class yields.",
+      "takeaway": "Delta's tiered premium cabin strategy mirrors broader airline revenue optimization by fragmenting historically bundled products rather than reducing seat inventory.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-one-basic-isnt-cheaper-same-seat-fewer-perks/"
@@ -185,11 +216,33 @@
       "publishedAt": "2026-04-05T00:00:19.000Z"
     },
     {
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Regional airports like CID serve as critical training hubs where flight schools develop the next generation of professional pilots while maintaining infrastructure for commercial air service.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-04-05T08:53:34.118Z",
+      "videoContent": true
+    },
+    {
       "id": "hhd4b9",
       "type": "news",
       "headline": "5 Aircraft That Still Play A Key Role In US Defense Strategy",
       "blurb": "The F-16 plays a leading role in the defense of the Lower 48, while a different range of aircraft are used to patrol Alaska.",
-      "takeaway": "Regional defense requirements create divergent aircraft strategies, with Alaska's unique geography and threats demanding specialized platforms beyond Lower 48 capabilities.",
+      "takeaway": "Aging fighter platforms like the F-16 remain operationally critical for domestic air defense, revealing significant capability gaps in modernization timelines across regional threat zones.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-aircraft-key-role-us-defense/"
@@ -203,7 +256,7 @@
       "type": "news",
       "headline": "This Airline Sacrifices Revenue Seats To Give You The Most Spacious Economy Class In 2026",
       "blurb": "This carrier offers passengers exceptional legroom.",
-      "takeaway": "Sacrificing seat density for comfort represents a strategic differentiation bet that airlines are increasingly willing to make as economy-class commoditization intensifies.",
+      "takeaway": "By removing revenue seats to expand economy pitch, this airline is betting that premium comfort positioning justifies lower capacity and higher per-seat yields.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airline-sacrifices-revenue-seats-most-spacious-economy-class-2026/"
@@ -215,11 +268,25 @@
       "publishedAt": "2026-04-04T22:00:18.000Z"
     },
     {
+      "id": "srxz96",
+      "type": "news",
+      "headline": "U.S. F-16 Shown with Mine-Dispensing Cluster Bombs",
+      "blurb": "CENTCOM has released photos of F-16s loaded with cluster bombs for operations in Iran, a week after BLU-91/B ‘Gator’ anti-tank mines were found on the ground. The U.S. Central Command has released on Apr. 4, 2026, new photos of U.S. Air Force F-16CM Fighting Falcon fighter jets (specifically Block...",
+      "takeaway": "Cluster munition deployment capability represents a significant escalation in F-16 operational loadouts for regional contingencies, expanding beyond traditional air-to-surface roles.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/04/04/us-f-16-shown-with-mine-dispensing-cluster-bombs/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-04-04T21:22:42.000Z"
+    },
+    {
       "id": "yt-auto-R8xtl4OW9eg",
       "type": "video",
       "headline": "RNO Mustang 9 Departure",
       "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "Reno-Tahoe's Mustang 9 Departure requires heightened pilot attention due to specific procedural complexities that differ from standard departure protocols at this airport.",
+      "takeaway": "Reno-Tahoe's Mustang 9 Departure requires heightened pilot attention due to specific procedural complexities that differ from standard departure operations.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
         "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
@@ -232,45 +299,15 @@
         "regulation",
         "pilot"
       ],
-      "publishedAt": "2026-04-05T07:16:25.986Z",
+      "publishedAt": "2026-04-05T08:53:34.118Z",
       "videoContent": true
-    },
-    {
-      "id": "8e26lg",
-      "type": "news",
-      "headline": "How Much Does It Cost To Operate A Boeing 777 In 2026?",
-      "blurb": "The Boeing 777 is the world's largest twinjet and is one of the workhorses of long-haul routes, although its operating expenses are high.",
-      "takeaway": "Advanced 777 operating costs in 2026 will be significantly impacted by fuel efficiency upgrades and maintenance innovations, directly affecting long-haul profitability margins.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/how-much-cost-operate-boeing-777-2026/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing"
-      ],
-      "publishedAt": "2026-04-04T21:31:18.000Z"
-    },
-    {
-      "id": "srxz96",
-      "type": "news",
-      "headline": "U.S. F-16 Shown with Mine-Dispensing Cluster Bombs",
-      "blurb": "CENTCOM has released photos of F-16s loaded with cluster bombs for operations in Iran, a week after BLU-91/B ‘Gator’ anti-tank mines were found on the ground. The U.S. Central Command has released on Apr. 4, 2026, new photos of U.S. Air Force F-16CM Fighting Falcon fighter jets (specifically Block...",
-      "takeaway": "U.S. Central Command's public release of F-16 cluster munition loadout photos signals escalating operational readiness posturing in the region amid mine deployment discoveries.",
-      "source": {
-        "name": "The Aviationist",
-        "url": "https://theaviationist.com/2026/04/04/us-f-16-shown-with-mine-dispensing-cluster-bombs/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-04-04T21:22:42.000Z"
     },
     {
       "id": "xpsimv",
       "type": "news",
       "headline": "Atlas 5 launches Amazon Leo satellites",
       "blurb": "An Atlas 5 launched the latest set of satellites for Amazon’s broadband constellation April 4 as the company seeks to accelerate deployment of its spacecraft.",
-      "takeaway": "Amazon's accelerated Leo satellite deployment signals competitive pressure in the commercial space broadband market as multiple mega-constellations race for orbital coverage.",
+      "takeaway": "Amazon's accelerated Leo deployment signals intensifying competition in satellite broadband with United Launch Alliance as a critical launch partner for constellation expansion.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/atlas-5-launches-amazon-leo-satellites/"
@@ -282,32 +319,11 @@
       "publishedAt": "2026-04-04T20:27:36.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise abatement procedures must balance operational efficiency against residential constraints imposed by dense Bay Area terrain and overlapping Class B airspace.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-05T07:16:25.986Z",
-      "videoContent": true
-    },
-    {
       "id": "7ph5yn",
       "type": "news",
       "headline": "NASA Answers Your Most Pressing Artemis II Questions",
       "blurb": "The first crewed test flight under NASA’s Artemis program is underway. Four Artemis II astronauts are flying aboard NASA’s Orion spacecraft around the Moon and back, as they test how the spacecraft’s systems operate in a deep space environment. NASA astronauts Reid Wiseman, Victor Glover, and...",
-      "takeaway": "Artemis II validates critical Orion spacecraft systems in lunar environment, directly informing design decisions for subsequent crewed Moon landings and deep-space missions.",
+      "takeaway": "Artemis II's crewed lunar flyby provides critical real-world validation of Orion's deep-space systems before the program commits to surface landings, directly informing spacecraft reliability requirements.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/"
@@ -324,23 +340,39 @@
       "type": "news",
       "headline": "SES eyes cross-unit content bundles between media and aero",
       "blurb": "Multi-orbit satellite operator SES is exploring cross-unit content bundles between its media and aero or cruise businesses, as the passenger experience evolves. The revelation, made by SES senior product executive Blane Boynton during the SATShow conference and exhibition in Washington D.C., comes...",
-      "takeaway": "SES is integrating satellite media services with in-flight connectivity to create bundled offerings, positioning satellite operators as comprehensive passenger experience providers rather than single-service vendors.",
+      "takeaway": "SES is monetizing evolving passenger expectations by bundling satellite-delivered media with in-flight connectivity, creating new revenue streams across its media and aerospace divisions.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/whichever-team-enables-it-first-will-have-the-advantage/"
       },
-      "category": "aerospace",
+      "category": "commercial",
       "keywords": [
         "airline"
       ],
       "publishedAt": "2026-04-04T17:44:21.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all aviation layers offers near-term capacity gains while new technologies mature, requiring coordinated implementation to address environmental pressure from rising demand.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-05T08:53:34.118Z"
+    },
+    {
       "id": "mrsja3",
       "type": "news",
       "headline": "Mission to Recover Downed F-15E Aircrew Puts Combat Search And Rescue in the Spotlight",
       "blurb": "The loss of an F-15E Strike Eagle in Iran prompted specialized Combat Search and Rescue units to spring into action, with a multitude of assets working together to recover all missing aircrew. Here’s how. On Apr. 3, 2026, multiple specialized units sprang into action for a complex mission they...",
-      "takeaway": "Combat Search and Rescue operations require coordinated deployment of multiple specialized assets across theaters, highlighting the critical infrastructure needed to recover personnel in denied environments.",
+      "takeaway": "CSAR operations require coordinated deployment of multiple specialized assets across hostile territory, making interagency training and equipment redundancy critical for aircrew recovery success.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/04/csar-in-the-spotlight/"
@@ -350,27 +382,11 @@
       "publishedAt": "2026-04-04T17:29:48.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation sectors can simultaneously address capacity constraints and environmental impact, requiring integrated research spanning airline, airport, and air traffic management systems.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-05T07:16:25.987Z"
-    },
-    {
       "id": "vi8o7q",
       "type": "news",
       "headline": "Space Force budget would more than double in Trump’s $1.5 trillion defense plan",
       "blurb": "$71 billion request for the U.S. Space Force for fiscal year 2027 includes more than $60 billion for procurement, research and development...",
-      "takeaway": "Dramatically increased Space Force investment signals aerospace industry expansion opportunities in satellite, launch, and advanced defense technology development through 2027.",
+      "takeaway": "Unprecedented Space Force funding acceleration signals defense prioritization of space-based systems critical to modern aviation infrastructure and GPS/navigation reliability.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-force-budget-would-more-than-double-in-trumps-1-5-trillion-defense-plan/"
@@ -386,7 +402,7 @@
       "type": "news",
       "headline": "Iran’s RQ-170 Clone Destroyed in U.S. Strikes, CENTCOM Video Shows",
       "blurb": "A video shared by CENTCOM shows the destruction of an Iranian clone of the RQ-170 Sentinel, which was reverse-engineered after crashing in Iran 15 years ago. An Iranian clone of the secretive U.S. RQ-170 Sentinel ISR drone was apparently destroyed in an airstrike, an Apr. 2, 2026 video by the U.S....",
-      "takeaway": "Iran's reverse-engineered RQ-170 clone vulnerability demonstrates that adversary drone capabilities derived from captured U.S. technology remain operationally exposed to precision strikes.",
+      "takeaway": "Iran's reverse-engineered RQ-170 clone demonstrates how adversaries weaponize captured U.S. technology, underscoring critical vulnerabilities in drone security protocols.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/04/irans-rq-170-clone-destroyed-in-us-strikes/"
@@ -403,7 +419,7 @@
       "type": "news",
       "headline": "Illuminated in Orion",
       "blurb": "NASA astronaut Christina Koch reads on a tablet in the dimly lit Orion crew capsule in this April 3, 2026, photo. To the right of the image’s center, CSA (Canadian Space Agency) astronaut Jeremy Hansen is seen in profile peering out of one of Orion’s windows. Lights are turned off to avoid glare on...",
-      "takeaway": "Orion's lighting design prioritizes window visibility for lunar observation while managing power constraints on deep-space missions.",
+      "takeaway": "Orion's lighting design balances habitability with operational needs, as astronauts manage glare and visibility during extended crewed missions beyond low Earth orbit.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/illuminated-in-orion/"
@@ -420,7 +436,7 @@
       "type": "news",
       "headline": "Light Dynamix – Development Drone/UAV Engineer",
       "blurb": "We are looking for a practical, capable Development Engineer to join our team in a hands-on engineering...",
-      "takeaway": "UAV manufacturers are actively hiring specialized development engineers, indicating accelerating commercialization and product maturation in the drone sector.",
+      "takeaway": "Specialized UAV engineering roles indicate the drone industry's maturation beyond pilot positions toward complex R&D talent demands.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/light-dynamix-development-drone-uav-engineer/"
@@ -436,7 +452,7 @@
       "type": "news",
       "headline": "Artemis 2 in good shape cruising towards the moon",
       "blurb": "A day after lighting its engine to head to the moon, the Artemis 2 Orion spacecraft is performing well with only minor issues.",
-      "takeaway": "Artemis 2's successful trans-lunar injection with minimal anomalies demonstrates NASA's readiness to execute crewed lunar missions, reducing technical risk for the subsequent Artemis 3 landing attempt.",
+      "takeaway": "Artemis 2's successful trans-lunar injection with minimal anomalies validates NASA's deep-space propulsion systems for crewed lunar operations.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-in-good-shape-cruising-towards-the-moon/"
@@ -452,7 +468,7 @@
       "type": "news",
       "headline": "Trump budget seeks $372 million cut to US Essential Air Service program",
       "blurb": "US President Donald Trump’s fiscal 2027 budget proposal takes aim at the Essential Air Service program, calling for…...",
-      "takeaway": "Cutting EAS funding would eliminate subsidized air service to 56 rural communities, potentially forcing regional airlines to abandon unprofitable routes and stranding underserved populations from air connectivity.",
+      "takeaway": "EAS program cuts would disproportionately impact regional carriers and small communities reliant on subsidized service, potentially consolidating routes among major operators.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/trump-budget-essential-air-service-cut-372m"
@@ -466,7 +482,7 @@
       "type": "news",
       "headline": "NASA Sets Coverage for Northrop Grumman’s CRS-24 Resupply Launch",
       "blurb": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 8:49 a.m. EDT on Wednesday, April 8, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL...",
-      "takeaway": "Northrop Grumman's upgraded Cygnus XL variant increases ISS resupply capacity to 11,000 pounds, expanding the payload flexibility available to commercial cargo providers.",
+      "takeaway": "Northrop Grumman's larger Cygnus XL variant demonstrates increased cargo capacity for ISS resupply missions, enhancing commercial space logistics efficiency.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/"
@@ -484,7 +500,7 @@
       "type": "news",
       "headline": "US A-10 hit during Iran rescue mission, pilot ejects and is rescued",
       "blurb": "A US Air Force A-10 was hit during combat operations tied to the war with Iran on April…...",
-      "takeaway": "Combat damage to frontline tactical aircraft during Middle East operations underscores ongoing maintenance and readiness challenges for legacy military platforms.",
+      "takeaway": "Combat damage to tactical aircraft during extended Middle East operations underscores maintenance and readiness challenges for aging military fleets operating in high-threat environments.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/u-s-a-10-hit-during-iran-rescue-mission-pilot-ejects-and-is-rescued"
@@ -500,7 +516,7 @@
       "type": "news",
       "headline": "Press Release: SUM Air orders up to eight ATR 72-600s",
       "blurb": "ATR, the world’s leading regional aircraft manufacturer, today announced that SUM Air, Korea’s newest regional airline, has placed an order for four brand‑new ATR 72‑600 aircraft, along with four additional purchase rights, with deliveries scheduled from 2028. The agreement was signed on the...",
-      "takeaway": "Korean regional carrier SUM Air's 2028-delivery ATR order signals renewed confidence in turboprop economics for Asian regional markets amid post-pandemic fleet modernization.",
+      "takeaway": "SUM Air's commitment to ATR72-600s signals confidence in regional turboprop economics despite rising competition from modern jets in Asian markets.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/press-release-sum-air-orders-up-to-eight-atr-72-600s/"
@@ -516,12 +532,12 @@
       "type": "news",
       "headline": "Michael Graham Named NTSB Vice Chairman",
       "blurb": "The certified transport pilot and NTSB board member will co-head the agency for a three-year term.",
-      "takeaway": "Graham's pilot background may strengthen the NTSB's technical credibility in investigating complex aviation accidents and influencing safety recommendations.",
+      "takeaway": "Graham's operational flying background as a certified transport pilot brings direct accident investigation experience to NTSB leadership during a period of rising aviation incidents.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/accidents-ntsb/michael-graham-named-ntsb-vice-chairman/"
       },
-      "category": "safety",
+      "category": "regulatory",
       "keywords": [
         "ntsb",
         "pilot"
@@ -533,12 +549,12 @@
       "type": "news",
       "headline": "US and Europe revise GPS interference guidelines as spoofing risks grow",
       "blurb": "Aviation authorities are warning that instances of GPS interference have spread across a widening range of high-risk airspace,…...",
-      "takeaway": "Growing GPS spoofing incidents are forcing simultaneous regulatory updates on both sides of the Atlantic, signaling an urgent systemic vulnerability in navigation infrastructure that operators must address immediately.",
+      "takeaway": "Expanding GPS spoofing threats across multiple regions signal an urgent need for aviation operators to implement redundant navigation systems beyond reliance on satellite positioning.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-europe-gps-gnss-spoofing-jamming-response"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "space"
       ],
@@ -549,7 +565,7 @@
       "type": "news",
       "headline": "Updated: A-10 Thunderbolt II Crashed Near the Strait of Hormuz, U.S. Officials Tell NYT",
       "blurb": "Almost the same time as an F-15E Strike Eagle went down over Iran, the U.S. Air Force lost an A-10 Thunderbolt II attack aircraft near the Strait of Hormuz. U.S. officials told NYT that the jet’s pilot was safely rescued. While search and rescue efforts for at least one of the crew members of an […]...",
-      "takeaway": "The simultaneous loss of both an A-10 and F-15E in the Persian Gulf region suggests intensified combat operations with potential implications for aircraft availability and tactical doctrine.",
+      "takeaway": "Two separate U.S. Air Force losses in the same region within hours suggests heightened operational tempo and risk in Middle Eastern airspace amid regional tensions.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/03/a-10-thunderbolt-ii-crashed-near-the-strait-of-hormuz/"
@@ -567,7 +583,7 @@
       "type": "news",
       "headline": "Meet NASA’s New Artemis II Science Officers",
       "blurb": "NASA’s first Artemis II science officers—Kelsey Young, Trevor Graff, and Angela Garcia—are pioneering a new era of mission operations by integrating advanced lunar science directly into Mission Control. Their work will shape how future Artemis crews observe, analyze, and deepen our understanding of...",
-      "takeaway": "Dedicated science officers in Mission Control will enable real-time lunar research optimization during Artemis II, establishing operational protocols for future crewed deep-space missions.",
+      "takeaway": "Embedding dedicated science officers in Mission Control represents a fundamental shift in lunar exploration operations, enabling real-time scientific decision-making rather than post-mission analysis.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/missions/artemis/meet-nasas-new-artemis-ii-science-officers/"
@@ -577,22 +593,6 @@
         "nasa"
       ],
       "publishedAt": "2026-04-03T17:35:44.000Z"
-    },
-    {
-      "id": "fsaeqn",
-      "type": "news",
-      "headline": "Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand",
-      "blurb": "Italy’s Argotec has officially opened its first U.S. satellite production facility, cementing a foothold near Kennedy Space Center in Florida to join other foreign space firms pursuing growing demand from American programs.",
-      "takeaway": "European space manufacturers are establishing U.S. production capacity to bypass export restrictions while capitalizing on increased American satellite demand from government and commercial programs.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/italys-argotec-plans-to-scale-florida-satellite-facility-to-meet-rising-us-demand/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-03T17:33:12.000Z"
     }
   ]
 }
