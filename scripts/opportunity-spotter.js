@@ -210,20 +210,7 @@ async function main() {
   console.log('PAI AeroNews — Opportunity Spotter');
   console.log('='.repeat(40));
 
-  // 1. Schedule gate
-  const forceNow = process.env.OPPORTUNITY_FORCE_NOW === 'true';
-  if (!forceNow) {
-    const currentHourUTC = new Date().getUTCHours();
-    const targetHour = 10; // 10:00 UTC — matches workflow cron
-    if (currentHourUTC !== targetHour) {
-      console.log(`Not opportunity spotter hour (current: ${currentHourUTC} UTC, target: ${targetHour} UTC). Skipping.`);
-      process.exit(0);
-    }
-  } else {
-    console.log('OPPORTUNITY_FORCE_NOW set — bypassing schedule gate.');
-  }
-
-  // 2. Check for API key
+  // 1. Check for API key
   if (!process.env.ANTHROPIC_API_KEY) {
     console.log('No ANTHROPIC_API_KEY set — skipping opportunity spotter.');
     process.exit(0);
