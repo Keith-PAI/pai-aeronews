@@ -42,6 +42,9 @@ permissions:
 
 jobs:
   update-news:
+    if: >-
+      github.event_name != 'schedule' ||
+      github.event.schedule == '0 * * * *'
     runs-on: ubuntu-latest
 
     steps:
@@ -185,7 +188,6 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BLOG_TEAMS_WEBHOOK_URL: ${{ secrets.BLOG_TEAMS_WEBHOOK_URL }}
-          OPPORTUNITY_FORCE_NOW: ${{ inputs.forceOpportunitySpotterNow }}
         run: node scripts/opportunity-spotter.js
 
       - name: Push updated counters to gh-pages
