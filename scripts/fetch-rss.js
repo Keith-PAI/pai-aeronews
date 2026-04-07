@@ -594,6 +594,57 @@ function extractKeywords(text) {
 }
 
 /**
+ * Exclude administrative/funding/contracting articles unless they have a
+ * direct connection to aviation safety operations or SMS.
+ *
+ * Returns true if the article should be DROPPED from the public feed.
+ */
+function isAdministrativeFundingNoise(article) {
+  const text = `${article.headline || ''} ${article.blurb || ''}`.toLowerCase();
+
+  const excludePatterns = [
+    'grants status request',
+    'notice of funding availability',
+    'notice of funding',
+    'funding opportunity',
+    'nofo',
+    'request for proposal',
+    'request for proposals',
+    'rfp',
+    'solicitation',
+    'cooperative agreement',
+    'contract award',
+    'contracting opportunity',
+    'grant application',
+    'grant program',
+    'grant announcement',
+    'grant funding',
+  ];
+
+  const matchedExclude = excludePatterns.some(p => text.includes(p));
+  if (!matchedExclude) return false;
+
+  // Allow-list: keep if there's a direct, specific tie to safety ops / SMS.
+  const safetyAllowPatterns = [
+    'safety management system',
+    ' sms ',
+    '(sms)',
+    'runway safety',
+    'flight safety',
+    'aviation safety',
+    'safety operations',
+    'accident',
+    'ntsb',
+    'icao safety',
+    'safety oversight',
+  ];
+
+  const paddedText = ` ${text} `;
+  const matchedAllow = safetyAllowPatterns.some(p => paddedText.includes(p));
+  return !matchedAllow;
+}
+
+/**
  * Daily Claude API call cap for the public pipeline.
  */
 const CLAUDE_PUBLIC_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_PUBLIC || '900', 10);
@@ -1225,10 +1276,18 @@ async function main() {
       }
     }
 
+    // Filter out administrative/funding/contracting noise (unless safety-related)
+    const beforeFundingFilter = deduped.length;
+    const filteredDeduped = deduped.filter(a => !isAdministrativeFundingNoise(a));
+    const droppedCount = beforeFundingFilter - filteredDeduped.length;
+    if (droppedCount > 0) {
+      console.log(`Filtered out ${droppedCount} administrative/funding articles`);
+    }
+
     // Combine in order: high priority manual → RSS → normal manual
     const combinedArticles = [
       ...highPriorityManual,
-      ...deduped,
+      ...filteredDeduped,
       ...normalManual.filter(a => !seenUrls.has(a.source.url)),
     ];
 
