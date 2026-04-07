@@ -71,7 +71,7 @@ jobs:
       - name: Fetch RSS feeds and generate HTML
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          # TEAMS_WEBHOOK_URL intentionally omitted — daily Teams digest disabled.
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: npm run build
 
