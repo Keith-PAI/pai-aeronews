@@ -68,7 +68,20 @@ async function generateOpportunities(articles) {
 
   const articleSummary = buildArticleSummary(articles);
 
-  const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, identify 2-3 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients. Be specific — describe what the tool or post would do. For each "Inspired by" citation, format the article title as a markdown link using the URL provided in parentheses, like: [Article Title](https://...). Do not include bare URLs.
+  const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, surface up to 7 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients.
+
+Rank the opportunities by urgency, most time-sensitive first. If fewer than 3 genuinely strong opportunities exist in today's articles, surface only the real ones — do not pad the list with weak items just to hit 7. Quality over quantity.
+
+For each opportunity, include all of the following:
+
+- **Headline** — a short title for the opportunity
+- **Tier** — exactly one of: 🔴 Act Now / 🟡 Strong Lead / 🔵 Watch This
+- **Why Now** — one sentence explaining the urgency or timing window (e.g., "FAA comment period closes Thursday" or "Story broke this morning — high visibility window while the topic is trending")
+- **First Step** — one concrete sentence suggesting the immediate action PAI could take (e.g., "Draft a 400-word LinkedIn post today" or "Build a readiness checklist tool for Part 141 schools")
+- **Opportunity description** — what the tool, widget, or post would actually do, specific enough to act on
+- **Inspired by** — citation(s) to the source article(s)
+
+For each "Inspired by" citation, format the article title as a markdown link using the URL provided in parentheses, like: [Article Title](https://...). Do not include bare URLs.
 
 Today's articles:
 
