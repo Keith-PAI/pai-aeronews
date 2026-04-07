@@ -3,11 +3,15 @@
 /**
  * PAI AeroNews - Opportunity Spotter
  *
- * Reads today's articles from dist/news-data.json, sends them to Claude in a
- * single API call to identify 2-3 actionable content or tool ideas for PAI
- * Consulting, and posts the result to a Teams channel via webhook.
+ * Reads articles from dist/news-data.json, filters out URLs already processed
+ * in prior runs (tracked in dist/os-seen-urls.json), and — if any new articles
+ * remain — sends them to Claude in a single API call to surface up to 7 ranked
+ * content/tool opportunities for PAI Consulting. Posts results to Teams via
+ * BLOG_TEAMS_WEBHOOK_URL.
  *
- * Zero changes to the public pipeline. Runs daily at noon UTC.
+ * Designed to run as a step inside the hourly update-news job. Skips the
+ * Claude call entirely when there are no new URLs since the last run.
+ * Failures are non-fatal — never break the public pipeline.
  *
  * Usage:
  *   node scripts/opportunity-spotter.js
@@ -23,7 +27,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const NEWS_DATA_PATH = path.join(__dirname, '..', 'dist', 'news-data.json');
-const OPPORTUNITY_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_OPPORTUNITY || '10', 10);
+const SEEN_URLS_PATH = path.join(__dirname, '..', 'dist', 'os-seen-urls.json');
+const SEEN_URLS_MAX = 500; // FIFO cap to keep the file bounded
+const OPPORTUNITY_CAP = parseInt(process.env.CLAUDE_DAILY_CALL_CAP_OPPORTUNITY || '30', 10);
 const OPPORTUNITY_COUNTER_KEY = 'opportunityCallsToday';
 
 /**
@@ -36,6 +42,42 @@ function loadNewsData() {
   } catch (error) {
     console.log('dist/news-data.json not found or unreadable — skipping opportunity spotter.');
     return null;
+  }
+}
+
+/**
+ * Load the set of article URLs that the OS has already processed in past runs.
+ * Missing/unreadable file → empty set (first run, graceful degradation).
+ */
+function loadSeenUrls() {
+  try {
+    const raw = fs.readFileSync(SEEN_URLS_PATH, 'utf-8');
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed.urls)) return new Set(parsed.urls);
+    return new Set();
+  } catch (error) {
+    return new Set();
+  }
+}
+
+/**
+ * Persist the seen-URLs set to dist/os-seen-urls.json. The set is trimmed
+ * (FIFO) to SEEN_URLS_MAX entries so the file stays bounded over months.
+ */
+function saveSeenUrls(seenSet) {
+  try {
+    const urls = Array.from(seenSet);
+    const trimmed = urls.length > SEEN_URLS_MAX
+      ? urls.slice(urls.length - SEEN_URLS_MAX)
+      : urls;
+    const payload = {
+      updatedAt: new Date().toISOString(),
+      count: trimmed.length,
+      urls: trimmed,
+    };
+    fs.writeFileSync(SEEN_URLS_PATH, JSON.stringify(payload, null, 2));
+  } catch (error) {
+    console.warn(`Failed to write os-seen-urls.json: ${error.message}`);
   }
 }
 
@@ -70,7 +112,11 @@ async function generateOpportunities(articles) {
 
   const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, surface up to 7 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients.
 
-Rank the opportunities by urgency, most time-sensitive first. If fewer than 3 genuinely strong opportunities exist in today's articles, surface only the real ones — do not pad the list with weak items just to hit 7. Quality over quantity.
+**PAI's core services:** SMS implementation, safety program development, regulatory compliance consulting, aviation document editing, and meeting/conference support. Opportunities should connect directly to one of these.
+
+**What makes a strong opportunity.** A strong opportunity meets at least one of these criteria: (1) there is a regulatory deadline or comment period approaching, (2) a safety incident or investigation has just been reported that operators need to respond to, (3) a new rule, guidance, or requirement has been published that PAI's clients must understand, (4) an emerging trend creates a clear gap that a PAI tool or blog post could fill. A weak opportunity is general industry news with no clear PAI angle. When in doubt, surface it with a 🔵 Watch This tier rather than skipping it.
+
+Rank the opportunities by urgency, most time-sensitive first. If fewer than 3 genuinely strong opportunities exist in these articles, surface only the real ones — do not pad the list with weak items just to hit 7. Quality over quantity.
 
 For each opportunity, include all of the following:
 
@@ -83,7 +129,7 @@ For each opportunity, include all of the following:
 
 For each "Inspired by" citation, format the article title as a markdown link using the URL provided in parentheses, like: [Article Title](https://...). Do not include bare URLs.
 
-Today's articles:
+New articles since the last opportunity scan:
 
 ${articleSummary}`;
 
@@ -161,7 +207,7 @@ function buildTeamsCard(opportunityText, articleCount) {
           },
           {
             type: 'TextBlock',
-            text: '📅 Daily · ~6 AM EDT',
+            text: '🕐 Hourly · new opportunities only',
             size: 'small',
             isSubtle: true,
             spacing: 'none',
@@ -175,7 +221,7 @@ function buildTeamsCard(opportunityText, articleCount) {
           },
           {
             type: 'TextBlock',
-            text: `Based on ${articleCount} article${articleCount === 1 ? '' : 's'} in today's feed`,
+            text: `Based on ${articleCount} new article${articleCount === 1 ? '' : 's'} since last run`,
             size: 'small',
             isSubtle: true,
           },
@@ -238,27 +284,52 @@ async function main() {
 
   console.log(`Loaded ${newsData.articles.length} articles from news-data.json`);
 
-  // 4. Check Claude daily cap (one call needed — independent counter)
+  // 4. Filter against the seen-URLs set — only analyze new articles.
+  const seen = loadSeenUrls();
+  console.log(`Loaded ${seen.size} previously-seen article URLs`);
+
+  const newArticles = newsData.articles.filter(a => {
+    const url = a.source?.url;
+    return url && !seen.has(url);
+  });
+
+  if (newArticles.length === 0) {
+    console.log('No new articles since last OS run — skipping Claude call.');
+    process.exit(0);
+  }
+
+  console.log(`Found ${newArticles.length} new article${newArticles.length === 1 ? '' : 's'} to analyze`);
+
+  // 5. Check Claude daily cap (one call needed — independent counter)
   if (!canSpendClaude(1, OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY)) {
     const remaining = claudeCallsRemaining(OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY);
-    console.warn(`⚠ CLAUDE DAILY CAP REACHED (opportunity cap: ${OPPORTUNITY_CAP}, remaining: ${remaining}). Exiting.`);
+    console.warn(`⚠ CLAUDE DAILY CAP REACHED (opportunity cap: ${OPPORTUNITY_CAP}, remaining: ${remaining}). Exiting without marking URLs as seen so they're picked up after the counter resets.`);
     process.exit(0);
   }
 
   console.log(`Claude cap OK (remaining: ${claudeCallsRemaining(OPPORTUNITY_CAP, OPPORTUNITY_COUNTER_KEY)})`);
 
-  // 5. Generate opportunities (single API call)
-  console.log('\nSending articles to Claude for opportunity analysis...');
-  const opportunities = await generateOpportunities(newsData.articles);
+  // 6. Generate opportunities (single API call against the new articles only)
+  console.log('\nSending new articles to Claude for opportunity analysis...');
+  const opportunities = await generateOpportunities(newArticles);
 
   if (!opportunities) {
-    console.warn('No opportunity ideas generated. Exiting.');
+    console.warn('No opportunity ideas generated. Exiting without marking URLs as seen.');
     process.exit(0);
   }
 
   console.log('✓ Opportunities generated');
 
-  // 6. Check for webhook URL
+  // 7. Mark new URLs as seen — persist regardless of whether the Teams post
+  // succeeds. We've already paid for the Claude call; re-processing the same
+  // articles next hour would waste quota.
+  for (const a of newArticles) {
+    if (a.source?.url) seen.add(a.source.url);
+  }
+  saveSeenUrls(seen);
+  console.log(`✓ Marked ${newArticles.length} URL(s) as seen (total tracked: ${seen.size})`);
+
+  // 8. Check for webhook URL
   const webhookUrl = process.env.BLOG_TEAMS_WEBHOOK_URL;
   if (!webhookUrl) {
     console.log('\nNo BLOG_TEAMS_WEBHOOK_URL configured — printing to console instead.');
@@ -266,10 +337,10 @@ async function main() {
     process.exit(0);
   }
 
-  // 7. Post to Teams
+  // 9. Post to Teams
   console.log('\nPosting opportunities to Teams...');
   try {
-    const payload = buildTeamsCard(opportunities, newsData.articles.length);
+    const payload = buildTeamsCard(opportunities, newArticles.length);
     await postToTeams(webhookUrl, payload);
     console.log('✓ Opportunity spotter posted to Teams successfully.');
   } catch (error) {
