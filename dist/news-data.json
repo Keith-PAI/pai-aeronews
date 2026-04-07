@@ -1,12 +1,58 @@
 {
-  "lastUpdated": "2026-04-07T02:56:01.918Z",
+  "lastUpdated": "2026-04-07T05:17:01.243Z",
   "articles": [
+    {
+      "id": "tqpne7",
+      "type": "news",
+      "headline": "Iran War Fallout: Airlines Slash Thousands Of Flights Amid Global Fuel Shortages",
+      "blurb": "As the Iran crisis escalates, airlines worldwide are grappling with skyrocketing fuel costs and limited access to jet fuel.",
+      "takeaway": "Geopolitical disruptions are forcing airlines to reduce capacity rather than absorb margin-crushing fuel cost increases, signaling potential industry-wide consolidation if tensions persist.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/iran-war-airline-flight-cancellations-fuel-shortage/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-04-07T05:08:21.000Z"
+    },
+    {
+      "id": "o8zpyt",
+      "type": "news",
+      "headline": "I’m A Flight Attendant: This Is How We Handle Difficult Passengers",
+      "blurb": "Always trying to resolve issues before they start.",
+      "takeaway": "Flight attendants prioritize de-escalation and environmental management to prevent passenger incidents rather than reactive enforcement, reducing operational disruptions and safety risks.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/fa-handle-difficult-passengers/"
+      },
+      "category": "safety",
+      "keywords": [],
+      "publishedAt": "2026-04-07T05:00:17.000Z"
+    },
+    {
+      "id": "eglz5a",
+      "type": "news",
+      "headline": "Drought Parches Florida",
+      "blurb": "The state was unusually dry for much of 2025, but the intensity of the drought has ratcheted up since January 2026.",
+      "takeaway": "Prolonged drought conditions in Florida may impact aviation operations through reduced water availability for aircraft cooling systems and fire suppression infrastructure at regional airports.",
+      "source": {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/drought-parches-florida/"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "atc"
+      ],
+      "publishedAt": "2026-04-07T04:01:00.000Z"
+    },
     {
       "id": "28p3jd",
       "type": "news",
       "headline": "Artemis 2 swings around the moon",
       "blurb": "Four astronauts from the United States and Canada became the humans to travel the furthest from the Earth April 6 as they went around the moon on the Artemis 2 mission.",
-      "takeaway": "Artemis 2's successful lunar flyby validates NASA's deep-space infrastructure for sustained human exploration beyond Earth orbit.",
+      "takeaway": "Artemis 2's successful lunar flyby demonstrates NASA's readiness for crewed moon landing operations and validates the SLS/Orion system before the Artemis 3 surface mission.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-swings-around-the-moon/"
@@ -18,11 +64,31 @@
       "publishedAt": "2026-04-07T01:51:44.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "SMS Declaration of Compliance demonstrates FAA's shift toward outcome-based regulation, requiring operators to self-certify their safety management systems rather than relying solely on agency audits.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-04-07T05:16:09.275Z",
+      "paiContent": true
+    },
+    {
       "id": "oiudnz",
       "type": "news",
       "headline": "The Problem With Ultra Long-Haul Flights Airlines Don’t Talk About",
       "blurb": "Why Air New Zealand is unable to compete on its flagship route.",
-      "takeaway": "Fuel consumption and aircraft economics on ultra long-haul routes create structural disadvantages for carriers lacking scale or favorable fuel pricing agreements.",
+      "takeaway": "Ultra long-haul routes require massive fuel loads that compromise payload capacity, forcing airlines to choose between distance and profitability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/problem-ultra-long-haul-flights-airlines-dont-talk-about/"
@@ -38,7 +104,7 @@
       "type": "news",
       "headline": "5 Fighter Jets With The Most Advanced Radar Systems",
       "blurb": "The fighters with the longest striking range.",
-      "takeaway": "Advanced radar systems extend combat engagement ranges beyond 200 nautical miles, fundamentally reshaping air superiority tactics and interception capabilities.",
+      "takeaway": "Modern fighter radar capabilities now extend engagement ranges beyond 200 nautical miles, fundamentally changing air combat tactics and defensive requirements.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-fighter-jets-most-advanced-radar-systems/"
@@ -52,7 +118,7 @@
       "type": "news",
       "headline": "Air Canada Expands To The Canary Islands & Latin America, Thanks To The Airbus A321XLR & A220",
       "blurb": "The carrier is making big moves in high-yield markets.",
-      "takeaway": "Air Canada's expansion into long-range leisure markets demonstrates how newer-generation aircraft like the A321XLR enable profitable transatlantic operations from smaller hubs without requiring widebody aircraft.",
+      "takeaway": "Air Canada's A321XLR and A220 deployment enables profitable ultra-long-range point-to-point service to previously underserved markets without hub dependency.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canada-expands-canary-islands-latin-america-airbus-a321xlr-a220/"
@@ -64,31 +130,11 @@
       "publishedAt": "2026-04-06T23:30:18.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "The SMS Declaration of Compliance is now a mandatory filing requirement that demonstrates operators have implemented FAA-approved safety management systems, creating accountability through formal documentation.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-07T02:55:20.080Z",
-      "paiContent": true
-    },
-    {
       "id": "4q4u7j",
       "type": "news",
       "headline": "Here's How Air Canada's Airbus A321XLR 1-1 Lie-Flat Suites Compare To Widebody Business Class",
       "blurb": "The A321XLR's 4,700-nautical-mile range opens secondary European cities but does the 12.2-foot-wide cabin match the widebody experience?",
-      "takeaway": "Air Canada's A321XLR single-aisle configuration sacrifices widebody cabin comfort for route flexibility, creating a mid-market business product that narrows rather than expands premium connectivity options.",
+      "takeaway": "Air Canada's A321XLR cabin width constraint (12.2 feet vs. typical widebody 20+ feet) requires creative suite design that may compromise the spacious lie-flat experience passengers expect in premium long-haul cabins.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canada-airbus-a321xlr-1-1-lie-flat-suites-compare-widebody-business-class/"
@@ -101,11 +147,31 @@
       "publishedAt": "2026-04-06T23:00:17.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective SRM requires organizations to systematically implement layered controls while explicitly documenting why remaining risks are operationally acceptable.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-07T05:16:09.275Z",
+      "paiContent": true
+    },
+    {
       "id": "h4049v",
       "type": "news",
       "headline": "“There’s A Huge Demand”: The Boeing 787-8 Dreamliner Demolished After Only 13 Flying Hours",
       "blurb": "A barely flown Boeing 787-8 is scrapped because its parts are worth more than the whole.",
-      "takeaway": "Supply chain disruptions have made aircraft component values exceed airframe worth, incentivizing operators to scrap serviceable aircraft for parts rather than fly them.",
+      "takeaway": "Supply chain constraints and parts scarcity are now driving aircraft parting economics, signaling wider structural issues in aerospace manufacturing recovery.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-787-8-dreamliner-demolished-13-flying-hours/"
@@ -121,7 +187,7 @@
       "type": "news",
       "headline": "The Cost Of Flying Premium Economy In 2026 Compared To Economy",
       "blurb": "The hidden truth about premium economy.",
-      "takeaway": "Premium economy pricing gaps are widening as airlines leverage ancillary revenue strategies to offset narrowbody fleet economics in long-haul markets.",
+      "takeaway": "Premium economy pricing strategies in 2026 reveal carriers are leveraging capacity constraints and ancillary revenue models to compress traditional cabin-class distinctions.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/cost-flying-premium-economy-2026-economy/"
@@ -131,32 +197,11 @@
       "publishedAt": "2026-04-06T22:00:18.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation from investigating accidents after they occur to systematically identifying and mitigating hazards before they become incidents.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-04-07T02:55:20.080Z",
-      "paiContent": true
-    },
-    {
       "id": "wxt76w",
       "type": "news",
       "headline": "The World's Largest Airline By Number Of Hubs",
       "blurb": "American Airlines reigns supreme on this front.",
-      "takeaway": "American Airlines' hub-centric network model provides competitive advantages in connecting passengers and cargo despite higher operational complexity than point-to-point competitors.",
+      "takeaway": "American Airlines' hub dominance creates significant operational complexity and regulatory scrutiny around network resilience and competitive concentration in U.S. aviation.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/worlds-largest-airline-by-number-hubs/"
@@ -172,7 +217,7 @@
       "type": "news",
       "headline": "China tests heavy cargo drone designed for extreme terrain",
       "blurb": "China has completed the maiden flight of a new 7-tonne autonomous cargo aircraft, taking a...",
-      "takeaway": "China's 7-tonne autonomous cargo drone represents a strategic capability to bypass infrastructure limitations in remote mountainous regions, potentially disrupting traditional air-cargo logistics in Asia-Pacific markets.",
+      "takeaway": "China's 7-tonne autonomous cargo drone addresses logistics gaps in mountainous regions where traditional aviation infrastructure is limited or nonexistent.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/china-tests-heavy-cargo-drone-designed-for-extreme-terrain/"
@@ -184,11 +229,37 @@
       "publishedAt": "2026-04-06T20:56:50.000Z"
     },
     {
+      "id": "yt-nbaa-pt5-sms-small-ops-spsp",
+      "type": "video",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
+      "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
+      "takeaway": "Small operators can implement SMS compliance cost-effectively by adopting Blue Skies Charter's framework, which prioritizes leadership commitment and employee training as foundational elements before addressing complex gap analysis.",
+      "source": {
+        "name": "NBAA (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kwaAzylG2bQ"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "policy",
+        "promotion",
+        "gap",
+        "leadership"
+      ],
+      "publishedAt": "2026-04-07T05:16:09.471Z",
+      "videoContent": true,
+      "duration": "20:47"
+    },
+    {
       "id": "6zts47",
       "type": "news",
       "headline": "Not So Fast: How The Boeing 757 Made A Comeback At This Luxury Airline",
       "blurb": "The aircraft is surprisingly rejoining the airline's fleet.",
-      "takeaway": "The 757's resurgence at a luxury carrier suggests operators are finding renewed value in its long-range efficiency and cabin flexibility as newer aircraft face supply constraints.",
+      "takeaway": "The 757's resurgence signals renewed operator confidence in the aircraft's efficiency and economics despite its production discontinuation two decades ago.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/boeing-757-comeback-luxury-airline/"
@@ -201,34 +272,11 @@
       "publishedAt": "2026-04-06T20:00:17.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-srm",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Risk Management",
-      "blurb": "This video covers the safety management system (SMS) component safety risk management, which determines the need for, and adequacy of, new or revised risk controls based on the assessment of acceptable risk.",
-      "takeaway": "Small operators must establish formal risk assessment processes to justify control decisions, moving beyond intuitive safety practices to data-driven risk management.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=Vx_idwnPZDE"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "aviation",
-        "safety",
-        "SMS",
-        "risk",
-        "management",
-        "SRM"
-      ],
-      "publishedAt": "2026-04-07T02:55:20.303Z",
-      "videoContent": true,
-      "duration": "9:39"
-    },
-    {
       "id": "jqiu6m",
       "type": "news",
       "headline": "NASA’s Artemis II Crew Eclipses Record for Farthest Human Spaceflight",
       "blurb": "Editor’s note: This release was updated at 7:28 p.m. EDT on April 6, 2026, to reflect Orion’s final closest approach to the lunar surface from about 4,070 miles to about 4,067 miles. NASA also updated the farthest distance Orion will travel. Finally, NASA also made changes at 10 p.m. to the...",
-      "takeaway": "Artemis II's lunar trajectory demonstrates advanced navigation precision that will inform future deep-space mission planning and crew safety protocols for extended-duration flights beyond Earth orbit.",
+      "takeaway": "Artemis II's trajectory breaks human spaceflight distance records, validating Orion capsule systems for eventual lunar landing missions and demonstrating NASA's deep-space navigation precision.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-eclipses-record-for-farthest-human-spaceflight/"
@@ -241,27 +289,11 @@
       "publishedAt": "2026-04-06T19:46:20.000Z"
     },
     {
-      "id": "oay19h",
-      "type": "news",
-      "headline": "Downsizing: Allegiant Air To Close Bellingham & Savannah Crew Bases In November",
-      "blurb": "As Allegiant Air prepares to close its Bellingham and Savannah crew bases, questions arise about the future of smaller airport hubs.",
-      "takeaway": "Allegiant's base closures signal the airline's shift away from secondary markets, potentially reshaping ultra-low-cost carrier strategy and competition at smaller regional airports.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/allegiant-air-close-bellingham-savannah-crew-bases-november/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airport"
-      ],
-      "publishedAt": "2026-04-06T19:40:46.000Z"
-    },
-    {
       "id": "5gfatt",
       "type": "news",
       "headline": "NASA’s Northrop Grumman CRS-24 Mission Overview",
       "blurb": "NASA’s Northrop Grumman Commercial Resupply Services 24 mission, or Northrop Grumman CRS-24, will deliver approximately 11,000 pounds of science and supplies to the International Space Station. This mission will be the second flight of the Cygnus XL, the larger, more cargo-capable version of the...",
-      "takeaway": "The Cygnus XL's increased 11,000-pound payload capacity represents a significant operational upgrade for ISS resupply missions, reducing launch frequency requirements and costs for NASA's cargo operations.",
+      "takeaway": "The Cygnus XL variant increases ISS resupply capacity by approximately 27% compared to standard Cygnus, enabling NASA to deliver more science experiments and maintenance supplies per mission.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-24-mission-overview/"
@@ -274,37 +306,11 @@
       "publishedAt": "2026-04-06T19:29:22.000Z"
     },
     {
-      "id": "yt-nbaa-pt5-sms-small-ops-spsp",
-      "type": "video",
-      "headline": "FAA Part 5 SMS for Small Operators: Safety Policy & Safety Promotion",
-      "blurb": "This video provides an overview of implementing a safety management system (SMS), specifically aligned with FAA Part 5 regulations. Join us as we explore Blue Skies Charter, a fictional company, and learn about general SMS requirements, safety policy development and safety promotion strategies. This video covers essential components like leadership commitment, gap analysis, safety objectives, emergency response planning and employee training. Whether you're a small charter operator or interested in aviation safety, this video offers valuable insights into building an effective SMS.",
-      "takeaway": "Small charter operators can leverage structured SMS implementation to transform safety culture through documented policies, leadership commitment, and systematic training rather than reactive compliance.",
-      "source": {
-        "name": "NBAA (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kwaAzylG2bQ"
-      },
-      "category": "safety",
-      "keywords": [
-        "aviation",
-        "safety",
-        "part 5",
-        "SMS",
-        "risk",
-        "policy",
-        "promotion",
-        "gap",
-        "leadership"
-      ],
-      "publishedAt": "2026-04-07T02:55:20.303Z",
-      "videoContent": true,
-      "duration": "20:47"
-    },
-    {
       "id": "yaqg3w",
       "type": "news",
       "headline": "K-State Salina Launches High School Aviation Camp",
       "blurb": "Weeklong program will include simulator work, ground school and up to three hours of flight time.",
-      "takeaway": "Hands-on flight experience during formative years creates pipeline talent for regional carriers facing pilot shortage challenges.",
+      "takeaway": "Hands-on aviation education programs like this bridge the critical pilot shortage by exposing high school students to realistic flying experience before college commitment.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/flight-training/k-state-salina-high-school-aviation-camp/"
@@ -314,11 +320,35 @@
       "publishedAt": "2026-04-06T19:27:38.000Z"
     },
     {
+      "id": "yt-nbaa-pt5-sms-small-ops-sa",
+      "type": "video",
+      "headline": "FAA Part 5 SMS for Small Operators: Safety Assurance",
+      "blurb": "This video covers the safety management system (SMS) component safety assurance, which  evaluates the continued effectiveness of implemented risk control strategies and supports the identification of new hazards. Whether you're an owner, operator or part of a small aviation team, this guide provides valuable insights and tools to enhance your safety management practices and ensure a safer operational environment.",
+      "takeaway": "Safety assurance in SMS requires continuous evaluation of risk controls and proactive hazard identification, not just reactive compliance with regulations.",
+      "source": {
+        "name": "NBAA (YouTube)",
+        "url": "https://www.youtube.com/watch?v=JooZXsQx1ds"
+      },
+      "category": "safety",
+      "keywords": [
+        "aviation",
+        "safety",
+        "part 5",
+        "SMS",
+        "risk",
+        "hazard",
+        "assurance"
+      ],
+      "publishedAt": "2026-04-07T05:16:09.471Z",
+      "videoContent": true,
+      "duration": "15:03"
+    },
+    {
       "id": "s37en4",
       "type": "news",
       "headline": "Moog Highlights Growing Satellite Bus Capabilities with Full‑Scale METEOR Reveal at Space Symposium",
       "blurb": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems will highlight its […]...",
-      "takeaway": "Moog's METEOR satellite bus platform expands aerospace suppliers' vertical integration into spacecraft manufacturing, potentially reshaping competitive dynamics in commercial space.",
+      "takeaway": "Moog's METEOR platform expansion signals increased competition in satellite bus manufacturing, potentially reshaping supply chains for aerospace prime contractors.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/moog-highlights-growing-satellite-bus-capabilities-with-full-scale-meteor-reveal-at-space-symposium/"
@@ -334,7 +364,7 @@
       "type": "news",
       "headline": "FOSSA targets Japan’s defense market as larger smallsats expand capabilities",
       "blurb": "Spanish startup FOSSA Systems is pushing into Japan’s defense market after securing a local partner to expand its reach, building on a shift beyond tiny picosatellites used to connect low-power monitoring devices toward more capable spacecraft for broader government applications.",
-      "takeaway": "FOSSA's expansion into Japan's defense sector signals that commercial smallsat operators are transitioning from IoT connectivity to mission-critical government applications, creating new revenue streams beyond consumer markets.",
+      "takeaway": "FOSSA's evolution from picosatellites to defense-capable platforms signals how commercial smallsat providers are capturing government contracts by expanding technical capabilities beyond IoT applications.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/fossa-targets-japans-defense-market-as-larger-smallsats-expand-capabilities/"
@@ -346,32 +376,16 @@
       "publishedAt": "2026-04-06T18:57:46.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Optimizing existing operations through technology integration offers near-term sustainability gains while aviation awaits breakthrough propulsion alternatives.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-07T02:55:20.303Z"
-    },
-    {
       "id": "xjsh4k",
       "type": "news",
       "headline": "Air Tractor Holdings Acquires Thrush Aircraft",
       "blurb": "Deal combines two ag aviation manufacturers under shared ownership.",
-      "takeaway": "Agricultural aviation consolidation reduces the competitive landscape, potentially affecting pricing and innovation in the specialized aerial application market.",
+      "takeaway": "Agricultural aviation consolidation reduces competition among specialized airframe manufacturers, potentially affecting pricing and innovation in the niche spray-plane market.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/company-news/air-tractor-acquires-thrush-aircraft/"
       },
-      "category": "corporate",
+      "category": "general-aviation",
       "keywords": [],
       "publishedAt": "2026-04-06T18:51:31.000Z"
     },
@@ -380,7 +394,7 @@
       "type": "news",
       "headline": "Hartzell Expands Top Prop Program",
       "blurb": "Update adds 150+ models, pricing changes for GA aircraft upgrades.",
-      "takeaway": "Hartzell's expanded propeller program now covers 150+ additional GA models, signaling increased retrofit market opportunities and competitive modernization options for fleet operators.",
+      "takeaway": "Hartzell's expansion of its top prop upgrade program to 150+ GA models signals growing aftermarket demand for performance improvements as older aircraft remain economically viable.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/company-news/hartzell-expands-top-prop-program/"
@@ -390,28 +404,27 @@
       "publishedAt": "2026-04-06T18:25:12.000Z"
     },
     {
-      "id": "syy9my",
-      "type": "news",
-      "headline": "The Main Features That Made The Boeing 777 A Long-Haul Leader",
-      "blurb": "Why the Boeing 777 is the most successful widebody airliner of all time.",
-      "takeaway": "The 777's twin-engine efficiency and composite materials reduced operating costs by 20% versus quad-engine competitors, fundamentally reshaping long-haul route economics.",
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational efficiency improvements across airline and airport systems offer a near-term pathway to reduce aviation's environmental footprint without waiting for technological breakthroughs.",
       "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/main-features-boeing-777-long-haul-leader/"
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [
-        "boeing",
-        "airline"
+        "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-04-06T18:00:17.000Z"
+      "publishedAt": "2026-04-07T05:16:09.471Z"
     },
     {
       "id": "uv59vf",
       "type": "news",
       "headline": "Poll: Will Phoenix Trigger Broader Landing Fees?",
       "blurb": "Could Phoenix-area landing fees spark broader GA change?",
-      "takeaway": "Phoenix's landing fee implementation may establish a precedent that pressures other cash-strapped airports to adopt similar revenue-generating policies, potentially reshaping GA economics nationwide.",
+      "takeaway": "Phoenix's landing fee implementation may pressure other regional airports to adopt similar revenue models, potentially fragmenting GA cost structures nationwide.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/polls-quizzes/poll-phoenix-trigger-broader-landing-fees/"
@@ -425,7 +438,7 @@
       "type": "news",
       "headline": "Landing Fees and Flight Training in Phoenix",
       "blurb": "As Falcon Field and Mesa Gateway add landing fees for light aircraft, officials and flight schools describe different futures for the Phoenix area.",
-      "takeaway": "Phoenix-area flight schools face operational cost pressures from new landing fees at regional airports, potentially reshaping pilot training economics and location decisions across the basin.",
+      "takeaway": "Rising landing fees at Phoenix's two primary training airports could consolidate flight schools into fewer facilities, potentially reducing training capacity and competition in a key regional aviation market.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/insider/landing-fees-alter-phoenix-flight-training/"
@@ -439,7 +452,7 @@
       "type": "news",
       "headline": "Night Sky Network Celebrates Artemis II",
       "blurb": "Today, the crew of Artemis II reaches a milestone, traveling farther than any humans in recorded history, as they orbit the far side of the Moon, roughly 4,000 miles above the lunar surface. You can watch this historic broadcast on NASA’s YouTube channel today, April 6, 2026, at 10 AM Pacific (1 PM...",
-      "takeaway": "Artemis II's lunar orbit milestone demonstrates NASA's operational readiness for sustained deep-space human missions, validating long-duration life support and navigation systems critical for future Mars exploration programs.",
+      "takeaway": "Artemis II's lunar orbit achievement demonstrates NASA's sustained capability to execute complex deep-space missions, validating technologies and procedures essential for future human Moon landings.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/night-sky-network-celebrates-artemis-ii/"
@@ -456,7 +469,7 @@
       "type": "news",
       "headline": "Grants",
       "blurb": "Grants Status Requests To submit a request, visit NASA General Information Request Form and complete the form. You will receive an automated email with the most commonly requested grant status information. Important Instructions: How to Fill Out the Form: Memorandum for NASA Grantee Community...",
-      "takeaway": "NASA's streamlined grant status inquiry process uses automated responses to handle routine requests, reducing administrative burden on both applicants and agency staff.",
+      "takeaway": "NASA's streamlined grant status request process now delivers automated responses, reducing administrative burden for aerospace research organizations managing federal funding.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/centers-and-facilities/grants-2/"
@@ -472,7 +485,7 @@
       "type": "news",
       "headline": "Lady of Larissa Flies Again: Incredible New Footage Emerges of the Secretive RQ-180 Spy Drone",
       "blurb": "New videos give an even clearer view – unquestionably our best ever – of the legendary classified stealth drone, previously seen landing in Greece last month. Last month, we reported on images taken in Larissa, Greece, showing what we, and others, concluded – based on prior sightings and comment...",
-      "takeaway": "Recent high-definition footage of the RQ-180 stealth drone provides the most detailed visual evidence yet of this classified platform's operational capabilities and design characteristics.",
+      "takeaway": "High-resolution footage of the RQ-180 stealth drone strengthens the case for the aircraft's operational status and suggests increased flight testing activities beyond classified military operations.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/06/incredible-footage-emerges-rq-180-spy-drone/"
@@ -488,7 +501,7 @@
       "type": "news",
       "headline": "The Near Side of the Moon",
       "blurb": "The astronauts aboard NASA’s Orion spacecraft captured this photo of the Moon’s near side on April 4, 2026. The image features dark patches at center and right; these are ancient lava flows, which are unique to this side of the Moon. The Artemis II astronauts – astronauts Victor Glover, Reid...",
-      "takeaway": "Artemis II's lunar imagery validates navigation and imaging systems critical for sustained crewed missions beyond Earth orbit.",
+      "takeaway": "Artemis II's lunar imagery documents the Moon's near-side geological features, providing essential visual data for future crewed landing site assessment and mission planning.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/the-near-side-of-the-moon/"
@@ -506,7 +519,7 @@
       "type": "news",
       "headline": "Amazon Leo to serve as launchpad for more Delta brand experiences",
       "blurb": "The proverbial ‘gravitational pull’ of low-latency Low Earth Orbit (LEO) satellite-powered inflight connectivity is continuing unabated in commercial aviation, as Delta Air Lines earmarks Amazon Leo for an initial 500 tails from 2028. Announced on 31 March, the arrangement springboards off the US...",
-      "takeaway": "Delta's commitment to Amazon's Leo satellite constellation signals a shift toward LEO-based connectivity as airlines prioritize low-latency performance over traditional solutions, reshaping competitive inflight experience investments.",
+      "takeaway": "Delta's commitment to Amazon's Kuiper LEO satellites signals that low-latency inflight connectivity will become a competitive differentiator, with 500-aircraft deployment by 2028 establishing new service quality standards across the industry.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/amazon-leo-to-serve-as-launchpad-for-more-delta-brand-experiences/"
@@ -520,7 +533,7 @@
       "type": "news",
       "headline": "USAF F-16s Flying With AGM-158 JASSMs in Operation Epic Fury Against Iran",
       "blurb": "Long-range JASSM strikes still continue on Iranian targets, particularly against missile and drone production facilities. U.S. Air Force F-16s currently deployed in support of Operation Epic Fury have been shown in official photos carrying the AGM-158 Joint-Air-to-Surface Standoff Missile (JASSM)...",
-      "takeaway": "JASSM deployment in Operation Epic Fury demonstrates U.S. commitment to sustained standoff strike capability against distributed Iranian military-industrial targets across extended ranges.",
+      "takeaway": "Extended-range standoff munitions enable F-16s to strike high-value targets from safer distances, reducing aircraft exposure to advanced air defenses.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/06/usaf-f-16s-flying-agm-158-jassm-iran/"
@@ -537,7 +550,7 @@
       "type": "news",
       "headline": "National STOL Announces 2026 Competition Schedule",
       "blurb": "Series plans eight events across the U.S. beginning in April.",
-      "takeaway": "The STOL competition's expanded eight-event calendar signals growing market interest in short-takeoff-and-landing aircraft capabilities for operators seeking reduced-infrastructure alternatives.",
+      "takeaway": "National STOL's expansion to eight events signals growing demand for short-runway operations training and competition among bush pilots and backcountry operators.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/air-shows-events/national-stol-2026-competition-schedule/"
@@ -551,7 +564,7 @@
       "type": "news",
       "headline": "Invisible drone defense helped secure the massive JUNO Awards crowd",
       "blurb": "When tens of thousands of fans gather under one roof, security doesn’t just stop at the doors; it extends to the skies above. That was exactly the case at Canada’s biggest night in music, the JUNO Awards, where a quiet but critical layer of anti-drone protection was keeping watch overhead. more…...",
-      "takeaway": "Counter-drone technology is becoming standard security infrastructure for large-scale public events, representing a growing commercial application beyond traditional airspace management.",
+      "takeaway": "Event venues now require invisible airspace security systems to protect large crowds, creating a new specialized market segment for counter-UAS providers.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/06/d-fend-juno-awards-anti-drone/"
@@ -567,8 +580,8 @@
       "id": "u00h7u",
       "type": "news",
       "headline": "The moon base has a hardware plan. It needs a software strategy, too.",
-      "blurb": "Early in my career at SpaceX, I was the only person dedicated to training the mission control team for Dragon. For three years, I built the training for the operations […]...",
-      "takeaway": "Lunar infrastructure development risks repeating Apollo-era mistakes by prioritizing physical construction while underinvesting in mission control software and operator training systems.",
+      "blurb": "Early in my career at SpaceX, I was the only person dedicated to training the mission control team for Dragon. For three years, I built the training for the operations team. The documentation came second, always the thing I’d get to later, always the thing that felt like overhead against the actual...",
+      "takeaway": "Lunar infrastructure development requires equally rigorous software operations planning and mission control training as hardware engineering to ensure sustainable long-term functionality.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/the-moon-base-has-a-hardware-plan-it-needs-a-software-strategy-too/"
@@ -580,20 +593,6 @@
         "space"
       ],
       "publishedAt": "2026-04-06T13:00:00.000Z"
-    },
-    {
-      "id": "hh0sqc",
-      "type": "news",
-      "headline": "Press Release: Newly rebranded Aeroplay to unveil Nucleus OS",
-      "blurb": "Aeroplay Entertainment, a leading Content Service Provider (CSP) in the aviation industry, is entering an exciting new chapter. The company is rebranding under is Passenger Experience Partner vision to deliver more integrated and passenger-centric inflight solutions. This transformation is...",
-      "takeaway": "Aeroplay's pivot toward integrated passenger experience solutions signals consolidation pressures in aviation software, where airlines increasingly demand unified platforms rather than point solutions.",
-      "source": {
-        "name": "Runway Girl Network",
-        "url": "https://runwaygirlnetwork.com/2026/04/newly-rebranded-aeroplay-plans-to-unveil-nucleus-os/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-04-06T12:49:13.000Z"
     }
   ]
 }
