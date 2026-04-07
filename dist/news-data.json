@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-07T22:47:02.367Z",
+  "lastUpdated": "2026-04-07T23:17:40.632Z",
   "articles": [
     {
       "id": "141bsk",
       "type": "news",
       "headline": "DOT Secretary Believes “There’s Room” For More US Airlines To Merge",
       "blurb": "Sean Duffy’s remarks put US airline merger speculation firmly back in play.",
-      "takeaway": "DOT leadership's openness to consolidation signals potential regulatory pathway for struggling carriers, though increased concentration could limit consumer choice and competitive pricing.",
+      "takeaway": "DOT leadership's openness to consolidation signals potential regulatory pathway for industry restructuring, affecting competitive dynamics and capacity planning for remaining carriers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/dot-secretary-believes-theres-room-us-airlines-merge/"
@@ -22,7 +22,7 @@
       "type": "news",
       "headline": "Window Pops Open On Cape Air Flight From Nantucket To Boston, Forcing Pilot To Return",
       "blurb": "The incident is certainly a cause for concern.",
-      "takeaway": "Pressurization failures on regional turboprops remain a critical safety vulnerability, particularly on high-frequency short-haul routes where altitude limitations constrain response options.",
+      "takeaway": "Cabin pressure differential failures remain a critical risk for regional operators, potentially requiring design reviews across similar-class aircraft fleets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/window-pops-open-cape-air-flight-nantucket-boston-pilot-return/"
@@ -39,7 +39,7 @@
       "type": "news",
       "headline": "6 Airlines With The World’s Best Premium Economy Recline",
       "blurb": "Recline is key when getting comfortable on flights, but which airline is most generous?",
-      "takeaway": "Premium economy recline ranges from 6-8 inches across carriers, directly impacting revenue yield per seat as airlines differentiate cabin products amid increasing fleet competition.",
+      "takeaway": "Premium economy recline depth varies significantly across carriers, directly impacting passenger comfort ROI and competitive differentiation in the $15B+ premium economy market segment.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airlines-worlds-best-premium-economy-recline/"
@@ -51,31 +51,11 @@
       "publishedAt": "2026-04-07T22:00:18.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must formally document their Safety Management System compliance to the FAA, establishing accountability for proactive hazard identification and mitigation rather than reactive incident response.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-07T22:46:21.248Z",
-      "paiContent": true
-    },
-    {
       "id": "dbkkx9",
       "type": "news",
       "headline": "Chilean KC-135 Tanker Refuels USAF F-35As on their Way to FIDAE 2026 Expo",
       "blurb": "For the first time, a Chilean KC-135 refueled two U.S. F-35s that will take part in FIDAE 2026, marking the traditionally strong strategic ties between Chile and the U.S. A Chilean Air Force (Fuerza Aérea de Chile – FACh) KC-135E tanker aircraft refueled two U.S. Air Force F-35A Lightning IIs for...",
-      "takeaway": "Chile's KC-135 refueling capability for advanced U.S. fighter jets demonstrates deepening interoperability and reinforces its strategic role as a key logistics partner for U.S. military operations in the Southern Hemisphere.",
+      "takeaway": "Chile's KC-135E tanker successfully supported U.S. F-35A operations, demonstrating deepening interoperability and logistics coordination between allied air forces ahead of a major regional aerospace exhibition.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/07/chilean-kc-135-tanker-refuels-usaf-f-35s/"
@@ -87,11 +67,31 @@
       "publishedAt": "2026-04-07T21:47:55.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Organizations with transparent, non-punitive reporting cultures achieve significantly better safety outcomes through SMS by converting error data into systemic improvements rather than individual accountability.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-04-07T23:16:53.095Z",
+      "paiContent": true
+    },
+    {
       "id": "ms4cv9",
       "type": "news",
       "headline": "The A-10C Can Now Use Probe and Drogue Refueling",
       "blurb": "A new Probe Refueling Adapter, developed in response to an urgent combatant command requirement, allows the A-10 to significantly expand its refueling options as it is currently dependent on the KC-135. Few days after a photo circulated on social media, the Air National Guard Air Force Reserve...",
-      "takeaway": "A-10 operators gain operational flexibility by reducing dependency on KC-135 tankers through probe-and-drogue refueling capability, enabling faster mission planning and improved forward deployment options.",
+      "takeaway": "The A-10C's new probe adapter reduces operational vulnerability by eliminating sole dependence on KC-135 tankers, enabling access to broader aerial refueling assets in contested environments.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/07/a-10c-can-now-use-probe-and-drogue-refueling/"
@@ -107,7 +107,7 @@
       "type": "news",
       "headline": "5 Aircraft That Define Modern Air Combat",
       "blurb": "The warplanes at the top of the food chain.",
-      "takeaway": "Modern air superiority depends on advanced sensor fusion and fifth-generation stealth capabilities rather than raw speed, reshaping pilot training and tactical doctrine across allied air forces.",
+      "takeaway": "Modern air superiority depends on integrated sensor fusion and networked warfare capabilities rather than raw speed or firepower alone.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-aircraft-define-modern-air-combat/"
@@ -117,16 +117,33 @@
       "publishedAt": "2026-04-07T21:00:18.000Z"
     },
     {
+      "id": "snyk7z",
+      "type": "news",
+      "headline": "NASA’s Artemis II Crew Beams Official Moon Flyby Photos to Earth",
+      "blurb": "The first flyby images of the Moon captured by NASA’s Artemis II astronauts during their historic test flight reveal some regions no human has seen, including a rare in-space solar eclipse. Released Tuesday, astronauts captured the images April 6 during the mission’s seven-hour flyby of the lunar...",
+      "takeaway": "Artemis II's lunar flyby imagery documents previously unseen lunar regions and a rare solar eclipse, providing invaluable visual data for future crewed landing site reconnaissance and mission planning.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "publishedAt": "2026-04-07T20:44:05.000Z"
+    },
+    {
       "id": "sp7rfe",
       "type": "news",
       "headline": "Learjet Overruns Runway at Teterboro",
       "blurb": "No injuries reported after landing incident at New Jersey airport.",
-      "takeaway": "Runway excursions at busy business-aviation hubs like Teterboro highlight the operational risks when high-performance jets operate from shorter runways with limited overrun areas.",
+      "takeaway": "Runway overrun incidents at busy metropolitan airports like Teterboro underscore critical need for enhanced pilot training on landing performance calculations in high-traffic environments.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/learjet-overruns-runway-at-teterboro/"
       },
-      "category": "business-aviation",
+      "category": "safety",
       "keywords": [
         "incident",
         "airport"
@@ -138,19 +155,19 @@
       "type": "pai-blog",
       "headline": "Selecting Risk Controls and Accepting Residual Risk",
       "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically document why certain residual risks remain acceptable after controls are implemented, shifting focus from identifying hazards to justifying operational decisions.",
+      "takeaway": "Effective SRM requires organizations to systematically document why residual risks remain acceptable after implementing feasible controls, shifting focus from theoretical analysis to practical risk acceptance decisions.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
         "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [
         "sms",
         "risk",
         "faa",
         "srm"
       ],
-      "publishedAt": "2026-04-07T22:46:21.248Z",
+      "publishedAt": "2026-04-07T23:16:53.095Z",
       "paiContent": true
     },
     {
@@ -158,7 +175,7 @@
       "type": "news",
       "headline": "Air Canada Unveils 2 Surprising New Long-Haul Airbus A321XLR Routes For 2026",
       "blurb": "Air Canada's bold move to launch launch flights to this destination is highly intriguing, but will it pay off?",
-      "takeaway": "Air Canada's deployment of the A321XLR signals a strategic shift toward narrowbody economics for long-haul routes, potentially reshaping network profitability by substituting widebody aircraft on lower-density transatlantic and transpacific services.",
+      "takeaway": "Air Canada's A321XLR deployment signals carriers' confidence in narrow-body economics for premium long-haul markets previously dominated by wide-body aircraft.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canada-unveils-2-surprising-new-long-haul-airbus-a321xlr-routes-for-2026/"
@@ -174,7 +191,7 @@
       "type": "news",
       "headline": "The Airlines With The World’s Largest Airbus A350 Fleets",
       "blurb": "Singapore Airlines operates the largest fleet of this popular aircraft.",
-      "takeaway": "Singapore Airlines' A350 dominance signals strong competitive positioning in premium long-haul markets where aircraft efficiency and cabin comfort drive profitability.",
+      "takeaway": "Singapore Airlines' A350 dominance signals shifting competitive advantage toward airlines investing heavily in ultra-long-range, fuel-efficient widebody capacity for premium routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airlines-worlds-largest-airbus-a350-fleets/"
@@ -191,7 +208,7 @@
       "type": "news",
       "headline": "Hungary taps Northrop Grumman for first national geostationary communications satellite",
       "blurb": "Hungary’s defense and space tech contractor 4iG also announced deals with L3Harris and Apex for defense systems and satellite manufacturing...",
-      "takeaway": "Hungary's satellite ambitions signal Central European defense autonomy, as partnerships with U.S. contractors suggest NATO allies are diversifying space capabilities beyond traditional suppliers.",
+      "takeaway": "Hungary's satellite partnership with Northrop Grumman signals Central European nations building independent space infrastructure to reduce reliance on external communication systems.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/hungary-taps-northrop-grumman-for-first-national-geostationary-communications-satellite/"
@@ -207,7 +224,7 @@
       "type": "news",
       "headline": "Teledyne FLIR OEM Announces Upgraded Prism SKR Software, Boosting Automatic Target Recognition Capabilities for the Defense Industry",
       "blurb": "Teledyne FLIR OEM, part of Teledyne Technologies Incorporated (NYSE:TDY), today announced an upgrade to Prism™ SKR (pronounced...",
-      "takeaway": "Enhanced automatic target recognition software improves real-time threat detection efficiency for defense platforms, reducing operator workload in critical missions.",
+      "takeaway": "Enhanced automatic target recognition software reduces operator workload and improves threat detection speed for defense platforms, directly impacting mission effectiveness and pilot decision-making cycles.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/teledyne-flir-oem-announces-upgraded-prism-skr-software-boosting-automatic-target-recognition-capabilities-for-the-defense-industry/"
@@ -217,92 +234,11 @@
       "publishedAt": "2026-04-07T19:06:37.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's departure procedures must balance noise sensitivity with terrain constraints in one of the nation's most congested airspace environments.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-07T22:46:21.478Z",
-      "videoContent": true
-    },
-    {
-      "id": "vklc88",
-      "type": "news",
-      "headline": "Southwest Airlines Limiting Passengers To 1 Portable Charger Onboard To Reduce Fire Risk",
-      "blurb": "Southwest Airlines will limit passengers to one power bank from April 20, tightening safety rules amid rising lithium battery fire risks onboard.",
-      "takeaway": "Southwest's restriction signals the industry's growing concern that passenger-owned batteries now pose a material safety threat comparable to checked baggage lithium regulations.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/southwest-airlines-limiting-passengers-1-portable-charger-onboard-reduce-fire-risk/"
-      },
-      "category": "safety",
-      "keywords": [
-        "saf",
-        "safety",
-        "airline"
-      ],
-      "publishedAt": "2026-04-07T18:59:53.000Z"
-    },
-    {
-      "id": "ni6d4b",
-      "type": "news",
-      "headline": "Picture of the Day: April 7, 2026",
-      "blurb": "A J-3 Cub spreads its wings over the desert.",
-      "takeaway": "The timeless J-3 Cub continues to define backcountry aviation capabilities, demonstrating why this 1930s design remains relevant for remote operations today.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-7-2026/"
-      },
-      "category": "general-aviation",
-      "keywords": [],
-      "publishedAt": "2026-04-07T18:46:31.000Z"
-    },
-    {
-      "id": "vr0ie3",
-      "type": "news",
-      "headline": "Charleston Airshow Moves Amid Ongoing Conflict",
-      "blurb": "Joint Base Charleston says 2026 show was changed to an off-base due to operational requirements tied to current global events.",
-      "takeaway": "Military airshows are increasingly constrained by operational demands, forcing organizers to relocate venues and adapt traditional community engagement strategies.",
-      "source": {
-        "name": "AVweb",
-        "url": "https://avweb.com/air-shows-events/charleston-airshow-moves-amid-conflict/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-04-07T18:30:05.000Z"
-    },
-    {
-      "id": "4vx52d",
-      "type": "news",
-      "headline": "Delta Air Lines Becomes 3rd US Carrier To Hike Checked Bag Fees As Fuel Prices Soar",
-      "blurb": "Delta Air Lines joins United and JetBlue in hiking checked baggage fees, following a sharp rise in global jet fuel prices.",
-      "takeaway": "Fuel surcharges are shifting from ancillary revenue optimization to necessity, signaling carriers' inability to absorb commodity costs through existing pricing mechanisms.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/delta-air-lines-becomes-3rd-us-carrier-to-hike-checked-bag-fees-as-fuel-prices-soar/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-04-07T18:18:24.000Z"
-    },
-    {
       "id": "yt-auto-69htdEOPy-I",
       "type": "video",
       "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
       "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Eastern Iowa Airport's mixed-use model accommodating training aircraft alongside air carriers creates a complex airspace management challenge that requires sophisticated traffic separation procedures.",
+      "takeaway": "Mid-sized regional hubs like CID generate diverse revenue through mixed traffic models combining flight training, general aviation, and commercial service rather than relying on single revenue streams.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
         "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
@@ -316,15 +252,110 @@
         "runway",
         "flight deck"
       ],
-      "publishedAt": "2026-04-07T22:46:21.478Z",
+      "publishedAt": "2026-04-07T23:16:53.500Z",
       "videoContent": true
+    },
+    {
+      "id": "vklc88",
+      "type": "news",
+      "headline": "Southwest Airlines Limiting Passengers To 1 Portable Charger Onboard To Reduce Fire Risk",
+      "blurb": "Southwest Airlines will limit passengers to one power bank from April 20, tightening safety rules amid rising lithium battery fire risks onboard.",
+      "takeaway": "Southwest's restriction signals industry-wide concern that lithium battery regulations haven't kept pace with passenger device proliferation, likely forcing other carriers to adopt similar limits.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/southwest-airlines-limiting-passengers-1-portable-charger-onboard-reduce-fire-risk/"
+      },
+      "category": "safety",
+      "keywords": [
+        "saf",
+        "safety",
+        "airline"
+      ],
+      "publishedAt": "2026-04-07T18:59:53.000Z"
+    },
+    {
+      "id": "5syg61",
+      "type": "news",
+      "headline": "Earthset",
+      "blurb": "The Artemis II crew captured this view of Earth setting on April 6, 2026, as they flew around the Moon. As the astronauts flew over the Moon’s far side, the crew photographed and described terrain features including impact craters, ancient lava flows, and surface cracks and ridges formed as the...",
+      "takeaway": "Artemis II's lunar orbit operations demonstrate sustained human spaceflight capabilities critical for establishing long-term lunar exploration and future deep-space missions.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/image-article/earthset/"
+      },
+      "category": "aerospace",
+      "keywords": [],
+      "publishedAt": "2026-04-07T18:54:50.000Z"
+    },
+    {
+      "id": "ni6d4b",
+      "type": "news",
+      "headline": "Picture of the Day: April 7, 2026",
+      "blurb": "A J-3 Cub spreads its wings over the desert.",
+      "takeaway": "The J-3 Cub's enduring presence in modern aviation demonstrates the continued cultural and practical relevance of classic general aviation aircraft nearly a century after its introduction.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-7-2026/"
+      },
+      "category": "general-aviation",
+      "keywords": [],
+      "publishedAt": "2026-04-07T18:46:31.000Z"
+    },
+    {
+      "id": "vr0ie3",
+      "type": "news",
+      "headline": "Charleston Airshow Moves Amid Ongoing Conflict",
+      "blurb": "Joint Base Charleston says 2026 show was changed to an off-base due to operational requirements tied to current global events.",
+      "takeaway": "Military airshows are increasingly subject to operational constraints driven by global conflicts, potentially limiting public access and demonstration capabilities.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/air-shows-events/charleston-airshow-moves-amid-conflict/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-04-07T18:30:05.000Z"
+    },
+    {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures require pilots to navigate complex terrain while adhering to Class B airspace constraints, demanding precise execution in high-density Bay Area airspace.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-07T23:16:53.500Z",
+      "videoContent": true
+    },
+    {
+      "id": "4vx52d",
+      "type": "news",
+      "headline": "Delta Air Lines Becomes 3rd US Carrier To Hike Checked Bag Fees As Fuel Prices Soar",
+      "blurb": "Delta Air Lines joins United and JetBlue in hiking checked baggage fees, following a sharp rise in global jet fuel prices.",
+      "takeaway": "Rising fuel costs are triggering industry-wide fee increases beyond traditional ancillary revenue optimization, signaling carriers may struggle with margin compression despite pricing power.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/delta-air-lines-becomes-3rd-us-carrier-to-hike-checked-bag-fees-as-fuel-prices-soar/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-04-07T18:18:24.000Z"
     },
     {
       "id": "5zhwa3",
       "type": "news",
       "headline": "Kraus Hamdani Aerospace Awarded $270 Million AFCENT Contract to Accelerate Deployment of K1000ULE",
       "blurb": "Kraus Hamdani Aerospace (KHA) has been awarded a $270 Million single-source IDIQ rapid deployment contract...",
-      "takeaway": "AFCENT's single-source contract strategy prioritizes speed-to-deployment over competitive bidding, signaling urgent operational needs for the K1000ULE platform.",
+      "takeaway": "The single-source contract structure enables accelerated fielding of the K1000ULE platform without competitive delays, reducing time-to-deployment for AFCENT operations.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/kraus-hamdani-aerospace-awarded-270-million-afcent-contract-to-accelerate-deployment-of-k1000ule/"
@@ -336,11 +367,28 @@
       "publishedAt": "2026-04-07T17:57:06.000Z"
     },
     {
+      "id": "9apntf",
+      "type": "news",
+      "headline": "Experience the Rollout of SLS Hardware for Artemis III",
+      "blurb": "Digital creators and social media users are invited to register to attend the rollout of the third SLS (Space Launch System) core stage as it is prepped to head from NASA’s Michoud Assembly Facility to NASA’s Kennedy Space Center. Are you passionate about social media and communications? Do you...",
+      "takeaway": "NASA's public engagement strategy for Artemis III hardware rollout reflects growing recognition that deep space exploration requires building sustained public interest and digital-native audiences beyond traditional media channels.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/general/experience-the-rollout-of-sls-hardware-for-artemis-iii/"
+      },
+      "category": "aerospace",
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "publishedAt": "2026-04-07T17:52:09.000Z"
+    },
+    {
       "id": "idg4is",
       "type": "news",
       "headline": "Why The Boeing 777-300ER Is Preferred By Passengers",
       "blurb": "The 777-300ER is one of the most common widebody airliners currently in the skies.",
-      "takeaway": "The 777-300ER's passenger preference stems from its cabin comfort features and operational efficiency, making it a revenue-generating asset for carriers on long-haul routes.",
+      "takeaway": "The 777-300ER's passenger appeal stems from its spacious cabin design and superior fuel efficiency, making it economically attractive for long-haul routes while delivering better passenger comfort than competing widebody aircraft.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-boeing-777-300er-preferred-by-passengers/"
@@ -353,11 +401,27 @@
       "publishedAt": "2026-04-07T17:30:18.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across integrated airline-airport-airspace systems offers near-term efficiency gains that can accommodate traffic growth without proportional emissions increases.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-07T23:16:53.500Z"
+    },
+    {
       "id": "o881qh",
       "type": "news",
       "headline": "Intellian advances ESA for Panasonic, reveals further aero aspirations",
       "blurb": "Having made a name for itself in the maritime industry as a leading provider of flat panel antennas, including in support of Eutelsat OneWeb Low Earth Orbit (LEO) satellite-powered connectivity, Intellian recently burst onto the aviation scene when it was selected by Panasonic Avionics to produce a...",
-      "takeaway": "Intellian's transition from maritime to aviation antenna systems expands in-flight connectivity competition beyond traditional providers like Viasat and Intelsat.",
+      "takeaway": "Intellian's entry into aviation connectivity through Panasonic partnership signals intensifying competition in in-flight satellite broadband as LEO constellation capacity becomes commercially viable.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/intellian-advances-esa-for-panasonic-reveals-further-aero-aspirations/"
@@ -371,7 +435,7 @@
       "type": "news",
       "headline": "5 Aircraft With The Most Innovative Cabin Designs",
       "blurb": "In the heated, competitive world of aircraft cabin design, five aircraft and operators stand out from the competition.",
-      "takeaway": "Cabin innovation has become a competitive differentiator for airlines seeking revenue growth and passenger loyalty beyond traditional service metrics.",
+      "takeaway": "Cabin innovation has become a competitive differentiator driving aircraft selection as operators recognize passenger experience directly impacts brand loyalty and revenue.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-aircraft-most-innovative-cabin-designs/"
@@ -381,27 +445,27 @@
       "publishedAt": "2026-04-07T17:00:18.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Integrated optimization across airline, airport, and flight operations—rather than siloed improvements—is essential to meeting capacity demands while reducing aviation's environmental impact.",
+      "id": "k8qror",
+      "type": "news",
+      "headline": "NASA to Host Media Call with Artemis II Crew on Way Home from Moon",
+      "blurb": "Media will have an opportunity at 9:45 p.m. EDT on Wednesday, April 8, to speak with NASA’s Artemis II crew members as they continue their journey toward Earth during their historic mission around the Moon. The 20-minute virtual news conference will take place with NASA astronauts Reid Wiseman,...",
+      "takeaway": "Real-time crew communications during lunar return demonstrate NASA's commitment to public transparency and media engagement throughout deep-space exploration milestones.",
       "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+        "name": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasa-to-host-media-call-with-artemis-ii-crew-on-way-home-from-moon/"
       },
-      "category": "industry",
+      "category": "aerospace",
       "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
+        "nasa"
       ],
-      "publishedAt": "2026-04-07T22:46:21.478Z"
+      "publishedAt": "2026-04-07T16:38:04.000Z"
     },
     {
       "id": "9q865y",
       "type": "news",
       "headline": "Pilots’ Group Warns of Conflict-Zone Strain",
       "blurb": "New position paper says repeated uneventful flights should not reduce scrutiny.",
-      "takeaway": "Pilot fatigue from routine conflict-zone operations poses unrecognized safety risks as crews may develop complacency despite cumulative psychological stress.",
+      "takeaway": "Pilots advocate that operational normalcy in conflict zones should not erode safety protocols, addressing a critical gap in risk management during extended deployments.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/pilots-group-warns-of-conflict-zone-strain/"
@@ -417,7 +481,7 @@
       "type": "news",
       "headline": "Press Release: FlightPath3D map gets extra smart with Luci Live launch",
       "blurb": "The inflight map is now an intelligent, interactive information engine, thanks to the launch of Luci Live. Developed by FlightPath3D, the premier provider of immersive airline passenger maps, and unveiled at Aircraft Interiors Expo in Hamburg this month, Luci Live adds a customizable, AI travel...",
-      "takeaway": "AI-powered inflight mapping transforms passenger engagement from passive visualization to interactive information delivery, creating new revenue and service differentiation opportunities for airlines.",
+      "takeaway": "Luci Live transforms static inflight maps into AI-powered interactive engines that can deliver personalized passenger information, creating new revenue opportunities through data-driven content customization.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/press-release-flightpath3d-map-gets-extra-smart-with-luci-live-launch/"
@@ -433,7 +497,7 @@
       "type": "news",
       "headline": "Press Release: WTCE reveals trends reshaping APAC onboard hospitality",
       "blurb": "World Travel Catering & Onboard Services Expo (WTCE) has released its newest report, exploring the cultural, culinary and commercial forces transforming inflight hospitality across Asia’s rapidly expanding aviation landscape. With Asia-Pacific airlines transporting 390.5 million international...",
-      "takeaway": "APAC's 390.5 million annual international passengers are driving airlines to localize inflight catering and hospitality services, creating significant operational complexity and cost differentiation opportunities.",
+      "takeaway": "APAC airlines must adapt inflight hospitality strategies to cultural and culinary preferences as the region's international passenger volume reaches 390.5 million, creating competitive differentiation opportunities.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/wtce-2026-report-reveals-the-trend/"
@@ -449,7 +513,7 @@
       "type": "news",
       "headline": "FAA Budget Request Seeks 2,300 Controller Trainees",
       "blurb": "Agency ties proposed hiring increase to staffing, training and modernization needs.",
-      "takeaway": "The FAA's trainee expansion signals recognition that controller shortages are systemic enough to require multi-year pipeline investment, not just immediate hiring fixes.",
+      "takeaway": "FAA's aggressive controller recruitment targets workforce renewal amid retirements and operational demands from increasing air traffic complexity.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-budget-seeks-2300-controller-trainees/"
@@ -465,7 +529,7 @@
       "type": "news",
       "headline": "Arastelle Joins Red Cat Futures Initiative to Expand Persistent ISR and Tactical Communications Capabilities",
       "blurb": "Red Cat Holdings, Inc. (Nasdaq: RCAT) (“Red Cat” or the “Company”), a U.S.-based provider of advanced...",
-      "takeaway": "Red Cat's strategic partnership with Arastelle signals consolidation in the tactical unmanned systems market, combining ISR and communications capabilities to compete for critical defense contracts.",
+      "takeaway": "Red Cat's partnership with Arastelle strengthens tactical communication infrastructure for military drone operations, addressing critical connectivity gaps in contested environments.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/arastelle-joins-red-cat-futures-initiative-to-expand-persistent-isr-and-tactical-communications-capabilities/"
@@ -479,7 +543,7 @@
       "type": "news",
       "headline": "Major PX4 drone software vulnerability raises hijacking concerns",
       "blurb": "A widely used piece of drone software just got a serious cybersecurity wake-up call, and if you operate drones in the US, it’s something you’ll want to pay attention to. more…...",
-      "takeaway": "PX4 vulnerability exposes commercial and industrial drone operators to remote hijacking risks, demanding immediate firmware updates across fleets.",
+      "takeaway": "PX4 vulnerability exposes thousands of commercial and government drones to potential mid-flight control hijacking, necessitating immediate firmware updates across industrial operations.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/07/px4-autopilot-drone-software-cybersecurity/"
@@ -498,7 +562,7 @@
       "type": "news",
       "headline": "US Army launches Anduril Altius 700 drone from Apache for the first time",
       "blurb": "The US Army has for the first time launched a drone from an AH-64E Apache attack helicopter, firing…...",
-      "takeaway": "Apache integration of tube-launched drones extends attack helicopter range and persistence, creating networked air-ground firepower without additional platform requirements.",
+      "takeaway": "Integrating air-launched drones with existing Apache platforms expands battlefield reconnaissance and strike capabilities without requiring new dedicated aircraft.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-army-apache-altius-700-launched-effect-anduril"
@@ -514,7 +578,7 @@
       "type": "news",
       "headline": "Airport Operator Sued Over Alleged Unpaid Revenue",
       "blurb": "City alleges missing fees, absent records and diverted tuition receipts at municipal GA airport.",
-      "takeaway": "Municipal GA airport operator faces financial accountability issues including missing fee documentation and diverted revenue streams, raising concerns about fiscal oversight at publicly-funded facilities.",
+      "takeaway": "Municipal GA airports face heightened scrutiny over financial accountability, exposing governance vulnerabilities that could trigger broader regulatory oversight of revenue-sharing arrangements.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/airport-operator-sued-over-unpaid-revenue/"
@@ -524,67 +588,6 @@
         "airport"
       ],
       "publishedAt": "2026-04-07T14:14:19.000Z"
-    },
-    {
-      "id": "o883es",
-      "type": "news",
-      "headline": "General Cherry partnering with Orqa FPV",
-      "blurb": "We’re partnering with Orqa FPV — one of Europe’s leading UAV companies. Together, we’re launching...",
-      "takeaway": "General Atomics' partnership with Orqa FPV signals consolidation of European drone capabilities and potential integration of advanced FPV technology into broader unmanned systems portfolios.",
-      "source": {
-        "name": "sUAS News",
-        "url": "https://www.suasnews.com/2026/04/general-cherry-partnering-with-orqa-fpv/"
-      },
-      "category": "drones",
-      "keywords": [],
-      "publishedAt": "2026-04-07T14:12:14.000Z"
-    },
-    {
-      "id": "lnqhma",
-      "type": "news",
-      "headline": "New Details Emerge About Rescue Mission Deep Inside Iran",
-      "blurb": "New details were released during a White House press conference which described the rescue of the crew of DUDE 44, the F-15E Strike Eagle that went down in Iran. The rescue of the crew of the F-15E Strike Eagle fighter jet shot down over Iran has rapidly emerged as one of the most complex and […]...",
-      "takeaway": "The DUDE 44 F-15E rescue operation demonstrates advanced military aviation coordination capabilities required for high-risk combat recovery missions in denied airspace environments.",
-      "source": {
-        "name": "The Aviationist",
-        "url": "https://theaviationist.com/2026/04/07/new-details-about-rescue-mission-into-iran/"
-      },
-      "category": "military",
-      "keywords": [],
-      "publishedAt": "2026-04-07T13:45:51.000Z"
-    },
-    {
-      "id": "vlvu3s",
-      "type": "news",
-      "headline": "Starfish Space raises more than $100 million",
-      "blurb": "Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft.",
-      "takeaway": "Investor confidence in on-orbit servicing validates a new aerospace market segment that could extend satellite lifecycles and reduce space debris.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/starfish-space-raises-more-than-100-million/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-07T13:00:00.000Z"
-    },
-    {
-      "id": "vcmq3v",
-      "type": "news",
-      "headline": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
-      "blurb": "Newly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface...",
-      "takeaway": "NASA's shift from orbital to surface-based lunar infrastructure creates new operational technology vulnerabilities that aerospace contractors must address in their system designs.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-04-07T13:00:00.000Z"
     }
   ]
 }
