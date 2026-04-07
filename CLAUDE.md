@@ -549,6 +549,17 @@ If conflict involves:
 
 Default resolution = take origin/main unless explicitly building infra.
 
+## Opportunity Spotter — Reliability Rules
+- The OS is the highest-value output in this system. Treat it as protected infrastructure.
+- The OS runs as a step inside the hourly `update-news` job — it has no separate cron and no separate workflow job. Do not reintroduce a dedicated job or cron.
+- The OS must never have an internal time/schedule gate. The only gate is the seen-URLs filter. Any `getUTCHours()` or hour-of-day check will cause silent skips that are nearly impossible to debug from Actions logs.
+- Cost gating relies on two layers: (1) the seen-URLs filter (`dist/os-seen-urls.json`) skips the Claude call entirely when no new article URLs are present, and (2) the daily Claude call cap (`OPPORTUNITY_CAP`, default 30) via `canSpendClaude` / `recordClaudeCalls`. Both must remain in place.
+- `dist/os-seen-urls.json` must persist via the existing dist → gh-pages push cycle. It is restored at job start by "Restore dist from gh-pages" and pushed at job end by "Push dist to gh-pages". Do not write it anywhere else, and do not push it directly to main.
+- The script must mark URLs as seen *only after* a successful Claude response, never before. If Claude is skipped (cap reached, no key, etc.) the URLs must remain unseen so they're picked up on the next eligible run.
+- The OS step in `update-news.yml` must use `continue-on-error: true` so an OS failure cannot break the public hourly pipeline.
+- Before any PR that touches `update-news.yml` or `opportunity-spotter.js`, verify: (1) no internal hour gate exists in the script, (2) the seen-URLs filter still runs before any Claude call, (3) the `update-news` job still has its `if:` guard against non-hourly schedule triggers, (4) the OS step still has `continue-on-error: true`.
+- The `BLOG_TEAMS_WEBHOOK_URL` secret must always point to the Opportunity Spotter workflow in Teams — verify it is distinct from `TEAMS_WEBHOOK_URL` after any webhook rotation.
+
 ## Keith Reminder System
 When recommending merges or rebases:
 - Always print exact `git status` before proceeding
