@@ -745,3 +745,25 @@ To keep scope honest, I'm explicitly not proposing:
 That's the plan. The shape I'd recommend most strongly is: **Phase 0 is non-optional**, **Phase 1 is risk-free**, and **Phases 2-4 each ship one observable improvement** so you can stop or change course at any phase boundary without strand-leaving.
 
 Want me to deepen any section, or shall we start drawing up the actual Phase 1 PR?
+
+---
+
+## Future Enhancements (Phase 5+)
+
+Ideas parked for later phases. Not scoped, not committed — captured here so they aren't lost.
+
+1. **AutoResearch optimization loop for the Opportunity Spotter prompt.** A self-improving loop that periodically reviews SharePoint action data (which opportunities were marked useful, built into apps, dismissed, etc.) and proposes refinements to the OS prompt or scoring heuristics. Closes the feedback loop between human judgment and the model's selection criteria.
+
+2. **AutoResearch loop for news feed relevance filtering.** Same idea applied to the public ticker: learn from which articles get clicked, expanded, or flagged as noise, and evolve the relevance/exclusion rules (e.g., the funding/grant filter) over time instead of hand-tuning keyword lists.
+
+3. **Microsoft Form + Power Automate submission flow for curated articles.** Anyone at PAI can submit a URL through a Form. A Power Automate flow calls the Anthropic API to auto-generate a blurb, then writes the new entry to `pai-content-library.json` via the GitHub API (PR or direct commit, TBD). Removes Keith as the bottleneck for content curation.
+
+4. **App catalog / sellable tools tracker.** A lightweight registry of internal apps and tools PAI has built or could productize, tracking status (idea → prototype → internal use → sellable), owners, and which Opportunity Spotter items inspired them. Bridges the gap between "we noticed an opportunity" and "we built and shipped a thing."
+
+5. **Conversational orchestrator query tool.** Natural-language queries against SharePoint history — e.g., "what runway-incursion opportunities did we see in Q1?" or "which OS items did we mark as built?" Wraps the SharePoint list in a small Claude-powered query layer so non-technical users can interrogate the action history without learning list filters.
+
+6. **Expanded Opportunity Spotter scope for editing and meeting/conference support service lines.** Today the OS is SMS-focused. Extend it to surface blog ideas and light research for PAI's non-SMS service lines (technical editing, meeting/conference support) by either:
+   - **(a)** mining the existing aviation news sources for angles relevant to those services, or
+   - **(b)** adding new RSS sources covering technical writing, document editing, professional conference planning, and meeting facilitation.
+
+   Output is routed to the Opportunity Spotter Teams channel only — these items must **never** appear in the public news ticker, since they're off-topic for the aviation audience.
