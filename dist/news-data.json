@@ -1,12 +1,164 @@
 {
-  "lastUpdated": "2026-04-07T14:07:28.667Z",
+  "lastUpdated": "2026-04-07T15:17:00.186Z",
   "articles": [
+    {
+      "id": "keq70c",
+      "type": "news",
+      "headline": "FAA Budget Request Seeks 2,300 Controller Trainees",
+      "blurb": "Agency ties proposed hiring increase to staffing, training and modernization needs.",
+      "takeaway": "The FAA's staffing expansion targets not just hiring volume but addresses critical gaps in modernization capabilities that have constrained operational efficiency.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/aviation-news/faa-budget-seeks-2300-controller-trainees/"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa"
+      ],
+      "publishedAt": "2026-04-07T14:53:22.000Z"
+    },
+    {
+      "id": "yums64",
+      "type": "news",
+      "headline": "13 Minutes Of Terror: The Real Reason This TAP Flight Turned Back",
+      "blurb": "Portugal's aviation authorities have shared further details on the incident that occurred two months ago.",
+      "takeaway": "Unrevealed mechanical or safety issues forced a TAP Air Portugal flight to divert, highlighting the critical role of pilot decision-making and airworthiness oversight in European aviation operations.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/tap-air-portugal-overhead-locker-fire-diversion-report/"
+      },
+      "category": "safety",
+      "keywords": [
+        "incident"
+      ],
+      "publishedAt": "2026-04-07T14:38:40.000Z"
+    },
+    {
+      "id": "aj70to",
+      "type": "news",
+      "headline": "Arastelle Joins Red Cat Futures Initiative to Expand Persistent ISR and Tactical Communications Capabilities",
+      "blurb": "Red Cat Holdings, Inc. (Nasdaq: RCAT) (“Red Cat” or the “Company”), a U.S.-based provider of advanced...",
+      "takeaway": "Red Cat's partnership with Arastelle signals consolidation in the tactical drone ISR market, positioning integrated intelligence-communications platforms as critical military procurement priorities.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/04/arastelle-joins-red-cat-futures-initiative-to-expand-persistent-isr-and-tactical-communications-capabilities/"
+      },
+      "category": "drones",
+      "keywords": [],
+      "publishedAt": "2026-04-07T14:28:11.000Z"
+    },
+    {
+      "id": "sqcsiq",
+      "type": "news",
+      "headline": "Major PX4 drone software vulnerability raises hijacking concerns",
+      "blurb": "A widely used piece of drone software just got a serious cybersecurity wake-up call, and if you operate drones in the US, it’s something you’ll want to pay attention to. more…...",
+      "takeaway": "PX4 vulnerability could enable remote command hijacking of commercial and military drone fleets, requiring immediate patching across operations relying on this open-source autopilot system.",
+      "source": {
+        "name": "DroneDJ",
+        "url": "https://dronedj.com/2026/04/07/px4-autopilot-drone-software-cybersecurity/"
+      },
+      "category": "drones",
+      "keywords": [
+        "drone",
+        "saf",
+        "safety",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-07T14:21:24.000Z"
+    },
+    {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must document their risk control selection rationale and formally accept remaining risks when mitigation costs exceed safety benefits, creating accountability beyond analysis.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-07T15:16:15.649Z",
+      "paiContent": true
+    },
+    {
+      "id": "sgxjbn",
+      "type": "news",
+      "headline": "US Army launches Anduril Altius 700 drone from Apache for the first time",
+      "blurb": "The US Army has for the first time launched a drone from an AH-64E Apache attack helicopter, firing…...",
+      "takeaway": "Integrating tube-launched drones with existing attack helicopters enables distributed payload capabilities without requiring new aircraft platforms or extensive modifications.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/us-army-apache-altius-700-launched-effect-anduril"
+      },
+      "category": "military",
+      "keywords": [
+        "drone"
+      ],
+      "publishedAt": "2026-04-07T14:15:59.000Z"
+    },
+    {
+      "id": "zaocyr",
+      "type": "news",
+      "headline": "Airport Operator Sued Over Alleged Unpaid Revenue",
+      "blurb": "City alleges missing fees, absent records and diverted tuition receipts at municipal GA airport.",
+      "takeaway": "Municipal GA airports face heightened scrutiny over financial transparency, with alleged revenue diversion potentially triggering broader audits of operator accounting practices across similar facilities.",
+      "source": {
+        "name": "AVweb",
+        "url": "https://avweb.com/aviation-news/airport-operator-sued-over-unpaid-revenue/"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-04-07T14:14:19.000Z"
+    },
+    {
+      "id": "o883es",
+      "type": "news",
+      "headline": "General Cherry partnering with Orqa FPV",
+      "blurb": "We’re partnering with Orqa FPV — one of Europe’s leading UAV companies. Together, we’re launching...",
+      "takeaway": "Military adoption of commercial FPV drone technology signals strategic shift toward integrating specialized unmanned systems into defense operations.",
+      "source": {
+        "name": "sUAS News",
+        "url": "https://www.suasnews.com/2026/04/general-cherry-partnering-with-orqa-fpv/"
+      },
+      "category": "military",
+      "keywords": [],
+      "publishedAt": "2026-04-07T14:12:14.000Z"
+    },
+    {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS shifts aviation safety from investigating accidents after they occur to identifying and mitigating hazards before incidents happen.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-07T15:16:15.649Z",
+      "paiContent": true
+    },
     {
       "id": "le2wfu",
       "type": "news",
       "headline": "7 Reasons Why Premium Economy Keeps Expanding In 2026",
       "blurb": "Premium economy is a sweet spot for budget-conscious travelers who also want to have a comfortable journey.",
-      "takeaway": "Airlines are capitalizing on premium economy's higher margins and load factors as carriers seek revenue growth between economy and business class without cannibalizing either segment.",
+      "takeaway": "Airlines are capitalizing on premium economy's higher margins and demand from middle-income passengers seeking comfort without long-haul business class pricing.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/7-reasons-premium-economy-expanding-2026/"
@@ -16,11 +168,11 @@
       "publishedAt": "2026-04-07T14:00:18.000Z"
     },
     {
-      "id": "fygkxy",
+      "id": "lnqhma",
       "type": "news",
-      "headline": "New Details About Rescue Mission Into Iran Emerge",
+      "headline": "New Details Emerge About Rescue Mission Deep Inside Iran",
       "blurb": "New details were released during a White House press conference which described the rescue of the crew of DUDE 44, the F-15E Strike Eagle that went down in Iran. The rescue of the crew of the F-15E Strike Eagle fighter jet shot down over Iran has rapidly emerged as one of the most complex and […]...",
-      "takeaway": "Combat search-and-rescue operations in hostile territory require unprecedented coordination between multiple military branches and intelligence assets, establishing new operational protocols for future downed-aircraft recovery scenarios.",
+      "takeaway": "Complex multi-asset coordination and intelligence operations were required to successfully extract downed aircrew from hostile territory, highlighting critical combat search-and-rescue capabilities.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/07/new-details-about-rescue-mission-into-iran/"
@@ -34,23 +186,44 @@
       "type": "news",
       "headline": "A Look At The Salaries Of Pilots In Canada In 2026",
       "blurb": "Diving deeper into the economics of professional flying in the Great White North.",
-      "takeaway": "Canadian pilot compensation trends reveal whether regional carrier wages are narrowing gaps with major airlines, impacting recruitment and retention strategies.",
+      "takeaway": "Canadian pilot compensation varies significantly by airline and aircraft type, with regional carriers offering lower entry-level wages than major airlines, impacting pilot recruitment amid ongoing industry staffing challenges.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/salaries-pilots-canada-2026/"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [
         "pilot"
       ],
       "publishedAt": "2026-04-07T13:30:18.000Z"
     },
     {
+      "id": "yt-auto-R8xtl4OW9eg",
+      "type": "video",
+      "headline": "RNO Mustang 9 Departure",
+      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
+      "takeaway": "The Mustang 9 Departure from RNO's parallel runways 17L/R requires strict procedural adherence to avoid terrain and airspace conflicts in the mountainous Reno area.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-07T15:16:16.069Z",
+      "videoContent": true
+    },
+    {
       "id": "vlvu3s",
       "type": "news",
       "headline": "Starfish Space raises more than $100 million",
       "blurb": "Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft.",
-      "takeaway": "Starfish Space's funding surge signals investor confidence in commercial satellite lifecycle management as a viable long-term business model beyond traditional launch services.",
+      "takeaway": "Commercial satellite servicing is attracting significant capital, signaling investor confidence in on-orbit refueling and debris removal as viable revenue streams for aerospace operators.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/starfish-space-raises-more-than-100-million/"
@@ -66,7 +239,7 @@
       "type": "news",
       "headline": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
       "blurb": "Newly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface...",
-      "takeaway": "NASA's lunar base shift prioritizes surface infrastructure over orbital stations, creating new vulnerabilities in operational technology systems that aerospace suppliers must address through robust cybersecurity protocols.",
+      "takeaway": "NASA's pivot to a lunar surface base prioritizes operational technology resilience as a critical engineering challenge that will define mission success and long-term sustainability.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/"
@@ -79,31 +252,11 @@
       "publishedAt": "2026-04-07T13:00:00.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must formally document their safety management system's alignment with FAA standards, establishing a verifiable baseline for regulatory oversight and incident accountability.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-07T14:06:42.953Z",
-      "paiContent": true
-    },
-    {
       "id": "pcbk5d",
       "type": "news",
       "headline": "First refurbished Jetstar 787 Dreamliner takes flight from Melbourne",
       "blurb": "Jetstar’s first refurbished Boeing 787 Dreamliner launched its inaugural service from Melbourne Airport (MEL) to Phuket International Airport…...",
-      "takeaway": "Jetstar's 787 deployment signals budget carriers' shift toward widebody aircraft for long-haul routes, challenging premium cabin pricing models on international routes.",
+      "takeaway": "Jetstar's 787 deployment signals low-cost carriers are expanding into long-haul markets with refurbished widebodies, intensifying competition on premium international routes.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/first-refurbished-jetstar-787-dreamliner-takes-flight-from-melbourne"
@@ -116,11 +269,32 @@
       "publishedAt": "2026-04-07T12:48:20.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures must navigate San Francisco's congested Class B airspace and surrounding terrain, creating procedural complexity for departing pilots.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-07T15:16:16.069Z",
+      "videoContent": true
+    },
+    {
       "id": "r7spp9",
       "type": "news",
       "headline": "Nominate space industry leaders for the 2026 SpaceNews Icon Awards",
       "blurb": "Tell us about the innovators, collaborators and change-makers whose contributions have left a lasting mark on the sector...",
-      "takeaway": "SpaceNews Icon Awards recognize individuals whose influence shapes industry trajectory, signaling which leadership qualities investors and peers currently value most in aerospace.",
+      "takeaway": "SpaceNews Icon Awards recognizes individuals shaping the commercial space sector, providing industry visibility for executives driving innovation beyond traditional aerospace.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/nominate-space-industry-leaders-for-the-2026-spacenews-icon-awards/"
@@ -136,12 +310,12 @@
       "type": "news",
       "headline": "British Airways Flew 13 Hours After Passenger Died Onboard - Foul Smell Complaints Followed",
       "blurb": "You might expect that, when a passenger passes away during a flight, pilots would divert the aircraft to an airport to deal with the situation. However, this isn’t always the case. Indeed, if a passenger dies of natural causes, airlines may just opt to have the flight continue onward to its...",
-      "takeaway": "Airlines can legally continue flights after natural-cause passenger deaths, creating operational and customer service challenges that extend beyond the flight itself.",
+      "takeaway": "Airlines can legally continue flights after passenger deaths from natural causes, creating operational and reputational risks that regulators and crew training protocols may not adequately address.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/british-airways-flew-13-hours-after-passenger-died-onboard-foul-smell-complaints-followed/"
       },
-      "category": "commercial",
+      "category": "safety",
       "keywords": [
         "airline",
         "airport",
@@ -150,31 +324,11 @@
       "publishedAt": "2026-04-07T12:28:17.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations with strong psychological safety see 3-5x higher safety event reporting rates, enabling proactive hazard identification before incidents occur.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-07T14:06:42.953Z",
-      "paiContent": true
-    },
-    {
       "id": "3ao0ft",
       "type": "news",
       "headline": "Up To 16-Hour Nonstop Flights: Iberia's 10 New Ultra-Long Routes In 2026",
       "blurb": "Influenced by external factors, one very long link takes the crown, but what about the rest?",
-      "takeaway": "Iberia's ultra-long-haul expansion signals intensifying transatlantic competition and pressure on legacy carriers to compete directly with gulf carriers on extended routes.",
+      "takeaway": "Iberia's ultra-long-range expansion signals growing demand for nonstop connectivity to secondary markets, potentially reshaping route profitability models beyond traditional hub-and-spoke networks.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/up-to-16-hour-nonstop-flights-iberia-10-new-ultra-long-routes-in-2026/"
@@ -184,11 +338,27 @@
       "publishedAt": "2026-04-07T12:00:18.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational efficiency gains across all aviation domains offer the fastest path to environmental sustainability while accommodating projected traffic growth without major infrastructure expansion.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-07T15:16:16.069Z"
+    },
+    {
       "id": "uvw1ij",
       "type": "news",
       "headline": "The Problem With Replacing Aircraft Like The Boeing 747",
       "blurb": "The biggest problem with replacing the Boeing 747 is simple: no single aircraft can do everything the 747 did.",
-      "takeaway": "The 747's unmatched combination of cargo capacity, long-range capability, and passenger versatility means airlines must now operate multiple aircraft types to replicate its operational flexibility.",
+      "takeaway": "The 747's unique combination of cargo capacity, passenger range, and airport flexibility created an irreplaceable operational niche that fragmented demand across multiple aircraft types.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/problem-replacing-aircraft-boeing-747/"
@@ -204,7 +374,7 @@
       "type": "news",
       "headline": "Earth observation operators push to deliver satellite images within minutes",
       "blurb": "Vantor employees were gathered for a sales kickoff in January, when an executive announced that a WorldView Legion satellite passing overhead would snap a photo of the California venue. Later, a buzzer sounded to alert the audience that the 30-centimeter-resolution image was available on the Vantor...",
-      "takeaway": "Rapid satellite imagery delivery is shifting from a technical capability to a competitive differentiator, with sub-minute processing now expected as standard service rather than novelty.",
+      "takeaway": "Real-time satellite imagery delivery is transforming from hours to minutes, enabling commercial applications that require immediate ground truth data for emergency response and time-sensitive decision-making.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/earth-observation-operators-push-to-deliver-satellite-images-within-minutes/"
@@ -216,32 +386,11 @@
       "publishedAt": "2026-04-07T11:00:00.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise abatement procedures reflect how regional airports must balance operational efficiency with environmental constraints in densely populated, complex airspace.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-07T14:06:43.156Z",
-      "videoContent": true
-    },
-    {
       "id": "5foysb",
       "type": "news",
       "headline": "YFQ-42A Dark Merlin CCA Crashes in California During Test",
       "blurb": "GA-ASI confirmed a YFQ-42 crashed during take-off and testing has now been paused temporarily, with an investigation already launched. A prototype of the YFQ-42A Dark Merlin Collaborative Combat Aircraft (CCA), developed by General Atomics Aeronautical Systems, Inc (GA-ASI) crashed at the...",
-      "takeaway": "The Dark Merlin CCA crash during early testing highlights developmental risks in autonomous combat aircraft programs and may impact program schedules and funding confidence.",
+      "takeaway": "The crash of GA-ASI's Dark Merlin CCA prototype during takeoff signals potential developmental challenges in autonomous combat aircraft integration that could impact defense procurement timelines.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/07/yfq-42a-dark-merlin-cca-crashes/"
@@ -258,7 +407,7 @@
       "type": "news",
       "headline": "Air India CEO Campbell Wilson resigns, will stay until successor named",
       "blurb": "Air India CEO and Managing Director Campbell Wilson announced his resignation on April 7, 2026, ending a nearly four-year tenure…...",
-      "takeaway": "Wilson's departure after stabilizing Air India's operations signals the airline's transition from turnaround mode to sustainable growth under new leadership.",
+      "takeaway": "Wilson's departure after restructuring Air India's operations signals the airline is transitioning from turnaround phase to sustainable growth under new leadership.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/air-india-ceo-campbell-wilson-resigns"
@@ -272,44 +421,23 @@
       "type": "news",
       "headline": "South Korean helicopter accidentally crossed into DMZ while fighting wildfire",
       "blurb": "A South Korean Army Surion helicopter mistakenly flew into the Demilitarized Zone (DMZ) separating North and South Korea…...",
-      "takeaway": "Military aviation operations in high-tension zones require enhanced GPS safeguards and geofencing to prevent diplomatic incidents during emergency missions.",
+      "takeaway": "Operational safety protocols in high-tension airspace require enhanced GPS verification systems to prevent accidental border incursions during emergency response missions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/south-korean-helicopter-accidentally-crossed-into-dmz-while-fighting-wildfire"
       },
-      "category": "military",
+      "category": "safety",
       "keywords": [
         "accident"
       ],
       "publishedAt": "2026-04-07T09:49:34.000Z"
     },
     {
-      "id": "yt-auto-R8xtl4OW9eg",
-      "type": "video",
-      "headline": "RNO Mustang 9 Departure",
-      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "Reno-Tahoe's Mustang 9 Departure requires heightened pilot attention during runway 17 operations, suggesting complex terrain or procedural challenges that demand strict adherence.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-07T14:06:43.156Z",
-      "videoContent": true
-    },
-    {
       "id": "487l5i",
       "type": "news",
       "headline": "Australia’s JORN radar set to power Canada’s Arctic defense ambitions",
       "blurb": "Australia’s Jindalee Operational Radar Network is set to help Canada build the biggest and most advanced over-the-horizon radar…...",
-      "takeaway": "Australia's proven JORN technology transfer demonstrates how allied nations are leveraging existing radar capabilities to address emerging Arctic surveillance gaps cost-effectively.",
+      "takeaway": "Australia's proven JORN technology transfer to Canada demonstrates how operational radar systems can be adapted for Arctic surveillance, setting a precedent for allied defense capabilities in remote regions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/australias-jorn-radar-set-to-power-canadas-arctic-defense-ambitions"
@@ -323,7 +451,7 @@
       "type": "news",
       "headline": "Manna expands drone delivery network with $50M boost",
       "blurb": "Ireland-based drone delivery company Manna Air Delivery is making a serious push into the US, and it just secured the funding to back it up. The company announced a fresh $50 million Series B round, bringing its total funding to $110 million, as it prepares to rapidly scale operations across the...",
-      "takeaway": "Manna's $50M Series B signals investor confidence in autonomous drone delivery as a near-term commercial reality, positioning the company to establish operational precedent in US regulatory frameworks.",
+      "takeaway": "Manna's $50M funding infusion signals investor confidence in autonomous delivery as a scalable logistics model beyond experimental pilots.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/07/manna-drone-delivery-us-funding/"
@@ -339,39 +467,23 @@
       "type": "news",
       "headline": "7 Aircraft With The Largest Wingspans Ever Built",
       "blurb": "These aircraft dwarf many modern airliners.",
-      "takeaway": "Historical extreme wingspans demonstrate engineering solutions to specific challenges like cargo capacity and range that remain relevant to modern aircraft design optimization.",
+      "takeaway": "Modern aircraft prioritize efficiency over size, with today's largest commercial jets having significantly smaller wingspans than historical record-holders designed for different operational needs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/7-aircraft-largest-wingspans-built/"
       },
-      "category": "aerospace",
+      "category": "commercial",
       "keywords": [
         "airline"
       ],
       "publishedAt": "2026-04-07T08:00:18.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation layers—from flight planning to airport ground operations—offers the most immediate path to handle demand growth while reducing environmental impact before new aircraft technologies mature.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-07T14:06:43.156Z"
-    },
-    {
       "id": "rjqlno",
       "type": "news",
       "headline": "Delta's Massive Growth Continues: Record Flights On 3 New Long-Haul Routes",
       "blurb": "The airline solidifies its position in the transatlantic market, catering to the growing demand for direct flights to these destinations.",
-      "takeaway": "Delta's transatlantic expansion signals sustained post-pandemic demand recovery and competitive repositioning against rivals in high-margin international markets.",
+      "takeaway": "Delta's transatlantic expansion directly challenges competitors by leveraging network density to capture high-yield international leisure and business traffic before capacity constraints limit future growth.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-massive-expansion-continues-more-flights-3-new-routes/"
@@ -387,7 +499,7 @@
       "type": "news",
       "headline": "General Atomics YFQ-42A drone crashes during California test flight",
       "blurb": "A General Atomics YFQ-42A Collaborative Combat Aircraft prototype crashed shortly after takeoff in the California desert on April…...",
-      "takeaway": "The YFQ-42A crash highlights integration risks when developing AI-controlled military aircraft that must coordinate with manned fighters in contested airspace.",
+      "takeaway": "Loss of a General Atomics collaborative combat aircraft prototype highlights developmental risks in advanced autonomous military platforms still in early testing phases.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/general-atomics-yfq-42a-cca-crash-california"
@@ -404,7 +516,7 @@
       "type": "news",
       "headline": "DJI confirms end-of-support timeline for Mavic 2, Matrice 600 drones",
       "blurb": "Tech giant DJI will officially end service and support for several of its most beloved professional and prosumer drones in the coming weeks. That includes the iconic DJI Mavic 2 Pro, the versatile DJI Mavic 2 Enterprise Zoom and DJI Mavic 2 Enterprise Dual, and the heavy-lift powerhouse DJI Matrice...",
-      "takeaway": "DJI's support discontinuation forces enterprise operators relying on Mavic 2 and Matrice 600 platforms to plan immediate fleet modernization investments before losing critical firmware and security updates.",
+      "takeaway": "DJI's discontinuation of support for legacy platforms forces operators to modernize their fleets, creating potential compliance and operational risks for enterprises relying on older equipment.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/06/dji-drone-mavic-2-service/"
@@ -420,7 +532,7 @@
       "type": "news",
       "headline": "Northrop Grumman’s Lumberjack Advances Battlefield Capabilities",
       "blurb": "Northrop Grumman Corporation (NYSE: NOC) showcased the autonomous mission capabilities of its Lumberjack™ Group 3 Uncrewed Aircraft...",
-      "takeaway": "Northrop's Lumberjack Group 3 UAS demonstrates autonomous mission execution without real-time operator control, signaling military aviation's shift toward reduced-latency battlefield operations.",
+      "takeaway": "Northrop Grumman's autonomous Lumberjack system demonstrates how Group 3 UAS platforms are evolving beyond surveillance to execute complex independent battlefield missions with minimal operator intervention.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/northrop-grummans-lumberjack-advances-battlefield-capabilities/"
@@ -434,7 +546,7 @@
       "type": "news",
       "headline": "Crying Baby Controversy After Allegiant Deplanes Family On MedLink Advice",
       "blurb": "A couple and their newborn are removed from the plane.",
-      "takeaway": "Airlines' reliance on third-party medical advisors for passenger removal decisions creates liability exposure when those determinations conflict with passenger rights and public perception.",
+      "takeaway": "Airlines' reliance on third-party medical consultants for passenger removal decisions creates liability exposure and reputational risk when interventions lack clear safety justification.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/allegiant-crying-baby-medlink-deplaning/"
@@ -448,7 +560,7 @@
       "type": "news",
       "headline": "GA-ASI News: Statement on YFQ-42A Flight Incident",
       "blurb": "A YFQ-42A Collaborative Combat Aircraft test platform experienced a mishap following takeoff from a company-owned...",
-      "takeaway": "Loss of experimental combat aircraft during testing highlights the technical risks inherent in autonomous system development and the importance of rigorous flight test protocols.",
+      "takeaway": "Uncrewed combat aircraft development programs face operational risks that could impact certification timelines and military procurement schedules.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/ga-asi-news-statement-on-yfq-42a-flight-incident/"
@@ -464,7 +576,7 @@
       "type": "news",
       "headline": "DroneShield Advances Decision Advantage with Q2 2026 Software Release as Drone Threats Scale Globally",
       "blurb": "DroneShield, a global leader in advanced counter-unmanned systems (CUxS), today announced its Q2 2026 software...",
-      "takeaway": "Counter-drone software capabilities are becoming critical infrastructure as unauthorized unmanned systems proliferate across commercial and defense sectors worldwide.",
+      "takeaway": "Counter-drone software advancement addresses the escalating operational complexity of integrating detection and response capabilities across diverse threat environments.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/droneshield-advances-decision-advantage-with-q2-2026-software-release-as-drone-threats-scale-globally/"
@@ -474,118 +586,6 @@
         "drone"
       ],
       "publishedAt": "2026-04-07T05:26:59.000Z"
-    },
-    {
-      "id": "tqpne7",
-      "type": "news",
-      "headline": "Iran War Fallout: Airlines Slash Thousands Of Flights Amid Global Fuel Shortages",
-      "blurb": "As the Iran crisis escalates, airlines worldwide are grappling with skyrocketing fuel costs and limited access to jet fuel.",
-      "takeaway": "Geopolitical disruptions are forcing airlines to reduce capacity rather than absorb fuel cost increases, signaling structural vulnerabilities in global aviation supply chains.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/iran-war-airline-flight-cancellations-fuel-shortage/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-04-07T05:08:21.000Z"
-    },
-    {
-      "id": "o8zpyt",
-      "type": "news",
-      "headline": "I’m A Flight Attendant: This Is How We Handle Difficult Passengers",
-      "blurb": "Always trying to resolve issues before they start.",
-      "takeaway": "Flight attendants employ de-escalation techniques and early intervention strategies to prevent passenger conflicts from disrupting flights and crew safety.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/fa-handle-difficult-passengers/"
-      },
-      "category": "safety",
-      "keywords": [],
-      "publishedAt": "2026-04-07T05:00:17.000Z"
-    },
-    {
-      "id": "eglz5a",
-      "type": "news",
-      "headline": "Drought Parches Florida",
-      "blurb": "The state was unusually dry for much of 2025, but the intensity of the drought has ratcheted up since January 2026.",
-      "takeaway": "Extended drought conditions in Florida could strain water-dependent operations at major aviation hubs like Miami and Orlando, affecting aircraft maintenance and firefighting capabilities.",
-      "source": {
-        "name": "NASA",
-        "url": "https://science.nasa.gov/earth/earth-observatory/drought-parches-florida/"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "atc"
-      ],
-      "publishedAt": "2026-04-07T04:01:00.000Z"
-    },
-    {
-      "id": "28p3jd",
-      "type": "news",
-      "headline": "Artemis 2 swings around the moon",
-      "blurb": "Four astronauts from the United States and Canada became the humans to travel the furthest from the Earth April 6 as they went around the moon on the Artemis 2 mission.",
-      "takeaway": "Artemis 2's successful lunar flyby validates NASA's deep-space infrastructure for crewed missions, positioning commercial aerospace suppliers to compete in lunar logistics and beyond-Earth operations.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/artemis-2-swings-around-the-moon/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-07T01:51:44.000Z"
-    },
-    {
-      "id": "kvqk8d",
-      "type": "news",
-      "headline": "China tests heavy cargo drone designed for extreme terrain",
-      "blurb": "China has completed the maiden flight of a new 7-tonne autonomous cargo aircraft, taking a...",
-      "takeaway": "China's 7-tonne autonomous cargo drone addresses logistics gaps in mountainous and remote regions where traditional aircraft infrastructure is unavailable.",
-      "source": {
-        "name": "sUAS News",
-        "url": "https://www.suasnews.com/2026/04/china-tests-heavy-cargo-drone-designed-for-extreme-terrain/"
-      },
-      "category": "drones",
-      "keywords": [
-        "drone"
-      ],
-      "publishedAt": "2026-04-06T20:56:50.000Z"
-    },
-    {
-      "id": "jqiu6m",
-      "type": "news",
-      "headline": "NASA’s Artemis II Crew Eclipses Record for Farthest Human Spaceflight",
-      "blurb": "Editor’s note: This release was updated at 7:28 p.m. EDT on April 6, 2026, to reflect Orion’s final closest approach to the lunar surface from about 4,070 miles to about 4,067 miles. NASA also updated the farthest distance Orion will travel. Finally, NASA also made changes at 10 p.m. to the...",
-      "takeaway": "Artemis II's achievement of farthest human spaceflight since Apollo 13 demonstrates NASA's renewed deep-space exploration capability, with implications for long-duration mission planning and crew safety protocols.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-eclipses-record-for-farthest-human-spaceflight/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-04-06T19:46:20.000Z"
-    },
-    {
-      "id": "5gfatt",
-      "type": "news",
-      "headline": "NASA’s Northrop Grumman CRS-24 Mission Overview",
-      "blurb": "NASA’s Northrop Grumman Commercial Resupply Services 24 mission, or Northrop Grumman CRS-24, will deliver approximately 11,000 pounds of science and supplies to the International Space Station. This mission will be the second flight of the Cygnus XL, the larger, more cargo-capable version of the...",
-      "takeaway": "Northrop Grumman's Cygnus XL increases ISS resupply capacity by approximately 40% compared to standard Cygnus, enhancing sustained research capabilities on the station.",
-      "source": {
-        "name": "NASA",
-        "url": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-24-mission-overview/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "nasa",
-        "space"
-      ],
-      "publishedAt": "2026-04-06T19:29:22.000Z"
     }
   ]
 }
