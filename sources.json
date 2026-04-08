@@ -113,6 +113,18 @@
       "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=civil-aviation-authority",
       "category": "safety",
       "enabled": true
+    },
+    {
+      "name": "FAASafety.gov News",
+      "url": "https://www.faasafety.gov/RSS/NewsRSS.aspx",
+      "category": "safety",
+      "enabled": true
+    },
+    {
+      "name": "FAASafety.gov Notices",
+      "url": "https://www.faasafety.gov/RSS/NoticesRSS.aspx",
+      "category": "safety",
+      "enabled": true
     }
   ],
   "settings": {
