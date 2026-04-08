@@ -101,6 +101,18 @@
       "url": "https://www.easa.europa.eu/rss.xml",
       "category": "safety",
       "enabled": true
+    },
+    {
+      "name": "ICAO Uniting Aviation",
+      "url": "https://unitingaviation.com/feed",
+      "category": "safety",
+      "enabled": true
+    },
+    {
+      "name": "UK Civil Aviation Authority",
+      "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=civil-aviation-authority",
+      "category": "safety",
+      "enabled": true
     }
   ],
   "settings": {
