@@ -125,6 +125,18 @@
       "url": "https://www.faasafety.gov/RSS/NoticesRSS.aspx",
       "category": "safety",
       "enabled": true
+    },
+    {
+      "name": "Travel Radar",
+      "url": "https://travelradar.aero/feed",
+      "category": "international",
+      "enabled": true
+    },
+    {
+      "name": "Flightradar24 Blog",
+      "url": "https://www.flightradar24.com/blog/feed",
+      "category": "safety",
+      "enabled": true
     }
   ],
   "settings": {
