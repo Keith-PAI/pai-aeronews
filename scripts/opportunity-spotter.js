@@ -93,6 +93,27 @@ function extractClaudeText(data) {
 }
 
 /**
+ * Load PAI wiki context files if the private wiki was cloned alongside this repo.
+ * Returns concatenated markdown or empty string. Never throws — wiki is optional.
+ */
+function loadWikiContext() {
+  const wikiDir = path.join(__dirname, '..', 'pai-wiki-context', 'wiki');
+  const files = ['index.md', 'pai-overview.md', 'pai-services.md', 'pai-clients.md', 'opportunities-log.md'];
+  const parts = [];
+  for (const f of files) {
+    try {
+      const p = path.join(wikiDir, f);
+      if (fs.existsSync(p)) {
+        parts.push(`### ${f}\n${fs.readFileSync(p, 'utf-8')}`);
+      }
+    } catch {
+      // ignore — wiki context is best-effort
+    }
+  }
+  return parts.join('\n\n');
+}
+
+/**
  * Build a compact summary of articles for the Claude prompt
  */
 function buildArticleSummary(articles) {
@@ -109,8 +130,12 @@ async function generateOpportunities(articles) {
   if (!apiKey) return null;
 
   const articleSummary = buildArticleSummary(articles);
+  const wikiContext = loadWikiContext();
+  const wikiSection = wikiContext
+    ? `## PAI Knowledge Base Context\n${wikiContext}\n\n## Articles to Analyze\n\n`
+    : '';
 
-  const prompt = `PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, surface up to 7 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients.
+  const prompt = `${wikiSection}PAI Consulting is an aviation SMS (Safety Management System) and safety consulting firm. Based on these news articles, surface up to 7 specific opportunities for PAI to create a useful web tool, app widget, or blog post that would be timely and relevant to their clients.
 
 **PAI's core services:** SMS implementation, safety program development, regulatory compliance consulting, aviation document editing, and meeting/conference support. Opportunities should connect directly to one of these.
 
