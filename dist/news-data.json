@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-08T22:24:10.269Z",
+  "lastUpdated": "2026-04-08T22:28:51.985Z",
   "articles": [
     {
       "id": "p2od3a",
       "type": "news",
       "headline": "5 Experimental Aircraft That Never Reached Mass Production",
       "blurb": "From the XB-70 to the YF-23, these 5 experimental aircraft pushed aviation limits—but were cancelled before reaching production.",
-      "takeaway": "These cancellations reveal how technological innovation alone cannot overcome budget constraints, geopolitical shifts, and performance requirements that determine military aircraft viability.",
+      "takeaway": "Failed experimental programs like the XB-70 and YF-23 reveal how technological advancement alone cannot overcome cost, strategic shifts, or political factors that determine production viability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-experimental-aircraft-never-reached-pass-production/"
@@ -20,7 +20,7 @@
       "type": "news",
       "headline": "Lockheed C-5 Galaxy: Inside The Largest US Military Transport Aircraft Ever Constructed",
       "blurb": "The C-5M Super Galaxy serves a critical role in the US Air Force logistics around the world.",
-      "takeaway": "The C-5M's modernization extends its operational relevance through 2060, making strategic airlift capacity a long-term force multiplier for global military logistics.",
+      "takeaway": "The C-5M's modernization extends the operational lifespan of America's only strategic airlift asset capable of moving outsize cargo globally, directly impacting force projection capabilities.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/lockheed-c-5-galaxy-largest-us-military-transport-constructed/"
@@ -34,7 +34,7 @@
       "type": "news",
       "headline": "NORAD’s F-16s Practice Air Defense Operations from Remote Alaskan Airfield",
       "blurb": "F-16s of the 18th Fighter Interceptor Squadron were deployed to the remote King Salmon airport to demonstrate NORAD’s readiness to respond to potential threats throughout Alaska. U.S. Air Force F-16 Fighting Falcons assigned to the 18th Fighter Interceptor Squadron (18th FIS) were deployed by the...",
-      "takeaway": "NORAD's deployment of F-16s to Alaska's remote airfields demonstrates operationalized capability to defend vast, sparsely populated regions against peer-competitor threats, signaling strategic pivot toward polar defense posture.",
+      "takeaway": "NORAD's deployment of F-16s to remote Alaskan airfields demonstrates operational capability to defend vast, sparsely populated regions where civilian aviation infrastructure is minimal and vulnerable to disruption.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/08/norad-f-16s-remote-alaskan-airfield/"
@@ -47,36 +47,16 @@
       "publishedAt": "2026-04-08T21:25:52.000Z"
     },
     {
-      "id": "pai-risk-controls",
-      "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires selecting proportionate controls that reduce identified risks to acceptable levels rather than eliminating all hazards.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "risk",
-        "faa",
-        "srm"
-      ],
-      "publishedAt": "2026-04-08T22:23:28.757Z",
-      "paiContent": true
-    },
-    {
       "id": "fteacy",
       "type": "news",
       "headline": "What to Do If an Airline Loses Your Bag?",
       "blurb": "It’s pretty much a travel nightmare seeing the luggage carousel stop and people walk away while you are stuck in the empty arrivals hall. It doesn’t matter if you just got off the plane in the tropical heat of Thailand or the freezing cold of the Portuguese coast. Your stress level will increase...",
-      "takeaway": "Airlines face escalating passenger compensation claims as baggage mishandling rates remain a persistent operational and financial liability requiring systematic tracking improvements.",
+      "takeaway": "Airlines face growing liability exposure as mishandled baggage claims require immediate documentation and carrier contact within strict regulatory timeframes.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/what-to-do-if-an-airline-loses-your-bag/"
       },
-      "category": "commercial",
+      "category": "regulatory",
       "keywords": [
         "airline"
       ],
@@ -87,7 +67,7 @@
       "type": "news",
       "headline": "Initial VIP Movement Notification - Atlanta, GA",
       "blurb": "14 APR 2026 Atlanta, GA 5 NMR SFC - 4,999FT MSL Specific instructions and restrictions are available at http://tfr.faa.gov once the NOTAM has been issued. *Depicted TFR data may not be a complete listing. Pilots should not use the information on this website for flight planning purposes. For the...",
-      "takeaway": "VIP movement TFRs require real-time FAA NOTAM verification rather than relying on website depictions, as incomplete data can create serious flight planning hazards.",
+      "takeaway": "VIP movement TFRs in Atlanta require pilots to verify live FAA NOTAM databases rather than relying on summary notifications for accurate airspace restrictions.",
       "source": {
         "name": "FAASafety.gov Notices",
         "url": "http://www.faasafety.gov/SPANS/noticeView.aspx?nid=14917"
@@ -100,11 +80,31 @@
       "publishedAt": "2026-04-08T20:36:00.000Z"
     },
     {
+      "id": "pai-sms-compliance",
+      "type": "pai-blog",
+      "headline": "SMS Declaration of Compliance",
+      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
+      "takeaway": "SMS Declaration of Compliance demonstrates FAA's shift toward outcome-based oversight, requiring operators to self-certify safety management maturity rather than relying solely on traditional compliance audits.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "compliance",
+        "faa",
+        "declaration"
+      ],
+      "publishedAt": "2026-04-08T22:28:08.028Z",
+      "paiContent": true
+    },
+    {
       "id": "6imoxv",
       "type": "news",
       "headline": "VIP Movement Notification - Athens, GA",
       "blurb": "14 APR, 2026 Athens, GA 5 NMR SFC - 4,999FT MSL Specific instructions and restrictions are available at http://tfr.faa.gov once the NOTAM has been issued. *Depicted TFR data may not be a complete listing. Pilots should not use the information on this website for flight planning purposes. For the...",
-      "takeaway": "A temporary flight restriction in Athens, GA indicates VIP movement requiring pilots to check current NOTAMs before flight planning rather than relying on cached TFR data.",
+      "takeaway": "A temporary flight restriction over Athens, GA on April 14, 2026 indicates VIP movement activity requiring pilots to check official FAA TFR channels rather than relying on website summaries for accurate flight planning.",
       "source": {
         "name": "FAASafety.gov Notices",
         "url": "http://www.faasafety.gov/SPANS/noticeView.aspx?nid=14916"
@@ -117,31 +117,11 @@
       "publishedAt": "2026-04-08T20:26:00.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must formally certify their Safety Management System meets FAA standards, creating enforceable documentation that demonstrates systematic risk management accountability.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-08T22:23:28.757Z",
-      "paiContent": true
-    },
-    {
       "id": "oobqbw",
       "type": "news",
       "headline": "Improved thresholds and SSA accuracy can reduce most satellite collision risk",
       "blurb": "Improving the accuracy of space situational awareness data and using tighter thresholds for potential conjunctions can help retire most satellite collision risk in LEO, a new study concludes.",
-      "takeaway": "Enhanced SSA accuracy and stricter conjunction thresholds could eliminate majority of LEO collision hazards, reducing operational complexity and insurance costs for satellite operators.",
+      "takeaway": "Enhanced SSA accuracy and conjunction thresholds could eliminate most LEO collision risks, reducing insurance costs and operational constraints for commercial satellite operators.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/improved-thresholds-and-ssa-accuracy-can-reduce-most-satellite-collision-risk/"
@@ -157,7 +137,7 @@
       "type": "news",
       "headline": "Only 43% Full: Southwest's 10 Emptiest International Routes",
       "blurb": "Some of them are barely ever discussed...",
-      "takeaway": "Southwest's international route underperformance suggests structural challenges in their ultra-low-cost model's ability to compete on long-haul leisure markets where ancillary revenue and premium cabins drive profitability.",
+      "takeaway": "Southwest's chronically underutilized international routes signal potential capacity reallocation opportunities and reveal gaps between network strategy and market demand.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/only-43pc-full-southwests-10-emptiest-international-routes/"
@@ -171,7 +151,7 @@
       "type": "news",
       "headline": "The Striking Differences Between United's Polaris 2.0, Delta One & Qatar QSuites In 2026",
       "blurb": "These products all have their own unique value propositions.",
-      "takeaway": "Premium cabin differentiation through distinct physical layouts and amenities is becoming the primary competitive lever as airlines converge on similar price points for international business travel.",
+      "takeaway": "Premium cabin differentiation is intensifying across carriers, forcing business travelers to reassess loyalty based on specific route networks rather than universal superior products.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-united-polaris-delta-one-qatar-qsuites-2026/"
@@ -181,33 +161,31 @@
       "publishedAt": "2026-04-08T20:01:19.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
-      "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Eastern Iowa Airport's diverse traffic mix from trainers to air carriers positions it as a critical regional hub supporting both general aviation development and commercial operations across the Midwest.",
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must document how they selected specific risk controls and justified acceptance of remaining residual risks, moving SRM from theoretical analysis into auditable operational practice.",
       "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
-      "category": "general-aviation",
+      "category": "safety",
       "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
+        "sms",
+        "risk",
+        "faa",
+        "srm"
       ],
-      "publishedAt": "2026-04-08T22:23:28.949Z",
-      "videoContent": true
+      "publishedAt": "2026-04-08T22:28:08.028Z",
+      "paiContent": true
     },
     {
       "id": "6z4ara",
       "type": "news",
       "headline": "French Rafale jets conduct first interception since taking over Baltic Air Policing",
       "blurb": "Two French Air and Space Force Rafale B fighters scrambled from Šiauliai Air Base in Lithuania on April…...",
-      "takeaway": "France's Rafale deployment in the Baltic demonstrates NATO's rotating air defense commitment while testing interoperability of newer-generation fighters in the alliance's Eastern European operations.",
+      "takeaway": "NATO's transition to Rafale jets for Baltic Air Policing demonstrates increased European air defense capability as Western allies shift away from US-dependent fighter rotations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/french-rafale-jets-conduct-first-interception-since-taking-over-baltic-air-policing"
@@ -223,7 +201,7 @@
       "type": "news",
       "headline": "FAA Extends Comment Period on Part 141 Modernization Report",
       "blurb": "Industry groups say added time will allow broader review of recommendations for pilot school reform.",
-      "takeaway": "Extended comment period signals FAA openness to industry input on substantial pilot training curriculum changes that could reshape flight school operations and instructor requirements.",
+      "takeaway": "The extended comment period signals FAA openness to stakeholder input on potentially significant pilot training curriculum and operational standards changes affecting flight schools nationwide.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-extends-comment-period-part-141-modern/"
@@ -240,7 +218,7 @@
       "type": "news",
       "headline": "Manchester – Four men have been arrested on suspicion of delivering contraband into a prison",
       "blurb": "Four men were arrested after officers from GMP’s Specialist Operations unit stopped a vehicle on...",
-      "takeaway": "Drone-based contraband delivery to prisons represents an emerging security threat requiring aviation enforcement coordination with law enforcement agencies.",
+      "takeaway": "Drone-based prison contraband delivery represents an emerging security threat requiring enhanced detection protocols at correctional facilities and nearby airspace.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/manchester-four-men-have-been-arrested-on-suspicion-of-delivering-contraband-into-a-prison/"
@@ -250,32 +228,11 @@
       "publishedAt": "2026-04-08T19:01:49.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
-      "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strikes remain a leading cause of fatal helicopter accidents despite pilots overestimating their ability to react and avoid obstacles at operational speeds.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-08T22:23:28.949Z",
-      "videoContent": true
-    },
-    {
       "id": "sdu5c2",
       "type": "news",
       "headline": "Army Narrows Field For Outsourced Pilot Training; Bell, M1 Advance",
       "blurb": "The U.S. Army has advanced Bell and M1 Support Services to the final phase of its Flight School Next program.",
-      "takeaway": "Bell and M1's advancement signals the Army's shift toward private-sector pilot training partnerships, potentially reshaping military aviation workforce development and creating new opportunities for defense contractors.",
+      "takeaway": "The Army's consolidation to two contractors signals intensifying competition to reshape military pilot training through modernized, outsourced delivery models that could influence broader defense aviation practices.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/army-pilot-training-bell-m1-advance/"
@@ -287,11 +244,32 @@
       "publishedAt": "2026-04-08T19:01:00.000Z"
     },
     {
+      "id": "yt-auto-R8xtl4OW9eg",
+      "type": "video",
+      "headline": "RNO Mustang 9 Departure",
+      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
+      "takeaway": "The Mustang 9 Departure from RNO's parallel runways requires heightened pilot attention due to specific procedural complexities that differ from standard departure operations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-08T22:28:08.313Z",
+      "videoContent": true
+    },
+    {
       "id": "jixazk",
       "type": "news",
       "headline": "LOT Polish Airlines Launches Bologna Route from Warsaw",
       "blurb": "LOT Polish Airlines has launched a new route between Warsaw Chopin Airport (WAW) and Bologna Guglielmo Marconi Airport (BLQ), expanding its footprint in Italy. The service, which began on 31 March, will operate six times weekly from Warsaw Chopin Airport to Bologna Guglielmo Marconi Airport. Demand...",
-      "takeaway": "LOT's six-weekly Bologna service reflects Eastern European carriers' strategic expansion into secondary Italian cities to capture underserved leisure and business demand.",
+      "takeaway": "LOT's six-weekly Bologna service strengthens Polish carriers' competitive positioning in Central Europe-Italy connectivity, capitalizing on underserved demand between Warsaw and Northern Italy.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/lot-polish-airlines-launches-bologna-route-from-warsaw/"
@@ -308,7 +286,7 @@
       "type": "news",
       "headline": "Picture of the Day: April 8, 2026",
       "blurb": "Air Force One on final near Greensboro, North Carolina.",
-      "takeaway": "Air Force One's routing through North Carolina airspace demonstrates how presidential flights navigate around eclipse-path congestion and civil aviation traffic during major astronomical events.",
+      "takeaway": "Presidential aircraft operations provide critical real-world data on airfield capacity and approach procedures at non-primary airports.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-8-2026/"
@@ -318,27 +296,11 @@
       "publishedAt": "2026-04-08T18:40:58.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation domains offers a near-term pathway to sustainability that doesn't require waiting for new aircraft or fuel technologies to mature.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-08T22:23:28.949Z"
-    },
-    {
       "id": "ckvbth",
       "type": "news",
       "headline": "Delta Air Lines To Cut Capacity, Expects Increased Fuel Prices Will Result In $2 Billion Cost",
       "blurb": "Jet fuel prices are forcing Delta to make strategic capacity cuts, aiming to mitigate the financial impact of an estimated $2 billion cost increase.",
-      "takeaway": "Delta's capacity reductions signal that airlines are shifting from demand-driven scheduling to cost-management mode as fuel economics fundamentally reshape network planning.",
+      "takeaway": "Delta's preemptive capacity reduction signals airlines are actively managing margin pressure rather than absorbing fuel costs through pricing alone.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/delta-air-lines-cut-capacity-increased-fuel-prices-result-2-billion-cost/"
@@ -352,7 +314,7 @@
       "type": "news",
       "headline": "Italian MOD Says No Policy Shift On U.S. Bases, Reveals Flight Statistics For Aviano And Sigonella",
       "blurb": "Speaking before Parliament after the controversy sparked by the denied landing of a U.S. aircraft at Sigonella, Defense Minister Guido Crosetto said Italy continues to apply long-standing agreements governing U.S. military activity. On Mar. 31, 2026, the news spread that Italy had refused to allow...",
-      "takeaway": "Italy's denial of U.S. aircraft landing rights at Sigonella reflects enforcement of existing bilateral agreements rather than new policy, signaling stricter adherence to established protocols governing allied military operations.",
+      "takeaway": "Italy's defense ministry clarified that denied U.S. aircraft landings reflect enforcement of existing bilateral agreements rather than policy reversal, maintaining operational continuity at strategically vital bases.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/08/italy-no-policy-shift-on-us-bases/"
@@ -362,11 +324,32 @@
       "publishedAt": "2026-04-08T18:14:49.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Pilots consistently overestimate their ability to react to wire encounters, making wire strikes a preventable crisis despite being among helicopter aviation's deadliest hazards.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-08T22:28:08.313Z",
+      "videoContent": true
+    },
+    {
       "id": "1ad2zt",
       "type": "news",
       "headline": "Twin NASA Control Rooms Support Artemis Safety, Success",
       "blurb": "Twin control rooms at NASA’s Marshall Space Flight Center in Huntsville, Alabama, are actively supporting real-time mission operations in lunar orbit as part of the agency’s Artemis II mission, helping ensure astronaut safety and mission success as the crew prepares to return to Earth Friday, April...",
-      "takeaway": "Redundant control room architecture enables real-time mission oversight and contingency management for crewed lunar operations, a critical infrastructure model for long-duration space missions.",
+      "takeaway": "Redundant mission control centers provide real-time operational flexibility and risk mitigation for crewed lunar operations, enabling seamless handoff capabilities during critical phases.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/twin-nasa-control-rooms-support-artemis-safety-success/"
@@ -385,7 +368,7 @@
       "type": "news",
       "headline": "Textron Aviation Names 2026 Top Hawk Recipients",
       "blurb": "The program places factory‑new Cessna 172 Skyhawks in training fleets for one year.",
-      "takeaway": "Textron's Top Hawk program directly addresses pilot shortage by subsidizing new aircraft for flight schools, reducing training bottlenecks before return to manufacturer inventory.",
+      "takeaway": "Textron's factory-new Skyhawk placement strategy directly addresses pilot shortage by reducing training bottlenecks through dedicated aircraft availability.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/textron-aviation-2026-top-hawk-recipients/"
@@ -401,7 +384,7 @@
       "type": "news",
       "headline": "British Airways' Airbus A380s Will Have The World's Largest Business Class In 2026: 110 Club Suite Seats",
       "blurb": "The Airbus A380 is about to become British Airways' most opulent aircraft.",
-      "takeaway": "BA's A380 retrofit prioritizes ultra-premium seating density over total capacity, signaling a strategic shift toward maximizing per-seat revenue rather than passenger volume on flagship routes.",
+      "takeaway": "BA's A380 retrofit prioritizes ultra-premium capacity over total seat count, signaling a strategic shift toward high-yield long-haul routes and passenger segmentation.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/british-airways-worlds-largest-business-class-2026-110-club-seats/"
@@ -417,7 +400,7 @@
       "type": "news",
       "headline": "Space Sovereignty Is No Longer Optional",
       "blurb": "A Critical Infrastructure Under Strain Space has quietly become the infrastructure beneath modern life. From financial transactions synchronised by satellite timing to military operations reliant on secure communications, the global […]...",
-      "takeaway": "Space infrastructure's criticality to financial systems and military operations demands that nations prioritize sovereign satellite capabilities to reduce dependency on foreign providers.",
+      "takeaway": "Nations must now treat space infrastructure as critical national security infrastructure, comparable to terrestrial utilities, or risk operational and economic vulnerabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-sovereignty-is-no-longer-optional/"
@@ -429,11 +412,27 @@
       "publishedAt": "2026-04-08T17:50:50.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across all levels of aviation infrastructure—not just aircraft technology—is essential to accommodate rising demand while meeting environmental targets.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-08T22:28:08.313Z"
+    },
+    {
       "id": "keln4e",
       "type": "news",
       "headline": "Rolls-Royce Vs. Pratt & Whitney: Vs. General Electric: Who Dominates The Commercial Aircraft Engine Market?",
       "blurb": "A closer look at the world's leading engine makers.",
-      "takeaway": "Rolls-Royce's niche focus on wide-body aircraft engines contrasts with GE's market dominance across narrow-body platforms, creating distinct competitive advantages rather than direct market dominance.",
+      "takeaway": "The three manufacturers control distinct market segments—GE dominates narrow-body, P&W leads wide-body, and Rolls-Royce specializes in ultra-large aircraft—creating a balanced competitive ecosystem rather than single-market dominance.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/rolls-royce-vs-pratt-whitney-vs-general-electric-who-dominates-the-commercial-aircraft-engine-market/"
@@ -449,7 +448,7 @@
       "type": "news",
       "headline": "Solar Eclipse of the Heart",
       "blurb": "The Moon, seen here backlit by the Sun during a solar eclipse on April 6, 2026, is photographed by one of the cameras on the Orion spacecraft’s solar array wings. During lunar flyby, the Artemis II astronauts observed a solar eclipse that only they could see due to their unique position. See more...",
-      "takeaway": "Artemis II astronauts will experience a unique celestial phenomenon during lunar flyby that demonstrates the specialized vantage points available only to deep-space missions for scientific observation.",
+      "takeaway": "Artemis II will provide unprecedented eclipse imagery from lunar orbit, offering unique photographic and scientific data unavailable from Earth-based observations.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/solar-eclipse-of-the-heart/"
@@ -465,12 +464,12 @@
       "type": "news",
       "headline": "Future of Digital Identity Documentation Studied by IATA",
       "blurb": "New proof-of-concept tests (PoCs) by the International Air Transport Association (IATA) show that biometric digital IDs can streamline international travel. The Information Highlighted in the PoCs The PoCs were conducted in collaboration with various partners across departments in the Asia-Pacific...",
-      "takeaway": "IATA's biometric digital ID trials demonstrate potential to reduce airport processing times and friction points across international travel operations.",
+      "takeaway": "IATA's biometric digital ID pilots could reduce border processing times and operational bottlenecks that currently constrain international flight capacity and airline profitability.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/future-of-digital-identity-documentation-studied-by-iata/"
       },
-      "category": "regulatory",
+      "category": "international",
       "keywords": [
         "airport"
       ],
@@ -481,7 +480,7 @@
       "type": "news",
       "headline": "The Transatlantic Routes Operated By US Boeing 757s",
       "blurb": "With over 3,000 transatlantic Boeing 757 flights in 2026, the aircraft continues to play a crucial role in connecting the United States and Europe.",
-      "takeaway": "Boeing 757s maintain strong transatlantic viability despite being out of production since 2004, demonstrating the aircraft's exceptional range and reliability for long-haul operations.",
+      "takeaway": "The 757's extended range and efficiency make it economically viable for transatlantic operations despite being a narrowbody, challenging traditional widebody route economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/transatlantic-routes-operated-us-boeing-757s/"
@@ -497,7 +496,7 @@
       "type": "news",
       "headline": "FAA Weighs Ultralight Access Dispute At California Airport",
       "blurb": "Ultralight pilots said local restrictions effectively shut them out of the airport.",
-      "takeaway": "The FAA may need to clarify ultralight aircraft classification and local authority boundaries, as airport restrictions are creating access disputes that could set precedent for similar conflicts nationwide.",
+      "takeaway": "Ultralight pilot access disputes are emerging as regulatory friction points at individual airports, highlighting gaps between FAA oversight and local land-use restrictions.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-weighs-ultralight-access-dispute-at-california-airport/"
@@ -511,11 +510,27 @@
       "publishedAt": "2026-04-08T16:23:06.000Z"
     },
     {
+      "id": "d8omn4",
+      "type": "news",
+      "headline": "Lanzarote: the history of our newest airport live stream location",
+      "blurb": "Lanzarote International Airport (ACE/GCRR) is the latest addition to our YouTube channel’s live streams, featuring a camera that broadcasts 24 hours a day, capturing all airport activity, including takeoffs and landings. Building an airport The idea of building an airport on one of Spain’s Canary...",
+      "takeaway": "Lanzarote Airport's 24/7 live stream adds real-time traffic visibility to a growing collection of monitored airports, enabling remote operational monitoring and aviation enthusiast engagement.",
+      "source": {
+        "name": "Flightradar24 Blog",
+        "url": "https://www.flightradar24.com/blog/aviation-news/lanzarote-the-history-of-our-newest-airport-live-stream-location/"
+      },
+      "category": "general-aviation",
+      "keywords": [
+        "airport"
+      ],
+      "publishedAt": "2026-04-08T16:00:20.000Z"
+    },
+    {
       "id": "3k389n",
       "type": "news",
       "headline": "New Teterboro Lounge Built For Canine Passengers",
       "blurb": "Fly Alliance is rolling out the Jet Paw Lounge at Teterboro, a first-of-its-kind private aviation terminal designed entirely for dogs.",
-      "takeaway": "Pet-focused amenities at major business aviation hubs represent an emerging service differentiation strategy targeting high-net-worth travelers' lifestyle preferences.",
+      "takeaway": "Pet-focused FBO amenities represent a growing market segment as operators recognize companion animals as revenue-generating passengers with distinct service requirements.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/fly-alliance-jet-paw-lounge-teterboro-dog/"
@@ -529,7 +544,7 @@
       "type": "news",
       "headline": "Michigan ANG A-10s Depart Lakenheath to Bolster Middle East Forces",
       "blurb": "After arriving in late March, twelve A-10C Thunderbolt IIs from Michigan’s 107th Fighter Squadron successfully departed RAF Lakenheath on Apr. 8 towards the U.S. Central Command region. The twelve attack jets arrived at the base, home to the U.S. Air Force’s 48th Fighter Wing, on Mar. 30, 2026 as...",
-      "takeaway": "Michigan ANG's A-10 deployment to CENTCOM demonstrates continued reliance on Air National Guard combat assets for sustained Middle East operations.",
+      "takeaway": "The 107th Fighter Squadron's A-10 deployment demonstrates sustained U.S. commitment to Middle East force projection, with Air National Guard units now serving as primary contributors to CENTCOM operations.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/08/michigan-a10s-depart-lakenheath/"
@@ -543,7 +558,7 @@
       "type": "news",
       "headline": "I Flew Lufthansa’s 100-Year \"Time Travel\" Flight From Berlin To Zurich: Here Is What Happened",
       "blurb": "From parallel takeoffs to a \"nose-to-nose\" photoshoot: Inside the historic 100-year flight Lufthansa just operated from Berlin to Zurich.",
-      "takeaway": "Lufthansa's centennial celebration flight demonstrates heritage aviation's value as a premium experiential marketing tool that differentiates carriers in competitive markets.",
+      "takeaway": "Lufthansa's centennial flight demonstration showcases aviation heritage marketing while validating modern aircraft safety and operational procedures through historical reenactment.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/lufthansa-100-year-anniversary-flight-review/"
@@ -557,7 +572,7 @@
       "type": "news",
       "headline": "Here's How The US-Iran Ceasefire Could Impact Middle Eastern Aviation",
       "blurb": "The ripple effects of the latest developments will also be felt beyond the confines of the region.",
-      "takeaway": "A US-Iran ceasefire could enable airlines to resume profitable routes through Iranian airspace, reducing flight times and fuel costs for carriers operating between Europe and Asia.",
+      "takeaway": "Regional ceasefire agreements reshape airspace accessibility and insurance costs for carriers operating Middle Eastern routes, with cascading effects on global flight routing efficiency.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-us-iran-ceasefire-impact-middle-east-aviation/"
@@ -565,23 +580,6 @@
       "category": "international",
       "keywords": [],
       "publishedAt": "2026-04-08T15:09:28.000Z"
-    },
-    {
-      "id": "2xc1b1",
-      "type": "news",
-      "headline": "France cancels Patroller, Eurodrone programs in updated military spending law",
-      "blurb": "France has confirmed the cancellation of two major drone programs, the Safran Patroller tactical drone and the multinational…...",
-      "takeaway": "France's withdrawal from collaborative drone development signals growing divergence in European defense procurement strategy and could reshape multinational aerospace partnerships.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/france-patroller-eurodrone-dropped-lpm-update"
-      },
-      "category": "military",
-      "keywords": [
-        "drone",
-        "saf"
-      ],
-      "publishedAt": "2026-04-08T15:00:33.000Z"
     }
   ]
 }
