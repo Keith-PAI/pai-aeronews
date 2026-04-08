@@ -68,16 +68,18 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: npm run build
 
-      # Clone the private PAI wiki for OS context. Uses GITHUB_TOKEN; if the
-      # token lacks access or the repo is unreachable, continue-on-error keeps
-      # the public pipeline alive and the OS will simply run without wiki context.
+      # Clone the private PAI wiki for OS context using an SSH deploy key.
+      # If the key is missing or the repo is unreachable, continue-on-error
+      # keeps the public pipeline alive and the OS runs without wiki context.
+      - name: Load PAI wiki SSH deploy key
+        continue-on-error: true
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.PAI_WIKI_DEPLOY_KEY }}
+
       - name: Clone PAI wiki for OS context
         continue-on-error: true
-        uses: actions/checkout@v6
-        with:
-          repository: Keith-PAI/pai-wiki
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: pai-wiki-context
+        run: git clone git@github.com:Keith-PAI/pai-wiki.git pai-wiki-context
 
       # Opportunity Spotter — runs every hour against new (unseen) articles only.
       # Skips Claude entirely if no new URLs since the last run; posts to Teams
