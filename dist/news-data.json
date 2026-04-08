@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-08T14:33:02.132Z",
+  "lastUpdated": "2026-04-08T14:43:17.977Z",
   "articles": [
     {
       "id": "v87clv",
       "type": "news",
       "headline": "April 30: Opportunities for On-Orbit Computing",
       "blurb": "Join us in Washington, D.C., for the next event in our orbital data centers series...",
-      "takeaway": "On-orbit computing infrastructure represents a emerging market opportunity for aerospace suppliers seeking to diversify beyond traditional launch and satellite services.",
+      "takeaway": "On-orbit computing capabilities could enable real-time data processing for satellite operations, reducing latency-dependent applications like autonomous aircraft systems and precise navigation services.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/opportunities-for-on-orbit-computing-event/"
@@ -22,7 +22,7 @@
       "type": "news",
       "headline": "Batik Air adds Shanghai and Sydney as airline targets China and Australia growth",
       "blurb": "Batik Air announced that it is adding Shanghai and Sydney to its route network, with new direct services…...",
-      "takeaway": "Batik Air's expansion into Shanghai and Sydney signals Malaysian carriers' aggressive regional competition strategy as Southeast Asian airlines consolidate their footprint in high-demand Asia-Pacific markets.",
+      "takeaway": "Batik Air's expansion into Shanghai and Sydney signals Southeast Asian carriers' growing capacity to compete on long-haul routes traditionally dominated by legacy carriers.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/batik-air-adds-shanghai-and-sydney-as-airline-targets-china-and-australia-growth"
@@ -38,7 +38,7 @@
       "type": "news",
       "headline": "Delta ‘best positioned to navigate’ Iran turmoil despite quarter loss: CEO",
       "blurb": "Delta Air Lines is “best positioned to navigate” the fallout from the Iranian conflict despite reporting a net…...",
-      "takeaway": "Delta's competitive advantages in fleet flexibility and route diversification enable it to absorb geopolitical disruptions better than peers, despite near-term earnings pressure.",
+      "takeaway": "Delta's operational resilience in geopolitical crises stems from its diversified route network and fuel hedging strategies, insulating it better than competitors from Middle East volatility.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/delta-air-lines-ed-bastian-quarter-results"
@@ -48,11 +48,31 @@
       "publishedAt": "2026-04-08T14:24:36.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "Part 5's structured risk assessment framework enables operators to quantify and prioritize safety hazards systematically rather than relying on intuition alone.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-04-08T14:42:22.343Z",
+      "paiContent": true
+    },
+    {
       "id": "j43rgw",
       "type": "news",
       "headline": "New funding fuels AirHub’s defense drone ambitions",
       "blurb": "AirHub is doubling down on a future where drones aren’t just tools; they’re part of the operational backbone for security, defense, and critical infrastructure. And with fresh funding in hand, the European company is making a serious push to lead that transformation. more…...",
-      "takeaway": "AirHub's capital injection signals investor confidence in autonomous drone integration for defense infrastructure, positioning European companies to compete with U.S.-dominated military aviation markets.",
+      "takeaway": "AirHub's defense drone expansion signals market confidence in autonomous systems becoming integral to military operations, not peripheral assets.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/08/airhub-drone-operations-software-funding/"
@@ -64,31 +84,11 @@
       "publishedAt": "2026-04-08T14:01:00.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations that actively cultivate psychological safety and reward anonymous reporting see measurable improvements in hazard detection before accidents occur, making culture the foundation of effective SMS.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-08T14:31:58.754Z",
-      "paiContent": true
-    },
-    {
       "id": "lx2hzs",
       "type": "news",
       "headline": "Flight Alerts: 12 Exciting New Nonstop Routes Launching This Week",
       "blurb": "See which notable examples made the list this week...",
-      "takeaway": "Weekly route launches indicate airlines are aggressively expanding capacity in leisure and underserved markets as demand recovery accelerates beyond pre-pandemic levels.",
+      "takeaway": "New nonstop route expansion reflects sustained post-pandemic demand recovery and airlines' confidence in market profitability despite economic headwinds.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/notable-airline-routes-203/"
@@ -102,7 +102,7 @@
       "type": "news",
       "headline": "7 Airlines With The World's Most Comfortable Long-Haul Economy Seats",
       "blurb": "All seven airlines are based in Southeast Asia or the Middle East regions, and their products are industry-leading!",
-      "takeaway": "Regional carriers in Southeast Asia and Middle East are setting new comfort benchmarks that force legacy airlines to reconsider economy seat design standards.",
+      "takeaway": "Regional carriers in Southeast Asia and Middle East are setting new comfort benchmarks that legacy Western airlines struggle to match on long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/7-airlines-most-comfortable-long-haul-economy-seats/"
@@ -118,7 +118,7 @@
       "type": "news",
       "headline": "Tracking the next SDA challenge",
       "blurb": "A flurry of commercial innovation has left the U.S. government with no shortage of sensors and AI-driven insights to monitor the increasingly packed and contested space environment. The challenge is […]...",
-      "takeaway": "Government agencies must now integrate multiple commercial sensor networks and AI systems to maintain space domain awareness as private operators rapidly increase orbital activity.",
+      "takeaway": "Commercial space operators' proliferation of sensors and AI analytics is overwhelming government's ability to process actionable intelligence for space situational awareness.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/tracking-the-next-sda-challenge/"
@@ -130,11 +130,31 @@
       "publishedAt": "2026-04-08T14:00:00.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective safety risk management requires organizations to document why certain residual risks remain acceptable after control implementation, not just identify hazards.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-08T14:42:22.343Z",
+      "paiContent": true
+    },
+    {
       "id": "2jsap6",
       "type": "news",
       "headline": "Preparing for the next NASA budget battle",
       "blurb": "When Congress passed a fiscal year 2026 “minibus” appropriations bill in January, much of the space community breathed a sigh of relief. Congress had rejected the steep cuts proposed by the Trump administration, including a nearly 25% reduction in the agency’s overall budget and nearly 50% to...",
-      "takeaway": "NASA's reprieve from proposed 2026 cuts signals Congressional prioritization of space exploration over administration austerity, but sustained funding battles loom as political priorities shift.",
+      "takeaway": "NASA's reprieve from proposed cuts signals Congress's willingness to protect space exploration funding despite executive pressure, but sustained advocacy will be critical as budget battles continue beyond 2026.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/preparing-for-the-next-nasa-budget-battle/"
@@ -147,32 +167,11 @@
       "publishedAt": "2026-04-08T14:00:00.000Z"
     },
     {
-      "id": "pai-evolution-sms",
-      "type": "pai-blog",
-      "headline": "The Evolution of Aviation SMS",
-      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation safety from investigating accidents after they happen to systematically identifying and eliminating hazards before they cause incidents.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "faa",
-        "icao",
-        "history",
-        "aviation safety"
-      ],
-      "publishedAt": "2026-04-08T14:31:58.754Z",
-      "paiContent": true
-    },
-    {
       "id": "23utty",
       "type": "news",
       "headline": "This Airline Has The World's Best First Class In 2026",
       "blurb": "Several carriers, such as Singapore Airlines, Etihad Airways, Emirates, British Airways, and Lufthansa, continue to offer first class on key routes.",
-      "takeaway": "Premium cabin competition intensifies as legacy carriers justify first-class investments through route-specific deployment rather than fleet-wide offerings.",
+      "takeaway": "First-class premium cabins remain a competitive differentiator for legacy carriers on long-haul routes despite industry pressures, driving ancillary revenue and brand loyalty.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airline-worlds-best-first-class-seat-2026/"
@@ -184,11 +183,27 @@
       "publishedAt": "2026-04-08T13:30:18.000Z"
     },
     {
+      "id": "86x5g",
+      "type": "news",
+      "headline": "American Airlines Unveils World Cup-Themed Aircraft",
+      "blurb": "American Airlines marks its role as an official tournament airline partner...",
+      "takeaway": "Official airline partnerships for major sporting events create branded touchpoints that enhance customer engagement and generate sustained marketing value across global routes.",
+      "source": {
+        "name": "Travel Radar",
+        "url": "https://travelradar.aero/american-airlines-unveils-world-cup-themed-aircraft/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-04-08T13:00:12.000Z"
+    },
+    {
       "id": "a186il",
       "type": "news",
       "headline": "A lunar base or a lunar economy?",
       "blurb": "We applaud the lunar base vision laid out by NASA Administrator Jared Isaacman on March 24. Placing this stake in the lunar regolith is long overdue. What is missing from the mission architecture, however, is a vision for long-term economic development on the moon. It will be a profound missed...",
-      "takeaway": "Sustainable lunar exploration requires balancing infrastructure investment with commercial economic models to ensure long-term viability beyond initial government missions.",
+      "takeaway": "Sustainable lunar infrastructure requires coupling NASA's base development with commercial economic models, not just government exploration capabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/a-lunar-base-or-a-lunar-economy/"
@@ -201,11 +216,32 @@
       "publishedAt": "2026-04-08T13:00:00.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strikes remain a leading fatal helicopter hazard despite pilot overconfidence in reaction time, requiring systematic detection and avoidance training improvements.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-08T14:42:22.893Z",
+      "videoContent": true
+    },
+    {
       "id": "rr4kyr",
       "type": "news",
       "headline": "LeoLabs debuts space monitoring tool for military users",
       "blurb": "LeoLabs ‘Delta’ moves beyond collision warnings to identify potential adversarial activity...",
-      "takeaway": "Military adoption of commercial space surveillance technology signals growing demand for integrated threat detection beyond debris tracking in contested orbital environments.",
+      "takeaway": "LeoLabs expands space situational awareness beyond safety to include threat detection, creating new intelligence capabilities for military space operations.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/leolabs-debuts-space-monitoring-tool-for-military-users/"
@@ -221,7 +257,7 @@
       "type": "news",
       "headline": "Emirates Said To Have ‘Outrageously Cheap' War Insurance Coverage",
       "blurb": "Some interesting news coming from the Financial Times as the media outlet is reporting that Emirates is paying far less for “war risk” cover than rival airlines - with information sourced from multiple insurers with direct knowledge of its policy.",
-      "takeaway": "Emirates' significantly lower war risk insurance premiums may reflect either superior geopolitical positioning or underpricing that could create competitive disadvantages for rivals operating under standard market rates.",
+      "takeaway": "Emirates' significantly discounted war risk premiums versus competitors may reflect either superior geopolitical positioning or create competitive disadvantages for rivals facing higher operating costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/emirates-said-to-have-outrageously-cheap-war-insurance-coverage/"
@@ -233,38 +269,16 @@
       "publishedAt": "2026-04-08T12:30:17.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway incursion risks at LAX persist even at America's busiest airports, indicating that standardized exit procedures require continuous pilot reinforcement and operational awareness.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-04-08T14:31:58.992Z",
-      "videoContent": true
-    },
-    {
       "id": "fvcdzs",
       "type": "news",
       "headline": "GPS Interference Testing at Yuma Proving Ground, AZ 13 - 17 APR",
       "blurb": "FLIGHT ADVISORY GPS INTERFERENCE TESTING YUMA PROVING GROUND ARIZONA (YPG_AZ) 26-09 (REVISION 1) 13 – 17 April Yuma Proving Ground, AZ The entire flight advisory may be accessed and downloaded at the following address: YPG_AZ 26-09 GPS Flight Advisory (Revision 1) Pilots are advised to check NOTAMs...",
-      "takeaway": "Military GPS interference testing at Yuma Proving Ground April 13-17 requires pilots to monitor NOTAMs for potential navigation system degradation in the region.",
+      "takeaway": "Pilots operating near Yuma Proving Ground April 13-17 must verify current NOTAMs as GPS interference testing will degrade positioning accuracy in the region.",
       "source": {
         "name": "FAASafety.gov Notices",
         "url": "http://www.faasafety.gov/SPANS/noticeView.aspx?nid=14914"
       },
-      "category": "military",
+      "category": "regulatory",
       "keywords": [
         "faa",
         "saf",
@@ -278,7 +292,7 @@
       "type": "news",
       "headline": "What Do Airlines Really Do With Old Planes?",
       "blurb": "The lifecycle of a commercial jet does not simply end when it is removed from a carrier's active schedule. The fate of these multi-million dollar machines is often seen as a mystery, yet understanding the retirement process is essential for grasping the true sustainability and economic scale of the...",
-      "takeaway": "Aircraft retirement represents a significant secondary market opportunity, as planes generate continued revenue through cargo conversion, leasing, or parts harvesting long after passenger service ends.",
+      "takeaway": "Aircraft retirement represents a complex secondary market where planes generate significant residual value through conversion, leasing, or scrapping rather than immediate disposal.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/what-do-airlines-really-do-with-old-planes/"
@@ -290,11 +304,32 @@
       "publishedAt": "2026-04-08T12:00:18.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise-sensitive location within San Francisco's Class B airspace requires specialized departure procedures to balance operational efficiency with residential community impact.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-08T14:42:22.893Z",
+      "videoContent": true
+    },
+    {
       "id": "ib2jcg",
       "type": "news",
       "headline": "Reliable Robotics Completes Detect and Avoid Testing for the FAA",
       "blurb": "Reliable Robotics, the leader in autonomous aircraft systems, today announced the completion of a contract with the...",
-      "takeaway": "Successful detect-and-avoid validation removes a critical regulatory barrier for autonomous aircraft certification and commercial deployment.",
+      "takeaway": "Completion of DAA testing represents a critical regulatory milestone that could accelerate FAA certification pathways for autonomous aircraft operations beyond visual line of sight.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/reliable-robotics-completes-detect-and-avoid-testing-for-the-faa/"
@@ -310,7 +345,7 @@
       "type": "news",
       "headline": "Hypersonics startup Hermeus raises $350 million, moves to LA",
       "blurb": "Hypersonics startup Hermeus announced on April 7, 2026, that it has closed a $350 million Series C round. …...",
-      "takeaway": "Hermeus's $350M funding and Los Angeles relocation signal investor confidence in commercializing hypersonic passenger aircraft within the next decade.",
+      "takeaway": "Hermeus's $350M funding and relocation to LA signals investor confidence that hypersonic flight technology is advancing beyond theoretical feasibility toward near-term commercial viability.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/hypersonics-startup-hermeus-raises-350-million-moves-to-la"
@@ -320,32 +355,11 @@
       "publishedAt": "2026-04-08T11:32:17.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's departure procedures must navigate dense Bay Area airspace while balancing noise sensitivity with operational constraints imposed by surrounding terrain and SFO's Class B airspace.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-08T14:31:58.992Z",
-      "videoContent": true
-    },
-    {
       "id": "cvqrrj",
       "type": "news",
       "headline": "British Airways Axes 20 Routes: Inside The Massive Network Cull",
       "blurb": "In the past year or so, the carrier has ended seven long-haul markets. But is everything as it seems?",
-      "takeaway": "BA's route cuts may reflect strategic redeployment rather than pure contraction, as capacity reductions in some markets could fund expansion in higher-yield destinations amid persistent post-pandemic demand volatility.",
+      "takeaway": "BA's route reductions reflect profitability pressure on lower-demand long-haul markets where fuel costs and crew positioning make smaller aircraft economics unviable.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/british-airways-axes-20-routes-inside-the-massive-network-cull/"
@@ -359,7 +373,7 @@
       "type": "news",
       "headline": "The 5 Airlines With The World’s Most Modern Boeing 787 Cabins",
       "blurb": "A number of airlines have refreshed their Boeing 787 cabins recently.",
-      "takeaway": "Recent cabin upgrades across multiple 787 operators signal intensifying competition for premium passenger experience as airlines differentiate through interior modernization rather than new aircraft acquisitions.",
+      "takeaway": "Airlines investing in 787 cabin upgrades signal competitive differentiation through passenger experience as newer aircraft deliveries slow industry-wide.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-airlines-worlds-most-modern-boeing-787-cabins/"
@@ -372,11 +386,27 @@
       "publishedAt": "2026-04-08T11:00:17.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Integrated optimization across airline-airport-flight operations can simultaneously increase capacity and reduce emissions, addressing the dual pressure of rising demand and environmental regulations.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-08T14:42:22.893Z"
+    },
+    {
       "id": "y8oors",
       "type": "news",
       "headline": "Industry navigates NASA’s start-and-stop approach to commercial space stations",
       "blurb": "(Note: This article went to press for the April issue of SpaceNews Magazine before NASA announced potential changes to the CLD program.) NASA signaled last summer it planned to accelerate efforts to replace the aging International Space Station. Nearly nine months later, that push appears to have...",
-      "takeaway": "NASA's inconsistent funding and policy signals are creating planning uncertainty for commercial space station developers who need predictable timelines to secure investment and meet construction deadlines.",
+      "takeaway": "Inconsistent NASA funding and policy decisions for commercial space station development create investment uncertainty that could delay private sector readiness for ISS transition.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/industry-navigates-nasas-start-and-stop-approach-to-commercial-space-stations/"
@@ -393,7 +423,7 @@
       "type": "news",
       "headline": "UAVOS Introduces Advanced Composite Rotor Blades Manufactured withCore Sintering Technology",
       "blurb": "UAVOS announces the successful implementation of an advanced manufacturing technology for its composite rotor blades:...",
-      "takeaway": "Core sintering technology enables lighter, stronger composite rotor blades that could extend UAS endurance while reducing manufacturing complexity compared to traditional methods.",
+      "takeaway": "Core sintering technology enables UAVOS to reduce rotor blade weight and manufacturing complexity, potentially lowering UAS operating costs and extending flight endurance significantly.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/uavos-introduces-advanced-composite-rotor-blades-manufactured-withcore-sintering-technology/"
@@ -403,27 +433,11 @@
       "publishedAt": "2026-04-08T10:51:31.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation system layers offers immediate efficiency gains while new technologies mature, creating a critical near-term pathway to reduce aviation's environmental footprint.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-08T14:31:58.992Z"
-    },
-    {
       "id": "ikmode",
       "type": "news",
       "headline": "Artemis 2 science gets underway as Orion begins its return trip",
       "blurb": "As Artemis 2 begins its return to Earth, scientists are just starting to review the images and observations taken by the crew as they flew around the moon.",
-      "takeaway": "Post-mission data analysis from Artemis 2 will inform critical design improvements for Artemis 3's lunar landing systems and subsequent deep-space missions.",
+      "takeaway": "Artemis 2's lunar flyby data collection enables real-time scientific analysis during return, accelerating mission learning cycles compared to traditional post-flight reviews.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/artemis-2-science-gets-underway-as-orion-begins-its-return-trip/"
@@ -439,7 +453,7 @@
       "type": "news",
       "headline": "Capella Space wins $49 million contract for military communications satellite demo",
       "blurb": "The contract was awarded by the Space Development Agency for 2027 demonstrations...",
-      "takeaway": "Capella's satellite imaging capabilities are transitioning from commercial Earth observation into military communications infrastructure, expanding aerospace contractors' defense portfolio opportunities.",
+      "takeaway": "SDA's satellite communications demo investment signals military demand for commercial space infrastructure that could reshape military-aviation coordination and data-sharing capabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/capella-space-wins-49-million-contract-for-military-communications-satellite-demo/"
@@ -455,7 +469,7 @@
       "type": "news",
       "headline": "Qantas expands Asia Pacific cargo network with Singapore freighter service",
       "blurb": "Qantas Freight touched down in Singapore’s Changi Airport (SIN) for the first time as a dedicated freighter operator…...",
-      "takeaway": "Qantas's Singapore freighter expansion taps into the region's high-demand e-commerce and perishables trade, positioning the airline to compete directly with dedicated cargo carriers in Asia-Pacific's fastest-growing logistics market.",
+      "takeaway": "Qantas's Singapore freighter service diversifies its Asia-Pacific cargo capacity beyond Australia, positioning the carrier to capture growing regional e-commerce and time-sensitive freight demand.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/qantas-expands-asia-pacific-cargo-network-with-singapore-freighter-service"
@@ -471,7 +485,7 @@
       "type": "news",
       "headline": "Golden Sorayama livery spotted on STARLUX Airlines A350-1000",
       "blurb": "The second of STARLUX Airlines’ aircraft decorated with the eye-catching AIRSORAYAMA special livery was spotted in Toulouse, France,…...",
-      "takeaway": "STARLUX's investment in premium artist collaborations signals Taiwan's carriers are differentiating through brand storytelling rather than competing solely on price or capacity.",
+      "takeaway": "STARLUX's continued investment in distinctive branded aircraft demonstrates Taiwan's premium carrier strategy to differentiate on long-haul international routes through visual identity.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/golden-sorayama-livery-spotted-on-starlux-airlines-a350-1000"
@@ -488,7 +502,7 @@
       "type": "news",
       "headline": "DOT’s Sean Duffy appears open to US airline merger involving one of ‘Big 4’",
       "blurb": "Transportation Secretary Sean Duffy has signaled an apparent openness to the idea of one of the US’s big…...",
-      "takeaway": "DOT leadership's openness to consolidation among major carriers signals potential regulatory shift toward permitting deals previously scrutinized under stricter antitrust enforcement.",
+      "takeaway": "DOT leadership's openness to Big 4 consolidation marks a potential shift in merger scrutiny that could reshape US airline competitive dynamics and pricing structures.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/dots-sean-duffy-open-us-airline-merger-big-4"
@@ -500,11 +514,27 @@
       "publishedAt": "2026-04-08T10:05:34.000Z"
     },
     {
+      "id": "popuk0",
+      "type": "news",
+      "headline": "Avianca’s Loyalty Programme Marks 15 Years of Existence",
+      "blurb": "Avianca Airlines’ loyalty programme, Lifemiles, has celebrated its 15th anniversary, highlighting member and partner engagement as central to the growth of the Lifemiles loyalty program. The airline loyalty scheme, which operates under Abra Group, said Lifemiles has evolved since its launch to...",
+      "takeaway": "Lifemiles' 15-year longevity demonstrates that airline loyalty programs remain viable revenue streams even during industry consolidation and financial restructuring.",
+      "source": {
+        "name": "Travel Radar",
+        "url": "https://travelradar.aero/aviancas-loyalty-programme-marks-15-years-of-existence/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-04-08T10:00:48.000Z"
+    },
+    {
       "id": "cwazar",
       "type": "news",
       "headline": "Space security moves to forefront as threats to satellites spread",
       "blurb": "Secure World Foundation report highlights growing reliance on orbiting systems and spread of interference technologies...",
-      "takeaway": "Satellite interference capabilities are now accessible to non-state actors, forcing aviation operators to develop ground-based redundancies for GPS-dependent systems.",
+      "takeaway": "As ground-based GPS and communication systems face increasing jamming threats, aviation's operational resilience now depends on satellite network protection strategies.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-security-moves-to-forefront-as-threats-to-satellites-spread/"
@@ -520,7 +550,7 @@
       "type": "news",
       "headline": "Vertical Aerospace completes horizontal flight transition: video",
       "blurb": "Vertical Aerospace has successfully completed the first piloted thrust-borne flight transition of its full-scale eVTOL demonstrator. The flight…...",
-      "takeaway": "Successful thrust-borne transition demonstrates Vertical Aerospace's technical progress toward certifiable eVTOL operations, moving beyond hover-only demonstrations toward practical point-to-point flight capability.",
+      "takeaway": "Successful thrust-borne transition demonstrates Vertical Aerospace's progress toward proving the critical mid-flight switching mechanism required for practical eVTOL operations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/vertical-aerospace-completes-horizontal-flight-transition-video"
@@ -538,7 +568,7 @@
       "type": "news",
       "headline": "AirAsia’s ‘Give Peace a Chance’ campaign launches after US-Iran ceasefire",
       "blurb": "AirAsia launched a promotional campaign with a pointed name,”Give Peace a Chance”, just hours after the United States…...",
-      "takeaway": "Airlines are capitalizing on geopolitical de-escalation as a marketing opportunity, recognizing that reduced regional tensions directly translate to increased travel demand and route viability.",
+      "takeaway": "Airlines are capitalizing on geopolitical de-escalation as a demand stimulus, signaling confidence that reduced tensions will drive near-term travel recovery.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airasias-give-peace-a-chance-campaign-launches-after-us-iran-ceasefire"
@@ -552,7 +582,7 @@
       "type": "news",
       "headline": "Belgium orders five Cessna SkyCourier aircraft for special operations",
       "blurb": "Belgium has ordered five Cessna SkyCourier turboprops for its Special Operations Forces, becoming the first military customer for the twin-engine…...",
-      "takeaway": "Belgium's adoption of the SkyCourier validates Textron's tactical transport design for military special operations, opening pathways for similar orders from allied defense forces.",
+      "takeaway": "Belgium's adoption of the SkyCourier validates Textron's strategy to penetrate military transport markets with proven civilian turboprop platforms.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/belgium-cessna-skycourier-special-operations-textron"
@@ -562,39 +592,6 @@
         "cessna"
       ],
       "publishedAt": "2026-04-08T08:03:25.000Z"
-    },
-    {
-      "id": "i6zvyl",
-      "type": "news",
-      "headline": "Before The Boeing 787 Vs. After: How It Changed Long-Haul Travel",
-      "blurb": "The impact of the Boeing 787 on the airline industry.",
-      "takeaway": "The 787's composite construction and advanced systems reduced fuel consumption by 20%, enabling airlines to profitably operate thin long-haul routes previously uneconomical with older aircraft.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/before-boeing-787-after-changed-long-haul-travel/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "boeing",
-        "airline"
-      ],
-      "publishedAt": "2026-04-08T08:00:18.000Z"
-    },
-    {
-      "id": "v6d7r8",
-      "type": "news",
-      "headline": "Inspection cubesat demo planned as first step toward orbital defense mothership",
-      "blurb": "Bulgarian satellite maker EnduroSat and British defense tech startup Shield Space aim to deploy a cubesat next year capable of maneuvering near other satellites for inspection, ahead of plans to develop a mothership that could house dozens of them for on-demand missions.",
-      "takeaway": "Commercial satellite inspection capabilities are transitioning from concept to operational deployment, creating new market opportunities for rapid-response orbital services.",
-      "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/inspection-cubesat-demo-planned-as-first-step-toward-orbital-defense-mothership/"
-      },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-08T08:00:00.000Z"
     }
   ]
 }
