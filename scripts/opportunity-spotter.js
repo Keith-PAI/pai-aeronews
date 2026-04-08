@@ -129,6 +129,12 @@ For each opportunity, include all of the following:
 
 For each "Inspired by" citation, format the article title as a markdown link using the URL provided in parentheses, like: [Article Title](https://...). Do not include bare URLs.
 
+**Output rules (strict):**
+- Output ONLY the opportunities themselves in the format described above. Do NOT include any explanation or reasoning about articles that did not qualify.
+- Do NOT include a "Non-Opportunities" section, a summary paragraph, preamble, or any text explaining why articles were skipped.
+- If zero articles qualify, output only the single word NONE and nothing else.
+- Do NOT analyze or generate opportunities for any article whose URL contains paiconsulting.com. Treat PAI's own content as context-only background — it must never appear as an opportunity.
+
 New articles since the last opportunity scan:
 
 ${articleSummary}`;
@@ -319,6 +325,53 @@ async function main() {
   }
 
   console.log('✓ Opportunities generated');
+
+  // 6b. Post raw, unfiltered Claude response to debug webhook (if configured).
+  // Fires regardless of whether opportunities were found.
+  const debugWebhookUrl = process.env.OS_DEBUG_WEBHOOK_URL;
+  if (debugWebhookUrl) {
+    try {
+      const debugPayload = {
+        type: 'message',
+        attachments: [{
+          contentType: 'application/vnd.microsoft.card.adaptive',
+          content: {
+            $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
+            type: 'AdaptiveCard',
+            version: '1.4',
+            body: [
+              {
+                type: 'TextBlock',
+                text: 'OS Debug — Raw Analysis',
+                size: 'large',
+                weight: 'bolder',
+              },
+              {
+                type: 'TextBlock',
+                text: opportunities,
+                wrap: true,
+              },
+            ],
+          },
+        }],
+      };
+      await postToTeams(debugWebhookUrl, debugPayload);
+      console.log('✓ Posted raw response to OS_DEBUG_WEBHOOK_URL');
+    } catch (error) {
+      console.warn(`✗ Failed to post debug webhook: ${error.message}`);
+    }
+  }
+
+  // If Claude returned NONE (no qualifying opportunities), skip the main post.
+  if (opportunities.trim().toUpperCase() === 'NONE') {
+    console.log('Claude returned NONE — no qualifying opportunities. Skipping main Teams post.');
+    for (const a of newArticles) {
+      if (a.source?.url) seen.add(a.source.url);
+    }
+    saveSeenUrls(seen);
+    console.log(`✓ Marked ${newArticles.length} URL(s) as seen (total tracked: ${seen.size})`);
+    process.exit(0);
+  }
 
   // 7. Mark new URLs as seen — persist regardless of whether the Teams post
   // succeeds. We've already paid for the Claude call; re-processing the same

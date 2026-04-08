@@ -77,6 +77,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BLOG_TEAMS_WEBHOOK_URL: ${{ secrets.BLOG_TEAMS_WEBHOOK_URL }}
+          OS_DEBUG_WEBHOOK_URL: ${{ secrets.OS_DEBUG_WEBHOOK_URL }}
         run: node scripts/opportunity-spotter.js
 
       - name: Push dist to gh-pages
