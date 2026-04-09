@@ -563,7 +563,7 @@ Default resolution = take origin/main unless explicitly building infra.
 ## CSS Rules — Do Not Break
 
 ### `.news-card .takeaway`
-- **Confirmed working config**: `flex:1` + `min-height:4.2em` + `line-clamp:3`
+- **Confirmed working config**: `flex:1` + `min-height:4.6em` + `line-clamp:3` (4.6em gives descenders breathing room; 4.2em clips them)
 - `flex:1` and `min-height` MUST stay paired — removing either breaks overflow at narrow widths
 - `max-height` MUST NOT be added — it fights flex sizing and clips descenders
 - `flex-shrink:0` MUST NOT be added — causes collapse to 2 lines
