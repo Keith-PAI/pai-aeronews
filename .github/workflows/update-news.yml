@@ -93,6 +93,9 @@ jobs:
           OS_DEBUG_WEBHOOK_URL: ${{ secrets.OS_DEBUG_WEBHOOK_URL }}
         run: node scripts/opportunity-spotter.js
 
+      - name: Clean up wiki context before gh-pages push
+        run: rm -rf pai-wiki-context/
+
       - name: Push dist to gh-pages
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
