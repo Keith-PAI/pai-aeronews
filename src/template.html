@@ -229,6 +229,14 @@
       flex: 1;
     }
 
+    /*
+     * TAKEAWAY BOX — DO NOT MODIFY WITHOUT TESTING AT NARROW WIDTHS
+     * Confirmed working config: flex:1 + min-height:4.2em + line-clamp:3
+     * flex:1 and min-height MUST stay paired — removing either breaks overflow at narrow widths
+     * max-height MUST NOT be added — it fights flex sizing and clips descenders
+     * flex-shrink:0 MUST NOT be added — causes collapse to 2 lines
+     * Last confirmed working: ee0cf3a
+     */
     .news-card .takeaway {
       font-size: 0.75rem;
       color: #002F69;

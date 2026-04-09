@@ -560,6 +560,16 @@ Default resolution = take origin/main unless explicitly building infra.
 - Before any PR that touches `update-news.yml` or `opportunity-spotter.js`, verify: (1) no internal hour gate exists in the script, (2) the seen-URLs filter still runs before any Claude call, (3) the `update-news` job still has its `if:` guard against non-hourly schedule triggers, (4) the OS step still has `continue-on-error: true`.
 - The `BLOG_TEAMS_WEBHOOK_URL` secret must always point to the Opportunity Spotter workflow in Teams — verify it is distinct from `TEAMS_WEBHOOK_URL` after any webhook rotation.
 
+## CSS Rules — Do Not Break
+
+### `.news-card .takeaway`
+- **Confirmed working config**: `flex:1` + `min-height:4.2em` + `line-clamp:3`
+- `flex:1` and `min-height` MUST stay paired — removing either breaks overflow at narrow widths
+- `max-height` MUST NOT be added — it fights flex sizing and clips descenders
+- `flex-shrink:0` MUST NOT be added — causes collapse to 2 lines
+- Last confirmed working commit: `ee0cf3a`
+- A matching comment block guards the rule in `src/template.html`. Do not remove it.
+
 ## Keith Reminder System
 When recommending merges or rebases:
 - Always print exact `git status` before proceeding
