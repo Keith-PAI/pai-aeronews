@@ -93,9 +93,6 @@ jobs:
           OS_DEBUG_WEBHOOK_URL: ${{ secrets.OS_DEBUG_WEBHOOK_URL }}
         run: node scripts/opportunity-spotter.js
 
-      - name: Clean up wiki context before gh-pages push
-        run: rm -rf pai-wiki-context/
-
       - name: Push dist to gh-pages
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -104,6 +101,13 @@ jobs:
           # Save dist/ contents to a temp location
           tmp=$(mktemp -d)
           cp -a dist/. "$tmp/"
+
+          # Discard dirty working tree so the branch switch is unconditional.
+          # dist/ is already preserved in $tmp; any other modifications
+          # (restored gh-pages dist, build output, spotter writes, untracked
+          # wiki clone) are safe to drop inside this ephemeral runner.
+          git reset --hard HEAD
+          git clean -fd
 
           # Switch to gh-pages (create orphan if it doesn't exist)
           if git fetch origin gh-pages 2>/dev/null; then
