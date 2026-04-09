@@ -1,17 +1,50 @@
 {
-  "lastUpdated": "2026-04-09T11:53:04.561Z",
+  "lastUpdated": "2026-04-09T12:15:47.037Z",
   "articles": [
+    {
+      "id": "7ys7pq",
+      "type": "news",
+      "headline": "MQ-4 Triton Disappears over Persian Gulf after Squawking Comms Link Loss",
+      "blurb": "The MQ-4 Triton was flying a patrol mission over the Persian Gulf, before signaling through the transponder a loss of the communication link with the pilot and initiating a descent. A U.S. Navy MQ-4C Triton Unmanned Aerial System (UAS) disappeared from flight tracking websites over the Persian Gulf...",
+      "takeaway": "Loss of command-and-control link in hostile airspace highlights critical vulnerability in high-altitude UAS operations where ground stations cannot maintain real-time control.",
+      "source": {
+        "name": "The Aviationist",
+        "url": "https://theaviationist.com/2026/04/09/mq-4-triton-disappears-over-persian-gulf/"
+      },
+      "category": "military",
+      "keywords": [
+        "uas",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-09T12:06:21.000Z"
+    },
+    {
+      "id": "kzts0b",
+      "type": "news",
+      "headline": "FAA Pushes Towards Recognising Foreign Maintenance Certificates",
+      "blurb": "The U.S. Federal Aviation Administration (FAA) has launched a rulemaking process to give the agency authority to recognise maintenance certificates issued by foreign organisations through bilateral agreements. Industry Petitions to the FAA The move follows industry petitions advocating...",
+      "takeaway": "FAA's recognition of foreign maintenance certificates could reduce aircraft downtime and maintenance costs by eliminating redundant recertification requirements for operators with international fleets.",
+      "source": {
+        "name": "Travel Radar",
+        "url": "https://travelradar.aero/faa-pushes-towards-recognising-foreign-maintenance-certificates/"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa"
+      ],
+      "publishedAt": "2026-04-09T12:00:25.000Z"
+    },
     {
       "id": "fzl0hr",
       "type": "news",
       "headline": "ST Engineering iDirect Foresight addresses fundamental satcom shift",
       "blurb": "Low Earth Orbit (LEO) satellite operators and their low-latency services are shaking up traditional business models. The disruptive forces at play are numerous: many operate their own ground segments as part of a vertically integrated model. And in aviation, where aircraft operators are moving with...",
-      "takeaway": "LEO satellite operators' vertical integration and low-latency capabilities are forcing traditional satcom providers to restructure service models, directly impacting aircraft connectivity economics.",
+      "takeaway": "LEO satellite operators' vertically integrated models and lower latency are forcing traditional satcom providers to fundamentally restructure their aviation connectivity offerings.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/st-engineering-idirects-foresight-addresses-fundamental-satcom-shift/"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [
         "atc"
       ],
@@ -22,7 +55,7 @@
       "type": "news",
       "headline": "Space Force taps 14 firms for $1.8 billion GEO surveillance program",
       "blurb": "The companies will compete for contracts to build ‘neighborhood watch’ satellites...",
-      "takeaway": "Space Force is diversifying its geostationary surveillance architecture across 14 contractors to reduce single-vendor dependency and accelerate development of persistent overhead reconnaissance capabilities.",
+      "takeaway": "Space Force is distributing development funding across multiple vendors to reduce single-point dependency risks and accelerate geosynchronous orbit surveillance capabilities.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/space-force-taps-14-firms-for-1-8-billion-geo-surveillance-program/"
@@ -35,11 +68,32 @@
       "publishedAt": "2026-04-09T11:26:24.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS represents a fundamental shift from investigating accidents to preventing them through systematic hazard identification and mitigation strategies.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-09T12:15:01.313Z",
+      "paiContent": true
+    },
+    {
       "id": "y32z9t",
       "type": "news",
       "headline": "The 6 Airliners With The Longest Flying Ranges Today",
       "blurb": "A closer look at some of the world's ultimate ultra-long-haul jetliners.",
-      "takeaway": "Ultra-long-haul aircraft enable point-to-point routes that bypass traditional hub-and-spoke networks, reducing passenger connection times and operational complexity.",
+      "takeaway": "Ultra-long-haul aircraft enable airlines to establish direct routes between distant markets, reducing connection requirements and capturing premium international passenger segments.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/6-aircraft-longest-flying-range/"
@@ -55,7 +109,7 @@
       "type": "news",
       "headline": "Albedo prepares second VLEO mission for 2027 launch",
       "blurb": "SAN FRANCISCO – Albedo, the former Earth-observation startup now focused on satellite manufacturing, announced plans April 9 to send its second spacecraft into very low-Earth orbit (VLEO). Vicinity, scheduled to launch in 2027, will deploy solar arrays to provide far more power than the solar...",
-      "takeaway": "Albedo's shift to manufacturing with deployable solar arrays addresses the critical power-generation challenge limiting VLEO satellite capabilities and operational duration.",
+      "takeaway": "Albedo's pivot to VLEO satellite manufacturing with enhanced solar power capacity addresses growing demand for sustained Earth-observation capabilities beyond traditional orbital altitudes.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/albedo-prepares-second-vleo-mission-for-2027-launch/"
@@ -71,7 +125,7 @@
       "type": "news",
       "headline": "Knight Aerospace completes design review for Dutch C-390 aeromedical system",
       "blurb": "Knight Aerospace has completed a Critical Design Review (CDR) for the aeromedical evacuation system being developed for the…...",
-      "takeaway": "Passing CDR validates Knight's aeromedical system design maturity for the C-390, enabling transition to manufacturing and certification phases with reduced technical risk.",
+      "takeaway": "Critical Design Review completion signals Knight Aerospace is progressing toward production of a specialized medical transport system that could expand C-390 operational capabilities beyond traditional cargo missions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/knight-aerospace-cdr-dutch-c390-aeromedical"
@@ -83,23 +137,23 @@
       "publishedAt": "2026-04-09T10:42:25.000Z"
     },
     {
-      "id": "pai-safety-culture",
+      "id": "pai-risk-controls",
       "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations with psychological safety cultures report 3-5x more safety issues, enabling proactive hazard identification rather than reactive incident response.",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Effective SRM requires organizations to document why selected controls are proportionate to identified risks and justify acceptance of remaining hazards rather than pursuing elimination.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
       },
       "category": "safety",
       "keywords": [
         "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
+        "risk",
+        "faa",
+        "srm"
       ],
-      "publishedAt": "2026-04-09T11:52:22.531Z",
+      "publishedAt": "2026-04-09T12:15:01.313Z",
       "paiContent": true
     },
     {
@@ -107,7 +161,7 @@
       "type": "news",
       "headline": "FAA certifies Mammoth 777-200LRMF, Qatar Airways and DHL among future operators",
       "blurb": "The Federal Aviation Administration (FAA) has certified the Mammoth Freighters 777-200LRMF (Long Range Mammoth Freighter) clearing the converted…...",
-      "takeaway": "Mammoth's FAA certification enables large-scale cargo conversion of aging 777s, creating new capacity for express and freight operators facing aircraft supply constraints.",
+      "takeaway": "Mammoth's FAA certification enables large carriers to extend cargo aircraft operational range by 20%, reducing fuel costs and expanding route economics for long-haul freight operations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/faa-certifies-mammoth-777-200lrmf-qatar-airways-dhl"
@@ -123,7 +177,7 @@
       "type": "news",
       "headline": "Lockheed Martin wins $105 million contract for GPS ground control system as OCX winds down",
       "blurb": "The contract supports next-generation GPS IIIF satellites through 2030...",
-      "takeaway": "Lockheed Martin's GPS ground control award signals a strategic pivot toward sustaining legacy navigation infrastructure as the troubled OCX modernization program concludes.",
+      "takeaway": "Lockheed Martin's GPS ground control win signals a strategic pivot as the troubled $6B OCX program concludes, ensuring continuous satellite constellation management through 2030.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/lockheed-martin-wins-105-million-contract-for-gps-ground-control-system-as-ocx-winds-down/"
@@ -139,7 +193,7 @@
       "type": "news",
       "headline": "Vantor to expand imaging satellite fleet, adding smallsats to increase revisit rates",
       "blurb": "The new architecture combines high resolution with rapid revisit...",
-      "takeaway": "Vantor's shift toward smallsat constellations enables daily or sub-daily Earth observation coverage, addressing critical latency demands for time-sensitive aerospace and defense applications.",
+      "takeaway": "Combining high-resolution imagery with rapid revisit capabilities through smallsat constellations enables commercial earth observation operators to compete more effectively with legacy satellite systems while reducing per-image costs.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/vantor-to-expand-imaging-satellite-fleet-adding-smallsats-to-increase-revisit-rates/"
@@ -151,11 +205,32 @@
       "publishedAt": "2026-04-09T10:00:00.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strike fatalities persist despite pilot overconfidence in reaction time, making proactive avoidance strategies and operational planning critical for helicopter safety.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-09T12:15:01.490Z",
+      "videoContent": true
+    },
+    {
       "id": "lbllkj",
       "type": "news",
       "headline": "TAP Air Portugal reports fourth consecutive profit despite tax hit",
       "blurb": "TAP Air Portugal posted a net profit of €4.1 million in 2025, the airline announced on April 9,…...",
-      "takeaway": "TAP's sustained profitability despite Portuguese tax increases signals improved operational efficiency and route optimization are offsetting regulatory cost pressures.",
+      "takeaway": "TAP Air Portugal's sustained profitability streak demonstrates that European legacy carriers can achieve consistent returns through operational discipline, even amid regulatory tax pressures.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/tap-air-portugal-2025-annual-results"
@@ -167,31 +242,11 @@
       "publishedAt": "2026-04-09T09:56:51.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must demonstrate proactive hazard identification and risk management systems, not just reactive compliance, to meet FAA's evolving SMS expectations.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-09T11:52:22.531Z",
-      "paiContent": true
-    },
-    {
       "id": "x9l48i",
       "type": "news",
       "headline": "Comlux receives FAA approval for A220 ACJ TwoTwenty cabin, opening US market",
       "blurb": "Comlux Group announced on April 6, 2026, that its US subsidiary Comlux America has received a Supplemental Type…...",
-      "takeaway": "FAA approval of Comlux's A220 ACJ cabin design signals growing competition in the ultra-wide-body business jet segment as manufacturers adapt commercial platforms for corporate clients.",
+      "takeaway": "FAA approval of the ACJ TwoTwenty cabin design enables Comlux to capture the growing US ultra-long-range business jet market with a larger-cabin alternative to traditional widebody conversions.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/comlux-receives-faa-approval-for-a220-acj-twotwenty-cabin-opening-us-market"
@@ -207,7 +262,7 @@
       "type": "news",
       "headline": "Airlines Struggle as Fuel Prices Surge",
       "blurb": "Airlines worldwide are scaling back flights and raising fares as the US-Israeli conflict with Iran disrupts energy supplies. The situation has hit the aviation industry hard, with fuel costs rising sharply due to reduced exports from the Middle East, according to the International Air Transport...",
-      "takeaway": "Geopolitical tensions in the Middle East are creating immediate operational pressures beyond fuel costs, forcing airlines to restructure networks and pricing strategies simultaneously.",
+      "takeaway": "Geopolitical instability in the Middle East creates immediate margin pressure on carriers, forcing fleet utilization cuts before demand destruction fully materializes.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/airlines-struggle-as-fuel-prices-surge/"
@@ -219,11 +274,33 @@
       "publishedAt": "2026-04-09T09:30:45.000Z"
     },
     {
+      "id": "yt-auto-fkMg9Eyapps",
+      "type": "video",
+      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
+      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
+      "takeaway": "Runway exit positioning at major hubs like LAX creates systematic incursion risks that require standardized pilot procedures beyond standard phraseology.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
+      },
+      "category": "safety",
+      "keywords": [
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
+      ],
+      "publishedAt": "2026-04-09T12:15:01.490Z",
+      "videoContent": true
+    },
+    {
       "id": "lst5li",
       "type": "news",
       "headline": "Wedding Fireworks Scare: EasyJet Flight Forced To Abort Landing At Paris-Orly",
       "blurb": "A procession of wedding vehicles shot fireworks directly beneath the approach path.",
-      "takeaway": "Ground-level pyrotechnics near major airports pose a serious threat to approaching aircraft, highlighting a critical gap in airspace security coordination with local event organizers.",
+      "takeaway": "Airfield security gaps around Paris-Orly allowed ground-level pyrotechnics to directly threaten an arriving commercial aircraft, highlighting vulnerabilities in perimeter control.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/easyjet-paris-orly-wedding-fireworks-abort-landing/"
@@ -237,7 +314,7 @@
       "type": "news",
       "headline": "Apex to develop larger satellites for missile defense, space-based computing",
       "blurb": "‘Comet Mini’ and ‘Comet XL’ target energy-intensive missions...",
-      "takeaway": "Apex's scalable satellite platform addresses the growing demand for space-based defense infrastructure and high-performance computing, creating new market opportunities beyond traditional communication satellites.",
+      "takeaway": "Apex's scalable satellite platform addresses the growing demand for power-hungry defense and computing applications in space, reducing reliance on larger, more expensive dedicated platforms.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/apex-to-develop-larger-satellites-for-missile-defense-space-based-computing/"
@@ -249,37 +326,16 @@
       "publishedAt": "2026-04-09T09:00:00.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise abatement procedures demonstrate how terrain-constrained urban airports must balance operational efficiency with community relations in congested Class B airspace.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-09T11:52:22.799Z",
-      "videoContent": true
-    },
-    {
       "id": "j95yy0",
       "type": "news",
       "headline": "FedEx pilots set to vote on new tentative contract agreement",
       "blurb": "FedEx pilots are expected to vote on a new tentative contract agreed between airline management and representatives from…...",
-      "takeaway": "FedEx pilot contract negotiations conclude after extended labor discussions, signaling potential labor cost pressures across cargo operators.",
+      "takeaway": "After months of negotiations, FedEx pilot contract ratification could signal wage-pressure trends affecting other major cargo carriers' labor costs.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/fedex-pilots-vote-tentative-contract-agreement"
       },
-      "category": "air-cargo",
+      "category": "commercial",
       "keywords": [
         "airline",
         "pilot"
@@ -287,11 +343,27 @@
       "publishedAt": "2026-04-09T08:35:20.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across the complete aviation ecosystem—from flight planning to airport ground operations—offers near-term emissions reduction and capacity gains without waiting for new aircraft technology.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-09T12:15:01.490Z"
+    },
+    {
       "id": "bt06nk",
       "type": "news",
       "headline": "7 Airlines With The World’s Most Efficient Widebody Fleets",
       "blurb": "These are the seven most efficient operators from around the world based on the size of their fleets of modern jets - A350s and 787s - and 777X orders...",
-      "takeaway": "Fleet modernization with high-bypass widebodies directly correlates to operational cost reduction and competitive advantage in long-haul markets.",
+      "takeaway": "Modern widebody efficiency leaders are consolidating competitive advantages through fleet standardization on A350/787 platforms, raising pressure on rivals to modernize or face structural cost disadvantages.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/7-airlines-worlds-most-efficient-widebody-fleets/"
@@ -307,7 +379,7 @@
       "type": "news",
       "headline": "OrbitronAI launches NovaOS for governed AI in regulated industries",
       "blurb": "OrbitronAI has announced the launch of NovaOS, a platform designed to support the deployment and management of AI…...",
-      "takeaway": "NovaOS enables aerospace companies to deploy AI systems while maintaining audit trails and compliance documentation required by FAA and other aviation regulators.",
+      "takeaway": "Purpose-built AI governance platforms like NovaOS address aviation's critical need for transparent, auditable decision-making in safety-critical systems.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/orbitronai-novaos-governed-ai-regulated-industries"
@@ -321,7 +393,7 @@
       "type": "news",
       "headline": "AURA AERO pushes ahead on three programs with €340M raised to date",
       "blurb": "French aircraft manufacturer AURA AERO held a press conference at its Toulouse, France, headquarters on April 8, 2026,…...",
-      "takeaway": "AURA Aero's €340M funding validates European regional aircraft manufacturing revival amid competitive pressures from Airbus and bombardier.",
+      "takeaway": "AURA Aero's €340M funding demonstrates European investor confidence in regional aircraft modernization as manufacturers race to replace aging turboprops.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/aura-aero-raises-e340-million-as-it-gears-up-for-multi-program-growth-strategy"
@@ -331,33 +403,11 @@
       "publishedAt": "2026-04-09T07:39:05.000Z"
     },
     {
-      "id": "yt-auto-fkMg9Eyapps",
-      "type": "video",
-      "headline": "Surface Safety Spotlight – Los Angeles International Airport, CA (LAX) – From the Flight Deck",
-      "blurb": "Los Angeles International Airport (LAX) is one of the nation’s busiest commercial airports. This short video highlights a runway incursion hazard where pilots exiting Runway 24R, particularly via...",
-      "takeaway": "Runway exit geometry at LAX creates predictable pilot errors during high-traffic periods, enabling targeted procedural interventions to reduce incursions.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=fkMg9Eyapps"
-      },
-      "category": "safety",
-      "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
-      ],
-      "publishedAt": "2026-04-09T11:52:22.799Z",
-      "videoContent": true
-    },
-    {
       "id": "eoeqqi",
       "type": "news",
       "headline": "Primoco UAV Obtains Final Building Permit for New Manufacturing Facility in Písek",
       "blurb": "Primoco UAV SE has obtained final building permit approval for the construction of a new...",
-      "takeaway": "Primoco UAV's Czech facility expansion signals growing manufacturing capacity for European drone producers amid increased regional demand.",
+      "takeaway": "Primoco UAV's secured permits signal manufacturing expansion capacity to meet growing European drone demand amid supply chain diversification efforts.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/primoco-uav-obtains-final-building-permit-for-new-manufacturing-facility-in-pisek/"
@@ -371,7 +421,7 @@
       "type": "news",
       "headline": "U.S. Air Forces Central selects Skydio Dock to secure U.S. airbases in the Middle East",
       "blurb": "Skydio brings Dock-based autonomous security to the U.S. Air Force for the first time in...",
-      "takeaway": "Autonomous drone systems are now operationally deployed for critical airbase perimeter security, reducing personnel requirements and enabling 24/7 surveillance in high-risk regions.",
+      "takeaway": "Autonomous drone dock technology is operationalizing persistent airfield security at forward-deployed U.S. bases without requiring dedicated pilot personnel.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/u-s-air-forces-central-selects-skydio-dock-to-secure-u-s-airbases-in-the-middle-east/"
@@ -385,7 +435,7 @@
       "type": "news",
       "headline": "Third Boeing Dreamliner Added to Austrian Airlines Fleet",
       "blurb": "Austrian Airlines announced it will add a third Boeing 787-9 Dreamliner to its fleet of long-haul aircraft, progressing in its long-term pursuit of a renewed and modernised fleet. Aircraft Acquisition Process The new Dreamliner used to be in Lufthansa‘s fleet, but has been transferred to the...",
-      "takeaway": "Austrian Airlines' acquisition of a used 787-9 from Lufthansa demonstrates cost-effective fleet modernization through secondary market aircraft transactions rather than new orders.",
+      "takeaway": "Austrian Airlines' acquisition of a third 787-9 from Lufthansa demonstrates how secondary market aircraft transfers enable smaller carriers to cost-effectively modernize long-haul fleets.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/third-boeing-dreamliner-added-to-austrian-airlines-fleet/"
@@ -402,7 +452,7 @@
       "type": "news",
       "headline": "American Airlines Hit With $255K FAA Penalty After Drug-Positive Crew Cleared To Fly",
       "blurb": "AA is getting hit in the FAA crackdown.",
-      "takeaway": "American Airlines' penalty underscores that administrative oversight gaps in drug-testing procedures can persist despite existing regulatory frameworks, raising questions about compliance verification across the industry.",
+      "takeaway": "American Airlines' penalty underscores gaps in pre-flight drug screening protocols that allowed impaired crew to enter the cockpit, signaling potential systemic compliance weaknesses across carriers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/american-airlines-faa-penalty-drug-positive-crew/"
@@ -415,27 +465,11 @@
       "publishedAt": "2026-04-09T05:35:47.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across airlines, airports, and flight management offers a near-term pathway to handle capacity growth while reducing environmental impact before new aircraft technologies mature.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-09T11:52:22.800Z"
-    },
-    {
       "id": "747vtz",
       "type": "news",
       "headline": "Embraer signs agreement with Colombia’s CIAC to boost aerospace industry ties",
       "blurb": "Embraer and the Colombian Aeronautical Industry Corporation (CIAC) have signed a Memorandum of Understanding (MoU) that could expand…...",
-      "takeaway": "Embraer's partnership with Colombia's CIAC signals expansion of South American aerospace manufacturing capacity and supply chain diversification beyond traditional hubs.",
+      "takeaway": "Embraer's MoU with CIAC signals strategic regional manufacturing integration that could reduce supply chain costs and establish Colombia as an aerospace production hub for Latin America.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/embraer-signs-agreement-with-colombias-ciac-to-boost-aerospace-industry-ties"
@@ -452,12 +486,12 @@
       "type": "news",
       "headline": "How Many Aircraft Are Scrapped Every Year?",
       "blurb": "Between 500 and 650 commercial aircraft are retired annually, with the industry experiencing waves and troughs.",
-      "takeaway": "Aircraft retirement cycles create predictable supply surges of components and materials, enabling strategic planning for MRO providers and sustainability-focused operators.",
+      "takeaway": "Aircraft retirement rates fluctuate cyclically, creating both supply chain challenges and opportunities for MRO providers and parts recyclers.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-many-aircraft-scrapped-every-year/"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [],
       "publishedAt": "2026-04-09T05:00:17.000Z"
     },
@@ -466,7 +500,7 @@
       "type": "news",
       "headline": "Snow in the Shadow of the Andes",
       "blurb": "An early autumn storm left higher elevations in southern Argentina with a fresh and fleeting coat of white.",
-      "takeaway": "Early season snowfall at high elevations affects airfield operations and visibility conditions for southern Argentina's mountain aviation routes.",
+      "takeaway": "Early season snow at high-altitude Andean regions can create sudden weather challenges for regional aircraft operations and require updated runway condition reporting.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/earth/earth-observatory/snow-in-the-shadow-of-the-andes/"
@@ -480,7 +514,7 @@
       "type": "news",
       "headline": "Australian Air Force tests casualty air evacuation in multinational exercise",
       "blurb": "Australian Defence Force aviators tested their ability to evacuate casualties from simulated frontline conditions during a multinational medical…...",
-      "takeaway": "Multinational medical evacuation exercises reveal operational readiness gaps and interoperability challenges that directly impact mission effectiveness in contested environments.",
+      "takeaway": "Multinational coordination in medical evacuation protocols strengthens allied interoperability for rapid casualty response in contested environments.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/australian-air-force-tests-casualty-air-evacuation-in-multinational-exercise"
@@ -494,7 +528,7 @@
       "type": "news",
       "headline": "Asian airlines reduce schedules and carry extra fuel as supplies tighten",
       "blurb": "As the conflict in the Middle East continues, airlines across Asia are cutting flights, carrying extra fuel from home airports and adding refuelling stops, increasing pressure on an industry already hit by a high jump in fuel costs. Jet fuel shortages hitting Asia hard Airlines across Asia are...",
-      "takeaway": "Middle East tensions are forcing Asian carriers to absorb significant operational inefficiencies—extra fuel weight and rerouted flights—that compound existing margin pressures from elevated fuel costs.",
+      "takeaway": "Asian carriers are absorbing significant operational costs through fuel hedging and route restructuring to mitigate supply chain disruptions that regional competitors cannot easily offset.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/asian-airlines-reduce-schedules-and-carry-extra-fuel-as-supplies-tighten/"
@@ -511,7 +545,7 @@
       "type": "news",
       "headline": "FAA seeks $255,000 penalty from American over alleged drug test violations",
       "blurb": "The Federal Aviation Administration (FAA) is seeking a $255,000 civil penalty against American Airlines, alleging the carrier allowed…...",
-      "takeaway": "FAA enforcement actions for procedural violations can expose airlines to six-figure penalties even without safety incidents, signaling stricter compliance monitoring.",
+      "takeaway": "FAA enforcement actions over testing compliance failures signal heightened regulatory scrutiny of carrier safety procedures beyond operational incidents.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/faa-seeks-255000-penalty-from-american-over-alleged-drug-test-violations"
@@ -528,7 +562,7 @@
       "type": "news",
       "headline": "6 Military Aircraft That Were Produced In Lower Numbers",
       "blurb": "Discover some prominent but rare aircraft, which small fleets has played vital roles.",
-      "takeaway": "Limited production runs of specialized military aircraft demonstrate how niche operational requirements can justify significant development investments despite low unit volumes.",
+      "takeaway": "Limited production runs of specialized military aircraft demonstrate how niche capabilities and geopolitical constraints can create highly effective but numerically small operational fleets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/military-aircraft-produced-lower-numbers/"
@@ -542,7 +576,7 @@
       "type": "news",
       "headline": "Etihad Airways launches seasonal Dhaka route, targeting trade and cargo demand",
       "blurb": "Etihad Airways is launching a seasonal route to Dhaka this summer, adding Bangladesh to its network as the…...",
-      "takeaway": "Etihad's seasonal Dhaka service reflects major carriers' strategic pivot toward emerging South Asian markets driven by surging cargo demand post-pandemic.",
+      "takeaway": "Etihad's seasonal Dhaka service diversifies Middle Eastern carrier exposure to South Asian trade flows while testing demand elasticity before potential year-round commitment.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/etihad-airways-launches-seasonal-dhaka-route-targeting-trade-and-cargo-demand"
@@ -550,38 +584,6 @@
       "category": "commercial",
       "keywords": [],
       "publishedAt": "2026-04-09T01:42:20.000Z"
-    },
-    {
-      "id": "fb1h1b",
-      "type": "news",
-      "headline": "Why Do Pilots Still Train On Older Aircraft Systems?",
-      "blurb": "The persistence of older training systems is a testament to the fact that aviation remains a discipline of physics and human psychology.",
-      "takeaway": "Legacy aircraft systems teach fundamental aerodynamic principles that remain constant across modern platforms, making them cost-effective foundational training tools despite technological advancement.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/why-pilots-still-train-older-aircraft-systems/"
-      },
-      "category": "general-aviation",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-04-09T00:00:32.000Z"
-    },
-    {
-      "id": "evlrzt",
-      "type": "news",
-      "headline": "Delta Air Lines Reportedly Plans New Premium-Heavy Airbus A330-900neo Debut To London",
-      "blurb": "Delta may be preparing its most premium-heavy Airbus A330-900 yet.",
-      "takeaway": "Delta's premium-focused A330-900neo configuration signals a strategic shift toward higher-yield transatlantic routes, prioritizing cabin revenue over capacity on competitive long-haul markets.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/delta-air-lines-new-premium-heavy-airbus-a330-900neo-debut-london/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airbus"
-      ],
-      "publishedAt": "2026-04-08T23:33:40.000Z"
     }
   ]
 }
