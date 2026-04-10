@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-10T00:27:01.963Z",
+  "lastUpdated": "2026-04-10T01:32:13.779Z",
   "articles": [
     {
       "id": "w5k07p",
       "type": "news",
       "headline": "At Maximum Range, This Is What Pushes Aircraft Like The Airbus A350 To Their Limits",
       "blurb": "Pushing the Airbus A350 to its maximum range is a risk, but for the furtherance of aviation history, it is likely one worth taking.",
-      "takeaway": "Operating aircraft at certified maximum range significantly increases crew fatigue, fuel management complexity, and emergency diversion risks that airlines rarely accept operationally.",
+      "takeaway": "Operating aircraft at certified maximum range significantly increases fuel system stress and margin erosion, creating operational vulnerabilities that airlines typically avoid in commercial service.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/maximum-range-push-aircraft-airbus-a350-limit/"
@@ -22,7 +22,7 @@
       "type": "news",
       "headline": "From 19 B-2 Spirits To 145 B-21 Raiders: How Much Bigger America's Stealth Bomber Fleet Is About To Get",
       "blurb": "A $4.5 billion production deal signal the Air Force's commitment to building its next-generation bomber...",
-      "takeaway": "The Air Force's shift from 19 B-2s to 145 B-21s represents a sevenfold increase in stealth bomber capacity, fundamentally reshaping long-range strike capabilities for the next 50 years.",
+      "takeaway": "The Air Force's shift from 19 legacy B-2s to a planned 145 B-21s represents a sevenfold fleet expansion funded through sustained multi-billion dollar commitments, dramatically increasing long-range strike capacity.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/19-b-2-spirits-145-b-21-raiders-bigger-americas-stealth-bomber-fleet-get/"
@@ -36,7 +36,7 @@
       "type": "news",
       "headline": "Asiana Airlines to be Taken Over by Korean Air 2026",
       "blurb": "According to local news outlet Tomato News, Korean Air is planning to acquire the remaining 36.1% stake in Asiana Airlines. It owns 63.9% currently and much control in the management of it. But it wants to form a single airline structure, gradually removing the airline as a brand, starting in...",
-      "takeaway": "Korean Air's full acquisition of Asiana signals consolidation pressure in Asian aviation where regulatory approval and brand integration timelines will test alliance economics.",
+      "takeaway": "Korean Air's planned full acquisition of Asiana signals industry consolidation that will eliminate a major regional competitor and create operational efficiencies through unified fleet and route management by 2026.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/asiana-airlines-to-be-taken-over-by-korean-air-2026/"
@@ -52,7 +52,7 @@
       "type": "news",
       "headline": "Federal Aviation Administration's Crippling Shortage Risks Mass Flight Delays & Safety",
       "blurb": "More than 5,100 accidents had a narrative that air traffic control was a factor or probable cause.",
-      "takeaway": "Over 5,100 documented accidents involving ATC as a factor underscore that staffing shortages are not merely operational inconveniences but direct safety hazards requiring urgent systemic intervention.",
+      "takeaway": "Over 5,100 documented accidents implicate ATC as a contributing factor, demonstrating that controller shortages pose quantifiable safety risks beyond operational delays.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/faa-crippling-shortage-risk-flight-delays-safety/"
@@ -70,7 +70,7 @@
       "type": "news",
       "headline": "Airbus Delivered 60 New Planes In March, But Overall Q1 Output Lags 16% From Last Year",
       "blurb": "Pratt & Whitney engine delays are now the clearest drag on Airbus’ 2026 delivery performance.",
-      "takeaway": "Pratt & Whitney's engine supply bottleneck has emerged as Airbus's primary production constraint for 2026, replacing earlier manufacturing challenges as the critical delivery limiter.",
+      "takeaway": "Airbus' first-quarter delivery decline reveals that supply chain constraints on engines, not aircraft production capacity, are now the binding constraint on industry-wide output growth.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-delivered-60-new-planes-march-q1-output-lags-16-percent-2025/"
@@ -82,23 +82,23 @@
       "publishedAt": "2026-04-09T22:37:37.000Z"
     },
     {
-      "id": "pai-risk-controls",
+      "id": "pai-assess-safety-risk",
       "type": "pai-blog",
-      "headline": "Selecting Risk Controls and Accepting Residual Risk",
-      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
-      "takeaway": "Effective safety risk management requires organizations to systematically document why chosen controls are adequate and justify acceptance of any remaining risks, transforming theoretical analysis into defensible operational decisions.",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "14 CFR Part 5 compliance requires systematic risk assessment methodologies that organizations must integrate into operational governance frameworks.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
       },
-      "category": "safety",
+      "category": "regulatory",
       "keywords": [
         "sms",
-        "risk",
+        "risk assessment",
         "faa",
-        "srm"
+        "part 5"
       ],
-      "publishedAt": "2026-04-10T00:26:22.773Z",
+      "publishedAt": "2026-04-10T01:31:34.142Z",
       "paiContent": true
     },
     {
@@ -106,7 +106,7 @@
       "type": "news",
       "headline": "Ouch: American Airlines Joins 4 Other US Carriers In Raising Checked Bag Fees",
       "blurb": "American Airlines becomes the latest US carrier to increase checked bag fees for basic economy tickets.",
-      "takeaway": "Fee escalation across major carriers signals industry-wide margin pressure as ancillary revenue strategies become critical to profitability.",
+      "takeaway": "Rising ancillary fees across major carriers signal industry-wide margin pressure as airlines seek alternative revenue streams beyond ticket sales.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/american-airlines-4-other-us-carriers-raising-checked-bag-fees/"
@@ -118,11 +118,25 @@
       "publishedAt": "2026-04-09T22:22:42.000Z"
     },
     {
+      "id": "7yt87u",
+      "type": "news",
+      "headline": "Beech Bash to feature aerobatic Bonanza reunion",
+      "blurb": "Organizers expect up to a third of the roughly 30 aerobatic Beechcraft Bonanzas still in service will gather in Madisonville, Kentucky, April 23 to 26 for the fifth annual Beech Bash in the Bluegrass. A long weekend of camaraderie, food, concerts, airshows, and presentations by well-known aviators...",
+      "takeaway": "Aerobatic Bonanza community remains vibrant with approximately 10 aircraft expected at the event, indicating sustained interest in modified general aviation platforms for sport flying.",
+      "source": {
+        "name": "AOPA News",
+        "url": "https://www.aopa.org/news-and-media/all-news/2026/april/09/beech-bash-to-feature-aerobatic-bonanza-reunion?=utm_source=News&utm_medium=Content&utm_campaign=RSS"
+      },
+      "category": "general-aviation",
+      "keywords": [],
+      "publishedAt": "2026-04-09T22:13:19.000Z"
+    },
+    {
       "id": "q291y9",
       "type": "news",
       "headline": "The Growth of Regional Airlines this 2026",
       "blurb": "Regional carriers are gaining traction as major airlines cut capacity or reshuffle their networks due to U.S.–Iran conflict and the surge in fuel prices. This is creating opportunities for smaller operators to serve underserved markets with short‑haul flights. New Routes and Network Expansion in...",
-      "takeaway": "Regional carriers are capitalizing on major airlines' capacity reductions driven by geopolitical tension and fuel inflation, positioning themselves to dominate underserved short-haul markets.",
+      "takeaway": "Regional carriers are capitalizing on major airlines' capacity reductions caused by geopolitical tensions and fuel cost pressures, enabling profitable expansion into previously underserved short-haul markets.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/the-growth-of-regional-airlines-this-2026/"
@@ -134,11 +148,31 @@
       "publishedAt": "2026-04-09T22:04:42.000Z"
     },
     {
+      "id": "pai-risk-controls",
+      "type": "pai-blog",
+      "headline": "Selecting Risk Controls and Accepting Residual Risk",
+      "blurb": "Where Safety Risk Management moves from analysis to action — how organizations develop controls under §5.55(c)–(d).",
+      "takeaway": "Organizations must systematically document why selected risk controls are adequate rather than pursuing zero risk, creating defensible safety decisions.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/selecting-risk-controls-and-accepting-residual-risk"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "risk",
+        "faa",
+        "srm"
+      ],
+      "publishedAt": "2026-04-10T01:31:34.142Z",
+      "paiContent": true
+    },
+    {
       "id": "1n20tl",
       "type": "news",
       "headline": "Why Airlines Prefer Window Shades To Be Open During Taxi, Takeoff, & Landing",
       "blurb": "This is a simple safety concept, but not all airlines agree.",
-      "takeaway": "Open window shades enable crew and passengers to quickly assess external hazards and emergency exits during critical phases, improving situational awareness when evacuation decisions must be made rapidly.",
+      "takeaway": "Open window shades enable cabin crew and passengers to detect external hazards and assist emergency responders during critical flight phases when evacuation may be necessary.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/why-airlines-prefer-window-shades-open-taxi-takeoff-landing/"
@@ -152,31 +186,11 @@
       "publishedAt": "2026-04-09T22:00:19.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Organizations with psychologically safe environments where employees freely report hazards achieve measurably better safety outcomes than those relying on punitive enforcement alone.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-10T00:26:22.773Z",
-      "paiContent": true
-    },
-    {
       "id": "slq4j1",
       "type": "news",
       "headline": "Indoor Testing Facilities available at the NASA Unmanned Autonomy Research Complex (NUARC)",
       "blurb": "Windshaper A large WindShaper fan array is available for dynamic low-speed and hovering flight research. The WindShaper is ideal for generating arbitrary wind gradients and wind gusts via a simple Python API. A companion WindProbe is also available for quick surveys of flows. The WindProbe utilizes...",
-      "takeaway": "NASA's NUARC offers researchers programmable wind simulation capabilities that eliminate weather dependencies for autonomous vehicle development, accelerating innovation cycles.",
+      "takeaway": "NASA's NUARC facility enables controlled atmospheric testing of autonomous aircraft through programmable wind simulation, accelerating development cycles for emerging electric and autonomous aviation platforms.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/aeronautics/indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc/"
@@ -192,7 +206,7 @@
       "type": "news",
       "headline": "I Am Artemis: Dan Florez",
       "blurb": "Listen to this audio excerpt from Dan Florez, test director for NASA’s Exploration Ground Systems Program: At 1:47 a.m. EST November 16, 2022, as the Artemis I engines ignited, NASA astronaut Reid Wiseman and Dan Florez, NASA test director for the agency’s Exploration Ground Systems, watched from...",
-      "takeaway": "Ground systems test directors like Florez are critical to launch success, managing complex infrastructure that enables deep space exploration missions beyond traditional Earth orbit operations.",
+      "takeaway": "Ground systems test directors like Florez are critical mission enablers whose coordination of pre-launch validation directly determines whether crewed lunar missions achieve their objectives safely.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-dan-florez/"
@@ -205,11 +219,32 @@
       "publishedAt": "2026-04-09T21:45:57.000Z"
     },
     {
+      "id": "yt-auto-dosTAQRpXII",
+      "type": "video",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strikes remain a leading fatal helicopter hazard because pilots systematically underestimate their inability to react in time, requiring enhanced detection systems rather than relying on visual avoidance.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+      },
+      "category": "safety",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-10T01:31:34.504Z",
+      "videoContent": true
+    },
+    {
       "id": "nf71ug",
       "type": "news",
       "headline": "Frontier Airlines Pilots Slam Brakes On Busy LAX Taxiway: “2 Trucks Just Cut Us Off”",
       "blurb": "The near-miss has sparked concerns about vehicle transponders, following the deadly Air Canada crash last month.",
-      "takeaway": "Surface safety incidents at major hubs are exposing gaps in ground vehicle tracking systems that contributed to the Air Canada fatality, elevating operational risk during peak traffic periods.",
+      "takeaway": "The LAX near-miss reveals a systemic gap in ground vehicle tracking technology, with transponder failures creating blind spots that contributed to the recent Air Canada fatality.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/frontier-airlines-pilots-slam-brakes-busy-lax-taxiway-trucks-cut-off/"
@@ -223,32 +258,11 @@
       "publishedAt": "2026-04-09T21:44:15.000Z"
     },
     {
-      "id": "yt-auto-R8xtl4OW9eg",
-      "type": "video",
-      "headline": "RNO Mustang 9 Departure",
-      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "Reno-Tahoe's Mustang 9 Departure requires heightened pilot attention due to specific procedure complexities on runways 17L/R that demand strict adherence to avoid operational deviations.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-10T00:26:23.209Z",
-      "videoContent": true
-    },
-    {
       "id": "opze73",
       "type": "news",
       "headline": "The Airbus A350 Is Known As The World's Extra Widebody, But Soon It Won’t Be",
       "blurb": "The Boeing 777X is set to be the widest passenger jet in production, although the A350-1000 appears set to retain the record for maximum exit limit.",
-      "takeaway": "Boeing's 777X will surpass the A350's cabin width advantage, potentially reshaping airline seating density competition in the ultra-long-range widebody market.",
+      "takeaway": "Boeing's 777X will surpass the A350's cabin width, forcing Airbus to reconsider its competitive positioning in the ultra-long-range widebody segment.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-a350-worlds-extra-widebody-soon-wont-be-why/"
@@ -265,40 +279,26 @@
       "type": "news",
       "headline": "Indoor Testing Facilities available at the NASA Unmanned Autonomy Research Complex (NUARC)",
       "blurb": "WindShaper A large WindShaper fan array is available for dynamic low-speed and hovering flight research. The WindShaper is ideal for generating arbitrary wind gradients and wind gusts via a simple Python API. A companion WindProbe is also available for quick surveys of flows. The WindProbe utilizes...",
-      "takeaway": "NASA's NUARC facility enables controlled atmospheric testing for autonomous aircraft through programmable wind simulation, accelerating development cycles for emerging aviation technologies.",
+      "takeaway": "NASA's NUARC WindShaper facility enables controlled atmospheric testing for autonomous aircraft development, accelerating eVTOL and drone validation without outdoor flight risks.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc/"
       },
-      "category": "aerospace",
+      "category": "drones",
       "keywords": [
         "nasa"
       ],
       "publishedAt": "2026-04-09T21:21:53.000Z"
     },
     {
-      "id": "kjkaa3",
-      "type": "news",
-      "headline": "Only 238 Seats: What Qantas Sacrificed To Make 22-Hour Nonstop Flights Possible",
-      "blurb": "Project Sunrise flights are coming soon.",
-      "takeaway": "Qantas removed 40% of typical 787 capacity to achieve ultra-long-range operations, signaling carriers must choose between frequency and range economics on transcontinental routes.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/qantas-sacrifices-make-22-hour-nonstop-flights-possible/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-04-09T21:00:17.000Z"
-    },
-    {
-      "id": "yt-auto-dosTAQRpXII",
+      "id": "yt-auto-kXm8S7OqpK8",
       "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strikes remain a persistent threat despite pilot overconfidence in reaction capabilities, necessitating enhanced detection systems and pre-flight route planning protocols.",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "Noise-abated departure procedures in congested airspace like San Carlos require pilots to balance terrain avoidance with community noise mitigation, demanding precise execution and situational awareness.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
       },
       "category": "safety",
       "keywords": [
@@ -308,15 +308,29 @@
         "regulation",
         "pilot"
       ],
-      "publishedAt": "2026-04-10T00:26:23.209Z",
+      "publishedAt": "2026-04-10T01:31:34.504Z",
       "videoContent": true
+    },
+    {
+      "id": "kjkaa3",
+      "type": "news",
+      "headline": "Only 238 Seats: What Qantas Sacrificed To Make 22-Hour Nonstop Flights Possible",
+      "blurb": "Project Sunrise flights are coming soon.",
+      "takeaway": "Qantas removed 40% of typical 787-9 capacity to achieve ultra-long-range operations, signaling airlines will prioritize route connectivity over seat density on premium nonstop segments.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/qantas-sacrifices-make-22-hour-nonstop-flights-possible/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-04-09T21:00:17.000Z"
     },
     {
       "id": "l7knhe",
       "type": "news",
       "headline": "United Airlines increases checked bag fees",
       "blurb": "United Airlines has become the latest airline to increase the checked baggage fee, effective immediately, in response to rising fuel costs. Other airlines, including Delta Air Lines, Qantas, and Air Canada, have also increased ticket prices to manage fuel shortages. Check-in luggage cost in United...",
-      "takeaway": "Industry-wide baggage fee increases signal airlines are shifting ancillary revenue strategies rather than absorbing fuel cost pressures through base fares.",
+      "takeaway": "Industry-wide baggage fee increases signal carriers are shifting ancillary revenue strategies rather than absorbing fuel cost pressures through base fares.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/united-airlines-increases-checked-bag-fees/"
@@ -332,7 +346,7 @@
       "type": "news",
       "headline": "EAA Aviation Foundation Awards 127 Scholarships for 2025-26",
       "blurb": "Flight training and post-secondary awards total more than $800,000.",
-      "takeaway": "Over $800,000 in scholarships demonstrates sustained industry investment in pilot pipeline development amid ongoing workforce shortages.",
+      "takeaway": "EAA's $800,000+ scholarship investment signals sustained industry commitment to addressing pilot workforce shortages through grassroots talent development.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/flight-safety/flight-training/eaa-aviation-foundation-scholarships-2025/"
@@ -342,11 +356,27 @@
       "publishedAt": "2026-04-09T20:59:59.000Z"
     },
     {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across the entire aviation system—not just aircraft technology—offers the most immediate pathway to meeting sustainability goals amid projected traffic growth.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-10T01:31:34.504Z"
+    },
+    {
       "id": "wz8zf1",
       "type": "news",
       "headline": "Starstruck",
       "blurb": "The Artemis II crew captured this photo of our galaxy, the Milky Way, on April 7, 2026. The Milky Way’s elegant spiral structure is dominated by just two arms wrapping off the ends of a central bar of stars. Spanning more than 100,000 light-years, Earth is located along one of the galaxy’s spiral...",
-      "takeaway": "Advanced imaging capabilities during crewed lunar missions provide unprecedented documentation of deep-space phenomena, advancing scientific observation beyond traditional ground-based astronomy.",
+      "takeaway": "Artemis II's orbital vantage point demonstrates how human spaceflight missions enable unprecedented astronomical observations that complement ground-based and space telescope research.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/image-article/starstruck/"
@@ -356,27 +386,11 @@
       "publishedAt": "2026-04-09T20:29:32.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Integrated operational optimization across airlines, airports, and airspace—rather than isolated improvements—offers the most viable path to accommodating growing traffic while meeting environmental mandates.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-10T00:26:23.209Z"
-    },
-    {
       "id": "hq10gh",
       "type": "news",
       "headline": "Picture of the Day: April 9, 2026",
       "blurb": "2015 Lockwood AirCam over the Palisades Reservoir.",
-      "takeaway": "The Lockwood AirCam's continued presence in recreational flying demonstrates the enduring market for affordable, high-visibility aircraft designs suited for scenic operations and personal transportation.",
+      "takeaway": "The Lockwood AirCam's persistence in recreational aviation demonstrates sustained demand for affordable, accessible high-wing designs among bush flying and backcountry operators.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/multimedia/gallery/picture-of-the-day-april-9-2026/"
@@ -390,7 +404,7 @@
       "type": "news",
       "headline": "House Set To Vote on ALERT Act Next Week",
       "blurb": "Measure would direct FAA rulemaking on collision-avoidance systems, airspace procedures and military operations.",
-      "takeaway": "Congressional mandate to harmonize collision-avoidance standards and military-civil airspace procedures could accelerate equipment modernization timelines across operators.",
+      "takeaway": "The ALERT Act would mandate FAA rulemaking across three critical operational domains, potentially reshaping airspace integration between civilian and military traffic management systems.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/aviation-law/house-set-to-vote-on-alert-act-next-week/"
@@ -407,7 +421,7 @@
       "type": "news",
       "headline": "US Navy Pilots In Training Will Now Make Their 1st Carrier Landing In An F/A-18 Or F-35",
       "blurb": "No tailhook required to earn wings of gold?",
-      "takeaway": "Eliminating the T-45 Goshawk intermediate trainer accelerates pilot pipeline but risks inadequate preparation for the demanding carrier landing environment's unique stressors.",
+      "takeaway": "Eliminating the T-45 trainer eliminates a critical intermediate step, potentially compressing pilot development timelines but raising questions about readiness for carrier operations' unforgiving demands.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/us-navy-pilots-training-1st-carrier-landing-f-a-18-f-35/"
@@ -419,11 +433,25 @@
       "publishedAt": "2026-04-09T20:00:17.000Z"
     },
     {
+      "id": "cepg0o",
+      "type": "news",
+      "headline": "Justice wants $110.3M to boost zero-trust cybersecurity in fiscal 2027",
+      "blurb": "After falling victim to the SolarWinds breach in 2020, Justice has worked to implement a zero-trust cybersecurity architecture, but saw its funding for cyber cut by $108 million in fiscal 2024.",
+      "takeaway": "Aviation's critical infrastructure faces ongoing cybersecurity risks as federal agencies struggle with inconsistent funding despite demonstrated vulnerabilities from sophisticated attacks like SolarWinds.",
+      "source": {
+        "name": "FedScoop",
+        "url": "https://fedscoop.com/justice-wants-110-3m-to-boost-zero-trust-cybersecurity-in-fiscal-2027/"
+      },
+      "category": "safety",
+      "keywords": [],
+      "publishedAt": "2026-04-09T19:47:59.000Z"
+    },
+    {
       "id": "10eeol",
       "type": "news",
       "headline": "Watching the Artemis II Mission Unfold at JPL’s Space Flight Operations Facility",
       "blurb": "Description Staff at NASA’s Jet Propulsion Laboratory in Southern California watch the agency’s Artemis II mission unfold soon after launch on April 1, 2026, at the Space Flight Operations Facility, which operates the Deep Space Network (DSN). The DSN comprises of three complexes in Goldstone,...",
-      "takeaway": "JPL's Deep Space Network provides critical real-time command and telemetry infrastructure for lunar missions, making ground station coordination essential to deep-space exploration success.",
+      "takeaway": "NASA's Deep Space Network infrastructure at JPL will be critical for real-time mission control and communication during Artemis II's lunar trajectory, establishing operational precedent for future crewed deep-space missions.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/watching-the-artemis-ii-mission-unfold-at-jpls-space-flight-operations-facility/"
@@ -441,7 +469,7 @@
       "type": "news",
       "headline": "The Deep Space Network Acquires Artemis II Signal",
       "blurb": "Description A graphical representation of the Deep Space Network’s radio frequency antennas indicate signal acquisition from NASA’s Artemis II mission to the Moon on April 1, 2026, inside the Space Flight Operations Facility at NASA’s Jet Propulsion Laboratory in Southern California. Two antennas...",
-      "takeaway": "NASA's Deep Space Network successfully captured Artemis II's signal, demonstrating critical ground infrastructure capabilities essential for sustaining lunar missions and future deep space exploration operations.",
+      "takeaway": "NASA's Deep Space Network demonstrated critical ground infrastructure capability for lunar missions, establishing reliable signal acquisition protocols essential for crewed Artemis operations beyond Earth orbit.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/the-deep-space-network-acquires-artemis-ii-signal-2/"
@@ -458,7 +486,7 @@
       "type": "news",
       "headline": "FAA Pilot Population Climbs Again In 2025",
       "blurb": "Latest Civil Airmen Statistics show the strongest gains from student pilots.",
-      "takeaway": "Student pilot growth acceleration signals potential workforce pipeline recovery for regional carriers facing persistent hiring shortages.",
+      "takeaway": "Student pilot enrollment surge indicates potential relief for the industry's persistent pilot shortage, though retention and training completion rates will determine actual workforce impact.",
       "source": {
         "name": "AVweb",
         "url": "https://avweb.com/aviation-news/faa-pilot-population-climbs-again-in-2025/"
@@ -475,7 +503,7 @@
       "type": "news",
       "headline": "The Deep Space Network Acquires Artemis II Signal",
       "blurb": "Description The acquisition of the radio frequency signal from the Artemis II crewed mission to the Moon by NASA’s Deep Space Network (DSN) is indicated by the peak in the data signal shown on the top computer screen. Soon after the mission’s launch on April 1, 2026, at 6:35 p.m. EDT, NASA’s Near...",
-      "takeaway": "NASA's Deep Space Network successfully locked onto Artemis II's signal immediately post-launch, validating critical communication infrastructure for crewed lunar missions.",
+      "takeaway": "NASA's Deep Space Network successfully locked onto Artemis II's signal, confirming real-time communication capability for crewed lunar missions beyond Earth orbit.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/the-deep-space-network-acquires-artemis-ii-signal/"
@@ -492,7 +520,7 @@
       "type": "news",
       "headline": "Watching Over the Deep Space Network Before Artemis II Signal Acquisition",
       "blurb": "Description Blanca Renteria, Artemis Deep Space Network (DSN) operations chief, monitors data at the Space Flight Operations Facility at NASA’s Jet Propulsion Laboratory in Southern California shortly after Artemis II launched from the agency’s Kennedy Space Flight Center in Florida on April 1,...",
-      "takeaway": "NASA's Deep Space Network infrastructure, which tracked Artemis II, represents critical ground-based systems that aerospace companies and launch providers must coordinate with for deep space mission success.",
+      "takeaway": "NASA's Deep Space Network operations infrastructure requires specialized real-time monitoring protocols to support Artemis missions, with implications for spacecraft communication reliability during lunar exploration phases.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/watching-over-the-deep-space-network-before-artemis-ii-signal-acquisition/"
@@ -506,11 +534,25 @@
       "publishedAt": "2026-04-09T19:17:20.000Z"
     },
     {
+      "id": "zbdou8",
+      "type": "news",
+      "headline": "AI risk management deadline hits federal agencies. Not all were ready.",
+      "blurb": "DHS and DOJ are among the agencies lagging behind those that have publicly posted updated AI inventories, per OMB requirements, and outlined changes to FedScoop.",
+      "takeaway": "Aviation regulators like FAA may face compliance gaps in AI governance frameworks, potentially delaying critical safety assessments for autonomous systems integration.",
+      "source": {
+        "name": "FedScoop",
+        "url": "https://fedscoop.com/federal-agencies-ai-inventory-risk-management-deadline/"
+      },
+      "category": "regulatory",
+      "keywords": [],
+      "publishedAt": "2026-04-09T19:15:58.000Z"
+    },
+    {
       "id": "jomtl4",
       "type": "news",
       "headline": "Watching the Artemis II Launch From JPL’s Space Flight Operations Facility",
       "blurb": "Description Staff at NASA’s Jet Propulsion Laboratory in Southern California watch the launch of the agency’s Artemis II mission to the Moon on April 1, 2026, at the Space Flight Operations Facility, which operates the Deep Space Network (DSN). Soon after launch, the Artemis II crew communicated...",
-      "takeaway": "JPL's Deep Space Network provides critical real-time communication infrastructure for crewed lunar missions, extending NASA's operational visibility beyond Earth orbit.",
+      "takeaway": "JPL's Deep Space Network will provide critical communication infrastructure for Artemis II, demonstrating how ground-based tracking facilities enable human lunar missions beyond initial launch phases.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/watching-the-artemis-ii-launch-from-jpls-space-flight-operations-facility/"
@@ -528,7 +570,7 @@
       "type": "news",
       "headline": "JPL’s ‘Lucky Peanuts’ Before Artemis II Launch",
       "blurb": "Description A container of “lucky peanuts” sits above workstations within the Space Flight Operations Facility at NASA’s Jet Propulsion Laboratory shortly before the launch of the Artemis II mission to the Moon on April 1, 2026. Eating peanuts before launches and other major mission events is a...",
-      "takeaway": "NASA's Artemis II lunar mission incorporates decades-long pre-launch superstition traditions that reinforce team cohesion and psychological readiness among flight operations personnel.",
+      "takeaway": "NASA's Jet Propulsion Laboratory maintains the tradition of consuming lucky peanuts before major missions, a superstition rooted in the organization's deep cultural history and psychological importance to mission teams.",
       "source": {
         "name": "NASA",
         "url": "https://science.nasa.gov/photojournal/jpls-lucky-peanuts-before-artemis-ii-launch/"
@@ -541,69 +583,18 @@
       "publishedAt": "2026-04-09T19:06:34.000Z"
     },
     {
-      "id": "208ovk",
+      "id": "c0r7rj",
       "type": "news",
-      "headline": "PLD Space secures $35 million European Investment Bank loan for MIURA 5 launcher",
-      "blurb": "MILAN – PLD Space signed a 30 million euro ($35 million) venture debt loan with the European Investment Bank (EIB) on April 7, a move to support the final development stage of MIURA 5, PLD’s lightweight rocket. Miura 5, which is designed to deploy roughly 540 kilograms to 1 ton of payload to low...",
-      "takeaway": "European institutional financing for smallsat launchers signals accelerating government support for competitive indigenous orbital capacity beyond traditional launch providers.",
+      "headline": "A Father's Day gift that took flight",
+      "blurb": "Created as a thoughtful Father's Day gift by 14-year-old Joe North, METAR Lightworks turns coded aviation weather into intuitive, color-coded light.",
+      "takeaway": "A teenage innovator has translated complex METAR weather codes into accessible visual signals, potentially improving safety for pilots who struggle with traditional text-based briefings.",
       "source": {
-        "name": "SpaceNews",
-        "url": "https://spacenews.com/pld-space-secures-35-million-european-investment-bank-loan-for-miura-5-launcher/"
+        "name": "AOPA News",
+        "url": "https://www.aopa.org/news-and-media/all-news/2026/april/09/a-fathers-day-gift-that-took-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS"
       },
-      "category": "aerospace",
-      "keywords": [
-        "space"
-      ],
-      "publishedAt": "2026-04-09T18:34:17.000Z"
-    },
-    {
-      "id": "rtg0qp",
-      "type": "news",
-      "headline": "Council Cracks Down on Problematic Parking at Bristol Airport",
-      "blurb": "North Somerset Council has taken steps to intensify enforcement action against unauthorised and problematic parking at Bristol Airport and the surrounding area. This forms part of its broader Parking Action Plan. A collective effort is being made by officials at North Somerset Council, Bristol...",
-      "takeaway": "Increased airport parking enforcement could reduce ground congestion and improve operational efficiency while generating additional revenue for local authorities managing aviation facilities.",
-      "source": {
-        "name": "Travel Radar",
-        "url": "https://travelradar.aero/council-cracks-down-on-problematic-parking-at-bristol-airport/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airport"
-      ],
-      "publishedAt": "2026-04-09T18:17:18.000Z"
-    },
-    {
-      "id": "sjplb5",
-      "type": "news",
-      "headline": "Cape Air flight forced to return to airport after cabin door opens mid-flight",
-      "blurb": "A Cape Air flight was forced to return to the airport shortly after takeoff when the aircraft’s cabin door partially opened mid-air. The aircraft was bound for Boston Logan International Airport from Nantucket Memorial Airport in Massachusetts when the alarming but ultimately casualty-free incident...",
-      "takeaway": "The incident highlights critical risks in regional aviation operations and underscores the need for enhanced pre-flight door security protocols on smaller aircraft.",
-      "source": {
-        "name": "Travel Radar",
-        "url": "https://travelradar.aero/cape-air-flight-forced-to-return-to-airport-after-cabin-door-opens-mid-flight/"
-      },
-      "category": "safety",
-      "keywords": [
-        "incident",
-        "airport"
-      ],
-      "publishedAt": "2026-04-09T18:00:23.000Z"
-    },
-    {
-      "id": "1jwz5x",
-      "type": "news",
-      "headline": "Skyrover wants to be your next DJI drone",
-      "blurb": "Skyrover, a relatively new but increasingly visible drone brand, is stepping into a tense and uncertain US market, and it’s doing so with a very clear message: we’re here to stay. Here’s what that means for American drone buyers right now. more…...",
-      "takeaway": "Skyrover's market entry signals intensifying competition in US consumer drones as regulatory uncertainty creates opportunities for challengers to established leaders like DJI.",
-      "source": {
-        "name": "DroneDJ",
-        "url": "https://dronedj.com/2026/04/09/skyrover-fcc-us-drone-market/"
-      },
-      "category": "drones",
-      "keywords": [
-        "drone"
-      ],
-      "publishedAt": "2026-04-09T17:59:17.000Z"
+      "category": "general-aviation",
+      "keywords": [],
+      "publishedAt": "2026-04-09T18:35:15.000Z"
     }
   ]
 }
