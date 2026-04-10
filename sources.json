@@ -137,6 +137,30 @@
       "url": "https://www.flightradar24.com/blog/feed",
       "category": "safety",
       "enabled": true
+    },
+    {
+      "name": "Federal Register (FAA)",
+      "url": "https://www.federalregister.gov/agencies/federal-aviation-administration.rss",
+      "category": "safety",
+      "enabled": true
+    },
+    {
+      "name": "FedScoop",
+      "url": "https://fedscoop.com/feed/",
+      "category": "industry",
+      "enabled": true
+    },
+    {
+      "name": "AOPA News",
+      "url": "https://www.aopa.org/news-and-media/all-news/rss",
+      "category": "general-aviation",
+      "enabled": true
+    },
+    {
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com/rss.xml",
+      "category": "industry",
+      "enabled": true
     }
   ],
   "settings": {
