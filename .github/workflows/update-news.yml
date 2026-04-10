@@ -6,6 +6,8 @@ on:
     - cron: '0 * * * *'
     # Weekly analyst digest: Mondays 10:00 UTC (matches sources.json dailyHourUTC)
     - cron: '0 10 * * 1'
+    # Company Radar: daily 11:00 UTC (7 AM EDT)
+    - cron: '0 11 * * *'
 
   # Run on push to main when relevant files change
   push:
@@ -178,6 +180,68 @@ jobs:
           rm -rf "$tmp"
           git add dist/usage-counters.json
           git diff --staged --quiet || git commit -m "Update analyst usage counters [skip ci]"
+          git push origin gh-pages
+
+  # Company Radar — daily competitor/brand intelligence digest from Google Alerts.
+  # Pure RSS aggregation, no Anthropic API calls. Independent of update-news.
+  company-radar:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 11 * * *')
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Restore dist from gh-pages
+        run: |
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout origin/gh-pages -- dist/ 2>/dev/null || echo "No dist/ on gh-pages yet"
+          else
+            echo "gh-pages branch does not exist yet"
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Company Radar
+        env:
+          COMPANY_RADAR_TEAMS_WEBHOOK_URL: ${{ secrets.COMPANY_RADAR_TEAMS_WEBHOOK_URL }}
+        run: node scripts/company-radar.js
+
+      - name: Push company-radar-seen.json to gh-pages
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          if [ ! -f dist/company-radar-seen.json ]; then
+            echo "No company-radar-seen.json to push."
+            exit 0
+          fi
+
+          tmp=$(mktemp -d)
+          cp dist/company-radar-seen.json "$tmp/"
+
+          git reset --hard HEAD
+          git clean -fd
+
+          git fetch origin gh-pages
+          git checkout -B gh-pages origin/gh-pages
+
+          mkdir -p dist
+          cp "$tmp/company-radar-seen.json" dist/company-radar-seen.json
+          rm -rf "$tmp"
+
+          git add dist/company-radar-seen.json
+          git diff --staged --quiet || git commit -m "Update company-radar-seen [skip ci]"
           git push origin gh-pages
 
   # Deploy to GitHub Pages
