@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-10T12:39:32.807Z",
+  "lastUpdated": "2026-04-10T13:25:25.700Z",
   "articles": [
     {
       "id": "dtw0ds",
       "type": "news",
       "headline": "AOPA presents draft governance changes to members",
       "blurb": "AOPA presented a set of bylaw changes to members, seeking feedback on a set of significant potential revisions, including changes to the process for nominating members to the Board of Trustees, setting term limits, and establishing required trustee qualifications to serve on the Board.",
-      "takeaway": "AOPA's proposed trustee qualifications and term limits aim to professionalize board governance and potentially diversify leadership beyond traditional aviation backgrounds.",
+      "takeaway": "AOPA's proposed governance reforms signal institutional evolution toward professionalized leadership structures that could reshape advocacy priorities and organizational direction within general aviation.",
       "source": {
         "name": "AOPA News",
         "url": "https://www.aopa.org/news-and-media/all-news/2026/april/10/aopa-presents-draft-governance-changes-to-members?=utm_source=News&utm_medium=Content&utm_campaign=RSS"
@@ -16,11 +16,42 @@
       "publishedAt": "2026-04-11T03:22:00.000Z"
     },
     {
+      "id": "lkfsav",
+      "type": "news",
+      "headline": "Flying in 2050",
+      "blurb": "Aviation has always been driven by innovation, from the dawn of jet travel to today’s ultra-long-haul flights. Now, as pressure to decarbonise intensifies, the sector is targeting “Jet Zero” emissions by 2050, according to the BBC and the International Air Travel Association (IATA), an ambition...",
+      "takeaway": "Airlines are committing to net-zero emissions by 2050 through sustainable aviation fuels, aircraft efficiency improvements, and emerging technologies rather than waiting for regulatory mandates.",
+      "source": {
+        "name": "Travel Radar",
+        "url": "https://travelradar.aero/flying-in-2050/"
+      },
+      "category": "industry",
+      "keywords": [],
+      "publishedAt": "2026-04-10T13:00:24.000Z"
+    },
+    {
+      "id": "3gbwr6",
+      "type": "news",
+      "headline": "Oshkosh ground support robots take on air travel’s hidden costs",
+      "blurb": "The war in Iran continues to ratchet up fuel prices, and that doesn’t just make it more expensive to drive – it’s getting more expensive to fly, too. What many don’t realize is that a significant share of an airline’s operating costs are tied to ground operations, and that’s where Oshkosh is...",
+      "takeaway": "Ground support automation can offset rising fuel costs by reducing labor-intensive operations that represent 20-30% of airline operating expenses.",
+      "source": {
+        "name": "Electrek Aviation",
+        "url": "https://electrek.co/2026/04/10/oshkosh-ground-support-robots-take-on-air-travels-hidden-costs/"
+      },
+      "category": "industry",
+      "keywords": [
+        "airline",
+        "atc"
+      ],
+      "publishedAt": "2026-04-10T12:39:29.000Z"
+    },
+    {
       "id": "v2zldj",
       "type": "news",
       "headline": "Why Lufthansa Is Retiring Its Remaining Airbus A340s & Boeing 747-400s",
       "blurb": "Lufthansa is on an ambitious path to ramp up profitability over the coming years and, as such, is in the process of phasing out its Airbus A340s and Boeing 747-400s to do just that. Famously, one of the few remaining major operators of the Queens of the Skies, Lufthansa’s days as an avgeek’s dream...",
-      "takeaway": "Lufthansa's retirement of four-engine widebodies reflects industry shift toward twin-engine efficiency, reducing fuel costs and maintenance burdens on legacy fleets.",
+      "takeaway": "Lufthansa's retirement of four-engine widebodies reflects industry-wide shift toward twin-engine efficiency, as modern aircraft like the 787 and A350 offer superior fuel economics on long-haul routes.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/why-lufthansa-is-retiring-its-remaining-airbus-a340s-boeing-747-400s/"
@@ -33,47 +64,48 @@
       "publishedAt": "2026-04-10T12:32:17.000Z"
     },
     {
+      "id": "pai-evolution-sms",
+      "type": "pai-blog",
+      "headline": "The Evolution of Aviation SMS",
+      "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
+      "takeaway": "Modern SMS shifts aviation from investigating accidents after they occur to systematically identifying and mitigating hazards before incidents happen.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "faa",
+        "icao",
+        "history",
+        "aviation safety"
+      ],
+      "publishedAt": "2026-04-10T13:24:38.561Z",
+      "paiContent": true
+    },
+    {
       "id": "hu2v8d",
       "type": "news",
       "headline": "Commerce Department budget proposal revives concerns about TraCSS",
       "blurb": "A budget proposal for the Department of Commerce raises new doubts about the future of a civil space traffic management system under development there.",
-      "takeaway": "Funding uncertainty for TraCSS threatens the development timeline for civilian space traffic management infrastructure critical to emerging commercial spaceflight operations.",
+      "takeaway": "The Commerce Department's budget uncertainty threatens TraCSS development, potentially delaying critical infrastructure needed to manage increasingly congested airspace as commercial space activities expand rapidly.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/commerce-department-budget-proposal-revives-concerns-about-tracss/"
       },
-      "category": "aerospace",
+      "category": "regulatory",
       "keywords": [
         "space"
       ],
       "publishedAt": "2026-04-10T12:10:21.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "Operators must formally document their Safety Management System processes to demonstrate FAA compliance, shifting from reactive to proactive safety accountability.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
-      },
-      "category": "regulatory",
-      "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
-      ],
-      "publishedAt": "2026-04-10T12:38:47.961Z",
-      "paiContent": true
-    },
-    {
       "id": "3h5nuu",
       "type": "news",
       "headline": "American Airlines aims to restart US flights to Venezuela at end of April",
       "blurb": "American Airlines is aiming to restart US flights to Venezuela by the end of April 2026, subject to…...",
-      "takeaway": "American Airlines' Venezuela route restart signals potential normalization of US-Venezuela relations and represents a significant revenue opportunity in a previously inaccessible Caribbean market.",
+      "takeaway": "American Airlines' Venezuela route restart signals potential thawing of US-Venezuela relations and represents a significant market recovery opportunity for the carrier in Latin America.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/american-airlines-restart-us-flights-venezuela-april"
@@ -89,7 +121,7 @@
       "type": "news",
       "headline": "Seattle-Tacoma International Airport Unveils Major Expansion Including New Plane Spotter Terrace",
       "blurb": "A lot is in the works at Concourse C.",
-      "takeaway": "SEA's Concourse C expansion addresses Pacific Northwest capacity constraints while acknowledging growing aviation enthusiast engagement as a secondary amenity.",
+      "takeaway": "SEA-TAC's Concourse C expansion signals Pacific Northwest capacity growth to accommodate increasing passenger demand and regional connectivity needs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/seattle-airport-major-expansion-new-plane-spotter-terrace/"
@@ -105,7 +137,7 @@
       "type": "news",
       "headline": "Surprising? British Airways Just Doubled Flights On This Major Long-Haul Route",
       "blurb": "The carrier's bold move to double flights to this destination makes it more competitive, but why has it become a key focus?",
-      "takeaway": "BA's capacity doubling signals renewed confidence in long-haul demand recovery and suggests airlines are shifting from pricing power strategies to volume-based market share competition.",
+      "takeaway": "BA's capacity surge on a specific long-haul route signals renewed confidence in post-pandemic demand recovery and competitive repositioning against rival carriers on high-yield international markets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/british-airways-just-doubled-flights-on-this-major-long-haul-route/"
@@ -115,11 +147,31 @@
       "publishedAt": "2026-04-10T12:00:17.000Z"
     },
     {
+      "id": "pai-assess-safety-risk",
+      "type": "pai-blog",
+      "headline": "How to Assess Safety Risk",
+      "blurb": "A practical walkthrough of safety risk assessment under 14 CFR Part 5.",
+      "takeaway": "14 CFR Part 5 provides a structured methodology for systematically evaluating and mitigating safety risks, essential for compliance and operational excellence.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/how-to-assess-safety-risk"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "sms",
+        "risk assessment",
+        "faa",
+        "part 5"
+      ],
+      "publishedAt": "2026-04-10T13:24:38.561Z",
+      "paiContent": true
+    },
+    {
       "id": "ruoklc",
       "type": "news",
       "headline": "China’s Chang’e-7 arrives at spaceport for lunar south pole exploration mission",
       "blurb": "China’s multi-element Chang’e-7 lunar spacecraft has arrived at Wenchang spaceport for launch preparations ahead of a planned liftoff in the second half of 2026.",
-      "takeaway": "China's lunar south pole mission demonstrates competitive space exploration advances that could influence international satellite and aerospace technology development standards.",
+      "takeaway": "China's lunar south pole exploration represents a strategic shift toward resource-rich polar regions that could establish competitive advantages in future space infrastructure development.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/chinas-change-7-arrives-at-spaceport-for-lunar-south-pole-exploration-mission/"
@@ -131,31 +183,11 @@
       "publishedAt": "2026-04-10T11:52:13.000Z"
     },
     {
-      "id": "pai-safety-culture",
-      "type": "pai-blog",
-      "headline": "Safety Culture in Aviation SMS",
-      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
-      "takeaway": "Building effective safety reporting requires organizational leaders to actively remove punishment barriers and reward transparency, as SMS success depends on frontline willingness to disclose hazards and errors.",
-      "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
-      },
-      "category": "safety",
-      "keywords": [
-        "sms",
-        "safety culture",
-        "reporting",
-        "just culture"
-      ],
-      "publishedAt": "2026-04-10T12:38:47.961Z",
-      "paiContent": true
-    },
-    {
       "id": "balj87",
       "type": "news",
       "headline": "NASA prepares for Artemis 2 return",
       "blurb": "The Artemis 2 mission is set for a final, fiery test when the spacecraft reenters April 10 ahead of a splashdown off the California coast.",
-      "takeaway": "Artemis 2's April reentry represents critical validation of heat shield performance and crew capsule integrity before lunar missions resume.",
+      "takeaway": "Artemis 2's April 10 reentry will validate heat shield performance critical for crewed lunar missions and future deep-space exploration.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/nasa-prepares-for-artemis-2-return/"
@@ -172,7 +204,7 @@
       "type": "news",
       "headline": "Parrot – Account Manager North America (USA & Canada)",
       "blurb": "Have you always dreamt of joining an agile group in a fast-moving industry? Then Parrot...",
-      "takeaway": "Parrot's North American hiring signals expansion in the commercial drone market beyond consumer segments.",
+      "takeaway": "Parrot's expansion of business development roles in North America signals growing commercial drone market opportunities beyond consumer applications.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/parrot-account-manager-north-america-usa-canada/"
@@ -186,7 +218,7 @@
       "type": "news",
       "headline": "Finland faces costly F-35 upgrades as Block 4 delays persist",
       "blurb": "Finland’s new F-35A Lightning II fighters will arrive with fewer capabilities than originally agreed in the country’s procurement…...",
-      "takeaway": "Finland's F-35 procurement delays mean interim operational gaps and future retrofit costs that will strain defense budgets beyond initial estimates.",
+      "takeaway": "Finland's F-35 procurement illustrates how sustainment delays on defense contracts create significant post-delivery upgrade costs that strain military budgets unpredictably.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/finland-f35-block4-upgrades-delay"
@@ -196,11 +228,32 @@
       "publishedAt": "2026-04-10T11:08:41.000Z"
     },
     {
+      "id": "yt-auto-kXm8S7OqpK8",
+      "type": "video",
+      "headline": "KSQL Noise Abatement Departure",
+      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
+      "takeaway": "San Carlos Airport's noise abatement procedures highlight how terrain-constrained airports in busy Class B airspace must balance operational efficiency with community relations.",
+      "source": {
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
+      },
+      "category": "regulatory",
+      "keywords": [
+        "faa",
+        "general aviation",
+        "safety",
+        "regulation",
+        "pilot"
+      ],
+      "publishedAt": "2026-04-10T13:24:38.804Z",
+      "videoContent": true
+    },
+    {
       "id": "xz154t",
       "type": "news",
       "headline": "The Dominican Republic Hosts Trade Show 2026",
       "blurb": "The Trade Show 2026, on April 8, bringing together over 1,200 professionals in the travel and aviation industries, was hosted by the Dominican Republic in Miami, Florida, for the fourth time. The Event at a Glance The purpose of the event was to showcase the Dominican Republic’s growing travel...",
-      "takeaway": "Dominican Republic's aviation sector is leveraging Miami as a strategic hub to attract 1,200+ travel and aviation professionals, signaling regional growth opportunities for carriers and service providers.",
+      "takeaway": "The Dominican Republic's hosting of a major aviation trade show signals the Caribbean nation's strategic positioning to strengthen bilateral travel and aviation partnerships with North American carriers and tourism operators.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/the-dominican-republic-hosts-trade-show-2026/"
@@ -210,32 +263,11 @@
       "publishedAt": "2026-04-10T11:00:48.000Z"
     },
     {
-      "id": "yt-auto-kXm8S7OqpK8",
-      "type": "video",
-      "headline": "KSQL Noise Abatement Departure",
-      "blurb": "The San Francisco Bay area is complicated airspace, and right in the middle of it is San Carlos Airport. San Carlos airport is surrounded by terrain, San Francisco International class bravo,...",
-      "takeaway": "San Carlos Airport's noise abatement procedures must navigate dense Bay Area airspace while managing terrain constraints that limit departure flexibility.",
-      "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=kXm8S7OqpK8"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "general aviation",
-        "safety",
-        "regulation",
-        "pilot"
-      ],
-      "publishedAt": "2026-04-10T12:38:48.202Z",
-      "videoContent": true
-    },
-    {
       "id": "vay7hl",
       "type": "news",
       "headline": "Air Canada's New Airbus A350-1000 Unlocks Routes Its Boeing 777-300ER Could Never Fly Nonstop",
       "blurb": "Air Canada's new Airbus A350-1000 promises to break the barriers of ultra-long-haul flight, opening up new routes and transform passenger experience...",
-      "takeaway": "The A350-1000's superior fuel efficiency enables Air Canada to profitably serve thin niche markets on ultra-long-haul routes where legacy widebodies generate insufficient revenue.",
+      "takeaway": "The A350-1000's superior fuel efficiency and range enable Air Canada to access underserved markets with nonstop service previously requiring connections, directly improving network profitability.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/air-canada-airbus-a350-1000-unlocks-routes-boeing-777-300er-never-fly-nonstop/"
@@ -252,7 +284,7 @@
       "type": "news",
       "headline": "The Biggest Airline Wings Flying Today (Top 6)",
       "blurb": "From superjumbos to next-generation widebody aircraft, the race to achieve the highest fuel efficiency and the greatest payload is driving commercial aircraft to larger and larger wingspans with every iteration. Yet to enter full-rate production, the latest and greatest twin-aisle commercial jet...",
-      "takeaway": "Airlines' pursuit of fuel efficiency is pushing manufacturers to continually expand wingspans, with next-generation widebodies still ramping production despite their massive size.",
+      "takeaway": "Expanding wingspans across commercial aircraft reduce fuel consumption per seat, making larger aircraft economically viable for long-haul routes despite higher capital costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/the-biggest-airline-wings-flying-today-top-6/"
@@ -269,38 +301,24 @@
       "type": "news",
       "headline": "UK considers ban on owning signal jamming devices used by car thieves and shoplifters",
       "blurb": "A crackdown of radio frequency jammers, which are designed or modified to block or interfere with wireless communications, is on...",
-      "takeaway": "RF jamming device restrictions could indirectly affect aviation by reducing interference risks to aircraft navigation and communication systems in congested airspace.",
+      "takeaway": "RF jamming device restrictions will require aviation stakeholder coordination to prevent interference with aircraft navigation and communication systems during enforcement.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/uk-considers-ban-on-owning-signal-jamming-devices-used-by-car-thieves-and-shoplifters/"
       },
-      "category": "safety",
+      "category": "regulatory",
       "keywords": [],
       "publishedAt": "2026-04-10T10:50:43.000Z"
     },
     {
-      "id": "vwg2bt",
-      "type": "news",
-      "headline": "EBAA cancels EBACE, the largest European executive aviation show",
-      "blurb": "The 2026 edition of EBACE, Europe’s leading executive aviation airshow, which was due to take place in Geneva,…...",
-      "takeaway": "The cancellation signals potential structural challenges in European business aviation's market health and exhibitor confidence during a period of industry transition.",
-      "source": {
-        "name": "AeroTime Hub",
-        "url": "https://www.aerotime.aero/articles/ebaa-cancels-ebace-the-largest-european-executive-aviation-show"
-      },
-      "category": "business-aviation",
-      "keywords": [],
-      "publishedAt": "2026-04-10T10:47:24.000Z"
-    },
-    {
-      "id": "yt-auto-R8xtl4OW9eg",
+      "id": "yt-auto-dosTAQRpXII",
       "type": "video",
-      "headline": "RNO Mustang 9 Departure",
-      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
-      "takeaway": "Reno-Tahoe's Mustang 9 departure requires heightened pilot attention due to specific procedural complexities that differ from standard departures at the airport.",
+      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
+      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
+      "takeaway": "Wire strikes remain disproportionately fatal because pilots consistently overestimate their reaction time and visual detection capability in rotorcraft operations.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
+        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
       },
       "category": "safety",
       "keywords": [
@@ -310,20 +328,34 @@
         "regulation",
         "pilot"
       ],
-      "publishedAt": "2026-04-10T12:38:48.202Z",
+      "publishedAt": "2026-04-10T13:24:38.804Z",
       "videoContent": true
+    },
+    {
+      "id": "vwg2bt",
+      "type": "news",
+      "headline": "EBAA cancels EBACE, the largest European executive aviation show",
+      "blurb": "The 2026 edition of EBACE, Europe’s leading executive aviation airshow, which was due to take place in Geneva,…...",
+      "takeaway": "The cancellation signals potential consolidation pressures in the business aviation event market as organizers reassess show viability amid changing industry dynamics.",
+      "source": {
+        "name": "AeroTime Hub",
+        "url": "https://www.aerotime.aero/articles/ebaa-cancels-ebace-the-largest-european-executive-aviation-show"
+      },
+      "category": "business-aviation",
+      "keywords": [],
+      "publishedAt": "2026-04-10T10:47:24.000Z"
     },
     {
       "id": "b51fib",
       "type": "news",
       "headline": "Bureaucracy and phantom sightings: the truth behind the Dutch drone panic",
       "blurb": "Hat tip to Wiebe de Jager from Dronewatch.nl for finding the report In late 2025,...",
-      "takeaway": "Unverified drone sightings in the Netherlands reveal how public panic and media amplification can trigger aviation restrictions without substantiated evidence.",
+      "takeaway": "Mass drone sighting reports often stem from misidentified conventional aircraft and regulatory confusion rather than actual unauthorized drone activity, highlighting the need for better public education and coordinated incident response protocols.",
       "source": {
         "name": "sUAS News",
         "url": "https://www.suasnews.com/2026/04/bureaucracy-and-phantom-sightings-the-truth-behind-the-dutch-drone-panic/"
       },
-      "category": "regulatory",
+      "category": "drones",
       "keywords": [
         "drone",
         "atc"
@@ -335,7 +367,7 @@
       "type": "news",
       "headline": "Airbus delivers 500th A220 aircraft as March totals show decisive ramp up",
       "blurb": "Airbus is celebrating delivery of the 500th Airbus A220 aircraft, a day after publishing March results that show…...",
-      "takeaway": "The A220's 500th delivery milestone validates Bombardier's divestment decision and establishes the aircraft as a competitive narrow-body with sustained production momentum.",
+      "takeaway": "The A220's 500th delivery milestone demonstrates sustained momentum in the narrowbody segment despite industry headwinds, validating Airbus's acquisition strategy and expanding production capacity.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airbus-deliveries-march-2026-500th-a220-aircraft"
@@ -351,21 +383,37 @@
       "type": "news",
       "headline": "How agencies can operationalize the White House’s cybercrime order through identity",
       "blurb": "A former operational expert at multiple federal law enforcement agencies details how identity-based attacks are forcing change.",
-      "takeaway": "Identity-based attacks are emerging as critical aviation infrastructure vulnerabilities that federal agencies must prioritize in cybersecurity protocols.",
+      "takeaway": "Identity-based cyber threats are compelling aviation authorities to restructure security protocols beyond traditional network defenses to protect critical air traffic infrastructure.",
       "source": {
         "name": "FedScoop",
         "url": "https://fedscoop.com/federal-agencies-identity-verification-cybercrime-executive-order/"
       },
-      "category": "regulatory",
+      "category": "safety",
       "keywords": [],
       "publishedAt": "2026-04-10T10:00:00.000Z"
+    },
+    {
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Operational optimization across integrated airline-airport-flight systems offers a near-term pathway to handle projected traffic growth without proportional environmental impact.",
+      "source": {
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
+      },
+      "category": "industry",
+      "keywords": [
+        "aviation; optimization; operations research; sustainability; environmental impacts"
+      ],
+      "publishedAt": "2026-04-10T13:24:38.804Z"
     },
     {
       "id": "i65lqy",
       "type": "news",
       "headline": "Thailand’s Aviation Rebound in 2026",
       "blurb": "Thailand remains one of the world’s top travel destinations, with 32.9 million international arrivals in 2025, according to Forbes, highlighting its strong global appeal and reliance on tourism. This sustained influx continues to play a crucial role in driving the country’s economic growth and...",
-      "takeaway": "Thailand's 32.9 million international arrivals in 2025 indicate sustained aviation capacity demands that will require regional carriers and airports to expand infrastructure and flight schedules throughout 2026.",
+      "takeaway": "Thailand's 32.9 million international arrivals in 2025 signal robust demand recovery that will require significant capacity expansion and infrastructure investment from airlines serving Southeast Asian routes.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/thailands-aviation-rebound-in-2026/"
@@ -375,27 +423,11 @@
       "publishedAt": "2026-04-10T09:00:13.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Integrated optimization across airline operations, airport infrastructure, and flight management can simultaneously address capacity constraints and environmental impacts as traffic demand continues growing.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-10T12:38:48.202Z"
-    },
-    {
       "id": "8kkgda",
       "type": "news",
       "headline": "Foreign military sales drive 94% of new Lockheed Martin’s PAC-3 MSE contract",
       "blurb": "According to a Pentagon announcement dated April 9, 2026, the US Army has awarded Lockheed Martin a $4.76 billion firm-fixed-price…...",
-      "takeaway": "International demand for air defense systems is consolidating Lockheed Martin's missile portfolio, with allied nations representing the majority of production volume.",
+      "takeaway": "International demand for advanced air defense systems is reshaping Lockheed Martin's production strategy, with foreign military sales now dominating new PAC-3 MSE orders.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/us-army-lockheed-martin-pac-3-mse-contract-4-billion"
@@ -409,7 +441,7 @@
       "type": "news",
       "headline": "Drone maker Avy enters UK market with Coptrz partnership",
       "blurb": "UK drone solutions provider Coptrz is teaming up with Amsterdam-based drone maker Avy for emergency services and defense sectors. The deal is designed to unlock long-endurance, Beyond Visual Line of Sight (BVLOS) drone operations — something governments worldwide are racing to scale. more…...",
-      "takeaway": "Coptrz partnership enables Avy's long-endurance BVLOS capabilities to address regulatory bottlenecks that governments are prioritizing for emergency and defense operations.",
+      "takeaway": "Coptrz partnership positions Avy's long-endurance BVLOS drones for UK emergency and defense markets as regulatory approval for autonomous operations accelerates globally.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/10/avy-coptrz-uk-drone-bvlos/"
@@ -427,7 +459,7 @@
       "type": "news",
       "headline": "Turkish Airlines appoints new Chairman of the Board and CEO",
       "blurb": "Turkish Airlines announced a major reshuffle of its leadership on April 9, 2026. Prof. Murat Şeker, previously the…...",
-      "takeaway": "Leadership transitions at major carriers signal strategic recalibration in route networks, fleet modernization priorities, and competitive positioning in evolving global aviation markets.",
+      "takeaway": "Turkish Airlines' leadership transition signals potential strategic shifts in a carrier that serves as Europe's gateway to Asia and Africa, affecting competitive dynamics across three continents.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/turkish-airlines-appoints-new-chairman-of-the-board-and-ceo"
@@ -443,7 +475,7 @@
       "type": "news",
       "headline": "Airlink CEO: South Africa is ‘one of the cheapest places to fly’",
       "blurb": "Aviation journalist Andreas Spaeth speaks with de Villiers Engelbrecht, CEO of South African network carrier Airlink, about how the arrival…...",
-      "takeaway": "African carriers are leveraging lower operating costs to compete globally, potentially reshaping regional route economics and competitive dynamics.",
+      "takeaway": "Airlink's competitive pricing strategy positions South Africa as a cost-effective aviation hub, potentially reshaping regional travel economics and carrier profitability models across Africa.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/airlink-ceo-south-africa-is-one-of-the-cheapest-places-to-fly"
@@ -457,7 +489,7 @@
       "type": "news",
       "headline": "Lufthansa CEO admits today’s strike ‘really hurts’ as hundreds of flights axed",
       "blurb": "The CEO of Lufthansa Airlines, Jens Ritter, has admitted that the latest strike by staff “really hurts,” coming…...",
-      "takeaway": "Labor disputes now carry immediate operational costs measured in hundreds of cancelled flights, forcing airline leadership to acknowledge workforce leverage in real-time negotiations.",
+      "takeaway": "Labor disruptions at Europe's largest airline threaten revenue stability and may accelerate industry automation investments to reduce strike vulnerability.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/lufthansa-ceo-strike-flights-cancelled-cabin-crew"
@@ -473,7 +505,7 @@
       "type": "news",
       "headline": "New Pentagon memo complicates DJI drone ban reversal",
       "blurb": "Just when it looked like tech giant DJI might finally get a real shot at pushing back against the US government’s crackdown on foreign-made drones, the Pentagon has stepped in — and slammed the door shut a little harder. more…...",
-      "takeaway": "Pentagon's hardline stance suggests DJI's lobbying efforts face structural military-intelligence opposition beyond commerce department policy, indicating the ban may persist regardless of regulatory agency shifts.",
+      "takeaway": "Pentagon intervention signals the drone restrictions debate extends beyond commerce into national security concerns, likely requiring DJI to address military-grade vulnerabilities rather than just regulatory compliance.",
       "source": {
         "name": "DroneDJ",
         "url": "https://dronedj.com/2026/04/10/dji-drone-ban-update-pentagon/"
@@ -485,11 +517,29 @@
       "publishedAt": "2026-04-10T08:16:13.000Z"
     },
     {
+      "id": "w7n5zh",
+      "type": "news",
+      "headline": "AvTalk Episode 365: Bag fees, bag fees, bag fees",
+      "blurb": "On this week’s episode of AvTalk, we make a special trip to space and await Artemis II’s return to Earth. A tenuous cease fire in Iran leads to the first airspace re-openings, but a lack of jet fuel is affecting airports in Asia and Europe. US airlines are hiking bag fees across the board and […]...",
+      "takeaway": "Rising baggage fees across US carriers signal airlines' continued reliance on ancillary revenue to offset fuel costs and operational pressures amid global supply chain disruptions.",
+      "source": {
+        "name": "Flightradar24 Blog",
+        "url": "https://www.flightradar24.com/blog/avtalk-podcast/avtalk-365/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline",
+        "airport",
+        "space"
+      ],
+      "publishedAt": "2026-04-10T08:09:38.000Z"
+    },
+    {
       "id": "m7d3e9",
       "type": "news",
       "headline": "Airbus' $30 Billion Failure Is Now The Most Beloved Aircraft In The Sky In 2026",
       "blurb": "Despite the high operational costs, the utilization of the onboard space to offer luxury flight experiences makes the A380 a passenger favorite!",
-      "takeaway": "The A380's commercial viability has shifted from unit economics to premium ancillary revenue models, demonstrating how inefficient aircraft can remain profitable through service differentiation.",
+      "takeaway": "The A380's financial losses are offset by premium cabin revenue models that justify continued operation despite high per-unit costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-30-billion-failure-most-beloved-aircraft-sky-2026/"
@@ -506,7 +556,7 @@
       "type": "news",
       "headline": "Commercial aviation in 2026 grows, but supply still lags",
       "blurb": "Meza Irani is a London-based VP at MUFG, within the Aviation Advisory team, with over 15 years of…...",
-      "takeaway": "Persistent aircraft delivery delays will continue constraining airline fleet expansion and route capacity growth despite robust demand recovery through 2026.",
+      "takeaway": "Persistent aircraft delivery delays mean airlines cannot fully capitalize on recovering demand, creating a multi-year capacity constraint that will pressure yields and route planning.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/commercial-aviation-in-2026-grows-but-supply-still-lags"
@@ -520,7 +570,7 @@
       "type": "news",
       "headline": "Zelenskyy: Ukraine trading drone defense for fuel, interceptors from Gulf states",
       "blurb": "Ukraine is exchanging its counter-drone expertise and air defense systems for crude oil, diesel fuel and interceptor missiles…...",
-      "takeaway": "Ukraine's arms-for-fuel barter with Gulf states reveals how air defense expertise has become a tradeable commodity in asymmetric warfare economies.",
+      "takeaway": "Ukraine's willingness to trade advanced air defense technology for critical fuel supplies reveals how drone warfare expertise has become a valuable commodity in geopolitical negotiations.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/zelenskyy-ukraine-drone-defense-oil-diesel-gulf"
@@ -530,57 +580,6 @@
         "drone"
       ],
       "publishedAt": "2026-04-10T07:18:16.000Z"
-    },
-    {
-      "id": "affovj",
-      "type": "news",
-      "headline": "Driverless catering vehicle hit IndiGo aircraft at Kolkata airport",
-      "blurb": "An IndiGo Airbus A320, stationed at Kolkata’s Netaji Subhas Chandra Bose International Airport (CCU), was hit by an unmanned catering vehicle. No passengers or crew were present at the time of the accident, and no injuries were reported. What happened to the IndiGo aircraft? This accident occurred...",
-      "takeaway": "Autonomous ground support equipment poses emerging collision risks on aprons, necessitating enhanced operational safeguards and coordination protocols at busy airport hubs.",
-      "source": {
-        "name": "Travel Radar",
-        "url": "https://travelradar.aero/driverless-catering-vehicle-hit-indigo-aircraft-at-kolkata-airport/"
-      },
-      "category": "safety",
-      "keywords": [
-        "airbus",
-        "accident",
-        "airport"
-      ],
-      "publishedAt": "2026-04-10T07:00:42.000Z"
-    },
-    {
-      "id": "gcao9n",
-      "type": "news",
-      "headline": "American Airlines Hit With $255K FAA Penalty After Drug-Positive Crew Cleared To Fly",
-      "blurb": "AA is getting hit in the FAA crackdown.",
-      "takeaway": "FAA penalties for safety violations are escalating as regulatory scrutiny intensifies on crew qualification verification processes across major carriers.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/american-airlines-faa-penalty-drug-positive-crew/"
-      },
-      "category": "safety",
-      "keywords": [
-        "faa",
-        "airline"
-      ],
-      "publishedAt": "2026-04-10T06:33:41.000Z"
-    },
-    {
-      "id": "dhdin0",
-      "type": "news",
-      "headline": "US Army Advances Bell & M1 In Bid To Outsource Future Helicopter Pilot Training",
-      "blurb": "The final phase of Flight School Next is coming.",
-      "takeaway": "The Army's outsourcing of helicopter pilot training to commercial partners signals a strategic shift toward leveraging private sector expertise and reducing long-term training infrastructure costs.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/us-army-advance-bell-m1-outsource-future-helicopter-training/"
-      },
-      "category": "military",
-      "keywords": [
-        "pilot"
-      ],
-      "publishedAt": "2026-04-10T05:21:57.000Z"
     }
   ]
 }
