@@ -351,45 +351,52 @@ async function main() {
 
   console.log('✓ Opportunities generated');
 
-  // 6b. Post raw, unfiltered Claude response to debug webhook (if configured).
-  // Fires regardless of whether opportunities were found.
-  const debugWebhookUrl = process.env.OS_DEBUG_WEBHOOK_URL;
-  if (debugWebhookUrl) {
-    try {
-      const debugPayload = {
-        type: 'message',
-        attachments: [{
-          contentType: 'application/vnd.microsoft.card.adaptive',
-          content: {
-            $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
-            type: 'AdaptiveCard',
-            version: '1.4',
-            body: [
-              {
-                type: 'TextBlock',
-                text: 'OS Debug — Raw Analysis',
-                size: 'large',
-                weight: 'bolder',
-              },
-              {
-                type: 'TextBlock',
-                text: opportunities,
-                wrap: true,
-              },
-            ],
-          },
-        }],
-      };
-      await postToTeams(debugWebhookUrl, debugPayload);
-      console.log('✓ Posted raw response to OS_DEBUG_WEBHOOK_URL');
-    } catch (error) {
-      console.warn(`✗ Failed to post debug webhook: ${error.message}`);
-    }
-  }
-
-  // If Claude returned NONE (no qualifying opportunities), skip the main post.
+  // If Claude returned NONE (no qualifying opportunities), post to the debug
+  // webhook so we can inspect what Claude saw, then skip the main Teams post.
   if (opportunities.trim().toUpperCase() === 'NONE') {
     console.log('Claude returned NONE — no qualifying opportunities. Skipping main Teams post.');
+
+    const debugWebhookUrl = process.env.OS_DEBUG_WEBHOOK_URL;
+    if (debugWebhookUrl) {
+      try {
+        const debugPayload = {
+          type: 'message',
+          attachments: [{
+            contentType: 'application/vnd.microsoft.card.adaptive',
+            content: {
+              $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
+              type: 'AdaptiveCard',
+              version: '1.4',
+              body: [
+                {
+                  type: 'TextBlock',
+                  text: 'OS Debug — NONE returned (no opportunities)',
+                  size: 'large',
+                  weight: 'bolder',
+                },
+                {
+                  type: 'TextBlock',
+                  text: `Analyzed ${newArticles.length} new article(s) — Claude found no qualifying opportunities.`,
+                  wrap: true,
+                },
+                {
+                  type: 'TextBlock',
+                  text: buildArticleSummary(newArticles),
+                  wrap: true,
+                  size: 'small',
+                  isSubtle: true,
+                },
+              ],
+            },
+          }],
+        };
+        await postToTeams(debugWebhookUrl, debugPayload);
+        console.log('✓ Posted debug info to OS_DEBUG_WEBHOOK_URL (NONE case)');
+      } catch (error) {
+        console.warn(`✗ Failed to post debug webhook: ${error.message}`);
+      }
+    }
+
     for (const a of newArticles) {
       if (a.source?.url) seen.add(a.source.url);
     }
