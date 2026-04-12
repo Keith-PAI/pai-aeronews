@@ -1,12 +1,58 @@
 {
-  "lastUpdated": "2026-04-12T16:50:04.836Z",
+  "lastUpdated": "2026-04-12T17:41:18.719Z",
   "articles": [
+    {
+      "id": "m7nojm",
+      "type": "news",
+      "headline": "The Aircraft Set To Replace The World’s Largest Commercial Jet",
+      "blurb": "A new era is dawning as the superjumbo fades away, but which aircraft will replace it?",
+      "takeaway": "Airline fleet restructuring away from superjumbos creates aircraft-sizing competition among major OEMs, potentially reshaping route economics and airport infrastructure requirements.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/aircraft-set-to-replace-the-worlds-largest-commercial-jet/"
+      },
+      "category": "commercial",
+      "keywords": [],
+      "publishedAt": "2026-04-12T17:30:18.000Z"
+    },
+    {
+      "id": "c7xyg",
+      "type": "news",
+      "headline": "Flight Capacity across the Globe in February 2026",
+      "blurb": "According to the Official Airline Guide’s (OAG) statistics, there has been a substantial global increase of flight capacity in February 2026 compared to previous years. This is partially due to Chinese New Year falling in February and also an increase in tourism and business in Africa. From many...",
+      "takeaway": "Chinese New Year timing combined with surging African tourism creates a February 2026 capacity surge, signaling shifting demand patterns beyond traditional markets.",
+      "source": {
+        "name": "Travel Radar",
+        "url": "https://travelradar.aero/flight-capacity-across-the-globe-in-february-2026/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "airline"
+      ],
+      "publishedAt": "2026-04-12T17:00:50.000Z"
+    },
+    {
+      "id": "sgrlc2",
+      "type": "news",
+      "headline": "Third Strike In A Month: Lufthansa Pilots To Walk Out For 48 Hours",
+      "blurb": "Lufthansa braces for another round of disruptive industrial action.",
+      "takeaway": "Repeated strike cycles signal escalating labor disputes that threaten carrier revenue beyond immediate flight cancellations through customer attrition and competitive disadvantage.",
+      "source": {
+        "name": "Simple Flying",
+        "url": "https://simpleflying.com/lufthansa-pilot-strike-april-2026/"
+      },
+      "category": "commercial",
+      "keywords": [
+        "pilot"
+      ],
+      "publishedAt": "2026-04-12T16:50:28.000Z"
+    },
     {
       "id": "g9855n",
       "type": "news",
       "headline": "Virgin Atlantic's Airbus A350 Upgrade To San Francisco Vs. Boeing 787 Downgrade To Los Angeles: The Cabin Differences That Matter",
       "blurb": "The carrier has made a major decision.",
-      "takeaway": "Virgin Atlantic's strategic fleet reallocation reveals how cabin product differentiation now drives route profitability more than aircraft efficiency metrics alone.",
+      "takeaway": "Virgin Atlantic's fleet deployment strategy reveals how aircraft cabin specifications now influence route profitability and competitive positioning on premium transatlantic markets.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/virgin-atlantic-airbus-a350-upgrade-san-francisco-boeing-787-downgrade-los-angeles-cabin-differences/"
@@ -19,11 +65,31 @@
       "publishedAt": "2026-04-12T16:00:18.000Z"
     },
     {
+      "id": "pai-safety-culture",
+      "type": "pai-blog",
+      "headline": "Safety Culture in Aviation SMS",
+      "blurb": "How organizational culture shapes safety outcomes and what it takes to build a reporting culture that supports SMS.",
+      "takeaway": "Effective SMS depends less on formal safety systems than on organizational willingness to report and learn from incidents without fear of punishment.",
+      "source": {
+        "name": "PAI Consulting — SMS Quick Takes",
+        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/safety-culture-in-aviation-sms"
+      },
+      "category": "safety",
+      "keywords": [
+        "sms",
+        "safety culture",
+        "reporting",
+        "just culture"
+      ],
+      "publishedAt": "2026-04-12T17:40:37.223Z",
+      "paiContent": true
+    },
+    {
       "id": "o141av",
       "type": "news",
       "headline": "How Much Does A Boeing 787 Dreamliner Engine Cost?",
       "blurb": "The acquisition of a turbofan engine for a Boeing 787 is just the first chapter in a 20-year financial narrative.",
-      "takeaway": "Engine acquisition represents only 15-20% of total 787 powerplant lifecycle costs, with maintenance and overhaul expenses dominating the remaining decades of operation.",
+      "takeaway": "Engine acquisition represents only 15-20% of total ownership costs over a 787's service life, with maintenance, overhauls, and parts consuming the majority of long-term expenses.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/how-much-boeing-787-dreamliner-engine-cost/"
@@ -39,12 +105,12 @@
       "type": "news",
       "headline": "Small pay rise causes worker’s strike at Stansted Airport",
       "blurb": "A pay rise equivalent to “a tin of beans” per week, according to trade union Unite, has resulted in a worker’s strike at London Stansted Airport (STN). These workers are part of the team at STN, assisting disabled passengers to their flights. Rejection of pay rise Over 100 of the members that work...",
-      "takeaway": "Ground service labor disputes over inadequate wage increases risk operational disruptions at major UK aviation hubs and signal broader workforce retention challenges across airport infrastructure roles.",
+      "takeaway": "Ground service labor disputes over inadequate wage offers risk operational disruptions at major UK airports and highlight rising cost-of-living pressures on essential airport workforce roles.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/small-pay-rise-causes-workers-strike-at-stansted-airport/"
       },
-      "category": "commercial",
+      "category": "industry",
       "keywords": [
         "airport"
       ],
@@ -55,7 +121,7 @@
       "type": "news",
       "headline": "Over $400,000: The US Airlines With The Highest Widebody Captain Pay In 2026",
       "blurb": "A combination of factors, from global pilot shortages to union bargaining power, has pushed widebody captain pay to unprecedented heights.",
-      "takeaway": "Widebody captain compensation exceeding $400,000 reflects structural labor market tightening that may force airlines to reassess route profitability and fleet deployment strategies.",
+      "takeaway": "Widebody captain compensation exceeding $400k reflects structural labor market shifts that will reshape airline crew planning and operating cost models across the industry.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/5-airlines-highest-widebody-captain-pay-2026/"
@@ -72,7 +138,7 @@
       "type": "pai-blog",
       "headline": "The Evolution of Aviation SMS",
       "blurb": "From the Wright brothers to the 2024 FAA rule — how aviation safety evolved from reactive investigation to proactive risk management.",
-      "takeaway": "Modern SMS shifts aviation from investigating accidents after they occur to systematically identifying and mitigating hazards before incidents happen.",
+      "takeaway": "Modern SMS shifts aviation's safety paradigm from responding to accidents toward preventing them through systematic risk identification and mitigation.",
       "source": {
         "name": "PAI Consulting — SMS Quick Takes",
         "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/the-evolution-of-aviation-sms"
@@ -85,7 +151,7 @@
         "history",
         "aviation safety"
       ],
-      "publishedAt": "2026-04-12T16:49:20.334Z",
+      "publishedAt": "2026-04-12T17:40:37.223Z",
       "paiContent": true
     },
     {
@@ -93,12 +159,12 @@
       "type": "news",
       "headline": "The Striking Differences Between The Rolls-Royce Trent 1000 & General Electric GEnx",
       "blurb": "Both of these engines power the Boeing 787 Dreamliner.",
-      "takeaway": "The Trent 1000 and GEnx represent competing engine architectures for the same aircraft, allowing Boeing to leverage supplier competition for performance and cost optimization throughout the 787's production lifecycle.",
+      "takeaway": "The Trent 1000 and GEnx represent competing technological approaches to 787 propulsion, with their design differences directly impacting fuel efficiency, maintenance costs, and airline operating economics.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/striking-differences-between-rolls-royce-trent-1000-genx/"
       },
-      "category": "commercial",
+      "category": "aerospace",
       "keywords": [
         "boeing",
         "electric"
@@ -110,7 +176,7 @@
       "type": "news",
       "headline": "New Anti-Jam Antenna Seen on USAF F-15E Strike Eagle During Epic Fury",
       "blurb": "The new Controlled Reception Pattern Antenna (CRPA) is part of the Digital GPS Anti-jam Receiver (DIGAR) system installed in the F-15E Strike Eagle following a contract to BAE Systems in 2022. Defense observers have noted the appearance of a new Controlled Reception Pattern Antenna (CRPA) on U.S....",
-      "takeaway": "The DIGAR system's CRPA antenna enhances F-15E GPS resilience against jamming, representing a critical capability upgrade for modern combat operations in contested electromagnetic environments.",
+      "takeaway": "DIGAR's advanced anti-jam GPS capability represents a critical modernization of tactical aircraft navigation resilience against adversarial electronic warfare threats.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/12/new-anti-jam-antennas-usaf-f-15e/"
@@ -126,7 +192,7 @@
       "type": "news",
       "headline": "USAF C-130 damaged by intruder at Shannon Airport: video",
       "blurb": "A United States Air Force Lockheed C-130 Hercules transport aircraft sustained significant structural damage in Ireland after an…...",
-      "takeaway": "The incident highlights critical security vulnerabilities at civilian airports hosting military aircraft, forcing U.S. and Irish authorities to reassess airfield access protocols.",
+      "takeaway": "The incident highlights critical security vulnerabilities at civilian airports hosting military aircraft, where airside access controls may not match military-grade perimeter standards.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/usaf-c-130-damaged-by-intruder-at-shannon-airport-video"
@@ -139,31 +205,33 @@
       "publishedAt": "2026-04-12T13:21:03.000Z"
     },
     {
-      "id": "pai-sms-compliance",
-      "type": "pai-blog",
-      "headline": "SMS Declaration of Compliance",
-      "blurb": "What the SMS Declaration of Compliance means for operators and what the FAA expects.",
-      "takeaway": "The SMS Declaration of Compliance requires operators to formally attest their safety management systems meet FAA standards, shifting accountability from regulatory inspections to operator self-certification.",
+      "id": "yt-auto-69htdEOPy-I",
+      "type": "video",
+      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
+      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
+      "takeaway": "Regional airports like CID serve as crucial feeders for air carrier networks while generating economic activity through flight training and diverse aircraft operations.",
       "source": {
-        "name": "PAI Consulting — SMS Quick Takes",
-        "url": "https://www.paiconsulting.com/sms-quick-takes-all-about-sms/sms-declaration-of-compliance"
+        "name": "Federal Aviation Administration (YouTube)",
+        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
       },
-      "category": "regulatory",
+      "category": "general-aviation",
       "keywords": [
-        "sms",
-        "compliance",
-        "faa",
-        "declaration"
+        "airport",
+        "pilot",
+        "approach",
+        "atc",
+        "runway",
+        "flight deck"
       ],
-      "publishedAt": "2026-04-12T16:49:20.334Z",
-      "paiContent": true
+      "publishedAt": "2026-04-12T17:40:37.542Z",
+      "videoContent": true
     },
     {
       "id": "joypw3",
       "type": "news",
       "headline": "End Of An Era? Airbus A380 Flights Plunge By Massive 17%",
       "blurb": "Despite most operators having cut superjumbo flights, a select few are operating more than this time last year.",
-      "takeaway": "While A380 utilization collapsed industry-wide, selective operators maintaining higher frequencies reveal divergent strategies in ultra-long-haul market consolidation.",
+      "takeaway": "Concentrated A380 operations among fewer committed carriers is accelerating the type's retirement trajectory and reshaping ultra-long-haul capacity strategies.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/airbus-a380-flights-down-17-percent/"
@@ -179,7 +247,7 @@
       "type": "news",
       "headline": "Why A 70-Year-Old B-52 Is Now Carrying America's Most Advanced $14 Million Stealth Nuclear Missile",
       "blurb": "Why the 70-year-old B-52 now carries the $14M stealth AGM-181 missile—and how it keeps the US nuclear deterrent credible in modern warfare.",
-      "takeaway": "Retrofitting legacy B-52s with advanced cruise missiles extends airframe service life while maintaining strategic deterrence capabilities at a fraction of developing new platforms.",
+      "takeaway": "Platform longevity through modernization extends operational relevance: the B-52's sustained service through mid-century demonstrates how legacy aircraft remain strategically viable when equipped with contemporary weapons systems.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/70-year-old-b-52-carrying-americas-most-advanced-14-million-stealth-nuclear-missle/"
@@ -193,7 +261,7 @@
       "type": "news",
       "headline": "Press Release: Virgin Atlantic accelerates Starlink rollout",
       "blurb": "Virgin Atlantic has announced an accelerated rollout of Starlink, the fastest Wi-Fi in the sky, as the airline gears up to introduce free, high-speed Wi-Fi across its entire fleet, helping customers bring their world onboard from take-off to landing. Virgin Atlantic will begin introducing Starlink...",
-      "takeaway": "Virgin Atlantic's accelerated Starlink deployment signals competitive pressure to modernize in-flight connectivity, with free high-speed internet becoming a fleet-wide differentiator in commercial aviation.",
+      "takeaway": "Virgin Atlantic's accelerated Starlink deployment signals a competitive pressure on airlines to match connectivity standards, potentially reshaping inflight service expectations industry-wide.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/virgin-atlantic-accelerates-starlink-rollout/"
@@ -206,14 +274,14 @@
       "publishedAt": "2026-04-12T13:00:03.000Z"
     },
     {
-      "id": "yt-auto-dosTAQRpXII",
+      "id": "yt-auto-R8xtl4OW9eg",
       "type": "video",
-      "headline": "Flying in the Unforgiving Wire Environment (The Rotorcraft Collective)",
-      "blurb": "Many pilots mistakenly believe they will have sufficient reaction time if they encounter power lines and other wires. Yet wire strikes have been among the top three causes of fatal helicopter...",
-      "takeaway": "Wire strikes remain a leading helicopter fatality cause despite pilot overconfidence in avoidance capabilities, necessitating enhanced detection systems and operational protocols.",
+      "headline": "RNO Mustang 9 Departure",
+      "blurb": "Pilots departing from runways 17 left and right at Reno-Tahoe International need to pay special attention to the Mustang 9 Departure. It is extremely important that the procedure on the Mustang 9...",
+      "takeaway": "The Mustang 9 Departure from Reno-Tahoe requires heightened pilot attention due to specific procedural complexities that deviate from standard departure practices at that airport.",
       "source": {
         "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=dosTAQRpXII"
+        "url": "https://www.youtube.com/watch?v=R8xtl4OW9eg"
       },
       "category": "safety",
       "keywords": [
@@ -223,7 +291,7 @@
         "regulation",
         "pilot"
       ],
-      "publishedAt": "2026-04-12T16:49:20.561Z",
+      "publishedAt": "2026-04-12T17:40:37.542Z",
       "videoContent": true
     },
     {
@@ -231,7 +299,7 @@
       "type": "news",
       "headline": "Pakistan sends fighter jets and support aircraft to Saudi base",
       "blurb": "The Pakistan Air Force has sent fighter jets and support aircraft to Saudi Arabia under a newly established…...",
-      "takeaway": "Pakistan's military aviation deployment to Saudi Arabia signals deepening regional defense partnerships and potential new revenue streams for Pakistani defense contractors.",
+      "takeaway": "Pakistan's military aviation deployment to Saudi Arabia signals strengthened regional defense partnerships and potential new revenue streams from overseas basing arrangements.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/pakistan-sends-fighter-jets-and-support-aircraft-to-saudi-base"
@@ -245,7 +313,7 @@
       "type": "news",
       "headline": "VIP Movement Notification – Phoenix, AZ",
       "blurb": "17 APR, 2026 Phoenix, AZ 30/10 NMR – SFC-17,999FT MSL Specific instructions and restrictions are available at http://tfr.faa.gov once the NOTAM has been issued. *Depicted TFR data may not be a complete listing. Pilots should not use the information on this website for flight planning purposes. For...",
-      "takeaway": "A temporary flight restriction (TFR) is active in Phoenix airspace up to 17,999 feet MSL due to VIP movement, requiring pilots to consult the official FAA TFR website rather than relying on incomplete depicted data for flight planning.",
+      "takeaway": "Temporary Flight Restrictions around Phoenix on April 17 require pilots to verify current NOTAMs directly with FAA rather than relying on archived TFR depictions for flight planning.",
       "source": {
         "name": "FAASafety.gov Notices",
         "url": "http://www.faasafety.gov/SPANS/noticeView.aspx?nid=14922"
@@ -262,7 +330,7 @@
       "type": "news",
       "headline": "Up To 17-Hour Nonstop Flights: Air Canada's 10 Ultra-Long Routes In 2026",
       "blurb": "Air Canada is the world's 11th-largest airline for long-haul flights. When only Canada is considered, the airline accounts for 36% of the country's long-haul activity. For obvious reasons, it is especially dominant in Montreal (45%) and Toronto (39%). Its share from other cities is lower than the...",
-      "takeaway": "Air Canada's expansion to ultra-long routes reflects growing passenger demand for nonstop service while leveraging its dominance in Canadian long-haul markets.",
+      "takeaway": "Air Canada's ultra-long-haul expansion reflects growing demand for nonstop transcontinental routes, enabling carriers to capture premium long-haul market share despite higher fuel costs.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/video/up-to-17-hour-nonstop-flights-air-canada-s-10-ultra-long-routes-in-2026/"
@@ -274,33 +342,27 @@
       "publishedAt": "2026-04-12T12:32:17.000Z"
     },
     {
-      "id": "yt-auto-69htdEOPy-I",
-      "type": "video",
-      "headline": "From the Flight Deck – Eastern Iowa Airport, IA (CID)",
-      "blurb": "Eastern Iowa Airport (CID) is a medium-sized multi-use airport located south of Cedar Rapids, Iowa. Traffic includes basic training aircraft up through air carrier aircraft. Flight schools often use...",
-      "takeaway": "Regional airports like CID serve as crucial training hubs where flight schools develop pilots who later populate commercial airline operations nationwide.",
+      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
+      "type": "curated",
+      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
+      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
+      "takeaway": "Optimizing existing airline and airport operations can deliver near-term environmental gains while infrastructure upgrades address long-term capacity constraints.",
       "source": {
-        "name": "Federal Aviation Administration (YouTube)",
-        "url": "https://www.youtube.com/watch?v=69htdEOPy-I"
+        "name": "MDPI",
+        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
       },
-      "category": "general-aviation",
+      "category": "industry",
       "keywords": [
-        "airport",
-        "pilot",
-        "approach",
-        "atc",
-        "runway",
-        "flight deck"
+        "aviation; optimization; operations research; sustainability; environmental impacts"
       ],
-      "publishedAt": "2026-04-12T16:49:20.561Z",
-      "videoContent": true
+      "publishedAt": "2026-04-12T17:40:37.542Z"
     },
     {
       "id": "afxo7k",
       "type": "news",
       "headline": "Man Falls from Jet2 Aircraft at Manchester Airport",
       "blurb": "An aircraft engineer fell from the rear-end of the Jet2 aircraft he was operating on at Manchester Airport (MAN), on April 11. Paramedics rushed to the scene, treating the man for serious injuries. A full investigation into the incident has been launched. Multiple Injuries The unnamed man appeared...",
-      "takeaway": "Ground safety protocols at major UK airports require urgent review following this incident, as maintenance operations on aircraft exteriors present overlooked fall hazards.",
+      "takeaway": "Ground handling accidents during aircraft maintenance remain a critical safety concern, highlighting potential gaps in fall prevention protocols around elevated work areas.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/man-falls-from-jet2-aircraft-at-manchester-airport/"
@@ -317,7 +379,7 @@
       "type": "news",
       "headline": "Virgin Atlantic Accelerates Starlink Launch To May After Rival BA Rollout",
       "blurb": "Instead of the third quarter of 2026, Virgin Atlantic is now aiming to have its first aircraft fitted with Starlink by early May.",
-      "takeaway": "Virgin Atlantic's accelerated Starlink deployment signals competitive pressure in in-flight connectivity, with airlines racing to differentiate passenger experience through satellite internet access.",
+      "takeaway": "Virgin Atlantic's acceleration to May deployment signals that satellite connectivity is becoming a competitive differentiator in premium long-haul service offerings.",
       "source": {
         "name": "Simple Flying",
         "url": "https://simpleflying.com/virgin-atlantic-starlink-launch-may/"
@@ -331,7 +393,7 @@
       "type": "news",
       "headline": "Rocket Lab wins contract for three more iQPS launches",
       "blurb": "Rocket Lab has won a contract from Japanese radar satellite company iQPS for three additional Electron launches.",
-      "takeaway": "Rocket Lab's recurring launch contracts with international smallsat operators demonstrate sustained commercial demand for responsive launch cadences in the Earth observation sector.",
+      "takeaway": "Rocket Lab's expanding partnership with iQPS demonstrates growing commercial demand for dedicated small-lift launch services in the Earth observation market.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/rocket-lab-wins-contract-for-three-more-iqps-launches/"
@@ -343,41 +405,11 @@
       "publishedAt": "2026-04-12T11:43:00.000Z"
     },
     {
-      "id": "mdpi-future-transportation-environmentally-sustainable-aviation-by-calvet-l",
-      "type": "curated",
-      "headline": "Towards Environmentally Sustainable Aviation: A Review on Operational Optimization",
-      "blurb": "Growing air traffic is straining airports and airspace while raising environmental concerns, and demand is only expected to increase. This paper reviews how advanced technologies and methods can expand capacity and improve efficiency across airline, airport, and flight operations. It also highlights emerging trends and gaps for future research in sustainable aviation.",
-      "takeaway": "Operational optimization across all aviation domains—not just aircraft design—represents the near-term pathway to meeting sustainability targets while accommodating projected traffic growth.",
-      "source": {
-        "name": "MDPI",
-        "url": "https://www.mdpi.com/2673-7590/4/2/25?utm_campaign=20260312_papers_futuretransp&utm_medium=email&utm_source=newsletter"
-      },
-      "category": "industry",
-      "keywords": [
-        "aviation; optimization; operations research; sustainability; environmental impacts"
-      ],
-      "publishedAt": "2026-04-12T16:49:20.561Z"
-    },
-    {
-      "id": "xiwb4v",
-      "type": "news",
-      "headline": "Report: Southwest's Cheapest Fares May Soon Come With No Overhead Bin Access",
-      "blurb": "The move would eliminate free carry-ons for Basic fares.",
-      "takeaway": "Southwest's potential elimination of overhead bin access for basic fares signals the industry's shift toward unbundling ancillary benefits previously considered airline standards.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/southwest-basic-economy-overhead-bin-ban/"
-      },
-      "category": "commercial",
-      "keywords": [],
-      "publishedAt": "2026-04-12T11:29:36.000Z"
-    },
-    {
       "id": "3a0fqd",
       "type": "news",
       "headline": "Do fast Wi-Fi and the shift in media consumption portend BYOL IFE?",
       "blurb": "If a major streaming platform ever owned a major Hollywood studio, would it change the trajectory of inflight streaming and by extension, the trajectory of the inflight entertainment and connectivity market? With the world’s top two streaming platforms, Netflix and Amazon Prime, firmly in mind, and...",
-      "takeaway": "As streaming platforms gain studio ownership and passenger bandwidth expectations rise, airlines may transition from proprietary IFE systems to BYOL models, reducing capital expenditure but requiring robust connectivity infrastructure.",
+      "takeaway": "Airlines may face pressure to shift from traditional paid IFE systems toward passenger-owned content streaming as tech giants integrate content production with distribution capabilities.",
       "source": {
         "name": "Runway Girl Network",
         "url": "https://runwaygirlnetwork.com/2026/04/do-fast-wi-fi-and-the-shift-in-media-consumption-portend-byol-ife/"
@@ -387,27 +419,11 @@
       "publishedAt": "2026-04-12T10:51:16.000Z"
     },
     {
-      "id": "lrnsec",
-      "type": "news",
-      "headline": "The Airline With The Top Short-Haul Widebody Business Classes In 2026",
-      "blurb": "The oneworld carrier's new regional business class concept sets it apart.",
-      "takeaway": "Regional widebody deployment with dedicated business cabins signals airline strategy shift toward premium short-haul markets previously dominated by narrowbody aircraft.",
-      "source": {
-        "name": "Simple Flying",
-        "url": "https://simpleflying.com/airlines-top-short-haul-widebody-business-classes-2026/"
-      },
-      "category": "commercial",
-      "keywords": [
-        "airline"
-      ],
-      "publishedAt": "2026-04-12T10:00:17.000Z"
-    },
-    {
       "id": "irfnzl",
       "type": "news",
       "headline": "Gulf Air and Iraqi Airways resumes operations",
       "blurb": "Days after the announcement of a two-week ceasefire in the Middle East, airspaces across the region have opened, allowing carriers such as Gulf Air and Iraqi Airways to resume limited scheduled operations from its home bases. Gulf Air Resumes Home Base Ops via Riyadh Earlier in March 2026, the...",
-      "takeaway": "Middle East carriers are cautiously resuming operations during ceasefire windows, but routing through alternative hubs like Riyadh signals continued airspace restrictions affecting network planning.",
+      "takeaway": "Regional carriers are cautiously resuming hub operations following ceasefire agreements, signaling gradual market stabilization but highlighting ongoing geopolitical volatility affecting Middle Eastern aviation networks.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/gulf-air-and-iraqi-airways-resumes-operations/"
@@ -423,7 +439,7 @@
       "type": "news",
       "headline": "Lufthansa pilots plan two-day strike as tensions rise",
       "blurb": "Pilots at Lufthansa announced a two-day strike in Germany, marking a further escalation in an already tense labour…...",
-      "takeaway": "Lufthansa's pilot strike signals intensifying labor disputes that could disrupt European network connectivity and strain airline profitability during peak travel seasons.",
+      "takeaway": "Labor disruptions at Europe's largest airline signal intensifying wage negotiations that could set precedent for pilot compensation across the industry.",
       "source": {
         "name": "AeroTime Hub",
         "url": "https://www.aerotime.aero/articles/lufthansa-pilots-plan-two-day-strike-as-tensions-rise"
@@ -439,12 +455,12 @@
       "type": "news",
       "headline": "UK marks 90 years since historic flight of Spitfire aircraft",
       "blurb": "A commemorative Spitfire flight arrived at Glasgow Prestwick Airport (PIK) as part of a nationwide 90th anniversary on April 10, 2026. The spitfire is a notable piece of British aviation history. Marking 90 years of Spitfire Flight The two-seat Spitfire, painted in the colours of the original...",
-      "takeaway": "The Spitfire's sustained airworthiness nine decades after its first flight demonstrates the exceptional engineering and structural integrity that defined British aviation design in the interwar period.",
+      "takeaway": "The Spitfire's 90-year legacy demonstrates sustained public interest in heritage aviation, creating opportunities for museums and operators to monetize nostalgia through commemorative tours and experiences.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/uk-marks-90-years-since-historic-flight-of-spitfire-aircraft/"
       },
-      "category": "aerospace",
+      "category": "general-aviation",
       "keywords": [
         "airport"
       ],
@@ -455,7 +471,7 @@
       "type": "news",
       "headline": "Dubai Limits Flights Until May 31 Disrupting Indian Airlines",
       "blurb": "Dubai has introduced new limits on international flights, restricting foreign carriers to just one daily service to its airports until May 31, as regional tensions continue to impact aviation. This move is expected to significantly affect airline schedules and passenger travel across one of the...",
-      "takeaway": "Regional geopolitical tensions are forcing major aviation hubs to implement capacity restrictions that will cascade disruptions across global airline networks through mid-year.",
+      "takeaway": "Regional geopolitical instability is forcing capacity restrictions at a major global hub, forcing Indian carriers to choose between reduced frequencies or route reallocation during peak summer travel season.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/dubai-limits-flights-until-may-31-disrupting-indian-airlines/"
@@ -472,12 +488,12 @@
       "type": "news",
       "headline": "Palma Airport to Introduce Separate Lanes for British Citizens",
       "blurb": "Passengers travelling from the UK through Palma de Mallorca Airport (PMI) are set to see new dedicated passport lanes. This move shows Spain preparing for major changes to border control systems across the European Union. Dedicated Lanes to Manage Passenger Flow The airport confirmed it will...",
-      "takeaway": "Palma's new British citizen lanes signal EU-wide border control infrastructure investments that will reshape passenger processing timelines and operational planning for carriers serving post-Brexit routes.",
+      "takeaway": "Spain's implementation of separate UK passenger lanes at Palma signals broader EU infrastructure investments needed to accommodate post-Brexit border processing complexities across European airports.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/palma-airport-to-introduce-separate-lanes-for-british-citizens/"
       },
-      "category": "regulatory",
+      "category": "international",
       "keywords": [
         "airport"
       ],
@@ -488,7 +504,7 @@
       "type": "news",
       "headline": "Exclusive: Interview with the Chief Test Pilot of VMX-1",
       "blurb": "On the occasion of the MCAS Yuma airshow 2026, we had the opportunity to interview the Chief Operational Test Director and Chief Test Pilot of Marine Operational Test & Evaluation Squadron (VMX) 1. After speaking last year with the Commanding Officer of VMX-1, Colonel John “Ike” Dirk, we realized...",
-      "takeaway": "VMX-1's test pilot leadership reveals operational priorities and developmental insights for next-generation Marine Corps aviation capabilities.",
+      "takeaway": "VMX-1's leadership insights reveal how Marine operational testing methodologies are evolving to validate next-generation aircraft capabilities under combat-realistic conditions.",
       "source": {
         "name": "The Aviationist",
         "url": "https://theaviationist.com/2026/04/11/exclusive-interview-with-the-chief-test-pilot-of-vmx-1/"
@@ -504,12 +520,12 @@
       "type": "news",
       "headline": "Dublin Airport warns passengers about protest delays on M50",
       "blurb": "On April 10, Dublin Airport (DUB) issued warnings urging passengers to allow extra time for their journey as the current national fuel protest will cause delays. The commuting routes into Dublin will be affected and other major roads around the country. Passengers warned of major delays in...",
-      "takeaway": "Airport operators must now factor protest-induced traffic disruptions into passenger advisories, creating scheduling uncertainty beyond typical congestion forecasting models.",
+      "takeaway": "Airport ground transportation disruptions from external protests can significantly impact passenger arrival times and require enhanced communication strategies to prevent missed flights.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/dublin-airport-warns-passengers-about-protest-delays-on-m50/"
       },
-      "category": "international",
+      "category": "commercial",
       "keywords": [
         "airport"
       ],
@@ -520,7 +536,7 @@
       "type": "news",
       "headline": "Falcon 9 launches Cygnus cargo spacecraft to the ISS",
       "blurb": "A Falcon 9 launched a Cygnus cargo spacecraft April 11 as Northrop Grumman continues its dependence on a competitor to fly resupply missions to the International Space Station.",
-      "takeaway": "Northrop Grumman's reliance on SpaceX launches underscores the commercial space industry's supplier concentration risk despite multiple cargo vehicle competitors.",
+      "takeaway": "Northrop Grumman's reliance on SpaceX for ISS logistics highlights the commercial space industry's structural dependencies and potential vulnerabilities in critical supply chains.",
       "source": {
         "name": "SpaceNews",
         "url": "https://spacenews.com/falcon-9-launches-cygnus-cargo-spacecraft-to-the-iss/"
@@ -536,7 +552,7 @@
       "type": "news",
       "headline": "How Ryanair Enforces Cabin Baggage Rules",
       "blurb": "Air travel in Europe has become synonymous with low fares, but also with increasingly strict baggage rules. Ryanair, in particular, has turned enforcement into a highly visible part of the flying experience. According to the BBC and The Guardian, ground staff earn €2.50 for every piece of oversized...",
-      "takeaway": "Ryanair's commission-based baggage enforcement system creates financial incentives for ground staff to strictly police carry-on sizes, potentially generating substantial revenue from customer oversizes rather than genuine compliance.",
+      "takeaway": "Ryanair's commission-based enforcement model for baggage violations creates financial incentives for ground staff that may drive revenue but risks customer service degradation and potential regulatory scrutiny.",
       "source": {
         "name": "Travel Radar",
         "url": "https://travelradar.aero/how-ryanair-enforces-cabin-baggage-rules/"
@@ -550,7 +566,7 @@
       "type": "news",
       "headline": "La NASA da la bienvenida a la Tierra a los exploradores lunares de Artemis II, quienes batieron récords",
       "blurb": "Los primeros astronautas en viajar a la Luna en más de medio siglo han regresado a la Tierra tras una misión que ha establecido nuevos récords a bordo del vuelo de prueba Artemis II de la NASA. Los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, y el astronauta Jeremy Hansen de...",
-      "takeaway": "Artemis II's record-breaking mission validates NASA's lunar transportation systems and advances human spaceflight capabilities for sustained Moon exploration beyond initial gateway missions.",
+      "takeaway": "Artemis II's successful return demonstrates NASA's readiness to advance lunar exploration capabilities with record-setting performance data critical for future deep-space missions.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/la-nasa-da-la-bienvenida-a-la-tierra-a-los-exploradores-lunares-de-artemis-ii-quienes-batieron-records/"
@@ -566,7 +582,7 @@
       "type": "news",
       "headline": "NASA Science, Cargo Launch Aboard Northrop Grumman CRS-24",
       "blurb": "NASA is sending more science, technology demonstrations, and crew supplies to the International Space Station following the successful launch of the agency’s Northrop Grumman Commercial Resupply Services 24 mission, or Northrop Grumman CRS-24. Northrop Grumman’s Cygnus XL spacecraft, carrying...",
-      "takeaway": "Northrop Grumman's expanded Cygnus XL variant demonstrates commercial space logistics maturation as a critical infrastructure layer supporting sustained ISS operations.",
+      "takeaway": "Northrop Grumman's expanded Cygnus XL variant demonstrates growing commercial resupply capacity, enabling NASA to deliver increased scientific payloads to the ISS beyond basic crew provisions.",
       "source": {
         "name": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-aboard-northrop-grumman-crs-24/"
@@ -577,25 +593,6 @@
         "space"
       ],
       "publishedAt": "2026-04-11T13:49:05.000Z"
-    },
-    {
-      "id": "72s8s3",
-      "type": "news",
-      "headline": "Fast-growing RAVE Aerospace identifies industry choke points",
-      "blurb": "Enjoying robust demand for its RAVE series of embedded inflight entertainment systems, RAVE Aerospace has identified widespread memory chip shortages and safety regulators’ more stringent head injury criterion (HIC) certification requirements as among the challenges presently faced by aircraft...",
-      "takeaway": "Semiconductor scarcity and evolving HIC certification standards are creating dual supply-chain pressures that extend beyond RAVE's direct operations to affect broader aircraft interior modernization timelines.",
-      "source": {
-        "name": "Runway Girl Network",
-        "url": "https://runwaygirlnetwork.com/2026/04/fast-growing-rave-aerospace-identifies-industry-choke-points/"
-      },
-      "category": "industry",
-      "keywords": [
-        "saf",
-        "safety",
-        "airline",
-        "space"
-      ],
-      "publishedAt": "2026-04-11T13:06:13.000Z"
     }
   ]
 }
